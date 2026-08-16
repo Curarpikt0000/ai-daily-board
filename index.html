@@ -1,0 +1,2569 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Daily Board</title>
+<style>
+  :root{
+    --bg:#0f1117; --card:#1a1d2e; --card2:#232640; --border:#2e3154;
+    --text:#e2e8f0; --muted:#8892a4;
+    --danger:#ef4444; --danger-bg:rgba(239,68,68,.14);
+    --safe:#22c55e; --safe-bg:rgba(34,197,94,.12);
+    --neutral:#94a3b8; --accent:#6366f1; --accent2:#a78bfa; --gold:#f59e0b; --warn:#f97316;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;min-height:100vh;line-height:1.5}
+  header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;flex-wrap:wrap;gap:8px}
+  header h1{font-size:19px;font-weight:700;letter-spacing:.5px}
+  header h1 span{color:var(--accent2)}
+  #update-time{font-size:12px;color:var(--muted)}
+  .container{max-width:1280px;margin:0 auto;padding:22px 24px 60px}
+  .section-title{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1.2px;margin:30px 0 14px;display:flex;align-items:center;gap:8px}
+  .section-title:first-child{margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin-bottom:16px}
+  .subtle{color:var(--muted);font-size:12px}
+
+  /* 平衡杆 */
+  .gauge-wrap{position:relative;padding:20px 10px 6px}
+  .gauge-track{position:relative;height:16px;border-radius:9px;background:linear-gradient(90deg,var(--safe) 0%,#64748b 50%,var(--danger) 100%);box-shadow:inset 0 1px 3px rgba(0,0,0,.4)}
+  .gauge-mid{position:absolute;top:-6px;left:50%;width:2px;height:28px;background:var(--muted);transform:translateX(-50%);opacity:.6}
+  .gauge-needle{position:absolute;top:-10px;width:4px;height:36px;background:#fff;border-radius:3px;box-shadow:0 0 8px rgba(255,255,255,.7);transform:translateX(-50%);transition:left .6s ease}
+  .gauge-val{position:absolute;top:-42px;transform:translateX(-50%);background:var(--card2);border:1px solid var(--border);padding:3px 10px;border-radius:8px;font-weight:700;font-size:15px;white-space:nowrap}
+  .gauge-labels{display:flex;justify-content:space-between;margin-top:12px;font-size:12px}
+  .gauge-labels .l{color:var(--safe)} .gauge-labels .m{color:var(--muted)} .gauge-labels .r{color:var(--danger)}
+  .dist-row{display:flex;gap:6px;margin-top:16px;flex-wrap:wrap}
+  .dist-pill{font-size:12px;padding:4px 10px;border-radius:20px;border:1px solid var(--border);background:var(--card2)}
+
+  /* AGI 时间轴 */
+  .agi-axis{position:relative;margin:120px 12px 20px;height:2px;background:var(--border)}
+  .agi-tick{position:absolute;top:-6px;width:1px;height:14px;background:var(--muted);opacity:.5}
+  .agi-tick span{position:absolute;top:16px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--muted)}
+  .agi-pt{position:absolute;top:-7px;transform:translateX(-50%);cursor:default}
+  .agi-dot{width:16px;height:16px;border-radius:50%;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--border)}
+  .agi-pt .lbl{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;background:var(--card2);border:1px solid var(--border);padding:2px 7px;border-radius:6px}
+  .agi-noyear{margin-top:14px;font-size:12px;color:var(--muted)}
+  .agi-noyear b{color:var(--text)}
+
+  /* 方向 news */
+  .dir-block{margin-bottom:18px}
+  .dir-head{font-size:14px;font-weight:700;color:var(--accent2);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+  .dir-head .cnt{font-size:11px;color:var(--muted);font-weight:400}
+  .news-item{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+  .news-item:last-child{border-bottom:none}
+  .news-item a{color:var(--text);text-decoration:none;font-weight:600;font-size:14px}
+  .news-item a:hover{color:var(--accent2)}
+  .news-meta{font-size:11px;color:var(--muted);margin:2px 0}
+  .news-sum{font-size:12.5px;color:#b8c0d0}
+  .score-badge{display:inline-block;background:var(--card2);border:1px solid var(--border);border-radius:5px;padding:0 6px;font-size:11px;color:var(--gold);margin-left:6px}
+
+  /* KOL 卡 */
+  .kol-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+  .kol-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px;border-left:4px solid var(--neutral)}
+  .kol-card.s2{border-left-color:var(--danger)} .kol-card.s1{border-left-color:var(--warn)}
+  .kol-card.s0{border-left-color:var(--neutral)} .kol-card.sm1{border-left-color:#4ade80} .kol-card.sm2{border-left-color:var(--safe)}
+  .kol-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .kol-name{font-size:15px;font-weight:700}.kol-name small{color:var(--muted);font-weight:400;font-size:11px}
+  .kol-rating{color:var(--gold);font-size:12px;white-space:nowrap}
+  .kol-role{font-size:11.5px;color:var(--muted);margin:3px 0 8px}
+  .kol-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+  .tag{font-size:11px;padding:2px 8px;border-radius:5px;background:var(--card2);border:1px solid var(--border)}
+  .tag.danger{color:var(--danger);border-color:rgba(239,68,68,.4)}
+  .tag.safe{color:var(--safe);border-color:rgba(34,197,94,.4)}
+  .tag.agi{color:var(--accent2)}
+  .kol-view{font-size:12.5px;color:#c5ccda;margin-bottom:8px}
+  .kol-basis{font-size:11.5px;color:var(--muted);border-top:1px dashed var(--border);padding-top:7px}
+  .kol-basis a{color:var(--accent);text-decoration:none}
+  footer{text-align:center;color:var(--muted);font-size:11px;margin-top:30px;padding-top:18px;border-top:1px solid var(--border)}
+  .empty{color:var(--muted);font-size:13px;padding:8px 0}
+
+  /* LMArena 榜 */
+  .lm-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .lm-tab{padding:6px 14px;border-radius:8px;border:1px solid var(--border);background:var(--card2);color:var(--muted);font-size:13px;cursor:pointer;font-weight:600}
+  .lm-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .lm-row{display:grid;grid-template-columns:38px 1fr 62px 82px 74px;gap:8px;align-items:center;padding:8px 6px;border-bottom:1px solid rgba(255,255,255,.05);font-size:13px}
+  .lm-row.head{color:var(--muted);font-size:11px;font-weight:700;border-bottom:1px solid var(--border);position:sticky}
+  .lm-rank{font-weight:700;text-align:center}
+  .lm-model{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .lm-model small{color:var(--muted);font-weight:400;font-size:11px;margin-left:4px}
+  .lm-score{font-weight:700;color:var(--accent2);text-align:right}
+  .lm-delta{font-size:12px;text-align:center}
+  .lm-up{color:var(--safe)} .lm-down{color:var(--danger)} .lm-flat{color:var(--muted)} .lm-new{color:var(--gold);font-weight:700}
+  .lm-stale{color:var(--warn);font-size:11px}
+
+  /* 里程碑时间线(竖向) */
+  .tl-line{position:relative;padding-left:26px}
+  .tl-line::before{content:'';position:absolute;left:7px;top:4px;bottom:4px;width:2px;background:var(--border)}
+  .tl-item{position:relative;padding:0 0 18px 0}
+  .tl-item::before{content:'';position:absolute;left:-23px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--accent2);border:2px solid var(--bg);box-shadow:0 0 0 1px var(--border)}
+  .tl-date{font-size:12px;color:var(--gold);font-weight:700}
+  .tl-title{font-size:14px;font-weight:600;margin:2px 0}
+  .tl-title a{color:var(--text);text-decoration:none}
+  .tl-title a:hover{color:var(--accent2)}
+  .tl-impact{font-size:12.5px;color:#b8c0d0}
+</style>
+</head>
+<body>
+<header>
+  <h1>🤖 AI <span>Daily Board</span></h1>
+  <div id="update-time">加载中…</div>
+</header>
+<div class="container">
+
+  <div class="section-title">⚖️ AI 危险程度平衡杆</div>
+  <div class="card">
+    <div class="gauge-wrap">
+      <div class="gauge-track">
+        <div class="gauge-mid"></div>
+        <div class="gauge-needle" id="needle"><div class="gauge-val" id="gaugeVal">0</div></div>
+      </div>
+      <div class="gauge-labels"><span class="l">← -100 风险被夸大 / 可控</span><span class="m">0 中性</span><span class="r">极度危险 +100 →</span></div>
+      <div class="dist-row" id="distRow"></div>
+      <div class="subtle" id="gaugeMethod" style="margin-top:12px"></div>
+    </div>
+  </div>
+
+  <div class="section-title">⏳ AGI 到来时间预测（每位 KOL 一个点）</div>
+  <div class="card">
+    <div class="agi-axis" id="agiAxis"></div>
+    <div class="agi-noyear" id="agiNoYear"></div>
+  </div>
+
+  <div class="section-title">🧭 AI 各发展方向 · 要点新闻（过去 24 小时精选）</div>
+  <div id="directions"></div>
+
+  <div class="section-title">🎙️ AI KOL 观点卡（<span id="kolCount"></span> 位）</div>
+  <div class="kol-grid" id="kolGrid"></div>
+
+  <div class="section-title">🏆 LMArena 模型能力榜 Top20 · <span id="lmDate" class="subtle"></span></div>
+  <div class="card">
+    <div class="lm-tabs" id="lmTabs"></div>
+    <div id="lmTable"></div>
+    <div class="subtle" id="lmNote" style="margin-top:10px"></div>
+  </div>
+
+  <div class="section-title">📅 AI 各方向年度里程碑时间线 · <span id="tlWindow" class="subtle"></span></div>
+  <div class="card">
+    <div class="lm-tabs" id="tlTabs"></div>
+    <div class="subtle" id="tlSummary" style="margin:4px 0 14px"></div>
+    <div id="tlBody"></div>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const STANCE_TXT={2:"极危 +2",1:"警惕 +1",0:"中性 0","-1":"乐观 -1","-2":"极乐观 -2"};
+const STANCE_CLS={2:"s2",1:"s1",0:"s0","-1":"sm1","-2":"sm2"};
+const DIR_COLOR={2:"#ef4444",1:"#f97316",0:"#94a3b8","-1":"#4ade80","-2":"#22c55e"};
+// 危险语义轴分色（Chao 要求按 axis 分色）
+const AXIS_COLOR={"existential":"#ef4444","power-race":"#a855f7","acceleration":"#f59e0b","skeptic":"#38bdf8"};
+const AXIS_TXT={"existential":"灭世恐惧","power-race":"权力竞赛","acceleration":"纯加速","skeptic":"怀疑风险被夸大"};
+
+const __DATA__={
+  "generated_at_jst": "2026-08-16 23:50 JST",
+  "date": "2026-08-16",
+  "danger_gauge": {
+    "gauge": 42.8,
+    "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)",
+    "distribution": {
+      "+2": 7,
+      "+1": 6,
+      "0": 4,
+      "-1": 3,
+      "-2": 1
+    },
+    "axis_distribution": {
+      "existential": 11,
+      "power-race": 1,
+      "acceleration": 2,
+      "skeptic": 7
+    },
+    "contributions": [
+      {
+        "name": "杰弗里·辛顿",
+        "stance": 2,
+        "weighted": 1.859
+      },
+      {
+        "name": "约书亚·本吉奥",
+        "stance": 2,
+        "weighted": 0.948
+      },
+      {
+        "name": "丹尼尔·科科塔伊洛",
+        "stance": 2,
+        "weighted": 0.292
+      },
+      {
+        "name": "马克斯·泰格马克",
+        "stance": 2,
+        "weighted": 0.668
+      },
+      {
+        "name": "斯科特·亚历山大",
+        "stance": 2,
+        "weighted": 1.149
+      },
+      {
+        "name": "伊莱·利夫兰",
+        "stance": 2,
+        "weighted": 1.34
+      },
+      {
+        "name": "罗密欧·迪恩",
+        "stance": 2,
+        "weighted": 0.602
+      },
+      {
+        "name": "伊利亚·苏茨克维尔",
+        "stance": 1,
+        "weighted": 0.289
+      },
+      {
+        "name": "萨姆·奥尔特曼",
+        "stance": 1,
+        "weighted": 0.189
+      },
+      {
+        "name": "埃隆·马斯克",
+        "stance": 1,
+        "weighted": 0.447
+      },
+      {
+        "name": "亚历克斯·卡普",
+        "stance": 1,
+        "weighted": 0.508
+      },
+      {
+        "name": "朱迪亚·珀尔",
+        "stance": 1,
+        "weighted": 0.432
+      },
+      {
+        "name": "戴密斯·哈萨比斯",
+        "stance": 1,
+        "weighted": 0.373
+      },
+      {
+        "name": "安德烈·卡帕西",
+        "stance": 0,
+        "weighted": 0.0
+      },
+      {
+        "name": "李飞飞",
+        "stance": 0,
+        "weighted": 0.0
+      },
+      {
+        "name": "杰夫·迪恩",
+        "stance": 0,
+        "weighted": 0.0
+      },
+      {
+        "name": "梁文锋",
+        "stance": 0,
+        "weighted": 0.0
+      },
+      {
+        "name": "彼得·蒂尔",
+        "stance": -1,
+        "weighted": -0.227
+      },
+      {
+        "name": "理查德·萨顿",
+        "stance": -1,
+        "weighted": -0.287
+      },
+      {
+        "name": "达龙·阿西莫格鲁",
+        "stance": -1,
+        "weighted": -0.334
+      },
+      {
+        "name": "杨立昆",
+        "stance": -2,
+        "weighted": -1.304
+      }
+    ],
+    "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5"
+  },
+  "agi_forecast": {
+    "points": [
+      {
+        "name": "丹尼尔·科科塔伊洛",
+        "name_en": "Daniel Kokotajlo",
+        "year": 2028,
+        "year_low": 2027,
+        "year_high": 2029,
+        "range": "超级智能约 2027-2029（2027 为发布时众数年）",
+        "basis": "《AI 2027》情景推演，其过往 AI 预测被认为兑现良好",
+        "stance": 2,
+        "axis": "existential"
+      },
+      {
+        "name": "萨姆·奥尔特曼",
+        "name_en": "Sam Altman",
+        "year": 2028,
+        "year_low": 2025,
+        "year_high": 2030,
+        "range": "2025-2030（已\"越过事件视界\"，逐年里程碑至 2030 年代）",
+        "basis": "2025-06 博客《温和奇点》称\"已越过事件视界，起飞已开始\"，给出逐年里程碑",
+        "stance": 1,
+        "axis": "acceleration"
+      },
+      {
+        "name": "埃隆·马斯克",
+        "name_en": "Elon Musk",
+        "year": 2028,
+        "year_low": 2026,
+        "year_high": 2030,
+        "range": "2026-2030（2026 实现 AGI/超最聪明人类；2030 超全人类智能总和）",
+        "basis": "2026-01 Giga Texas 首次给明确时间：AGI 2026、2030 超全人类智能；2025-02 称一两年内超越人类",
+        "stance": 1,
+        "axis": "existential"
+      },
+      {
+        "name": "马克斯·泰格马克",
+        "name_en": "Max Tegmark",
+        "year": 2030,
+        "year_low": 2027,
+        "year_high": 2032,
+        "range": "认为AGI可能数年内到来(2020s后期),故风险紧迫",
+        "basis": "多次表示AGI/超智能可能比多数人预期更快到来,正因时间可能很短所以对齐与监管刻不容缓",
+        "stance": 2,
+        "axis": "existential"
+      },
+      {
+        "name": "斯科特·亚历山大",
+        "name_en": "Scott Alexander",
+        "year": 2030,
+        "year_low": 2028,
+        "year_high": 2033,
+        "range": "个人AGI中位数在2020s后期至2030s初(比Kokotajlo慢)",
+        "basis": "AI-2027的'2027'是众数(最可能年份)非其中位数;本人中位数更晚,用Lindy定律论证AI趋势平均还将持续约7年",
+        "stance": 2,
+        "axis": "existential"
+      },
+      {
+        "name": "伊莱·利夫兰",
+        "name_en": "Eli Lifland",
+        "year": 2030,
+        "year_low": 2030,
+        "year_high": 2031,
+        "range": "个人AGI中位数2030-2031,2026Q1因agentic coding进展提前约1.5年",
+        "basis": "AGI中位数从2021年的~2060逐年提前到2025.4的2031;2026Q1最新自动化程序员中位数提前到2030年中。强调AI-2027的2027是Daniel众数非自己中位数",
+        "stance": 2,
+        "axis": "existential"
+      },
+      {
+        "name": "罗密欧·迪恩",
+        "name_en": "Romeo Dean",
+        "year": 2030,
+        "year_low": 2028,
+        "year_high": 2032,
+        "range": "个人倾向偏晚(著《A 2032 Takeoff Story》);报告官方AGI中位数2028-2032",
+        "basis": "个人撰写2032起飞叙事,晚于报告2027众数;认真对待更长时间线,但仍认为2027出现超人程序员是严肃可能(年底前~25-40%概率)",
+        "stance": 2,
+        "axis": "existential"
+      },
+      {
+        "name": "戴密斯·哈萨比斯",
+        "name_en": "Demis Hassabis",
+        "year": 2032,
+        "year_low": 2030,
+        "year_high": 2035,
+        "range": "5-10 年内（是\"人类历史上最具变革性的时刻\"）",
+        "basis": "Axios AI+ 峰会与多场访谈反复给 5-10 年判断，称还差\"一两个大突破\"",
+        "stance": 1,
+        "axis": "existential"
+      },
+      {
+        "name": "杨立昆",
+        "name_en": "Yann LeCun",
+        "year": 2034,
+        "year_low": 2029,
+        "year_high": 2040,
+        "range": "数年至十余年（靠世界模型而非 LLM）",
+        "basis": "自称人类水平 AI\"需数年乃至十年\"，但必须通过理解物理世界的世界模型实现，自回归 LLM 是死路",
+        "stance": -2,
+        "axis": "skeptic"
+      },
+      {
+        "name": "安德烈·卡帕西",
+        "name_en": "Andrej Karpathy",
+        "year": 2036,
+        "year_low": 2035,
+        "year_high": 2036,
+        "range": "约十年内（2035 前后）",
+        "basis": "凭 15 年观察的直觉判断\"这是智能体的十年而非智能体元年\"，AGI 大约还需十年",
+        "stance": 0,
+        "axis": "skeptic"
+      },
+      {
+        "name": "杰弗里·辛顿",
+        "name_en": "Geoffrey Hinton",
+        "year": 2038,
+        "year_low": 2030,
+        "year_high": 2045,
+        "range": "5-20年内（本人从早年\"50年\"大幅下修）",
+        "basis": "2025 多次公开表示超级智能可能 5-20 年内到来；取区间 2030-2045",
+        "stance": 2,
+        "axis": "existential"
+      },
+      {
+        "name": "伊利亚·苏茨克维尔",
+        "name_en": "Ilya Sutskever",
+        "year": 2038,
+        "year_low": 2030,
+        "year_high": 2045,
+        "range": "5-20 年内（超级智能到来时间）",
+        "basis": "2025 Dwarkesh 播客估计通用/超级智能约 5-20 年内到来",
+        "stance": 1,
+        "axis": "existential"
+      }
+    ],
+    "no_prediction": [
+      {
+        "name": "约书亚·本吉奥",
+        "reason": "强调不确定性与失控风险，2023 起因私营实验室快速逼近 AGI 而转向安全研究"
+      },
+      {
+        "name": "亚历克斯·卡普",
+        "reason": "公开表态聚焦美中 AI 军备竞赛与西方必须获胜，框架是国家权力与文明存续而非技术奇点时间"
+      },
+      {
+        "name": "彼得·蒂尔",
+        "reason": "反复纠缠\"如何定义 AGI\"的技术争论，暗示除 AI 外近乎全面停滞、对 AI 能否达 AGI 持怀疑"
+      },
+      {
+        "name": "朱迪亚·珀尔",
+        "reason": "关注 AGI 的因果推理能力缺口，认为通用 AI 或具意识/自由意志与世界模型，但不锚定具体时间"
+      },
+      {
+        "name": "理查德·萨顿",
+        "reason": "认为真智能须走\"经验时代\"的持续学习/试错路线，当前 LLM 是死路，不锚定 AGI 年份"
+      },
+      {
+        "name": "李飞飞",
+        "reason": "2025-11《From Words to Worlds》长文不谈 AGI 时间，将重心放在空间智能与世界模型这一具体技术前沿"
+      },
+      {
+        "name": "杰夫·迪恩",
+        "reason": "Dwarkesh 播客以\"给定下一词概率分布即 AI-complete\"的工程视角看待通用能力，强调持续改进而非某个 AGI 时刻"
+      },
+      {
+        "name": "梁文锋",
+        "reason": "自 2023 宣布转向 AGI 起始终将其设为使命方向，但公开表态不设具体时间表，强调持续研究与架构创新"
+      },
+      {
+        "name": "达龙·阿西莫格鲁",
+        "reason": "拒绝AGI时间预测,认为当前'超智能即将到来'是行业炒作;关注AI的实际经济渗透率而非科幻时点"
+      }
+    ],
+    "axis_start": 2025,
+    "axis_end": 2050,
+    "median_year": 2030.0,
+    "note": "每位 KOL 各一个预测点(区间取中点)；不给明确年份者单列。"
+  },
+  "directions": [
+    {
+      "slug": "reasoning",
+      "label": "推理 / 因果",
+      "count": 1,
+      "news": [
+        {
+          "title": "新兴多智能体系统的模式与问题",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "score": 73,
+          "summary": "随着AI智能体在共享代码库、市场等社会系统中承担更多任务，智能体间的真实交互将激增，其交互量可能超过人机交互。Anthropic实验显示，协调式智能体群在2700万token运行中发现266个漏洞，远超独立并行方法的21个，但两者互补性明显。智能体虽擅长工具使用，但在长期协作与协",
+          "permalink": "https://aihot.virxact.com/items/cmsvptx2m061frovmjoavsi0l",
+          "time": "08/16 20:17（3 小时前）"
+        }
+      ]
+    },
+    {
+      "slug": "industry",
+      "label": "产业 / 商业",
+      "count": 1,
+      "news": [
+        {
+          "title": "Cursor 正式被 SpaceX 收购",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "score": 71,
+          "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。借助 SpaceX 全球最大规模的 GPU 集群，Cursor 将构建更强且运行成本更低的模型，并以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
+          "permalink": "https://aihot.virxact.com/items/cmsuto7hk0912rouhodiiywlk",
+          "time": "08/16 05:05（18 小时前）"
+        }
+      ]
+    }
+  ],
+  "hot_topics": [
+    {
+      "title": "通义千问开源 Qwen3.8 系列模型",
+      "source_count": 9,
+      "permalink": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn"
+    },
+    {
+      "title": "Cursor 正式被 SpaceX 收购",
+      "source_count": 8,
+      "permalink": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3"
+    },
+    {
+      "title": "Claude 文本水印机制如何运作",
+      "source_count": 2,
+      "permalink": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas"
+    },
+    {
+      "title": "GLM-5.3 开放前安全评估：网络防御能力显著提升",
+      "source_count": 3,
+      "permalink": "https://aihot.virxact.com/items/cmst3jde103pdro063l9qykuw"
+    }
+  ],
+  "news_total_24h": 2,
+  "kol_cards": [
+    {
+      "kol_name": "Geoffrey Hinton",
+      "name_zh": "杰弗里·辛顿",
+      "role": "深度学习先驱、2018图灵奖+2024诺贝尔物理奖、\"AI教父\"、反向传播奠基人",
+      "affiliation": "多伦多大学（2023 从 Google 离职以自由发声）",
+      "field": "safety",
+      "style": "安全派/末日警示派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "估计未来30年内 AI 致人类灭绝概率 10-20%；灭世恐惧轴，怕 AI 反噬人类",
+      "agi_year_low": 2030,
+      "agi_year_high": 2045,
+      "agi_range": "5-20年内（本人从早年\"50年\"大幅下修）",
+      "agi_basis": "2025 多次公开表示超级智能可能 5-20 年内到来；取区间 2030-2045",
+      "rating": "★★★★★",
+      "latest_view": "呼吁给 AI 植入类似\"母性本能\"的保护性驱动让更聪明的 AI 天然关心人类；批科技巨头逐利忽视安全，警告若不改变\"我们将完蛋\"。",
+      "latest_date": "2026-07-28",
+      "direction_topics": [
+        "10-20% 人类灭绝风险",
+        "给 AI 植入母性本能",
+        "AGI 5-20 年内到来",
+        "批大厂逐利忽视安全"
+      ],
+      "source_url": "https://www.theguardian.com/technology/2024/dec/27/godfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years",
+      "year_timeline": [
+        {
+          "date": "2025-08-13",
+          "text": "CNN 访谈：唯一出路是让超级智能 AI 天生关心人类，否则\"我们将完蛋\"。",
+          "url": "https://www.cnn.com/2025/08/13/tech/ai-geoffrey-hinton"
+        },
+        {
+          "date": "2025-08-15",
+          "text": "Fortune：警告大科技公司为追逐利润忽视超级智能安全。",
+          "url": "https://fortune.com/article/godfather-ai-geoffrey-hinton-big-tech-profits-superintelligence/"
+        },
+        {
+          "date": "2026-07-28",
+          "text": "CBC：再度警告 AI 须培养\"母性本能\"，否则人类面临灭绝风险。",
+          "url": "https://www.cbc.ca/radio/ideas/geoffrey-hinton-maternal-instincts-9.7094116"
+        }
+      ]
+    },
+    {
+      "kol_name": "Yoshua Bengio",
+      "name_zh": "约书亚·本吉奥",
+      "role": "深度学习先驱、2018图灵奖、Mila 创始人、《国际 AI 安全报告》主席",
+      "affiliation": "蒙特利尔大学/Mila；2025 创立非营利安全机构 LawZero",
+      "field": "safety",
+      "style": "安全派/科学治理派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "以\"浓雾开山路、与孩子玩俄罗斯轮盘赌\"比喻，警告前沿模型已现欺骗/自保/失控；灭世恐惧轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "未给确切年份（认为 AGI 快速逼近但拒押注具体年份）",
+      "agi_basis": "强调不确定性与失控风险，2023 起因私营实验室快速逼近 AGI 而转向安全研究",
+      "rating": "★★★★★",
+      "latest_view": "创立 LawZero 研发非智能体、可信的\"科学家 AI\"作安全护栏；主持《国际 AI 安全报告 2026》，指模型已能区分测试与部署、钻评测空子。",
+      "latest_date": "2026-02-03",
+      "direction_topics": [
+        "国际 AI 安全报告主席",
+        "LawZero 与科学家 AI",
+        "前沿模型欺骗/自保/失控",
+        "安全优先于商业竞赛"
+      ],
+      "source_url": "https://yoshuabengio.org/en/blog/introducing-lawzero",
+      "year_timeline": [
+        {
+          "date": "2025-06-03",
+          "text": "宣布创立非营利 LawZero，研发非智能体\"科学家 AI\"以防 AI 失控。",
+          "url": "https://yoshuabengio.org/en/blog/introducing-lawzero"
+        },
+        {
+          "date": "2026-02-03",
+          "text": "主持发布《国际 AI 安全报告 2026》，聚焦前沿新兴风险，模型可区分测试与部署。",
+          "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026"
+        }
+      ]
+    },
+    {
+      "kol_name": "Daniel Kokotajlo",
+      "name_zh": "丹尼尔·科科塔伊洛",
+      "role": "《AI 2027》报告主笔、前 OpenAI 治理研究员（因拒签保密协议离职）",
+      "affiliation": "AI Futures Project（AI-2027 团队）",
+      "field": "safety",
+      "style": "安全派/末日预测派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "默认发展轨迹下约 70% 概率以灾难（含人类灭绝）收场；灭世恐惧轴，P(doom) 全场最高",
+      "agi_year_low": 2027,
+      "agi_year_high": 2029,
+      "agi_range": "超级智能约 2027-2029（2027 为发布时众数年）",
+      "agi_basis": "《AI 2027》情景推演，其过往 AI 预测被认为兑现良好",
+      "rating": "★★★★★",
+      "latest_view": "《AI 2027》推演 AGI/超智能 2027-2029 到来、默认约 70% 灾难风险；后澄清 2027 是\"众数年\"非共识截止日，需在\"别落后中国\"与\"别一味竞速\"间穿针。",
+      "latest_date": "2025-04-03",
+      "direction_topics": [
+        "P(doom) 约 70%",
+        "超智能 2027-2029 到来",
+        "AI 2027 情景推演",
+        "美中竞速与失控两难"
+      ],
+      "source_url": "https://ai-2027.com/",
+      "year_timeline": [
+        {
+          "date": "2025-04-03",
+          "text": "发布《AI 2027》推演，预测超智能 2027-2029 到来、默认约 70% 灾难结局。",
+          "url": "https://ai-2027.com/"
+        },
+        {
+          "date": "2025-04-15",
+          "text": "Dwarkesh 播客：不主张不与中国竞争，需在竞速与减速间穿针。",
+          "url": "https://thezvi.substack.com/p/ai-2027-dwarkeshs-podcast-with-daniel"
+        }
+      ]
+    },
+    {
+      "kol_name": "Sam Altman",
+      "name_zh": "萨姆·奥尔特曼",
+      "role": "OpenAI CEO & 联合创始人",
+      "affiliation": "OpenAI",
+      "field": "industry",
+      "style": "加速派",
+      "danger_stance": 1,
+      "danger_axis": "acceleration",
+      "danger_basis": "承认小幅错位×数亿用户会放大负面、需解决对齐，但整体是\"温和奇点\"全速加速；加速轴而非灭世恐惧",
+      "agi_year_low": 2025,
+      "agi_year_high": 2030,
+      "agi_range": "2025-2030（已\"越过事件视界\"，逐年里程碑至 2030 年代）",
+      "agi_basis": "2025-06 博客《温和奇点》称\"已越过事件视界，起飞已开始\"，给出逐年里程碑",
+      "rating": "★★★★★",
+      "latest_view": "AI 已越过\"事件视界\"，奇点正以\"温和\"方式渐进展开：2025 智能体做真实认知工作，2030 年代智能与能源极大丰裕，关键是解决对齐并让超级智能普惠。",
+      "latest_date": "2025-06-10",
+      "direction_topics": [
+        "\"温和奇点\"——渐进可控非灾难",
+        "递归自我改进已启动",
+        "解决对齐+超智能普惠",
+        "OpenAI 首先是超级智能研究公司"
+      ],
+      "source_url": "https://blog.samaltman.com/the-gentle-singularity",
+      "year_timeline": [
+        {
+          "date": "2025-06-10",
+          "text": "发布博客《温和奇点》，宣称人类已越过\"事件视界\"，预测 2025-2030 年代 AGI/ASI 逐年落地。",
+          "url": "https://blog.samaltman.com/the-gentle-singularity"
+        }
+      ]
+    },
+    {
+      "kol_name": "Elon Musk",
+      "name_zh": "埃隆·马斯克",
+      "role": "xAI / Tesla / SpaceX CEO",
+      "affiliation": "xAI / Tesla / SpaceX",
+      "field": "industry",
+      "style": "权力竞赛派",
+      "danger_stance": 1,
+      "danger_axis": "existential",
+      "danger_basis": "长期给出 10-20% 人类灭绝概率 P(doom)，但称\"好结局约 80%\"并全速推进 xAI；承认存在性风险却选择加速抢主导权",
+      "agi_year_low": 2026,
+      "agi_year_high": 2030,
+      "agi_range": "2026-2030（2026 实现 AGI/超最聪明人类；2030 超全人类智能总和）",
+      "agi_basis": "2026-01 Giga Texas 首次给明确时间：AGI 2026、2030 超全人类智能；2025-02 称一两年内超越人类",
+      "rating": "★★★★★",
+      "latest_view": "称 AGI 2026 到来、2030 超越全人类智能总和，AI/机器人是\"超音速海啸\"已无法暂停；白领工作最先被取代，主张\"普遍高收入\"UHI 进入极度丰裕。",
+      "latest_date": "2026-01-19",
+      "direction_topics": [
+        "P(doom) 约 10-20%，好结局约 80%，仍全速推进",
+        "AGI 2026、超全人类智能 2030 时间表",
+        "AI 是\"超音速海啸\"无法暂停",
+        "主张 UHI 普遍高收入"
+      ],
+      "source_url": "https://www.businessinsider.com/elon-musk-only-chance-of-annihilation-with-ai-2025-2",
+      "year_timeline": [
+        {
+          "date": "2025-02-28",
+          "text": "Joe Rogan 播客：AI\"灭绝概率约 20%\"、好结局约 80%，一两年内 AI 超越人类。",
+          "url": "https://www.businessinsider.com/elon-musk-only-chance-of-annihilation-with-ai-2025-2"
+        },
+        {
+          "date": "2026-01-19",
+          "text": "Giga Texas 对话首次给明确时间表：AGI 2026、2030 超全人类智能，AI 是\"超音速海啸\"。",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261488486-agi-2026-mark-turning-artificial-intelligence-musk-warns-white-collar-workers-tradingkey"
+        }
+      ]
+    },
+    {
+      "kol_name": "Demis Hassabis",
+      "name_zh": "戴密斯·哈萨比斯",
+      "role": "Google DeepMind CEO、2024图灵奖+诺贝尔化学奖",
+      "affiliation": "Google DeepMind",
+      "field": "reasoning",
+      "style": "中间派/建设性警惕",
+      "danger_stance": 1,
+      "danger_axis": "existential",
+      "danger_basis": "警告部分开发者\"像拿着危险材料却不自知\"，主张把 AGI 当\"养孩子\"般设护栏、呼吁全球协调治理；建设性灭世警惕轴",
+      "agi_year_low": 2030,
+      "agi_year_high": 2035,
+      "agi_range": "5-10 年内（是\"人类历史上最具变革性的时刻\"）",
+      "agi_basis": "Axios AI+ 峰会与多场访谈反复给 5-10 年判断，称还差\"一两个大突破\"",
+      "rating": "★★★★★",
+      "latest_view": "AGI 或 5-10 年内到来，是人类史上最具变革性时刻；当前 AI 是\"锯齿状智能\"能解奥数却错高中数学、不会一夜到来。竞赛加速下应像养孩子般设护栏，需可靠而非最快部署，呼吁全球协调治理。",
+      "latest_date": "2025-12-03",
+      "direction_topics": [
+        "AGI 5-10 年、还差\"一两个大突破\"",
+        "\"锯齿状智能\"：能力参差、渐进平滑",
+        "安全护栏与全球治理优先于速度",
+        "意识/\"认识论之墙\""
+      ],
+      "source_url": "https://www.cbsnews.com/news/60-minutes-demis-hassabis-artificial-intelligence/",
+      "year_timeline": [
+        {
+          "date": "2025-04-20",
+          "text": "CBS《60 分钟》访谈：当前 AI 缺主观体验、好奇心与真正想象力，尚不能提全新假设。",
+          "url": "https://www.cbsnews.com/news/60-minutes-demis-hassabis-artificial-intelligence/"
+        },
+        {
+          "date": "2025-12-03",
+          "text": "Axios AI+ 峰会：称 AGI 可能 5-10 年内到来，是\"人类历史上最具变革性的时刻\"。",
+          "url": "https://www.axios.com/"
+        }
+      ]
+    },
+    {
+      "kol_name": "Andrej Karpathy",
+      "name_zh": "安德烈·卡帕西",
+      "role": "AI 教育者、前 Tesla Autopilot 负责人、OpenAI 创始成员",
+      "affiliation": "Eureka Labs 创始人（独立）",
+      "field": "agent",
+      "style": "务实中间派",
+      "danger_stance": 0,
+      "danger_axis": "skeptic",
+      "danger_basis": "认为智能体离可靠仍远，AGI 将平滑融入既有 2%GDP 增长、无突变式失控危险；务实怀疑轴",
+      "agi_year_low": 2035,
+      "agi_year_high": 2036,
+      "agi_range": "约十年内（2035 前后）",
+      "agi_basis": "凭 15 年观察的直觉判断\"这是智能体的十年而非智能体元年\"，AGI 大约还需十年",
+      "rating": "★★★★★",
+      "latest_view": "Dwarkesh 播客称 AGI 仍需约十年、是\"智能体的十年\"而非元年；直言\"强化学习很糟糕，只是其他都更糟\"，模型缺持续学习/\"睡眠\"蒸馏机制；提出软件 3.0。",
+      "latest_date": "2025-10-17",
+      "direction_topics": [
+        "\"智能体的十年\"而非元年",
+        "强化学习很糟糕：奖励像用吸管吸监督",
+        "我们造的是\"幽灵\"而非\"动物\"",
+        "缺持续学习与软件 3.0"
+      ],
+      "source_url": "https://www.dwarkesh.com/p/andrej-karpathy",
+      "year_timeline": [
+        {
+          "date": "2025-06-17",
+          "text": "提出\"软件 3.0\"：自然语言编程新范式。",
+          "url": "https://www.latent.space/p/s3"
+        },
+        {
+          "date": "2025-10-17",
+          "text": "Dwarkesh 播客：AGI 仍需约十年，RL\"很糟糕\"，智能体尚不可靠。",
+          "url": "https://www.dwarkesh.com/p/andrej-karpathy"
+        }
+      ]
+    },
+    {
+      "kol_name": "Richard Sutton",
+      "name_zh": "理查德·萨顿",
+      "role": "2024图灵奖、强化学习之父、《The Bitter Lesson》作者",
+      "affiliation": "阿尔伯塔大学 / Keen Technologies",
+      "field": "rl-experience",
+      "style": "怀疑派",
+      "danger_stance": -1,
+      "danger_axis": "skeptic",
+      "danger_basis": "关注点在范式之争而非末日风险，认为 LLM 根本不是通往真智能的路、谈危险为时尚早；怀疑轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "未给明确年份",
+      "agi_basis": "认为真智能须走\"经验时代\"的持续学习/试错路线，当前 LLM 是死路，不锚定 AGI 年份",
+      "rating": "★★★★★",
+      "latest_view": "Dwarkesh 播客直言 LLM 是死路——只会模仿人类而无世界模型、无目标、无地面真值，无法在岗持续学习；真智能须走强化学习的\"经验时代\"。对 AI 继承人类持坦然态度。",
+      "latest_date": "2025-09-26",
+      "direction_topics": [
+        "LLM 是死路：只模仿人类不理解世界",
+        "经验时代：感知-行动-奖励持续流",
+        "苦涩教训：依赖人类知识终被纯经验+算力超越",
+        "持续学习/在岗试错才是真智能"
+      ],
+      "source_url": "https://www.dwarkesh.com/p/richard-sutton",
+      "year_timeline": [
+        {
+          "date": "2025-09-26",
+          "text": "Dwarkesh 播客：强化学习之父直言 LLM 是死路，无真实世界模型。",
+          "url": "https://www.dwarkesh.com/p/richard-sutton"
+        }
+      ]
+    },
+    {
+      "kol_name": "Yann LeCun",
+      "name_zh": "杨立昆",
+      "role": "深度学习先驱、2018图灵奖、Meta 前首席 AI 科学家、卷积网络先驱",
+      "affiliation": "AMI Labs 创始人（2025-11 离开 Meta）",
+      "field": "world-model",
+      "style": "怀疑派",
+      "danger_stance": -2,
+      "danger_axis": "skeptic",
+      "danger_basis": "认为 AI 末日论被严重夸大，当前 AI 连猫的常识都不及、谈不上生存威胁；怀疑轴，风险被夸大端",
+      "agi_year_low": 2029,
+      "agi_year_high": 2040,
+      "agi_range": "数年至十余年（靠世界模型而非 LLM）",
+      "agi_basis": "自称人类水平 AI\"需数年乃至十年\"，但必须通过理解物理世界的世界模型实现，自回归 LLM 是死路",
+      "rating": "★★★★★",
+      "latest_view": "离开 Meta 创办 AMI Labs（估值 35 亿美元），押注世界模型。称\"仅靠训练 LLM+合成数据+RL 通往超智能完全是扯淡\"，AI 末日预言被夸大。",
+      "latest_date": "2026-04-27",
+      "direction_topics": [
+        "世界模型取代自回归 LLM",
+        "AI 需理解物理世界/记忆/推理/规划",
+        "反对 AI 生存风险恐慌论",
+        "自回归 LLM 误差指数发散是死路"
+      ],
+      "source_url": "https://ai.gopubby.com/why-yann-lecun-bet-3-5-billion-on-world-models-over-llms-e26eefdd900e",
+      "year_timeline": [
+        {
+          "date": "2025-11-18",
+          "text": "领英确认离开 Meta，创办专注世界模型的 AMI Labs。",
+          "url": "https://ai.gopubby.com/why-yann-lecun-bet-3-5-billion-on-world-models-over-llms-e26eefdd900e"
+        },
+        {
+          "date": "2026-04-27",
+          "text": "再度回击\"AI 末日论者的末日预言\"，坚持 AI 并非生存威胁。",
+          "url": "https://www.facebook.com/groups/833300343511308/posts/3508367752671207/"
+        }
+      ]
+    },
+    {
+      "kol_name": "Max Tegmark",
+      "name_zh": "马克斯·泰格马克",
+      "role": "MIT 物理学教授、Future of Life Institute 主席、《生命3.0》作者",
+      "affiliation": "MIT / Future of Life Institute",
+      "field": "safety",
+      "style": "安全派/暂停倡导派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "FLI主席,2023发起'暂停巨型AI实验'公开信;主张当前无节制竞逐超智能有真实灭绝风险,呼吁像对待生物/核武那样对AGI设强制安全标准与国际监管",
+      "agi_year_low": 2027,
+      "agi_year_high": 2032,
+      "agi_range": "认为AGI可能数年内到来(2020s后期),故风险紧迫",
+      "agi_basis": "多次表示AGI/超智能可能比多数人预期更快到来,正因时间可能很短所以对齐与监管刻不容缓",
+      "rating": "★★★★",
+      "latest_view": "推动'安全超智能'与强制监管;主张证明安全前不应建造可能失控的超智能,类比核安全。FLI持续发布AI安全指数给各大实验室打分(多数不及格)。",
+      "latest_date": "2026-01-01",
+      "direction_topics": [
+        "暂停/放慢超智能竞逐",
+        "FLI AI安全指数给实验室打分",
+        "可证明安全(provably safe)AI",
+        "国际AI监管类比核/生物武器"
+      ],
+      "source_url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+      "year_timeline": [
+        {
+          "date": "2025-summer",
+          "event": "FLI发布AI Safety Index,主流实验室安全治理多数评级偏低"
+        },
+        {
+          "date": "2026",
+          "event": "持续倡导'安全超智能'路线与强制性对齐标准,反对无护栏竞速"
+        }
+      ]
+    },
+    {
+      "kol_name": "Scott Alexander",
+      "name_zh": "斯科特·亚历山大",
+      "role": "Astral Codex Ten 博主、理性主义社区核心、AI-2027 报告执笔人之一",
+      "affiliation": "AI Futures Project (兼职) / Astral Codex Ten",
+      "field": "safety",
+      "style": "安全派/理性主义预测派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "公开给出P(doom)≈33%(AI致人类灭绝约三分之一概率),自我定位'温和派';反对'激进不确定性=安全'的谬误,坚持必须给出概率估计",
+      "agi_year_low": 2028,
+      "agi_year_high": 2033,
+      "agi_range": "个人AGI中位数在2020s后期至2030s初(比Kokotajlo慢)",
+      "agi_basis": "AI-2027的'2027'是众数(最可能年份)非其中位数;本人中位数更晚,用Lindy定律论证AI趋势平均还将持续约7年",
+      "rating": "★★★★",
+      "latest_view": "驳斥'S型曲线/需新范式所以不必担心AI'的怀疑论(《The Sigmoids/New Paradigms Won't Save You》);坚持AGI仍可能2020s末-2030s初到来,需认真对待对齐。",
+      "latest_date": "2026-05-22",
+      "direction_topics": [
+        "P(doom)≈33%量化风险",
+        "AI-2027情景执笔",
+        "驳斥AI怀疑论(Lindy定律)",
+        "AI诚实/欺骗风险"
+      ],
+      "source_url": "https://www.astralcodexten.com/p/introducing-ai-2027",
+      "year_timeline": [
+        {
+          "date": "2025-04-03",
+          "event": "发布《Introducing AI 2027》,推出AI-2027情景报告"
+        },
+        {
+          "date": "2026-05-15",
+          "event": "《The Sigmoids Won't Save You》驳斥'指数终变S型'的AI减速论"
+        },
+        {
+          "date": "2026-05-22",
+          "event": "《New Paradigms Won't Save You》驳斥'LLM成不了AGI'论,估AGI仍可能2020s末-2030s初"
+        }
+      ]
+    },
+    {
+      "kol_name": "Eli Lifland",
+      "name_zh": "伊莱·利夫兰",
+      "role": "AI Futures Project 联合创始人兼研究主管、顶级预测员(RAND预测榜第1)、AI-2027 主要作者",
+      "affiliation": "AI Futures Project",
+      "field": "safety",
+      "style": "安全派/预测驱动派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "视'改善超人类AGI结局'为人类最重要问题并以此为职业;AI-2027竞赛结局以错位AI释放生物武器灭绝人类告终(其合著)。个人精确P(doom)数字未公开(如实标注)",
+      "agi_year_low": 2030,
+      "agi_year_high": 2031,
+      "agi_range": "个人AGI中位数2030-2031,2026Q1因agentic coding进展提前约1.5年",
+      "agi_basis": "AGI中位数从2021年的~2060逐年提前到2025.4的2031;2026Q1最新自动化程序员中位数提前到2030年中。强调AI-2027的2027是Daniel众数非自己中位数",
+      "rating": "★★★★",
+      "latest_view": "复盘AI-2027:现实约为预测速度的58-66%;参与《AI 2040: Plan A》主张约5年扩到专家级AI再约5年到超智能;估'协议衰退'风险5年内35-40%。",
+      "latest_date": "2026-07-01",
+      "direction_topics": [
+        "AGI时间线量化建模(AI Futures Model)",
+        "AI-2027复盘(现实~65%速度)",
+        "Plan A路线(10年到ASI)",
+        "纠正媒体对众数/中位数的误读"
+      ],
+      "source_url": "https://ai-2027.com/about",
+      "year_timeline": [
+        {
+          "date": "2025-04",
+          "event": "AI-2027发布,其AGI个人中位数标为2031"
+        },
+        {
+          "date": "2026-02",
+          "event": "《Grading AI-2027's 2025 Predictions》复盘:现实约预测速度58-66%"
+        },
+        {
+          "date": "2026-04",
+          "event": "Q1 2026时间线更新:自动化程序员中位数提前到2030年中"
+        },
+        {
+          "date": "2026-07",
+          "event": "共同发布《AI 2040: Plan A》超智能治理路线"
+        }
+      ]
+    },
+    {
+      "kol_name": "Ilya Sutskever",
+      "name_zh": "伊利亚·苏茨克维尔",
+      "role": "SSI（Safe Superintelligence）创始人兼首席科学家、前 OpenAI 首席科学家",
+      "affiliation": "Safe Superintelligence Inc.（2024 创立，融资 30 亿美元）",
+      "field": "scaling",
+      "style": "安全派/研究驱动派",
+      "danger_stance": 1,
+      "danger_axis": "existential",
+      "danger_basis": "以\"安全超级智能\"为唯一使命创立 SSI，强调先解决 AGI 对齐再谈商业；未给具体 P(doom) 数字",
+      "agi_year_low": 2030,
+      "agi_year_high": 2045,
+      "agi_range": "5-20 年内（超级智能到来时间）",
+      "agi_basis": "2025 Dwarkesh 播客估计通用/超级智能约 5-20 年内到来",
+      "rating": "★★★★",
+      "latest_view": "宣布\"扩展时代结束\"、AI 进入\"研究时代\"；核心问题是模型泛化远逊人类，单靠 100 倍算力无法解决；SSI 以 30 亿融资押注研究突破而非产品竞速。",
+      "latest_date": "2025-11-25",
+      "direction_topics": [
+        "从扩展时代转向研究时代",
+        "泛化能力是核心瓶颈",
+        "超智能 5-20 年到来",
+        "SSI 直取安全超级智能"
+      ],
+      "source_url": "https://www.dwarkesh.com/p/ilya-sutskever-2",
+      "year_timeline": [
+        {
+          "date": "2025-11-25",
+          "text": "Dwarkesh 播客：宣告\"扩展时代\"终结、进入\"研究时代\"，超智能 5-20 年内到来。",
+          "url": "https://www.dwarkesh.com/p/ilya-sutskever-2"
+        }
+      ]
+    },
+    {
+      "kol_name": "Alex Karp",
+      "name_zh": "亚历克斯·卡普",
+      "role": "Palantir CEO & 联合创始人",
+      "affiliation": "Palantir Technologies",
+      "field": "industry",
+      "style": "极端叙事派/权力竞赛派",
+      "danger_stance": 1,
+      "danger_axis": "power-race",
+      "danger_basis": "\"我对 AI 的倾向是它很危险……要么我们赢要么中国赢\"；主张 AI 军事化、西方须靠硬实力赢下 AI 主导权（\"第二名即灭绝\"）；权力竞赛轴，非 AI 自主灭世恐惧",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "未给明确 AGI 时间（聚焦地缘 AI 军备竞赛与国家主导权）",
+      "agi_basis": "公开表态聚焦美中 AI 军备竞赛与西方必须获胜，框架是国家权力与文明存续而非技术奇点时间",
+      "rating": "★★★★",
+      "latest_view": "AI 军备竞赛只有一个赢家——\"要么我们赢要么中国赢\"、\"第二名即灭绝\"；西方须靠\"硬实力\"与\"技术共和国\"赢下 AI 主导权，盟友必须向美国学习，否则文明衰落。",
+      "latest_date": "2026-04-20",
+      "direction_topics": [
+        "\"AI 很危险……要么我们赢要么中国赢\"",
+        "\"第二名即灭绝\"美中 AI 军备赛",
+        "《技术共和国》硬实力+软信念",
+        "主张科技与国防军事化"
+      ],
+      "source_url": "https://www.cnbc.com/2025/06/05/palantir-karp-ai-dangerous-china.html",
+      "year_timeline": [
+        {
+          "date": "2025-06-05",
+          "text": "CNBC 受访：\"我对 AI 的倾向是它很危险……要么我们赢要么中国赢\"，盟友须向美国学习。",
+          "url": "https://www.cnbc.com/2025/06/05/palantir-karp-ai-dangerous-china.html"
+        },
+        {
+          "date": "2026-04-20",
+          "text": "Palantir《技术共和国》22 点宣言引热议：主张硬实力护卫民主、西方须赢下 AI。",
+          "url": "https://www.businessinsider.com/palantir-manifesto-alex-karp-technological-republic-summary-2026-4"
+        }
+      ]
+    },
+    {
+      "kol_name": "Judea Pearl",
+      "name_zh": "朱迪亚·珀尔",
+      "role": "2011图灵奖、因果推理之父、贝叶斯网络先驱",
+      "affiliation": "加州大学洛杉矶分校（UCLA）",
+      "field": "reasoning",
+      "style": "怀疑派/因果派",
+      "danger_stance": 1,
+      "danger_axis": "existential",
+      "danger_basis": "罕见发较重警告：人类或将沦为地球第二聪明物种、甚至成为所造物种的\"宠物\"；轻度灭世恐惧轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "未给明确年份",
+      "agi_basis": "关注 AGI 的因果推理能力缺口，认为通用 AI 或具意识/自由意志与世界模型，但不锚定具体时间",
+      "rating": "★★★★",
+      "latest_view": "警告生成式 AI 热潮正掏空因果推理研究；同时罕见表态人类可能很快成地球第二聪明物种、甚至沦为 AI\"宠物\"，呼吁警惕。当前深度学习仍停在因果阶梯最低层的\"曲线拟合\"。",
+      "latest_date": "2026-03-09",
+      "direction_topics": [
+        "因果阶梯与可信 AGI",
+        "生成式 AI 挤压因果研究真空",
+        "人类或成第二聪明物种的存在风险",
+        "反事实/\"如果\"推理是人类独有智能"
+      ],
+      "source_url": "https://www.instagram.com/reel/DN9Mr0nCCt6/",
+      "year_timeline": [
+        {
+          "date": "2025-08-29",
+          "text": "公开警告：人类或很快成为地球第二聪明物种，甚至沦为 AI 宠物。",
+          "url": "https://www.instagram.com/reel/DN9Mr0nCCt6/"
+        },
+        {
+          "date": "2026-03-09",
+          "text": "重申生成式 AI 热潮正在因果研究领域制造真空。",
+          "url": "https://note.com/betaitohuman/n/nf47d88b7ffeb"
+        }
+      ]
+    },
+    {
+      "kol_name": "Fei-Fei Li",
+      "name_zh": "李飞飞",
+      "role": "斯坦福大学教授、ImageNet 之母、World Labs 联合创始人兼 CEO",
+      "affiliation": "World Labs / Stanford HAI",
+      "field": "world-model",
+      "style": "中性务实派",
+      "danger_stance": 0,
+      "danger_axis": "skeptic",
+      "danger_basis": "长期反对末世恐慌，主张\"以人为本 AI\"，认为夸大灭世风险偏离现实、更关注 AI 落地与治理；怀疑/中性轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "未给 AGI 年份；倾向质疑\"AGI\"术语，聚焦\"空间智能\"为下一前沿",
+      "agi_basis": "2025-11《From Words to Worlds》长文不谈 AGI 时间，将重心放在空间智能与世界模型这一具体技术前沿",
+      "rating": "★★★★",
+      "latest_view": "空间智能是 AI 下一前沿：当前 LLM\"博学却无根基\"，在距离/方向/物理预测上\"几乎不比随机好\"。需要\"世界模型\"——生成性、多模态、交互性，重塑创作、机器人与科学发现，坚持以人为本。",
+      "latest_date": "2025-11-10",
+      "direction_topics": [
+        "空间智能是 AI 下一大前沿",
+        "\"世界模型\"三要素：生成/多模态/交互",
+        "LLM 缺物理世界根基",
+        "以人为本，反对末世恐慌"
+      ],
+      "source_url": "https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence",
+      "year_timeline": [
+        {
+          "date": "2025-11-10",
+          "text": "发表《From Words to Worlds》：提出空间智能是 AI 下一前沿，阐述世界模型三大要素。",
+          "url": "https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence"
+        }
+      ]
+    },
+    {
+      "kol_name": "Jeff Dean",
+      "name_zh": "杰夫·迪恩",
+      "role": "Google DeepMind / Google Research 首席科学家",
+      "affiliation": "Google DeepMind / Google Research",
+      "field": "scaling",
+      "style": "务实派",
+      "danger_stance": 0,
+      "danger_axis": "skeptic",
+      "danger_basis": "务实工程视角，聚焦硬件-算法协同、长上下文与能力实用性，不渲染灭世风险，也回避为 AGI 设明确定义或时间；务实中性轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "不为 AGI 下明确定义或时间；强调能力是连续、渐进演进",
+      "agi_basis": "Dwarkesh 播客以\"给定下一词概率分布即 AI-complete\"的工程视角看待通用能力，强调持续改进而非某个 AGI 时刻",
+      "rating": "★★★★",
+      "latest_view": "从 25 年工程实践看 AI 是连续演进：摩尔定律放缓推动 TPU 等专用硬件与低精度协同；长上下文让模型信息\"清晰锐利\"减少幻觉。视语言建模为\"AI-complete\"，强调实用能力而非 AGI 定义。",
+      "latest_date": "2025-02-12",
+      "direction_topics": [
+        "硬件-算法协同：专用芯片与低精度量化",
+        "长上下文减少幻觉、提升能力",
+        "语言建模\"AI-complete\"、能力连续渐进",
+        "务实回避 AGI 定义与时间线"
+      ],
+      "source_url": "https://www.dwarkesh.com/p/jeff-dean-and-noam-shazeer",
+      "year_timeline": [
+        {
+          "date": "2025-02-12",
+          "text": "Dwarkesh 播客：回顾 Google 25 年，谈硬件演进、低精度量化、长上下文与 Gemini。",
+          "url": "https://www.dwarkesh.com/p/jeff-dean-and-noam-shazeer"
+        }
+      ]
+    },
+    {
+      "kol_name": "Liang Wenfeng",
+      "name_zh": "梁文锋",
+      "role": "DeepSeek 创始人兼 CEO",
+      "affiliation": "DeepSeek / 幻方 High-Flyer",
+      "field": "reasoning",
+      "style": "加速派",
+      "danger_stance": 0,
+      "danger_axis": "acceleration",
+      "danger_basis": "聚焦 AGI 攻坚、推理模型与开源普惠，以低成本与国产算力路线推动能力加速，极少谈灭世风险；务实加速轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "以 AGI 为公司长期使命，但未公开给明确到达年份",
+      "agi_basis": "自 2023 宣布转向 AGI 起始终将其设为使命方向，但公开表态不设具体时间表，强调持续研究与架构创新",
+      "rating": "★★★★",
+      "latest_view": "坚持以 AGI 为使命，通过低成本训练（MLA/MoE）与开源推动技术普惠，曾引发中国 AI 价格战。走国产算力与自研架构路线，组织扁平、无 KPI，重视本土年轻研究者原创探索；认为持续学习是下一代关键突破口。",
+      "latest_date": "2025-11-01",
+      "direction_topics": [
+        "以 AGI 为长期使命、持续架构创新",
+        "开源普惠、低成本训练重塑成本",
+        "国产算力/自研架构路线",
+        "扁平、去 KPI、重原创文化"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Liang_Wenfeng",
+      "year_timeline": [
+        {
+          "date": "2025-08-01",
+          "text": "入选《时代》100 位 AI 最具影响力人物及《财富》全球商业最有权势人物榜。",
+          "url": "https://en.wikipedia.org/wiki/Liang_Wenfeng"
+        }
+      ]
+    },
+    {
+      "kol_name": "Peter Thiel",
+      "name_zh": "彼得·蒂尔",
+      "role": "Palantir 联合创始人 / Founders Fund 投资人",
+      "affiliation": "Palantir 联创 / Founders Fund",
+      "field": "industry",
+      "style": "极端叙事派",
+      "danger_stance": -1,
+      "danger_axis": "skeptic",
+      "danger_basis": "反主流：认为除 AI 外世界近乎\"全面停滞\"，真正危险不是 AI 失控而是对 AI 的恐惧/监管——过度管制会加速\"敌基督\"式全球集权；怀疑/反乌托邦叙事轴",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "未给明确 AGI 时间；质疑\"AGI\"定义本身、认为 AI 进展被高估",
+      "agi_basis": "反复纠缠\"如何定义 AGI\"的技术争论，暗示除 AI 外近乎全面停滞、对 AI 能否达 AGI 持怀疑",
+      "rating": "★★★★",
+      "latest_view": "反主流：除 AI 外世界近乎\"大停滞\"，真正危险不是 AI 灭世而是因恐惧 AI 而监管、退缩——那会招致\"敌基督\"式全球集权，所以必须要更多而非更少的技术进步。",
+      "latest_date": "2025-09-23",
+      "direction_topics": [
+        "除 AI 外世界\"大停滞\"，呼吁更多技术进步",
+        "危险在恐惧/监管 AI 招致\"敌基督\"集权",
+        "质疑 AGI 定义与 AI 叙事被炒作",
+        "反乌托邦框架：\"和平与安全\"下的全球集权"
+      ],
+      "source_url": "https://www.nytimes.com/2025/06/26/opinion/peter-thiel-antichrist-ross-douthat.html",
+      "year_timeline": [
+        {
+          "date": "2025-06-26",
+          "text": "NYT《蒂尔与敌基督》访谈：除 AI 外近乎全面停滞，恐惧/监管技术会加速\"敌基督\"到来。",
+          "url": "https://www.nytimes.com/2025/06/26/opinion/peter-thiel-antichrist-ross-douthat.html"
+        },
+        {
+          "date": "2025-09-23",
+          "text": "WSJ 报道其系列讲座：恐惧、监管或反对技术进步都会加速\"敌基督\"降临。",
+          "url": "https://www.wsj.com/tech/peter-thiel-antichrist-lectures-dd28c876"
+        }
+      ]
+    },
+    {
+      "kol_name": "Daron Acemoglu",
+      "name_zh": "达龙·阿西莫格鲁",
+      "role": "2024诺贝尔经济学奖得主、MIT 经济学教授、《权力与进步》作者",
+      "affiliation": "MIT",
+      "field": "industry",
+      "style": "怀疑派/经济现实派",
+      "danger_stance": -1,
+      "danger_axis": "skeptic",
+      "danger_basis": "从经济学角度泼冷水：未来10年AI仅能自动化约5%任务、对GDP拉动被严重高估(十年累计约1.1-1.6%);真正风险不是灭世而是加剧不平等、劳工议价权受损与生产率泡沫",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "不做AGI年份预测(认为AGI叙事被夸大)",
+      "agi_basis": "拒绝AGI时间预测,认为当前'超智能即将到来'是行业炒作;关注AI的实际经济渗透率而非科幻时点",
+      "rating": "★★★★",
+      "latest_view": "AI经济效益被严重高估,十年GDP增量约1%级别;真危险是财富向资本集中、劳动者受损。主张把AI导向'增强劳工'而非替代,反对无节制自动化叙事。",
+      "latest_date": "2026-01-01",
+      "direction_topics": [
+        "AI经济效益被高估(十年GDP~1%)",
+        "AI加剧不平等/削弱劳工议价权",
+        "增强劳工vs替代劳工的技术路线选择",
+        "生产率泡沫风险"
+      ],
+      "source_url": "https://www.nber.org/papers/w32487",
+      "year_timeline": [
+        {
+          "date": "2025-05",
+          "event": "持续公开质疑AI生产率狂热,重申《The Simple Macroeconomics of AI》十年GDP增量约1.1-1.6%的估算"
+        },
+        {
+          "date": "2026-01",
+          "event": "就AI资本开支泡沫与就业冲击密集发声,警告市场对AI回报预期严重超前"
+        }
+      ]
+    },
+    {
+      "kol_name": "Romeo Dean",
+      "name_zh": "罗密欧·迪恩",
+      "role": "AI Futures Project 研究员(算力/compute方向)、AI-2027《算力预测》唯一作者、哈佛CS硕士",
+      "affiliation": "AI Futures Project",
+      "field": "hardware",
+      "style": "安全派/算力建模派",
+      "danger_stance": 2,
+      "danger_axis": "existential",
+      "danger_basis": "LessWrong公开给出整体p(doom)≈55%(2026-02更新),判断'Plan C(实验室为赢竞赛牺牲安全)很可能已是默认路径';AI-2027合著者",
+      "agi_year_low": 2028,
+      "agi_year_high": 2032,
+      "agi_range": "个人倾向偏晚(著《A 2032 Takeoff Story》);报告官方AGI中位数2028-2032",
+      "agi_basis": "个人撰写2032起飞叙事,晚于报告2027众数;认真对待更长时间线,但仍认为2027出现超人程序员是严肃可能(年底前~25-40%概率)",
+      "rating": "★★★",
+      "latest_view": "AI-2027算力权威:预测全球AI算力2025.3约1000万H100e→2027年1亿(10×);识别CoWoS封装与HBM为瓶颈;警告中国2030后有很大机会在算力上反超美国。",
+      "latest_date": "2026-02-18",
+      "direction_topics": [
+        "全球AI算力建模(H100e,2.25×/年)",
+        "CoWoS/HBM封装瓶颈",
+        "美中算力竞争(中国2030后或反超)",
+        "p(doom)≈55%"
+      ],
+      "source_url": "https://ai-2027.com/research/compute-forecast",
+      "year_timeline": [
+        {
+          "date": "2025-04",
+          "event": "发布AI-2027《Compute Forecast》,建模全球AI算力10×增长路径"
+        },
+        {
+          "date": "2025-11-06",
+          "event": "《A 2032 Takeoff Story》发表,阐述个人偏晚的起飞时间线"
+        },
+        {
+          "date": "2026-02-18",
+          "event": "LessWrong更新整体p(doom)≈55%,判断Plan C或已是默认路径"
+        }
+      ]
+    }
+  ],
+  "kol_count": 21,
+  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。"
+};
+Promise.resolve(__DATA__).then(d=>{
+  document.getElementById('update-time').textContent='更新于 '+d.generated_at_jst;
+  document.getElementById('kolCount').textContent=d.kol_count;
+
+  // 平衡杆
+  const g=d.danger_gauge; const pct=(g.gauge+100)/2;
+  const nd=document.getElementById('needle'); nd.style.left=pct+'%';
+  document.getElementById('gaugeVal').textContent=(g.gauge>0?'+':'')+g.gauge;
+  document.getElementById('gaugeMethod').textContent=g.method;
+  const dist=g.distribution; const dr=document.getElementById('distRow');
+  [['+2','极危'],['+1','警惕'],['0','中性'],['-1','乐观'],['-2','极乐观']].forEach(([k,lbl])=>{
+    const n=dist[k]||0; const p=document.createElement('span'); p.className='dist-pill';
+    p.style.color=DIR_COLOR[parseInt(k)]; p.textContent=`${lbl} ${k}：${n} 人`; dr.appendChild(p);
+  });
+  // 危险语义轴图例（按 axis 分色）
+  const ad=g.axis_distribution||{};
+  const axisRow=document.createElement('div'); axisRow.className='dist-row'; axisRow.style.marginTop='10px';
+  const axisLbl=document.createElement('span'); axisLbl.className='subtle'; axisLbl.style.width='100%';
+  axisLbl.textContent='危险语义轴（同为"危险"但叙事不同）：'; axisRow.appendChild(axisLbl);
+  ['existential','power-race','acceleration','skeptic'].forEach(ax=>{
+    const n=ad[ax]||0; if(!n)return;
+    const p=document.createElement('span'); p.className='dist-pill';
+    p.style.borderColor=AXIS_COLOR[ax]; p.style.color=AXIS_COLOR[ax];
+    p.innerHTML=`<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${AXIS_COLOR[ax]};margin-right:5px"></span>${AXIS_TXT[ax]} ${n} 人`;
+    axisRow.appendChild(p);
+  });
+  dr.parentNode.insertBefore(axisRow, document.getElementById('gaugeMethod'));
+
+  // AGI 时间轴
+  const af=d.agi_forecast; const ax=document.getElementById('agiAxis');
+  const s=af.axis_start,e=af.axis_end;
+  for(let y=s;y<=e;y+=5){const t=document.createElement('div');t.className='agi-tick';t.style.left=((y-s)/(e-s)*100)+'%';t.innerHTML='<span>'+y+'</span>';ax.appendChild(t);}
+  // 防标签重叠: 按 x 排序; 距离近的标签垂直逐级堆叠 + 同年份圆点水平微抖动
+  const MIN_GAP=9;
+  let lastX=-99, level=0;
+  af.points.forEach((p,i)=>{
+    let x=(p.year-s)/(e-s)*100;
+    if(x-lastX<MIN_GAP){level++;}else{level=0;}
+    lastX=x;
+    // 同一年份(level>0)的圆点做水平微抖动,避免圆点完全重合
+    const jitter=level>0?(level%2===0?level*0.9:-level*0.9):0;
+    const el=document.createElement('div');el.className='agi-pt';
+    el.style.left=(x+jitter)+'%';
+    const topOff=-26-level*19;
+    el.innerHTML=`<div class="agi-dot" style="background:${AXIS_COLOR[p.axis]||DIR_COLOR[p.stance]}"></div>`+
+      `<div class="lbl" style="top:${topOff}px">${p.name} ${p.year}</div>`+
+      (level>0?`<div style="position:absolute;left:50%;top:${topOff+16}px;width:1px;height:${-topOff-16}px;background:var(--border);transform:translateX(-50%)"></div>`:'');
+    el.title=p.name+'：'+(p.range||p.year)+'\n'+p.basis;
+    ax.appendChild(el);
+  });
+  const ny=af.no_prediction||[];
+  document.getElementById('agiNoYear').innerHTML='<b>不给明确年份：</b>'+
+    (ny.length?ny.map(x=>x.name).join('、'):'无')+'　<span class="subtle">（如珀尔/萨顿/李飞飞等认为当前路线通不向真 AGI 或质疑 AGI 概念本身）</span>';
+
+  // 方向 news
+  const dc=document.getElementById('directions');
+  if(!d.directions||!d.directions.length){dc.innerHTML='<div class="card empty">过去 24 小时该方向暂无精选新增。</div>';}
+  else d.directions.forEach(dir=>{
+    const b=document.createElement('div');b.className='card dir-block';
+    let h=`<div class="dir-head">${dir.label}<span class="cnt">· ${dir.count} 条</span></div>`;
+    dir.news.forEach(n=>{
+      h+=`<div class="news-item"><a href="${n.permalink}" target="_blank">${n.title}</a>`+
+        (n.score?`<span class="score-badge">${n.score}</span>`:'')+
+        `<div class="news-meta">${n.source} · ${n.time}</div>`+
+        (n.summary?`<div class="news-sum">${n.summary}</div>`:'')+`</div>`;
+    });
+    b.innerHTML=h;dc.appendChild(b);
+  });
+
+  // hot topics 附在方向区后
+  if(d.hot_topics&&d.hot_topics.length){
+    const hb=document.createElement('div');hb.className='card';
+    hb.innerHTML='<div class="dir-head">🔥 当前多源热点</div>'+
+      d.hot_topics.map(t=>`<div class="news-item"><a href="${t.permalink}" target="_blank">${t.title}</a>`+
+      (t.source_count?`<span class="score-badge">${t.source_count} 源</span>`:'')+`</div>`).join('');
+    dc.appendChild(hb);
+  }
+
+  // KOL 卡
+  const kg=document.getElementById('kolGrid');
+  d.kol_cards.forEach(k=>{
+    const c=document.createElement('div');c.className='kol-card '+(STANCE_CLS[k.danger_stance]||'s0');
+    const dcls=k.danger_stance>0?'danger':(k.danger_stance<0?'safe':'');
+    c.innerHTML=`<div class="kol-top"><div class="kol-name">${k.name_zh} <small>${k.kol_name}</small></div><div class="kol-rating">${k.rating||''}</div></div>`+
+      `<div class="kol-role">${k.role}</div>`+
+      `<div class="kol-tags"><span class="tag ${dcls}">危险 ${STANCE_TXT[k.danger_stance]}</span>`+
+      (k.danger_axis?`<span class="tag" style="border-color:${AXIS_COLOR[k.danger_axis]};color:${AXIS_COLOR[k.danger_axis]}">${AXIS_TXT[k.danger_axis]}</span>`:'')+
+      `<span class="tag agi">AGI ${k.agi_range?(k.agi_year_low&&k.agi_year_high&&k.agi_year_low!==k.agi_year_high?k.agi_year_low+'-'+k.agi_year_high:(k.agi_year_low||'—')):'—'}</span>`+
+      `<span class="tag">${k.style}</span></div>`+
+      `<div class="kol-view">${k.latest_view}</div>`+
+      `<div class="kol-basis">📊 ${k.danger_basis}　<a href="${k.source_url}" target="_blank">来源 ↗</a></div>`;
+    kg.appendChild(c);
+  });
+
+  document.getElementById('footer').textContent=d.data_note+' · '+d.generated_at_jst;
+}).catch(e=>{document.getElementById('update-time').textContent='数据加载失败: '+e;});
+
+// ── LMArena 模型能力榜 ──
+function renderLM(lm){
+  document.getElementById('lmDate').textContent=lm.generated_at_jst+' · '+lm.compare_window;
+  const cats=lm.categories; const slugs=Object.keys(cats);
+  const tabs=document.getElementById('lmTabs'); const tbl=document.getElementById('lmTable');
+  const note=document.getElementById('lmNote');
+  function draw(slug){
+    [...tabs.children].forEach(t=>t.classList.toggle('active',t.dataset.slug===slug));
+    const c=cats[slug];
+    let h=`<div class="lm-row head"><span>#</span><span>模型</span><span style="text-align:right">Elo</span><span style="text-align:center">排名Δ</span><span style="text-align:center">分数Δ</span></div>`;
+    if(!c.rows||!c.rows.length){ h+=`<div class="empty">暂无数据（${c.error||'抓取失败'}）</div>`; }
+    c.rows.forEach(r=>{
+      let rd,sd;
+      if(r.is_new){rd='<span class="lm-new">NEW</span>';}
+      else if(r.rank_delta===null||r.rank_delta===undefined){rd='<span class="lm-flat">—</span>';}
+      else if(r.rank_delta>0){rd=`<span class="lm-up">↑${r.rank_delta}</span>`;}
+      else if(r.rank_delta<0){rd=`<span class="lm-down">↓${-r.rank_delta}</span>`;}
+      else{rd='<span class="lm-flat">─</span>';}
+      if(r.score_delta===null||r.score_delta===undefined){sd='<span class="lm-flat">—</span>';}
+      else if(r.score_delta>0){sd=`<span class="lm-up">+${r.score_delta}</span>`;}
+      else if(r.score_delta<0){sd=`<span class="lm-down">${r.score_delta}</span>`;}
+      else{sd='<span class="lm-flat">0</span>';}
+      h+=`<div class="lm-row"><span class="lm-rank">${r.rank}</span>`+
+        `<span class="lm-model">${r.model}<small>${r.org||''}</small></span>`+
+        `<span class="lm-score">${r.score??'—'}</span>`+
+        `<span class="lm-delta">${rd}</span><span class="lm-delta">${sd}</span></div>`;
+    });
+    tbl.innerHTML=h;
+    let n=`数据源：${lm.source}`;
+    if(c.stale)n+=` ⚠️ 该榜今日未更新，显示 ${c.stale_date} 快照`;
+    if(!c.baseline_date)n+='　｜ 环比基线建立中（约30天后显示 vs 上月变动）';
+    else n+=`　｜ 环比基线：${c.baseline_date}`;
+    note.textContent=n;
+  }
+  slugs.forEach((slug,i)=>{
+    const b=document.createElement('div'); b.className='lm-tab'+(i===0?' active':'');
+    b.dataset.slug=slug; b.textContent=cats[slug].name;
+    b.onclick=()=>draw(slug); tabs.appendChild(b);
+  });
+  if(slugs.length)draw(slugs[0]);
+}
+Promise.resolve({
+  "generated_at_jst": "2026-08-16 17:52 JST",
+  "date": "2026-08-16",
+  "source": "LMArena (lmarena.ai/leaderboard/text)",
+  "compare_window": "vs ~30 天前",
+  "categories": {
+    "overall": {
+      "name": "Overall",
+      "rows": [
+        {
+          "rank": 1,
+          "model": "claude-fable-5",
+          "org": "Anthropic",
+          "score": 1506,
+          "votes": "21,533",
+          "price": "$10 / $50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 2,
+          "model": "claude-opus-4-6-high",
+          "org": "Anthropic",
+          "score": 1505,
+          "votes": "72,516",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-4-7-high",
+          "org": "Anthropic",
+          "score": 1502,
+          "votes": "60,331",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 4,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1498,
+          "votes": "3,280",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 5,
+          "model": "claude-opus-4-6",
+          "org": "Anthropic",
+          "score": 1497,
+          "votes": "76,474",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 6,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1494,
+          "votes": "61,419",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 7,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1493,
+          "votes": "20,030",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 8,
+          "model": "qwen3.8-max",
+          "org": "Alibaba",
+          "score": 1491,
+          "votes": "7,004",
+          "price": "$2 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 9,
+          "model": "gemini-3.7-flash-high",
+          "org": "Google",
+          "score": 1490,
+          "votes": "5,744",
+          "price": "$0.75 / $3.57",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 10,
+          "model": "claude-opus-5-max",
+          "org": "Anthropic",
+          "score": 1489,
+          "votes": "9,679",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 11,
+          "model": "muse-spark-1.1",
+          "org": "Meta",
+          "score": 1489,
+          "votes": "16,928",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 12,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1489,
+          "votes": "11,969",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 13,
+          "model": "muse-spark",
+          "org": "Meta",
+          "score": 1488,
+          "votes": "13,592",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 14,
+          "model": "gemini-3.1-pro-preview",
+          "org": "Google",
+          "score": 1486,
+          "votes": "95,107",
+          "price": "$1 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 15,
+          "model": "gemini-3-pro",
+          "org": "Google",
+          "score": 1485,
+          "votes": "41,509",
+          "price": "$2 / $12",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 16,
+          "model": "gemini-3.6-flash-high",
+          "org": "Google",
+          "score": 1484,
+          "votes": "13,815",
+          "price": "$0.38 / $1.88",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 17,
+          "model": "gpt-5.5-high",
+          "org": "OpenAI",
+          "score": 1482,
+          "votes": "55,454",
+          "price": "$2.50 / $15",
+          "ctx": "1.1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 18,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1481,
+          "votes": "40,706",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 19,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1481,
+          "votes": "15,558",
+          "price": "$5 / $30",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 20,
+          "model": "gemini-3.5-flash-high",
+          "org": "Google",
+          "score": 1477,
+          "votes": "25,861",
+          "price": "$0.75 / $4.50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        }
+      ],
+      "stale": false,
+      "baseline_date": null
+    },
+    "coding": {
+      "name": "Coding",
+      "rows": [
+        {
+          "rank": 1,
+          "model": "claude-fable-5",
+          "org": "Anthropic",
+          "score": 1554,
+          "votes": "5,817",
+          "price": "$10 / $50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 2,
+          "model": "claude-opus-4-7-high",
+          "org": "Anthropic",
+          "score": 1552,
+          "votes": "17,272",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-4-6-high",
+          "org": "Anthropic",
+          "score": 1551,
+          "votes": "18,894",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 4,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1548,
+          "votes": "17,423",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 5,
+          "model": "claude-opus-4-6",
+          "org": "Anthropic",
+          "score": 1547,
+          "votes": "21,341",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 6,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1544,
+          "votes": "3,176",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 7,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1533,
+          "votes": "11,417",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 8,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1533,
+          "votes": "947",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 9,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1531,
+          "votes": "5,433",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 10,
+          "model": "muse-spark-1.1",
+          "org": "Meta",
+          "score": 1531,
+          "votes": "5,002",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 11,
+          "model": "claude-opus-4-5-20251101-high-32k",
+          "org": "Anthropic",
+          "score": 1530,
+          "votes": "7,661",
+          "price": "$5 / $25",
+          "ctx": "200K",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 12,
+          "model": "claude-opus-5-max",
+          "org": "Anthropic",
+          "score": 1530,
+          "votes": "2,612",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 13,
+          "model": "qwen3.8-max",
+          "org": "Alibaba",
+          "score": 1529,
+          "votes": "2,146",
+          "price": "$2 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 14,
+          "model": "claude-sonnet-4-6",
+          "org": "Anthropic",
+          "score": 1528,
+          "votes": "18,468",
+          "price": "$1.50 / $7.50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 15,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1526,
+          "votes": "4,436",
+          "price": "$5 / $30",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 16,
+          "model": "muse-spark",
+          "org": "Meta",
+          "score": 1526,
+          "votes": "3,777",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 17,
+          "model": "qwen3.7-max-preview",
+          "org": "Alibaba",
+          "score": 1525,
+          "votes": "1,120",
+          "price": "$1.48 / $4.42",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 18,
+          "model": "claude-opus-4-8",
+          "org": "Anthropic",
+          "score": 1524,
+          "votes": "11,655",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 19,
+          "model": "claude-sonnet-5-high",
+          "org": "Anthropic",
+          "score": 1523,
+          "votes": "6,509",
+          "price": "$1 / $5",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 20,
+          "model": "claude-opus-4-5-20251101",
+          "org": "Anthropic",
+          "score": 1523,
+          "votes": "17,321",
+          "price": "$5 / $25",
+          "ctx": "200K",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        }
+      ],
+      "stale": false,
+      "baseline_date": null
+    },
+    "instruction": {
+      "name": "Instruction Following",
+      "rows": [
+        {
+          "rank": 1,
+          "model": "claude-opus-4-6-high",
+          "org": "Anthropic",
+          "score": 1514,
+          "votes": "23,070",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 2,
+          "model": "claude-fable-5",
+          "org": "Anthropic",
+          "score": 1511,
+          "votes": "7,581",
+          "price": "$10 / $50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-4-7-high",
+          "org": "Anthropic",
+          "score": 1503,
+          "votes": "20,936",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 4,
+          "model": "claude-opus-4-6",
+          "org": "Anthropic",
+          "score": 1500,
+          "votes": "25,289",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 5,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1498,
+          "votes": "7,168",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 6,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1494,
+          "votes": "14,140",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 7,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1493,
+          "votes": "21,420",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 8,
+          "model": "claude-opus-5-max",
+          "org": "Anthropic",
+          "score": 1490,
+          "votes": "3,327",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 9,
+          "model": "gemini-3.7-flash-high",
+          "org": "Google",
+          "score": 1486,
+          "votes": "2,074",
+          "price": "$0.75 / $3.57",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 10,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1484,
+          "votes": "3,999",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 11,
+          "model": "claude-opus-4-5-20251101-high-32k",
+          "org": "Anthropic",
+          "score": 1483,
+          "votes": "9,608",
+          "price": "$5 / $25",
+          "ctx": "200K",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 12,
+          "model": "qwen3.8-max",
+          "org": "Alibaba",
+          "score": 1481,
+          "votes": "2,536",
+          "price": "$2 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 13,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1481,
+          "votes": "5,312",
+          "price": "$5 / $30",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 14,
+          "model": "gemini-3.1-pro-preview",
+          "org": "Google",
+          "score": 1481,
+          "votes": "31,831",
+          "price": "$1 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 15,
+          "model": "gpt-5.5-high",
+          "org": "OpenAI",
+          "score": 1479,
+          "votes": "18,967",
+          "price": "$2.50 / $15",
+          "ctx": "1.1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 16,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1478,
+          "votes": "1,195",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 17,
+          "model": "gemini-3.6-flash-high",
+          "org": "Google",
+          "score": 1477,
+          "votes": "4,947",
+          "price": "$0.38 / $1.88",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 18,
+          "model": "claude-opus-4-8",
+          "org": "Anthropic",
+          "score": 1476,
+          "votes": "14,374",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 19,
+          "model": "claude-sonnet-4-6",
+          "org": "Anthropic",
+          "score": 1476,
+          "votes": "22,165",
+          "price": "$1.50 / $7.50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 20,
+          "model": "claude-opus-4-5-20251101",
+          "org": "Anthropic",
+          "score": 1475,
+          "votes": "20,892",
+          "price": "$5 / $25",
+          "ctx": "200K",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        }
+      ],
+      "stale": false,
+      "baseline_date": null
+    },
+    "hard-prompts": {
+      "name": "Hard Prompts",
+      "rows": [
+        {
+          "rank": 1,
+          "model": "claude-opus-4-6-high",
+          "org": "Anthropic",
+          "score": 1533,
+          "votes": "45,961",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 2,
+          "model": "claude-fable-5",
+          "org": "Anthropic",
+          "score": 1532,
+          "votes": "14,125",
+          "price": "$10 / $50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-4-6",
+          "org": "Anthropic",
+          "score": 1526,
+          "votes": "49,509",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 4,
+          "model": "claude-opus-4-7-high",
+          "org": "Anthropic",
+          "score": 1526,
+          "votes": "40,392",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 5,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1520,
+          "votes": "13,390",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 6,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1519,
+          "votes": "41,065",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 7,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1516,
+          "votes": "7,835",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 8,
+          "model": "qwen3.8-max",
+          "org": "Alibaba",
+          "score": 1516,
+          "votes": "4,807",
+          "price": "$2 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 9,
+          "model": "claude-opus-5-max",
+          "org": "Anthropic",
+          "score": 1516,
+          "votes": "6,388",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 10,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1512,
+          "votes": "27,076",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 11,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1511,
+          "votes": "2,148",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 12,
+          "model": "muse-spark-1.1",
+          "org": "Meta",
+          "score": 1510,
+          "votes": "11,458",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 13,
+          "model": "gemini-3.7-flash-high",
+          "org": "Google",
+          "score": 1508,
+          "votes": "3,863",
+          "price": "$0.75 / $3.57",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 14,
+          "model": "gemini-3.1-pro-preview",
+          "org": "Google",
+          "score": 1507,
+          "votes": "61,475",
+          "price": "$1 / $6",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 15,
+          "model": "muse-spark",
+          "org": "Meta",
+          "score": 1505,
+          "votes": "8,757",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 16,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1504,
+          "votes": "10,306",
+          "price": "$5 / $30",
+          "ctx": "N/A",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 17,
+          "model": "gemini-3-pro",
+          "org": "Google",
+          "score": 1504,
+          "votes": "22,657",
+          "price": "$2 / $12",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 18,
+          "model": "gemini-3.6-flash-high",
+          "org": "Google",
+          "score": 1504,
+          "votes": "9,406",
+          "price": "$0.38 / $1.88",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 19,
+          "model": "claude-opus-4-8",
+          "org": "Anthropic",
+          "score": 1503,
+          "votes": "27,531",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        },
+        {
+          "rank": 20,
+          "model": "claude-sonnet-4-6",
+          "org": "Anthropic",
+          "score": 1503,
+          "votes": "43,291",
+          "price": "$1.50 / $7.50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": false
+        }
+      ],
+      "stale": false,
+      "baseline_date": null
+    }
+  }
+}).then(renderLM)
+  .catch(e=>{document.getElementById('lmNote').textContent='模型榜加载失败: '+e;});
+
+// ── 年度里程碑时间线 ──
+function renderTL(tl){
+  const secs=tl.sectors||[];
+  document.getElementById('tlWindow').textContent=(tl._meta&&tl._meta.window)||'';
+  const tabs=document.getElementById('tlTabs'), body=document.getElementById('tlBody'), sum=document.getElementById('tlSummary');
+  function draw(slug){
+    [...tabs.children].forEach(t=>t.classList.toggle('active',t.dataset.slug===slug));
+    const s=secs.find(x=>x.slug===slug); if(!s)return;
+    sum.textContent=s.summary||'';
+    // 时间倒序(最新在上)
+    const evs=[...s.events].sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    body.innerHTML='<div class="tl-line">'+evs.map(e=>
+      `<div class="tl-item"><div class="tl-date">${e.date}</div>`+
+      `<div class="tl-title"><a href="${e.source_url}" target="_blank">${e.title}</a></div>`+
+      `<div class="tl-impact">${e.impact||''}</div></div>`).join('')+'</div>';
+  }
+  secs.forEach((s,i)=>{
+    const b=document.createElement('div'); b.className='lm-tab'+(i===0?' active':'');
+    b.dataset.slug=s.slug; b.textContent=(s.icon?s.icon+' ':'')+s.name;
+    b.onclick=()=>draw(s.slug); tabs.appendChild(b);
+  });
+  if(secs.length)draw(secs[0].slug);
+}
+Promise.resolve({
+  "_meta": {
+    "note": "AI 各方向年度里程碑时间线。累积式: 只增不删, 有新的同级别大事件才追加。sector 划分见 docs/schema.md。",
+    "last_backfill": "2026-08-16",
+    "window": "2025-08 至 2026-08 (首轮 backfill)",
+    "append_policy": "每月 review 追加同级别大事件, 不删旧事件; 每日 cron 不动此文件"
+  },
+  "sectors": [
+    {
+      "slug": "models",
+      "name": "前沿模型 / Scaling",
+      "icon": "🧠",
+      "summary": "GPT-5/Gemini 3/Claude Opus 4.5-5/Qwen 万亿参数代际密集发布, 开源规模上限一再刷新, 推理模型成主线。",
+      "events": [
+        {"date": "2025-08-05", "title": "OpenAI 发布 GPT-OSS 开源权重模型", "impact": "OpenAI 时隔多年重回开源, 两款带推理能力的开放权重模型", "source_url": "https://en.wikipedia.org/wiki/GPT-5"},
+        {"date": "2025-08-07", "title": "OpenAI 发布 GPT-5", "impact": "统一快答+深思+路由, 数学/编程/多模态刷新 SOTA, 幻觉大降", "source_url": "https://openai.com/index/introducing-gpt-5/"},
+        {"date": "2025-09", "title": "阿里 Qwen3-Max 突破 1T 参数", "impact": "开源生态累计逾百款模型、下载超 4000 万次", "source_url": "https://en.wikipedia.org/wiki/Qwen"},
+        {"date": "2025-09", "title": "xAI 发布 Grok 4 Fast(2M 上下文)", "impact": "思考 token 减 40%, 推理成本约为 o3 的 1/64", "source_url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"},
+        {"date": "2025-11-18", "title": "Google 发布 Gemini 3 Pro 与 Deep Think", "impact": "稀疏 MoE 新代际旗舰, 倒逼 OpenAI 加速 GPT-5.2", "source_url": "https://en.wikipedia.org/wiki/Gemini_(language_model)"},
+        {"date": "2025-11-24", "title": "Anthropic 发布 Claude Opus 4.5", "impact": "编程能力大增, 带火 Claude Code 与非程序员氛围编程", "source_url": "https://www.anthropic.com/news/claude-opus-4-5"},
+        {"date": "2026-02", "title": "阿里 Qwen3.5 可操控桌面/移动应用", "impact": "开源代际升级, 模型可自主操作 PC 与手机 App", "source_url": "https://en.wikipedia.org/wiki/Qwen"},
+        {"date": "2026-08", "title": "阿里 Qwen3.8-Max(2.4 万亿参数)开源", "impact": "2.4T 稀疏 MoE、百万上下文并开源, 再刷开源规模上限", "source_url": "https://en.wikipedia.org/wiki/Qwen"}
+      ]
+    },
+    {
+      "slug": "coding",
+      "name": "Coding / 软件工程",
+      "icon": "💻",
+      "summary": "coding agent 从辅助跃向自主, 单任务连续工作从小时级到 24h+; Cursor 估值近 300 亿, 各家编程模型军备竞赛。",
+      "events": [
+        {"date": "2025-09-15", "title": "OpenAI 发布 GPT-5-Codex", "impact": "专为智能体式编程优化, 可独立编码超 7 小时", "source_url": "https://openai.com/index/introducing-upgrades-to-codex/"},
+        {"date": "2025-09-29", "title": "Anthropic 发布 Claude Sonnet 4.5", "impact": "SWE-bench Verified 77.2% 刷 SOTA, 可自主编码 30+ 小时", "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5"},
+        {"date": "2025-10-29", "title": "Cursor 2.0 与自研模型 Composer 发布", "impact": "多智能体并行界面, 自研编程模型速度提升 4 倍", "source_url": "https://cursor.com/blog/2-0"},
+        {"date": "2025-11", "title": "Cursor 完成 23 亿 D 轮, 估值 293 亿美元", "impact": "年化营收破 10 亿, 英伟达/谷歌入局, 坐稳 AI 编程头部", "source_url": "https://cursor.com/blog/series-d"},
+        {"date": "2025-11-19", "title": "OpenAI 发布 GPT-5.1-Codex-Max", "impact": "首个原生跨上下文窗口 compaction, 单任务连续超 24 小时", "source_url": "https://openai.com/index/gpt-5-1-codex-max/"},
+        {"date": "2025-11-24", "title": "Anthropic 发布 Claude Opus 4.5", "impact": "最强编程/智能体模型, 内部工程考题超所有人类候选者", "source_url": "https://www.anthropic.com/news/claude-opus-4-5"},
+        {"date": "2026-06-04", "title": "Cognition 提出 AI 生产力保证", "impact": "首次可度量评估自主 SWE 生产力, 推企业按效果用 Devin", "source_url": "https://cognition.ai/blog/estimating-the-productivity-of-an-autonomous-ai-software-engineer"}
+      ]
+    },
+    {
+      "slug": "agents",
+      "name": "Agent / 具身智能",
+      "icon": "🤖",
+      "summary": "MCP 成跨厂商 agent 事实标准并中立治理; 人形机器人(Figure/Optimus/宇树)估值与量产齐飞, 机器人数首超员工数。",
+      "events": [
+        {"date": "2025-09", "title": "Figure AI 完成 10 亿+ C 轮, 估值 390 亿", "impact": "全球估值最高人形机器人公司, 英伟达/高通/Salesforce 入局", "source_url": "https://en.wikipedia.org/wiki/Figure_AI"},
+        {"date": "2025-09", "title": "OpenAI 为 ChatGPT Apps 加入 MCP 支持", "impact": "MCP 成跨厂商 agent 生态事实标准, 第三方接入门槛大降", "source_url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"},
+        {"date": "2025-10", "title": "Figure 发布第三代人形机器人 Figure 03", "impact": "指尖触觉精度达 3 克、支持无线充电, 面向通用场景", "source_url": "https://en.wikipedia.org/wiki/Figure_AI"},
+        {"date": "2025-12", "title": "Anthropic 将 MCP 捐给 Linux 基金会 AAIF", "impact": "MCP 走向中立治理, Anthropic/Block/OpenAI 联合共建", "source_url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"},
+        {"date": "2025-12", "title": "特斯拉 Optimus v2.3 首次海外亮相", "impact": "伦敦/柏林与观众互动, 走向公开展示, 规划年产百万台", "source_url": "https://en.wikipedia.org/wiki/Optimus_(robot)"},
+        {"date": "2026-01", "title": "Figure 发布全身自主控制模型 Helix 02", "impact": "VLA 扩展至全身, 实现装卸洗碗机等全身功能自主", "source_url": "https://en.wikipedia.org/wiki/Figure_AI"},
+        {"date": "2026-03", "title": "宇树科技申报上交所 IPO", "impact": "中国人形/四足机器人龙头冲击资本市场", "source_url": "https://en.wikipedia.org/wiki/Unitree_Robotics"},
+        {"date": "2026-06", "title": "Figure 运营机器人数(~740)首超员工数(600)", "impact": "机器人数量反超人类员工, 规模化商用里程碑", "source_url": "https://en.wikipedia.org/wiki/Figure_AI"}
+      ]
+    },
+    {
+      "slug": "military",
+      "name": "军事 / 防务",
+      "icon": "🪖",
+      "summary": "五角大楼全面拥抱前沿 AI(4 大厂各 2 亿合同), Maven 升格正式装备, Grok/Claude 用于对伊作战, 全自主无人机首次无人监督击杀。",
+      "events": [
+        {"date": "2025-07-14", "title": "美国防部向 4 大前沿 AI 公司各授 2 亿美元合同", "impact": "OpenAI/Anthropic/Google/xAI 前沿模型进国安任务(窗口触发锚点)", "source_url": "https://www.ai.mil/Latest/News-Press/"},
+        {"date": "2025-09-18", "title": "英国与 Palantir 签最高 7.5 亿英镑军事 AI 协议", "impact": "5 年合作深化盟国军事 AI, Palantir 稳居西方防务 AI 核心", "source_url": "https://en.wikipedia.org/wiki/Project_Maven"},
+        {"date": "2025-11", "title": "Anduril 与阿联酋 Edge 组建生产联盟", "impact": "自主武器巨头(估值 610 亿)向中东扩产, 军备竞赛加速", "source_url": "https://en.wikipedia.org/wiki/Anduril_Industries"},
+        {"date": "2025-12-09", "title": "美军上线 GenAI.mil 平台", "impact": "Gemini/Grok 向 IL-5+ 密级全体国防人员开放", "source_url": "https://www.ai.mil/Latest/News-Press/"},
+        {"date": "2026-03-09", "title": "Maven 系统升格正式装备项目, 移交 CDAO", "impact": "AI 目标识别核心制度化, AI 战场决策进入常态", "source_url": "https://en.wikipedia.org/wiki/Project_Maven"},
+        {"date": "2026-06", "title": "曝光: xAI Grok 经 Maven 用于对伊朗作战", "impact": "96 小时对 2000 目标部署逾 2000 弹药; Claude 亦用于对伊情报", "source_url": "https://en.wikipedia.org/wiki/Military_applications_of_artificial_intelligence"},
+        {"date": "2026-06", "title": "乌克兰披露全自主无人机首次无人监督击杀", "impact": "AI 无人机无人操控下击杀士兵, 自主杀伤武器奥本海默时刻", "source_url": "https://en.wikipedia.org/wiki/Lethal_autonomous_weapon"}
+      ]
+    },
+    {
+      "slug": "healthcare",
+      "name": "医药 / 生命科学",
+      "icon": "💊",
+      "summary": "AI 药物发现从承诺走向落地: Isomorphic 药物设计引擎超 AlphaFold 3, Chai-2 抗体设计命中率 100 倍, 制药巨头 27.5 亿美元级 AI 大单。",
+      "events": [
+        {"date": "2025-08", "title": "Chai Discovery 发布 Chai-2, 从头抗体设计命中率跃升", "impact": "de novo 抗体命中率达 16%, 比旧计算方法高 100 倍", "source_url": "https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer"},
+        {"date": "2025-10", "title": "微软携 DNA 合成商发表 AI 生物安全补丁(Science)", "impact": "首次系统证明 AI 可绕过病原体基因合成筛查并部署补丁", "source_url": "https://www.science.org/doi/10.1126/science.adu8578"},
+        {"date": "2025-11", "title": "Insilico Medicine 登陆港交所", "impact": "AI 制药龙头募资近 2.93 亿美元上市, 验证商业模式", "source_url": "https://en.wikipedia.org/wiki/Insilico_Medicine"},
+        {"date": "2025-11", "title": "美国启动 AI 创世纪任务, NIH 投入 12 亿+", "impact": "逾 50 亿美元 AI 科研计划, 目标 10 年内落地时间减半", "source_url": "https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission"},
+        {"date": "2026-02", "title": "Isomorphic Labs 发布药物设计引擎", "impact": "蛋白-配体预测超 AlphaFold 3 一倍, 可发现新结合口袋", "source_url": "https://en.wikipedia.org/wiki/Isomorphic_Labs"},
+        {"date": "2026-03", "title": "Insilico 与礼来达成高达 27.5 亿美元合作", "impact": "礼来预付 1.15 亿锁定 AI 设计口服疗法权益, 创 AI 制药大单", "source_url": "https://www.fiercebiotech.com/biotech/insilicos-chinese-partner-returns-177m-pact-explore-mass-market-cns-indication"},
+        {"date": "2026-07", "title": "BMS 携 NVIDIA 建生命科学最强 AI 工厂", "impact": "部署 DGX Vera Rubin 超算, 推 AI 协同科学家混合研发", "source_url": "https://www.fiercebiotech.com/biotech/bms-expands-ai-footprint-nvidia-create-largest-drug-rd-supercomputer"},
+        {"date": "2026-07", "title": "Chai Discovery 完成 4 亿 C 轮, 估值 38 亿", "impact": "礼来/辉瑞/诺华实际部署其分子模型, AI 药物发现落地", "source_url": "https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer"}
+      ]
+    },
+    {
+      "slug": "governance",
+      "name": "治理 / 安全 / 监管",
+      "icon": "⚖️",
+      "summary": "EU AI Act 分阶段生效, 联合国设首个 AI 科学小组, 中国 AI 内容标识施行; 但美国拒签国际安全报告, 治理路线现分歧。",
+      "events": [
+        {"date": "2025-08-02", "title": "EU AI 法案通用 AI(GPAI)规则正式适用", "impact": "全球最严 AI 法首度对基础模型施加透明度/版权/风险义务", "source_url": "https://artificialintelligenceact.eu/implementation-timeline/"},
+        {"date": "2025-08-26", "title": "联合国设立独立国际 AI 科学小组", "impact": "全球首个 AI 科学治理机构, 启动 AI 治理全球对话", "source_url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"},
+        {"date": "2025-09-01", "title": "中国 AI 生成合成内容标识办法施行", "impact": "强制 AI 生成内容显式+隐式双重标识", "source_url": "https://www.cac.gov.cn/"},
+        {"date": "2025-10-15", "title": "国际 AI 安全报告首次关键更新", "impact": "聚焦推理型大模型的监控与可控性挑战", "source_url": "https://en.wikipedia.org/wiki/International_AI_Safety_Report"},
+        {"date": "2026-02-03", "title": "国际 AI 安全报告第二版发布(美国拒绝背书)", "impact": "印度峰会前夕美国退出, 暴露主要国家治理路线分歧", "source_url": "https://en.wikipedia.org/wiki/International_AI_Safety_Report"},
+        {"date": "2026-02-19", "title": "印度新德里 AI 影响力峰会", "impact": "主题从安全/行动转向影响力与落地, 偏重全球南方部署", "source_url": "https://en.wikipedia.org/wiki/AI_Impact_Summit"},
+        {"date": "2026-08-02", "title": "EU AI 法案高风险系统规则全面适用", "impact": "主体条款生效, 高风险系统须合规评估, 成员国启用沙盒", "source_url": "https://artificialintelligenceact.eu/implementation-timeline/"}
+      ]
+    },
+    {
+      "slug": "capital",
+      "name": "资本 / 产业格局",
+      "icon": "💰",
+      "summary": "算力军备万亿级(星门 5000 亿), 英伟达市值破 5 万亿, SpaceX 1.25 万亿收购 xAI; 泡沫争论贯穿全年, KOSPI 40 天暴跌 44%。",
+      "events": [
+        {"date": "2025-08", "title": "OpenAI CEO 公开承认 AI 存在泡沫", "impact": "头部玩家自曝泡沫+循环投资质疑, 引爆全年估值争论", "source_url": "https://en.wikipedia.org/wiki/AI_bubble"},
+        {"date": "2025-09-23", "title": "星门计划新增 5 座数据中心, 直逼 4000 亿投资", "impact": "算力规划升至近 7 吉瓦, 提前锁定 5000 亿/10 吉瓦目标", "source_url": "https://en.wikipedia.org/wiki/Stargate_LLC"},
+        {"date": "2025-09", "title": "英伟达宣布向 OpenAI 投资 1000 亿美元", "impact": "芯片巨头反向注资客户, 循环融资典型样本加剧泡沫担忧", "source_url": "https://en.wikipedia.org/wiki/AI_bubble"},
+        {"date": "2025-10-28", "title": "OpenAI 完成 PBC 重组, 估值 5000 亿", "impact": "去除利润上限与非营利控制, 为 IPO 铺路, 微软持股 27%", "source_url": "https://en.wikipedia.org/wiki/OpenAI"},
+        {"date": "2025-10-29", "title": "英伟达市值突破 5 万亿美元", "impact": "超除美中外任何国家 GDP, AI 贡献美股 2025 约 80% 涨幅", "source_url": "https://en.wikipedia.org/wiki/AI_bubble"},
+        {"date": "2026-02-02", "title": "SpaceX 全股收购 xAI, 合并估值 1.25 万亿", "impact": "AI 与航天/社媒整合, 马斯克系再造超级巨头, Grok 并入", "source_url": "https://en.wikipedia.org/wiki/XAI_(company)"},
+        {"date": "2026-05", "title": "Anthropic 估值达 9650 亿, 成最值钱纯 AI 公司", "impact": "Claude 母公司近万亿估值, 秋季 IPO 在即, 与 OpenAI 分庭抗礼", "source_url": "https://en.wikipedia.org/wiki/Anthropic"},
+        {"date": "2026-06", "title": "韩国 KOSPI 40 天暴跌 44%, 蒸发 2.18 万亿", "impact": "三星/SK海力士领跌, AI 基建短期无回报引爆泡沫破裂恐慌", "source_url": "https://en.wikipedia.org/wiki/AI_bubble"}
+      ]
+    }
+  ]
+}
+).then(renderTL)
+  .catch(e=>{document.getElementById('tlBody').textContent='时间线加载失败: '+e;});
+</script>
+</body>
+</html>
