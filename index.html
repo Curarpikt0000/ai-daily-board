@@ -88,6 +88,9 @@
   .lm-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
   .lm-row{display:grid;grid-template-columns:38px 1fr 62px 82px 74px;gap:8px;align-items:center;padding:8px 6px;border-bottom:1px solid rgba(255,255,255,.05);font-size:13px}
   .lm-row.head{color:var(--muted);font-size:11px;font-weight:700;border-bottom:1px solid var(--border);position:sticky}
+  .lm-row.ah-head,.lm-row.ah-row{grid-template-columns:38px 1fr 62px 96px}
+  .ah-date{text-align:center;color:var(--muted);font-size:11px}
+  .ah-row .lm-rank{font-size:15px}
   .lm-rank{font-weight:700;text-align:center}
   .lm-model{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .lm-model small{color:var(--muted);font-weight:400;font-size:11px;margin-left:4px}
@@ -140,6 +143,13 @@
 
   <div class="section-title">🎙️ AI KOL 观点卡（<span id="kolCount"></span> 位）</div>
   <div class="kol-grid" id="kolGrid"></div>
+
+  <div class="section-title">🥇 AIHOT 综合评测榜 Top20 · <span id="ahDate" class="subtle"></span></div>
+  <div class="card">
+    <div class="subtle" style="margin-bottom:10px">AIHOT 官方综合评测榜（多维度加权评分，口径不同于下方 LMArena 人类盲测榜）</div>
+    <div id="ahTable"></div>
+    <div class="subtle" id="ahNote" style="margin-top:10px"></div>
+  </div>
 
   <div class="section-title">🏆 LMArena 模型能力榜 Top20 · <span id="lmDate" class="subtle"></span></div>
   <div class="card">
@@ -2410,6 +2420,339 @@ Promise.resolve({
   }
 }).then(renderLM)
   .catch(e=>{document.getElementById('lmNote').textContent='模型榜加载失败: '+e;});
+
+// ── AIHOT 综合评测榜 ──
+function renderAH(ah){
+  const dateEl=document.getElementById('ahDate');
+  const tbl=document.getElementById('ahTable');
+  const note=document.getElementById('ahNote');
+  if(!ah||!ah.ok||!ah.rows||!ah.rows.length){
+    tbl.innerHTML='<div class="empty">暂无数据（'+((ah&&ah.error)||'抓取失败')+'）</div>';
+    return;
+  }
+  dateEl.textContent=ah.generated_at_jst||'';
+  let h=`<div class="lm-row ah-head"><span>#</span><span>模型</span><span style="text-align:right">评分</span><span style="text-align:center">发布</span></div>`;
+  ah.rows.slice(0,20).forEach(r=>{
+    const medal=r.rank===1?'🥇':r.rank===2?'🥈':r.rank===3?'🥉':r.rank;
+    h+=`<div class="lm-row ah-row"><span class="lm-rank">${medal}</span>`+
+      `<span class="lm-model">${r.model}<small>${r.brand||''}</small></span>`+
+      `<span class="lm-score">${r.score??'—'}</span>`+
+      `<span class="ah-date">${r.release_date||''}</span></div>`;
+  });
+  tbl.innerHTML=h;
+  note.textContent='数据源：'+ah.source+'　｜ 共 '+ah.count+' 个模型';
+}
+Promise.resolve({
+ "ok": true,
+ "source": "AIHOT 综合评测榜 (aihot.virxact.com/leaderboard)",
+ "note": "aihot 官方综合评测榜，与 LMArena 人类盲测榜口径不同",
+ "generated_at_jst": "2026-08-17 13:33 JST",
+ "count": 30,
+ "rows": [
+  {
+   "rank": 1,
+   "model": "Claude Fable 5",
+   "brand": "Anthropic",
+   "release_date": "2026-06-09",
+   "completeness": "评测 76.5%",
+   "input_price": "$10",
+   "output_price": "$50",
+   "score": 90.2
+  },
+  {
+   "rank": 2,
+   "model": "Claude Opus 5",
+   "brand": "Anthropic",
+   "release_date": "2026-07-24",
+   "completeness": "评测 76.5%",
+   "input_price": "$5",
+   "output_price": "$25",
+   "score": 90.0
+  },
+  {
+   "rank": 3,
+   "model": "GPT-5.6 Sol",
+   "brand": "OpenAI",
+   "release_date": "2026-07-09",
+   "completeness": "评测 76.5%",
+   "input_price": "$5",
+   "output_price": "$30",
+   "score": 83.5
+  },
+  {
+   "rank": 4,
+   "model": "Kimi K3",
+   "brand": "Moonshot AI",
+   "release_date": "2026-07-16",
+   "completeness": "评测 76.5%",
+   "input_price": "$3",
+   "output_price": "$15",
+   "score": 82.1
+  },
+  {
+   "rank": 5,
+   "model": "Grok 4.6",
+   "brand": "xAI",
+   "release_date": "2026-08-12",
+   "completeness": "评测 76.5%",
+   "input_price": "$2",
+   "output_price": "$6",
+   "score": 76.6
+  },
+  {
+   "rank": 6,
+   "model": "Gemini 3.7 Flash",
+   "brand": "Google",
+   "release_date": "2026-08-13",
+   "completeness": "评测 64.0%",
+   "input_price": "$0.75",
+   "output_price": "$3.75",
+   "score": 76.4
+  },
+  {
+   "rank": 7,
+   "model": "Qwen3.8 Max",
+   "brand": "Alibaba",
+   "release_date": "2026-07-19",
+   "completeness": "评测 73.0%",
+   "input_price": "$2",
+   "output_price": "$6",
+   "score": 74.0
+  },
+  {
+   "rank": 8,
+   "model": "Muse Spark 1.2",
+   "brand": "Meta",
+   "release_date": "2026-08-05",
+   "completeness": "评测 73.0%",
+   "input_price": "$1.25",
+   "output_price": "$4.25",
+   "score": 73.7
+  },
+  {
+   "rank": 9,
+   "model": "GPT-5.5",
+   "brand": "OpenAI",
+   "release_date": "2026-04-23",
+   "completeness": "评测 76.5%",
+   "input_price": "$5",
+   "output_price": "$30",
+   "score": 72.1
+  },
+  {
+   "rank": 10,
+   "model": "Claude Opus 4.8",
+   "brand": "Anthropic",
+   "release_date": "2026-05-28",
+   "completeness": "评测 76.5%",
+   "input_price": "$5",
+   "output_price": "$25",
+   "score": 71.3
+  },
+  {
+   "rank": 11,
+   "model": "GPT-5.6 Terra",
+   "brand": "OpenAI",
+   "release_date": "2026-07-09",
+   "completeness": "评测 73.0%",
+   "input_price": "$2",
+   "output_price": "$12",
+   "score": 66.8
+  },
+  {
+   "rank": 12,
+   "model": "Claude Opus 4.7",
+   "brand": "Anthropic",
+   "release_date": "2026-04-16",
+   "completeness": "评测 68.5%",
+   "input_price": "$5",
+   "output_price": "$25",
+   "score": 64.2
+  },
+  {
+   "rank": 13,
+   "model": "Muse Spark 1.1",
+   "brand": "Meta",
+   "release_date": "2026-07-09",
+   "completeness": "评测 76.5%",
+   "input_price": "$1.25",
+   "output_price": "$4.25",
+   "score": 61.0
+  },
+  {
+   "rank": 14,
+   "model": "Claude Sonnet 5",
+   "brand": "Anthropic",
+   "release_date": "2026-06-30",
+   "completeness": "评测 76.5%",
+   "input_price": "$2",
+   "output_price": "$10",
+   "score": 56.9
+  },
+  {
+   "rank": 15,
+   "model": "GPT-5.4",
+   "brand": "OpenAI",
+   "release_date": "2026-03-05",
+   "completeness": "评测 69.5%",
+   "input_price": "$2.5",
+   "output_price": "$15",
+   "score": 55.5
+  },
+  {
+   "rank": 16,
+   "model": "Grok 4.5",
+   "brand": "xAI",
+   "release_date": "2026-07-08",
+   "completeness": "评测 76.5%",
+   "input_price": "$2",
+   "output_price": "$6",
+   "score": 55.1
+  },
+  {
+   "rank": 17,
+   "model": "GPT-5.6 Luna",
+   "brand": "OpenAI",
+   "release_date": "2026-07-09",
+   "completeness": "评测 73.0%",
+   "input_price": "$0.2",
+   "output_price": "$1.2",
+   "score": 49.9
+  },
+  {
+   "rank": 18,
+   "model": "Gemini 3.5 Flash",
+   "brand": "Google",
+   "release_date": "2026-05-19",
+   "completeness": "评测 73.0%",
+   "input_price": "$1.5",
+   "output_price": "$9",
+   "score": 49.3
+  },
+  {
+   "rank": 19,
+   "model": "Gemini 3.6 Flash",
+   "brand": "Google",
+   "release_date": "2026-07-21",
+   "completeness": "评测 73.0%",
+   "input_price": "$0.75",
+   "output_price": "$3.75",
+   "score": 48.7
+  },
+  {
+   "rank": 20,
+   "model": "GLM-5.2",
+   "brand": "Z.ai",
+   "release_date": "2026-06-16",
+   "completeness": "评测 76.5%",
+   "input_price": "$1.4",
+   "output_price": "$4.4",
+   "score": 46.7
+  },
+  {
+   "rank": 21,
+   "model": "Claude Opus 4.6",
+   "brand": "Anthropic",
+   "release_date": "2026-02-05",
+   "completeness": "评测 61.5%",
+   "input_price": "$5",
+   "output_price": "$25",
+   "score": 42.0
+  },
+  {
+   "rank": 22,
+   "model": "DeepSeek V4 Flash 0731",
+   "brand": "DeepSeek",
+   "release_date": "2026-07-31",
+   "completeness": "评测 68.5%",
+   "input_price": "$0.14",
+   "output_price": "$0.28",
+   "score": 41.2
+  },
+  {
+   "rank": 23,
+   "model": "Gemini 3.1 Pro Preview",
+   "brand": "Google",
+   "release_date": "2026-02-19",
+   "completeness": "评测 76.5%",
+   "input_price": "$2",
+   "output_price": "$12",
+   "score": 40.2
+  },
+  {
+   "rank": 24,
+   "model": "Claude Sonnet 4.6",
+   "brand": "Anthropic",
+   "release_date": "2026-02-17",
+   "completeness": "评测 73.0%",
+   "input_price": "$3",
+   "output_price": "$15",
+   "score": 37.4
+  },
+  {
+   "rank": 25,
+   "model": "DeepSeek V4 Pro Preview",
+   "brand": "DeepSeek",
+   "release_date": "2026-04-24",
+   "completeness": "评测 73.0%",
+   "input_price": "$0.44",
+   "output_price": "$0.87",
+   "score": 30.1
+  },
+  {
+   "rank": 26,
+   "model": "GPT-5.2 2025 12 11",
+   "brand": "OpenAI",
+   "release_date": "2025-12-11",
+   "completeness": "评测 61.5%",
+   "input_price": "$1.75",
+   "output_price": "$14",
+   "score": 25.6
+  },
+  {
+   "rank": 27,
+   "model": "Kimi K2.6",
+   "brand": "Moonshot AI",
+   "release_date": "2026-04-20",
+   "completeness": "评测 65.0%",
+   "input_price": "$0.95",
+   "output_price": "$4",
+   "score": 25.3
+  },
+  {
+   "rank": 28,
+   "model": "MiniMax M 3",
+   "brand": "MiniMax",
+   "release_date": "2026-06-01",
+   "completeness": "评测 65.0%",
+   "input_price": "$0.3",
+   "output_price": "$1.2",
+   "score": 23.8
+  },
+  {
+   "rank": 29,
+   "model": "Claude Opus 4.5 20251101",
+   "brand": "Anthropic",
+   "release_date": "2025-11-24",
+   "completeness": "评测 61.5%",
+   "input_price": "$5",
+   "output_price": "$25",
+   "score": 20.9
+  },
+  {
+   "rank": 30,
+   "model": "GPT-5.2 Codex",
+   "brand": "OpenAI",
+   "release_date": "2025-12-11",
+   "completeness": "评测 52.5%",
+   "input_price": "$1.75",
+   "output_price": "$14",
+   "score": 18.5
+  }
+ ]
+}).then(renderAH)
+  .catch(e=>{document.getElementById('ahNote').textContent='综合评测榜加载失败: '+e;});
+
 
 // ── 年度里程碑时间线 ──
 function renderTL(tl){
