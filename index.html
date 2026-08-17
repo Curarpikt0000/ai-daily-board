@@ -18,6 +18,11 @@
   header h1{font-size:19px;font-weight:700;letter-spacing:.5px}
   header h1 span{color:var(--accent2)}
   #update-time{font-size:12px;color:var(--muted)}
+  .nav-2027{display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:700;
+    color:#fff;text-decoration:none;padding:7px 16px;border-radius:9px;
+    background:linear-gradient(90deg,var(--accent) 0%,var(--accent2) 100%);
+    box-shadow:0 2px 8px rgba(99,102,241,.35);transition:transform .12s,box-shadow .12s;white-space:nowrap}
+  .nav-2027:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(99,102,241,.55)}
   .container{max-width:1280px;margin:0 auto;padding:22px 24px 60px}
   .section-title{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1.2px;margin:30px 0 14px;display:flex;align-items:center;gap:8px}
   .section-title:first-child{margin-top:6px}
@@ -106,6 +111,7 @@
 <body>
 <header>
   <h1>🤖 AI <span>Daily Board</span></h1>
+  <a class="nav-2027" href="https://curarpikt0000.github.io/ai-2027-cn/" target="_blank" rel="noopener">📖 AI 2027 中文版 →</a>
   <div id="update-time">加载中…</div>
 </header>
 <div class="container">
@@ -161,8 +167,8 @@ const AXIS_COLOR={"existential":"#ef4444","power-race":"#a855f7","acceleration":
 const AXIS_TXT={"existential":"灭世恐惧","power-race":"权力竞赛","acceleration":"纯加速","skeptic":"怀疑风险被夸大"};
 
 const __DATA__={
-  "generated_at_jst": "2026-08-16 23:50 JST",
-  "date": "2026-08-16",
+  "generated_at_jst": "2026-08-17 09:00 JST",
+  "date": "2026-08-17",
   "danger_gauge": {
     "gauge": 42.8,
     "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)",
@@ -183,42 +189,42 @@ const __DATA__={
       {
         "name": "杰弗里·辛顿",
         "stance": 2,
-        "weighted": 1.859
+        "weighted": 1.852
       },
       {
         "name": "约书亚·本吉奥",
         "stance": 2,
-        "weighted": 0.948
+        "weighted": 0.944
       },
       {
         "name": "丹尼尔·科科塔伊洛",
         "stance": 2,
-        "weighted": 0.292
+        "weighted": 0.291
       },
       {
         "name": "马克斯·泰格马克",
         "stance": 2,
-        "weighted": 0.668
+        "weighted": 0.665
       },
       {
         "name": "斯科特·亚历山大",
         "stance": 2,
-        "weighted": 1.149
+        "weighted": 1.145
       },
       {
         "name": "伊莱·利夫兰",
         "stance": 2,
-        "weighted": 1.34
+        "weighted": 1.335
       },
       {
         "name": "罗密欧·迪恩",
         "stance": 2,
-        "weighted": 0.602
+        "weighted": 0.6
       },
       {
         "name": "伊利亚·苏茨克维尔",
         "stance": 1,
-        "weighted": 0.289
+        "weighted": 0.288
       },
       {
         "name": "萨姆·奥尔特曼",
@@ -228,22 +234,22 @@ const __DATA__={
       {
         "name": "埃隆·马斯克",
         "stance": 1,
-        "weighted": 0.447
+        "weighted": 0.445
       },
       {
         "name": "亚历克斯·卡普",
         "stance": 1,
-        "weighted": 0.508
+        "weighted": 0.506
       },
       {
         "name": "朱迪亚·珀尔",
         "stance": 1,
-        "weighted": 0.432
+        "weighted": 0.43
       },
       {
         "name": "戴密斯·哈萨比斯",
         "stance": 1,
-        "weighted": 0.373
+        "weighted": 0.372
       },
       {
         "name": "安德烈·卡帕西",
@@ -268,22 +274,22 @@ const __DATA__={
       {
         "name": "彼得·蒂尔",
         "stance": -1,
-        "weighted": -0.227
+        "weighted": -0.226
       },
       {
         "name": "理查德·萨顿",
         "stance": -1,
-        "weighted": -0.287
+        "weighted": -0.286
       },
       {
         "name": "达龙·阿西莫格鲁",
         "stance": -1,
-        "weighted": -0.334
+        "weighted": -0.332
       },
       {
         "name": "杨立昆",
         "stance": -2,
-        "weighted": -1.304
+        "weighted": -1.299
       }
     ],
     "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5"
@@ -468,6 +474,21 @@ const __DATA__={
   },
   "directions": [
     {
+      "slug": "agent",
+      "label": "Agent / 工具链",
+      "count": 1,
+      "news": [
+        {
+          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+          "source": "Simon Willison 博客",
+          "score": 73,
+          "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
+          "permalink": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c",
+          "time": "08/17 07:00（2 小时前）"
+        }
+      ]
+    },
+    {
       "slug": "reasoning",
       "label": "推理 / 因果",
       "count": 1,
@@ -478,46 +499,16 @@ const __DATA__={
           "score": 73,
           "summary": "随着AI智能体在共享代码库、市场等社会系统中承担更多任务，智能体间的真实交互将激增，其交互量可能超过人机交互。Anthropic实验显示，协调式智能体群在2700万token运行中发现266个漏洞，远超独立并行方法的21个，但两者互补性明显。智能体虽擅长工具使用，但在长期协作与协",
           "permalink": "https://aihot.virxact.com/items/cmsvptx2m061frovmjoavsi0l",
-          "time": "08/16 20:17（3 小时前）"
-        }
-      ]
-    },
-    {
-      "slug": "industry",
-      "label": "产业 / 商业",
-      "count": 1,
-      "news": [
-        {
-          "title": "Cursor 正式被 SpaceX 收购",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "score": 71,
-          "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。借助 SpaceX 全球最大规模的 GPU 集群，Cursor 将构建更强且运行成本更低的模型，并以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
-          "permalink": "https://aihot.virxact.com/items/cmsuto7hk0912rouhodiiywlk",
-          "time": "08/16 05:05（18 小时前）"
+          "time": "08/16 20:17（12 小时前）"
         }
       ]
     }
   ],
   "hot_topics": [
     {
-      "title": "通义千问开源 Qwen3.8 系列模型",
-      "source_count": 9,
-      "permalink": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn"
-    },
-    {
       "title": "Cursor 正式被 SpaceX 收购",
-      "source_count": 8,
-      "permalink": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3"
-    },
-    {
-      "title": "Claude 文本水印机制如何运作",
       "source_count": 2,
-      "permalink": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas"
-    },
-    {
-      "title": "GLM-5.3 开放前安全评估：网络防御能力显著提升",
-      "source_count": 3,
-      "permalink": "https://aihot.virxact.com/items/cmst3jde103pdro063l9qykuw"
+      "permalink": "https://aihot.virxact.com/items/cmsuto7hk0912rouhodiiywlk"
     }
   ],
   "news_total_24h": 2,
@@ -1423,8 +1414,8 @@ function renderLM(lm){
   if(slugs.length)draw(slugs[0]);
 }
 Promise.resolve({
-  "generated_at_jst": "2026-08-16 17:52 JST",
-  "date": "2026-08-16",
+  "generated_at_jst": "2026-08-17 08:41 JST",
+  "date": "2026-08-17",
   "source": "LMArena (lmarena.ai/leaderboard/text)",
   "compare_window": "vs ~30 天前",
   "categories": {
@@ -1439,8 +1430,8 @@ Promise.resolve({
           "votes": "21,533",
           "price": "$10 / $50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1451,8 +1442,8 @@ Promise.resolve({
           "votes": "72,516",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1463,8 +1454,8 @@ Promise.resolve({
           "votes": "60,331",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1475,8 +1466,8 @@ Promise.resolve({
           "votes": "3,280",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1487,8 +1478,8 @@ Promise.resolve({
           "votes": "76,474",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1499,8 +1490,8 @@ Promise.resolve({
           "votes": "61,419",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1511,8 +1502,8 @@ Promise.resolve({
           "votes": "20,030",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1523,8 +1514,8 @@ Promise.resolve({
           "votes": "7,004",
           "price": "$2 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1535,8 +1526,8 @@ Promise.resolve({
           "votes": "5,744",
           "price": "$0.75 / $3.57",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1547,8 +1538,8 @@ Promise.resolve({
           "votes": "9,679",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1559,8 +1550,8 @@ Promise.resolve({
           "votes": "16,928",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1571,8 +1562,8 @@ Promise.resolve({
           "votes": "11,969",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1583,8 +1574,8 @@ Promise.resolve({
           "votes": "13,592",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1595,8 +1586,8 @@ Promise.resolve({
           "votes": "95,107",
           "price": "$1 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1607,8 +1598,8 @@ Promise.resolve({
           "votes": "41,509",
           "price": "$2 / $12",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1619,8 +1610,8 @@ Promise.resolve({
           "votes": "13,815",
           "price": "$0.38 / $1.88",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1631,8 +1622,8 @@ Promise.resolve({
           "votes": "55,454",
           "price": "$2.50 / $15",
           "ctx": "1.1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1643,8 +1634,8 @@ Promise.resolve({
           "votes": "40,706",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1655,8 +1646,8 @@ Promise.resolve({
           "votes": "15,558",
           "price": "$5 / $30",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1667,13 +1658,13 @@ Promise.resolve({
           "votes": "25,861",
           "price": "$0.75 / $4.50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": null
+      "baseline_date": "2026-08-16"
     },
     "coding": {
       "name": "Coding",
@@ -1686,8 +1677,8 @@ Promise.resolve({
           "votes": "5,817",
           "price": "$10 / $50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1698,8 +1689,8 @@ Promise.resolve({
           "votes": "17,272",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1710,8 +1701,8 @@ Promise.resolve({
           "votes": "18,894",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1722,8 +1713,8 @@ Promise.resolve({
           "votes": "17,423",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1734,8 +1725,8 @@ Promise.resolve({
           "votes": "21,341",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1746,8 +1737,8 @@ Promise.resolve({
           "votes": "3,176",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1758,8 +1749,8 @@ Promise.resolve({
           "votes": "11,417",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1770,8 +1761,8 @@ Promise.resolve({
           "votes": "947",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1782,8 +1773,8 @@ Promise.resolve({
           "votes": "5,433",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1794,8 +1785,8 @@ Promise.resolve({
           "votes": "5,002",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1806,8 +1797,8 @@ Promise.resolve({
           "votes": "7,661",
           "price": "$5 / $25",
           "ctx": "200K",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1818,8 +1809,8 @@ Promise.resolve({
           "votes": "2,612",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1830,8 +1821,8 @@ Promise.resolve({
           "votes": "2,146",
           "price": "$2 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1842,8 +1833,8 @@ Promise.resolve({
           "votes": "18,468",
           "price": "$1.50 / $7.50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1854,8 +1845,8 @@ Promise.resolve({
           "votes": "4,436",
           "price": "$5 / $30",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1866,8 +1857,8 @@ Promise.resolve({
           "votes": "3,777",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1878,8 +1869,8 @@ Promise.resolve({
           "votes": "1,120",
           "price": "$1.48 / $4.42",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1890,8 +1881,8 @@ Promise.resolve({
           "votes": "11,655",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1902,8 +1893,8 @@ Promise.resolve({
           "votes": "6,509",
           "price": "$1 / $5",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1914,13 +1905,13 @@ Promise.resolve({
           "votes": "17,321",
           "price": "$5 / $25",
           "ctx": "200K",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": null
+      "baseline_date": "2026-08-16"
     },
     "instruction": {
       "name": "Instruction Following",
@@ -1933,8 +1924,8 @@ Promise.resolve({
           "votes": "23,070",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1945,8 +1936,8 @@ Promise.resolve({
           "votes": "7,581",
           "price": "$10 / $50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1957,8 +1948,8 @@ Promise.resolve({
           "votes": "20,936",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1969,8 +1960,8 @@ Promise.resolve({
           "votes": "25,289",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1981,8 +1972,8 @@ Promise.resolve({
           "votes": "7,168",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -1993,8 +1984,8 @@ Promise.resolve({
           "votes": "14,140",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2005,8 +1996,8 @@ Promise.resolve({
           "votes": "21,420",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2017,8 +2008,8 @@ Promise.resolve({
           "votes": "3,327",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2029,8 +2020,8 @@ Promise.resolve({
           "votes": "2,074",
           "price": "$0.75 / $3.57",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2041,8 +2032,8 @@ Promise.resolve({
           "votes": "3,999",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2053,8 +2044,8 @@ Promise.resolve({
           "votes": "9,608",
           "price": "$5 / $25",
           "ctx": "200K",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2065,8 +2056,8 @@ Promise.resolve({
           "votes": "2,536",
           "price": "$2 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2077,8 +2068,8 @@ Promise.resolve({
           "votes": "5,312",
           "price": "$5 / $30",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2089,8 +2080,8 @@ Promise.resolve({
           "votes": "31,831",
           "price": "$1 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2101,8 +2092,8 @@ Promise.resolve({
           "votes": "18,967",
           "price": "$2.50 / $15",
           "ctx": "1.1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2113,8 +2104,8 @@ Promise.resolve({
           "votes": "1,195",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2125,8 +2116,8 @@ Promise.resolve({
           "votes": "4,947",
           "price": "$0.38 / $1.88",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2137,8 +2128,8 @@ Promise.resolve({
           "votes": "14,374",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2149,8 +2140,8 @@ Promise.resolve({
           "votes": "22,165",
           "price": "$1.50 / $7.50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2161,13 +2152,13 @@ Promise.resolve({
           "votes": "20,892",
           "price": "$5 / $25",
           "ctx": "200K",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": null
+      "baseline_date": "2026-08-16"
     },
     "hard-prompts": {
       "name": "Hard Prompts",
@@ -2180,8 +2171,8 @@ Promise.resolve({
           "votes": "45,961",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2192,8 +2183,8 @@ Promise.resolve({
           "votes": "14,125",
           "price": "$10 / $50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2204,8 +2195,8 @@ Promise.resolve({
           "votes": "49,509",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2216,8 +2207,8 @@ Promise.resolve({
           "votes": "40,392",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2228,8 +2219,8 @@ Promise.resolve({
           "votes": "13,390",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2240,8 +2231,8 @@ Promise.resolve({
           "votes": "41,065",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2252,8 +2243,8 @@ Promise.resolve({
           "votes": "7,835",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2264,8 +2255,8 @@ Promise.resolve({
           "votes": "4,807",
           "price": "$2 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2276,8 +2267,8 @@ Promise.resolve({
           "votes": "6,388",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2288,8 +2279,8 @@ Promise.resolve({
           "votes": "27,076",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2300,8 +2291,8 @@ Promise.resolve({
           "votes": "2,148",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2312,8 +2303,8 @@ Promise.resolve({
           "votes": "11,458",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2324,8 +2315,8 @@ Promise.resolve({
           "votes": "3,863",
           "price": "$0.75 / $3.57",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2336,8 +2327,8 @@ Promise.resolve({
           "votes": "61,475",
           "price": "$1 / $6",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2348,8 +2339,8 @@ Promise.resolve({
           "votes": "8,757",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2360,8 +2351,8 @@ Promise.resolve({
           "votes": "10,306",
           "price": "$5 / $30",
           "ctx": "N/A",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2372,8 +2363,8 @@ Promise.resolve({
           "votes": "22,657",
           "price": "$2 / $12",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2384,8 +2375,8 @@ Promise.resolve({
           "votes": "9,406",
           "price": "$0.38 / $1.88",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2396,8 +2387,8 @@ Promise.resolve({
           "votes": "27,531",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -2408,13 +2399,13 @@ Promise.resolve({
           "votes": "43,291",
           "price": "$1.50 / $7.50",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
+          "rank_delta": 0,
+          "score_delta": 0,
           "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": null
+      "baseline_date": "2026-08-16"
     }
   }
 }).then(renderLM)
