@@ -87,7 +87,10 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 #tab-board .news-sum{font-size:12.5px;color:#b8c0d0}
 #tab-board .score-badge{display:inline-block;background:var(--card2);border:1px solid var(--border);border-radius:5px;padding:0 6px;font-size:11px;color:var(--gold);margin-left:6px}
 #tab-board /* KOL 卡 */
-  .kol-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+  .kol-grid{display:block}
+#tab-board .kol-domain-hd{font-size:15px;font-weight:800;color:var(--fg);margin:26px 0 12px;padding-bottom:7px;border-bottom:2px solid var(--rule);display:flex;align-items:center;gap:10px}
+#tab-board .kol-domain-n{font-size:12px;font-weight:600;color:var(--muted);background:var(--card);padding:2px 9px;border-radius:20px}
+#tab-board .kol-domain-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
 #tab-board .kol-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px;border-left:4px solid var(--neutral)}
 #tab-board .kol-card.s2{border-left-color:var(--danger)}
 #tab-board .kol-card.s1{border-left-color:var(--warn)}
@@ -322,6 +325,14 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     <div class="lm-tabs" id="lmTabs"></div>
     <div id="lmTable"></div>
     <div class="subtle" id="lmNote" style="margin-top:10px"></div>
+  </div>
+
+  <div class="section-title">🎯 AI 能力领域榜 · 分领域真实 benchmark · <span id="dbDate" class="subtle"></span></div>
+  <div class="card">
+    <div class="subtle" style="margin-bottom:10px">按能力领域拆分的独立公开评测榜（每个领域数据源不同、口径独立）。军事/经济等无公开评测的社会领域暂留空——不编造分数。</div>
+    <div class="lm-tabs" id="dbTabs"></div>
+    <div id="dbTable"></div>
+    <div class="subtle" id="dbNote" style="margin-top:10px"></div>
   </div>
 
   <div class="section-title">📅 AI 各方向年度里程碑时间线 · <span id="tlWindow" class="subtle"></span></div>
@@ -7795,89 +7806,94 @@ const AXIS_COLOR={"existential":"#ef4444","power-race":"#a855f7","acceleration":
 const AXIS_TXT={"existential":"灭世恐惧","power-race":"权力竞赛","acceleration":"纯加速","skeptic":"怀疑风险被夸大"};
 
 const __DATA__={
-  "generated_at_jst": "2026-08-17 09:00 JST",
-  "date": "2026-08-17",
+  "generated_at_jst": "2026-08-18 11:26 JST",
+  "date": "2026-08-18",
   "danger_gauge": {
-    "gauge": 42.8,
+    "gauge": 30.9,
     "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)",
     "distribution": {
       "+2": 7,
-      "+1": 6,
-      "0": 4,
-      "-1": 3,
-      "-2": 1
+      "+1": 7,
+      "0": 5,
+      "-1": 4,
+      "-2": 2
     },
     "axis_distribution": {
       "existential": 11,
-      "power-race": 1,
+      "power-race": 2,
       "acceleration": 2,
-      "skeptic": 7
+      "skeptic": 10
     },
     "contributions": [
       {
         "name": "杰弗里·辛顿",
         "stance": 2,
-        "weighted": 1.852
+        "weighted": 1.845
       },
       {
         "name": "约书亚·本吉奥",
         "stance": 2,
-        "weighted": 0.944
+        "weighted": 0.94
       },
       {
         "name": "丹尼尔·科科塔伊洛",
         "stance": 2,
-        "weighted": 0.291
+        "weighted": 0.289
       },
       {
         "name": "马克斯·泰格马克",
         "stance": 2,
-        "weighted": 0.665
+        "weighted": 0.662
       },
       {
         "name": "斯科特·亚历山大",
         "stance": 2,
-        "weighted": 1.145
+        "weighted": 1.14
       },
       {
         "name": "伊莱·利夫兰",
         "stance": 2,
-        "weighted": 1.335
+        "weighted": 1.33
       },
       {
         "name": "罗密欧·迪恩",
         "stance": 2,
-        "weighted": 0.6
+        "weighted": 0.598
       },
       {
         "name": "伊利亚·苏茨克维尔",
         "stance": 1,
-        "weighted": 0.288
+        "weighted": 0.287
       },
       {
         "name": "萨姆·奥尔特曼",
         "stance": 1,
-        "weighted": 0.189
+        "weighted": 0.188
       },
       {
         "name": "埃隆·马斯克",
         "stance": 1,
-        "weighted": 0.445
+        "weighted": 0.444
       },
       {
         "name": "亚历克斯·卡普",
         "stance": 1,
-        "weighted": 0.506
+        "weighted": 0.504
       },
       {
         "name": "朱迪亚·珀尔",
         "stance": 1,
-        "weighted": 0.43
+        "weighted": 0.429
       },
       {
         "name": "戴密斯·哈萨比斯",
         "stance": 1,
-        "weighted": 0.372
+        "weighted": 0.37
+      },
+      {
+        "name": "帕尔默·拉基",
+        "stance": 1,
+        "weighted": 0.44
       },
       {
         "name": "安德烈·卡帕西",
@@ -7900,24 +7916,39 @@ const __DATA__={
         "weighted": 0.0
       },
       {
+        "name": "埃里克·托波尔",
+        "stance": 0,
+        "weighted": 0.0
+      },
+      {
         "name": "彼得·蒂尔",
         "stance": -1,
-        "weighted": -0.226
+        "weighted": -0.225
       },
       {
         "name": "理查德·萨顿",
         "stance": -1,
-        "weighted": -0.286
+        "weighted": -0.285
       },
       {
         "name": "达龙·阿西莫格鲁",
         "stance": -1,
-        "weighted": -0.332
+        "weighted": -0.331
+      },
+      {
+        "name": "李开复",
+        "stance": -1,
+        "weighted": -0.378
       },
       {
         "name": "杨立昆",
         "stance": -2,
-        "weighted": -1.299
+        "weighted": -1.294
+      },
+      {
+        "name": "罗杰·彭罗斯",
+        "stance": -2,
+        "weighted": -0.835
       }
     ],
     "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5"
@@ -8013,6 +8044,17 @@ const __DATA__={
         "axis": "existential"
       },
       {
+        "name": "李开复",
+        "name_en": "Kai-Fu Lee",
+        "year": 2032,
+        "year_low": 2030,
+        "year_high": 2035,
+        "range": "务实中期（更强调 AI 智能体落地而非 AGI 时点）",
+        "basis": "2025-2026 多次表示 2026 是 AI 智能体成为'工作基本单元'之年；关注落地采用差距而非 AGI 定义之争；取中期区间",
+        "stance": -1,
+        "axis": "skeptic"
+      },
+      {
         "name": "杨立昆",
         "name_en": "Yann LeCun",
         "year": 2034,
@@ -8093,53 +8135,136 @@ const __DATA__={
       {
         "name": "达龙·阿西莫格鲁",
         "reason": "拒绝AGI时间预测,认为当前'超智能即将到来'是行业炒作;关注AI的实际经济渗透率而非科幻时点"
+      },
+      {
+        "name": "罗杰·彭罗斯",
+        "reason": "长期主张意识源于大脑微管的量子过程(Orch-OR)、非算法可计算；引哥德尔不完备定理论证人类洞察超越形式计算，故现有 AI 永不可能有真正智能/意识"
+      },
+      {
+        "name": "埃里克·托波尔",
+        "reason": "视角在医疗 AI 的实证落地与循证验证，不押注通用 AGI 时间点"
+      },
+      {
+        "name": "帕尔默·拉基",
+        "reason": "视角在国防自主系统落地与美中军事 AI 竞赛，不押注 AGI 时间点"
       }
     ],
     "axis_start": 2025,
     "axis_end": 2050,
-    "median_year": 2030.0,
+    "median_year": 2030,
     "note": "每位 KOL 各一个预测点(区间取中点)；不给明确年份者单列。"
   },
   "directions": [
     {
       "slug": "agent",
       "label": "Agent / 工具链",
-      "count": 1,
+      "count": 5,
       "news": [
         {
-          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-          "source": "Simon Willison 博客",
-          "score": 73,
-          "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
-          "permalink": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c",
-          "time": "08/17 07:00（2 小时前）"
+          "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "score": 81,
+          "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Verc",
+          "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+          "time": "08/18 07:14（4 小时前）"
+        },
+        {
+          "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "score": 74,
+          "summary": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5",
+          "permalink": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p",
+          "time": "08/17 14:30（20 小时前）"
+        },
+        {
+          "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
+          "source": "公众号：数字生命卡兹克",
+          "score": 71,
+          "summary": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的",
+          "permalink": "https://aihot.virxact.com/items/cmsxwd7a40coxroz06g25sfaf",
+          "time": "08/18 08:58（2 小时前）"
+        },
+        {
+          "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "score": 70,
+          "summary": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsA",
+          "permalink": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu",
+          "time": "08/18 02:58（8 小时前）"
+        },
+        {
+          "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+          "source": "Google Developers Blog（RSS）",
+          "score": 69,
+          "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词",
+          "permalink": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j",
+          "time": "08/18 08:22（3 小时前）"
         }
       ]
     },
     {
-      "slug": "reasoning",
-      "label": "推理 / 因果",
-      "count": 1,
+      "slug": "industry",
+      "label": "产业 / 商业",
+      "count": 4,
       "news": [
         {
-          "title": "新兴多智能体系统的模式与问题",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+          "source": "NVIDIA Blog（RSS）",
+          "score": 77,
+          "summary": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+          "permalink": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb",
+          "time": "08/17 21:34（13 小时前）"
+        },
+        {
+          "title": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
+          "source": "X：Jensen Huang (@JensenHuang)",
+          "score": 74,
+          "summary": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。O",
+          "permalink": "https://aihot.virxact.com/items/cmsx8zij405t2rommm4gwgzjh",
+          "time": "08/17 21:40（13 小时前）"
+        },
+        {
+          "title": "A 股迎来\"人形机器人第一股\"，宇树科技官宣 8 月 19 日科创板上市",
+          "source": "IT之家（RSS）",
           "score": 73,
-          "summary": "随着AI智能体在共享代码库、市场等社会系统中承担更多任务，智能体间的真实交互将激增，其交互量可能超过人机交互。Anthropic实验显示，协调式智能体群在2700万token运行中发现266个漏洞，远超独立并行方法的21个，但两者互补性明显。智能体虽擅长工具使用，但在长期协作与协",
-          "permalink": "https://aihot.virxact.com/items/cmsvptx2m061frovmjoavsi0l",
-          "time": "08/16 20:17（12 小时前）"
+          "summary": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.",
+          "permalink": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t",
+          "time": "08/17 21:25（14 小时前）"
+        },
+        {
+          "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "score": 71,
+          "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
+          "permalink": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9",
+          "time": "08/18 03:46（7 小时前）"
         }
       ]
     }
   ],
   "hot_topics": [
     {
-      "title": "Cursor 正式被 SpaceX 收购",
+      "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+      "source_count": 6,
+      "permalink": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb"
+    },
+    {
+      "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+      "source_count": 4,
+      "permalink": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
+    },
+    {
+      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
       "source_count": 2,
-      "permalink": "https://aihot.virxact.com/items/cmsuto7hk0912rouhodiiywlk"
+      "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
+    },
+    {
+      "title": "A 股迎来“人形机器人第一股”，宇树科技官宣 8 月 19 日科创板上市",
+      "source_count": 1,
+      "permalink": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t"
     }
   ],
-  "news_total_24h": 2,
+  "news_total_24h": 9,
   "kol_cards": [
     {
       "kol_name": "Geoffrey Hinton",
@@ -8181,7 +8306,8 @@ const __DATA__={
           "text": "CBC：再度警告 AI 须培养\"母性本能\"，否则人类面临灭绝风险。",
           "url": "https://www.cbc.ca/radio/ideas/geoffrey-hinton-maternal-instincts-9.7094116"
         }
-      ]
+      ],
+      "domain": "foundational-research"
     },
     {
       "kol_name": "Yoshua Bengio",
@@ -8218,7 +8344,8 @@ const __DATA__={
           "text": "主持发布《国际 AI 安全报告 2026》，聚焦前沿新兴风险，模型可区分测试与部署。",
           "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     },
     {
       "kol_name": "Daniel Kokotajlo",
@@ -8255,7 +8382,8 @@ const __DATA__={
           "text": "Dwarkesh 播客：不主张不与中国竞争，需在竞速与减速间穿针。",
           "url": "https://thezvi.substack.com/p/ai-2027-dwarkeshs-podcast-with-daniel"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     },
     {
       "kol_name": "Sam Altman",
@@ -8287,7 +8415,8 @@ const __DATA__={
           "text": "发布博客《温和奇点》，宣称人类已越过\"事件视界\"，预测 2025-2030 年代 AGI/ASI 逐年落地。",
           "url": "https://blog.samaltman.com/the-gentle-singularity"
         }
-      ]
+      ],
+      "domain": "industry"
     },
     {
       "kol_name": "Elon Musk",
@@ -8324,7 +8453,8 @@ const __DATA__={
           "text": "Giga Texas 对话首次给明确时间表：AGI 2026、2030 超全人类智能，AI 是\"超音速海啸\"。",
           "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261488486-agi-2026-mark-turning-artificial-intelligence-musk-warns-white-collar-workers-tradingkey"
         }
-      ]
+      ],
+      "domain": "industry"
     },
     {
       "kol_name": "Demis Hassabis",
@@ -8361,7 +8491,8 @@ const __DATA__={
           "text": "Axios AI+ 峰会：称 AGI 可能 5-10 年内到来，是\"人类历史上最具变革性的时刻\"。",
           "url": "https://www.axios.com/"
         }
-      ]
+      ],
+      "domain": "industry"
     },
     {
       "kol_name": "Andrej Karpathy",
@@ -8398,7 +8529,8 @@ const __DATA__={
           "text": "Dwarkesh 播客：AGI 仍需约十年，RL\"很糟糕\"，智能体尚不可靠。",
           "url": "https://www.dwarkesh.com/p/andrej-karpathy"
         }
-      ]
+      ],
+      "domain": "agent-engineering"
     },
     {
       "kol_name": "Richard Sutton",
@@ -8430,7 +8562,8 @@ const __DATA__={
           "text": "Dwarkesh 播客：强化学习之父直言 LLM 是死路，无真实世界模型。",
           "url": "https://www.dwarkesh.com/p/richard-sutton"
         }
-      ]
+      ],
+      "domain": "foundational-research"
     },
     {
       "kol_name": "Yann LeCun",
@@ -8467,7 +8600,8 @@ const __DATA__={
           "text": "再度回击\"AI 末日论者的末日预言\"，坚持 AI 并非生存威胁。",
           "url": "https://www.facebook.com/groups/833300343511308/posts/3508367752671207/"
         }
-      ]
+      ],
+      "domain": "foundational-research"
     },
     {
       "kol_name": "Max Tegmark",
@@ -8502,7 +8636,8 @@ const __DATA__={
           "date": "2026",
           "event": "持续倡导'安全超智能'路线与强制性对齐标准,反对无护栏竞速"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     },
     {
       "kol_name": "Scott Alexander",
@@ -8541,7 +8676,8 @@ const __DATA__={
           "date": "2026-05-22",
           "event": "《New Paradigms Won't Save You》驳斥'LLM成不了AGI'论,估AGI仍可能2020s末-2030s初"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     },
     {
       "kol_name": "Eli Lifland",
@@ -8584,7 +8720,8 @@ const __DATA__={
           "date": "2026-07",
           "event": "共同发布《AI 2040: Plan A》超智能治理路线"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     },
     {
       "kol_name": "Ilya Sutskever",
@@ -8616,7 +8753,8 @@ const __DATA__={
           "text": "Dwarkesh 播客：宣告\"扩展时代\"终结、进入\"研究时代\"，超智能 5-20 年内到来。",
           "url": "https://www.dwarkesh.com/p/ilya-sutskever-2"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     },
     {
       "kol_name": "Alex Karp",
@@ -8653,7 +8791,8 @@ const __DATA__={
           "text": "Palantir《技术共和国》22 点宣言引热议：主张硬实力护卫民主、西方须赢下 AI。",
           "url": "https://www.businessinsider.com/palantir-manifesto-alex-karp-technological-republic-summary-2026-4"
         }
-      ]
+      ],
+      "domain": "defense"
     },
     {
       "kol_name": "Judea Pearl",
@@ -8690,6 +8829,45 @@ const __DATA__={
           "text": "重申生成式 AI 热潮正在因果研究领域制造真空。",
           "url": "https://note.com/betaitohuman/n/nf47d88b7ffeb"
         }
+      ],
+      "domain": "foundational-research"
+    },
+    {
+      "kol_name": "Palmer Luckey",
+      "name_zh": "帕尔默·拉基",
+      "role": "Anduril 创始人($61B估值防务巨头)、Oculus VR 创始人、自主武器/AI 战争最主要鼓吹者与实践者",
+      "affiliation": "Anduril Industries（创始人）",
+      "field": "defense",
+      "domain": "defense",
+      "style": "国防加速派/权力竞赛",
+      "danger_stance": 1,
+      "danger_basis": "危险来自'输掉对华 AI 军备竞赛'而非 AI 本身失控；主张西方必须在自主武器上领先、用劣势技术才不道德。危险轴取权力竞赛",
+      "danger_axis": "power-race",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "不重点预测 AGI（关注国防 AI 部署与地缘竞争）",
+      "agi_basis": "视角在国防自主系统落地与美中军事 AI 竞赛，不押注 AGI 时间点",
+      "rating": "★★★★",
+      "latest_view": "2026-03 Axios 专访：美国对华 AI 领先优势'极其微弱'，中国善于蒸馏/复制西方模型并更快部署到军队与监控体系；主张造自主武器、甚至核武器是历史上最稳定的力量之一；用劣势技术没有道德高地。",
+      "latest_date": "2026-03-16",
+      "direction_topics": [
+        "自主武器/AI 战争",
+        "美中 AI 军备竞赛",
+        "地下战系统",
+        "用劣势技术不道德"
+      ],
+      "source_url": "https://www.axios.com/2026/03/16/axios-show-palmer-luckey-anduril-ai",
+      "year_timeline": [
+        {
+          "date": "2025-04-01",
+          "text": "TED 问答：智能武器能区分校车与装甲，造分不清的地雷才没有道德高地。",
+          "url": "https://www.techradar.com/pro/quote-of-the-day-by-anduril-founder-palmer-lucky"
+        },
+        {
+          "date": "2026-03-16",
+          "text": "Axios 专访：美对华 AI 优势'极其微弱'，中国部署更快；会'毫不犹豫'造核武器。",
+          "url": "https://www.axios.com/2026/03/16/axios-show-palmer-luckey-anduril-ai"
+        }
       ]
     },
     {
@@ -8722,7 +8900,8 @@ const __DATA__={
           "text": "发表《From Words to Worlds》：提出空间智能是 AI 下一前沿，阐述世界模型三大要素。",
           "url": "https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence"
         }
-      ]
+      ],
+      "domain": "foundational-research"
     },
     {
       "kol_name": "Jeff Dean",
@@ -8754,7 +8933,8 @@ const __DATA__={
           "text": "Dwarkesh 播客：回顾 Google 25 年，谈硬件演进、低精度量化、长上下文与 Gemini。",
           "url": "https://www.dwarkesh.com/p/jeff-dean-and-noam-shazeer"
         }
-      ]
+      ],
+      "domain": "industry"
     },
     {
       "kol_name": "Liang Wenfeng",
@@ -8785,6 +8965,50 @@ const __DATA__={
           "date": "2025-08-01",
           "text": "入选《时代》100 位 AI 最具影响力人物及《财富》全球商业最有权势人物榜。",
           "url": "https://en.wikipedia.org/wiki/Liang_Wenfeng"
+        }
+      ],
+      "domain": "china"
+    },
+    {
+      "kol_name": "Eric Topol",
+      "name_zh": "埃里克·托波尔",
+      "role": "Scripps 研究所分子医学教授、心脏病学家、《Deep Medicine》《Super Agers》作者、AI 医疗领域标杆",
+      "affiliation": "Scripps Research Translational Institute（创始主任）",
+      "field": "medical",
+      "domain": "medical",
+      "style": "医疗应用乐观派/以人为本",
+      "danger_stance": 0,
+      "danger_basis": "聚焦 AI 医疗落地价值而非生存风险；强调 AI 应减轻医生负担、让医疗回归人性，主要风险是临床验证不足与去人性化，非灭世",
+      "danger_axis": "skeptic",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "不重点预测 AGI（关注医疗专用 AI 落地）",
+      "agi_basis": "视角在医疗 AI 的实证落地与循证验证，不押注通用 AGI 时间点",
+      "rating": "★★★★",
+      "latest_view": "2026-06 撰文评 Nature 两篇智能体医疗论文(MIRA/AMIE)：自主 AI 医生在 500 真实急诊病例诊断准确率 87.8% 超过 4 位专科医师(78.1%)，但仍是纯文本、'干净数据'、缺非语言线索；警告过度遵循指南可能丧失医学的人性与医患纽带。",
+      "latest_date": "2026-06-17",
+      "direction_topics": [
+        "智能体医疗 MIRA/AMIE",
+        "AI 减少误诊与倦怠",
+        "预防医学",
+        "医疗回归人性"
+      ],
+      "source_url": "https://erictopol.substack.com/p/agentic-ai-comes-to-medicine",
+      "year_timeline": [
+        {
+          "date": "2025-12-18",
+          "text": "播客：医生不应恐惧 AI，它能减少差错与倦怠；预防而非治疗才是医学未来。",
+          "url": "https://www.offcall.com/learn/podcast/eric-topol-ai-future-of-medicine"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "访谈谈长寿、AI 与循证医学。",
+          "url": "https://paijournal.com/index.php/paijournal/article/view/1028/1021"
+        },
+        {
+          "date": "2026-06-17",
+          "text": "Ground Truths 撰文：智能体自主 AI 医生急诊诊断准确率超专科医师，但纯文本+干净数据是硬限。",
+          "url": "https://erictopol.substack.com/p/agentic-ai-comes-to-medicine"
         }
       ]
     },
@@ -8823,7 +9047,8 @@ const __DATA__={
           "text": "WSJ 报道其系列讲座：恐惧、监管或反对技术进步都会加速\"敌基督\"降临。",
           "url": "https://www.wsj.com/tech/peter-thiel-antichrist-lectures-dd28c876"
         }
-      ]
+      ],
+      "domain": "industry"
     },
     {
       "kol_name": "Daron Acemoglu",
@@ -8857,6 +9082,88 @@ const __DATA__={
         {
           "date": "2026-01",
           "event": "就AI资本开支泡沫与就业冲击密集发声,警告市场对AI回报预期严重超前"
+        }
+      ],
+      "domain": "economics"
+    },
+    {
+      "kol_name": "Kai-Fu Lee",
+      "name_zh": "李开复",
+      "role": "创新工场董事长、01.AI 创始人、《AI Superpowers》《AI 2041》作者、前 Google 中国总裁、世界经济论坛全球 AI 委员会联合主席",
+      "affiliation": "Sinovation Ventures 创新工场 / 01.AI 零一万物",
+      "field": "china",
+      "domain": "china",
+      "style": "中国产业应用派/务实落地",
+      "danger_stance": -1,
+      "danger_basis": "更关注 AI 落地应用与经济价值而非生存风险；认为中国将在消费级 AI/落地实施上胜出，危险轴偏乐观(怀疑末日论)",
+      "danger_axis": "skeptic",
+      "agi_year_low": 2030,
+      "agi_year_high": 2035,
+      "agi_range": "务实中期（更强调 AI 智能体落地而非 AGI 时点）",
+      "agi_basis": "2025-2026 多次表示 2026 是 AI 智能体成为'工作基本单元'之年；关注落地采用差距而非 AGI 定义之争；取中期区间",
+      "rating": "★★★★",
+      "latest_view": "2026 主张中国将在消费级 AI 与落地实施(TC-PMF)上胜过美国；2026 是 AI 智能体成为工作基本单元之年；西方董事会正系统性误读中国的 AI 采用数据。",
+      "latest_date": "2026-02-04",
+      "direction_topics": [
+        "中国消费级 AI 胜出",
+        "AI 智能体=工作基本单元",
+        "落地采用差距",
+        "开源 Yi 模型"
+      ],
+      "source_url": "https://www.ft.com/content/5d71bb69-25e0-4425-8ac8-635b7a8abb68",
+      "year_timeline": [
+        {
+          "date": "2025-10-22",
+          "text": "预测 2026 年 AI 智能体将成为工作的基本单元。",
+          "url": "https://theventurelens.substack.com/p/kai-fu-lee-ai-agents-2026"
+        },
+        {
+          "date": "2026-02-04",
+          "text": "FT：中国将在消费级 AI 上击败美国。",
+          "url": "https://www.ft.com/content/5d71bb69-25e0-4425-8ac8-635b7a8abb68"
+        }
+      ]
+    },
+    {
+      "kol_name": "Roger Penrose",
+      "name_zh": "罗杰·彭罗斯",
+      "role": "2020诺贝尔物理学奖、牛津数学物理学家、Orch-OR 微管量子意识理论提出者、《皇帝新脑》作者",
+      "affiliation": "牛津大学（名誉教授）",
+      "field": "consciousness",
+      "domain": "consciousness-philosophy",
+      "style": "根本怀疑派/意识非计算论",
+      "danger_stance": -2,
+      "danger_axis": "skeptic",
+      "danger_basis": "认为现有 AI 无论多强都不可能有真正的理解与意识→根本上怀疑 AGI/超智能威胁论；危险轴取极乐观(怀疑风险被夸大)",
+      "agi_year_low": null,
+      "agi_year_high": null,
+      "agi_range": "不会到来（就现有计算范式而言）",
+      "agi_basis": "长期主张意识源于大脑微管的量子过程(Orch-OR)、非算法可计算；引哥德尔不完备定理论证人类洞察超越形式计算，故现有 AI 永不可能有真正智能/意识",
+      "rating": "★★★★",
+      "latest_view": "2026 多场对谈重申：单纯扩大算力不会产生真正的觉知与理解，意识涉及超越算法的东西(可能是大脑微管中的量子过程)；真正的智能需要意识，而当前 AI 无论多先进都无法达到。",
+      "latest_date": "2026-03-02",
+      "direction_topics": [
+        "意识非计算",
+        "Orch-OR 微管量子意识",
+        "哥德尔论证",
+        "AI 永不可能有真正理解"
+      ],
+      "source_url": "https://www.linkedin.com/pulse/why-roger-penrose-believes-ai-never-conscious-meir-pinco-yxxdc",
+      "year_timeline": [
+        {
+          "date": "2025-09-14",
+          "text": "新访谈：计算机无法'理解'，真正智能需要意识，而这超越算法。",
+          "url": "https://www.youtube.com/watch?v=bZGRo0bdg3c"
+        },
+        {
+          "date": "2026-01-22",
+          "text": "'Cracking the Code for Thought'活动：扩大算力不会带来真正的觉知或理解。",
+          "url": "https://x.com/i/trending/2028532142347821418"
+        },
+        {
+          "date": "2026-03-10",
+          "text": "再度重申数十年立场：理解超越计算，AI 不会有意识。",
+          "url": "https://www.linkedin.com/pulse/why-roger-penrose-believes-ai-never-conscious-meir-pinco-yxxdc"
         }
       ]
     },
@@ -8897,10 +9204,11 @@ const __DATA__={
           "date": "2026-02-18",
           "event": "LessWrong更新整体p(doom)≈55%,判断Plan C或已是默认路径"
         }
-      ]
+      ],
+      "domain": "safety-alignment"
     }
   ],
-  "kol_count": 21,
+  "kol_count": 25,
   "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。"
 };
 Promise.resolve(__DATA__).then(d=>{
@@ -8981,20 +9289,42 @@ Promise.resolve(__DATA__).then(d=>{
     dc.appendChild(hb);
   }
 
-  // KOL 卡
+  // KOL 卡（按 domain 视角领域分组）
   const kg=document.getElementById('kolGrid');
-  d.kol_cards.forEach(k=>{
-    const c=document.createElement('div');c.className='kol-card '+(STANCE_CLS[k.danger_stance]||'s0');
+  const DOMAIN_META={
+    'foundational-research':{zh:'🔬 基础研究 / 科学家',o:1},
+    'industry':{zh:'🏭 产业 / 大厂领袖',o:2},
+    'safety-alignment':{zh:'🛡️ 安全 / 对齐',o:3},
+    'agent-engineering':{zh:'🤖 智能体 / 工程',o:4},
+    'china':{zh:'🇨🇳 中国',o:5},
+    'economics':{zh:'💰 经济 / 劳动力',o:6},
+    'medical':{zh:'🏥 医疗',o:7},
+    'defense':{zh:'⚔️ 军事 / 国防',o:8},
+    'consciousness-philosophy':{zh:'🧠 意识 / 哲学',o:9}
+  };
+  const groups={};
+  d.kol_cards.forEach(k=>{const dm=k.domain||'foundational-research';(groups[dm]=groups[dm]||[]).push(k);});
+  const orderedDoms=Object.keys(groups).sort((a,b)=>((DOMAIN_META[a]||{o:99}).o)-((DOMAIN_META[b]||{o:99}).o));
+  function kolCardHTML(k){
     const dcls=k.danger_stance>0?'danger':(k.danger_stance<0?'safe':'');
-    c.innerHTML=`<div class="kol-top"><div class="kol-name">${k.name_zh} <small>${k.kol_name}</small></div><div class="kol-rating">${k.rating||''}</div></div>`+
+    return `<div class="kol-card ${STANCE_CLS[k.danger_stance]||'s0'}">`+
+      `<div class="kol-top"><div class="kol-name">${k.name_zh} <small>${k.kol_name}</small></div><div class="kol-rating">${k.rating||''}</div></div>`+
       `<div class="kol-role">${k.role}</div>`+
       `<div class="kol-tags"><span class="tag ${dcls}">危险 ${STANCE_TXT[k.danger_stance]}</span>`+
       (k.danger_axis?`<span class="tag" style="border-color:${AXIS_COLOR[k.danger_axis]};color:${AXIS_COLOR[k.danger_axis]}">${AXIS_TXT[k.danger_axis]}</span>`:'')+
       `<span class="tag agi">AGI ${k.agi_range?(k.agi_year_low&&k.agi_year_high&&k.agi_year_low!==k.agi_year_high?k.agi_year_low+'-'+k.agi_year_high:(k.agi_year_low||'—')):'—'}</span>`+
       `<span class="tag">${k.style}</span></div>`+
       `<div class="kol-view">${k.latest_view}</div>`+
-      `<div class="kol-basis">📊 ${k.danger_basis}　<a href="${k.source_url}" target="_blank">来源 ↗</a></div>`;
-    kg.appendChild(c);
+      `<div class="kol-basis">📊 ${k.danger_basis}　<a href="${k.source_url}" target="_blank">来源 ↗</a></div></div>`;
+  }
+  orderedDoms.forEach(dm=>{
+    const meta=DOMAIN_META[dm]||{zh:dm};
+    const hd=document.createElement('div');hd.className='kol-domain-hd';
+    hd.innerHTML=`${meta.zh} <span class="kol-domain-n">${groups[dm].length} 位</span>`;
+    kg.appendChild(hd);
+    const grid=document.createElement('div');grid.className='kol-domain-grid';
+    grid.innerHTML=groups[dm].map(kolCardHTML).join('');
+    kg.appendChild(grid);
   });
 
   document.getElementById('footer').textContent=d.data_note+' · '+d.generated_at_jst;
@@ -9042,8 +9372,8 @@ function renderLM(lm){
   if(slugs.length)draw(slugs[0]);
 }
 Promise.resolve({
-  "generated_at_jst": "2026-08-17 08:41 JST",
-  "date": "2026-08-17",
+  "generated_at_jst": "2026-08-18 08:40 JST",
+  "date": "2026-08-18",
   "source": "LMArena (lmarena.ai/leaderboard/text)",
   "compare_window": "vs ~30 天前",
   "categories": {
@@ -10064,7 +10394,7 @@ Promise.resolve({
  "ok": true,
  "source": "AIHOT 综合评测榜 (aihot.virxact.com/leaderboard)",
  "note": "aihot 官方综合评测榜，与 LMArena 人类盲测榜口径不同",
- "generated_at_jst": "2026-08-17 13:33 JST",
+ "generated_at_jst": "2026-08-18 09:00 JST",
  "count": 30,
  "rows": [
   {
@@ -10072,80 +10402,80 @@ Promise.resolve({
    "model": "Claude Fable 5",
    "brand": "Anthropic",
    "release_date": "2026-06-09",
-   "completeness": "评测 76.5%",
-   "input_price": "$10",
-   "output_price": "$50",
-   "score": 90.2
+   "completeness": "评测 84.5%",
+   "input_price": "¥67.39",
+   "output_price": "¥336.97",
+   "score": 90.0
   },
   {
    "rank": 2,
    "model": "Claude Opus 5",
    "brand": "Anthropic",
    "release_date": "2026-07-24",
-   "completeness": "评测 76.5%",
-   "input_price": "$5",
-   "output_price": "$25",
-   "score": 90.0
+   "completeness": "评测 84.5%",
+   "input_price": "¥33.70",
+   "output_price": "¥168.48",
+   "score": 87.7
   },
   {
    "rank": 3,
    "model": "GPT-5.6 Sol",
    "brand": "OpenAI",
    "release_date": "2026-07-09",
-   "completeness": "评测 76.5%",
-   "input_price": "$5",
-   "output_price": "$30",
-   "score": 83.5
+   "completeness": "评测 84.5%",
+   "input_price": "¥33.70",
+   "output_price": "¥202.18",
+   "score": 83.2
   },
   {
    "rank": 4,
    "model": "Kimi K3",
    "brand": "Moonshot AI",
    "release_date": "2026-07-16",
-   "completeness": "评测 76.5%",
-   "input_price": "$3",
-   "output_price": "$15",
-   "score": 82.1
+   "completeness": "评测 84.5%",
+   "input_price": "¥20.00",
+   "output_price": "¥100.00",
+   "score": 80.5
   },
   {
    "rank": 5,
    "model": "Grok 4.6",
    "brand": "xAI",
    "release_date": "2026-08-12",
-   "completeness": "评测 76.5%",
-   "input_price": "$2",
-   "output_price": "$6",
-   "score": 76.6
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.48",
+   "output_price": "¥40.44",
+   "score": 76.5
   },
   {
    "rank": 6,
    "model": "Gemini 3.7 Flash",
    "brand": "Google",
    "release_date": "2026-08-13",
-   "completeness": "评测 64.0%",
-   "input_price": "$0.75",
-   "output_price": "$3.75",
-   "score": 76.4
+   "completeness": "评测 72.0%",
+   "input_price": "¥5.05",
+   "output_price": "¥25.27",
+   "score": 75.7
   },
   {
    "rank": 7,
-   "model": "Qwen3.8 Max",
-   "brand": "Alibaba",
-   "release_date": "2026-07-19",
-   "completeness": "评测 73.0%",
-   "input_price": "$2",
-   "output_price": "$6",
-   "score": 74.0
-  },
-  {
-   "rank": 8,
    "model": "Muse Spark 1.2",
    "brand": "Meta",
    "release_date": "2026-08-05",
    "completeness": "评测 73.0%",
-   "input_price": "$1.25",
-   "output_price": "$4.25",
-   "score": 73.7
+   "input_price": "¥8.42",
+   "output_price": "¥28.64",
+   "score": 74.2
+  },
+  {
+   "rank": 8,
+   "model": "Qwen3.8 Max",
+   "brand": "Alibaba",
+   "release_date": "2026-07-19",
+   "completeness": "评测 81.0%",
+   "input_price": "¥12.00",
+   "output_price": "¥36.00",
+   "score": 73.9
   },
   {
    "rank": 9,
@@ -10153,29 +10483,29 @@ Promise.resolve({
    "brand": "OpenAI",
    "release_date": "2026-04-23",
    "completeness": "评测 76.5%",
-   "input_price": "$5",
-   "output_price": "$30",
-   "score": 72.1
+   "input_price": "¥33.70",
+   "output_price": "¥202.18",
+   "score": 72.7
   },
   {
    "rank": 10,
    "model": "Claude Opus 4.8",
    "brand": "Anthropic",
    "release_date": "2026-05-28",
-   "completeness": "评测 76.5%",
-   "input_price": "$5",
-   "output_price": "$25",
-   "score": 71.3
+   "completeness": "评测 84.5%",
+   "input_price": "¥33.70",
+   "output_price": "¥168.48",
+   "score": 72.0
   },
   {
    "rank": 11,
    "model": "GPT-5.6 Terra",
    "brand": "OpenAI",
    "release_date": "2026-07-09",
-   "completeness": "评测 73.0%",
-   "input_price": "$2",
-   "output_price": "$12",
-   "score": 66.8
+   "completeness": "评测 81.0%",
+   "input_price": "¥13.48",
+   "output_price": "¥80.87",
+   "score": 68.2
   },
   {
    "rank": 12,
@@ -10183,9 +10513,9 @@ Promise.resolve({
    "brand": "Anthropic",
    "release_date": "2026-04-16",
    "completeness": "评测 68.5%",
-   "input_price": "$5",
-   "output_price": "$25",
-   "score": 64.2
+   "input_price": "¥33.70",
+   "output_price": "¥168.48",
+   "score": 64.8
   },
   {
    "rank": 13,
@@ -10193,183 +10523,610 @@ Promise.resolve({
    "brand": "Meta",
    "release_date": "2026-07-09",
    "completeness": "评测 76.5%",
-   "input_price": "$1.25",
-   "output_price": "$4.25",
-   "score": 61.0
+   "input_price": "¥8.42",
+   "output_price": "¥28.64",
+   "score": 61.2
   },
   {
    "rank": 14,
-   "model": "Claude Sonnet 5",
-   "brand": "Anthropic",
-   "release_date": "2026-06-30",
-   "completeness": "评测 76.5%",
-   "input_price": "$2",
-   "output_price": "$10",
-   "score": 56.9
+   "model": "DeepSeek V4 Pro 0813",
+   "brand": "DeepSeek",
+   "release_date": "2026-08-13",
+   "completeness": "评测 64.0%",
+   "input_price": "¥9.00",
+   "output_price": "¥27.00",
+   "score": 60.7
   },
   {
    "rank": 15,
-   "model": "GPT-5.4",
-   "brand": "OpenAI",
-   "release_date": "2026-03-05",
-   "completeness": "评测 69.5%",
-   "input_price": "$2.5",
-   "output_price": "$15",
-   "score": 55.5
+   "model": "Claude Sonnet 5",
+   "brand": "Anthropic",
+   "release_date": "2026-06-30",
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.48",
+   "output_price": "¥67.39",
+   "score": 57.0
   },
   {
    "rank": 16,
    "model": "Grok 4.5",
    "brand": "xAI",
    "release_date": "2026-07-08",
-   "completeness": "评测 76.5%",
-   "input_price": "$2",
-   "output_price": "$6",
-   "score": 55.1
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.48",
+   "output_price": "¥40.44",
+   "score": 56.9
   },
   {
    "rank": 17,
-   "model": "GPT-5.6 Luna",
+   "model": "GPT-5.4",
    "brand": "OpenAI",
-   "release_date": "2026-07-09",
-   "completeness": "评测 73.0%",
-   "input_price": "$0.2",
-   "output_price": "$1.2",
-   "score": 49.9
+   "release_date": "2026-03-05",
+   "completeness": "评测 69.5%",
+   "input_price": "¥16.85",
+   "output_price": "¥101.09",
+   "score": 55.7
   },
   {
    "rank": 18,
-   "model": "Gemini 3.5 Flash",
-   "brand": "Google",
-   "release_date": "2026-05-19",
-   "completeness": "评测 73.0%",
-   "input_price": "$1.5",
-   "output_price": "$9",
-   "score": 49.3
+   "model": "GPT-5.6 Luna",
+   "brand": "OpenAI",
+   "release_date": "2026-07-09",
+   "completeness": "评测 81.0%",
+   "input_price": "¥1.35",
+   "output_price": "¥8.09",
+   "score": 51.0
   },
   {
    "rank": 19,
    "model": "Gemini 3.6 Flash",
    "brand": "Google",
    "release_date": "2026-07-21",
-   "completeness": "评测 73.0%",
-   "input_price": "$0.75",
-   "output_price": "$3.75",
-   "score": 48.7
+   "completeness": "评测 81.0%",
+   "input_price": "¥5.05",
+   "output_price": "¥25.27",
+   "score": 50.5
   },
   {
    "rank": 20,
-   "model": "GLM-5.2",
-   "brand": "Z.ai",
-   "release_date": "2026-06-16",
-   "completeness": "评测 76.5%",
-   "input_price": "$1.4",
-   "output_price": "$4.4",
-   "score": 46.7
+   "model": "Gemini 3.5 Flash",
+   "brand": "Google",
+   "release_date": "2026-05-19",
+   "completeness": "评测 81.0%",
+   "input_price": "¥10.11",
+   "output_price": "¥60.65",
+   "score": 47.5
   },
   {
    "rank": 21,
-   "model": "Claude Opus 4.6",
-   "brand": "Anthropic",
-   "release_date": "2026-02-05",
-   "completeness": "评测 61.5%",
-   "input_price": "$5",
-   "output_price": "$25",
-   "score": 42.0
+   "model": "GLM-5.2",
+   "brand": "Z.ai",
+   "release_date": "2026-06-16",
+   "completeness": "评测 84.5%",
+   "input_price": "¥8.00",
+   "output_price": "¥28.00",
+   "score": 47.3
   },
   {
    "rank": 22,
-   "model": "DeepSeek V4 Flash 0731",
-   "brand": "DeepSeek",
-   "release_date": "2026-07-31",
-   "completeness": "评测 68.5%",
-   "input_price": "$0.14",
-   "output_price": "$0.28",
-   "score": 41.2
+   "model": "Claude Opus 4.6",
+   "brand": "Anthropic",
+   "release_date": "2026-02-05",
+   "completeness": "评测 69.5%",
+   "input_price": "¥33.70",
+   "output_price": "¥168.48",
+   "score": 44.8
   },
   {
    "rank": 23,
-   "model": "Gemini 3.1 Pro Preview",
-   "brand": "Google",
-   "release_date": "2026-02-19",
+   "model": "DeepSeek V4 Flash 0731",
+   "brand": "DeepSeek",
+   "release_date": "2026-07-31",
    "completeness": "评测 76.5%",
-   "input_price": "$2",
-   "output_price": "$12",
-   "score": 40.2
+   "input_price": "¥3.00",
+   "output_price": "¥9.00",
+   "score": 43.7
   },
   {
    "rank": 24,
+   "model": "Gemini 3.1 Pro Preview",
+   "brand": "Google",
+   "release_date": "2026-02-19",
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.48",
+   "output_price": "¥80.87",
+   "score": 40.0
+  },
+  {
+   "rank": 25,
    "model": "Claude Sonnet 4.6",
    "brand": "Anthropic",
    "release_date": "2026-02-17",
    "completeness": "评测 73.0%",
-   "input_price": "$3",
-   "output_price": "$15",
-   "score": 37.4
+   "input_price": "¥20.22",
+   "output_price": "¥101.09",
+   "score": 37.8
   },
   {
-   "rank": 25,
+   "rank": 26,
    "model": "DeepSeek V4 Pro Preview",
    "brand": "DeepSeek",
    "release_date": "2026-04-24",
    "completeness": "评测 73.0%",
-   "input_price": "$0.44",
-   "output_price": "$0.87",
-   "score": 30.1
+   "input_price": "¥2.93",
+   "output_price": "¥5.86",
+   "score": 30.4
   },
   {
-   "rank": 26,
+   "rank": 27,
    "model": "GPT-5.2 2025 12 11",
    "brand": "OpenAI",
    "release_date": "2025-12-11",
    "completeness": "评测 61.5%",
-   "input_price": "$1.75",
-   "output_price": "$14",
-   "score": 25.6
+   "input_price": "¥11.79",
+   "output_price": "¥94.35",
+   "score": 25.7
   },
   {
-   "rank": 27,
+   "rank": 28,
    "model": "Kimi K2.6",
    "brand": "Moonshot AI",
    "release_date": "2026-04-20",
    "completeness": "评测 65.0%",
-   "input_price": "$0.95",
-   "output_price": "$4",
-   "score": 25.3
-  },
-  {
-   "rank": 28,
-   "model": "MiniMax M 3",
-   "brand": "MiniMax",
-   "release_date": "2026-06-01",
-   "completeness": "评测 65.0%",
-   "input_price": "$0.3",
-   "output_price": "$1.2",
-   "score": 23.8
+   "input_price": "¥6.50",
+   "output_price": "¥27.00",
+   "score": 25.5
   },
   {
    "rank": 29,
+   "model": "MiniMax M 3",
+   "brand": "MiniMax",
+   "release_date": "2026-06-01",
+   "completeness": "评测 73.0%",
+   "input_price": "¥2.10",
+   "output_price": "¥8.40",
+   "score": 23.9
+  },
+  {
+   "rank": 30,
    "model": "Claude Opus 4.5 20251101",
    "brand": "Anthropic",
    "release_date": "2025-11-24",
    "completeness": "评测 61.5%",
-   "input_price": "$5",
-   "output_price": "$25",
-   "score": 20.9
-  },
-  {
-   "rank": 30,
-   "model": "GPT-5.2 Codex",
-   "brand": "OpenAI",
-   "release_date": "2025-12-11",
-   "completeness": "评测 52.5%",
-   "input_price": "$1.75",
-   "output_price": "$14",
-   "score": 18.5
+   "input_price": "¥33.70",
+   "output_price": "¥168.48",
+   "score": 21.1
   }
  ]
 }).then(renderAH)
   .catch(e=>{document.getElementById('ahNote').textContent='综合评测榜加载失败: '+e;});
+
+// ── AI 能力领域榜（分领域独立 benchmark）──
+function renderDB(db){
+  document.getElementById('dbDate').textContent=(db&&db.generated_at_jst)||'';
+  const doms=(db&&db.domains)||[];
+  const tabs=document.getElementById('dbTabs'), tbl=document.getElementById('dbTable'), note=document.getElementById('dbNote');
+  if(!doms.length){tbl.innerHTML='<div class="empty">暂无领域榜数据</div>';return;}
+  function draw(key){
+    [...tabs.children].forEach(t=>t.classList.toggle('active',t.dataset.key===key));
+    const dm=doms.find(x=>x.key===key)||doms[0];
+    let h=`<div class="lm-row ah-head"><span>#</span><span>模型</span><span style="text-align:right">得分</span><span style="text-align:center">机构</span></div>`;
+    if(!dm.rows||!dm.rows.length){h+=`<div class="empty">该领域暂无公开评测数据（${dm.status||'空'}）</div>`;}
+    (dm.rows||[]).forEach(r=>{
+      const medal=r.rank===1?'🥇':r.rank===2?'🥈':r.rank===3?'🥉':r.rank;
+      h+=`<div class="lm-row ah-row"><span class="lm-rank">${medal}</span>`+
+        `<span class="lm-model">${r.model}</span>`+
+        `<span class="lm-score">${r.score??'—'}</span>`+
+        `<span class="ah-date">${r.org||''}</span></div>`;
+    });
+    tbl.innerHTML=h;
+    note.innerHTML=`📊 <b>${dm.benchmark}</b> · ${dm.unit}　｜ 数据源：${dm.source}`;
+  }
+  doms.forEach((dm,i)=>{
+    const b=document.createElement('div');b.className='lm-tab'+(i===0?' active':'');
+    b.dataset.key=dm.key;b.textContent=dm.emoji+' '+dm.name_zh;
+    b.onclick=()=>draw(dm.key);tabs.appendChild(b);
+  });
+  draw(doms[0].key);
+}
+Promise.resolve({
+ "generated_at_jst": "2026-08-18 11:23 JST",
+ "note": "各能力领域真实公开 benchmark 榜；军事/经济等无公开评测领域留空(不编造)。",
+ "domains": [
+  {
+   "key": "coding",
+   "name_zh": "编程 / 软件工程",
+   "emoji": "💻",
+   "benchmark": "SWE-bench Verified",
+   "unit": "解决真实 GitHub issue 通过率 %",
+   "source": "benchlm.ai",
+   "status": "ok",
+   "rows": [
+    {
+     "model": "Claude Opus 5",
+     "org": "Anthropic",
+     "score": 96,
+     "src_type": "Proprietary",
+     "rank": 1
+    },
+    {
+     "model": "Claude Mythos 5",
+     "org": "Anthropic",
+     "score": 95.5,
+     "src_type": "Proprietary",
+     "rank": 2
+    },
+    {
+     "model": "Claude Fable 5",
+     "org": "Anthropic",
+     "score": 95,
+     "src_type": "Proprietary",
+     "rank": 3
+    },
+    {
+     "model": "Claude Opus 4.8",
+     "org": "Anthropic",
+     "score": 88.6,
+     "src_type": "Proprietary",
+     "rank": 4
+    },
+    {
+     "model": "Claude Opus 4.7 (Adaptive)",
+     "org": "Anthropic",
+     "score": 87.6,
+     "src_type": "Proprietary",
+     "rank": 5
+    },
+    {
+     "model": "Claude Sonnet 5",
+     "org": "Anthropic",
+     "score": 85.2,
+     "src_type": "Proprietary",
+     "rank": 6
+    },
+    {
+     "model": "GPT-5.3 Codex",
+     "org": "OpenAI",
+     "score": 85,
+     "src_type": "Proprietary",
+     "rank": 7
+    },
+    {
+     "model": "Ornith-1.0-397B",
+     "org": "DeepReinforce AI",
+     "score": 82.4,
+     "src_type": "Open Weight",
+     "rank": 8
+    },
+    {
+     "model": "Claude Opus 4.5",
+     "org": "Anthropic",
+     "score": 80.9,
+     "src_type": "Proprietary",
+     "rank": 9
+    },
+    {
+     "model": "Claude Opus 4.6",
+     "org": "Anthropic",
+     "score": 80.84,
+     "src_type": "Proprietary",
+     "rank": 10
+    },
+    {
+     "model": "DeepSeek V4 Pro 0813",
+     "org": "DeepSeek",
+     "score": 80.6,
+     "src_type": "Proprietary",
+     "rank": 11
+    },
+    {
+     "model": "MiniMax M3",
+     "org": "MiniMax",
+     "score": 80.5,
+     "src_type": "Open Weight",
+     "rank": 12
+    }
+   ]
+  },
+  {
+   "key": "math",
+   "name_zh": "数学推理",
+   "emoji": "🧮",
+   "benchmark": "AIME 2026 (MathArena)",
+   "unit": "竞赛数学正确率 %",
+   "source": "matharena.ai",
+   "status": "ok",
+   "rows": [
+    {
+     "model": "Claude-Opus-5 (max)",
+     "org": "Anthropic",
+     "score": 84.4,
+     "src_type": "",
+     "rank": 1
+    },
+    {
+     "model": "GPT-5.6-Sol (max)",
+     "org": "OpenAI",
+     "score": 79.7,
+     "src_type": "",
+     "rank": 2
+    },
+    {
+     "model": "GPT-5.5 (xhigh)",
+     "org": "OpenAI",
+     "score": 77.8,
+     "src_type": "",
+     "rank": 3
+    },
+    {
+     "model": "Kimi K3 (Think)",
+     "org": "Moonshot AI",
+     "score": 69.7,
+     "src_type": "",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "agent",
+   "name_zh": "Agent 智能体",
+   "emoji": "🤖",
+   "benchmark": "τ²-bench",
+   "unit": "多轮工具调用任务成功率 %",
+   "source": "benchlm.ai",
+   "status": "ok",
+   "rows": [
+    {
+     "model": "GLM-5.2",
+     "org": "Z.AI",
+     "score": 99.1,
+     "src_type": "Open Weight",
+     "rank": 1
+    },
+    {
+     "model": "GPT-5.4",
+     "org": "OpenAI",
+     "score": 98.9,
+     "src_type": "Proprietary",
+     "rank": 2
+    },
+    {
+     "model": "GLM-4.7-Flash",
+     "org": "Z.AI",
+     "score": 98.8,
+     "src_type": "Open Weight",
+     "rank": 3
+    },
+    {
+     "model": "Claude Fable 5",
+     "org": "Anthropic",
+     "score": 98.5,
+     "src_type": "Proprietary",
+     "rank": 4
+    },
+    {
+     "model": "Step 3.7 Flash",
+     "org": "StepFun",
+     "score": 98.5,
+     "src_type": "Open Weight",
+     "rank": 5
+    },
+    {
+     "model": "GLM-5-Turbo",
+     "org": "Z.AI",
+     "score": 98.5,
+     "src_type": "Proprietary",
+     "rank": 6
+    },
+    {
+     "model": "GLM-5V-Turbo",
+     "org": "Z.AI",
+     "score": 98.5,
+     "src_type": "Proprietary",
+     "rank": 7
+    },
+    {
+     "model": "GLM-5",
+     "org": "Z.AI",
+     "score": 98.2,
+     "src_type": "Open Weight",
+     "rank": 8
+    },
+    {
+     "model": "GPT-5.5",
+     "org": "OpenAI",
+     "score": 98,
+     "src_type": "Proprietary",
+     "rank": 9
+    },
+    {
+     "model": "GLM-5.1",
+     "org": "Z.AI",
+     "score": 97.7,
+     "src_type": "Open Weight",
+     "rank": 10
+    },
+    {
+     "model": "Qwen3.6 Plus",
+     "org": "Alibaba",
+     "score": 97.7,
+     "src_type": "Proprietary",
+     "rank": 11
+    },
+    {
+     "model": "Grok 4.3",
+     "org": "xAI",
+     "score": 97.7,
+     "src_type": "Proprietary",
+     "rank": 12
+    }
+   ]
+  },
+  {
+   "key": "science",
+   "name_zh": "科学推理",
+   "emoji": "🔬",
+   "benchmark": "GPQA Diamond",
+   "unit": "研究生级科学难题正确率 %",
+   "source": "benchlm.ai",
+   "status": "ok",
+   "rows": [
+    {
+     "model": "Sakana Fugu-Ultra",
+     "org": "Sakana AI",
+     "score": 95.5,
+     "src_type": "Proprietary",
+     "rank": 1
+    },
+    {
+     "model": "Sakana Fugu",
+     "org": "Sakana AI",
+     "score": 95.5,
+     "src_type": "Proprietary",
+     "rank": 2
+    },
+    {
+     "model": "GPT-5.6 Sol",
+     "org": "OpenAI",
+     "score": 94.6,
+     "src_type": "Proprietary",
+     "rank": 3
+    },
+    {
+     "model": "Gemini 3.1 Pro",
+     "org": "Google",
+     "score": 94.3,
+     "src_type": "Proprietary",
+     "rank": 4
+    },
+    {
+     "model": "Claude Opus 4.7 (Adaptive)",
+     "org": "Anthropic",
+     "score": 94.2,
+     "src_type": "Proprietary",
+     "rank": 5
+    },
+    {
+     "model": "Claude Opus 4.8",
+     "org": "Anthropic",
+     "score": 93.6,
+     "src_type": "Proprietary",
+     "rank": 6
+    },
+    {
+     "model": "GPT-5.5",
+     "org": "OpenAI",
+     "score": 93.6,
+     "src_type": "Proprietary",
+     "rank": 7
+    },
+    {
+     "model": "Kimi K3",
+     "org": "Moonshot AI",
+     "score": 93.5,
+     "src_type": "Pending",
+     "rank": 8
+    },
+    {
+     "model": "GPT-5.6 Terra",
+     "org": "OpenAI",
+     "score": 92.9,
+     "src_type": "Proprietary",
+     "rank": 9
+    },
+    {
+     "model": "GPT-5.4",
+     "org": "OpenAI",
+     "score": 92.8,
+     "src_type": "Proprietary",
+     "rank": 10
+    },
+    {
+     "model": "Gemini 3.5 Flash",
+     "org": "Google",
+     "score": 92.676,
+     "src_type": "Proprietary",
+     "rank": 11
+    },
+    {
+     "model": "Qwen3.8 Max",
+     "org": "Alibaba",
+     "score": 92.6,
+     "src_type": "Open Weight",
+     "rank": 12
+    }
+   ]
+  },
+  {
+   "key": "medical",
+   "name_zh": "医疗健康",
+   "emoji": "🏥",
+   "benchmark": "HealthBench Hard",
+   "unit": "临床开放问答 rubric 评分",
+   "source": "benchlm.ai",
+   "status": "ok",
+   "rows": [
+    {
+     "model": "Muse Spark",
+     "org": "Meta",
+     "score": 42.8,
+     "src_type": "Proprietary",
+     "rank": 1
+    },
+    {
+     "model": "GPT-5.4",
+     "org": "OpenAI",
+     "score": 40.1,
+     "src_type": "Proprietary",
+     "rank": 2
+    },
+    {
+     "model": "GPT-5.6 Sol",
+     "org": "OpenAI",
+     "score": 33.1,
+     "src_type": "Proprietary",
+     "rank": 3
+    },
+    {
+     "model": "GPT-5.6 Terra",
+     "org": "OpenAI",
+     "score": 32.7,
+     "src_type": "Proprietary",
+     "rank": 4
+    },
+    {
+     "model": "GPT-5.6 Luna",
+     "org": "OpenAI",
+     "score": 32,
+     "src_type": "Proprietary",
+     "rank": 5
+    },
+    {
+     "model": "Gemini 3.1 Pro",
+     "org": "Google",
+     "score": 20.6,
+     "src_type": "Proprietary",
+     "rank": 6
+    },
+    {
+     "model": "Grok 4.20",
+     "org": "xAI",
+     "score": 20.3,
+     "src_type": "Proprietary",
+     "rank": 7
+    },
+    {
+     "model": "Claude Opus 4.6",
+     "org": "Anthropic",
+     "score": 14.8,
+     "src_type": "Proprietary",
+     "rank": 8
+    }
+   ]
+  }
+ ]
+}).then(renderDB)
+  .catch(e=>{document.getElementById('dbNote').textContent='领域榜加载失败: '+e;});
 
 
 // ── 年度里程碑时间线 ──
