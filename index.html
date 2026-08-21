@@ -16338,7 +16338,7 @@ Promise.resolve(__DATA__).then(d=>{
     }
     body.innerHTML=rows.map(r=>
       `<div class="ks-kol">`+
-        `<div class="ks-name">${r.k.name_cn||r.k.name||''}`+
+        `<div class="ks-name">${r.k.name_zh||r.k.kol_name||r.k.name_cn||r.k.name||''}`+
           `<span class="ks-n">${r.items.length} 条</span></div>`+
         r.items.map((t,i)=>tlItemHTML(t,`ks_${rk}_${r.kid}_${i}`,r.k)).join('')+
       `</div>`).join('');
