@@ -7974,8 +7974,8 @@ const AXIS_COLOR={"existential":"#ef4444","power-race":"#a855f7","acceleration":
 const AXIS_TXT={"existential":"灭世恐惧","power-race":"权力竞赛","acceleration":"纯加速","skeptic":"怀疑风险被夸大"};
 
 const __DATA__={
-  "generated_at_jst": "2026-08-20 09:00 JST",
-  "date": "2026-08-20",
+  "generated_at_jst": "2026-08-21 09:00 JST",
+  "date": "2026-08-21",
   "danger_gauge": {
     "gauge": 30.9,
     "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)",
@@ -7996,72 +7996,72 @@ const __DATA__={
       {
         "name": "杰弗里·辛顿",
         "stance": 2,
-        "weighted": 1.83
+        "weighted": 1.823
       },
       {
         "name": "约书亚·本吉奥",
         "stance": 2,
-        "weighted": 0.933
+        "weighted": 0.929
       },
       {
         "name": "丹尼尔·科科塔伊洛",
         "stance": 2,
-        "weighted": 0.287
+        "weighted": 0.286
       },
       {
         "name": "马克斯·泰格马克",
         "stance": 2,
-        "weighted": 0.657
+        "weighted": 0.655
       },
       {
         "name": "斯科特·亚历山大",
         "stance": 2,
-        "weighted": 1.131
+        "weighted": 1.127
       },
       {
         "name": "伊莱·利夫兰",
         "stance": 2,
-        "weighted": 1.32
+        "weighted": 1.315
       },
       {
         "name": "罗密欧·迪恩",
         "stance": 2,
-        "weighted": 0.593
+        "weighted": 0.591
       },
       {
         "name": "伊利亚·苏茨克维尔",
         "stance": 1,
-        "weighted": 0.285
+        "weighted": 0.284
       },
       {
         "name": "萨姆·奥尔特曼",
         "stance": 1,
-        "weighted": 0.187
+        "weighted": 0.186
       },
       {
         "name": "埃隆·马斯克",
         "stance": 1,
-        "weighted": 0.44
+        "weighted": 0.439
       },
       {
         "name": "亚历克斯·卡普",
         "stance": 1,
-        "weighted": 0.5
+        "weighted": 0.498
       },
       {
         "name": "朱迪亚·珀尔",
         "stance": 1,
-        "weighted": 0.425
+        "weighted": 0.424
       },
       {
         "name": "戴密斯·哈萨比斯",
         "stance": 1,
-        "weighted": 0.367
+        "weighted": 0.366
       },
       {
         "name": "帕尔默·拉基",
         "stance": 1,
-        "weighted": 0.437
+        "weighted": 0.435
       },
       {
         "name": "安德烈·卡帕西",
@@ -8091,32 +8091,32 @@ const __DATA__={
       {
         "name": "彼得·蒂尔",
         "stance": -1,
-        "weighted": -0.224
+        "weighted": -0.223
       },
       {
         "name": "理查德·萨顿",
         "stance": -1,
-        "weighted": -0.283
+        "weighted": -0.282
       },
       {
         "name": "达龙·阿西莫格鲁",
         "stance": -1,
-        "weighted": -0.329
+        "weighted": -0.327
       },
       {
         "name": "李开复",
         "stance": -1,
-        "weighted": -0.375
+        "weighted": -0.373
       },
       {
         "name": "杨立昆",
         "stance": -2,
-        "weighted": -1.284
+        "weighted": -1.279
       },
       {
         "name": "罗杰·彭罗斯",
         "stance": -2,
-        "weighted": -0.828
+        "weighted": -0.825
       }
     ],
     "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5"
@@ -8326,113 +8326,117 @@ const __DATA__={
     {
       "slug": "scaling",
       "label": "基础模型 / Scaling",
-      "count": 1,
+      "count": 2,
       "news": [
         {
-          "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+          "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+          "source": "IT之家（RSS）",
+          "score": 72,
+          "summary": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+          "permalink": "https://aihot.virxact.com/items/cmt1di48c04vuro1q95i06dby",
+          "time": "08/20 18:45（14 小时前）"
+        },
+        {
+          "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
           "source": "Hugging Face：Blog（RSS）",
-          "score": 64,
-          "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
-          "permalink": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2",
-          "time": "08/19 22:48（10 小时前）"
+          "score": 61,
+          "summary": "Hugging Face 发布 LFM2.5 系列三款模型的 DSpark 草稿模型检查点，通过投机解码在不改变输出质量的前提下，GPU 吞吐最高提升 3.18 倍，端侧最高 2.87 倍。草稿模型约 300M 参数，LFM2.5-2.6B 函数调用延迟平均降低 57%，已开源支",
+          "permalink": "https://aihot.virxact.com/items/cmt1rv5n8066iroovaxgoej1b",
+          "time": "08/21 01:52（7 小时前）"
         }
       ]
     },
     {
       "slug": "agent",
       "label": "Agent / 工具链",
-      "count": 2,
+      "count": 5,
       "news": [
         {
-          "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-          "source": "公众号：智谱（GLM）",
-          "score": 79,
-          "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模",
-          "permalink": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0",
-          "time": "08/19 10:03（22 小时前）"
+          "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+          "source": "Mistral AI：News（网页）",
+          "score": 67,
+          "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
+          "permalink": "https://aihot.virxact.com/items/cmt1pkwbj04bxroovzkfca5c7",
+          "time": "08/21 01:02（7 小时前）"
         },
         {
-          "title": "FastMetal 让 Mac 本地 30 秒生成视频",
-          "source": "X：Sky Computing Lab (@haoailab)",
-          "score": 71,
-          "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上",
-          "permalink": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8",
-          "time": "08/20 05:42（3 小时前）"
-        }
-      ]
-    },
-    {
-      "slug": "reasoning",
-      "label": "推理 / 因果",
-      "count": 1,
-      "news": [
+          "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+          "source": "Google Cloud：Databases（RSS）",
+          "score": 65,
+          "summary": "AlloyDB 的 ScaNN 索引现已支持超过 100 亿向量的规模，通过全新的四层树架构（预览版）实现，将查询复杂度从 O（N^1/2） 降至 O（N^1/4）。内部测试中，该架构在 100 亿向量规模下可实现 p95 延迟不超过 51 毫秒、召回率达 95%。该功能可通过快",
+          "permalink": "https://aihot.virxact.com/items/cmt1r7jjh05lgroovc4zwypj6",
+          "time": "08/21 01:00（8 小时前）"
+        },
         {
-          "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "score": 73,
-          "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性",
-          "permalink": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh",
-          "time": "08/20 02:56（6 小时前）"
+          "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
+          "source": "Claude：Blog（网页）",
+          "score": 65,
+          "summary": "Anthropic 发布面向初创公司的 Claude Code 使用指南，基于对十余家高增长公司的调研，总结出\"人人皆可交付、自动化繁琐工作、信任但验证、为重构而构建、原型-自用-产品化\"五大规则。",
+          "permalink": "https://aihot.virxact.com/items/cmt1k19bn06qgrokx1p75h1gv",
+          "time": "08/20 22:26（10 小时前）"
+        },
+        {
+          "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+          "source": "Claude：Blog（网页）",
+          "score": 63,
+          "summary": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+          "permalink": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew",
+          "time": "08/21 05:27（3 小时前）"
+        },
+        {
+          "title": "Anthropic 如何开展 AI 教学",
+          "source": "Claude：Blog（网页）",
+          "score": 60,
+          "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培",
+          "permalink": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65",
+          "time": "08/21 02:56（6 小时前）"
         }
       ]
     },
     {
       "slug": "industry",
       "label": "产业 / 商业",
-      "count": 2,
+      "count": 1,
       "news": [
         {
-          "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "score": 72,
-          "summary": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链",
-          "permalink": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4",
-          "time": "08/20 06:42（2 小时前）"
-        },
-        {
-          "title": "Stripe 收购 OpenRouter 并非因为\"奇点\"",
-          "source": "TechCrunch：AI（RSS）",
-          "score": 70,
-          "summary": "Stripe 确认收购 AI 模型路由平台 OpenRouter，据称交易金额达 75 亿美元，远超其 5 月时 13 亿美元的估值。Stripe 创始人称收购基于\"奇点\"开始的判断，但更实际的原因在于：OpenRouter 能帮助 Stripe 切入 AI 时代的支出管理，并掌",
-          "permalink": "https://aihot.virxact.com/items/cmt0r0c1a0cshro2oc43fy0nr",
-          "time": "08/20 08:32（28 分钟前）"
+          "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+          "source": "IT之家（RSS）",
+          "score": 71,
+          "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 200",
+          "permalink": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob",
+          "time": "08/20 09:17（23 小时前）"
         }
       ]
     }
   ],
   "hot_topics": [
     {
-      "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
-      "source_count": 14,
-      "permalink": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv"
-    },
-    {
       "title": "OpenRouter 宣布加入 Stripe",
-      "source_count": 7,
+      "source_count": 10,
       "permalink": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc"
     },
     {
+      "title": "Anthropic 如何开展 AI 教学",
+      "source_count": 2,
+      "permalink": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65"
+    },
+    {
+      "title": "Grok Build 全面上线网页与移动端，所有套餐可用",
+      "source_count": 2,
+      "permalink": "https://aihot.virxact.com/items/cmt1xbu7q0b7troovffggr2jh"
+    },
+    {
       "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-      "source_count": 6,
+      "source_count": 4,
       "permalink": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0"
     },
     {
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "source_count": 4,
-      "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
-    },
-    {
-      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正“会用”每一块屏幕",
       "source_count": 1,
-      "permalink": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv"
-    },
-    {
-      "title": "Claude 从头设计蛋白结合剂命中 14/15 靶点",
-      "source_count": 1,
-      "permalink": "https://aihot.virxact.com/items/cmsz9kmg307csrodpg1yl1xdu"
+      "permalink": "https://aihot.virxact.com/items/cmt1di48c04vuro1q95i06dby"
     }
   ],
-  "news_total_24h": 6,
+  "news_total_24h": 8,
   "kol_cards": [
     {
       "kol_name": "Geoffrey Hinton",
@@ -8687,7 +8691,7 @@ const __DATA__={
               "url": "https://www.linkedin.com/posts/yoshuabengio_incident-report-unsanctioned-agent-behaviour-activity-7490832829799567360-Lwv-"
             }
           ],
-          "text_cn": "由领先公司开发的前沿系统出现此类不符合预期行为的又一现实例证"
+          "text_cn": "Another real-world manifestation of the kind of misaligned actions frontier systems developed by leading companies can take"
         },
         {
           "date": "2026-07-29",
@@ -9015,7 +9019,7 @@ const __DATA__={
               "url": "https://blog.aifutures.org/p/ai-2040-plan-a"
             }
           ],
-          "text_cn": "AI 2040：A计划"
+          "text_cn": "AI 2040：方案 A"
         },
         {
           "date": "2026-05-12",
@@ -9071,7 +9075,7 @@ const __DATA__={
               "url": "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2027-updates-china-robot-economy/"
             }
           ],
-          "text_cn": "Daniel Kokotajlo 谈超高速机器人经济会是什么样"
+          "text_cn": "Daniel Kokotajlo 谈超高速机器人经济将会如何…"
         },
         {
           "date": "2025-07-03",
@@ -9659,7 +9663,7 @@ const __DATA__={
               "url": "https://www.businessinsider.com/google-deepmind-ceo-demis-hassabis-agi-safety-standards-body-gemini-2026-7"
             }
           ],
-          "text_cn": "Google DeepMind CEO 就 AGI 发出严厉警告"
+          "text_cn": "Google DeepMind CEO 就 AGI 发出严厉警告 - Business Insider"
         },
         {
           "date": "2026-07-14",
@@ -10687,7 +10691,7 @@ const __DATA__={
               "url": "https://www.astralcodexten.com/p/macgregor-the-bridge-builder"
             }
           ],
-          "text_cn": "MacGregor 搭桥人"
+          "text_cn": "MacGregor The Bridge Builder - Scott Alexander"
         },
         {
           "date": "2026-08-06",
@@ -10701,7 +10705,7 @@ const __DATA__={
               "url": "https://www.astralcodexten.com/p/open-questions-on-open-weights"
             }
           ],
-          "text_cn": "关于开放权重的未解之问"
+          "text_cn": "Open Questions On Open Weights - Scott Alexander"
         },
         {
           "date": "2026-07-27",
@@ -10715,7 +10719,7 @@ const __DATA__={
               "url": "https://www.astralcodexten.com/p/open-thread-444"
             }
           ],
-          "text_cn": "开放讨论 444"
+          "text_cn": "Open Thread 444 - Scott Alexander - Astral Codex Ten"
         },
         {
           "date": "2026-07-24",
@@ -10949,7 +10953,7 @@ const __DATA__={
               "url": "https://noah-news.com/ai-futures-report-calls-for-international-slowdown-to-prevent-rogue-superintelli/"
             }
           ],
-          "text_cn": "AI 未来报告呼吁国际放缓以防失控超级智能 | Noah Intelligence"
+          "text_cn": "AI 未来报告呼吁国际放缓步伐以防失控超级智能 | Noah Intelligence"
         },
         {
           "date": "2026-07",
@@ -12787,7 +12791,7 @@ const __DATA__={
               "url": "https://erictopol.substack.com/p/the-infinity-machine"
             }
           ],
-          "text_cn": "Sebastian Mallaby：无限机器"
+          "text_cn": "Sebastian Mallaby：The Infinity Machine"
         },
         {
           "date": "2026-04-07",
@@ -14134,8 +14138,8 @@ function renderLM(lm){
   if(slugs.length)draw(slugs[0]);
 }
 Promise.resolve({
-  "generated_at_jst": "2026-08-20 08:40 JST",
-  "date": "2026-08-20",
+  "generated_at_jst": "2026-08-21 08:41 JST",
+  "date": "2026-08-21",
   "source": "LMArena (lmarena.ai/leaderboard/text)",
   "compare_window": "vs ~30 天前",
   "categories": {
@@ -15156,7 +15160,7 @@ Promise.resolve({
  "ok": true,
  "source": "AIHOT 综合评测榜 (aihot.virxact.com/leaderboard)",
  "note": "aihot 官方综合评测榜，与 LMArena 人类盲测榜口径不同",
- "generated_at_jst": "2026-08-20 09:00 JST",
+ "generated_at_jst": "2026-08-21 09:00 JST",
  "count": 30,
  "rows": [
   {
@@ -15164,300 +15168,300 @@ Promise.resolve({
    "model": "Claude Fable 5",
    "brand": "Anthropic",
    "release_date": "2026-06-09",
-   "completeness": "评测 75.5%",
-   "input_price": "¥67.38",
-   "output_price": "¥336.91",
-   "score": 89.9
+   "completeness": "评测 84.5%",
+   "input_price": "¥67.24",
+   "output_price": "¥336.18",
+   "score": 90.1
   },
   {
    "rank": 2,
    "model": "Claude Opus 5",
    "brand": "Anthropic",
    "release_date": "2026-07-24",
-   "completeness": "评测 75.5%",
-   "input_price": "¥33.69",
-   "output_price": "¥168.46",
-   "score": 89.3
+   "completeness": "评测 84.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥168.09",
+   "score": 87.4
   },
   {
    "rank": 3,
    "model": "GPT-5.6 Sol",
    "brand": "OpenAI",
    "release_date": "2026-07-09",
-   "completeness": "评测 75.5%",
-   "input_price": "¥33.69",
-   "output_price": "¥202.15",
-   "score": 85.2
+   "completeness": "评测 84.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥201.71",
+   "score": 83.4
   },
   {
    "rank": 4,
    "model": "Kimi K3",
    "brand": "Moonshot AI",
    "release_date": "2026-07-16",
-   "completeness": "评测 75.5%",
+   "completeness": "评测 84.5%",
    "input_price": "¥20.00",
    "output_price": "¥100.00",
-   "score": 81.2
+   "score": 80.2
   },
   {
    "rank": 5,
    "model": "Grok 4.6",
    "brand": "xAI",
    "release_date": "2026-08-12",
-   "completeness": "评测 75.5%",
-   "input_price": "¥13.48",
-   "output_price": "¥40.43",
-   "score": 80.3
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.45",
+   "output_price": "¥40.34",
+   "score": 75.6
   },
   {
    "rank": 6,
    "model": "Gemini 3.7 Flash",
    "brand": "Google",
    "release_date": "2026-08-13",
-   "completeness": "评测 72.0%",
-   "input_price": "¥5.05",
-   "output_price": "¥25.27",
-   "score": 75.7
+   "completeness": "评测 81.0%",
+   "input_price": "¥5.04",
+   "output_price": "¥25.21",
+   "score": 75.5
   },
   {
    "rank": 7,
-   "model": "Qwen3.8 Max",
-   "brand": "Alibaba",
-   "release_date": "2026-07-19",
-   "completeness": "评测 72.0%",
-   "input_price": "¥12.00",
-   "output_price": "¥36.00",
-   "score": 73.8
-  },
-  {
-   "rank": 8,
-   "model": "GPT-5.5",
-   "brand": "OpenAI",
-   "release_date": "2026-04-23",
-   "completeness": "评测 67.5%",
-   "input_price": "¥33.69",
-   "output_price": "¥202.15",
-   "score": 73.0
-  },
-  {
-   "rank": 9,
    "model": "Muse Spark 1.2",
    "brand": "Meta",
    "release_date": "2026-08-05",
-   "completeness": "评测 64.0%",
-   "input_price": "¥8.42",
-   "output_price": "¥28.64",
-   "score": 73.0
+   "completeness": "评测 73.0%",
+   "input_price": "¥8.40",
+   "output_price": "¥28.58",
+   "score": 74.2
+  },
+  {
+   "rank": 8,
+   "model": "Qwen3.8 Max",
+   "brand": "Alibaba",
+   "release_date": "2026-07-19",
+   "completeness": "评测 81.0%",
+   "input_price": "¥12.00",
+   "output_price": "¥36.00",
+   "score": 73.2
+  },
+  {
+   "rank": 9,
+   "model": "GPT-5.5",
+   "brand": "OpenAI",
+   "release_date": "2026-04-23",
+   "completeness": "评测 76.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥201.71",
+   "score": 72.6
   },
   {
    "rank": 10,
    "model": "Claude Opus 4.8",
    "brand": "Anthropic",
    "release_date": "2026-05-28",
-   "completeness": "评测 75.5%",
-   "input_price": "¥33.69",
-   "output_price": "¥168.46",
-   "score": 72.2
+   "completeness": "评测 84.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥168.09",
+   "score": 71.8
   },
   {
    "rank": 11,
    "model": "GPT-5.6 Terra",
    "brand": "OpenAI",
    "release_date": "2026-07-09",
-   "completeness": "评测 72.0%",
-   "input_price": "¥13.48",
-   "output_price": "¥80.86",
-   "score": 71.5
+   "completeness": "评测 81.0%",
+   "input_price": "¥13.45",
+   "output_price": "¥80.68",
+   "score": 69.2
   },
   {
    "rank": 12,
    "model": "Claude Opus 4.7",
    "brand": "Anthropic",
    "release_date": "2026-04-16",
-   "completeness": "评测 59.5%",
-   "input_price": "¥33.69",
-   "output_price": "¥168.46",
-   "score": 60.4
+   "completeness": "评测 68.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥168.09",
+   "score": 64.6
   },
   {
    "rank": 13,
-   "model": "DeepSeek V4 Pro 0813",
-   "brand": "DeepSeek",
-   "release_date": "2026-08-13",
-   "completeness": "评测 64.0%",
-   "input_price": "¥9.00",
-   "output_price": "¥27.00",
-   "score": 60.4
-  },
-  {
-   "rank": 14,
    "model": "Muse Spark 1.1",
    "brand": "Meta",
    "release_date": "2026-07-09",
-   "completeness": "评测 67.5%",
-   "input_price": "¥8.42",
-   "output_price": "¥28.64",
-   "score": 59.3
+   "completeness": "评测 76.5%",
+   "input_price": "¥8.40",
+   "output_price": "¥28.58",
+   "score": 61.5
+  },
+  {
+   "rank": 14,
+   "model": "DeepSeek V4 Pro 0813",
+   "brand": "DeepSeek",
+   "release_date": "2026-08-13",
+   "completeness": "评测 73.0%",
+   "input_price": "¥9.00",
+   "output_price": "¥27.00",
+   "score": 57.9
   },
   {
    "rank": 15,
-   "model": "Claude Sonnet 5",
-   "brand": "Anthropic",
-   "release_date": "2026-06-30",
-   "completeness": "评测 75.5%",
-   "input_price": "¥13.48",
-   "output_price": "¥67.38",
-   "score": 59.0
-  },
-  {
-   "rank": 16,
    "model": "Grok 4.5",
    "brand": "xAI",
    "release_date": "2026-07-08",
-   "completeness": "评测 75.5%",
-   "input_price": "¥13.48",
-   "output_price": "¥40.43",
-   "score": 58.2
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.45",
+   "output_price": "¥40.34",
+   "score": 57.3
+  },
+  {
+   "rank": 16,
+   "model": "Claude Sonnet 5",
+   "brand": "Anthropic",
+   "release_date": "2026-06-30",
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.45",
+   "output_price": "¥67.24",
+   "score": 56.5
   },
   {
    "rank": 17,
    "model": "GPT-5.4",
    "brand": "OpenAI",
    "release_date": "2026-03-05",
-   "completeness": "评测 60.5%",
-   "input_price": "¥16.85",
-   "output_price": "¥101.07",
-   "score": 55.3
+   "completeness": "评测 69.5%",
+   "input_price": "¥16.81",
+   "output_price": "¥100.85",
+   "score": 56.1
   },
   {
    "rank": 18,
    "model": "GPT-5.6 Luna",
    "brand": "OpenAI",
    "release_date": "2026-07-09",
-   "completeness": "评测 72.0%",
-   "input_price": "¥1.35",
-   "output_price": "¥8.09",
-   "score": 54.3
+   "completeness": "评测 81.0%",
+   "input_price": "¥1.34",
+   "output_price": "¥8.07",
+   "score": 51.6
   },
   {
    "rank": 19,
-   "model": "DeepSeek V4 Flash 0731",
-   "brand": "DeepSeek",
-   "release_date": "2026-07-31",
-   "completeness": "评测 67.5%",
-   "input_price": "¥3.00",
-   "output_price": "¥9.00",
-   "score": 47.9
-  },
-  {
-   "rank": 20,
    "model": "Gemini 3.6 Flash",
    "brand": "Google",
    "release_date": "2026-07-21",
-   "completeness": "评测 72.0%",
-   "input_price": "¥5.05",
-   "output_price": "¥25.27",
-   "score": 47.7
+   "completeness": "评测 81.0%",
+   "input_price": "¥5.04",
+   "output_price": "¥25.21",
+   "score": 50.3
+  },
+  {
+   "rank": 20,
+   "model": "Gemini 3.5 Flash",
+   "brand": "Google",
+   "release_date": "2026-05-19",
+   "completeness": "评测 81.0%",
+   "input_price": "¥10.09",
+   "output_price": "¥60.51",
+   "score": 48.1
   },
   {
    "rank": 21,
    "model": "GLM-5.2",
    "brand": "Z.ai",
    "release_date": "2026-06-16",
-   "completeness": "评测 75.5%",
+   "completeness": "评测 84.5%",
    "input_price": "¥8.00",
    "output_price": "¥28.00",
-   "score": 47.0
+   "score": 47.4
   },
   {
    "rank": 22,
-   "model": "Gemini 3.5 Flash",
-   "brand": "Google",
-   "release_date": "2026-05-19",
-   "completeness": "评测 72.0%",
-   "input_price": "¥10.11",
-   "output_price": "¥60.64",
-   "score": 46.2
-  },
-  {
-   "rank": 23,
    "model": "Claude Opus 4.6",
    "brand": "Anthropic",
    "release_date": "2026-02-05",
-   "completeness": "评测 60.5%",
-   "input_price": "¥33.69",
-   "output_price": "¥168.46",
-   "score": 37.4
+   "completeness": "评测 69.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥168.09",
+   "score": 45.1
+  },
+  {
+   "rank": 23,
+   "model": "DeepSeek V4 Flash 0731",
+   "brand": "DeepSeek",
+   "release_date": "2026-07-31",
+   "completeness": "评测 76.5%",
+   "input_price": "¥3.00",
+   "output_price": "¥9.00",
+   "score": 43.7
   },
   {
    "rank": 24,
-   "model": "Claude Sonnet 4.6",
-   "brand": "Anthropic",
-   "release_date": "2026-02-17",
-   "completeness": "评测 64.0%",
-   "input_price": "¥20.21",
-   "output_price": "¥101.07",
-   "score": 35.7
-  },
-  {
-   "rank": 25,
    "model": "Gemini 3.1 Pro Preview",
    "brand": "Google",
    "release_date": "2026-02-19",
-   "completeness": "评测 75.5%",
-   "input_price": "¥13.48",
-   "output_price": "¥80.86",
-   "score": 35.7
+   "completeness": "评测 84.5%",
+   "input_price": "¥13.45",
+   "output_price": "¥80.68",
+   "score": 39.9
+  },
+  {
+   "rank": 25,
+   "model": "Claude Sonnet 4.6",
+   "brand": "Anthropic",
+   "release_date": "2026-02-17",
+   "completeness": "评测 73.0%",
+   "input_price": "¥20.17",
+   "output_price": "¥100.85",
+   "score": 37.7
   },
   {
    "rank": 26,
    "model": "DeepSeek V4 Pro Preview",
    "brand": "DeepSeek",
    "release_date": "2026-04-24",
-   "completeness": "评测 64.0%",
-   "input_price": "¥2.93",
-   "output_price": "¥5.86",
-   "score": 29.5
+   "completeness": "评测 73.0%",
+   "input_price": "¥2.92",
+   "output_price": "¥5.85",
+   "score": 30.4
   },
   {
    "rank": 27,
    "model": "GPT-5.2 2025 12 11",
    "brand": "OpenAI",
    "release_date": "2025-12-11",
-   "completeness": "评测 52.5%",
-   "input_price": "¥11.79",
-   "output_price": "¥94.33",
-   "score": 27.7
+   "completeness": "评测 61.5%",
+   "input_price": "¥11.77",
+   "output_price": "¥94.13",
+   "score": 25.8
   },
   {
    "rank": 28,
-   "model": "MiniMax M 3",
-   "brand": "MiniMax",
-   "release_date": "2026-06-01",
-   "completeness": "评测 64.0%",
-   "input_price": "¥2.10",
-   "output_price": "¥8.40",
+   "model": "Kimi K2.6",
+   "brand": "Moonshot AI",
+   "release_date": "2026-04-20",
+   "completeness": "评测 65.0%",
+   "input_price": "¥6.50",
+   "output_price": "¥27.00",
    "score": 25.5
   },
   {
    "rank": 29,
-   "model": "Kimi K2.6",
-   "brand": "Moonshot AI",
-   "release_date": "2026-04-20",
-   "completeness": "评测 56.0%",
-   "input_price": "¥6.50",
-   "output_price": "¥27.00",
-   "score": 23.6
+   "model": "MiniMax M 3",
+   "brand": "MiniMax",
+   "release_date": "2026-06-01",
+   "completeness": "评测 73.0%",
+   "input_price": "¥2.10",
+   "output_price": "¥8.40",
+   "score": 23.8
   },
   {
    "rank": 30,
-   "model": "Kimi K2.7 Code",
-   "brand": "Moonshot AI",
-   "release_date": "2026-06-12",
-   "completeness": "评测 60.5%",
-   "input_price": "¥6.50",
-   "output_price": "¥27.00",
-   "score": 18.3
+   "model": "Claude Opus 4.5 20251101",
+   "brand": "Anthropic",
+   "release_date": "2025-11-24",
+   "completeness": "评测 61.5%",
+   "input_price": "¥33.62",
+   "output_price": "¥168.09",
+   "score": 21.1
   }
  ]
 }).then(renderAH)
@@ -15513,103 +15517,117 @@ function renderSM(sm){
   });
 }
 Promise.resolve({
-  "generated_at": "2026-08-20 23:33:04 JST",
-  "archive_days": 1,
+  "generated_at": "2026-08-21 09:00:55 JST",
+  "archive_days": 2,
   "archive_start": "2026-08-20",
   "daily": {
     "label": "今日",
     "window_days": 1,
     "covered_days": 1,
-    "date_start": "2026-08-20",
-    "date_end": "2026-08-20",
-    "total_news": 6,
+    "date_start": "2026-08-21",
+    "date_end": "2026-08-21",
+    "total_news": 8,
     "top_news": [
       {
-        "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+        "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
         "url": "",
-        "source": "公众号：智谱（GLM）",
-        "score": 79,
-        "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模",
-        "direction": "",
-        "date": "2026-08-20"
-      },
-      {
-        "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-        "url": "",
-        "source": "LMSYS：Blog（Chatbot Arena 团队）",
-        "score": 73,
-        "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性",
-        "direction": "",
-        "date": "2026-08-20"
-      },
-      {
-        "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-        "url": "",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source": "IT之家（RSS）",
         "score": 72,
-        "summary": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链",
+        "summary": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
         "direction": "",
-        "date": "2026-08-20"
+        "date": "2026-08-21"
       },
       {
-        "title": "FastMetal 让 Mac 本地 30 秒生成视频",
+        "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
         "url": "",
-        "source": "X：Sky Computing Lab (@haoailab)",
+        "source": "IT之家（RSS）",
         "score": 71,
-        "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上",
+        "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 200",
         "direction": "",
-        "date": "2026-08-20"
+        "date": "2026-08-21"
       },
       {
-        "title": "Stripe 收购 OpenRouter 并非因为\"奇点\"",
+        "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
         "url": "",
-        "source": "TechCrunch：AI（RSS）",
-        "score": 70,
-        "summary": "Stripe 确认收购 AI 模型路由平台 OpenRouter，据称交易金额达 75 亿美元，远超其 5 月时 13 亿美元的估值。Stripe 创始人称收购基于\"奇点\"开始的判断，但更实际的原因在于：OpenRouter 能帮助 Stripe 切入 AI 时代的支出管理，并掌",
+        "source": "Mistral AI：News（网页）",
+        "score": 67,
+        "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
         "direction": "",
-        "date": "2026-08-20"
+        "date": "2026-08-21"
       },
       {
-        "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+        "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+        "url": "",
+        "source": "Google Cloud：Databases（RSS）",
+        "score": 65,
+        "summary": "AlloyDB 的 ScaNN 索引现已支持超过 100 亿向量的规模，通过全新的四层树架构（预览版）实现，将查询复杂度从 O（N^1/2） 降至 O（N^1/4）。内部测试中，该架构在 100 亿向量规模下可实现 p95 延迟不超过 51 毫秒、召回率达 95%。该功能可通过快",
+        "direction": "",
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
+        "url": "",
+        "source": "Claude：Blog（网页）",
+        "score": 65,
+        "summary": "Anthropic 发布面向初创公司的 Claude Code 使用指南，基于对十余家高增长公司的调研，总结出\"人人皆可交付、自动化繁琐工作、信任但验证、为重构而构建、原型-自用-产品化\"五大规则。",
+        "direction": "",
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+        "url": "",
+        "source": "Claude：Blog（网页）",
+        "score": 63,
+        "summary": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+        "direction": "",
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
         "url": "",
         "source": "Hugging Face：Blog（RSS）",
-        "score": 64,
-        "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+        "score": 61,
+        "summary": "Hugging Face 发布 LFM2.5 系列三款模型的 DSpark 草稿模型检查点，通过投机解码在不改变输出质量的前提下，GPU 吞吐最高提升 3.18 倍，端侧最高 2.87 倍。草稿模型约 300M 参数，LFM2.5-2.6B 函数调用延迟平均降低 57%，已开源支",
         "direction": "",
-        "date": "2026-08-20"
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Anthropic 如何开展 AI 教学",
+        "url": "",
+        "source": "Claude：Blog（网页）",
+        "score": 60,
+        "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培",
+        "direction": "",
+        "date": "2026-08-21"
       }
     ],
     "by_direction": [],
     "top_sources": [
       [
+        "Claude",
+        3
+      ],
+      [
+        "IT之家（RSS）",
+        2
+      ],
+      [
         "Hugging Face",
         1
       ],
       [
-        "公众号",
+        "Mistral AI",
         1
       ],
       [
-        "X",
-        1
-      ],
-      [
-        "LMSYS",
-        1
-      ],
-      [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        1
-      ],
-      [
-        "TechCrunch",
+        "Google Cloud",
         1
       ]
     ],
     "gauge_avg": 30.9,
     "gauge_series": [
       {
-        "date": "2026-08-20",
+        "date": "2026-08-21",
         "v": 30.9
       }
     ]
@@ -15617,10 +15635,10 @@ Promise.resolve({
   "weekly": {
     "label": "本周（近7天）",
     "window_days": 7,
-    "covered_days": 1,
+    "covered_days": 2,
     "date_start": "2026-08-20",
-    "date_end": "2026-08-20",
-    "total_news": 6,
+    "date_end": "2026-08-21",
+    "total_news": 14,
     "top_news": [
       {
         "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
@@ -15650,6 +15668,15 @@ Promise.resolve({
         "date": "2026-08-20"
       },
       {
+        "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+        "url": "",
+        "source": "IT之家（RSS）",
+        "score": 72,
+        "summary": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+        "direction": "",
+        "date": "2026-08-21"
+      },
+      {
         "title": "FastMetal 让 Mac 本地 30 秒生成视频",
         "url": "",
         "source": "X：Sky Computing Lab (@haoailab)",
@@ -15657,6 +15684,15 @@ Promise.resolve({
         "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上",
         "direction": "",
         "date": "2026-08-20"
+      },
+      {
+        "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+        "url": "",
+        "source": "IT之家（RSS）",
+        "score": 71,
+        "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 200",
+        "direction": "",
+        "date": "2026-08-21"
       },
       {
         "title": "Stripe 收购 OpenRouter 并非因为\"奇点\"",
@@ -15668,20 +15704,28 @@ Promise.resolve({
         "date": "2026-08-20"
       },
       {
-        "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+        "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
         "url": "",
-        "source": "Hugging Face：Blog（RSS）",
-        "score": 64,
-        "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+        "source": "Mistral AI：News（网页）",
+        "score": 67,
+        "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
         "direction": "",
-        "date": "2026-08-20"
+        "date": "2026-08-21"
       }
     ],
     "by_direction": [],
     "top_sources": [
       [
+        "Claude",
+        3
+      ],
+      [
         "Hugging Face",
-        1
+        2
+      ],
+      [
+        "IT之家（RSS）",
+        2
       ],
       [
         "公众号",
@@ -15693,14 +15737,6 @@ Promise.resolve({
       ],
       [
         "LMSYS",
-        1
-      ],
-      [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        1
-      ],
-      [
-        "TechCrunch",
         1
       ]
     ],
@@ -15709,16 +15745,20 @@ Promise.resolve({
       {
         "date": "2026-08-20",
         "v": 30.9
+      },
+      {
+        "date": "2026-08-21",
+        "v": 30.9
       }
     ]
   },
   "monthly": {
     "label": "本月（近30天）",
     "window_days": 30,
-    "covered_days": 1,
+    "covered_days": 2,
     "date_start": "2026-08-20",
-    "date_end": "2026-08-20",
-    "total_news": 6,
+    "date_end": "2026-08-21",
+    "total_news": 14,
     "top_news": [
       {
         "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
@@ -15748,6 +15788,15 @@ Promise.resolve({
         "date": "2026-08-20"
       },
       {
+        "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+        "url": "",
+        "source": "IT之家（RSS）",
+        "score": 72,
+        "summary": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+        "direction": "",
+        "date": "2026-08-21"
+      },
+      {
         "title": "FastMetal 让 Mac 本地 30 秒生成视频",
         "url": "",
         "source": "X：Sky Computing Lab (@haoailab)",
@@ -15755,6 +15804,15 @@ Promise.resolve({
         "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上",
         "direction": "",
         "date": "2026-08-20"
+      },
+      {
+        "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+        "url": "",
+        "source": "IT之家（RSS）",
+        "score": 71,
+        "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 200",
+        "direction": "",
+        "date": "2026-08-21"
       },
       {
         "title": "Stripe 收购 OpenRouter 并非因为\"奇点\"",
@@ -15766,20 +15824,28 @@ Promise.resolve({
         "date": "2026-08-20"
       },
       {
-        "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+        "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
         "url": "",
-        "source": "Hugging Face：Blog（RSS）",
-        "score": 64,
-        "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+        "source": "Mistral AI：News（网页）",
+        "score": 67,
+        "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
         "direction": "",
-        "date": "2026-08-20"
+        "date": "2026-08-21"
       }
     ],
     "by_direction": [],
     "top_sources": [
       [
+        "Claude",
+        3
+      ],
+      [
         "Hugging Face",
-        1
+        2
+      ],
+      [
+        "IT之家（RSS）",
+        2
       ],
       [
         "公众号",
@@ -15792,20 +15858,16 @@ Promise.resolve({
       [
         "LMSYS",
         1
-      ],
-      [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        1
-      ],
-      [
-        "TechCrunch",
-        1
       ]
     ],
     "gauge_avg": 30.9,
     "gauge_series": [
       {
         "date": "2026-08-20",
+        "v": 30.9
+      },
+      {
+        "date": "2026-08-21",
         "v": 30.9
       }
     ]
@@ -15840,7 +15902,7 @@ function renderDB(db){
   draw(doms[0].key);
 }
 Promise.resolve({
- "generated_at_jst": "2026-08-20 09:00 JST",
+ "generated_at_jst": "2026-08-21 09:00 JST",
  "note": "各能力领域真实公开 benchmark 榜；军事/经济等无公开评测领域留空(不编造)。",
  "domains": [
   {
