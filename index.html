@@ -117,6 +117,16 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 #tab-board .tl-b-c{color:var(--safe);border:1px solid rgba(80,200,120,.35);background:rgba(80,200,120,.08)}
 #tab-board /* 汇总区 (当日/本周/本月) */
   .sm-tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+#tab-board /* KOL 言论汇总(置顶) */
+  .ks-tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+#tab-board .ks-tab{font-size:12px;padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:var(--card2);color:var(--muted);cursor:pointer;font-family:inherit}
+#tab-board .ks-tab:hover{color:var(--text)}
+#tab-board .ks-tab.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+#tab-board .ks-kol{margin:0 0 16px}
+#tab-board .ks-kol:last-child{margin-bottom:0}
+#tab-board .ks-name{font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#tab-board .ks-n{font-size:11px;color:var(--muted);font-weight:400}
+#tab-board .ks-empty{color:var(--muted);font-size:13px;padding:10px 0}
 #tab-board .sm-tab{font-size:12px;padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:var(--card2);color:var(--muted);cursor:pointer;font-family:inherit}
 #tab-board .sm-tab:hover{color:var(--text)}
 #tab-board .sm-tab.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
@@ -394,15 +404,16 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 <div class="board-layout">
   <nav class="board-toc" id="board-toc">
     <div class="toc-cap">目录</div>
-<a class="spy-link" href="#sec-1" data-target="sec-1">⚖️ AI 危险程度平衡杆</a>
-<a class="spy-link" href="#sec-2" data-target="sec-2">⏳ AGI 到来时间预测</a>
-<a class="spy-link" href="#sec-3" data-target="sec-3">📊 汇总 · 当日 / 本周 / 本月</a>
-<a class="spy-link" href="#sec-4" data-target="sec-4">🧭 AI 各发展方向 · 要点新闻</a>
-<a class="spy-link" href="#sec-5" data-target="sec-5">🎙️ AI KOL 观点卡</a>
-<a class="spy-link" href="#sec-6" data-target="sec-6">🥇 AIHOT 综合评测榜 Top20</a>
-<a class="spy-link" href="#sec-7" data-target="sec-7">🏆 LMArena 模型能力榜 Top20</a>
-<a class="spy-link" href="#sec-8" data-target="sec-8">🎯 AI 能力领域榜 · 分领域真实 benchmark</a>
-<a class="spy-link" href="#sec-9" data-target="sec-9">📅 AI 各方向年度里程碑时间线</a>
+<a class="spy-link" href="#sec-1" data-target="sec-1">🎙️ KOL 言论汇总 · 当日 / 当周 / 当月</a>
+<a class="spy-link" href="#sec-2" data-target="sec-2">⚖️ AI 危险程度平衡杆</a>
+<a class="spy-link" href="#sec-3" data-target="sec-3">⏳ AGI 到来时间预测</a>
+<a class="spy-link" href="#sec-4" data-target="sec-4">📊 汇总 · 当日 / 本周 / 本月</a>
+<a class="spy-link" href="#sec-5" data-target="sec-5">🧭 AI 各发展方向 · 要点新闻</a>
+<a class="spy-link" href="#sec-6" data-target="sec-6">🎙️ AI KOL 观点卡</a>
+<a class="spy-link" href="#sec-7" data-target="sec-7">🥇 AIHOT 综合评测榜 Top20</a>
+<a class="spy-link" href="#sec-8" data-target="sec-8">🏆 LMArena 模型能力榜 Top20</a>
+<a class="spy-link" href="#sec-9" data-target="sec-9">🎯 AI 能力领域榜 · 分领域真实 benchmark</a>
+<a class="spy-link" href="#sec-10" data-target="sec-10">📅 AI 各方向年度里程碑时间线</a>
   </nav>
   <div class="board-main" id="board-main">
 
@@ -414,7 +425,18 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 </header>
 <div class="container">
 
-  <div class="section-title" id="sec-1">⚖️ AI 危险程度平衡杆</div>
+  <!-- KOL 言论汇总: 置顶 section(Chao 指定放最上面), 与下方弹窗同源 KOL_BY_ID -->
+  <div class="section-title" id="sec-1" id="sec-kolsum">🎙️ KOL 言论汇总 · 当日 / 当周 / 当月 <span id="ksCover" class="subtle"></span></div>
+ <div class="card">
+    <div class="ks-tabs">
+      <button class="ks-tab active" data-ks="day">当日</button>
+      <button class="ks-tab" data-ks="week">当周</button>
+      <button class="ks-tab" data-ks="month">当月</button>
+    </div>
+    <div id="ksBody"></div>
+  </div>
+
+  <div class="section-title" id="sec-2">⚖️ AI 危险程度平衡杆</div>
   <div class="card">
     <div class="gauge-wrap">
       <div class="gauge-track">
@@ -427,13 +449,13 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     </div>
   </div>
 
-  <div class="section-title" id="sec-2">⏳ AGI 到来时间预测（每位 KOL 一个点）</div>
+  <div class="section-title" id="sec-3">⏳ AGI 到来时间预测（每位 KOL 一个点）</div>
   <div class="card">
     <div class="agi-axis" id="agiAxis"></div>
     <div class="agi-noyear" id="agiNoYear"></div>
   </div>
 
-  <div class="section-title" id="sec-3">📊 汇总 · 当日 / 本周 / 本月 <span id="smCover" class="subtle"></span></div>
+  <div class="section-title" id="sec-4">📊 汇总 · 当日 / 本周 / 本月 <span id="smCover" class="subtle"></span></div>
   <div class="card">
     <div class="sm-tabs">
       <button class="sm-tab active" data-sm="daily">今日</button>
@@ -443,10 +465,10 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     <div id="smBody"></div>
   </div>
 
-  <div class="section-title" id="sec-4">🧭 AI 各发展方向 · 要点新闻（过去 24 小时精选）</div>
+  <div class="section-title" id="sec-5">🧭 AI 各发展方向 · 要点新闻（过去 24 小时精选）</div>
   <div id="directions"></div>
 
-  <div class="section-title" id="sec-5">🎙️ AI KOL 观点卡（<span id="kolCount"></span> 位）</div>
+  <div class="section-title" id="sec-6">🎙️ AI KOL 观点卡（<span id="kolCount"></span> 位）</div>
   <div class="kol-grid" id="kolGrid"></div>
 
   <!-- KOL 全景弹窗: 点卡片打开, 点遮罩/✕/ESC 关闭 -->
@@ -467,21 +489,21 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     </div>
   </div>
 
-  <div class="section-title" id="sec-6">🥇 AIHOT 综合评测榜 Top20 · <span id="ahDate" class="subtle"></span></div>
+  <div class="section-title" id="sec-7">🥇 AIHOT 综合评测榜 Top20 · <span id="ahDate" class="subtle"></span></div>
   <div class="card">
     <div class="subtle" style="margin-bottom:10px">AIHOT 官方综合评测榜（多维度加权评分，口径不同于下方 LMArena 人类盲测榜）</div>
     <div id="ahTable"></div>
     <div class="subtle" id="ahNote" style="margin-top:10px"></div>
   </div>
 
-  <div class="section-title" id="sec-7">🏆 LMArena 模型能力榜 Top20 · <span id="lmDate" class="subtle"></span></div>
+  <div class="section-title" id="sec-8">🏆 LMArena 模型能力榜 Top20 · <span id="lmDate" class="subtle"></span></div>
   <div class="card">
     <div class="lm-tabs" id="lmTabs"></div>
     <div id="lmTable"></div>
     <div class="subtle" id="lmNote" style="margin-top:10px"></div>
   </div>
 
-  <div class="section-title" id="sec-8">🎯 AI 能力领域榜 · 分领域真实 benchmark · <span id="dbDate" class="subtle"></span></div>
+  <div class="section-title" id="sec-9">🎯 AI 能力领域榜 · 分领域真实 benchmark · <span id="dbDate" class="subtle"></span></div>
   <div class="card">
     <div class="subtle" style="margin-bottom:10px">按能力领域拆分的独立公开评测榜（每个领域数据源不同、口径独立）。军事/经济等无公开评测的社会领域暂留空——不编造分数。</div>
     <div class="lm-tabs" id="dbTabs"></div>
@@ -489,7 +511,7 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     <div class="subtle" id="dbNote" style="margin-top:10px"></div>
   </div>
 
-  <div class="section-title" id="sec-9">📅 AI 各方向年度里程碑时间线 · <span id="tlWindow" class="subtle"></span></div>
+  <div class="section-title" id="sec-10">📅 AI 各方向年度里程碑时间线 · <span id="tlWindow" class="subtle"></span></div>
   <div class="card">
     <div class="lm-tabs" id="tlTabs"></div>
     <div class="subtle" id="tlSummary" style="margin:4px 0 14px"></div>
@@ -16278,6 +16300,55 @@ Promise.resolve(__DATA__).then(d=>{
     if(isNaN(t)) return 1e9;
     return Math.floor((Date.now()-t)/86400000);
   }
+  // ===== KOL 言论汇总(置顶 section) =====
+  // Chao 要求: 把 KOL 的当日/当周/当月放到页面最上面, 一眼看到最新言论。
+  // 复用 KOL_BY_ID + tlItemHTML, 保证与弹窗内容天然一致(不另起一套渲染)。
+  const KS_RANGE={day:1, week:7, month:30};
+  let __ksCur='day';
+  // 按时间窗收集各 KOL 的言论(只用真实 t.date, 无日期的条目不计入)
+  function ksCollect(rk){
+    const lim=KS_RANGE[rk];
+    const rows=[];
+    Object.keys(window.KOL_BY_ID||{}).forEach(kid=>{
+      const k=KOL_BY_ID[kid];
+      const hit=(k.year_timeline||[]).filter(t=>t.date && daysAgo(t.date)<=lim);
+      if(hit.length){
+        hit.sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+        rows.push({k:k, kid:kid, items:hit});
+      }
+    });
+    // 言论多的 KOL 排前面, 同数按最新日期
+    rows.sort((a,b)=> b.items.length-a.items.length
+      || String(b.items[0].date).localeCompare(String(a.items[0].date)));
+    return rows;
+  }
+  function ksRender(rk){
+    __ksCur=rk;
+    const body=document.getElementById('ksBody');
+    const cover=document.getElementById('ksCover');
+    if(!body) return;
+    document.querySelectorAll('.ks-tab').forEach(b=>b.classList.toggle('active', b.dataset.ks===rk));
+    const rows=ksCollect(rk);
+    const total=rows.reduce((s,r)=>s+r.items.length,0);
+    const lbl={day:'当日',week:'当周',month:'当月'}[rk];
+    if(cover) cover.textContent=`${lbl}共 ${total} 条 · ${rows.length} 位 KOL`;
+    if(!rows.length){
+      body.innerHTML=`<div class="ks-empty">${lbl}暂无新增言论（数据按真实发布日期统计，不做填充）。</div>`;
+      return;
+    }
+    body.innerHTML=rows.map(r=>
+      `<div class="ks-kol">`+
+        `<div class="ks-name">${r.k.name_cn||r.k.name||''}`+
+          `<span class="ks-n">${r.items.length} 条</span></div>`+
+        r.items.map((t,i)=>tlItemHTML(t,`ks_${rk}_${r.kid}_${i}`,r.k)).join('')+
+      `</div>`).join('');
+  }
+  window.ksRender=ksRender;
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('.ks-tab');
+    if(b) ksRender(b.dataset.ks);
+  });
+
   function tlItemHTML(t,iid,k){
     const srcs = t.sources && t.sources.length ? t.sources
                : (t.url ? [{title:'原文', url:t.url}] : []);
@@ -16406,6 +16477,9 @@ Promise.resolve(__DATA__).then(d=>{
     grid.innerHTML=groups[dm].map(kolCardHTML).join('');
     kg.appendChild(grid);
   });
+
+  // KOL_BY_ID 此刻已填充完毕, 再渲染置顶汇总(避免脚本早于数据的时序坑)
+  ksRender('day');
 
   document.getElementById('footer').textContent=d.data_note+' · '+d.generated_at_jst;
 }).catch(e=>{document.getElementById('update-time').textContent='数据加载失败: '+e;});
