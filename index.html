@@ -7,58 +7,81 @@
 <style>
 
 *{box-sizing:border-box}
-body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
-.hubbar{position:sticky;top:0;z-index:200;display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 22px;background:#101014;border-bottom:1px solid #2a2a2e}
-.hubbar .logo{font-weight:800;font-size:17px;margin-right:14px;color:#fff}
-.hubtab{font-size:14.5px;font-weight:700;color:#9a9a9a;background:transparent;border:1px solid #2a2a2e;padding:8px 18px;border-radius:10px;cursor:pointer;transition:.15s}
-.hubtab:hover{color:#fff;border-color:#555}
-.hubtab.active{color:#fff}
-.hubtab.t-board.active{background:linear-gradient(90deg,#6366f1,#8b5cf6);border-color:transparent}
-.hubtab.t-2027.active{background:linear-gradient(90deg,#c9a227,#e0b83a);border-color:transparent;color:#1a1a1a}
-.hubtab.t-2040.active{background:linear-gradient(90deg,#2f9e6e,#5fb37a);border-color:transparent}
+/* 莫兰迪护眼色系(Chao 2026-08-23): 暖灰基底 + 低饱和点缀, 替代原高饱和深蓝紫 */
+body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+.hubbar{position:sticky;top:0;z-index:200;display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 22px;background:#2b2e35;border-bottom:1px solid #3d414b}
+.hubbar .logo{font-weight:700;font-size:17px;margin-right:14px;color:#dcdcd4}
+.hubtab{font-size:14.5px;font-weight:600;color:#9a9c98;background:transparent;border:1px solid #3d414b;padding:8px 18px;border-radius:9px;cursor:pointer;transition:.15s}
+.hubtab:hover{color:#dcdcd4;border-color:#5a5f6b}
+.hubtab.active{color:#22242a}
+.hubtab.t-board.active{background:#8b9dc3;border-color:transparent}
+.hubtab.t-2027.active{background:#c4a87c;border-color:transparent}
+.hubtab.t-2040.active{background:#8fa88c;border-color:transparent}
 .pane{display:none}
 .pane.active{display:block}
-/* ---- Dashboard 左侧固定目录 + 滚动高亮 ---- */
+/* ---- Dashboard 左侧固定目录 + 滚动高亮 ----
+   Chao 2026-08-23: 原 190px/12.5px/2px 间距导致文字挤成一坨,
+   放宽到 240px/13.5px/5px, 长标题限 2 行省略而非折行糊住。 */
 .board-layout{display:flex;align-items:flex-start;gap:0}
-.board-toc{position:sticky;top:70px;flex:0 0 190px;max-height:calc(100vh - 90px);
-  overflow-y:auto;padding:14px 10px 20px 18px;display:flex;flex-direction:column;gap:2px}
-.board-toc .toc-cap{font-size:11px;font-weight:700;letter-spacing:.14em;color:#5a5a66;
-  text-transform:uppercase;padding:0 10px 8px}
-.board-toc .spy-link{display:block;font-size:12.5px;line-height:1.45;color:#8a8a95;
-  text-decoration:none;padding:7px 10px;border-radius:7px;border-left:2px solid transparent;
+.board-toc{position:sticky;top:70px;flex:0 0 240px;max-height:calc(100vh - 90px);
+  overflow-y:auto;padding:18px 12px 24px 26px;display:flex;flex-direction:column;gap:5px}
+.board-toc .toc-cap{font-size:11px;font-weight:700;letter-spacing:.14em;color:#9a9c98;
+  text-transform:uppercase;padding:0 12px 10px}
+.board-toc .spy-link{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden;font-size:13.5px;line-height:1.5;color:#9a9c98;
+  text-decoration:none;padding:9px 12px !important;border-radius:8px;
+  border-left:2px solid transparent;
   transition:color .15s,background .15s,border-color .15s}
-.board-toc .spy-link:hover{color:#d4d4dd;background:#17171d}
-.board-toc .spy-link.active{color:#a5b4fc;background:#1a1a24;border-left-color:#6366f1;font-weight:600}
+.board-toc .spy-link:hover{color:#dcdcd4;background:#2b2e35}
+.board-toc .spy-link.active{color:#c3cede;background:#333740;border-left-color:#8b9dc3;font-weight:600}
 .board-main{flex:1 1 auto;min-width:0}
+@media(min-width:1500px){.board-toc{flex:0 0 262px}}
 @media(max-width:900px){.board-toc{display:none}}
-.subnav{position:sticky;top:57px;z-index:150;display:flex;gap:4px;flex-wrap:wrap;padding:10px 22px;background:#0e0e12;border-bottom:1px solid #23232a;max-height:110px;overflow-y:auto}
-.subnav-btn{font-size:12.5px;font-weight:600;color:#8a8a8a;background:transparent;border:1px solid #23232a;padding:5px 11px;border-radius:7px;cursor:pointer;white-space:nowrap}
-.subnav-btn:hover{color:#fff;border-color:#444}
-.subnav-btn.active{color:#fff;background:#1e1e24;border-color:#555}
+.subnav{position:sticky;top:57px;z-index:150;display:flex;gap:5px;flex-wrap:wrap;padding:11px 22px;background:#26282f;border-bottom:1px solid #3d414b;max-height:110px;overflow-y:auto}
+.subnav-btn{font-size:12.5px;font-weight:600;color:#9a9c98;background:transparent;border:1px solid #3d414b;padding:6px 12px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.subnav-btn:hover{color:#dcdcd4;border-color:#5a5f6b}
+.subnav-btn.active{color:#dcdcd4;background:#333740;border-color:#5a5f6b}
 .subpane{display:none}
 .subpane.active{display:block}
 /* 子页里原本的 sticky 顶栏/侧栏 top 值下移，避免盖住 hub 双层栏 */
 #tab-2027 .layout,#tab-2040 .layout{margin-top:0}
 #tab-2027 .sidebar,#tab-2040 .sidebar{top:120px !important;max-height:calc(100vh - 120px) !important}
+/* ★ 2027/2040 侧栏统一放宽 + 层级缩进。
+   实测(2026-08-23 CDP): 2027 侧栏有 377 个**裸 .toc-item**(源页面未做层级标记)
+   + 少量 h2/h3/h4; 2040 则全部带层级类。所以基线规则必须打在 .toc-item 上,
+   否则 2027 的 377 条完全不受控 —— 这才是"文字挤成一坨"的真凶。
+   注意: 用 !important, 因为子页原样式同名同权重且在后面。 */
+#tab-2027 .sidebar,#tab-2040 .sidebar{padding:22px 12px !important;min-width:248px}
+#tab-2027 .toc-item,#tab-2040 .toc-item{
+  display:-webkit-box !important;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden;padding:8px 11px !important;margin-bottom:4px !important;
+  font-size:13px !important;line-height:1.55 !important;border-radius:7px}
+#tab-2027 .toc-h2,#tab-2040 .toc-h2{padding-left:11px !important;font-weight:600;margin-top:9px !important}
+#tab-2027 .toc-h3,#tab-2040 .toc-h3{padding-left:26px !important;font-size:12.5px !important;opacity:.88}
+#tab-2027 .toc-h4,#tab-2040 .toc-h4{padding-left:40px !important;font-size:12px !important;opacity:.72}
+/* 子页自带 topnav 残留旧深色, 统一到莫兰迪基底 */
+#tab-2027 .topnav,#tab-2040 .topnav{background:#2b2e35 !important;border-bottom-color:#3d414b !important}
 /* ===== AFM (AI 未来模型) Tab ===== */
 .afm-note{margin:14px 18px 10px;padding:12px 16px;border-radius:10px;
-  background:#15151b;border:1px solid #33333d;color:#c8c8d4;font-size:13.5px;line-height:1.7}
-.afm-note b{color:#fff}
-.afm-warn{color:#f0b849}
+  background:#2b2e35;border:1px solid #3d414b;color:#c2c4be;font-size:13.5px;line-height:1.7}
+.afm-note b{color:#dcdcd4}
+.afm-warn{color:#c4a87c}
 .afm-frame{display:block;width:calc(100% - 36px);margin:0 18px 18px;height:calc(100vh - 190px);
-  min-height:620px;border:1px solid #33333d;border-radius:10px;background:#fff}
-.afm-fallback{margin:14px 18px;padding:26px;border-radius:10px;background:#15151b;
-  border:1px solid #5a3a3a;color:#d8d8e0;text-align:center}
-.afm-fallback h3{margin:0 0 10px;color:#f0b849}
-.afm-fallback a{color:#6ea8ff}
+  min-height:620px;border:1px solid #3d414b;border-radius:10px;background:#fff}
+.afm-fallback{margin:14px 18px;padding:26px;border-radius:10px;background:#2b2e35;
+  border:1px solid #6b5555;color:#dcdcd4;text-align:center}
+.afm-fallback h3{margin:0 0 10px;color:#c4a87c}
+.afm-fallback a{color:#8b9dc3}
 
 /* ===== Board scoped ===== */
 #tab-board{
-    --bg:#0f1117; --card:#1a1d2e; --card2:#232640; --border:#2e3154;
-    --text:#e2e8f0; --muted:#8892a4;
-    --danger:#ef4444; --danger-bg:rgba(239,68,68,.14);
-    --safe:#22c55e; --safe-bg:rgba(34,197,94,.12);
-    --neutral:#94a3b8; --accent:#6366f1; --accent2:#a78bfa; --gold:#f59e0b; --warn:#f97316;
+    /* 莫兰迪护眼色系(2026-08-23): 低饱和、低对比、暖灰基底。
+       原深蓝紫高饱和方案久看刺眼, 改为灰调降低视觉疲劳。 */
+    --bg:#22242a; --card:#2b2e35; --card2:#333740; --border:#3d414b;
+    --text:#dcdcd4; --muted:#a8aaa5;
+    --danger:#b08585; --danger-bg:rgba(176,133,133,.16);
+    --safe:#8fa88c; --safe-bg:rgba(143,168,140,.14);
+    --neutral:#9a9c98; --accent:#8b9dc3; --accent2:#a8a0b8; --gold:#c4a87c; --warn:#c49a7c;
   }
 #tab-board *{box-sizing:border-box;margin:0;padding:0}
 #tab-board{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;min-height:100vh;line-height:1.5}
@@ -74,12 +97,39 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 #tab-board .nav-2040{background:linear-gradient(90deg,#2f9e6e 0%,#5fb37a 100%);box-shadow:0 2px 8px rgba(95,179,122,.35);margin-left:8px}
 #tab-board .nav-2040:hover{box-shadow:0 4px 14px rgba(95,179,122,.55)}
 #tab-board .container{max-width:1280px;margin:0 auto;padding:22px 24px 60px}
-#tab-board .section-title{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1.2px;margin:30px 0 14px;display:flex;align-items:center;gap:8px}
+#tab-board .section-title{font-size:17px;font-weight:650;color:var(--text);letter-spacing:.2px;margin:44px 0 2px;display:flex;align-items:center;gap:10px}
+#tab-board /* 章节图标: 用 CSS 画的色块而非 emoji。
+     emoji 依赖系统字体, #tab-board 缺字体的环境(如无 Noto Color Emoji 的 Linux)会全变豆腐块 □。
+     色块 + 每章不同色相, #tab-board 既能分辨章节又零字体依赖。 */
+  .section-title .ico{flex:none;width:9px;height:22px;border-radius:3px;background:var(--accent);display:inline-block}
 #tab-board .section-title:first-child{margin-top:6px}
+#tab-board .sec-c1 .ico{background:#8b9dc3}
+#tab-board .sec-c2 .ico{background:#b08585}
+#tab-board .sec-c3 .ico{background:#a8a0b8}
+#tab-board .sec-c4 .ico{background:#8fa88c}
+#tab-board .sec-c5 .ico{background:#c4a87c}
+#tab-board .sec-c6 .ico{background:#7f9aa6}
+#tab-board .sec-c7 .ico{background:#bfa2a2}
+#tab-board .sec-c8 .ico{background:#9ba888}
+#tab-board .sec-c9 .ico{background:#a595ab}
+#tab-board .sec-c10 .ico{background:#c49a7c}
+#tab-board /* 章节说明: 标题下一行小字, #tab-board 一句话讲清这个 section 是什么 */
+  .section-desc{font-size:12.5px;color:var(--muted);line-height:1.6;margin:0 0 16px 19px;max-width:760px}
+#tab-board /* 图表级标题: 一个 section 内多张图时, #tab-board 每张图自己的名字 */
+  .chart-title{font-size:13.5px;font-weight:600;color:var(--text);margin:2px 0 8px;opacity:.9}
+#tab-board /* 领域分组色点 / 榜单名次: 替代 emoji, #tab-board 零字体依赖 */
+  .dom-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+#tab-board .mdl{display:inline-block;min-width:20px;text-align:center;border-radius:5px;
+       padding:1px 5px;font-weight:700;color:#22242a}
+#tab-board .mdl.m1{background:#c9b37e}
+#tab-board .mdl.m2{background:#b6b8b4}
+#tab-board .mdl.m3{background:#bb9276}
 #tab-board .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin-bottom:16px}
 #tab-board .subtle{color:var(--muted);font-size:12px}
 #tab-board /* 平衡杆 */
-  .gauge-wrap{position:relative;padding:20px 10px 6px}
+  /* padding-top 必须 >= gauge-val 的 |top| + 其高度, #tab-board 否则数值气泡会溢出卡片顶
+     (原 20px vs top:-42px, #tab-board 实测气泡压在卡片边框上) */
+  .gauge-wrap{position:relative;padding:50px 10px 6px}
 #tab-board .gauge-track{position:relative;height:16px;border-radius:9px;background:linear-gradient(90deg,var(--safe) 0%,#64748b 50%,var(--danger) 100%);box-shadow:inset 0 1px 3px rgba(0,0,0,.4)}
 #tab-board .gauge-mid{position:absolute;top:-6px;left:50%;width:2px;height:28px;background:var(--muted);transform:translateX(-50%);opacity:.6}
 #tab-board .gauge-needle{position:absolute;top:-10px;width:4px;height:36px;background:#fff;border-radius:3px;box-shadow:0 0 8px rgba(255,255,255,.7);transform:translateX(-50%);transition:left .6s ease}
@@ -393,32 +443,32 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 </head>
 <body>
 <div class="hubbar">
-  <span class="logo">🧠 AI Hub</span>
-  <button class="hubtab t-board active" id="btn-tab-board" onclick="showTab('tab-board')">📊 Dashboard</button>
-  <button class="hubtab t-2027" id="btn-tab-2027" onclick="showTab('tab-2027')">📖 AI 2027</button>
-  <button class="hubtab t-2040" id="btn-tab-2040" onclick="showTab('tab-2040')">🕊️ AI 2040 · Plan A</button>
-  <button class="hubtab t-afm" id="btn-tab-afm" onclick="showTab('tab-afm')">🧮 AI 未来模型（可交互）</button>
+  <span class="logo">AI Hub</span>
+  <button class="hubtab t-board active" id="btn-tab-board" onclick="showTab('tab-board')">Dashboard</button>
+  <button class="hubtab t-2027" id="btn-tab-2027" onclick="showTab('tab-2027')">AI 2027</button>
+  <button class="hubtab t-2040" id="btn-tab-2040" onclick="showTab('tab-2040')">AI 2040 · Plan A</button>
+  <button class="hubtab t-afm" id="btn-tab-afm" onclick="showTab('tab-afm')">AI 未来模型</button>
 </div>
 
 <div class="pane active" id="tab-board">
 <div class="board-layout">
   <nav class="board-toc" id="board-toc">
     <div class="toc-cap">目录</div>
-<a class="spy-link" href="#sec-1" data-target="sec-1">🎙️ KOL 言论汇总 · 当日 / 当周 / 当月 / 近一年</a>
-<a class="spy-link" href="#sec-2" data-target="sec-2">⚖️ AI 危险程度平衡杆</a>
-<a class="spy-link" href="#sec-3" data-target="sec-3">⏳ AGI 到来时间预测</a>
-<a class="spy-link" href="#sec-4" data-target="sec-4">📊 汇总 · 当日 / 本周 / 本月</a>
-<a class="spy-link" href="#sec-5" data-target="sec-5">🧭 AI 各发展方向 · 要点新闻</a>
-<a class="spy-link" href="#sec-6" data-target="sec-6">🎙️ AI KOL 观点卡</a>
-<a class="spy-link" href="#sec-7" data-target="sec-7">🥇 AIHOT 综合评测榜 Top20</a>
-<a class="spy-link" href="#sec-8" data-target="sec-8">🏆 LMArena 模型能力榜 Top20</a>
-<a class="spy-link" href="#sec-9" data-target="sec-9">🎯 AI 能力领域榜 · 分领域真实 benchmark</a>
-<a class="spy-link" href="#sec-10" data-target="sec-10">📅 AI 各方向年度里程碑时间线</a>
+<a class="spy-link" href="#sec-1" data-target="sec-1">言论汇总</a>
+<a class="spy-link" href="#sec-2" data-target="sec-2">风险温度计</a>
+<a class="spy-link" href="#sec-3" data-target="sec-3">AGI 时间预测</a>
+<a class="spy-link" href="#sec-4" data-target="sec-4">阶段摘要</a>
+<a class="spy-link" href="#sec-5" data-target="sec-5">方向要点</a>
+<a class="spy-link" href="#sec-6" data-target="sec-6">观点卡</a>
+<a class="spy-link" href="#sec-7" data-target="sec-7">AIHOT 综合榜</a>
+<a class="spy-link" href="#sec-8" data-target="sec-8">LMArena 榜</a>
+<a class="spy-link" href="#sec-9" data-target="sec-9">能力领域榜</a>
+<a class="spy-link" href="#sec-10" data-target="sec-10">年度里程碑</a>
   </nav>
   <div class="board-main" id="board-main">
 
 <header>
-  <h1>🤖 AI <span>Daily Board</span></h1>
+  <h1>AI <span>Daily Board</span></h1>
   
   
   <div id="update-time">加载中…</div>
@@ -426,7 +476,8 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
 <div class="container">
 
   <!-- KOL 言论汇总: 置顶 section(Chao 指定放最上面), 与下方弹窗同源 KOL_BY_ID -->
-  <div class="section-title" id="sec-1">🎙️ KOL 言论汇总 · 当日 / 当周 / 当月 / 近一年 <span id="ksCover" class="subtle"></span></div>
+  <div class="section-title sec-c1" id="sec-1"><span class="ico"></span>言论汇总</div>
+  <p class="section-desc">25 位 AI 研究者与从业者的公开表态，按当日 / 当周 / 当月 / 近一年切换。 <span id="ksCover" class="subtle"></span></p>
   <div class="card">
     <div class="ks-tabs">
       <button class="ks-tab active" data-ks="day">当日</button>
@@ -437,7 +488,8 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     <div id="ksBody"></div>
   </div>
 
-  <div class="section-title" id="sec-2">⚖️ AI 危险程度平衡杆</div>
+  <div class="section-title sec-c2" id="sec-2"><span class="ico"></span>风险温度计</div>
+  <p class="section-desc">把各位 KOL 的风险立场加权成一个数：-100 极度警惕，+100 乐观加速，0 为中性。</p>
   <div class="card">
     <div class="gauge-wrap">
       <div class="gauge-track">
@@ -450,13 +502,15 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     </div>
   </div>
 
-  <div class="section-title" id="sec-3">⏳ AGI 到来时间预测（每位 KOL 一个点）</div>
+  <div class="section-title sec-c3" id="sec-3"><span class="ico"></span>AGI 时间预测</div>
+  <p class="section-desc">每位公开给过年份的 KOL 一个点，点位取其预测区间的中点。</p>
   <div class="card">
     <div class="agi-axis" id="agiAxis"></div>
     <div class="agi-noyear" id="agiNoYear"></div>
   </div>
 
-  <div class="section-title" id="sec-4">📊 汇总 · 当日 / 本周 / 本月 <span id="smCover" class="subtle"></span></div>
+  <div class="section-title sec-c4" id="sec-4"><span class="ico"></span>阶段摘要</div>
+  <p class="section-desc">当日、本周、本月三个时间窗的要点归纳。 <span id="smCover" class="subtle"></span></p>
   <div class="card">
     <div class="sm-tabs">
       <button class="sm-tab active" data-sm="daily">今日</button>
@@ -466,16 +520,18 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     <div id="smBody"></div>
   </div>
 
-  <div class="section-title" id="sec-5">🧭 AI 各发展方向 · 要点新闻（过去 24 小时精选）</div>
+  <div class="section-title sec-c5" id="sec-5"><span class="ico"></span>方向要点</div>
+  <p class="section-desc">过去 24 小时的精选新闻，按技术方向分区。</p>
   <div id="directions"></div>
 
-  <div class="section-title" id="sec-6">🎙️ AI KOL 观点卡（<span id="kolCount"></span> 位）</div>
+  <div class="section-title sec-c6" id="sec-6"><span class="ico"></span>观点卡</div>
+  <p class="section-desc">每人一张卡，含所属领域与近一年的观点演变；点开可看完整时间线。 <span id="kolCount"></span></p>
   <div class="kol-grid" id="kolGrid"></div>
 
   <!-- KOL 全景弹窗: 点卡片打开, 点遮罩/✕/ESC 关闭 -->
   <div class="km-mask" id="kolModal" onclick="if(event.target===this)closeKol()">
     <div class="km-box" role="dialog" aria-modal="true">
-      <button class="km-x" onclick="closeKol()" title="关闭 (ESC)">✕</button>
+      <button class="km-x" onclick="closeKol()" title="关闭 (ESC)">×</button>
       <div class="km-head" id="kmHead"></div>
       <div class="km-bar">
         <div class="km-tabs">
@@ -490,21 +546,24 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     </div>
   </div>
 
-  <div class="section-title" id="sec-7">🥇 AIHOT 综合评测榜 Top20 · <span id="ahDate" class="subtle"></span></div>
+  <div class="section-title sec-c7" id="sec-7"><span class="ico"></span>AIHOT 综合榜</div>
+  <p class="section-desc">AIHOT 的模型综合评测前 20 名。 <span id="ahDate" class="subtle"></span></p>
   <div class="card">
     <div class="subtle" style="margin-bottom:10px">AIHOT 官方综合评测榜（多维度加权评分，口径不同于下方 LMArena 人类盲测榜）</div>
     <div id="ahTable"></div>
     <div class="subtle" id="ahNote" style="margin-top:10px"></div>
   </div>
 
-  <div class="section-title" id="sec-8">🏆 LMArena 模型能力榜 Top20 · <span id="lmDate" class="subtle"></span></div>
+  <div class="section-title sec-c8" id="sec-8"><span class="ico"></span>LMArena 榜</div>
+  <p class="section-desc">四个分榜各取前 20：总榜、编程、指令遵循、高难提示，含 30 天排名与分数环比。 <span id="lmDate" class="subtle"></span></p>
   <div class="card">
     <div class="lm-tabs" id="lmTabs"></div>
     <div id="lmTable"></div>
     <div class="subtle" id="lmNote" style="margin-top:10px"></div>
   </div>
 
-  <div class="section-title" id="sec-9">🎯 AI 能力领域榜 · 分领域真实 benchmark · <span id="dbDate" class="subtle"></span></div>
+  <div class="section-title sec-c9" id="sec-9"><span class="ico"></span>能力领域榜</div>
+  <p class="section-desc">编程、数学、Agent、科学、医疗五个领域的公开 benchmark，各自独立取数。 <span id="dbDate" class="subtle"></span></p>
   <div class="card">
     <div class="subtle" style="margin-bottom:10px">按能力领域拆分的独立公开评测榜（每个领域数据源不同、口径独立）。军事/经济等无公开评测的社会领域暂留空——不编造分数。</div>
     <div class="lm-tabs" id="dbTabs"></div>
@@ -512,7 +571,8 @@ body{margin:0;background:#0b0b0d;color:#e8e6e0;font-family:-apple-system,"Noto S
     <div class="subtle" id="dbNote" style="margin-top:10px"></div>
   </div>
 
-  <div class="section-title" id="sec-10">📅 AI 各方向年度里程碑时间线 · <span id="tlWindow" class="subtle"></span></div>
+  <div class="section-title sec-c10" id="sec-10"><span class="ico"></span>年度里程碑</div>
+  <p class="section-desc">七个方向过去一年的大事件，累积式记录，只增不删。 <span id="tlWindow" class="subtle"></span></p>
   <div class="card">
     <div class="lm-tabs" id="tlTabs"></div>
     <div class="subtle" id="tlSummary" style="margin:4px 0 14px"></div>
@@ -23829,7 +23889,7 @@ Promise.resolve(__DATA__).then(d=>{
   // hot topics 附在方向区后
   if(d.hot_topics&&d.hot_topics.length){
     const hb=document.createElement('div');hb.className='card';
-    hb.innerHTML='<div class="dir-head">🔥 当前多源热点</div>'+
+    hb.innerHTML='<div class="dir-head">当前多源热点</div>'+
       d.hot_topics.map(t=>`<div class="news-item"><a href="${t.permalink}" target="_blank">${t.title}</a>`+
       (t.source_count?`<span class="score-badge">${t.source_count} 源</span>`:'')+`</div>`).join('');
     dc.appendChild(hb);
@@ -23939,10 +23999,10 @@ Promise.resolve(__DATA__).then(d=>{
       `</div>`+
       (hasDetail?`<div class="tl-detail" id="d_${iid}">`+
         `<div class="tl-times">`+
-          `<span class="tl-tm">🗓 发布时间：${t.date||'未知'}</span>`+
+          `<span class="tl-tm">发布时间：${t.date||'未知'}</span>`+
           (itemForecast(t)
-            ? `<span class="tl-tm tl-tm-hit">🔮 本条提及时点：${itemForecast(t)}</span>`
-            : `<span class="tl-tm">🔮 该人 AGI 预测：${agiText(k)}<span class="tl-tm-note">（人物级）</span></span>`)+
+            ? `<span class="tl-tm tl-tm-hit">本条提及时点：${itemForecast(t)}</span>`
+            : `<span class="tl-tm">该人 AGI 预测：${agiText(k)}<span class="tl-tm-note">（人物级）</span></span>`)+
         `</div>`+
         (pts.length?`<ul class="tl-points">${pts.map(p=>`<li>${p}</li>`).join('')}</ul>`:'')+
         (t.insufficient?`<div class="tl-thin">原文片段信息有限，未能提炼出明确论点，请点下方来源看原文。</div>`:'')+
@@ -23989,10 +24049,10 @@ Promise.resolve(__DATA__).then(d=>{
       `<div class="kol-tags" style="margin:8px 0">`+
         `<span class="tag ${k.danger_stance>0?'danger':(k.danger_stance<0?'safe':'')}">危险 ${STANCE_TXT[k.danger_stance]}</span>`+
         (k.danger_axis?`<span class="tag" style="border-color:${AXIS_COLOR[k.danger_axis]};color:${AXIS_COLOR[k.danger_axis]}">${AXIS_TXT[k.danger_axis]}</span>`:'')+
-        `<span class="tag agi">🔮 AGI 预测 ${agiText(k)}</span>`+
+        `<span class="tag agi">AGI 预测 ${agiText(k)}</span>`+
         `<span class="tag">${k.style}</span>`+
       `</div>`+
-      `<div class="km-basis">📊 ${k.danger_basis}`+
+      `<div class="km-basis">${k.danger_basis}`+
         (k.source_url?`　<a href="${k.source_url}" target="_blank" rel="noopener">背景来源 ↗</a>`:'')+`</div>`+
       (k.latest_view?`<div class="km-latest"><b>最新观点</b>`+
         (k.latest_date?`<span class="kol-vdate">${k.latest_date}</span>`:'')+
@@ -24007,15 +24067,15 @@ Promise.resolve(__DATA__).then(d=>{
   };
   document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeKol(); });
   const DOMAIN_META={
-    'foundational-research':{zh:'🔬 基础研究 / 科学家',o:1},
-    'industry':{zh:'🏭 产业 / 大厂领袖',o:2},
-    'safety-alignment':{zh:'🛡️ 安全 / 对齐',o:3},
-    'agent-engineering':{zh:'🤖 智能体 / 工程',o:4},
+    'foundational-research':{zh:'基础研究 / 科学家',o:1,c:'#8b9dc3'},
+    'industry':{zh:'产业 / 大厂领袖',o:2,c:'#c4a87c'},
+    'safety-alignment':{zh:'安全 / 对齐',o:3,c:'#8fa88c'},
+    'agent-engineering':{zh:'智能体 / 工程',o:4,c:'#7f9aa6'},
     'china':{zh:'🇨🇳 中国',o:5},
-    'economics':{zh:'💰 经济 / 劳动力',o:6},
-    'medical':{zh:'🏥 医疗',o:7},
-    'defense':{zh:'⚔️ 军事 / 国防',o:8},
-    'consciousness-philosophy':{zh:'🧠 意识 / 哲学',o:9}
+    'economics':{zh:'经济 / 劳动力',o:6,c:'#bfa2a2'},
+    'medical':{zh:'医疗',o:7,c:'#9ba888'},
+    'defense':{zh:'军事 / 国防',o:8,c:'#b08585'},
+    'consciousness-philosophy':{zh:'意识 / 哲学',o:9,c:'#a595ab'}
   };
   const groups={};
   d.kol_cards.forEach(k=>{const dm=k.domain||'foundational-research';(groups[dm]=groups[dm]||[]).push(k);});
@@ -24035,14 +24095,14 @@ Promise.resolve(__DATA__).then(d=>{
       `<span class="tag agi">AGI ${k.agi_range?(k.agi_year_low&&k.agi_year_high&&k.agi_year_low!==k.agi_year_high?k.agi_year_low+'-'+k.agi_year_high:(k.agi_year_low||'—')):'—'}</span>`+
       `<span class="tag">${k.style}</span></div>`+
       `<div class="kol-view">${k.latest_date?`<span class="kol-vdate">${k.latest_date}</span>`:''}${k.latest_view}</div>`+
-      `<div class="kol-basis">📊 ${k.danger_basis}</div>`+
+      `<div class="kol-basis">${k.danger_basis}</div>`+
       `<div class="kol-open">共 ${tl.length} 条言论 · 点击查看全景 →</div>`+
       `</div>`;
   }
   orderedDoms.forEach(dm=>{
     const meta=DOMAIN_META[dm]||{zh:dm};
     const hd=document.createElement('div');hd.className='kol-domain-hd';
-    hd.innerHTML=`${meta.zh} <span class="kol-domain-n">${groups[dm].length} 位</span>`;
+    hd.innerHTML=`<span class="dom-dot" style="background:${meta.c||'#8b9dc3'}"></span>${meta.zh} <span class="kol-domain-n">${groups[dm].length} 位</span>`;
     kg.appendChild(hd);
     const grid=document.createElement('div');grid.className='kol-domain-grid';
     grid.innerHTML=groups[dm].map(kolCardHTML).join('');
@@ -24084,7 +24144,7 @@ function renderLM(lm){
     });
     tbl.innerHTML=h;
     let n=`数据源：${lm.source}`;
-    if(c.stale)n+=` ⚠️ 该榜今日未更新，显示 ${c.stale_date} 快照`;
+    if(c.stale)n+=` 该榜今日未更新，显示 ${c.stale_date} 快照`;
     if(!c.baseline_date)n+='　｜ 环比基线建立中（约30天后显示 vs 上月变动）';
     else n+=`　｜ 环比基线：${c.baseline_date}`;
     note.textContent=n;
@@ -25106,7 +25166,7 @@ function renderAH(ah){
   dateEl.textContent=ah.generated_at_jst||'';
   let h=`<div class="lm-row ah-head"><span>#</span><span>模型</span><span style="text-align:right">评分</span><span style="text-align:center">发布</span></div>`;
   ah.rows.slice(0,20).forEach(r=>{
-    const medal=r.rank===1?'🥇':r.rank===2?'🥈':r.rank===3?'🥉':r.rank;
+    const medal=r.rank<=3?'<b class="mdl m'+r.rank+'">'+r.rank+'</b>':r.rank;
     h+=`<div class="lm-row ah-row"><span class="lm-rank">${medal}</span>`+
       `<span class="lm-model">${r.model}<small>${r.brand||''}</small></span>`+
       `<span class="lm-score">${r.score??'—'}</span>`+
@@ -25436,7 +25496,7 @@ function smPanel(v){
   if(!v) return '<div class="sm-empty">暂无数据。</div>';
   const short = v.covered_days < v.window_days;
   const warn = short
-    ? `<div class="sm-warn">⚠️ 该窗口设计为 ${v.window_days} 天，但目前只累积了 <b>${v.covered_days}</b> 天真实数据（${v.date_start} 起）。每日归档持续累积，覆盖天数会自动补齐。</div>`
+    ? `<div class="sm-warn">该窗口设计为 ${v.window_days} 天，但目前只累积了 <b>${v.covered_days}</b> 天真实数据（${v.date_start} 起）。每日归档持续累积，覆盖天数会自动补齐。</div>`
     : '';
   const news = (v.top_news||[]).map(n=>
     `<div class="sm-item">`+
@@ -25902,14 +25962,14 @@ function renderDB(db){
     let h=`<div class="lm-row ah-head"><span>#</span><span>模型</span><span style="text-align:right">得分</span><span style="text-align:center">机构</span></div>`;
     if(!dm.rows||!dm.rows.length){h+=`<div class="empty">该领域暂无公开评测数据（${dm.status||'空'}）</div>`;}
     (dm.rows||[]).forEach(r=>{
-      const medal=r.rank===1?'🥇':r.rank===2?'🥈':r.rank===3?'🥉':r.rank;
+      const medal=r.rank<=3?'<b class="mdl m'+r.rank+'">'+r.rank+'</b>':r.rank;
       h+=`<div class="lm-row ah-row"><span class="lm-rank">${medal}</span>`+
         `<span class="lm-model">${r.model}</span>`+
         `<span class="lm-score">${r.score??'—'}</span>`+
         `<span class="ah-date">${r.org||''}</span></div>`;
     });
     tbl.innerHTML=h;
-    note.innerHTML=`📊 <b>${dm.benchmark}</b> · ${dm.unit}　｜ 数据源：${dm.source}`;
+    note.innerHTML=`<b>${dm.benchmark}</b> · ${dm.unit}　｜ 数据源：${dm.source}`;
   }
   doms.forEach((dm,i)=>{
     const b=document.createElement('div');b.className='lm-tab'+(i===0?' active':'');
