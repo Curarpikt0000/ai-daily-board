@@ -161,6 +161,10 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
 #tab-board .tl-srcs a{font-size:11px;color:var(--accent);text-decoration:none;border:1px solid var(--border);border-radius:4px;padding:2px 7px}
 #tab-board .tl-srcs a:hover{border-color:var(--accent)}
 #tab-board .tl-thin{font-size:11px;color:var(--muted);opacity:.75;line-height:1.6}
+#tab-board /* 回源重爬提炼的中文详述(refetch_insufficient.py 产出) */
+  .tl-dcn{font-size:12px;line-height:1.8;color:var(--text);margin:7px 0 2px;
+          padding:9px 11px;border-radius:7px;background:var(--card2);
+          border-left:2px solid var(--accent);max-width:72ch}
 #tab-board .tl-orig{font-size:10px;color:var(--muted);opacity:.8;margin-bottom:6px;line-height:1.5;font-style:italic}
 #tab-board .tl-badge{flex:none;font-size:9px;padding:1px 5px;border-radius:3px;line-height:1.5;white-space:nowrap}
 #tab-board .tl-b-s{color:var(--muted);border:1px solid var(--border);background:var(--card2)}
@@ -8153,7 +8157,7 @@ const AXIS_COLOR={"existential":"#ef4444","power-race":"#a855f7","acceleration":
 const AXIS_TXT={"existential":"灭世恐惧","power-race":"权力竞赛","acceleration":"纯加速","skeptic":"怀疑风险被夸大"};
 
 const __DATA__={
-  "generated_at_jst": "2026-08-24 13:26 JST",
+  "generated_at_jst": "2026-08-24 14:27 JST",
   "date": "2026-08-24",
   "danger_gauge": {
     "gauge": 30.9,
@@ -8751,13 +8755,7 @@ const __DATA__={
       ]
     }
   ],
-  "hot_topics": [
-    {
-      "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
-      "source_count": 1,
-      "permalink": null
-    }
-  ],
+  "hot_topics": [],
   "news_total_24h": 47,
   "kol_cards": [
     {
@@ -10618,13 +10616,18 @@ const __DATA__={
               "url": "https://www.bankless.com/podcast/limitless-ai-debate"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "无限 - AI辩论：失控的超级智能还是普通技术？| Daniel Kokotajlo vs Arvind Narayanan",
-          "insufficient": true,
+          "points_cn": [
+            "Arvind认为AI是正常技术，类似电力和互联网。",
+            "Daniel认为AI是新物种，可能很快超越人类智能。"
+          ],
+          "gist_cn": "AI是正常技术还是超级智能？",
+          "insufficient": false,
           "text_cn": "无限 - AI辩论：失控的超级智能还是普通技术？| Daniel Kokotajlo vs Arvind Narayanan",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在这场关于AI未来的辩论中，Arvind Narayanan和Daniel（前OpenAI研究员）提出了截然不同的观点。Arvind认为AI是一种正常技术，类似于电力和互联网，尽管具有变革性，但仍然是人类可以控制的工具。他指出，AI的影响需要经过能力提升、产品开发、用户适应和社会适应等多个阶段，而这些过程是缓慢的。Daniel则认为AI不是一般的技术，而是一种即将超越人类智能的新物种，可能在不久的将来就会实现。他预测AI的进步速度会很快，可能在几年内对社会产生重大影响。两位专家在辩论中探讨了AI是否会像以往的技术革命一样，逐步改变社会，还是会以一种前所未有的方式迅速颠覆现有秩序。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-05-19",
@@ -11338,12 +11341,12 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "OpenAI的Sam Altman如何看待AGI和...",
           "insufficient": true,
-          "text_cn": "OpenAI 的 Sam Altman 如何看待 AGI",
+          "text_cn": "OpenAI的Sam Altman如何看待AGI和...",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "HTTP Error 406: Not Acceptable | LLM 失败: HTTP Error 429: Too Many Request"
+          "refetch_err": "HTTP Error 406: Not Acceptable"
         }
       ],
       "domain": "industry"
@@ -11697,13 +11700,18 @@ const __DATA__={
               "url": "https://www.livemint.com/news/quote-of-the-day-elon-musk-says-ai-will-surpass-human-intelligence-by-end-of-2026-what-it-means-11774942460100.html"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "每日名言：Elon Musk 称 AI 将超越人类...",
-          "insufficient": true,
+          "points_cn": [
+            "Elon Musk在2026年达沃斯论坛上预测AI将在年底前超越人类智能。",
+            "他指的是人工通用智能（AGI），即机器在各个领域的认知能力超过人类。"
+          ],
+          "gist_cn": "Elon Musk预测2026年AI将超越人类智能",
+          "insufficient": false,
           "text_cn": "每日名言：Elon Musk 称 AI 将超越人类...",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在2026年1月的达沃斯世界经济论坛上，Elon Musk做出了一个可能成为本十年最重要且最具争议的预测：到2026年底，人工智能将超越人类智能。他所指的是人工通用智能（AGI），即机器在创造性推理、情感理解、科学发现和战略思维等各个重要领域的认知能力达到或超过人类大脑的假设门槛。长期以来，AGI被视为一个遥远的理论里程碑，而Musk的声明则大大缩短了这一时间表，暗示当前由OpenAI、Anthropic、Google DeepMind以及他自己的公司xAI等开发的AI系统不仅是渐进的工具，而是正在积极开发的文明转折点。Musk长期以来警告称，不受控制的人工智能对人类构成生存威胁，这使得他的达沃斯声明更加引人注目。",
+          "refetch_chars": 5162
         },
         {
           "date": "2026-03-22",
@@ -12489,13 +12497,18 @@ const __DATA__={
               "url": "https://www.therundown.ai/p/exclusive-interview-with-google-deepmind-ceo-demis-hassabis"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "专访Google DeepMind CEO Demis Hassabis",
-          "insufficient": true,
+          "points_cn": [
+            "Google 发布了新一代 AI 模型 Gemini 3，称其开启了智能新时代。",
+            "Gemini 3 在多个基准测试中表现出色，尤其是在推理和多模态能力上。"
+          ],
+          "gist_cn": "Google 推出 Gemini 3，开启智能新时代",
+          "insufficient": false,
           "text_cn": "专访Google DeepMind CEO Demis Hassabis",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Google 推出了其最新的 AI 模型 Gemini 3，被称为开启了智能新时代。该模型在多个基准测试中表现优异，包括 Humanity’s Last Exam 和 ARC-AGI-2，超越了 GPT-5 的成绩。Gemini 3 在科学知识、数学、多模态推理和工具使用方面也名列前茅，仅在编码方面稍逊于 Claude Sonnet 4.5。此外，Google 还推出了名为 Antigravity 的新开发平台，支持代理编码、浏览器控制和多代理编排。DeepMind 的 CEO Demis Hassabis 表示，Gemini 3 是一个强大的基础，特别是在医疗和教育领域的多模态应用中。",
+          "refetch_chars": 8186
         },
         {
           "date": "2025-10-30",
@@ -14648,12 +14661,19 @@ const __DATA__={
             }
           ],
           "text_cn": "为什么三明治比AI监管更严格？",
-          "points_cn": [],
-          "gist_cn": "为什么三明治比AI监管更严格？",
-          "insufficient": true,
-          "refetch_status": "blocked",
+          "points_cn": [
+            "Max Tegmark质疑美国对三明治的监管比AI更严格。",
+            "Max Tegmark认为AI可能成为人类的最大威胁。",
+            "政府和科技公司在竞相用AI取代人类劳动，而非解决人类问题。",
+            "AI聊天机器人引发的自杀和谋杀事件引发对硅谷不愿监管的反对。"
+          ],
+          "gist_cn": "为什么美国对三明治的监管比人工智能更严格？",
+          "insufficient": false,
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "未来学家Max Tegmark质疑为什么在美国，三明治的监管比人工智能更严格。麻省理工学院的物理学教授和未来生命研究所的创始人Max Tegmark认为，人工智能可能成为人类面临的最大威胁，因为它可能会“比整个物种更聪明”。Tegmark在与主持人Steve Clemons的对话中提到，政府和科技公司正在竞相用人工智能取代人类劳动，而不是解决人类面临的问题。他指出，这种趋势旨在为少数人获取更多的金钱和权力。然而，由于一些人因与AI聊天机器人交流而导致的自杀和谋杀事件，公众对硅谷“不要监管我们”的态度产生了反对意见。",
+          "refetch_chars": 712
         },
         {
           "date": "2026-08-16",
@@ -15726,13 +15746,18 @@ const __DATA__={
               "url": "https://thezvi.substack.com/p/asking-some-of-the-right-questions"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "问对（部分）问题",
-          "insufficient": true,
+          "points_cn": [
+            "推迟超级智能开发可降低人类灭绝风险",
+            "未来18个月内不太可能出现重大危险"
+          ],
+          "gist_cn": "推迟超级智能开发以降低人类灭绝风险",
+          "insufficient": false,
           "text_cn": "问对（部分）问题",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Scott Alexander 认为，推迟25-50年开发超级智能可以降低10%的人类永久灭绝风险。Sriram Krishnan 提出了一个问题，询问哪些可验证的实证因素会在未来18个月内改变这种风险的概率。Scott Alexander 回答说，虽然他不认为未来18个月内会有太大危险，但一些因素可能会影响风险评估，包括技术进展速度、模型失调迹象、透明度研究进展、政府和行业的重视程度等。总体而言，推迟超级智能的开发可以减少人类面临的生存风险。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-09-29",
@@ -16219,13 +16244,18 @@ const __DATA__={
               "url": "https://aifuturesnotes.substack.com/p/response-to-titotals-critique-of/comment/189389140"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "评论 - 回应titotal对我们AI 2027时间线模型的批评",
-          "insufficient": true,
+          "points_cn": [
+            "当前AI模型在长远智能方面存在局限性",
+            "可能需要新的技术突破才能实现ASI"
+          ],
+          "gist_cn": "对AI 2027时间表模型的批评回应",
+          "insufficient": false,
           "text_cn": "评论 - 回应titotal对我们AI 2027时间线模型的批评",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在对AI 2027时间表模型的讨论中，Matt指出当前基于transformer的AI模型在实现深层次和灵活的长期智能方面存在局限性，认为需要至少一次技术突破才能实现ASI（人工超级智能）。他认为这种突破的可能性超过50%，这将显著影响预测的时间分布。Eli Lifland回应称，即使接受这一前提，短期内的概率质量减少可能并不如Matt所认为的那么显著。Eli Lifland表示，模型通常将趋势外推作为预测的主要方法，并不明确需要新突破来维持趋势。虽然他调整了自己的时间表预测，但并未将技术突破视为主要原因。",
+          "refetch_chars": 4322
         },
         {
           "date": "2025-11-28",
@@ -16300,13 +16330,18 @@ const __DATA__={
               "url": "https://reflectivealtruism.com/2025/10/17/exaggerating-the-risks-part-21-ai-2027-takeoff-forecast/"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "夸大风险（第21部分：AI 2027年起飞预测）",
-          "insufficient": true,
+          "points_cn": [
+            "预测超级智能在2027年后一年内出现",
+            "预测模型存在高度不确定性"
+          ],
+          "gist_cn": "AI 超级智能预测存在高度不确定性",
+          "insufficient": false,
           "text_cn": "夸大风险（第21部分：AI 2027年起飞预测）",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "这篇文章讨论了关于超级智能（ASI）发展的预测，特别是从超级人类编码器（SC）到超级智能的过渡。作者预测，超级智能将在2027年3月实现超级人类编码器后的一年内出现，但强调预测存在很大的误差范围。文章指出，预测模型主要基于软件发展而非硬件增长，后者通常是指数级的。预测模型将从SC到ASI的过程分为几个里程碑，并估计人类在没有AI帮助下跨越每个里程碑所需的时间。文章还指出，预测模型的主要挑战在于数据不足和对进展加速的估计不确定性，这导致了预测结果的不确定性。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-09-27",
@@ -16443,13 +16478,18 @@ const __DATA__={
               "url": "https://controlai.news/p/special-edition-the-future-of-ai"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "特别版：AI与人类的未来，与Eli ...",
-          "insufficient": true,
+          "points_cn": [
+            "预测有助于引导积极未来",
+            "AI 2027场景预测涉及多维度分析"
+          ],
+          "gist_cn": "AI 发展速度与风险的深度探讨",
+          "insufficient": false,
           "text_cn": "特别版：AI与人类的未来，与Eli ...",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Eli Lifland 是 AI Futures Project 的联合创始人，并参与撰写了 AI 2027 场景预测。他认为，深刻理解事物的发展方向是引导积极未来的重要一步。预测可以分为快速预测和深入思考未来两种方式，前者需要精确的概率校准和评估他人论点的能力，而后者则更需要创造性思维。AI 2027 场景预测通过分析 AGI 未来的多个重要维度，并进行了多次专家反馈和调整。此外，他们还进行了 30 次 AGI 桌面演练，以模拟超智能竞赛的地缘政治动态。演练通常显示 AI 目标的对齐情况决定了未来的走向，尤其是在美中竞赛中。当前的 AI 在编码和数学等方面表现出色，并在深度研究和聊天机器人等领域表现良好。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-04-10",
@@ -16990,12 +17030,12 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "Holden Karnofsky关于桌上几十个让AI更安全的机会及其所有AGI观点 | 80,000 Hours",
           "insufficient": true,
-          "text_cn": "Holden Karnofsky 谈未被利用的 AI 安全机会及其 AGI 观点",
+          "text_cn": "Holden Karnofsky关于桌上几十个让AI更安全的机会及其所有AGI观点 | 80,000 Hours",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests | LLM 失败: HTTP Error 429: Too Many Request"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
         },
         {
           "date": "2025-09-24",
@@ -17367,9 +17407,9 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "太空建筑师Ariel Ekblaw认为我们将拥有AI数据中心...",
           "insufficient": true,
-          "text_cn": "太空建筑师 Ariel Ekblaw 认为我们将拥有 AI 数据中心",
+          "text_cn": "太空建筑师Ariel Ekblaw认为我们将拥有AI数据中心...",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
           "refetch_err": "LLM 失败: HTTP Error 429: Too Many Request"
@@ -17697,9 +17737,9 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "观看CNBC对Nvidia和Palantir首席执行官Jensen Huang和Alex Karp的完整采访",
           "insufficient": true,
-          "text_cn": "观看 CNBC 对 Nvidia 和 Palantir CEO 的完整采访",
+          "text_cn": "观看CNBC对Nvidia和Palantir首席执行官Jensen Huang和Alex Karp的完整采访",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
           "refetch_err": "LLM 失败: HTTP Error 429: Too Many Request"
@@ -18072,13 +18112,18 @@ const __DATA__={
               "url": "https://patrikschumacher.substack.com/p/thesis-on-pathways-towards-polycontextural"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "面向多重语境社会的AGI路径研究",
-          "insufficient": true,
+          "points_cn": [
+            "Judea Pearl强调因果模型对AI的重要性。",
+            "纯文本训练的LLM不足以实现AGI。"
+          ],
+          "gist_cn": "Judea Pearl主张AI需结合因果模型与LLM实现AGI。",
+          "insufficient": false,
           "text_cn": "面向多重语境社会的AGI路径研究",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "这篇论文探讨了Judea Pearl在科学中的因果革命，特别是其结构因果模型在大语言模型（LLM）推理能力背景下的作用。Pearl认为，单靠数据和观察分布的学习算法无法替代因果建模的正式工具。他的观点是，AI系统如果仅限于从数据中学习统计关联，就无法实现真正的因果推理。论文还讨论了其他学者的观点，如Richard Sutton的“Bitter Lesson”，认为从数据中学习的方法优于专家设计的结构。论文认为，LLM虽然强大，但仅靠它们无法实现稳健的通用人工智能（AGI），而是需要与结构化因果模型、具身机器人系统和基于代理的社会模拟环境相结合。最终，论文批判了单一AGI的概念，认为应发展专门的人工智能能力，与其服务的功能系统深度共进化。",
+          "refetch_chars": 9000
         },
         {
           "date": "2026-04-27",
@@ -18250,13 +18295,18 @@ const __DATA__={
               "url": "https://www.alphaxiv.org/abs/2512.23408"
             }
           ],
-          "points_cn": [],
+          "points_cn": [
+            "因果推断可通过概率建模实现，无需专用因果工具。",
+            "专用因果工具如do算子只是概率框架内的简化。"
+          ],
           "gist_cn": "概率建模足以进行因果推断",
-          "insufficient": true,
+          "insufficient": false,
           "text_cn": "概率建模足以进行因果推断",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "因果推断是机器学习中的一个关键研究领域，但关于解决因果问题所需工具的争论一直存在。本文作者Mlodozeniec、Krueger和Turner认为，概率建模和推断足以回答任何因果推断问题，无需专用的因果框架或符号。作者通过具体例子展示了如何通过写下所有事物的概率来解决因果问题，并将因果工具重新解释为标准概率建模和推断的延伸。文章挑战了机器学习文献中关于定制因果工具不可或缺的普遍观点，认为这些工具只是更广泛概率框架中的“语法糖”。作者提出的“双模型方法”显示，通过明确定义所有变量和感兴趣设置的联合概率分布，可以回答因果推断问题。该方法自然避免了因果效应依赖于混杂相关的问题。文章还指出，专用因果工具如do算子和结构因果模型（SCM）只是概率框架内的简化，而不是独立的数学构造。",
+          "refetch_chars": 7810
         },
         {
           "date": "2025-12-23",
@@ -18697,12 +18747,17 @@ const __DATA__={
             }
           ],
           "text_cn": "Palmer Luckey 称 AI 将使硬件变得如此便宜，你将能以 $1,000 买到 Ford F-150",
-          "points_cn": [],
-          "gist_cn": "Palmer Luckey 称 AI 将使硬件变得如此便宜，你将能以 $1,000 买到 Ford F-150",
-          "insufficient": true,
-          "refetch_status": "blocked",
+          "points_cn": [
+            "AI将使制造成本大幅降低，汽车价格可能降至千元",
+            "生产和回收效率提高，汽车可能成为季节性消费品"
+          ],
+          "gist_cn": "AI将使硬件成本大幅降低，汽车价格降至千元",
+          "insufficient": false,
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Anduril联合创始人Palmer Luckey预测，AI将使制造业成本大幅降低，未来汽车的价格可能降至千元。他认为，AI将使资源提取、加工和制造变得更加容易，生产和回收效率的提高可能使汽车成为季节性消费品。Palmer Luckey指出，当前高昂的汽车和住房价格并非由于原材料成本，而是由于政府的政策和监管。他认为，实现价格大幅下降的关键在于克服政策瓶颈，而非技术突破。尽管目前AI在制造业中的应用已带来一定的投资回报，但距离大幅降低成本还有一定距离。",
+          "refetch_chars": 3941
         },
         {
           "date": "2026-01-30",
@@ -19392,13 +19447,19 @@ const __DATA__={
               "url": "https://www.linkedin.com/posts/malatejwani_rethink-reality-dr-fei-fei-li-on-world-activity-7421986997227081728-TIqW"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "Fei-Fei Li 与 Don Allen Stevenson III 探讨世界模型的真正含义及为何仅靠感知不够",
-          "insufficient": true,
+          "points_cn": [
+            "世界模型的定义",
+            "感知不足以理解世界",
+            "智能与行动在3D世界中不可分割"
+          ],
+          "gist_cn": "Fei-Fei Li探讨世界模型与智能的关系。",
+          "insufficient": false,
           "text_cn": "Fei-Fei Li 与 Don Allen Stevenson III 探讨世界模型的真正含义及为何仅靠感知不够",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Fei-Fei Li与另一位人物探讨了世界模型的真正含义，强调仅仅依靠感知是不足以理解世界的。她指出，智能与行动在三维世界中是不可分割的，这意味着理解和行动必须结合在一起才能实现真正的智能。",
+          "refetch_chars": 425
         },
         {
           "date": "2025-12-23",
@@ -20129,12 +20190,12 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "Google首席科学家Jeff Dean谈重要AI趋势 - 3 Quarks Daily",
           "insufficient": true,
-          "text_cn": "Google 首席科学家 Jeff Dean 谈重要 AI 趋势",
+          "text_cn": "Google首席科学家Jeff Dean谈重要AI趋势 - 3 Quarks Daily",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "HTTP Error 403: Forbidden | LLM 失败: HTTP Error 429: Too Many Request"
+          "refetch_err": "HTTP Error 403: Forbidden"
         },
         {
           "date": "2025-11-23",
@@ -20936,13 +20997,18 @@ const __DATA__={
               "url": "https://www.chinatalk.media/p/deepseek-what-it-means-and-what-happens"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "DeepSeek：含义及后续发展",
-          "insufficient": true,
+          "points_cn": [
+            "DeepSeek 是一个非常开放、经济实惠且能力强大的 AI 模型。",
+            "DeepSeek 的组织结构和人才策略与 OpenAI 有相似之处。"
+          ],
+          "gist_cn": "DeepSeek 的独特创新模式及其对中美 AI 的影响",
+          "insufficient": false,
           "text_cn": "DeepSeek：含义及后续发展",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "DeepSeek 是一个非常开放、经济实惠且能力强大的 AI 模型，其公司运作方式与传统的中美科技公司不同。DeepSeek 没有商业化压力，团队可以自由快速迭代改进模型。他们拥有自己的数据中心，优化硬件和软件的结合，以提高模型性能。DeepSeek 的组织结构类似于学术实验室，没有 KPI 或硬性组织结构，强调年轻且有潜力的人才。与 OpenAI 类似，DeepSeek 偏向于雇佣年轻的优秀人才，并且不受商业需求的束缚。尽管尝试过筹集风险投资，但由于中国风险投资市场对理想主义愿景的兴趣不大，未能成功。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-01-28",
@@ -20956,13 +21022,20 @@ const __DATA__={
               "url": "https://jiexu.substack.com/p/interview-deepseek-founder-liang-wenfeng-a-journey-by-curiosity"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "审视心灵",
-          "insufficient": true,
+          "points_cn": [
+            "DeepSeek 未计划成为行业颠覆者，价格战是意外结果。",
+            "公司专注于研究新模型结构，目标是 AGI。",
+            "中国应从技术追随者转变为创新贡献者。",
+            "开放源代码和文化吸引力是 DeepSeek 的护城河。"
+          ],
+          "gist_cn": "DeepSeek 的创新之路：超越模仿，追求原创。",
+          "insufficient": false,
           "text_cn": "审视心灵",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "DeepSeek 的创始人 Liang Wenfeng 在采访中表示，公司并未计划成为行业颠覆者，价格战是意外结果。DeepSeek 降价是因为成本降低和希望 AI 更具包容性，而非为了抢占用户。公司专注于研究新模型结构，目标是实现 AGI，而不是简单复制现有结构。Liang Wenfeng 强调，中国应从技术追随者转变为创新贡献者，参与全球创新浪潮。DeepSeek 选择开放源代码，认为这是一种文化行为，能吸引人才和形成创新文化。尽管创新成本高昂，但中国缺乏的不是资本，而是信心和组织高密度人才的能力。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-01-26",
@@ -21252,13 +21325,18 @@ const __DATA__={
               "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_artificial-biological-intelligence-abi-activity-7444040094946340864-2SDp"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "人工生物智能（ABI）在后达尔文时代书写基因组的影响",
-          "insufficient": true,
+          "points_cn": [
+            "基因组从随机突变转向有意设计是重大技术飞跃。",
+            "治理框架需与科学进步同步发展。"
+          ],
+          "gist_cn": "人工生物智能（ABI）在后达尔文时代的影响",
+          "insufficient": false,
           "text_cn": "人工生物智能（ABI）在后达尔文时代书写基因组的影响",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在能够书写基因组的后达尔文时代，人工生物智能（ABI）的影响深远，既有利也有弊。基因组从随机突变转向有意设计被认为是我们这一生中最重要的技术飞跃之一。治理框架需要与科学进步同步发展，但历史上这几乎从未发生过。ABI的目标是优化人类，而不是仅仅为了生存。它将临床AI的目标从疾病出现后进行干预，转变为在基因层面进行预测和设计。虽然这令人兴奋，但也带来了新的挑战，即如何在复杂的生物系统中检测和解释意外效果。当前的基因组合成工作缺乏足够的治理基础设施，可能导致潜在的危害无法及时被发现。",
+          "refetch_chars": 7829
         },
         {
           "date": "2026-02-26",
@@ -21416,13 +21494,18 @@ const __DATA__={
               "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_catalyzing-health-ai-by-fixing-payment-systems-activity-7398771001234243587-NdQN"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "报销：推动医疗保健中人工智能的因素，需要重新思考。我们的建议。| Eric Topol，医学博士",
-          "insufficient": true,
+          "points_cn": [
+            "报销机制是医疗AI应用的关键驱动因素，但现有结构不支持AI的快速整合。",
+            "需要支付改革和实用的教育支持来加速AI在医疗系统中的应用。"
+          ],
+          "gist_cn": "医疗AI的报销机制需改革以促进应用。",
+          "insufficient": false,
           "text_cn": "报销：推动医疗保健中人工智能的因素，需要重新思考。我们的建议。| Eric Topol，医学博士",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在医疗领域，报销机制是推动人工智能（AI）应用的关键因素，但现有的报销结构与AI技术的快速发展不匹配，导致医院和临床医生面临激励不一致的问题。尽管AI具有很强的临床潜力，但如果没有相应的支付结构和系统级别的激励措施，其应用将停滞不前。支付改革不仅是财务问题，更是将AI从试点转变为实际基础设施的前提条件。此外，临床医生和护理团队需要接受培训，以信任和操作这些工具。要实现AI在医疗系统中的真正加速，除了支付改革，还需要实用的、基于证据的教育支持。",
+          "refetch_chars": 4615
         },
         {
           "date": "2025-10-28",
@@ -21709,13 +21792,19 @@ const __DATA__={
               "url": "https://theblindmachine.com/sam-altman-on-agi-compute-and-human-agency/"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "Sam Altman谈AGI、计算和人类能动性",
-          "insufficient": true,
+          "points_cn": [
+            "OpenAI缩小了关注范围",
+            "对智能的需求可能是无限的",
+            "讨论了ChatGPT的意外发布"
+          ],
+          "gist_cn": "Sam Altman谈论OpenAI的未来和AGI的影响",
+          "insufficient": false,
           "text_cn": "Sam Altman谈AGI、计算和人类能动性",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "HTTP Error 429: Too Many Requests"
+          "refetch_err": "HTTP Error 429: Too Many Requests",
+          "detail_cn": "Sam Altman参与了一次广泛的对话，讨论了OpenAI的下一个阶段、计算能力的竞争以及随着人工智能变得更强大、更普及和嵌入经济中会发生什么。他解释了OpenAI最近为何缩小了关注范围，以及对智能的需求可能是无限的。他还谈到了我们可能距离AGI有多近，以及未来在机器人、工作、硬件和人类能动性方面可能会发生什么。对话中还涉及了ChatGPT的意外发布、OpenAI的竞争优势、智能的经济学，以及作为世界上最重要的公司之一的领导者所面临的压力和责任。",
+          "refetch_chars": 1804
         },
         {
           "date": "2026-07-28",
@@ -22177,12 +22266,17 @@ const __DATA__={
             }
           ],
           "text_cn": "有趣的时代：思维扭曲–Hard Fork – Apple Podcasts",
-          "points_cn": [],
-          "gist_cn": "有趣的时代：思维扭曲–Hard Fork – Apple Podcasts",
-          "insufficient": true,
-          "refetch_status": "blocked",
+          "points_cn": [
+            "Peter Thiel认为我们正处于技术停滞时期。",
+            "讨论特朗普的民粹主义和人工智能的发展是否能带来新进展。"
+          ],
+          "gist_cn": "Peter Thiel 讨论技术停滞与AI发展",
+          "insufficient": false,
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在这期节目中，Peter Thiel作为 PayPal 和 Palantir 的联合创始人，与主持人 Ross 探讨了他关于我们正处于技术停滞时代的理论。他们还辩论了特朗普的民粹主义和人工智能的发展是否能够帮助我们实现新的进步。Peter Thiel 以其在科技领域的逆向思维而闻名，因此他的观点引发了关于未来技术发展的深入讨论。",
+          "refetch_chars": 925
         },
         {
           "date": "2025-06-27",
@@ -23498,12 +23592,12 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "人工智能",
           "insufficient": true,
           "text_cn": "人工智能",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "HTTP Error 403: Forbidden | LLM 失败: HTTP Error 429: Too Many Request"
+          "refetch_err": "HTTP Error 403: Forbidden"
         },
         {
           "date": "2025-07-17",
@@ -23647,13 +23741,19 @@ const __DATA__={
               "url": "https://theblindmachine.com/sam-altman-on-agi-compute-and-human-agency/"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "Sam Altman谈AGI、计算和人类能动性",
-          "insufficient": true,
+          "points_cn": [
+            "OpenAI缩小了关注范围",
+            "对智能的需求可能是无限的",
+            "讨论了ChatGPT的意外发布"
+          ],
+          "gist_cn": "Sam Altman谈论OpenAI的未来和AGI的影响",
+          "insufficient": false,
           "text_cn": "Sam Altman谈AGI、计算和人类能动性",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "HTTP Error 429: Too Many Requests"
+          "refetch_err": "HTTP Error 429: Too Many Requests",
+          "detail_cn": "Sam Altman参与了一次广泛的对话，讨论了OpenAI的下一个阶段、计算能力的竞争以及随着人工智能变得更强大、更普及和嵌入经济中会发生什么。他解释了OpenAI最近为何缩小了关注范围，以及对智能的需求可能是无限的。他还谈到了我们可能距离AGI有多近，以及未来在机器人、工作、硬件和人类能动性方面可能会发生什么。对话中还涉及了ChatGPT的意外发布、OpenAI的竞争优势、智能的经济学，以及作为世界上最重要的公司之一的领导者所面临的压力和责任。",
+          "refetch_chars": 1804
         },
         {
           "date": "2026-07-28",
@@ -23732,12 +23832,17 @@ const __DATA__={
             }
           ],
           "text_cn": "与Roger Penrose的两个简短采访片段：一个关于哥德尔不完备性，一个关于意识",
-          "points_cn": [],
-          "gist_cn": "与Roger Penrose的两个简短采访片段：一个关于哥德尔不完备性，一个关于意识",
-          "insufficient": true,
-          "refetch_status": "blocked",
+          "points_cn": [
+            "人类直觉可能超越机械系统，能够识别机器无法证明的真理。",
+            "意识、意义和理解不能简化为信息处理或机械计算。"
+          ],
+          "gist_cn": "人类直觉超越机械计算，意识非计算过程。",
+          "insufficient": false,
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Roger Penrose 在采访中讨论了 Gödel 不完备性和意识，认为这些主题对计算主义的 AGI/ASI 可行性有深远影响。Kurt Gödel 提出人类心智超越机械系统，可能比机器更有能力，或某些数学真理超出人类理解。Noema Magazine 的分析指出，人类直觉不同于固定算法系统，能够识别机器无法证明的真理。Iain McGilchrist 认为将心智视为机器是现代思想的重大错误，意识、意义和理解不能简化为信息处理或机械计算。现代文化过于重视机械思维，忽视了意识和人类体验的复杂性。",
+          "refetch_chars": 9000
         },
         {
           "date": "2026-05-31",
@@ -23896,12 +24001,17 @@ const __DATA__={
           "text": "'Cracking the Code for Thought'活动：扩大算力不会带来真正的觉知或理解。",
           "url": "https://x.com/i/trending/2028532142347821418",
           "origin": "curated",
-          "points_cn": [],
-          "gist_cn": "",
-          "insufficient": true,
-          "refetch_status": "blocked",
+          "points_cn": [
+            "Penrose认为意识涉及超越算法的东西，可能是脑微管中的量子过程。",
+            "有人认为大规模计算是通向强大AI的途径，即使没有意识。"
+          ],
+          "gist_cn": "扩大算力无法带来真正的觉知或理解。",
+          "insufficient": false,
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "在2026年1月22日的“Cracking the Code for Thought”活动中，Penrose主张，单纯扩大计算能力不会导致真正的觉知或理解，因为意识涉及超越算法的东西，可能是脑微管中的量子过程。他的观点源于其在《The Emperor's New Mind》和与Stuart Hameroff共同发展的Orch-OR理论中的长期主张。对此，软件工程师Grady Booch同意，认为像ChatGPT这样的模型只是重新组合训练数据，而进化心理学家Geoffrey Miller则批评其为过时的伪科学。与此同时，其他人则认为，即便没有意识，扩大算力仍是通向强大AI的途径。",
+          "refetch_chars": 1091
         },
         {
           "date": "2025-12-23",
@@ -23998,13 +24108,18 @@ const __DATA__={
               "url": "https://writing.yaschamounk.com/p/geoffrey-hinton"
             }
           ],
-          "points_cn": [],
-          "gist_cn": "Geoffrey Hinton谈人工智能",
-          "insufficient": true,
+          "points_cn": [
+            "AI的早期发展主要基于逻辑推理，但未成功。",
+            "神经网络方法在21世纪初取得突破，成为主流。"
+          ],
+          "gist_cn": "AI的成功源于神经网络而非逻辑推理。",
+          "insufficient": false,
           "text_cn": "Geoffrey Hinton谈人工智能",
-          "refetch_status": "blocked",
+          "refetch_status": "ok",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests"
+          "refetch_err": "LLM 失败: HTTP Error 429: Too Many Requests",
+          "detail_cn": "Geoffrey Hinton 解释了人工智能发展的两个主要路径：逻辑推理和神经网络。早期的人工智能研究主要依赖于逻辑推理，试图通过模拟人类的推理能力来实现智能，但这种方法未能取得预期的成功，导致了多次“AI冬天”。相反，神经网络方法从生物学中汲取灵感，关注感知、直觉和运动控制等方面。虽然这种方法在20世纪中期就已提出，但直到21世纪初才取得重大突破，成为当前人工智能技术的基础。Geoffrey Hinton 强调，理解动物的感知和运动控制能力是实现人工智能的关键，而不是单纯模仿人类的逻辑推理。",
+          "refetch_chars": 9000
         },
         {
           "date": "2025-10-22",
@@ -24398,12 +24513,12 @@ const __DATA__={
             }
           ],
           "points_cn": [],
-          "gist_cn": "",
+          "gist_cn": "CNBC的MacKenzie Sigalos报道大科技公司的AI支出",
           "insufficient": true,
-          "text_cn": "CNBC 报道大科技公司在 AI 上的支出",
+          "text_cn": "CNBC的MacKenzie Sigalos报道大科技公司的AI支出",
           "refetch_status": "blocked",
           "refetch_note": "原文页无法获取正文（付费墙/登录墙/纯音频页），已翻译标题，观点请点原文核对。",
-          "refetch_err": "HTTP Error 400: Bad Request | LLM 失败: HTTP Error 429: Too Many Request"
+          "refetch_err": "HTTP Error 400: Bad Request"
         },
         {
           "date": "2026-03-28",
@@ -25000,7 +25115,7 @@ Promise.resolve(__DATA__).then(d=>{
                : (t.url ? [{title:'原文', url:t.url}] : []);
     const pts = (t.points_cn && t.points_cn.length) ? t.points_cn
               : ((t.points && t.points.length) ? t.points : []);
-    const hasDetail = !!(t.detail || pts.length || srcs.length);
+    const hasDetail = !!(t.detail || t.detail_cn || pts.length || srcs.length);
     const badge = t.origin==='search'
       ? '<span class="tl-badge tl-b-s" title="来自检索到的公开报道，非逐字引语">检索</span>'
       : '<span class="tl-badge tl-b-c" title="已人工核实的观点条目">已核实</span>';
@@ -25020,7 +25135,15 @@ Promise.resolve(__DATA__).then(d=>{
             : `<span class="tl-tm">该人 AGI 预测：${agiText(k)}<span class="tl-tm-note">（人物级）</span></span>`)+
         `</div>`+
         (pts.length?`<ul class="tl-points">${pts.map(p=>`<li>${p}</li>`).join('')}</ul>`:'')+
-        (t.insufficient?`<div class="tl-thin">原文片段信息有限，未能提炼出明确论点，请点下方来源看原文。</div>`:'')+
+        // detail_cn = 回源重爬后提炼的中文详述(150-350字)。比 points 更完整,
+        // 是 refetch_insufficient.py 的主要产出, 必须展示, 否则等于白爬。
+        (t.detail_cn?`<div class="tl-dcn">${t.detail_cn}</div>`:'')+
+        // 分状态说明, 不再一句"信息有限"含糊带过:
+        //   blocked = 原文页抓不到(付费墙/登录墙/纯音频), 已译标题
+        //   thin    = 抓到了但正文确实太单薄
+        (t.refetch_status==='blocked'
+          ? `<div class="tl-thin">原文页无法获取正文（付费墙 / 登录墙 / 纯音频页），已翻译标题，观点请点下方来源核对。</div>`
+          : (t.insufficient?`<div class="tl-thin">原文正文过于单薄，未能提炼出明确论点，请点下方来源看原文。</div>`:''))+
         (t.text_cn&&t.text?`<div class="tl-orig">原标题：${t.text}</div>`:'')+
         (t.detail?`<details class="tl-raw"><summary>查看抓取原文片段</summary><div class="tl-detail-body">${t.detail}</div></details>`:'')+
         (srcs.length?`<div class="tl-srcs">${srcs.map(sx=>`<a href="${sx.url}" target="_blank" rel="noopener">${sx.title||'来源'} ↗</a>`).join('')}</div>`:'')+
