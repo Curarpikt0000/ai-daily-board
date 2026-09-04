@@ -181,6 +181,64 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
 #tab-board .ks-name{font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 #tab-board .ks-n{font-size:11px;color:var(--muted);font-weight:400}
 #tab-board .ks-empty{color:var(--muted);font-size:13px;padding:10px 0}
+#tab-board /* ── 言论卡片视图(Chao 2026-09-04): 一条言论=一张卡, #tab-board 按日期倒序, #tab-board 卡头固定「日期 + 谁 + 领域」, #tab-board 解决「看不清哪天哪个 KOL」。 ── */
+  .ks-daygrp{margin:0 0 18px}
+#tab-board /* 日期行吸顶：长列表滚动时始终知道当前在看哪一天 */
+  .ks-daybar{display:flex;align-items:center;gap:10px;margin:0 0 10px;
+    padding:7px 2px 6px;border-bottom:1px solid var(--border);
+    position:sticky;top:0;z-index:5;background:var(--card)}
+#tab-board .ks-daybar .d{font-size:15px;font-weight:700;color:var(--text);letter-spacing:.3px}
+#tab-board .ks-daybar .w{font-size:11px;color:var(--muted)}
+#tab-board .ks-daybar .n{font-size:11px;color:var(--muted);margin-left:auto}
+#tab-board .ks-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
+    gap:12px;align-items:start}
+#tab-board .ks-card{border:1px solid var(--border);border-radius:10px;background:var(--card2);
+    padding:12px 14px;transition:border-color .15s,transform .15s,box-shadow .15s;
+    box-shadow:0 1px 3px rgba(0,0,0,.22)}
+#tab-board .ks-card:hover{border-color:var(--accent);transform:translateY(-1px);
+    box-shadow:0 3px 10px rgba(0,0,0,.3)}
+#tab-board .ks-card-hd{display:flex;align-items:flex-start;gap:9px;margin-bottom:8px}
+#tab-board .ks-ava{width:30px;height:30px;border-radius:50%;flex:0 0 30px;display:flex;
+    align-items:center;justify-content:center;font-size:12px;font-weight:700;
+    color:#fff;letter-spacing:-.5px}
+#tab-board .ks-who{min-width:0;flex:1}
+#tab-board .ks-who .nm{font-size:13.5px;font-weight:700;color:var(--text);line-height:1.3}
+#tab-board .ks-who .mt{font-size:10.5px;color:var(--muted);margin-top:2px;
+    display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+#tab-board .ks-dom{padding:1px 7px;border-radius:20px;background:var(--card);
+    border:1px solid var(--border);font-size:10px}
+#tab-board .ks-card-body{cursor:pointer}
+#tab-board .ks-entry{padding-top:9px;margin-top:9px;border-top:1px dashed var(--border)}
+#tab-board .ks-entry:first-of-type{padding-top:0;margin-top:0;border-top:none}
+#tab-board .ks-idx{display:inline-flex;align-items:center;justify-content:center;
+    min-width:16px;height:16px;border-radius:4px;background:var(--card);
+    border:1px solid var(--border);font-size:10px;color:var(--muted);
+    margin-right:6px;vertical-align:1px;padding:0 3px}
+#tab-board .ks-cnt{font-size:10px;font-weight:500;color:var(--muted);margin-left:7px;
+    padding:1px 6px;border-radius:20px;background:var(--card);border:1px solid var(--border)}
+#tab-board .ks-gist{font-size:12.5px;color:var(--text);line-height:1.55}
+#tab-board .ks-more{margin-top:7px;font-size:11px;display:flex;align-items:center;
+    gap:8px;flex-wrap:wrap}
+#tab-board .ks-mt{color:var(--accent);display:inline-flex;align-items:center;gap:4px}
+#tab-board .ks-detail{display:none;margin-top:10px;padding-top:10px;
+    border-top:1px dashed var(--border)}
+#tab-board .ks-detail.open{display:block}
+#tab-board .ks-pts{margin:0 0 8px;padding-left:16px}
+#tab-board .ks-pts li{font-size:11.5px;color:var(--muted);line-height:1.65;margin-bottom:3px}
+#tab-board .ks-dcn{font-size:11.5px;color:var(--muted);line-height:1.7;margin-bottom:8px}
+#tab-board .ks-orig{font-size:10.5px;color:var(--muted);opacity:.75;margin-bottom:8px;
+    line-height:1.5;word-break:break-word}
+#tab-board .ks-raw{margin-bottom:8px}
+#tab-board .ks-raw summary{font-size:11px;color:var(--accent);cursor:pointer;outline:none}
+#tab-board .ks-raw .bd{font-size:11px;color:var(--muted);line-height:1.65;margin-top:6px;
+    max-height:230px;overflow:auto;white-space:pre-wrap;word-break:break-word;
+    padding:8px;background:var(--card);border-radius:6px}
+#tab-board .ks-srcs{display:flex;flex-wrap:wrap;gap:8px}
+#tab-board .ks-srcs a{font-size:11px;color:var(--accent);text-decoration:none}
+#tab-board .ks-srcs a:hover{text-decoration:underline}
+#tab-board .ks-thin{font-size:11px;color:var(--muted);opacity:.8;line-height:1.6;margin-bottom:8px}
+
+  @media (max-width:560px){#tab-board .ks-cards{grid-template-columns:1fr}}
 #tab-board .sm-tab{font-size:12px;padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:var(--card2);color:var(--muted);cursor:pointer;font-family:inherit}
 #tab-board .sm-tab:hover{color:var(--text)}
 #tab-board .sm-tab.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
@@ -508,7 +566,7 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
 
   <!-- KOL 言论汇总: 置顶 section(Chao 指定放最上面), 与下方弹窗同源 KOL_BY_ID -->
   <div class="section-title sec-c1" id="sec-1"><span class="ico"></span>言论汇总</div>
-  <p class="section-desc">25 位 AI 研究者与从业者的公开表态，按当日 / 当周 / 当月 / 近一年切换。 <span id="ksCover" class="subtle"></span></p>
+  <p class="section-desc">按日期倒序排列，每条言论一张卡，卡上直接标明是谁、属于哪个领域；点卡片展开论点与原文。 <span id="ksCover" class="subtle"></span></p>
   <div class="card">
     <div class="ks-tabs">
       <button class="ks-tab active" data-ks="day">当日</button>
@@ -25459,6 +25517,77 @@ Promise.resolve(__DATA__).then(d=>{
       || String(b.items[0].date).localeCompare(String(a.items[0].date)));
     return rows;
   }
+  // 每位 KOL 一个稳定的头像色（按名字哈希取色，同一人跨 tab 颜色一致）
+  const KS_AVA_COLORS=['#5b7c99','#8a6a9e','#6f9e7a','#a8795c','#7d7ba8',
+                       '#9e6a7c','#6a8fa8','#9e8a5c','#7a9e8f','#8f6a8a'];
+  function ksAvatar(name){
+    let h=0; for(let i=0;i<name.length;i++) h=(h*31+name.charCodeAt(i))>>>0;
+    return KS_AVA_COLORS[h%KS_AVA_COLORS.length];
+  }
+  const KS_DOM_CN={'foundational-research':'基础研究','industry':'产业','safety-alignment':'安全对齐',
+    'agent-engineering':'Agent 工程','china':'中国','economics':'经济学','medical':'医疗',
+    'defense':'国防','consciousness-philosophy':'意识哲学','ai-governance':'AI 治理'};
+  const KS_WD=['周日','周一','周二','周三','周四','周五','周六'];
+
+  // 一张卡 = 某人在某一天的全部言论。卡头固定「头像 + 姓名 + 领域」，
+  // 多条时卡内按条罗列，各自独立展开。
+  // Chao 2026-09-04：原按人分组的列表看不清「哪天哪个 KOL」，且展开层级丢失。
+  function ksEntryHTML(t,k,eid,idx,multi){
+    const pts = (t.points_cn&&t.points_cn.length)?t.points_cn
+              : ((t.points&&t.points.length)?t.points:[]);
+    const srcs = (t.sources&&t.sources.length)?t.sources
+               : (t.url?[{title:'原文',url:t.url}]:[]);
+    const evt = t.event||'';
+    const gist = t.gist_cn||t.text_cn||t.text||evt||'';
+    const hasDetail = !!(t.detail||t.detail_cn||pts.length||srcs.length||evt);
+    const badge = t.origin==='search'
+      ? '<span class="tl-badge tl-b-s" title="来自检索到的公开报道，非逐字引语">检索</span>'
+      : '<span class="tl-badge tl-b-c" title="已人工核实的观点条目">已核实</span>';
+    return `<div class="ks-entry">`+
+      `<div class="ks-card-body"${hasDetail?` onclick="ksToggle('${eid}')"`:''}>`+
+        `<div class="ks-gist">${multi?`<span class="ks-idx">${idx+1}</span>`:''}${gist}</div>`+
+        `<div class="ks-more">${badge}`+
+          (hasDetail?`<span class="ks-mt"><span id="ksc_${eid}">▸</span> 展开详情</span>`:'')+
+        `</div>`+
+      `</div>`+
+      (hasDetail?`<div class="ks-detail" id="ksd_${eid}">`+
+        (pts.length?`<ul class="ks-pts">${pts.map(p=>`<li>${p}</li>`).join('')}</ul>`:'')+
+        ((!pts.length&&!t.detail_cn&&evt)?`<div class="ks-dcn">${evt}</div>`:'')+
+        (t.detail_cn?`<div class="ks-dcn">${t.detail_cn}</div>`:'')+
+        (t.refetch_status==='blocked'
+          ? `<div class="ks-thin">原文页无法获取正文（付费墙 / 登录墙 / 纯音频页），已翻译标题，观点请点下方来源核对。</div>`
+          : (t.insufficient?`<div class="ks-thin">原文正文过于单薄，未能提炼出明确论点，请点下方来源看原文。</div>`:''))+
+        (t.text_cn&&t.text?`<div class="ks-orig">原标题：${t.text}</div>`:'')+
+        // 第三层：抓取原文片段
+        (t.detail?`<details class="ks-raw"><summary>查看抓取原文片段</summary><div class="bd">${t.detail}</div></details>`:'')+
+        (srcs.length?`<div class="ks-srcs">${srcs.map(sx=>`<a href="${sx.url}" target="_blank" rel="noopener">${sx.title||'来源'} ↗</a>`).join('')}</div>`:'')+
+      `</div>`:'')+
+    `</div>`;
+  }
+  function ksCardHTML(items,k,cid){
+    const list = Array.isArray(items)?items:[items];
+    const nm = k.name_zh||k.kol_name||k.name_cn||k.name||'';
+    const dom = KS_DOM_CN[k.domain]||k.domain||'';
+    const initial = (k.kol_name||nm||'?').trim().charAt(0).toUpperCase();
+    const multi = list.length>1;
+    return `<div class="ks-card">`+
+      `<div class="ks-card-hd">`+
+        `<div class="ks-ava" style="background:${ksAvatar(nm)}">${initial}</div>`+
+        `<div class="ks-who">`+
+          `<div class="nm">${nm}${multi?`<span class="ks-cnt">${list.length} 条</span>`:''}</div>`+
+          `<div class="mt">${dom?`<span class="ks-dom">${dom}</span>`:''}</div>`+
+        `</div>`+
+      `</div>`+
+      list.map((t,i)=>ksEntryHTML(t,k,`${cid}_${i}`,i,multi)).join('')+
+    `</div>`;
+  }
+  window.ksToggle=function(cid){
+    const d=document.getElementById('ksd_'+cid), c=document.getElementById('ksc_'+cid);
+    if(!d) return;
+    const open=d.classList.toggle('open');
+    if(c) c.textContent=open?'▾':'▸';
+  };
+
   function ksRender(rk){
     __ksCur=rk;
     const body=document.getElementById('ksBody');
@@ -25473,12 +25602,36 @@ Promise.resolve(__DATA__).then(d=>{
       body.innerHTML=`<div class="ks-empty">${lbl}暂无新增言论（数据按真实发布日期统计，不做填充）。</div>`;
       return;
     }
-    body.innerHTML=rows.map(r=>
-      `<div class="ks-kol">`+
-        `<div class="ks-name">${r.k.name_zh||r.k.kol_name||r.k.name_cn||r.k.name||''}`+
-          `<span class="ks-n">${r.items.length} 条</span></div>`+
-        r.items.map((t,i)=>tlItemHTML(t,`ks_${rk}_${r.kid}_${i}`,r.k)).join('')+
-      `</div>`).join('');
+    // 摊平后按「日期 → 人」两级聚合：同一天同一个人的多条言论合并进一张卡，
+    // 卡内按条列出。Chao 2026-09-04 实测反馈：原先萨顿 8-20 有 3 张重复卡、
+    // 迪恩 3 张，名字/头像反复出现，反而看不清「哪天哪个 KOL」。
+    const flat=[];
+    rows.forEach(r=>r.items.forEach((t,i)=>flat.push({
+      date:t.date||'', t:t, k:r.k, kid:r.kid, cid:`${rk}_${r.kid}_${i}`
+    })));
+    const byDay={};
+    flat.forEach(x=>{ (byDay[x.date]=byDay[x.date]||[]).push(x); });
+    const days=Object.keys(byDay).sort((a,b)=>b.localeCompare(a));
+    body.innerHTML=days.map(day=>{
+      const list=byDay[day];
+      // 同日同人合并
+      const byWho={}, order=[];
+      list.forEach(x=>{
+        if(!byWho[x.kid]){ byWho[x.kid]={k:x.k, items:[], cid:x.cid}; order.push(x.kid); }
+        byWho[x.kid].items.push(x.t);
+      });
+      let wd='';
+      const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(day);
+      if(m){ const dt=new Date(+m[1],+m[2]-1,+m[3]);
+             if(!isNaN(dt)) wd=KS_WD[dt.getDay()]; }
+      return `<div class="ks-daygrp">`+
+        `<div class="ks-daybar"><span class="d">${day||'日期未知'}</span>`+
+          (wd?`<span class="w">${wd}</span>`:'')+
+          `<span class="n">${list.length} 条 · ${order.length} 人</span></div>`+
+        `<div class="ks-cards">`+
+          order.map(kid=>ksCardHTML(byWho[kid].items,byWho[kid].k,byWho[kid].cid)).join('')+
+        `</div></div>`;
+    }).join('');
   }
   window.ksRender=ksRender;
   document.addEventListener('click',e=>{
