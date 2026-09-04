@@ -216,9 +216,13 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
     margin-right:6px;vertical-align:1px;padding:0 3px}
 #tab-board .ks-cnt{font-size:10px;font-weight:500;color:var(--muted);margin-left:7px;
     padding:1px 6px;border-radius:20px;background:var(--card);border:1px solid var(--border)}
-#tab-board .ks-gist{font-size:12.5px;color:var(--text);line-height:1.55}
+#tab-board .ks-gist{font-size:13px;color:var(--text);line-height:1.6;font-weight:500}
+#tab-board .ks-sub{font-size:11px;color:var(--muted);opacity:.72;line-height:1.5;margin-top:5px;
+    padding-left:9px;border-left:2px solid var(--border)}
 #tab-board .ks-more{margin-top:7px;font-size:11px;display:flex;align-items:center;
     gap:8px;flex-wrap:wrap}
+#tab-board .ks-rest{font-size:10.5px;color:var(--muted);padding:1px 6px;border-radius:20px;
+    background:var(--card);border:1px solid var(--border)}
 #tab-board .ks-mt{color:var(--accent);display:inline-flex;align-items:center;gap:4px}
 #tab-board .ks-detail{display:none;margin-top:10px;padding-top:10px;
     border-top:1px dashed var(--border)}
@@ -25538,20 +25542,29 @@ Promise.resolve(__DATA__).then(d=>{
     const srcs = (t.sources&&t.sources.length)?t.sources
                : (t.url?[{title:'原文',url:t.url}]:[]);
     const evt = t.event||'';
-    const gist = t.gist_cn||t.text_cn||t.text||evt||'';
-    const hasDetail = !!(t.detail||t.detail_cn||pts.length||srcs.length||evt);
+    const title = t.gist_cn||t.text_cn||t.text||evt||'';
+    // ★ Chao 2026-09-04「说了什么」：gist_cn 中位仅 21 字，是话题标签
+    //   （「AI可能导致大规模失业」），看不出本人到底说了什么；真正有信息量的
+    //   points_cn（「科技公司投资数万亿于数据中心和芯片」）却被折叠在 L2。
+    //   改为卡面直接摆第一条论点当主文，标题退为副标题；其余论点仍在展开区。
+    const lead = pts.length ? pts[0] : (t.detail_cn||title);
+    const rest = pts.length>1 ? pts.slice(1) : [];
+    const hasDetail = !!(t.detail||t.detail_cn||rest.length||srcs.length||evt);
     const badge = t.origin==='search'
       ? '<span class="tl-badge tl-b-s" title="来自检索到的公开报道，非逐字引语">检索</span>'
       : '<span class="tl-badge tl-b-c" title="已人工核实的观点条目">已核实</span>';
+    const sameAsLead = title && lead && (title===lead);
     return `<div class="ks-entry">`+
       `<div class="ks-card-body"${hasDetail?` onclick="ksToggle('${eid}')"`:''}>`+
-        `<div class="ks-gist">${multi?`<span class="ks-idx">${idx+1}</span>`:''}${gist}</div>`+
+        `<div class="ks-gist">${multi?`<span class="ks-idx">${idx+1}</span>`:''}${lead}</div>`+
+        ((title&&!sameAsLead)?`<div class="ks-sub">${title}</div>`:'')+
         `<div class="ks-more">${badge}`+
+          (rest.length?`<span class="ks-rest">+${rest.length} 个要点</span>`:'')+
           (hasDetail?`<span class="ks-mt"><span id="ksc_${eid}">▸</span> 展开详情</span>`:'')+
         `</div>`+
       `</div>`+
       (hasDetail?`<div class="ks-detail" id="ksd_${eid}">`+
-        (pts.length?`<ul class="ks-pts">${pts.map(p=>`<li>${p}</li>`).join('')}</ul>`:'')+
+        (rest.length?`<ul class="ks-pts">${rest.map(p=>`<li>${p}</li>`).join('')}</ul>`:'')+
         ((!pts.length&&!t.detail_cn&&evt)?`<div class="ks-dcn">${evt}</div>`:'')+
         (t.detail_cn?`<div class="ks-dcn">${t.detail_cn}</div>`:'')+
         (t.refetch_status==='blocked'
