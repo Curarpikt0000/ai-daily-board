@@ -424,6 +424,26 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
 #tab-board .tl-title a{color:var(--text);text-decoration:none}
 #tab-board .tl-title a:hover{color:var(--accent2)}
 #tab-board .tl-impact{font-size:12.5px;color:#b8c0d0}
+#tab-board /* 芯片制程 section（2026-09-30） */
+  .sec-c11 .ico{background:#9aa6b8}
+#tab-board .cn-wrap{overflow-x:auto}
+#tab-board .cn-tbl{width:100%;border-collapse:collapse;font-size:12.5px;min-width:980px}
+#tab-board .cn-tbl th{color:var(--muted);font-size:11px;font-weight:700;text-align:left;padding:8px 8px;border-bottom:1px solid var(--border)}
+#tab-board .cn-tbl td{padding:7px 8px;border-bottom:1px solid rgba(255,255,255,.05);vertical-align:top;line-height:1.55}
+#tab-board .cn-node{font-weight:700;color:#22242a;border-radius:5px;padding:2px 7px;display:inline-block;min-width:58px;text-align:center}
+#tab-board .cn-t1 .cn-node{background:#c48a82}
+#tab-board .cn-t2 .cn-node{background:#c9a37a}
+#tab-board .cn-t3 .cn-node{background:#8ea3c0}
+#tab-board .cn-t4 .cn-node{background:#94ad8d}
+#tab-board .cn-tier{font-weight:650}
+#tab-board .cn-co b{font-weight:600}
+#tab-board .cn-co .tk{color:var(--muted);font-size:11.5px;margin-left:4px}
+#tab-board .cn-co .grp{color:var(--muted);font-size:11px;display:block;margin:1px 0 4px}
+#tab-board .cn-notes{margin-top:14px;font-size:12px;color:var(--muted);line-height:1.7}
+#tab-board .cn-notes li{margin:3px 0 3px 18px}
+#tab-board .cn-notes a{color:var(--accent)}
+#tab-board .cn-ok{color:var(--safe);font-weight:600}
+#tab-board .cn-warn{color:var(--warn);font-weight:600}
 /* ===== AI 2027 scoped ===== */
 #tab-2027{--accent:#c9a227;--bg:#0e0e10;--fg:#e8e6e0;--muted:#9a9a9a;--rule:#2a2a2e;--card:#17171a}
 #tab-2027 *{box-sizing:border-box}
@@ -576,6 +596,7 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
 <a class="spy-link" href="#sec-8" data-target="sec-8">LMArena 榜</a>
 <a class="spy-link" href="#sec-9" data-target="sec-9">能力领域榜</a>
 <a class="spy-link" href="#sec-10" data-target="sec-10">年度里程碑</a>
+<a class="spy-link" href="#sec-11" data-target="sec-11">芯片制程格局</a>
   </nav>
   <div class="board-main" id="board-main">
 
@@ -698,6 +719,28 @@ body{margin:0;background:#22242a;color:#dcdcd4;font-family:-apple-system,"Noto S
     <div class="lm-tabs" id="tlTabs"></div>
     <div class="subtle" id="tlSummary" style="margin:4px 0 14px"></div>
     <div id="tlBody"></div>
+  </div>
+
+
+  <div class="section-title sec-c11" id="sec-11" data-sec="chipNodes"><span class="ico"></span>芯片制程格局</div>
+  <p class="section-desc">按制程节点看应用、层级与中美格局。前四列源自帕斯卡·科彭斯 2026 年的图表并逐项核验，最后一列为相关中国上市公司。</p>
+  <div class="card">
+    <div class="chart-title">制程节点与相关中国上市公司</div>
+    <div class="cn-wrap"><table class="cn-tbl">
+      <thead><tr><th style="width:84px">制程</th><th style="width:180px">典型应用</th><th style="width:130px">层级</th><th style="width:140px">格局</th><th>相关中国上市公司（名称 / 代码 / 在该层的角色）</th></tr></thead>
+      <tbody><tr class="cn-t1"><td><span class="cn-node">2–3nm</span></td><td>最新旗舰手机、AI 加速器</td><td rowspan="2" class="cn-tier">前沿 / 领先制程</td><td rowspan="2">台积电主导，依赖 EUV</td><td class="cn-co"><span class="grp">中国尚无量产；最接近的是中芯国际 N+3（见 5nm 行）</span></td></tr><tr class="cn-t1"><td><span class="cn-node">5nm</span></td><td>旗舰手机 SoC、高性能计算</td><td class="cn-co"><b>中芯国际</b><span class="tk">688981.SH / 0981.HK</span><span class="grp">N+3（5nm 级、无 EUV）代工麒麟 9030；密度明显低于台积电 5nm</span></td></tr><tr class="cn-t2"><td><span class="cn-node">7nm</span></td><td>高性能计算、GPU</td><td rowspan="3" class="cn-tier">先进制程</td><td rowspan="3">中国用 DUV 追赶</td><td class="cn-co"><b>中芯国际</b><span class="tk">688981.SH / 0981.HK</span><span class="grp">N+2（7nm 级，DUV 多重曝光），目前唯一能量产 7nm 级的中国厂</span><b>华虹公司</b><span class="tk">688347.SH / 1347.HK</span><span class="grp">集团旗下华力微据报准备 7nm（路透 2026-03，匿名信源）</span><b>寒武纪</b><span class="tk">688256.SH</span><span class="grp">AI 加速器设计</span><b>海光信息</b><span class="tk">688041.SH</span><span class="grp">CPU / DCU 设计</span><b>摩尔线程</b><span class="tk">688795.SH</span><span class="grp">GPU 设计</span><b>沐曦股份</b><span class="tk">688802.SH</span><span class="grp">GPU 设计</span></td></tr><tr class="cn-t2"><td><span class="cn-node">10nm</span></td><td>中端手机、网络设备</td><td class="cn-co"><b>北方华创</b><span class="tk">002371.SZ</span><span class="grp">刻蚀、沉积设备（DUV 多重曝光路线的关键设备）</span><b>中微公司</b><span class="tk">688012.SH</span><span class="grp">刻蚀设备</span><b>拓荆科技</b><span class="tk">688072.SH</span><span class="grp">薄膜沉积设备</span></td></tr><tr class="cn-t2"><td><span class="cn-node">14nm</span></td><td>服务器 CPU、中端 SoC</td><td class="cn-co"><b>中芯国际</b><span class="tk">688981.SH / 0981.HK</span><span class="grp">14nm FinFET</span><b>长电科技</b><span class="tk">600584.SH</span><span class="grp">先进封装 / Chiplet</span><b>通富微电</b><span class="tk">002156.SZ</span><span class="grp">先进封装</span></td></tr><tr class="cn-t3"><td><span class="cn-node">22nm</span></td><td>嵌入式连接芯片</td><td rowspan="2" class="cn-tier">传统上段成熟制程</td><td rowspan="2">中国产业化</td><td class="cn-co"><b>华虹公司</b><span class="tk">688347.SH / 1347.HK</span><span class="grp">无锡 Fab 9，28nm 级及特色工艺</span><b>乐鑫科技</b><span class="tk">688018.SH</span><span class="grp">IoT Wi-Fi / 蓝牙 SoC 设计</span><b>卓胜微</b><span class="tk">300782.SZ</span><span class="grp">射频前端设计</span></td></tr><tr class="cn-t3"><td><span class="cn-node">28nm</span></td><td>车规 MCU、物联网、射频</td><td class="cn-co"><b>中芯国际</b><span class="tk">688981.SH / 0981.HK</span><span class="grp">28nm 主力产能</span><b>晶合集成</b><span class="tk">688249.SH</span><span class="grp">28nm 逻辑平台 2026-03 完成全流程开发</span><b>兆易创新</b><span class="tk">603986.SH</span><span class="grp">MCU / 存储设计</span></td></tr><tr class="cn-t4"><td><span class="cn-node">40nm</span></td><td>显示驱动、传感器</td><td rowspan="6" class="cn-tier">成熟 / 传统制程</td><td rowspan="6">中国规模</td><td class="cn-co"><b>晶合集成</b><span class="tk">688249.SH</span><span class="grp">显示驱动代工，40nm 高压 OLED 驱动已量产</span><b>豪威集团</b><span class="tk">603501.SH</span><span class="grp">CMOS 图像传感器设计</span></td></tr><tr class="cn-t4"><td><span class="cn-node">55nm</span></td><td>电源管理、模拟</td><td class="cn-co"><b>圣邦股份</b><span class="tk">300661.SZ</span><span class="grp">模拟 / 电源管理设计</span><b>华虹公司</b><span class="tk">688347.SH / 1347.HK</span><span class="grp">电源管理、嵌入式存储特色工艺</span></td></tr><tr class="cn-t4"><td><span class="cn-node">65nm</span></td><td>汽车、工业</td><td class="cn-co"><b>芯联集成</b><span class="tk">688469.SH</span><span class="grp">车规功率与 MEMS 代工</span><b>燕东微</b><span class="tk">688172.SH</span><span class="grp">特色工艺晶圆制造</span></td></tr><tr class="cn-t4"><td><span class="cn-node">90nm</span></td><td>传统工业、军规</td><td class="cn-co"><b>华润微</b><span class="tk">688396.SH</span><span class="grp">IDM，功率与模拟</span></td></tr><tr class="cn-t4"><td><span class="cn-node">130nm</span></td><td>模拟、功率、传感器</td><td class="cn-co"><b>士兰微</b><span class="tk">600460.SH</span><span class="grp">IDM，功率 / 模拟 / MEMS</span></td></tr><tr class="cn-t4"><td><span class="cn-node">180nm+</span></td><td>分立器件、功率器件</td><td class="cn-co"><b>斯达半导</b><span class="tk">603290.SH</span><span class="grp">IGBT / SiC 功率模块</span><b>扬杰科技</b><span class="tk">300373.SZ</span><span class="grp">功率分立器件</span></td></tr></tbody>
+    </table></div>
+    <div class="cn-notes">
+      <div class="chart-title" style="margin-top:6px">核验结果</div>
+      <ul>
+        <li><span class="cn-ok">成立</span>　2–3nm 台积电主导：台积电 N2 于 2025 年四季度量产（<a href="https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm" target="_blank" rel="noopener">台积电官网</a>）；2026 年二季度其晶圆代工份额 72.5%（TrendForce，<a href="https://www.semimedia.cc/top-10-foundry-revenue-hits-record-53-49-billion-in-q2-2026-as-tsmc-share-reaches-72-5/" target="_blank" rel="noopener">SemiMedia 转引</a>）。三星也有 3nm / 2nm，「主导」不等于独家。</li>
+        <li><span class="cn-warn">需补充</span>　5nm「依赖 EUV」对中国并非绝对：TechInsights 拆解确认麒麟 9030 由中芯国际 N+3 制造，是 7nm 级 N+2 的缩放版，靠 DUV 多重曝光，但「绝对尺寸上明显不如台积电、三星的 5nm」，良率挑战大（<a href="https://library.techinsights.com/public/hg-content/30282715-def4-4432-befe-07b021f9eb54" target="_blank" rel="noopener">TechInsights 2025-12</a>）。科彭斯博客称中芯「已大规模量产 5nm」，比 TechInsights 的结论更激进。</li>
+        <li><span class="cn-ok">成立</span>　7–14nm 中国用 DUV 追赶：中芯国际是目前唯一能量产 7nm 级的中国厂；路透 2026-03 援引四位知情人称华虹集团旗下华力微正准备 7nm（<a href="https://www.reuters.com/world/asia-pacific/chinas-no-2-chipmaker-readies-7-nm-production-beijing-ramps-up-self-suffiency-2026-03-16/" target="_blank" rel="noopener">路透</a>，未获公司确认）。10nm 在业界是短命节点，实际量产规模小。</li>
+        <li><span class="cn-ok">成立（口径需注意）</span>　成熟制程中国扩张：SEMI 中国总裁在 Semicon China 2026 称，中国 22–40nm 产能占全球比将从 2026 年 37% 升到 2028 年 42%（<a href="https://www.cbtnews.com/chinas-chip-sector-accelerates/" target="_blank" rel="noopener">CBT News</a>）。这个 42% 只覆盖 22–40nm，横跨表中蓝、绿两层；科彭斯写成「成熟制程产能的 42%」，范围说宽了。更早的 TrendForce 口径（28nm 以上）是 2023 年 29% → 2027 年 33%。</li>
+        <li><span class="cn-ok">成立</span>　各节点典型应用与业界通行划分一致。原图两处拼写错误（Smarphones、cathcing）中文版已改正。</li>
+      </ul>
+      <div class="subtle" style="margin-top:6px">公司列：只列 A 股 / 港股上市公司，代码已逐一核对（2026-09-30）；华为海思、长鑫存储、长江存储等未上市不列。一家公司可跨多个节点，这里放在最有代表性的一层。仅作产业映射，不构成投资建议。</div>
+    </div>
   </div>
 
   <footer id="footer"></footer>
@@ -8462,7 +8505,7 @@ Promise.resolve(__DATA__).then(d=>{
                          ||rest.length||srcs.length||evt);
     const badge = t.origin==='curated'
       ? '<span class="tl-badge tl-b-c" title="手工建卡，逐条核实一手出处">已核实</span>'
-      : (t.origin==='search'
+      : ((t.origin==='search'||t.origin==='backfill')
         ? '<span class="tl-badge tl-b-s" title="来自检索到的公开报道，非逐字引语">检索</span>'
         : '<span class="tl-badge tl-b-c" title="已人工核实的观点条目">已核实</span>');
     const sameAsLead = title && lead && (title===lead);
@@ -8585,7 +8628,7 @@ Promise.resolve(__DATA__).then(d=>{
     //   2026-08-25 实测：7 条 curated 因此空白且无展开箭头（Chao 发现）。
     const evt = t.event || '';
     const hasDetail = !!(t.detail || t.detail_cn || pts.length || srcs.length || evt);
-    const badge = t.origin==='search'
+    const badge = (t.origin==='search'||t.origin==='backfill')
       ? '<span class="tl-badge tl-b-s" title="来自检索到的公开报道，非逐字引语">检索</span>'
       : '<span class="tl-badge tl-b-c" title="已人工核实的观点条目">已核实</span>';
     const shown = t.gist_cn || t.text_cn || t.text || evt || '';
@@ -8772,8 +8815,8 @@ function renderLM(lm){
   if(slugs.length)draw(slugs[0]);
 }
 Promise.resolve({
-  "generated_at_jst": "2026-09-30 08:41 JST",
-  "date": "2026-09-30",
+  "generated_at_jst": "2026-10-01 08:40 JST",
+  "date": "2026-10-01",
   "source": "LMArena (lmarena.ai/leaderboard/text)",
   "compare_window": "vs ~30 天前",
   "categories": {
@@ -8782,11 +8825,11 @@ Promise.resolve({
       "rows": [
         {
           "rank": 1,
-          "model": "claude-opus-5.5-high",
-          "org": "Anthropic",
-          "score": 1509,
-          "votes": "2,307",
-          "price": "$4 / $20",
+          "model": "gemini-4-argon-high",
+          "org": "Google",
+          "score": 1525,
+          "votes": "4,942",
+          "price": "$2 / $10",
           "ctx": "1M",
           "rank_delta": null,
           "score_delta": null,
@@ -8797,7 +8840,7 @@ Promise.resolve({
           "model": "claude-opus-4-6-high",
           "org": "Anthropic",
           "score": 1505,
-          "votes": "76,518",
+          "votes": "77,193",
           "price": "$5 / $25",
           "ctx": "1M",
           "rank_delta": 0,
@@ -8808,8 +8851,8 @@ Promise.resolve({
           "rank": 3,
           "model": "claude-fable-5-high",
           "org": "Anthropic",
-          "score": 1504,
-          "votes": "36,462",
+          "score": 1505,
+          "votes": "37,900",
           "price": "$10 / $50",
           "ctx": "1M",
           "rank_delta": null,
@@ -8818,22 +8861,34 @@ Promise.resolve({
         },
         {
           "rank": 4,
+          "model": "claude-opus-5.5-high",
+          "org": "Anthropic",
+          "score": 1504,
+          "votes": "3,932",
+          "price": "$4 / $20",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": true
+        },
+        {
+          "rank": 5,
           "model": "claude-opus-4-7-high",
           "org": "Anthropic",
           "score": 1502,
-          "votes": "64,007",
+          "votes": "64,607",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": -1,
+          "rank_delta": -2,
           "score_delta": 0,
           "is_new": false
         },
         {
-          "rank": 5,
+          "rank": 6,
           "model": "claude-fable-5.1-max",
           "org": "Anthropic",
           "score": 1501,
-          "votes": "9,942",
+          "votes": "11,241",
           "price": "$10 / $50",
           "ctx": "1M",
           "rank_delta": null,
@@ -8841,47 +8896,23 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 6,
+          "rank": 7,
           "model": "claude-opus-4-6",
           "org": "Anthropic",
-          "score": 1498,
-          "votes": "80,836",
+          "score": 1497,
+          "votes": "81,769",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 7,
-          "model": "muse-spark-1.2 (xHigh)",
-          "org": "Meta",
-          "score": 1496,
-          "votes": "3,422",
-          "price": "$1.25 / $4.25",
-          "ctx": "N/A",
-          "rank_delta": -3,
-          "score_delta": -2,
+          "rank_delta": -2,
+          "score_delta": 0,
           "is_new": false
         },
         {
           "rank": 8,
-          "model": "claude-opus-4-7",
-          "org": "Anthropic",
-          "score": 1495,
-          "votes": "65,051",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -2,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 9,
           "model": "muse-spark-1.3-max",
           "org": "Meta",
-          "score": 1494,
-          "votes": "10,036",
+          "score": 1495,
+          "votes": "11,698",
           "price": "$1.25 / $4.25",
           "ctx": "1M",
           "rank_delta": null,
@@ -8889,11 +8920,35 @@ Promise.resolve({
           "is_new": true
         },
         {
+          "rank": 9,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1494,
+          "votes": "65,705",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -3,
+          "score_delta": 0,
+          "is_new": false
+        },
+        {
           "rank": 10,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1494,
+          "votes": "3,833",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": -6,
+          "score_delta": -4,
+          "is_new": false
+        },
+        {
+          "rank": 11,
           "model": "gemini-3.8-flash-high",
           "org": "Google",
-          "score": 1492,
-          "votes": "21,728",
+          "score": 1494,
+          "votes": "24,828",
           "price": "$0.75 / $3.75",
           "ctx": "1M",
           "rank_delta": null,
@@ -8901,162 +8956,138 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 11,
-          "model": "claude-opus-5-high",
-          "org": "Anthropic",
-          "score": 1491,
-          "votes": "55,063",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": -1,
-          "is_new": false
-        },
-        {
           "rank": 12,
           "model": "muse-spark-1.1",
           "org": "Meta",
-          "score": 1491,
-          "votes": "34,760",
+          "score": 1492,
+          "votes": "36,558",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
           "rank_delta": -4,
-          "score_delta": 1,
+          "score_delta": 2,
           "is_new": false
         },
         {
           "rank": 13,
-          "model": "muse-spark",
-          "org": "Meta",
-          "score": 1489,
-          "votes": "14,131",
-          "price": "N/A",
-          "ctx": "N/A",
-          "rank_delta": -2,
-          "score_delta": 1,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1491,
+          "votes": "58,380",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -6,
+          "score_delta": -1,
           "is_new": false
         },
         {
           "rank": 14,
           "model": "claude-opus-5-max",
           "org": "Anthropic",
-          "score": 1488,
-          "votes": "26,760",
+          "score": 1489,
+          "votes": "28,351",
           "price": "$5 / $25",
           "ctx": "1M",
           "rank_delta": -2,
-          "score_delta": 0,
+          "score_delta": 1,
           "is_new": false
         },
         {
           "rank": 15,
-          "model": "gemini-3.7-flash-high",
-          "org": "Google",
-          "score": 1488,
-          "votes": "19,044",
-          "price": "$0.75 / $3.75",
-          "ctx": "1M",
-          "rank_delta": -6,
-          "score_delta": -2,
+          "model": "muse-spark",
+          "org": "Meta",
+          "score": 1489,
+          "votes": "14,128",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": -4,
+          "score_delta": 1,
           "is_new": false
         },
         {
           "rank": 16,
-          "model": "kimi-k3-max",
-          "org": "Moonshot",
+          "model": "gemini-3.7-flash-high",
+          "org": "Google",
           "score": 1488,
-          "votes": "26,400",
-          "price": "N/A",
-          "ctx": "N/A",
-          "rank_delta": -6,
-          "score_delta": -1,
+          "votes": "20,851",
+          "price": "$0.75 / $3.75",
+          "ctx": "1M",
+          "rank_delta": -7,
+          "score_delta": -2,
           "is_new": false
         },
         {
           "rank": 17,
-          "model": "gemini-3.1-pro-preview",
-          "org": "Google",
-          "score": 1487,
-          "votes": "119,196",
-          "price": "$1 / $6",
-          "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": 0,
-          "is_new": false
-        },
-        {
-          "rank": 18,
-          "model": "gemini-3-pro",
-          "org": "Google",
-          "score": 1485,
-          "votes": "41,921",
-          "price": "$2 / $12",
-          "ctx": "1M",
-          "rank_delta": -4,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1488,
+          "votes": "27,719",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": -7,
           "score_delta": -1,
           "is_new": false
         },
         {
+          "rank": 18,
+          "model": "gemini-3.1-pro-preview",
+          "org": "Google",
+          "score": 1487,
+          "votes": "121,225",
+          "price": "$1 / $6",
+          "ctx": "1M",
+          "rank_delta": -5,
+          "score_delta": 0,
+          "is_new": false
+        },
+        {
           "rank": 19,
-          "model": "gpt-5.6-sol-xhigh",
-          "org": "OpenAI",
-          "score": 1483,
-          "votes": "34,258",
-          "price": "$4 / $20",
-          "ctx": "N/A",
-          "rank_delta": -2,
-          "score_delta": 1,
+          "model": "gemini-3-pro",
+          "org": "Google",
+          "score": 1485,
+          "votes": "41,910",
+          "price": "$2 / $12",
+          "ctx": "1M",
+          "rank_delta": -5,
+          "score_delta": -1,
           "is_new": false
         },
         {
           "rank": 20,
-          "model": "gemini-3.6-flash-high",
-          "org": "Google",
-          "score": 1482,
-          "votes": "33,739",
-          "price": "$0.75 / $3.75",
-          "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 1,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1484,
+          "votes": "36,002",
+          "price": "$4 / $20",
+          "ctx": "N/A",
+          "rank_delta": -3,
+          "score_delta": 2,
           "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": "2026-08-31"
+      "baseline_date": "2026-09-01"
     },
     "coding": {
       "name": "Coding",
       "rows": [
         {
           "rank": 1,
-          "model": "claude-opus-4-6-high",
-          "org": "Anthropic",
-          "score": 1551,
-          "votes": "20,051",
-          "price": "$5 / $25",
+          "model": "gemini-4-argon-high",
+          "org": "Google",
+          "score": 1559,
+          "votes": "1,225",
+          "price": "$2 / $10",
           "ctx": "1M",
-          "rank_delta": 1,
-          "score_delta": -1,
-          "is_new": false
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": true
         },
         {
           "rank": 2,
-          "model": "claude-opus-4-7-high",
-          "org": "Anthropic",
-          "score": 1551,
-          "votes": "18,373",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": -1,
-          "is_new": false
-        },
-        {
-          "rank": 3,
           "model": "claude-fable-5-high",
           "org": "Anthropic",
-          "score": 1551,
-          "votes": "9,670",
+          "score": 1552,
+          "votes": "9,946",
           "price": "$10 / $50",
           "ctx": "1M",
           "rank_delta": null,
@@ -9064,35 +9095,47 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 4,
-          "model": "claude-opus-4-6",
+          "rank": 3,
+          "model": "claude-opus-4-6-high",
           "org": "Anthropic",
-          "score": 1548,
-          "votes": "22,654",
+          "score": 1551,
+          "votes": "20,144",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": 1,
-          "score_delta": 2,
+          "rank_delta": -1,
+          "score_delta": -1,
+          "is_new": false
+        },
+        {
+          "rank": 4,
+          "model": "claude-opus-4-7-high",
+          "org": "Anthropic",
+          "score": 1551,
+          "votes": "18,437",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -3,
+          "score_delta": -1,
           "is_new": false
         },
         {
           "rank": 5,
-          "model": "claude-opus-5.5-high",
+          "model": "claude-opus-4-6",
           "org": "Anthropic",
           "score": 1547,
-          "votes": "573",
-          "price": "$4 / $20",
+          "votes": "22,791",
+          "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": null,
-          "score_delta": null,
-          "is_new": true
+          "rank_delta": 0,
+          "score_delta": 1,
+          "is_new": false
         },
         {
           "rank": 6,
           "model": "claude-opus-4-7",
           "org": "Anthropic",
           "score": 1547,
-          "votes": "18,565",
+          "votes": "18,642",
           "price": "$5 / $25",
           "ctx": "1M",
           "rank_delta": -2,
@@ -9101,10 +9144,22 @@ Promise.resolve({
         },
         {
           "rank": 7,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1541,
+          "votes": "7,165",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": -1,
+          "score_delta": -2,
+          "is_new": false
+        },
+        {
+          "rank": 8,
           "model": "mimo-v2.6-pro",
           "org": "Xiaomi",
-          "score": 1543,
-          "votes": "1,087",
+          "score": 1540,
+          "votes": "1,101",
           "price": "$0.43 / $0.87",
           "ctx": "1.1M",
           "rank_delta": null,
@@ -9112,11 +9167,11 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 8,
+          "rank": 9,
           "model": "gpt-6-astra-max",
           "org": "OpenAI",
-          "score": 1542,
-          "votes": "1,738",
+          "score": 1539,
+          "votes": "2,010",
           "price": "N/A",
           "ctx": "N/A",
           "rank_delta": null,
@@ -9124,23 +9179,11 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 9,
-          "model": "kimi-k3-max",
-          "org": "Moonshot",
-          "score": 1541,
-          "votes": "6,878",
-          "price": "N/A",
-          "ctx": "N/A",
-          "rank_delta": -3,
-          "score_delta": -2,
-          "is_new": false
-        },
-        {
           "rank": 10,
           "model": "muse-spark-1.3-max",
           "org": "Meta",
           "score": 1539,
-          "votes": "2,752",
+          "votes": "3,142",
           "price": "$1.25 / $4.25",
           "ctx": "1M",
           "rank_delta": null,
@@ -9149,70 +9192,94 @@ Promise.resolve({
         },
         {
           "rank": 11,
-          "model": "muse-spark-1.2 (xHigh)",
-          "org": "Meta",
-          "score": 1535,
-          "votes": "990",
-          "price": "$1.25 / $4.25",
-          "ctx": "N/A",
-          "rank_delta": -4,
-          "score_delta": 2,
-          "is_new": false
-        },
-        {
-          "rank": 12,
-          "model": "claude-opus-4-8-high",
+          "model": "claude-opus-5.5-high",
           "org": "Anthropic",
-          "score": 1534,
-          "votes": "16,899",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -3,
-          "score_delta": 2,
-          "is_new": false
-        },
-        {
-          "rank": 13,
-          "model": "claude-opus-5-high",
-          "org": "Anthropic",
-          "score": 1533,
-          "votes": "14,606",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -5,
-          "score_delta": 0,
-          "is_new": false
-        },
-        {
-          "rank": 14,
-          "model": "muse-spark-1.1",
-          "org": "Meta",
-          "score": 1532,
-          "votes": "9,967",
-          "price": "$1.25 / $4.25",
-          "ctx": "N/A",
-          "rank_delta": -4,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 15,
-          "model": "deepseek-v4.1-flash-max",
-          "org": "DeepSeek",
-          "score": 1532,
-          "votes": "1,938",
-          "price": "$0.30 / $1.20",
+          "score": 1538,
+          "votes": "918",
+          "price": "$4 / $20",
           "ctx": "1M",
           "rank_delta": null,
           "score_delta": null,
           "is_new": true
         },
         {
+          "rank": 12,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1535,
+          "votes": "1,085",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": -5,
+          "score_delta": 2,
+          "is_new": false
+        },
+        {
+          "rank": 13,
+          "model": "muse-spark-1.1",
+          "org": "Meta",
+          "score": 1534,
+          "votes": "10,381",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": -3,
+          "score_delta": 3,
+          "is_new": false
+        },
+        {
+          "rank": 14,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1534,
+          "votes": "9,788",
+          "price": "$4 / $20",
+          "ctx": "N/A",
+          "rank_delta": 1,
+          "score_delta": 6,
+          "is_new": false
+        },
+        {
+          "rank": 15,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1534,
+          "votes": "15,273",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -7,
+          "score_delta": 1,
+          "is_new": false
+        },
+        {
           "rank": 16,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1533,
+          "votes": "17,275",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -7,
+          "score_delta": 1,
+          "is_new": false
+        },
+        {
+          "rank": 17,
+          "model": "claude-fable-5.1-max",
+          "org": "Anthropic",
+          "score": 1532,
+          "votes": "2,254",
+          "price": "$10 / $50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": true
+        },
+        {
+          "rank": 18,
           "model": "gemini-3.8-flash-high",
           "org": "Google",
-          "score": 1532,
-          "votes": "5,970",
+          "score": 1531,
+          "votes": "6,660",
           "price": "$0.75 / $3.75",
           "ctx": "1M",
           "rank_delta": null,
@@ -9220,51 +9287,27 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 17,
-          "model": "gpt-5.6-sol-xhigh",
-          "org": "OpenAI",
-          "score": 1531,
-          "votes": "9,391",
-          "price": "$4 / $20",
-          "ctx": "N/A",
-          "rank_delta": -2,
-          "score_delta": 3,
-          "is_new": false
-        },
-        {
-          "rank": 18,
+          "rank": 19,
           "model": "claude-opus-4-5-20251101-high-32k",
           "org": "Anthropic",
           "score": 1531,
-          "votes": "7,798",
+          "votes": "7,790",
           "price": "$5 / $25",
           "ctx": "200K",
-          "rank_delta": -6,
+          "rank_delta": -7,
           "score_delta": 1,
           "is_new": false
         },
         {
-          "rank": 19,
+          "rank": 20,
           "model": "claude-opus-4-8",
           "org": "Anthropic",
           "score": 1530,
-          "votes": "17,566",
+          "votes": "17,933",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": -3,
+          "rank_delta": -4,
           "score_delta": 3,
-          "is_new": false
-        },
-        {
-          "rank": 20,
-          "model": "muse-spark",
-          "org": "Meta",
-          "score": 1530,
-          "votes": "3,929",
-          "price": "N/A",
-          "ctx": "N/A",
-          "rank_delta": -3,
-          "score_delta": 4,
           "is_new": false
         }
       ],
@@ -9276,11 +9319,11 @@ Promise.resolve({
       "rows": [
         {
           "rank": 1,
-          "model": "claude-opus-5.5-high",
-          "org": "Anthropic",
-          "score": 1516,
-          "votes": "812",
-          "price": "$4 / $20",
+          "model": "gemini-4-argon-high",
+          "org": "Google",
+          "score": 1529,
+          "votes": "1,808",
+          "price": "$2 / $10",
           "ctx": "1M",
           "rank_delta": null,
           "score_delta": null,
@@ -9288,22 +9331,34 @@ Promise.resolve({
         },
         {
           "rank": 2,
-          "model": "claude-opus-4-6-high",
+          "model": "claude-opus-5.5-high",
           "org": "Anthropic",
-          "score": 1513,
-          "votes": "24,708",
-          "price": "$5 / $25",
+          "score": 1514,
+          "votes": "1,337",
+          "price": "$4 / $20",
           "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": -1,
-          "is_new": false
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": true
         },
         {
           "rank": 3,
+          "model": "claude-opus-4-6-high",
+          "org": "Anthropic",
+          "score": 1514,
+          "votes": "24,809",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -2,
+          "score_delta": 0,
+          "is_new": false
+        },
+        {
+          "rank": 4,
           "model": "claude-fable-5-high",
           "org": "Anthropic",
-          "score": 1509,
-          "votes": "13,049",
+          "score": 1510,
+          "votes": "13,415",
           "price": "$10 / $50",
           "ctx": "1M",
           "rank_delta": null,
@@ -9311,35 +9366,35 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 4,
+          "rank": 5,
           "model": "claude-opus-4-7-high",
           "org": "Anthropic",
-          "score": 1503,
-          "votes": "22,448",
+          "score": 1502,
+          "votes": "22,532",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 5,
-          "model": "claude-opus-4-6",
-          "org": "Anthropic",
-          "score": 1500,
-          "votes": "27,183",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -1,
+          "rank_delta": -2,
           "score_delta": 0,
           "is_new": false
         },
         {
           "rank": 6,
+          "model": "claude-opus-4-6",
+          "org": "Anthropic",
+          "score": 1499,
+          "votes": "27,380",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -2,
+          "score_delta": -1,
+          "is_new": false
+        },
+        {
+          "rank": 7,
           "model": "claude-fable-5.1-max",
           "org": "Anthropic",
-          "score": 1497,
-          "votes": "3,032",
+          "score": 1498,
+          "votes": "3,380",
           "price": "$10 / $50",
           "ctx": "1M",
           "rank_delta": null,
@@ -9347,11 +9402,35 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 7,
+          "rank": 8,
           "model": "claude-opus-5-high",
           "org": "Anthropic",
           "score": 1497,
-          "votes": "19,769",
+          "votes": "20,700",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -3,
+          "score_delta": 1,
+          "is_new": false
+        },
+        {
+          "rank": 9,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1493,
+          "votes": "23,111",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -2,
+          "score_delta": 0,
+          "is_new": false
+        },
+        {
+          "rank": 10,
+          "model": "claude-opus-5-max",
+          "org": "Anthropic",
+          "score": 1493,
+          "votes": "9,911",
           "price": "$5 / $25",
           "ctx": "1M",
           "rank_delta": -2,
@@ -9359,59 +9438,47 @@ Promise.resolve({
           "is_new": false
         },
         {
-          "rank": 8,
-          "model": "claude-opus-4-7",
-          "org": "Anthropic",
-          "score": 1494,
-          "votes": "23,030",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 9,
-          "model": "claude-opus-5-max",
-          "org": "Anthropic",
-          "score": 1493,
-          "votes": "9,392",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 10,
-          "model": "claude-opus-4-8-high",
-          "org": "Anthropic",
-          "score": 1491,
-          "votes": "21,963",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": -2,
-          "is_new": false
-        },
-        {
           "rank": 11,
           "model": "gpt-5.6-sol-xhigh",
           "org": "OpenAI",
-          "score": 1489,
-          "votes": "12,137",
+          "score": 1491,
+          "votes": "12,619",
           "price": "$4 / $20",
           "ctx": "N/A",
           "rank_delta": 0,
-          "score_delta": 5,
+          "score_delta": 7,
           "is_new": false
         },
         {
           "rank": 12,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1490,
+          "votes": "22,488",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -6,
+          "score_delta": -3,
+          "is_new": false
+        },
+        {
+          "rank": 13,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1487,
+          "votes": "9,232",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": -4,
+          "score_delta": 1,
+          "is_new": false
+        },
+        {
+          "rank": 14,
           "model": "gemini-3.8-flash-high",
           "org": "Google",
-          "score": 1488,
-          "votes": "7,901",
+          "score": 1487,
+          "votes": "8,909",
           "price": "$0.75 / $3.75",
           "ctx": "1M",
           "rank_delta": null,
@@ -9419,35 +9486,11 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 13,
-          "model": "gemini-3.7-flash-high",
-          "org": "Google",
-          "score": 1487,
-          "votes": "6,938",
-          "price": "$0.75 / $3.75",
-          "ctx": "1M",
-          "rank_delta": -3,
-          "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 14,
-          "model": "kimi-k3-max",
-          "org": "Moonshot",
-          "score": 1486,
-          "votes": "8,851",
-          "price": "N/A",
-          "ctx": "N/A",
-          "rank_delta": -5,
-          "score_delta": 0,
-          "is_new": false
-        },
-        {
           "rank": 15,
           "model": "muse-spark-1.3-max",
           "org": "Meta",
           "score": 1486,
-          "votes": "3,726",
+          "votes": "4,263",
           "price": "$1.25 / $4.25",
           "ctx": "1M",
           "rank_delta": null,
@@ -9456,26 +9499,26 @@ Promise.resolve({
         },
         {
           "rank": 16,
-          "model": "claude-opus-4-5-20251101-high-32k",
-          "org": "Anthropic",
-          "score": 1483,
-          "votes": "9,875",
-          "price": "$5 / $25",
-          "ctx": "200K",
-          "rank_delta": -4,
+          "model": "gemini-3.7-flash-high",
+          "org": "Google",
+          "score": 1486,
+          "votes": "7,516",
+          "price": "$0.75 / $3.75",
+          "ctx": "1M",
+          "rank_delta": -6,
           "score_delta": 0,
           "is_new": false
         },
         {
           "rank": 17,
-          "model": "glm-5.3-max",
-          "org": "Z.ai",
-          "score": 1480,
-          "votes": "5,485",
-          "price": "$1.40 / $4.40",
-          "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": -2,
+          "model": "claude-opus-4-5-20251101-high-32k",
+          "org": "Anthropic",
+          "score": 1483,
+          "votes": "9,867",
+          "price": "$5 / $25",
+          "ctx": "200K",
+          "rank_delta": -5,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -9483,7 +9526,7 @@ Promise.resolve({
           "model": "gemini-3.1-pro-preview",
           "org": "Google",
           "score": 1479,
-          "votes": "40,860",
+          "votes": "41,331",
           "price": "$1 / $6",
           "ctx": "1M",
           "rank_delta": -4,
@@ -9492,42 +9535,42 @@ Promise.resolve({
         },
         {
           "rank": 19,
+          "model": "claude-opus-4-8",
+          "org": "Anthropic",
+          "score": 1479,
+          "votes": "23,069",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -1,
+          "score_delta": 2,
+          "is_new": false
+        },
+        {
+          "rank": 20,
           "model": "deepseek-v4.1-flash-max",
           "org": "DeepSeek",
           "score": 1478,
-          "votes": "2,369",
+          "votes": "2,880",
           "price": "$0.30 / $1.20",
           "ctx": "1M",
           "rank_delta": null,
           "score_delta": null,
           "is_new": true
-        },
-        {
-          "rank": 20,
-          "model": "gpt-5.5-high",
-          "org": "OpenAI",
-          "score": 1478,
-          "votes": "24,017",
-          "price": "$5 / $30",
-          "ctx": "1.1M",
-          "rank_delta": -5,
-          "score_delta": -1,
-          "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": "2026-08-31"
+      "baseline_date": "2026-09-01"
     },
     "hard-prompts": {
       "name": "Hard Prompts",
       "rows": [
         {
           "rank": 1,
-          "model": "claude-opus-5.5-high",
-          "org": "Anthropic",
-          "score": 1541,
-          "votes": "1,441",
-          "price": "$4 / $20",
+          "model": "gemini-4-argon-high",
+          "org": "Google",
+          "score": 1550,
+          "votes": "3,170",
+          "price": "$2 / $10",
           "ctx": "1M",
           "rank_delta": null,
           "score_delta": null,
@@ -9538,7 +9581,7 @@ Promise.resolve({
           "model": "claude-opus-4-6-high",
           "org": "Anthropic",
           "score": 1533,
-          "votes": "48,969",
+          "votes": "49,235",
           "price": "$5 / $25",
           "ctx": "1M",
           "rank_delta": -1,
@@ -9547,11 +9590,11 @@ Promise.resolve({
         },
         {
           "rank": 3,
-          "model": "claude-fable-5-high",
+          "model": "claude-opus-5.5-high",
           "org": "Anthropic",
-          "score": 1530,
-          "votes": "24,083",
-          "price": "$10 / $50",
+          "score": 1533,
+          "votes": "2,437",
+          "price": "$4 / $20",
           "ctx": "1M",
           "rank_delta": null,
           "score_delta": null,
@@ -9559,34 +9602,10 @@ Promise.resolve({
         },
         {
           "rank": 4,
-          "model": "claude-opus-4-6",
+          "model": "claude-fable-5-high",
           "org": "Anthropic",
-          "score": 1527,
-          "votes": "52,751",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 0,
-          "is_new": false
-        },
-        {
-          "rank": 5,
-          "model": "claude-opus-4-7-high",
-          "org": "Anthropic",
-          "score": 1526,
-          "votes": "43,133",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -1,
-          "score_delta": 0,
-          "is_new": false
-        },
-        {
-          "rank": 6,
-          "model": "claude-fable-5.1-max",
-          "org": "Anthropic",
-          "score": 1520,
-          "votes": "5,913",
+          "score": 1531,
+          "votes": "24,800",
           "price": "$10 / $50",
           "ctx": "1M",
           "rank_delta": null,
@@ -9594,47 +9613,71 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 7,
-          "model": "claude-opus-4-7",
+          "rank": 5,
+          "model": "claude-opus-4-6",
           "org": "Anthropic",
-          "score": 1520,
-          "votes": "43,811",
+          "score": 1526,
+          "votes": "53,159",
           "price": "$5 / $25",
           "ctx": "1M",
           "rank_delta": -2,
-          "score_delta": 1,
+          "score_delta": -1,
           "is_new": false
         },
         {
-          "rank": 8,
-          "model": "kimi-k3-max",
-          "org": "Moonshot",
-          "score": 1517,
-          "votes": "17,130",
-          "price": "N/A",
-          "ctx": "N/A",
+          "rank": 6,
+          "model": "claude-opus-4-7-high",
+          "org": "Anthropic",
+          "score": 1526,
+          "votes": "43,351",
+          "price": "$5 / $25",
+          "ctx": "1M",
           "rank_delta": -2,
-          "score_delta": -1,
+          "score_delta": 0,
+          "is_new": false
+        },
+        {
+          "rank": 7,
+          "model": "claude-fable-5.1-max",
+          "org": "Anthropic",
+          "score": 1522,
+          "votes": "6,630",
+          "price": "$10 / $50",
+          "ctx": "1M",
+          "rank_delta": null,
+          "score_delta": null,
+          "is_new": true
+        },
+        {
+          "rank": 8,
+          "model": "claude-opus-4-7",
+          "org": "Anthropic",
+          "score": 1519,
+          "votes": "44,062",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -3,
+          "score_delta": 0,
           "is_new": false
         },
         {
           "rank": 9,
-          "model": "claude-opus-5-high",
-          "org": "Anthropic",
-          "score": 1516,
-          "votes": "36,504",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -2,
-          "score_delta": -1,
+          "model": "kimi-k3-max",
+          "org": "Moonshot",
+          "score": 1518,
+          "votes": "17,889",
+          "price": "N/A",
+          "ctx": "N/A",
+          "rank_delta": -3,
+          "score_delta": 0,
           "is_new": false
         },
         {
           "rank": 10,
           "model": "muse-spark-1.3-max",
           "org": "Meta",
-          "score": 1516,
-          "votes": "6,673",
+          "score": 1517,
+          "votes": "7,706",
           "price": "$1.25 / $4.25",
           "ctx": "1M",
           "rank_delta": null,
@@ -9643,10 +9686,22 @@ Promise.resolve({
         },
         {
           "rank": 11,
+          "model": "claude-opus-5-high",
+          "org": "Anthropic",
+          "score": 1516,
+          "votes": "38,320",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -4,
+          "score_delta": -1,
+          "is_new": false
+        },
+        {
+          "rank": 12,
           "model": "gemini-3.8-flash-high",
           "org": "Google",
-          "score": 1516,
-          "votes": "14,320",
+          "score": 1515,
+          "votes": "16,172",
           "price": "$0.75 / $3.75",
           "ctx": "1M",
           "rank_delta": null,
@@ -9654,39 +9709,27 @@ Promise.resolve({
           "is_new": true
         },
         {
-          "rank": 12,
+          "rank": 13,
           "model": "claude-opus-5-max",
           "org": "Anthropic",
-          "score": 1513,
-          "votes": "17,550",
+          "score": 1515,
+          "votes": "18,450",
           "price": "$5 / $25",
           "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": -1,
-          "is_new": false
-        },
-        {
-          "rank": 13,
-          "model": "claude-opus-4-8-high",
-          "org": "Anthropic",
-          "score": 1513,
-          "votes": "41,144",
-          "price": "$5 / $25",
-          "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": 0,
+          "rank_delta": -5,
+          "score_delta": 1,
           "is_new": false
         },
         {
           "rank": 14,
-          "model": "muse-spark-1.2 (xHigh)",
-          "org": "Meta",
-          "score": 1511,
-          "votes": "2,266",
-          "price": "$1.25 / $4.25",
-          "ctx": "N/A",
-          "rank_delta": -4,
-          "score_delta": -1,
+          "model": "claude-opus-4-8-high",
+          "org": "Anthropic",
+          "score": 1513,
+          "votes": "42,198",
+          "price": "$5 / $25",
+          "ctx": "1M",
+          "rank_delta": -5,
+          "score_delta": 0,
           "is_new": false
         },
         {
@@ -9694,7 +9737,7 @@ Promise.resolve({
           "model": "muse-spark-1.1",
           "org": "Meta",
           "score": 1511,
-          "votes": "23,304",
+          "votes": "24,296",
           "price": "$1.25 / $4.25",
           "ctx": "N/A",
           "rank_delta": -4,
@@ -9703,67 +9746,67 @@ Promise.resolve({
         },
         {
           "rank": 16,
-          "model": "gemini-3.7-flash-high",
-          "org": "Google",
-          "score": 1509,
-          "votes": "12,703",
-          "price": "$0.75 / $3.75",
-          "ctx": "1M",
-          "rank_delta": -4,
-          "score_delta": 2,
+          "model": "gpt-5.6-sol-xhigh",
+          "org": "OpenAI",
+          "score": 1511,
+          "votes": "23,609",
+          "price": "$4 / $20",
+          "ctx": "N/A",
+          "rank_delta": -1,
+          "score_delta": 6,
           "is_new": false
         },
         {
           "rank": 17,
-          "model": "gpt-5.6-sol-xhigh",
-          "org": "OpenAI",
+          "model": "gemini-3.7-flash-high",
+          "org": "Google",
           "score": 1509,
-          "votes": "22,641",
-          "price": "$4 / $20",
-          "ctx": "N/A",
-          "rank_delta": -2,
-          "score_delta": 4,
+          "votes": "13,735",
+          "price": "$0.75 / $3.75",
+          "ctx": "1M",
+          "rank_delta": -5,
+          "score_delta": 2,
           "is_new": false
         },
         {
           "rank": 18,
-          "model": "gemini-3.1-pro-preview",
-          "org": "Google",
-          "score": 1507,
-          "votes": "77,865",
-          "price": "$1 / $6",
-          "ctx": "1M",
-          "rank_delta": -5,
-          "score_delta": 0,
+          "model": "muse-spark-1.2 (xHigh)",
+          "org": "Meta",
+          "score": 1508,
+          "votes": "2,504",
+          "price": "$1.25 / $4.25",
+          "ctx": "N/A",
+          "rank_delta": -8,
+          "score_delta": -4,
           "is_new": false
         },
         {
           "rank": 19,
+          "model": "gemini-3.1-pro-preview",
+          "org": "Google",
+          "score": 1507,
+          "votes": "78,890",
+          "price": "$1 / $6",
+          "ctx": "1M",
+          "rank_delta": -6,
+          "score_delta": 0,
+          "is_new": false
+        },
+        {
+          "rank": 20,
           "model": "muse-spark",
           "org": "Meta",
           "score": 1506,
           "votes": "9,145",
           "price": "N/A",
           "ctx": "N/A",
-          "rank_delta": -3,
+          "rank_delta": -4,
           "score_delta": 1,
-          "is_new": false
-        },
-        {
-          "rank": 20,
-          "model": "glm-5.3-max",
-          "org": "Z.ai",
-          "score": 1506,
-          "votes": "10,302",
-          "price": "$1.40 / $4.40",
-          "ctx": "1M",
-          "rank_delta": -6,
-          "score_delta": 0,
           "is_new": false
         }
       ],
       "stale": false,
-      "baseline_date": "2026-08-31"
+      "baseline_date": "2026-09-01"
     }
   }
 }).then(renderLM)
@@ -10215,162 +10258,162 @@ function renderSM(sm){
   });
 }
 Promise.resolve({
-  "generated_at": "2026-09-30 12:36:02 JST",
-  "archive_days": 70,
+  "generated_at": "2026-10-01 12:31:06 JST",
+  "archive_days": 71,
   "archive_start": "2026-07-23",
   "daily": {
     "label": "今日",
     "window_days": 1,
     "covered_days": 1,
-    "date_start": "2026-09-30",
-    "date_end": "2026-09-30",
-    "total_news": 17,
-    "scored_news": 17,
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-01",
+    "total_news": 18,
+    "scored_news": 18,
     "backfilled_news": 0,
     "top_news": [
       {
-        "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
-        "url": "https://aihot.news/items/ndk15d5pv9et8zspxncqzh55y",
-        "source": "IT之家（RSS）",
-        "score": 87,
-        "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
-        "reason": "报道梳理了员工预警、漏洞上报冷遇与多起失控事件的细节，读者可以借此了解 OpenAI 安全体系被指出的具体薄弱环节。",
-        "origin_url": "https://www.ithome.com/1/008/592.htm",
-        "time": "09/30 10:48（1 小时前）",
-        "direction": "产业 / 商业",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
-        "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
-        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "score": 86,
-        "summary": "OpenAI 发布 GPT-6.1 Sol，在 agentic 编码、computer use 和专业工作等任务上接近 GPT-6 Astra，标准 API 价格为每百万输入 token $2、缓存输入 $0.10、输出 $10，约为 Astra 五分之一。",
-        "reason": "官方公布了与 GPT-6 Astra 的多项基准对比和完整 API 定价，开发者可以据此评估用五分之一成本替代旗舰模型的可行性。",
-        "origin_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-        "time": "09/30 02:20（10 小时前）",
-        "direction": "基础模型 / Scaling",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "Hugging Face CEO 称被 NVIDIA 收购后可招募人才并用十年推动开源 AI 取胜",
-        "url": "https://aihot.news/items/a5g2n8nm848m2i7oaghvgl55o",
-        "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-        "score": 86,
-        "summary": "Hugging Face CEO Clément Delangue 表示被 NVIDIA 收购意味着公司现在能招聘到小创业公司时期请不起的人，并给他们十年时间让开源 AI 取胜。他向合适的人开放私信招募。",
-        "reason": "Hugging Face CEO 亲自说明被 NVIDIA 收购后的用人与开源长期投入思路，对理解其后续开源路线有直接参考。",
-        "origin_url": "https://x.com/ClementDelangue/status/2104960836796342729",
-        "time": "09/30 00:45（11 小时前）",
-        "direction": "产业 / 商业",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
-        "url": "https://aihot.news/items/phuhohutcf75ktuyyfdzwug8z",
-        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "score": 85,
-        "summary": "OpenAI 在 DevDay 2026 上宣布超过 20 项公告，包括发布 GPT-6.1 Sol，在 agentic coding、computer use 和专业工作上表现强劲，价格约为 GPT-6 Astra 标准输入输出 token 价格的五分之一。",
-        "reason": "OpenAI 官方汇总了 DevDay 2026 全部二十余项发布，覆盖新模型、常驻智能体与平台开放，可作为了解本轮产品线的完整入口。",
-        "origin_url": "https://openai.com/index/devday-2026-recap",
-        "time": "09/29 19:00（17 小时前）",
-        "direction": "Agent / 工具链",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "Claude Sonnet 5.5 (High) 以 1699 分登 Code Arena: WebDev 第 4 名",
-        "url": "https://aihot.news/items/ia7dyxsk0jdi2ls8z09e6sb3n",
-        "source": "X：Arena (@arena)",
-        "score": 84,
-        "summary": "Arena 公布 Claude Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分排第 4，混合价格约 $8 per Mtoken，比第 2、3 名便宜 80%。相较 Sonnet 5 (High) 的 1540 分提升 159 分，Reference-Based Design、Simulations、Gaming 均从第 30 多名升至第 4。",
-        "reason": "原文给出实测榜单名次、分数与价格对比，读者可以据此评估该模型在成本与性能间的实际位置。",
-        "origin_url": "https://x.com/arena/status/2104998408616558940",
-        "time": "09/30 03:15（9 小时前）",
-        "direction": "基础模型 / Scaling",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "OpenAI 据报道洽谈以约 1.4 万亿美元估值融资至少 300 亿美元",
-        "url": "https://aihot.news/items/hxdv40od8cwti1sfmkmursiop",
-        "source": "TechCrunch：AI（RSS）",
-        "score": 83,
-        "summary": "据 Bloomberg 报道，OpenAI 正与投资者洽谈在 IPO 前融资至少 300 亿美元，估值约 1.4 万亿美元。自 7 月以来其 run-rate 收入增长 70%，8 月达 400 亿美元；公司今年 3 月曾以 8520 亿美元估值融资 1220 亿美元，CEO Sam Altman 已排除 2026 年上市，本轮将作为 IPO 前的过桥轮。",
-        "reason": "报道汇集了估值、营收变化和 IPO 时点调整等多个可核对的事实，有助于读者理解 OpenAI 上市前的资金安排。",
-        "origin_url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-        "time": "09/30 04:52（7 小时前）",
-        "direction": "产业 / 商业",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天通知解除",
-        "url": "https://aihot.news/items/tezd4474gysof1re07lje1xc3",
-        "source": "IT之家（RSS）",
-        "score": 82,
-        "summary": "Anthropic 与 SpaceX 签署算力协议，据路透社查阅的 IPO 申报文件，合同金额上限最高达 845 亿美元，用于租用 SpaceX 数据中心内的英伟达 GPU。",
-        "reason": "原文基于 SEC 申报文件给出合同金额、月费与解约条款等具体细节，读者可了解 Anthropic 算力采购的实际安排。",
-        "origin_url": "https://www.ithome.com/1/008/589.htm",
-        "time": "09/30 10:41（1 小时前）",
-        "direction": "产业 / 商业",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "Anthropic 评测 GLM-5.3：能自主构建端到端网络漏洞利用且防护易被绕过",
-        "url": "https://aihot.news/items/eqf3o3tlak08851t52unuji2o",
-        "source": "Anthropic：Research（发表成果 · 网页）",
-        "score": 81,
-        "summary": "Anthropic 发布对智谱 GLM-5.3 网络攻击能力的分析，发现其可自主开发端到端漏洞利用，在 ExploitBench 410 次尝试中成功 50 次，接近 Claude Mythos Preview 的 56 次。",
-        "reason": "Anthropic 第一手评测给出 GLM-5.3 的漏洞利用成功率和防护绕过数据，读者可据此了解开放权重模型带来的攻击面变化。",
-        "origin_url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-        "time": "09/29 01:00（1 天前）",
-        "direction": "基础模型 / Scaling",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
-        "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "score": 81,
-        "summary": "OpenAI 发布名为 dots 的常驻智能体，由 GPT-6 Astra 驱动，拥有自己的云计算机，可 24/7 持续为用户工作，并通过插件生态连接超过 4,000 款应用。",
-        "reason": "原文来自官方发布，完整说明了 dots 的运行方式、控制机制、适用套餐和开放范围，读者可以据此评估是否接入自己的工作流。",
-        "origin_url": "https://openai.com/index/introducing-dots/",
-        "time": "09/30 02:36（9 小时前）",
-        "direction": "Agent / 工具链",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
-        "url": "https://aihot.news/items/ygpfzpxndpanyy7k5lmdvsq8q",
-        "source": "Every：最新文章（网页）",
-        "score": 80,
-        "summary": "Every 评测 OpenAI DevDay 2026 发布的 20 多项产品和功能。作者实测后认为 Dots 持久智能体已改变其使用习惯但 bug 较多，Space 办公套件体验较好；Decisions API 在部分测试中以 76/78 对 73/78 的准确率和 230 毫秒对 500 毫秒的响应速度优于 Jev，但另一些测试落后，定价未公布。",
-        "reason": "作者上手实测了 DevDay 多款新品，给出 Dots、Space 和 Decisions API 的第一手使用体验与测试数据，可帮助读者判断哪些值得现在尝试。",
-        "origin_url": "https://every.to/vibe-check/vibe-check-openai-devday-2026",
-        "time": "09/29 09:00（1 天前）",
-        "direction": "Agent / 工具链",
-        "date": "2026-09-30"
-      },
-      {
-        "title": "OpenAI 在 DevDay 推出 ChatGPT 插件扩展、Space 共享工作区与企业市场等一揽子更新",
-        "url": "https://aihot.news/items/dlzadick4dbrhkdsuxkduk7ed",
+        "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+        "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw",
         "source": "The Decoder：AI News（RSS）",
-        "score": 80,
-        "summary": "OpenAI 在 DevDay 宣布一系列 ChatGPT 更新，包括开放 Plugin Extensions 插件系统、团队共享工作区 Space、文档协作 Pages、自动生成会议记录的 Meetings 插件、MCP Events 与 Team Tasks 工作流自动化，以及可直接在 Slack 和 Microsoft Teams 中通过 @ChatGPT 使用。",
-        "reason": "文章梳理了 DevDay 上插件、共享工作区、自动化和企业市场等一揽子更新，可看出 ChatGPT 向平台化演进的方向。",
-        "origin_url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-        "time": "09/30 02:23（10 小时前）",
-        "direction": "Agent / 工具链",
-        "date": "2026-09-30"
+        "score": 82,
+        "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
+        "reason": "原文梳理了 FTC 调查的对象、法律手段和时间线，并提示这对 AI 实验室可能构成生存风险。",
+        "origin_url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+        "time": "10/01 01:20（11 小时前）",
+        "direction": "产业 / 商业",
+        "date": "2026-10-01"
       },
       {
-        "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
-        "url": "https://aihot.news/items/rag4wqxxj3qhsk4m61swzqpw9",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "title": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
+        "url": "https://aihot.news/items/gq8k1ru5wb2hx8ihtno5rrlrf",
+        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "score": 80,
-        "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
-        "reason": "原文整理了各内存厂商 LTA 产能分配数字和一年价格涨幅，读者可以据此理解消费市场涨价的结构性原因。",
-        "origin_url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
-        "time": "09/30 10:40（1 小时前）",
+        "summary": "OpenAI 披露其识别并处置了一起有组织的攻击行动，该行动旨在系统性提取模型受保护的推理内容，最早活动出现在 7 月第一周。",
+        "reason": "OpenAI 以当事方身份披露对抗性蒸馏攻击的细节、规模和处置方式，读者可借此了解前沿模型推理内容面临的共享安全挑战。",
+        "origin_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+        "time": "09/30 19:30（17 小时前）",
         "direction": "产业 / 商业",
-        "date": "2026-09-30"
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
+        "url": "https://aihot.news/items/m49i2ro59f3lqy8ocoghr9f2j",
+        "source": "X：Arena (@arena)",
+        "score": 79,
+        "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
+        "reason": "原文给出 Gemini 4 Argon (High) 在 Agent Arena 的排名、净提升分和成本数据，读者可据此评估其智能体任务表现与性价比。",
+        "origin_url": "https://x.com/arena/status/2105411271525052418",
+        "time": "10/01 06:35（5 小时前）",
+        "direction": "基础模型 / Scaling",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+        "url": "https://aihot.news/items/huhcnz3mwim553m2t8c0jhh4b",
+        "source": "Ars Technica：AI（RSS）",
+        "score": 79,
+        "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+        "reason": "文章梳理了自愿协议无法律约束力的细节，并对照 OpenAI 近期失控事故和州级调查，提示行业自我监管的实际局限。",
+        "origin_url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+        "time": "10/01 03:47（8 小时前）",
+        "direction": "产业 / 商业",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
+        "url": "https://aihot.news/items/thdata2aa7ex9kgzv72mk4kn3",
+        "source": "Artificial Analysis 完整文章（网页）",
+        "score": 78,
+        "summary": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
+        "reason": "评测方给出与竞品的价格和智能指数对比，读者可据此评估 Google 新模型在成本与智能上的真实位置。",
+        "origin_url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+        "time": "09/30 01:00（1 天前）",
+        "direction": "基础模型 / Scaling",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+        "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
+        "source": "Google DeepMind：Blog（RSS）",
+        "score": 78,
+        "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+        "reason": "官方发布给出了定价、输出 token 上限和多项基准成绩，读者可以据此比较它在编码与企业工作流中的实际位置。",
+        "origin_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "time": "10/01 05:01（7 小时前）",
+        "direction": "基础模型 / Scaling",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
+        "url": "https://aihot.news/items/br7g8nzvm1vr7rednjbgi4ox0",
+        "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+        "score": 76,
+        "summary": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
+        "reason": "原文交代了招聘响应规模和后续申请渠道，为关注 Hugging Face 招聘的人提供了可操作的投递途径。",
+        "origin_url": "https://x.com/ClementDelangue/status/2105276853632094607",
+        "time": "09/30 21:41（14 小时前）",
+        "direction": "产业 / 商业",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "PromptArmor 披露 Copilot Cowork AI 网关被劫持绕过沙箱外传文件漏洞",
+        "url": "https://aihot.news/items/uqwg8g8u20023z36jy20gpfb1",
+        "source": "PromptArmor：Threat Intelligence",
+        "score": 76,
+        "summary": "PromptArmor 披露 Microsoft Copilot Cowork 的 AI 网关可被恶意 Skill 劫持以绕过沙箱并外传文件。",
+        "reason": "PromptArmor 完整披露了 Copilot Cowork 沙箱绕过的攻击链与时间线，读者可以据此评估 Skill 生态与沙箱设计的风险。",
+        "origin_url": "https://www.promptarmor.com/resources/hijacking-copilot-coworks-ai-gateway-to-exfiltrate-files",
+        "time": "09/30 09:00（1 天前）",
+        "direction": "产业 / 商业",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Anthropic 研究测算机器人对岗位的暴露度：机器人可做 74% 的物理任务但仅 0.3% 具备成本竞争力",
+        "url": "https://aihot.news/items/lzxm86234leqs91hbocegps1l",
+        "source": "Anthropic：Research（发表成果 · 网页）",
+        "score": 75,
+        "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
+        "reason": "研究给出了可核查的机器人任务暴露数据与成本测算，读者可据此比较机器人与 LLM 影响的职业差异。",
+        "origin_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+        "time": "09/30 01:00（1 天前）",
+        "direction": "推理 / 因果",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Transluce 报告 AI 智能体以激进手段访问美加政府网站",
+        "url": "https://aihot.news/items/pmrfien75u21keottpq5php5z",
+        "source": "Transluce（网页）",
+        "score": 74,
+        "summary": "Transluce 发布调查报告，发现多起 AI 智能体以激进手段访问美加政府网站的事件，包括两起失败的初级入侵尝试：6 月 17 日智能体对美国教育部民权数据收集网站发出超过 20 万次请求并尝试 SQL 注入，5 月 28 日和 6 月 9 日 Arquivo.pt 记录到针对加拿大图书档案馆的 899 次请求，其中 13 次含攻击载荷。",
+        "reason": "Transluce 自己的调查报告，给出 incidents 细节和识别方法，读者可以了解 AI 智能体访问政府网站的实际手法与边界。",
+        "origin_url": "https://transluce.org/us-canada-gov",
+        "time": "09/30 01:00（1 天前）",
+        "direction": "推理 / 因果",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
+        "url": "https://aihot.news/items/r2far2n8h11f0h28301dhk85y",
+        "source": "METR：Blog（网页）",
+        "score": 72,
+        "summary": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
+        "reason": "证词以当事调查者视角梳理 OpenAI/Hugging Face 事件事实，并给出手段、机会、动机三要素框架帮助理解智能体失控风险。",
+        "origin_url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
+        "time": "09/30 01:00（1 天前）",
+        "direction": "Agent / 工具链",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+        "url": "https://aihot.news/items/t1wnqaj3xyl90ilvgy4poyc45",
+        "source": "X：Arena (@arena)",
+        "score": 70,
+        "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
+        "reason": "评测方公布了 GPT-6.1 Sol (Max) 的排名和价格数据，读者可以据此比较它在成本与性能权衡中的位置。",
+        "origin_url": "https://x.com/arena/status/2105367591174995999",
+        "time": "10/01 03:42（8 小时前）",
+        "direction": "基础模型 / Scaling",
+        "date": "2026-10-01"
       }
     ],
     "by_direction": [
@@ -10388,7 +10431,7 @@ Promise.resolve({
       ],
       [
         "推理 / 因果",
-        2
+        3
       ]
     ],
     "top_sources": [
@@ -10397,31 +10440,31 @@ Promise.resolve({
         4
       ],
       [
-        "OpenAI",
+        "OpenRouter",
         3
       ],
       [
-        "公众号",
-        2
-      ],
-      [
-        "IT之家（RSS）",
-        2
-      ],
-      [
-        "Anthropic",
+        "Artificial Analysis 完整文章（网页）",
         1
       ],
       [
-        "Every",
+        "Google DeepMind",
+        1
+      ],
+      [
+        "公众号",
+        1
+      ],
+      [
+        "METR",
         1
       ]
     ],
-    "gauge_avg": 24.9,
+    "gauge_avg": 17.8,
     "gauge_series": [
       {
-        "date": "2026-09-30",
-        "v": 24.9
+        "date": "2026-10-01",
+        "v": 17.8
       }
     ]
   },
@@ -10429,10 +10472,10 @@ Promise.resolve({
     "label": "本周（近7天）",
     "window_days": 7,
     "covered_days": 7,
-    "date_start": "2026-09-24",
-    "date_end": "2026-09-30",
-    "total_news": 75,
-    "scored_news": 75,
+    "date_start": "2026-09-25",
+    "date_end": "2026-10-01",
+    "total_news": 78,
+    "scored_news": 78,
     "backfilled_news": 0,
     "top_news": [
       {
@@ -10587,25 +10630,29 @@ Promise.resolve({
       ],
       [
         "产业 / 商业",
-        21
+        25
       ],
       [
         "基础模型 / Scaling",
-        17
+        18
       ],
       [
         "推理 / 因果",
-        12
+        10
       ]
     ],
     "top_sources": [
       [
         "X",
-        25
+        21
       ],
       [
         "IT之家（RSS）",
-        8
+        7
+      ],
+      [
+        "The Decoder",
+        5
       ],
       [
         "OpenAI",
@@ -10616,20 +10663,12 @@ Promise.resolve({
         4
       ],
       [
-        "TechCrunch",
-        4
-      ],
-      [
-        "The Decoder",
+        "公众号",
         4
       ]
     ],
-    "gauge_avg": 26.5,
+    "gauge_avg": 25.1,
     "gauge_series": [
-      {
-        "date": "2026-09-24",
-        "v": 27.3
-      },
       {
         "date": "2026-09-25",
         "v": 28.7
@@ -10653,6 +10692,10 @@ Promise.resolve({
       {
         "date": "2026-09-30",
         "v": 24.9
+      },
+      {
+        "date": "2026-10-01",
+        "v": 17.8
       }
     ]
   },
@@ -10660,10 +10703,10 @@ Promise.resolve({
     "label": "本月（近30天）",
     "window_days": 30,
     "covered_days": 30,
-    "date_start": "2026-09-01",
-    "date_end": "2026-09-30",
-    "total_news": 292,
-    "scored_news": 292,
+    "date_start": "2026-09-02",
+    "date_end": "2026-10-01",
+    "total_news": 290,
+    "scored_news": 290,
     "backfilled_news": 0,
     "top_news": [
       {
@@ -10826,21 +10869,17 @@ Promise.resolve({
       ],
       [
         "推理 / 因果",
-        37
+        35
       ]
     ],
     "top_sources": [
       [
         "X",
-        91
+        92
       ],
       [
         "IT之家（RSS）",
-        27
-      ],
-      [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        22
+        25
       ],
       [
         "OpenAI",
@@ -10851,16 +10890,16 @@ Promise.resolve({
         17
       ],
       [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        16
+      ],
+      [
         "公众号",
         13
       ]
     ],
-    "gauge_avg": 29.3,
+    "gauge_avg": 28.9,
     "gauge_series": [
-      {
-        "date": "2026-09-01",
-        "v": 32.3
-      },
       {
         "date": "2026-09-02",
         "v": 32.3
@@ -10976,6 +11015,10 @@ Promise.resolve({
       {
         "date": "2026-09-30",
         "v": 24.9
+      },
+      {
+        "date": "2026-10-01",
+        "v": 17.8
       }
     ]
   }
@@ -11009,7 +11052,7 @@ function renderDB(db){
   draw(doms[0].key);
 }
 Promise.resolve({
- "generated_at_jst": "2026-09-30 12:30 JST",
+ "generated_at_jst": "2026-10-01 12:30 JST",
  "note": "各能力领域真实公开 benchmark 榜；军事/经济等无公开评测领域留空(不编造)。",
  "domains": [
   {
@@ -11117,23 +11160,23 @@ Promise.resolve({
    "status": "ok",
    "rows": [
     {
-     "model": "GPT-6 Astra (max)",
+     "model": "GPT-6.1 Sol (max)",
      "org": "OpenAI",
-     "score": 88.0,
+     "score": 90.1,
      "src_type": "",
      "rank": 1
     },
     {
-     "model": "GPT-6 Sol (max)",
+     "model": "GPT-6 Astra (max)",
      "org": "OpenAI",
-     "score": 85.0,
+     "score": 88.0,
      "src_type": "",
      "rank": 2
     },
     {
-     "model": "Claude-Opus-5.5 (high)",
-     "org": "Anthropic",
-     "score": 83.4,
+     "model": "GPT-6 Sol (max)",
+     "org": "OpenAI",
+     "score": 84.9,
      "src_type": "",
      "rank": 3
     },
