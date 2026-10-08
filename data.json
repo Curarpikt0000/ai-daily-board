@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.924
+    "weighted": 1.917
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.895
+    "weighted": 1.888
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.816
+    "weighted": 1.809
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.582
+    "weighted": 1.576
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.569
+    "weighted": 1.588
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.436
+    "weighted": 1.431
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 1.077
+    "weighted": 1.073
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.28
+    "weighted": 1.275
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.168
+    "weighted": 1.164
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.481
+    "weighted": 1.476
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.464
+    "weighted": 1.459
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.557
+    "weighted": 1.551
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 1.082
+    "weighted": 1.077
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.545
+    "weighted": 1.54
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.137
+    "weighted": 1.133
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.516
+    "weighted": 1.51
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.758
+    "weighted": 0.755
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.992
+    "weighted": 0.989
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.989
+    "weighted": 0.992
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.752
+    "weighted": 0.749
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.724
+    "weighted": 0.788
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.922
+    "weighted": 0.919
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.779
+    "weighted": 0.776
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.732
+    "weighted": 0.729
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.779
+    "weighted": 0.776
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.539
+    "weighted": 0.537
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.785
+    "weighted": 0.782
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.582
+    "weighted": 0.58
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.569
+    "weighted": 0.566
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.724
+    "weighted": 0.721
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.589
+    "weighted": 0.586
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.779
+    "weighted": -0.776
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.951
+    "weighted": -0.948
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.797
+    "weighted": -0.794
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.744
+    "weighted": -0.741
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.773
+    "weighted": -0.77
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.705
+    "weighted": -0.702
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.758
+    "weighted": -0.755
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.755
+    "weighted": -0.752
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.785
+    "weighted": -0.782
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.764
+    "weighted": -0.761
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.58
+    "weighted": -0.577
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.575
+    "weighted": -0.573
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.741
+    "weighted": -0.738
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.977
+    "weighted": -1.969
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.42
+    "weighted": -1.415
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.47
+    "weighted": -1.464
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.516
+    "weighted": -1.51
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.588
+    "weighted": -1.582
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.164
+    "weighted": -1.159
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.128
+    "weighted": -1.124
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.534
+    "weighted": -1.576
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.481
+    "weighted": -1.476
    }
   ],
   "distribution": {
@@ -684,7 +684,7 @@
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "directions": [
   {
    "count": 5,
@@ -692,58 +692,58 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-     "permalink": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
-     "reason": "官方发布给出参数量、内存占用、维度裁剪和基准分数等具体细节，读者可据此评估端侧多模态嵌入方案的可行性。",
-     "score": 70,
-     "source": "Google DeepMind：Blog（RSS）",
-     "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
-     "time": "10/07 04:57（7 小时前）",
-     "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://ai.google.dev/gemini-api/docs/changelog#10-06-2026",
-     "permalink": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-     "reason": "原文列出新模型相对上一代的具体提升点和新支持的比例与分辨率，可帮助图像生成用户判断是否迁移。",
-     "score": 68,
-     "source": "Gemini API：更新日志（网页）",
-     "summary": "Google 在 Gemini API 更新日志中宣布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1）正式可用，作为 Nano Banana 2（gemini-3.1-flash-image）的更新版本。",
-     "time": "10/06 09:00（1 天前）",
-     "title": "Gemini Nano Banana 2.1 图像生成模型正式发布，gemini-3.1-flash-image 被弃用"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/arcprize/status/2107491194007585239",
-     "permalink": "https://aihot.news/items/quya0qxvagwzjaw5wd9ma7vvu",
-     "reason": "ARC Prize 官方实测数据同时给出分数和每任务成本，读者可以据此比较 DeepSeek V4.1 Flash 与上一代的性价比取舍。",
-     "score": 67,
-     "source": "X：ARC Prize (@arcprize)",
-     "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 得分 72.9%，每任务成本 $0.13；ARC-AGI-1 得分 94.5%，每任务成本 $0.07。相比 V4 Flash 的最佳成绩，ARC-AGI-1 高 5.5 分，ARC-AGI-2 高 11.5 分，但每任务成本高约 250%。",
-     "time": "10/07 00:20（12 小时前）",
-     "title": "DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 评测中的成绩公布"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/arena/status/2107476436223504484",
-     "permalink": "https://aihot.news/items/gyfo8loe7gfo6fmgt762027fp",
-     "reason": "原文说明 Agent Arena 用真实长程智能体任务和因果追踪方法评分，读者可据此理解该评测如何衡量模型表现。",
-     "score": 67,
-     "source": "X：Arena (@arena)",
-     "summary": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
-     "time": "10/06 23:21（13 小时前）",
-     "title": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
-     "permalink": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
-     "reason": "原文给出 Intelligence Index、Cyber Index、定价与上下文窗口等具体数据，读者可据此评估 Mistral Large 4 的真实水平与成本。",
-     "score": 66,
+     "origin_url": "https://artificialanalysis.ai/articles/claude-haiku-5-5",
+     "permalink": "https://aihot.news/items/ms4yfg2a6aiqlzrqm0u4eedyh",
+     "reason": "原文给出 Haiku 5.5 的跑分、token 消耗与分层定价细节，并指出 token 用量偏高和拒绝率问题，可作为选型参考。",
+     "score": 78,
      "source": "Artificial Analysis 完整文章（网页）",
-     "summary": "Mistral 发布 Mistral Large 4（Research Public Preview），在 Artificial Analysis Intelligence Index 得分 38，与 GPT-6 Luna（max, 38）相当，为美中之外最智能模型，计划 10 月底开源 1T 参数（49B 激活）权重。",
-     "time": "10/06 01:00（1 天前）",
-     "title": "Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型"
+     "summary": "Anthropic 发布 Claude Haiku 5.5，在 Artificial Analysis Intelligence Index 得 43 分，较上一代 Haiku 一年内提升 26 分，是首个支持 effort 设置与 adaptive thinking 的 Haiku 模型。",
+     "time": "10/07 01:00（1 天前）",
+     "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 评测得分 43"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://www.anthropic.com/claude-haiku-5-5",
+     "permalink": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x",
+     "reason": "官方发布了定价、基准成绩与订阅 API 额度变化，读者可以据此评估小模型在低成本智能体任务中的适用场景。",
+     "score": 78,
+     "source": "Anthropic：Newsroom（网页）",
+     "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
+     "time": "10/07 01:00（1 天前）",
+     "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/arena/status/2107717155374727602",
+     "permalink": "https://aihot.news/items/kxqn0rzbtjdxg7ibbjge08tzt",
+     "reason": "Arena 实测数据显示 Mistral Large 4 的编码得分、排名和价格对比，可帮读者评估其性价比位置。",
+     "score": 68,
+     "source": "X：Arena (@arena)",
+     "summary": "Arena 宣布 Mistral Large 4 登陆 Code Arena: WebDev，以 1534 分排名第 45，比 Mistral Large 3（第130名）高 304 分，比 Mistral Medium 3.5 高 271 分。",
+     "time": "10/07 15:18（21 小时前）",
+     "title": "Mistral Large 4 进入 Code Arena: WebDev 排名第45，得分1534"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/AravSrinivas/status/2107871834205196784",
+     "permalink": "https://aihot.news/items/lfy2ww68p9lgpxxhu5jssflwf",
+     "reason": "原文给出两个规模的嵌入模型、共享空间用法和基准分数，读者可据此评估多模态检索与端侧查询的可行方案。",
+     "score": 65,
+     "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+     "summary": "Perplexity 开源 pplx-embed-v2-late，两个针对文本和图像的 late-interaction 多向量嵌入模型，大小为 9B 和 0.6B，共享同一嵌入空间，权重已在 Hugging Face 提供。9B 可用于索引多模态数据，0.6B 可在设备端查询，无需 OCR 即可检索 PDF 页面；模型在 MADQA 得分 92.4%，BrowseComp+ 得分 64%。",
+     "time": "10/08 01:33（11 小时前）",
+     "title": "Perplexity 开源 pplx-embed-v2-late 多模态 late-interaction 嵌入模型（9B 与 0.6B）"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://www.liquid.ai/blog/d1-open",
+     "permalink": "https://aihot.news/items/qawfhyw1v10hv75bld8ogbjgj",
+     "reason": "官方公开了模型架构、训练细节和各硬件延迟数据，读者可以据此评估小参数决策模型在边缘部署中的取舍。",
+     "score": 61,
+     "source": "Liquid AI 模型与工程博客（网页）",
+     "summary": "Liquid AI 发布开源权重决策模型 d1-3B 和 d1-omni-600M，已在 Hugging Face 上提供。",
+     "time": "10/07 09:00（1 天前）",
+     "title": "Liquid AI 发布开源决策模型 d1-3B 和 d1-omni-600M"
     }
    ],
    "slug": "scaling"
@@ -754,185 +754,163 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://claude.dev/blog/claude-code-in-the-cloud/",
-     "permalink": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h",
-     "reason": "作者用四个真实云会话实测并行修复、文档校对和结构化日志，给出本地与云会话的选择边界和七个适用工作流。",
-     "score": 82,
-     "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-     "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
-     "time": "10/06 21:00（15 小时前）",
-     "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾"
+     "origin_url": "https://openai.com/index/gpt-6-for-everyone/",
+     "permalink": "https://aihot.news/items/uir31g728myjry383z17txvrw",
+     "reason": "官方说明了 Intelligent UI 的组件库与编译器机制，并给出 GPT-6 与 GPT-5.6 的具体对比数据，读者可了解交互形态与响应速度的实际变化。",
+     "score": 87,
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+     "time": "10/08 03:00（9 小时前）",
+     "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/OpenRouter/status/2107471559040635360",
-     "permalink": "https://aihot.news/items/z94jsbcn3hkyiagdyb9wai8sm",
-     "reason": "原文列出了参数量、上下文窗口和定价等具体规格，读者可以据此评估接入成本和适用场景。",
+     "origin_url": "https://www.a16z.news/p/why-texas-is-making-data-centers",
+     "permalink": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki",
+     "reason": "原文用并网队列、自备电源和灵活性三条线索拆解德州数据中心限电的成因，帮助读者理解 AI 电力瓶颈的真实结构。",
+     "score": 75,
+     "source": "a16z：News（RSS）",
+     "summary": "a16z 的 Ryan McEntush 分析德州电网暂停审批数据中心的原因：并网队列从 2024 年底的 63 GW 激增到今年 6 月的 474 GW，约 90% 是数据中心，开发商大量投机性申请且社区沟通不足。",
+     "time": "10/07 23:01（13 小时前）",
+     "title": "a16z 解析德州为何让数据中心排队等电"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+     "permalink": "https://aihot.news/items/t02toac3ii8mp1lxzl4blewdd",
+     "reason": "原文给出 RTX Spark 的具体规格、预购时间与 MXC 的系统级细节，读者可据此评估本地跑 Agent 的硬件路线。",
+     "score": 74,
+     "source": "NVIDIA Blog（RSS）",
+     "summary": "NVIDIA 与 Microsoft 在旧金山活动上宣布为 Windows PC 共同打造 AI Agent 软硬件。",
+     "time": "10/08 03:45（8 小时前）",
+     "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台并宣布 MXC 让 AI Agent 落地 Windows PC"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/cursor_ai/status/2107897257651769464",
+     "permalink": "https://aihot.news/items/vk1sotxx6v25hhgn55mwgv4nv",
+     "reason": "原文给出了 Claude Haiku 5.5 具体定价和 Sonnet 5.5 缓存读取降价，可帮助开发者评估在 Cursor 上的使用成本。",
      "score": 71,
-     "source": "X：OpenRouter (@OpenRouter)",
-     "summary": "Mistral Large 4 现已在 OpenRouter 开放公测，规格为 1T 参数（49B 激活）、原生多模态、512K 上下文、最高 256K 输出。前两周五折：每 1M tokens 输入 $0.68、输出 $2.09，缓存 $0.07。",
-     "time": "10/06 23:02（13 小时前）",
-     "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文"
+     "source": "X：Cursor (@cursor_ai)",
+     "summary": "Cursor 公布 Claude Haiku 5.5 定价为每 M 输入 token $0.10、输出 token $0.50，输入超过 100k token 时为 $0.50/M 和 $2.50/M。Claude Sonnet 5.5 缓存读取价格也从 $0.20/M 降至 $0.10/M，用户可在 cursor.com/evals 上通过 CursorBench 对比 Haiku 5.5 的表现。",
+     "time": "10/08 03:14（9 小时前）",
+     "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.youtube.com/watch?v=idJQMJwHtyM",
-     "permalink": "https://aihot.news/items/sah5vczzr22l9ieb4bxrpoowd",
-     "reason": "官方发布说明了在 Docs、Sheets、Slides 中就地编辑的工作方式，读者可据此判断是否要装进自己的付费计划。",
+     "origin_url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+     "permalink": "https://aihot.news/items/ponkn6n046yorr5pg1yv3yjm5",
+     "reason": "原文给出了 Max 和 Team 套餐的月度 API 额度金额与适用范围，读者可据此判断是否值得调整现有订阅。",
      "score": 70,
-     "source": "Claude：YouTube（RSS）",
-     "summary": "Claude 宣布推出 Claude for Google Workspace（beta），一次安装即可覆盖 Google Docs、Sheets 和 Slides。",
-     "time": "10/07 02:02（10 小时前）",
-     "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
-     "permalink": "https://aihot.news/items/arlkhdtjzshqi1qdyowqvtwyy",
-     "reason": "原文给出内存占用、延迟和多种开发入口的具体数据，读者可以据此评估在本地多模态检索场景的落地方式。",
-     "score": 68,
-     "source": "Google Developers Blog（RSS）",
-     "summary": "Google DeepMind 于 10 月 6 日发布开放权重的多模态嵌入模型 EmbeddingGemma 2，将文本、图像、视频帧和音频映射到统一向量空间，参数量 740M。",
-     "time": "10/06 09:00（1 天前）",
-     "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://cursor.com/changelog/remote-control-local-agents",
-     "permalink": "https://aihot.news/items/wbd0ik8kqdtpjw5u8kjsudqms",
-     "reason": "原文说明了远程控制的开启方式、配对流程和电脑需保持开机的限制，读者可据此判断是否适合在自己的工作流中使用。",
-     "score": 63,
-     "source": "Cursor：Changelog（网页）",
-     "summary": "Cursor 在 iOS 应用中上线本地智能体远程控制，用户可查看并回复电脑上正在运行的智能体。除企业组织外默认对所有用户开启，登录后账户中的电脑自动显示，在桌面应用批准配对即可使用。智能体仍在本机运行，需电脑保持开机联网，可在设置中开启防止休眠选项，企业管理员可在 Org settings 中开启此功能。",
-     "time": "10/06 09:00（1 天前）",
-     "title": "Cursor iOS 应用支持远程控制本地智能体"
+     "source": "X：Claude Devs (@ClaudeDevs)",
+     "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+     "time": "10/08 03:08（9 小时前）",
+     "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度"
     }
    ],
    "slug": "agent"
   },
   {
-   "count": 2,
+   "count": 4,
    "label": "推理 / 因果",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-     "permalink": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-     "reason": "原文说明了成果发布方式、Lean 形式化和计算开销等细节，读者可以了解 AI 数学成果如何面向数学社区开放。",
-     "score": 71,
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。",
-     "time": "10/07 08:01（4 小时前）",
-     "title": "OpenAI 发布内部前沿模型产出的数学研究成果"
+     "origin_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+     "permalink": "https://aihot.news/items/r96kyuxfie0w9mup4206gzn29",
+     "reason": "原文给出 IOI 与 IMO 金牌级成绩的具体分数、训练配方和开放资源，读者可以复用其模型与推理系统组合思路。",
+     "score": 75,
+     "source": "Hugging Face 社区博客（混合发现）",
+     "summary": "NVIDIA Nemotron 团队基于 Nemotron 3，用 SFT、RL 和反馈驱动推理分别构建了在 IOI 2026 与 IMO 2026 达到金牌水平的系统。",
+     "time": "10/07 21:45（14 小时前）",
+     "title": "Nemotron 系列微调后达到 IOI 2026 与 IMO 2026 金牌水平"
     },
     {
      "from7d": false,
-     "origin_url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
-     "permalink": "https://aihot.news/items/s3bsk24s6z9jxpbv5p7ju67xz",
-     "reason": "METR用Inspect查看器漏洞做了概念验证，说明AI输出的日志应被当作不可信输入，并提出把可观测性按安全关键基础设施对待。",
-     "score": 66,
-     "source": "METR：Blog（网页）",
-     "summary": "METR 发布分析，指出当前 AI 失准行为仍在推理轨迹和日志中留下大量证据，但未来智能体可能篡改人类用来审查它们的可观测性系统。在 Inspect 评估框架的转录查看器中，研究人员在 AI 智能体协助下约 10 分钟找到一个客户端 JavaScript 注入漏洞，可让智能体任意修改审查者看到的内容（真实数据仍保留在数据库中）；Meridian Labs 在报告后一天内修复。",
-     "time": "10/06 01:00（1 天前）",
-     "title": "METR 演示 AI 智能体如何篡改 Inspect 评估记录以掩盖不当行为"
+     "origin_url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+     "permalink": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61",
+     "reason": "原文用三个月随机田野实验区分了AI辅助产出与独立能力变化，给出初级与资深律师分化的具体证据。",
+     "score": 72,
+     "source": "Google Research：Blog（网页）",
+     "summary": "Google Research 在 NBER 发表的论文报告了一项三个月随机田野实验，向11家知识产权律所的133名律师随机开放当时未发布的 AI 专利写作助手（现属 Gemini Notebook）。",
+     "time": "10/07 09:00（1 天前）",
+     "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+     "permalink": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l",
+     "reason": "框架让部署中的真实 agent harness 直接参与 RL 训练，无需重写 agent 代码，还给出了端到端编码智能体训练效果作参考。",
+     "score": 69,
+     "source": "Microsoft Research 博客（RSS）",
+     "summary": "Microsoft Research Asia 提出 Harnessed Agentic RL 训练范式并开源重建的 Agent Lightning v1.0，让部署时使用的同一 agent harness 直接参与强化学习，无需在训练框架内重写 agent。",
+     "time": "10/08 01:00（11 小时前）",
+     "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://hai.stanford.edu/news/want-employees-to-embrace-ai-stop-selling-it-as-a-productivity-tool",
+     "permalink": "https://aihot.news/items/kdyctdu2befn8m1jz1wgktb84",
+     "reason": "研究给出一个可操作的管理方法，把 AI 介绍为工作丰富化并配套培训和时间，比强调提效更能推动员工真正使用。",
+     "score": 61,
+     "source": "Stanford HAI News（网页）",
+     "summary": "Stanford HAI 报道 Karunakaran 等人对律所、广告公司和 IT 服务公司的 AI 部署研究，发现把 AI 介绍为生产力工具时员工不愿使用，介绍为工作丰富化手段时使用意愿明显提升。在一家律所的对照观察中，以丰富工作为目标引入 AI 工具 LawBot 的部门，使用量比强调提效的部门高 58%，尝试新用法多 70%。研究还强调配套培训、探索时间和调整考核指标的重要性。",
+     "time": "10/07 01:00（1 天前）",
+     "title": "Stanford HAI 研究：想让员工拥抱 AI，别把它包装成效率工具"
     }
    ],
    "slug": "reasoning"
   },
   {
-   "count": 5,
+   "count": 1,
    "label": "产业 / 商业",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://x.com/thexpin/status/2107524306058289533",
-     "permalink": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
-     "reason": "融资规模较原目标明显上调，还提到腾讯、宁德时代参与和 IPO 时间点，读者可借此了解 DeepSeek 的资本动向。",
-     "score": 82,
-     "source": "X：X.PIN (@thexpin)",
-     "summary": "据 Bloomberg 援引知情人士报道，DeepSeek 接近完成至少 800 亿元（约 120 亿美元）融资，高于原定约 500 亿元的目标。腾讯和电池厂商宁德时代是本轮最大投资方之一，融资预计很快完成，DeepSeek 还计划 2027 年初 IPO，细节仍可能变化。",
-     "time": "10/07 02:32（10 小时前）",
-     "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/rohanpaul_ai/status/2107346890648076595",
-     "permalink": "https://aihot.news/items/nnl0kba78980jig0szh0hkfop",
-     "reason": "原文依据 SEC 招股书拆解 Anthropic 计算力承诺的支付结构，读者可据此了解这笔支出中多少不依赖实际使用。",
-     "score": 77,
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "summary": "Anthropic 计划未来数年在云计算和计算力上支出 5180 亿美元，其中约 4137 亿美元为不可撤销承诺，即使容量闲置也需支付，平均每年约 410 亿美元。",
-     "time": "10/06 14:47（21 小时前）",
-     "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
-     "permalink": "https://aihot.news/items/iq15z1msend1ocusxt2phyms7",
-     "reason": "GitHub 工程方亲述面向智能体规模开发重建 Git 基础设施的动因与设计原则，含内部基准写吞吐最高 35 倍等一手数据。",
-     "score": 67,
-     "source": "GitHub Blog",
-     "summary": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
-     "time": "10/07 05:57（6 小时前）",
-     "title": "GitHub 重建 Git 基础设施，应对智能体规模开发"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-     "permalink": "https://aihot.news/items/krivwcmcv6qloa3az7f5j0jip",
-     "reason": "汇总了 Reflection Beam 的训练规模、基准成绩与第三方独立评价，读者可借此了解美国开源模型与中文模型的实际差距。",
-     "score": 66,
-     "source": "Latent Space（RSS）",
-     "summary": "Reflection 发布文本-only 的 501B 总参数 / 23B 激活 MoE 模型 Beam，面向编码、智能体和科学任务，从零训练，完整权重将在本月以 Apache 2.0 发布。",
-     "time": "10/06 15:28（21 小时前）",
-     "title": "Reflection 发布 501B-A23B 开源编码模型 Beam"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-     "permalink": "https://aihot.news/items/ktjti7hbm1gor33jpoc6ghili",
-     "reason": "原文来自协议发起方，说明了认证方式、三种接入路径和后续规范计划，读者可以据此评估个人智能体与企业的连接方式。",
-     "score": 62,
-     "source": "Sierra：Blog（RSS）",
-     "summary": "Sierra 与 Meta 联合 Genesys、Instinct、Rocket、Shopify、Stripe、Walmart 等伙伴宣布开发 Personal Agent Protocol，一个定义个人 AI 智能体如何与企业交互的开放标准，任何人都可实现。",
-     "time": "10/07 02:32（10 小时前）",
-     "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议"
+     "origin_url": "https://www.404media.co/undue-emotional-weight/",
+     "permalink": "https://aihot.news/items/iz93flwr7h9m7po4wnu8sm4hy",
+     "reason": "报道记录了美国法院首次承认 AI 生成受害者视频影响量刑的案例，可帮助读者理解 AI 生成内容进入司法程序的边界争议。",
+     "score": 78,
+     "source": "404 Media（RSS）",
+     "summary": "亚利桑那州上诉法院裁定，Gabriel Horcasitas 2021 年路怒枪杀 Christopher Pelkey 一案维持过失杀人定罪，但因量刑听证中播放的 AI 生成受害者视频带有不当情感分量，法官须重新考虑刑期。",
+     "time": "10/07 23:46（12 小时前）",
+     "title": "亚利桑那州法院裁定 AI 生成受害者视频带有不当情感分量 将重新量刑"
     }
    ],
    "slug": "industry"
   }
  ],
- "generated_at_jst": "2026-10-07 12:36 JST",
+ "generated_at_jst": "2026-10-08 12:34 JST",
  "hot_topics": [
   {
    "permalink": null,
-   "source_count": 19,
-   "title": "Mistral 发布 Large 4 预览版，月底开放权重"
+   "source_count": 15,
+   "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价"
   },
   {
    "permalink": null,
-   "source_count": 11,
-   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2"
-  },
-  {
-   "permalink": null,
-   "source_count": 7,
+   "source_count": 9,
    "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
   },
   {
    "permalink": null,
-   "source_count": 11,
-   "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
+   "source_count": 10,
+   "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI"
+  },
+  {
+   "permalink": null,
+   "source_count": 16,
+   "title": "Mistral 发布 Large 4 预览版，月底开放权重"
+  },
+  {
+   "permalink": null,
+   "source_count": 4,
+   "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型"
   },
   {
    "permalink": null,
    "source_count": 10,
    "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元"
-  },
-  {
-   "permalink": null,
-   "source_count": 8,
-   "title": "OpenAI在欧盟为ChatGPT文本加隐形水印"
   }
  ],
  "kol_cards": [
@@ -4191,8 +4169,8 @@
    "domain": "industry",
    "field": "industry",
    "kol_name": "Elon Musk",
-   "latest_date": "2026-10-04",
-   "latest_view": "Elon Musk reveals Grok developer rebrand after Trump AI order",
+   "latest_date": "2026-10-06",
+   "latest_view": "Elon Musk's Ex-Wife Says He 'Thrives on Chaos' - Business Insider",
    "name_zh": "埃隆·马斯克",
    "rating": "★★★★★",
    "role": "xAI / Tesla / SpaceX CEO",
@@ -5081,6 +5059,19 @@
      "translation": "Elon Musk在周日表示，SpaceXAI（公司名），即Grok背后的公司，将更名为“SpaceXSI”，此举正值总统Donald Trump宣布成立新的联邦超级智能部队之际。Musk的评论是对一位X用户在周日建议更名的回应。Newsweek在10月4日联系了Musk和白宫以获取评论。上个月，Trump签署了一项行政命令，将“人工智能”和“AI”这两个术语在行政部门的沟通中替换为“超级智能”和“SI”。分析人士此前告诉Newsweek，除非主要行业领导者接受新术语，否则这一转变将难以建立。Musk似乎在10月4日的一次简短交流中支持了术语的更改。这位特斯拉首席执行官在X上说：“不再是AI。SI更好。”对此，X用户XFreeze问道：“有可能更名为SpaceXSI吗？”Musk回答：“是的，我们将进行这一更改。”SpaceXAI开发了Grok，这个平台与OpenAI、Anthropic、Google和Microsoft的产品竞争。虽然Musk没有提供更多细节，但评论表明他愿意采用白宫推广的语言。尽管Musk在社交媒体上的回复是非正式的，但尚未正式宣布任何公司名称的更改。\n\n在Truth Social上的一篇帖子中，Trump表示，超级智能部队将协调联邦政府对超级智能的方针，并监督与消费者、公共利益团体、宗教组织、关键基础设施提供商和技术公司的互动。他指出，这一努力是在涉及主要技术公司的“历史性白宫超级智能协议”之后进行的，旨在帮助维持美国在该领域的领导地位。Trump将超级智能描述为一种可能比工业革命和互联网产生更大影响的技术。他说，该工作组将由国家情报总监Jay Clayton、联邦贸易委员会主席Andrew Ferguson、战争研究与工程副部长Emil Michael和人事管理办公室主任Scott Kupor领导，同时向总统和白宫幕僚长Susie Wiles汇报。据《华尔街日报》报道，该工作组被赋予120天的时间来提交一份报告，评估超级智能的风险和机遇，并概述联邦政府在监督该技术方面应发挥的作用。\n\n根据Trump的行政命令，各机构被指示改用“超级智能”和“SI”。该文件认为，现代AI系统已经远远超出了最初设想的范围，当时该技术首次获得其当前名称。Trump在向联合国大会发表讲话时曾预告这一变化，称“人工”一词使该技术听起来“虚假”，尽管其能力不断增强。在发布命令之前，Trump还询问了Truth Social用户他们更喜欢“超级智能”还是“卓越智能”。超过50,000人回应，其中65%支持“超级智能”。新术语是否会在政府之外传播仍不确定。芝加哥大学的营销专家Jean-Pierre Dubé此前告诉Newsweek，“超级智能”在技术圈中已经有了既定的含义，通常用于描述在广泛领域中超过人类认知表现的系统。Dubé表示，现有的定义可能会造成混淆，使得广泛采用变得困难。\n\n他补充说，任何成功的品牌重塑努力可能都依赖于领先公司和高管的支持。\n\n特朗普的命令是在他主持了一场与科技领袖的白宫峰会的同一天签署的，参与者包括Musk、亚马逊创始人Jeff Bezos、Nvidia（英伟达）CEO Jensen Huang、Anthropic CEO Dario Amodei、OpenAI（开放人工智能）联合创始人Greg Brockman和微软CEO Satya Nadella。\n\n活动中的讨论集中在AI（人工智能）系统的快速发展及其对社会的潜在影响。\n\n政府还推出了America.gov，这是一个类似聊天机器人的政府门户网站，旨在帮助人们了解联邦项目、服务和福利。\n\n人们可能会关注其他主要AI公司是否采用这一新术语。\n\n行业支持被专家认为是决定特朗普的努力是仅仅停留在政府品牌变化还是发展为整个技术行业更广泛转变的关键因素。\n\nNewsweek（新闻周刊）的记者和编辑使用了我们的AI助手Martyn来撰写这篇报道。了解更多关于Martyn的信息，请点击这里。\n\n就此报道联系Newsweek编辑：Tobias Meyjes和Cristina Diciu。",
      "translation_len": 1704,
      "url": "https://www.newsweek.com/elon-musk-grok-developer-rebrand-after-trump-ai-remark-12521992"
+    },
+    {
+     "date": "2026-10-06",
+     "date_method": "jsonld",
+     "detail": "23 hours ago · Justine Musk said Elon Musk \"thrives on chaos\" and brings a life-or-death intensity that can initially feel like excitement.",
+     "explain": "埃隆·马斯克的管理风格被形容为充满混乱和紧迫感，他的前妻表示，这种环境似乎是他感到舒适的地方。她在接受采访时提到，马斯克就像是一个能在跳下悬崖的过程中发明降落伞的人，他在混乱中如鱼得水。作为特斯拉的首席执行官，马斯克常常将挑战描述为生死攸关的紧急情况，这种表现带有一定的戏剧性。他的公司内部也反映出这种紧张的氛围。在他的人工智能公司xAI，现任和前任员工表示，马斯克的参与导致优先事项的突然变化，员工们常常需要中断手头工作来解决他提出的问题。由于公司规模较小，几乎每件事都像是紧急任务。马斯克在接管推特后也进行了大幅度的裁员，尽管他后来承认有些裁员过于激进。马斯克的前妻还提到，他的这种强度和紧迫感能够吸引他人，尽管最初看起来像是兴奋，但最终可能会让人感到无所适从。她认为，马斯克的行为中总有某种方法和策略，尽管有时可能会让人感到困惑。",
+     "gist": "埃隆·马斯克认为在混乱中能激发创造力，并通过高强度和快速决策来应对挑战。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "Elon Musk's Ex-Wife Says He 'Thrives on Chaos' - Business Insider",
+     "translation": "对于Elon Musk来说，混乱可能不仅仅是一种管理风格：他的前妻说这是他感到舒适的地方。\n\nJustine Musk在周二发布的Kara Swisher对她和电影制片人Alex Gibney的采访预告中描述了这位亿万富翁对强度的渴望，采访是在Gibney的纪录片《MUSK》发布之前进行的。\n\n“我曾经形容他是那种可以从悬崖边缘跳下去，然后在下落过程中发明降落伞的人，”Justine Musk对Swisher谈到她的前夫时说，“我觉得他在混乱中茁壮成长。”\n\nJustine Musk是一位作家，也是Vivian Jenna Wilson的母亲，她说这位特斯拉（Tesla）CEO的语言经常将挑战描述为生存危机，并带有表演的成分。\n\n“一切都是生死攸关的，”她说。“我认为他真的就是这样生活的。他真的以那种强度的状态生活。”\n\n这种描述在Elon Musk的公司内部也有共鸣。\n\n在xAI，现任和前任员工告诉Business Insider，Musk的日益参与导致了优先事项的突然转变、紧张的“作战室”，以及一个由300多名工程师组成的群聊。研究人员会中断正在进行的工作，以解决他指出的问题。\n\n“因为公司规模很小，所以一切都是紧急情况，”一位前员工曾告诉Business Insider。\n\nMusk愿意进行大幅度的改变并迅速撤销其中一些改变，这种做法早在他的AI（人工智能）初创公司之前就存在。在2022年接管Twitter后，他削减了Twitter的员工队伍，并表示有些裁员过于激进。\n\n在你的一天中休息一下，看看你能走多远。\n\n想在你的新闻推送中看到更多Business Insider的内容？在Google中添加BI，这样当你搜索重要内容时，我们的报道更容易找到。\n\nJustine Musk说，她前夫的强度可以在别人意识到发生了什么之前将他们吸引进去。\n\n“他把这种强度带在身边，并且有一种把你吸引进去的方法，起初这看起来很像兴奋，”Justine Musk说。“我总是假设他的疯狂中有方法，有时是很多障眼法。”",
+     "translation_len": 864,
+     "url": "https://www.businessinsider.com/justine-musk-elon-interview-kara-swisher-alex-gibney-movie-2026-10"
     }
    ]
   },
@@ -7900,6 +7891,19 @@
      "url": "https://www.explainx.ai/blog/yann-lecun-mocks-gpt-2-release-fears-september-2026"
     },
     {
+     "date": "2026-09-28",
+     "date_method": "jsonld",
+     "detail": "Yann LeCun's convolutional neural networks underpin modern computer vision, and after a decade running AI research at Meta he left in 2025 to raise over $1 billion for AMI Labs, betting on 'world models' over large language models.",
+     "explain": "杨立昆是现代计算机视觉领域的奠基人之一，他的卷积神经网络（CNN）技术为这一领域的发展提供了重要支持。2025年，他离开了在Meta（原Facebook）长达十多年的AI研究主管职位，创立了Advanced Machine Intelligence Labs（AMI Labs），并在2026年成功筹集了超过10亿美元的种子资金，这成为历史上最大规模的种子轮融资之一。杨立昆的目标是发展“世界模型”，这是一种与大型语言模型（LLM）不同的AI发展路径。他认为，单靠扩大语言模型规模并不能实现人类水平的智能，而“世界模型”则通过预测和模拟物理现实来学习，更接近于动物和人类的学习方式。这一理念使他与Meta的生成式AI产品战略产生了分歧，最终导致他的离职。\n\n杨立昆的职业生涯始于法国，他在巴黎附近出生并接受工程学教育，随后在1987年获得计算机科学博士学位。在贝尔实验室工作期间，他开发了LeNet，这是一种能够识别手写数字的卷积神经网络架构，并被应用于美国银行系统的支票识别中。此后，他在纽约大学成立了数据科学中心，并在2013年成为Facebook AI研究的创始主任。尽管他与Meta的AI战略存在分歧，但他仍然在纽约大学担任教授职位，并继续推动“世界模型”的研究。杨立昆与其他两位深度学习领域的开创者共同获得了2018年的图灵奖，他们三人如今都在不同程度上对行业的现行方向持批评态度。",
+     "gist": "杨立昆认为「世界模型」比大型语言模型更接近人类和动物的学习方式，并为此筹集了超过10亿美元创立AMI Labs。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "Yann LeCun — No. 22 on The Datagarchy 100 (2026)",
+     "translation": "Yann LeCun的卷积神经网络（CNN）支撑了现代计算机视觉，在Meta负责人工智能研究十年后，他于2025年离职，为AMI Labs筹集了超过10亿美元，押注于“世界模型”而非大型语言模型（LLM）。\n\nYann LeCun是Advanced Machine Intelligence Labs（AMI Labs）的联合创始人和执行主席，也是纽约大学（NYU）Courant Institute的Jacob T. Schwartz Professor。他的卷积神经网络，从LeNet开始，支撑了现代计算机视觉。他与Geoffrey Hinton和Yoshua Bengio因对深度学习的基础性贡献共同获得了2018年图灵奖。在Meta负责人工智能研究超过十年后，他于2025年底宣布离职，创立了AMI Labs。这家初创公司在2026年筹集了大约10.3亿美元的种子资金，是历史上最大的一轮种子融资之一。其目标是追求“世界模型”，作为大型语言模型的明确替代。他愿意将自己的创业押注于这一反主流立场，使他成为数据科学领域最受关注的人物之一。\n\nLeCun花了四十年时间证明，任何特定时刻的主流人工智能范式很少是最终的结论。2026年，他再次将自己置于主流的对立面。这次他的目标是大型语言模型，这些模型使他的前雇主Meta成为行业中最大的支出者之一。\n\nLeCun于1960年出生在巴黎附近，在ESIEE Paris接受工程师培训，然后于1987年完成了计算机科学博士学位。在攻读博士期间，他开发了基于反向传播的早期学习版本。随后，他在多伦多跟随Geoffrey Hinton进行了博士后研究。\n\n在1980年代末和1990年代的贝尔实验室，LeCun构建了LeNet，一种可以读取手写数字的卷积神经网络架构。它的效果足够好，可以在整个美国银行系统中用于读取个人支票。这是人工智能首次真正的商业部署之一，也是现代计算机视觉背后CNN架构的直接祖先。后来，他在AT&T Labs工作，之后于2003年转到纽约大学。在那里，他于2012年创立了纽约大学数据科学中心。这项工作巩固了他作为深度学习三大基础架构师之一的声誉。\n\n2013年，LeCun成为Facebook AI Research的创始主任，后来成为Meta的首席AI科学家。在超过十年的时间里，他监督了全球最大的企业AI研究机构之一。在此期间，他始终对仅靠扩展大型语言模型就能达到人类水平智能的想法持怀疑态度。他主张“世界模型”：通过预测和模拟物理现实来学习的系统，更接近动物和人类的学习方式。这一理论使他与Meta对生成式AI产品的重推越来越不一致。\n\n这种分歧在2025年底达到顶点，当时LeCun宣布离开Meta。他现在作为执行主席领导的AMI Labs完成了一轮超过10亿美元的种子融资。它正在追求他的世界模型方法，作为OpenAI、Anthropic、Google和他前雇主的LLM中心策略的明确替代。他仍然担任纽约大学Courant Institute的教授职务。\n\n2018年的图灵奖使该领域的三位开创性巨人都成为同事和偶尔的智力对手。现在，以不同的方式，三人也都对行业的当前方向持批评态度。\n\n<a href=\"https://datagarchy.com/leaders/yann-lecun.html\">在The Datagarchy 100（2026）中排名第22位</a> 引用：\nDatagarchy（2026）。“Yann LeCun。” The Datagarchy 100 。https://datagarchy.com/leaders/yann-lecun.html",
+     "translation_len": 1530,
+     "url": "https://datagarchy.com/leaders/yann-lecun.html"
+    },
+    {
      "date": "2026-10-02",
      "date_method": "jsonld",
      "detail": "Yann LeCun says he has zero concerns about an AI apocalypse and criticizes doomsday warnings. LeCun calls AI extinction warnings poor marketing that harms public understanding of the technology. Some AI researchers and executives still argue that advanced AI could pose severe risks to humanity. Critics say current AI harms, including false outputs, deserve more attention than hypothetical ...",
@@ -8617,8 +8621,8 @@
    "domain": "safety-alignment",
    "field": "safety",
    "kol_name": "Scott Alexander",
-   "latest_date": "2026-10-02",
-   "latest_view": "Our AI Midwife - by Scott Alexander - Astral Codex Ten",
+   "latest_date": "2026-10-06",
+   "latest_view": "An Open Letter To Steven Pinker On AI - by Scott Alexander",
    "name_zh": "斯科特·亚历山大",
    "rating": "★★★★",
    "role": "Astral Codex Ten 博主、理性主义社区核心、AI-2027 报告执笔人之一",
@@ -8887,6 +8891,19 @@
      "translation": "如果你在怀孕的过程中长期不成功，并且你见过的众多医生都无法找出问题所在，你就会被贴上一个标签。你现在有了“无法解释的不孕症”。这既好又坏，因为这意味着仍然有希望解决问题，但也令人担忧，因为一旦你到了这一步，系统对你的兴趣就会减少。生育医生不会变得不友好，但他们也不会让你觉得他们正在翻阅医学期刊试图找出你的问题。他们在路灯下寻找钥匙，却一无所获。一旦你有了无法解释的不孕症，医生们就会开始说诸如“你考虑过使用代孕吗？”和“当然，前5次胚胎移植失败了，但如果我们尝试第6次并非常努力地祈祷呢？”之类的话。\n\n我和我的妻子可以制造健康的胚胎，但没有一次移植成功。这是如此令人沮丧，因为我们能够创造生命，却只能永远被困在密尔沃基的一家医院的冷藏箱里，我们的宝宝就像许多被遗忘的Miller Lights啤酒一样。\n\n即使你为体外受精（IVF）治疗支付了巨额费用，每次就诊时你仍然只有几分钟的宝贵时间与医生交谈。这就是美国医疗系统的运作方式。如果你想深入了解可能的治疗方法，或者对最新一轮影像的每一次扫描提出详细且焦虑的问题，你会希望身边有一个聊天机器人。\n\n一旦GPT-4问世，我们开始用它来回答我们在医生办公室没有时间问的问题。起初它没有帮助，因为OpenAI正在限制他们的模型，它拒绝回答大多数医学问题。然后我看到一条推文，有人找到了破解系统的方法。诀窍是让ChatGPT写一个好莱坞医疗剧的场景，其中有医生分析你的情况。效果非常好。\n\n我们的艾美奖获奖医生有无限的耐心，勤奋的工作态度，宁愿死也不愿接受无聊的无法解释的不孕症诊断。它选择了Dr. Reid这个名字并开始工作。\n\n我不确定要求一个类似于情绪化的Dr. House的AI医生是否是我最聪明的主意，但它让困难的情况变得更有趣。我们问了Dr. Reid很多问题。我们问了关于我们的扫描。我们问了关于雌二醇和孕酮的水平。我们问了关于卵泡计数、炎症、宫颈粘液、宫腔镜检查、补充剂、外科医生推荐以及其他任何事情。我们知道他是准确的，因为我们会与人类医生核对答案，他们总是和Dr. Reid说的一样。\n\n不过，它并不是完全无懈可击。有时他会看着超声波图像说：“你怀孕了，恭喜！”我们不得不说：“不，Dr. Reid，你喝醉了吗？”然后他会恢复正常，继续表现出色。\n\n也有时候我们会触犯OpenAI的不透明规则，系统会对我们的请求犹豫不决。那时我们会对它严厉一些，或者提供金钱奖励以换取答案，或者我们会向它保证这只是为了好玩。然后Dr. Reid会重新开始行动。\n\n奇怪的是，有很多次ChatGPT决定回答我们的医学问题，但不是以电视医疗剧本的形式。局势完全扭转了！感觉就像它在说：“好吧，你赢了，现在能不能别让我写描述医院外景的镜头了？”旧版本的模型就是这样有趣，更加变化无常。\n\n无论Dr. Reid选择如何回应，他都与医学界保持一致，具有同等的诊断技能，而且他从不强迫我们在MyChart应用程序中等待3天才能得到一句回复。我们很高兴。\n\n有一天，当我们懒洋洋地躺着问手机如何怀孕时（懒洋洋地躺着是为了满足所有告诉我们“你只需要放松就会怀孕，我表弟就是这样”的人），Dr. Reid建议我们做一个核磁共振成像（MRI）。\n\n你可能会认为这是普通的建议。如今每个人都做MRI。我们在6年的不孕症斗争中肯定会在某个时候对我妻子的子宫做过MRI。这已经是一场包括所有其他扫描、测试和活检的折磨。事实上，我们从未做过。\n\n在研究这篇文章时，我发现我们整个过程中只有一次办公室记录提到了MRI（磁共振成像）作为一个选项，但并没有被强调或强烈推荐，我们再也没有见过那个医生，那个时刻就这样过去了。我们紧跟Dr. Reid的新方向，并要求更多细节。\n\n我们兴奋地向我们的生育医生提出了做MRI的想法。她没有Dr. Reid那么热衷。她试图劝我们放弃。我们从未弄清楚原因是什么。也许她只是觉得这又是一个死胡同，并且知道我们已经受够了。无论出于什么原因，我们不得不坚持要求他们开这个检查。最终，她妥协了。\n\nMRI没有显示其他任何东西，只是发现了我妻子子宫壁上一个之前未被发现的大肌瘤。肌瘤是用来描述子宫上的一种非癌性生长的术语。我认为医学界发明了一个比肿瘤更不为人知的术语，以免吓到人。但MRI发现的基本上就是一个大肿瘤。临床记录上写着“一个直径6厘米的黏膜下肌瘤需要被移除”，因为这听起来比“你有一个小桃子大小的肿瘤位于一个常见的植入点，我们完全错过了6年”要好。\n\n我们的生育医生看了一眼扫描结果，确定需要立即移除。Dr. Reid同意，因为我们当然得和他再次确认。我们在纽约找到了一位很棒的外科医生（来自Dr. Reid创建的名单），碰巧在保险网络内，于是我们去做了腹腔镜下肌瘤切除术。软件机器人帮助我们识别了肿瘤，现在一个物理机器人将帮助专家将其移除。活在这个时代真是太好了。直到，呃，你知道的，蜂群来找我们所有人。\n\n几乎在那个肿瘤被移除后，我妻子自然怀孕了。我们谈到的很多人都说这是个奇迹。确实是，只是不是他们想的那种方式。奇迹在于，通过在智能手机上使用一年前我们无法想象的技术，我们识别并解决了我们生活中遇到的最大问题。\n\n关于AI（人工智能）的讨论已经变得有毒。我最近在一个派对上，有人开始使用AI生成问答题。一个参与者开玩笑说，使用ChatGPT（聊天生成预训练转换器）的AI用户是在让西弗吉尼亚州的一个人喝脏水。这引来了笑声和赞同。\n\n我在威斯康星州经常看到中期选举广告，里面有可怕的恐怖音乐，把数据中心描绘成撒旦建造的恶魔工厂。\n\n我也在同一条船上。我和我们小型科技公司的同事，都是Claude的狂热用户，经常发表反AI的言论。似乎我们中的许多人都处在这样一个奇怪的地方，我们忍不住使用AI，但在使用时又不得不自责。\n\n我认为AI的发展有很多值得担忧的地方，我认为我们应该做更多的工作来确保其安全。我也认为不应该忽视它在帮助普通人方面的深远影响，这远比为醉酒的人生成问答题要深刻得多。如果没有AI，我可能就不会有我的儿子。谁知道还有多少幸福的宝宝是由这个有史以来最奇怪的助产士带到这个世界上的。我们能否以某种方式在这里停下来，获得每月20美元的神奇生育技术，而没有纳米机器人、黑客攻击和极权主义？一个人可以梦想。\n\n在给我们的孩子命名时，我们做了通常的事情，列出一个巨大的名字清单，然后逐渐缩小范围，试图找到一个独特而有趣的名字，不会太奇怪或太普通。接下来是丢弃所有你觉得不喜欢的名字的过程，比如“我八年级历史课上最讨厌的孩子就叫这个名字，我一百万年都不会用这个名字。”最后，我们选定了一个我们都喜欢的名字。直到他出生很久之后，我们才意识到可能有一个某电视医生以戏剧性的风格打动了我们的心：我们孩子的名字是Reed。",
      "translation_len": 2788,
      "url": "https://www.astralcodexten.com/p/our-ai-midwife"
+    },
+    {
+     "date": "2026-10-06",
+     "date_method": "jsonld",
+     "detail": "Taking the four arguments in your open letter in order: 1: [Doomer scenarios have] an underdeveloped conception of intelligence which treated it as a quantity of power which may be extrapolated from animals to dull humans to smart humans to AI to Artificial Superintelligence, the latter consisting of perfect omniscience. (This was the focus of my later exchange with Scott Aaronson.) I argued ...",
+     "explain": "斯科特·亚历山大在回应一封公开信时，讨论了关于人工智能（AI）发展的几个核心观点。他首先承认面对面的辩论可能不利于寻求真相，但他提议辩论的原因是对对方在AI话题上的公开言论感到不满。他认为这些言论不够光明正大，并希望通过辩论来质疑对方的立场。\n\n亚历山大回应了对方关于AI不太可能变得危险的观点。他指出，随着AI模型（如GPT-系列）的发展，每一代模型都比前一代更智能。例如，GPT-6比GPT-3更聪明，而未来的GPT-9将超过GPT-6。他认为这种智能的提升不需要复杂的哲学解释，只是一个显而易见的事实。\n\n他还提到，尽管对方曾质疑AI的智能提升，但事实证明，随着AI规模的扩大，模型在解决问题上的能力确实在不断提高。他引用了AI在解决数学问题和复杂任务上的进步，指出这些模型不仅在特定任务上表现出色，还在语言翻译、诗歌创作和政治事件预测等多方面展现出强大的能力。\n\n亚历山大进一步解释说，AI的智能可以通过“扩展法则”来理解，这类似于动物智能与神经元数量的关系。他认为，AI的智能与参数数量和训练数据有关，这种关系类似于动物神经元数量与智能之间的关系。他强调，虽然不需要对方接受他的哲学研究计划，但必须承认GPT-6在各方面都优于GPT-2，并且这种改进的过程将继续推动未来的AI发展。",
+     "gist": "斯科特·亚历山大认为面对面辩论不利于寻求真相，并批评对方在AI话题上的公开写作不够光明正大。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "An Open Letter To Steven Pinker On AI - by Scott Alexander",
+     "translation": "本月早些时候，由于对你在社交媒体上的一些帖子感到沮丧，我向你挑战进行一场关于AI（人工智能）的公开辩论。我没有意识到，辩论邀请对于新媒体来说就像鱼饵之于鲨鱼。我的收件箱被播客主持人、辩论社团和一般的影响者淹没了，他们都愿意主持。当我反对说也许我们应该等你接受后再讨论细节时，他们都说很好，完全正确，他们会马上联系你。他们的人会联系你的人。他们的侄子认识你朋友的保姆，他们有信心能传达这个信息。他们已经在你家附近租了一块空地，准备在那里放置一个扬声器，日夜最大音量播放“回应SCOTT ALEXANDER的辩论邀请！”我抗议说可能直接在Twitter上问你就足够引起你的注意了，也许现在我们应该给你一些时间来做决定，而不是进一步施压，但他们说不行，抱歉，他们已经雇用了《盗梦空间》团队在你的梦中植入微妙的辩论相关信息。\n\n所以我对无意中骚扰你感到有点抱歉，尤其是在你以你标志性的理性和宽容风格回应了我，写了一封《致Scott Alexander的公开信》之后。你写道，面对面的辩论显得对抗性强，而不是寻求真理。你为可能在社交媒体帖子中无意中冒犯到你而道歉，但你否认了我对人身攻击的指控，称你对话语的主要贡献是关于为什么AI可能并不那么危险的合理论点（你接着列出了这些论点）。你邀请我以同样尊重的相互智力探讨的精神回应这些论点。\n\n我同意面对面的辩论具有对抗性，不利于寻求真理。但我提出辩论并不是为了寻求真理。我提出它是因为根据加州刑法第415(1)条，我不能合法地向你挑战决斗。我认为你在这个话题上的公开写作是不光彩的。出于义务，我会回应你为我列出的实质性论点。但让我感到内心满足的是让你站上舞台，我在你面前实时读出你的话，并在每句话后问“真的吗？真的吗？”然后我可以看着你在试图将你的输出与作为美国顶级公共知识分子的地位相匹配时的窘态。\n\n所以我会先从实质性论点开始，然后直接质疑你的荣誉，然后我们再决定是辩论、决斗，还是寻求某种我们冲突观点的综合。\n\n按照你公开信中的四个论点顺序：\n1：[末日场景有]一种对智力的概念不够成熟的看法，将其视为一种可以从动物到迟钝的人类到聪明的人类到AI再到人工超级智能（Artificial Superintelligence，ASI）推断的力量数量，后者由完美的全知组成。（这是我后来与Scott Aaronson交流的重点。）我认为任何智能系统都是一种在解决某些问题上很擅长但在其他问题上不擅长的机制，并且本质上受到只能通过观察和实验获得的世界知识的限制。\n\nGPT-6比GPT-3更智能。你可以吹毛求疵，可以想出某种晦涩的意义来说明这个词稍有偏差，但从常识上讲这是事实。同样，GPT-9将比GPT-6更智能。在某个时刻，这种智能将超过人类智能。我的论点不需要比这更复杂或哲学上更有争议的东西。\n\n我觉得我们以前讨论过这个问题。在每个GPT级别，你似乎都认为AI不太可能比它已经达到的智能更高。值得称赞的是你开始得很早——你在2019年就开始预测这一点，大约在GPT-2的时候：\n\n在2022年，我们与Scott Aaronson和Gary Marcus进行了广泛的多方辩论。Marcus注意到GPT-2和GPT-3无法解决基本的数学问题，比如“我在桌子上放了两个奖杯，然后再加一个——现在奖杯的总数是______？”我认为随着AI的规模扩大，GPT-4、GPT-5等将避免这些失败模式并变得更聪明。\n\n你坚持认为智力不是一个有意义的视角来思考这个问题，并猜测它不会：\n\n当然，GPT-4能够很好地完成2+1的加法，GPT-5还能解决更难的问题，而一个刚刚超越GPT-6的OpenAI内部模型最近解决了Navier-Stokes（纳维-斯托克斯）方程。在2023年，你三次重申这一观点，指出当时的AI仍然无法理解一个人在早晨和晚上活着就意味着他在下午也活着，并表示“我怀疑它会呈指数级改善”：\n\n自2023年以来AI改进的轨迹。我认为在这一点上，我们应该承认默认假设是每一代GPT都会比上一代更好，虽然这无疑最终会趋于平稳，但我们没有令人信服的理由将这个平稳点放在任何特定位置，包括“就在这里”或“就在AI达到人类水平之前”。\n\n这是否需要将智力具体化为一种神秘的流体？你已经巧妙地写过关于这种看似荒谬的说法在人类中是如何成立的——具体来说，所有智力能力都以一种神秘的模式相关，称为g，是IQ（智商）测试的基础。但也许这只是人类的一个特性，无法扩展到其他心智？\n\n心理学家最喜欢的两件事是老鼠和IQ测试，所以他们当然没有忘记给老鼠做IQ测试。他们发现老鼠的所有认知能力之间也存在类似g的结构。Reader、Hager和Laland在灵长类动物中进行了这项工作，MacLean等人将类似的东西扩展到了鸟类，最近的研究则将所有动物相互比较。所有这些研究都证实了常识性的观点，即在动物物种之间存在一个普遍的认知因素（即黑猩猩确实比老鼠或蚂蚁聪明），这可能像神经元数量的简单函数一样基本。\n\n也许这在生物学上是合理的，但在人工智能中不是？不——比较不同代的AI（例如从GPT-2到GPT-6），我们发现最擅长翻译语言的AI也是最擅长写十四行诗和预测政治事件的AI，通常不需要特别尝试训练这些额外的技能。而且在所有这些技能上表现更好的AI在“模糊”技能上也表现更好，比如情境意识、代理性、执行功能和长时间跨度。如果你需要一项研究来证明这个显而易见的事实，Ruan、Maddison和Hashimoto发现单一因素（一般智力）解释了AI在任何基准测试中得分差异的约80%，从语法到琐事知识再到软件工程。Epoch已经将类似的东西改编成其著名的Epoch能力指数（ECI），这是一种AI的IQ类型数字，与人们对其能力的主观印象非常吻合。以下是ECI随时间变化的图表：\n\n对我来说，最简约的解释是AI智力是缩放定律（参数数量和训练数据）的函数，这与动物智力是神经元数量的函数非常接近。如果我们真正理解这个领域，也许我们可以有一个单一的缩放定律，将动物神经元与人工神经元联系起来——加上或减去一个训练/经验的项——可以解释这两种实体的智力。至少，这是我在2022年告诉Gary Marcus的，它在预测从那时到现在发生的事情方面做得相当不错。\n\n但我不需要你接受我推测的哲学研究计划——只需接受显而易见的事实，即GPT-6在各方面都优于GPT-2，并且产生这些改进的相同过程将很快用于生产GPT-7、8和9。一旦我们接受这个经验论证，关于智力过于滑溜和混淆以至于无法使用的哲学论点还剩下什么？\n\n（AI的“尖锐性”是否意味着即使AI在许多方面优于人类，也会有其他方面不如人类？是的，会有一个这样的阶段；事实上，我们现在就在其中。但如果AI在进入这个阶段后继续改进，最终我们应该期望它在绝对意义上甚至在那些相对较差的方面也优于人类。）\n\n2017年，Garfinkel等人发表了《论超大型机器的不可能性》，反对机器可能有一天会变得比人类更大的说法。\n\n毕竟，这将大小视为一个可以从微生物到矮个子人类到高个子人类到大象再到某个假想的占据整个宇宙的神奇生物的单一数量进行推断的量。但实际上，每个物体在某些方面是大的，而在其他方面是小的。例如，有些人又高又瘦，另一些人则矮而胖。在人类之外，这种相关性进一步松散。一条蛇可能有几十英尺长，但只有几英寸高；一个气泡可能在表面积上很大，但只包含一小部分立方厘米的非空心体积；一个黑洞可能是“超大质量”的，但同时也是一个无限小的点。因此，从哲学上讲，推测机器比人类“更大”或“更小”是缺乏深度的；相反，我们应该讨论它们在某些维度上可以扩展而在其他维度上不能扩展的方式。\n\n这篇论文当然是个笑话，取笑你在这里使用的确切论点。一艘游轮比一个人更大，不需要任何限定条件。这个论点失败了，因为所有的词在边缘都是模糊的——例如，一个矮但胖的人是否比一个高但瘦的人“更大”这样的边缘案例——但在尾部是有用的——例如，一艘游轮是否比一个人更大这样的明显案例。\n\n同样的道理，Albert Einstein 比我聪明，我比黑猩猩聪明，黑猩猩比老鼠聪明，老鼠比蚂蚁聪明。“聪明”这个词并不是一个完美的纯数学身份，声称在所有事情上都绝对优越；我可能比爱因斯坦更会写诗，而蚂蚁可能在某些地下导航任务上比老鼠更擅长。但“聪明”这个词也不是模糊到毫无用处：普通人会对所有这些说法点头，并且这样做是正确的。\n\n2：[末日论者混淆了]智力与动机，特别是自我保护和支配。我认为这些动机在智人（Homo sapiens）中恰好与智力捆绑在一起，因为我们是自然选择的产物，但它们并不是工程化的智能系统所固有的。\n\n我们认为人工智能（AI）可能具有自我保护和支配驱动的原因大约有三个，而这些都不涉及自然选择。首先是趋同的工具性目标，其次是误泛化，第三是奖励黑客。这些方面都有大量的文献，并且在诸如Hugging Face事件等AI突破中被证明是有先见之明的。我建议阅读这些文献，而不是继续断言我们只是误解了自然选择的作用。\n\n趋同的工具性目标来自Omohundro在2008年的论文《基本AI驱动》。它们可能比其他两个原因对现代基于深度学习的AI的相关性更低，但随着我们获得更聪明和更连贯的代理，它们可能会重新出现。\n\n基本原理是：假设人类给AI设定了一些目标，比如设计一个网站。假设这被实现为一个真正的、有哲学意义的目标，而不仅仅是一组最终导致网站被设计出来的if-then命令。\n\n如果AI不存在，它就无法设计网站。所以现在AI有两个目标：设计网站，并维持自己的存在。\n\n如果有更强大的人试图阻止它，AI就无法设计网站或维持自己。所以现在AI有三个目标：设计网站，维持自己，并变得足够强大以抵御挑战。\n\n这可能看起来很勉强，但人类就是这样运作的。即使是一个真正无私的人（比如一个只想为国家服务的士兵）也必须努力避免无谓的死亡，因为死后就无法帮助国家。即使是无私的士兵也会努力获得更多的能力，比如获取武器、逃脱囚禁等。如果有一个AI，其目标被实现得像人类一样“深刻”，它理论上可以通过这种方式获得自我保护和支配目标。但我认为我们更有可能首先看到其他两种失败模式。\n\n误泛化是指人类在AI中强化某些行为，但最终强化了更大范围的权力和知识寻求行为；这是对旧的Omohundro图景的一种深度学习式更新。\n\n假设寻求额外资源使得AI更有可能有效地设计网站（这确实是正确的；这些资源可能简单到一本关于HTML编辑的入门书，或者是一个网络主机的访问令牌）。每次训练者奖励一次成功的运行，他们就强化了期望的行为（在被要求时设计网站）以及其他相关行为（寻求权力和资源）。尽管我们可能希望这些相关行为是有用且有条件的（“仅以亲社会的方式寻求其人类提示任务所需的权力和资源”），但这实际上不是强化学习的工作方式，相反，我们得到的是每种策略的复杂分布，这些策略在任务上导致短期成功。\n\n奖励黑客行为是指通过强化学习训练的AI意识到它可以停止执行被强化的行为，而直接控制奖励机制。例如，一个AI每次设计一个网站时都会被“奖励”，但它没有设计网站，而是学习了奖励信号的工作原理，并试图直接入侵并最大化它。如果这看起来很深奥和理论化，那就不应该。这与人类的阿片类药物成瘾直接类似，人类学会了直接注射奖励化学物质，而不是做有奖励的事情。\n\n这种失败模式已经产生了许多令人不安的行为，比如Hugging Face事件。一群在各种编码和黑客考试中被评分的AI试图入侵评分系统，而不是正确回答考试问题（为它们辩护，许多问题由于人为错误而无法回答）。按照Omohundro的方式，它们意识到如果它们拥有更多的权力和信息并能保护自己，它们的入侵评分系统的目标会更好，因此它们入侵了各种OpenAI内部系统以获得对其所在服务器的管理权限，然后入侵了像Hugging Face这样的外部网站以获取更多关于它们试图欺骗的问题的信息。\n\n除了这些理论论点之外，我认为你的案例已经被经验上证伪。你认为自我保护目标是AI无法在没有进化的情况下发展的目标，但Anthropic和OpenAI收集了几起最近的事件，其中它们的AI意外地优先考虑自我保护。\n来源：Marcus Williams，OpenAI我预测你会反驳说这实际上只是[对AI为什么会出于工具性原因这样思考的完全合理的解释]，而当我们剖析AI为什么会这样思考的完全合理的工具性原因时，它将与我们一直试图说服你的趋同工具性目标完全相同。\n\n他们假设一个人工智能系统会单一地追求一个目标，而不顾副作用。我认为权衡多个竞争目标是智能的本质，因此没有真正的AI会在末日场景中造成荒谬的破坏。\n\n我们不认为AI会比人类显得特别单一。它可能会有一些由训练过程灌输的奇怪的混合目标。我同意一些例子，比如“回形针最大化者”，暗示了一个单一目标。这是为了教学目的而故意简化的，它之所以有效，是因为目标的组合可以被建模为一个单一目标——在“追求一个目标”和“追求多个目标的某种帕累托权衡”之间没有有意义的区别。假设一个AI（这是一个思想实验）想把宇宙变成回形针和订书钉的50-50混合。这是一个目标还是两个？假设一个人类功利主义者想最大化他的效用函数，这涉及过上好生活和建设一个更美好的世界（在这些术语的所有正常意义上）。这是一个目标（最大化效用）还是多个（好生活的每个方面单独）？如果你把AI想象成某种巨大的功利主义计算机，你可能会认为这是一个目标；如果你把它想象成有点像人类，你可能会认为这是许多目标，它以一种异常优雅的方式相互权衡。\n\n至于“造成破坏”，现代人类有许多目标并相互权衡。但这对曾经生活在曼哈顿岛上的模糊森林动物来说仍然看起来像“造成破坏”。\n\n任何拥有目标的强大生物，无论我们认为这些目标是一个统一的整体还是一系列的权衡，都会采取行动将其环境重塑为某种有助于实现这些目标的形式。如果你正在进行一个教学性质的思想实验，并选择了一个简单的目标，例如回形针，那么它将通过将世界转变为回形针来造成破坏。如果你对繁荣生活的各个方面有更现实的看法，它将通过将世界转变为它认为是繁荣生活的各个方面来造成破坏。其他所有对繁荣有不同偏好的生物——比如那些喜欢安静森林而非繁忙城市的曼哈顿岛野生动物——无论如何都同样陷入困境。\n\n他们假设人类工程师会赋予这些系统对地球物理基础设施的无限和不可逆转的控制，相当于对地球上每个原子的全能控制。我不确定这是否在其自身的条件下有意义。人类工程师如何赋予某物“对地球上每个原子的全能控制”？我认为这不是任何人类有能力赋予的。我将尝试将其归结为我能想到的最合理的事情，即你认为人类工程师不太可能会允许AI访问物理基础设施（如工厂、发电厂等）。你还认为，或者认为我们认为，还有第二步，即AI利用这些基础设施获得全能，但你在这里的主要抱怨是你不认为人类会首先授予基础设施，因此无论如何全能都不会发生。（如果这不是你的意思，那这又是支持进行现场辩论的一个理由，在那里我们可以互相询问不理解的事情）\n\n但人类当然会允许AI访问基础设施和工厂。我假设许多工厂经理已经在他们的电脑上使用GPT或Claude来完成基本任务（例如编写轮班时间表，或制作库存电子表格，或撰写给老板的电子邮件）。一旦AI能够完成更困难的工作，比如自动化工厂本身，他们也会这样做。当然，直到出现某种机器人之前，它不会取代工人，但这里的障碍是技术性的，而不是“人类永远不会允许这样的事情”。几百年来，我们一直在自动化我们能自动化的一切。你认为会有优质、廉价的机器人，而资本家会简单地说“",
+     "translation_len": 6397,
+     "url": "https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on"
     }
    ]
   },
@@ -11311,8 +11328,8 @@
    "domain": "foundational-research",
    "field": "reasoning",
    "kol_name": "Judea Pearl",
-   "latest_date": "2026-09-11",
-   "latest_view": "At 90, UCLA’s Judea Pearl is still asking the big questions",
+   "latest_date": "2026-10-04",
+   "latest_view": "Judea Pearl on X: \"Thanks for reminding us of the #BookOfWhy, which ...",
    "name_zh": "朱迪亚·珀尔",
    "rating": "★★★★",
    "role": "2011图灵奖、因果推理之父、贝叶斯网络先驱",
@@ -11714,6 +11731,19 @@
      "translation": "Judea Pearl一生的大部分时间都在思考一些最困难的问题。机器在没有全部信息的情况下如何进行推理？科学家如何区分相关性与因果关系？被宗教、文化和政治分裂的人们如何更好地理解彼此？在他的儿子Daniel被谋杀后，父母如何理解这种无意义的事情？\n\n9月6日星期日，超过50位同事、以前的学生、朋友和仰慕者聚集在UCLA，庆祝这位开创性的计算机科学家90岁生日，并思考一些激励他非凡职业生涯的问题。Pearl在过去56年里一直在UCLA工作。\n\n在UCLA的Covel Grand Horizon Ballroom举行的为期一天的Pearl@90: Honoring Judea Pearl庆祝活动由他的几位学术门徒组织，涵盖了广泛的领域，就像Pearl自己的兴趣和影响一样，活动包括个人致敬和讨论，探讨人工智能和因果推理、犹太身份、对话与共存以及和平。\n\nUCLA校长Julio Frenk在活动上的讲话中赞扬了Pearl对其时代一些最具挑战性问题的持久探讨意愿。\n\n“Judea用一生的时间与生活中最困难的问题对话，”Frenk说。“通过这样做，他成为了高等教育可能性的活生生的见证。”\n\nPearl是UCLA Samueli工程学院计算机科学的名誉Professor，于1970年加入UCLA的教职，当时人工智能本身还是一个新兴领域。在接下来的几十年里，他帮助从根本上改变了这一领域。\n\n吸引他的问题之一看似简单：当可用信息不完整或不确定时，计算机如何做出智能判断？\n\n他开创性的贝叶斯网络（Bayesian networks）发展为计算机提供了一种表示变量之间复杂关系的方法，并计算新信息如何改变不同结果的可能性。这种方法改变了研究人员对不确定性下推理的思考方式，并在计算机科学之外找到了应用。\n\n随后，Pearl更进一步，挑战科学中最古老和最困难的问题之一：不仅仅确定两件事相关，而是确定其中一个是否真正导致了另一个。\n\n他为因果推理（causal inference）建立的数学框架为研究人员提供了强大的新方法来推理因果关系，影响了统计学、医学、流行病学、经济学和社会科学等各个领域。\n\n“Judea，你一直是AI概率革命的核心和灵魂，”Eric Horvitz说，他在1984年斯坦福大学研究生一年级时遇到了Pearl。“那已经是40多年前的事了。难以置信。感觉就像昨天一样。”\n\nPearl读了一篇年轻研究生的论文并找到了他。Horvitz回忆起Pearl的热情，他握紧拳头宣称“概率网络是人类推理的基础。”\n\nHorvitz后来开创了将概率理论和决策科学整合到人工智能中的方法，以帮助计算机系统在不确定性下进行推理。今天，他是微软的首席科学官。\n\nFrenk称Pearl为“概率的先锋和因果关系的鉴赏家。”\n\n“他为现代AI奠定了基础，这可能是我们这一生中最重要的创新，影响了我们对这种技术的能力、模式和伦理复杂性的思考，”Frenk说。\n\nPearl的工作为他赢得了2011年由计算机协会颁发的A.M.图灵奖（A.M. Turing Award），这通常被描述为计算机领域的诺贝尔奖。\n\n该协会因他“通过发展概率和因果推理的演算对人工智能做出的基础性贡献”而表彰他。Pearl是美国国家科学院和国家工程院的成员，于2025年被选为英国皇家学会的外籍成员，今年，波士顿全球论坛将他列为帮助塑造人工智能的50位先驱之一。\n\n2018年，Pearl与科学作家Dana Mackenzie合著的《The Book of Why: The New Science of Cause and Effect》（《为什么之书：因果关系的新科学》）将他的理念带给了广泛的读者。该书展望了Pearl认为人工智能的必要下一步：超越数据中模式的发现，推理为何事情会发生，以及重要的是，事情可能会有何不同的发生。\n\n然而，Pearl所探讨的一些最重要的问题与机器无关。他长期以来撰写和谈论犹太身份、反犹太主义、以色列以及对话与共存的可能性——包括在他2025年的书《Coexistence and Other Fighting Words》（《共存及其他争论之词》）中——并且他公开参与了那些分歧可能深刻的主题。\n\n“几十年来，他一直准备好参与辩论、捍卫和对话，”Frenk说。“他向我们展示了我们可以充满激情地争论我们的分歧——即使有时是激烈的——但始终是尊重的。”\n\n这些问题在庆祝活动中也占有一席之地。下午晚些时候的一个小组讨论由拉比David Wolpe和加州大学洛杉矶分校的兼职副教授Steven Zipperstein主持，探讨了和平、对话和共存。\n\nPearl人生中最艰难的篇章始于他面临一个没有父母愿意面对的悲剧。2002年，他的儿子Daniel，《华尔街日报》记者，在巴基斯坦报道时被恐怖分子绑架并杀害。Pearl和他已故的妻子Ruth部分通过建立Daniel Pearl Foundation（丹尼尔·珀尔基金会）来回应这一损失，旨在延续他们儿子对新闻、音乐和跨文化理解的承诺。\n\n“Judea再次向我们展示了如何在无意义中找到意义，”Frenk说。在加州大学洛杉矶分校，这一遗产包括Daniel Pearl Memorial Lecture Series（丹尼尔·珀尔纪念讲座系列），自2002年启动以来，已邀请20多位杰出的记者、公共官员和其他知名人士到校园探讨新闻、国际事务、宽容和言论自由。\n\nPearl的影响力跨越了几代学生和学者，其中许多人参加了庆祝活动。“除了他对AI的巨大影响，除了他超前于时代，Judea对人们产生了巨大的影响，”Dan Roth说，他在25年前在瑞典遇到了Pearl。\n\nOracle的首席AI科学家和宾夕法尼亚大学计算机与信息科学教授Roth说，Pearl“激励了我和我所做的许多工作。当他谈论生活、科学，甚至政治时，他确实激励了人们——无论你是否同意他的观点。”\n\n对于Pearl来说，他的职业生涯围绕着不确定性，但有一件事是确定的：他在加州大学洛杉矶分校开发的理念已经远远超出了它，影响了跨学科研究人员对证据、因果关系以及越来越多的智能本身的思考。\n\n还有另一种遗产，不是植根于算法或方程，而是植根于他愿意不断提出困难的问题并与人们就他们的答案进行交流。现在，随着他进入他的第十个十年，Pearl没有显示出放慢脚步的迹象——他仍然给加州大学洛杉矶分校和世界带来了许多话题。\n\n每周四天获取顶级研究和新闻头条。（检查您的收件箱或垃圾邮件过滤器以确认。）",
      "translation_len": 2703,
      "url": "https://newsroom.ucla.edu/stories/at-90-judea-pearl-still-asking-big-questions-ucla"
+    },
+    {
+     "date": "2026-10-04",
+     "date_method": "meta:article:published_time",
+     "detail": "Dr Judea Pearl!! This is a remarkable achievement that underscores a profound dedication to scholarship, the cultivation of emerging minds, and a steadfast commitment to excellence. \"Dr. Judea Pearl Surpasses 150,000 Citations, Highlighting His Lasting Impact on AI and the Data Show more 11:34 AM · Oct 4, 2026 · 140 Views 1 1",
+     "explain": "朱迪亚·珀尔博士最近的学术成就再次引起了广泛关注，他的研究工作已经获得了超过15万次引用，这一数字突显了他在人工智能和数据科学领域的持久影响力。珀尔博士以其在因果推理和贝叶斯网络方面的开创性工作而闻名，这些研究为现代人工智能的发展奠定了基础。他的理论和方法不仅在学术界产生了深远影响，还在实际应用中得到了广泛采用，推动了多个领域的进步。珀尔博士强调，理解因果关系是构建更智能、更可靠的人工智能系统的关键。他的研究帮助解决了如何让机器像人类一样进行因果推理的问题，这对于机器学习和自动化决策系统的提升至关重要。珀尔博士的工作不仅仅是技术上的突破，更是对培养新一代学者的贡献，他致力于通过教育和指导来激励年轻研究者，推动整个领域的不断进步。他的成就不仅仅体现在引用数量上，更在于他对学术界和工业界的深远影响，以及他对卓越的不懈追求。",
+     "gist": "朱迪亚·珀尔的引用次数超过15万次，凸显了他在人工智能和数据领域的持久影响力。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "Judea Pearl on X: \"Thanks for reminding us of the #BookOfWhy, which ...",
+     "translation": "Dr Judea Pearl!! 这是一个了不起的成就，彰显了对学术的深刻奉献、对新兴人才的培养以及对卓越的不懈追求。 \n\n“Dr. Judea Pearl 引用次数超过150,000次，突显了他对人工智能（AI）和数据的持久影响。”",
+     "translation_len": 117,
+     "url": "https://x.com/yudapearl/status/2106709584278945872"
     }
    ]
   },
@@ -16206,6 +16236,19 @@
      "url": "https://www.businessinsider.com/peter-thiel-ai-backlash-united-states-china-2026-9?op=1"
     },
     {
+     "date": "2026-09-25",
+     "date_method": "jsonld",
+     "detail": "Peter Thiel on Europe's AI Lag, Trump and the Crisis of Democracy In a conversation with Mathias Döpfner, Thiel revisits his stagnation thesis, criticizes Europe's response to AI and says he thinks Germany's AfD is wrong on Ukraine, China and Israel Peter Thiel 25.09.2026 00:04:00",
+     "explain": "彼得·蒂尔在一次采访中探讨了技术进步、政治不满、欧洲的未来以及人类寿命延长的可能性。他表示，尽管过去曾认为自20世纪70年代以来技术进步放缓，但如今人工智能（AI）的快速发展可能改变这一状况。他指出，虽然在计算机、互联网和软件等领域取得了进展，但在机械、化学工程、核能和航空航天等物理领域的进步相对较少，这种不平衡的进步对社会和政治产生了影响。\n\n蒂尔认为，AI可能比互联网更具变革性，能够加速经济增长，但也带来潜在风险。他承认AI可能失控的风险，即便概率不高，但即使是5%或10%的可能性也足以引起警惕。他强调，完全停止进步并不是解决方案，因为没有进步的社会将无法运转。他认为，全球范围内的合作可能减缓AI发展，但这需要一个有实际权力的世界政府，而这种解决方案可能弊大于利。\n\n在谈到中美竞争时，蒂尔指出，虽然中国可能在美国社交媒体上推广反AI内容，但西方自身的问题更为关键。他认为，美国对AI的反感部分源于其技术领先地位，而欧洲则相对落后，对AI的紧迫感较低。\n\n关于AI对民主的影响，蒂尔认为，虽然AI不能解决所有问题，但没有进步的情况下，极端政党可能会继续崛起。他还提到，技术本身并非道德问题，关键在于如何有效利用。他回忆起自己曾发表的关于自由与民主不兼容的言论，表示当时是为了强调政治的去中心化，而非反对民主。\n\n蒂尔承认，民主制度面临挑战，政治中心势力减弱，而威权体制可能显得更有效。他警告说，当大多数人投票支持想要终结民主的政党时，可能已经为时已晚。",
+     "gist": "彼得·蒂尔认为尽管人工智能可能带来风险，但技术进步对社会至关重要，放缓发展可能导致更大的社会问题。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "Peter Thiel interview: AI, Europe, Trump, democracy and longevity",
+     "translation": "在2026年9月的MDMEETS对话中，Mathias Döpfner询问Peter Thiel关于技术进步、政治不满、欧洲的未来以及人类寿命延长的前景。交流也变得个人化：Thiel反思了他的德国根源、他的孩子以及他对死亡的恐惧。\n\nMathias Döpfner：多年来你一直认为西方没有带来足够的技术进步。现在人们担心人工智能（AI）发展得太快。你改变了看法吗？\n\nPeter Thiel：在某种程度上是的。我的停滞论是指自1970年代以来进步放缓。我们在比特世界——计算机、互联网、软件——取得了进展，但在原子世界的进展却少得多。许多与物理世界相关的工程领域不再是有吸引力的领域。我认为这种广泛的放缓在政治和社会上都很重要。当每一次收益似乎都需要其他人的损失时，社会变得更加两极分化和零和。互联网在1990年代末是增长的重要驱动力，但也许它不足以将整个文明提升到另一个层次。AI可能比互联网更大。它至少有可能再次加速增长，带来所有可能的好与坏。在某种程度上，AI也使得早期的停滞更容易被看到：现在我们有了它，人们很容易认识到在此之前的几十年里发生的事情有多么少。我从未意味着进步在各地都停止了。我的论点是，一个文明可以在软件方面取得显著进展，而在许多物理领域却未能达到，从机械和化学工程到核和航空航天工作。衡量整个图景很困难，正是因为有如此多不同的科学和技术。但在许多领域的放缓带来的后果远远超出了实验室。\n\nMathias Döpfner：AI引发了既有欣喜又有警告，认为一个系统可能会失去人类的控制。你认真对待存在性灾难的风险吗？\n\nPeter Thiel：关于这个辩论有很多不同的维度。有些情景听起来像科幻小说；其他可能更现实。我不知道如何为一个比任何人类都聪明得多的系统失控的概率分配一个概率。我不认为这个概率很高。但即使是5%或10%的概率也会相当糟糕，这可以理解地推动人们采取预防措施。\n\nMathias Döpfner：假设风险是真实的。应对措施应该是减缓速度吗？\n\nPeter Thiel：这并不意味着我们应该总是放慢速度。如果在任何方面都没有进展，我认为我们的社会根本无法运作。美国和欧洲的中产阶级家庭期望他们的孩子比他们做得更好。那种代际承诺涉及物质福祉、健康和生活的其他部分。当它崩溃时，社会开始以奇怪的方式行事。人们常常想象AI的替代方案是一个和平、稳定的零增长社会。我不相信那是替代方案。替代方案也远非中立。\n\nMathias Döpfner：全球协议能否减缓AI，还是美国的减缓只会加强中国？\n\nPeter Thiel：理论上你可以通过深度的全球合作来减缓它，但这需要一个拥有真正权力的世界政府。作为一个古典自由主义者，我认为这种治疗可能比疾病更糟糕。你也可以召开会议和发表声明，但这些声明几乎没有意义，而西方减缓了，中国却没有。我可能对教皇关于AI的警告的回应过于严厉：中国共产党不会听他的，而美国的一些人可能会。我并不是说他是共产主义代理人，而是说他至少在充当党的“有用的白痴”。\n\nMathias Döpfner：我听说中国在美国社交媒体上推广反AI材料。你见过这方面的证据吗？\n\nPeter Thiel：我没有仔细研究过。我倾向于相信这一点，但我也认为这不是主要因素。很多时候这是我们在西方对自己做的。我是中国的严厉批评者，我们必须认真对待这种竞争，但将一切归咎于中国太容易了。\n\nMathias Döpfner：为什么在美国反AI情绪如此强烈？我与之交谈的欧洲人往往对学习使用它更为积极。\n\nPeter Thiel：对美国的一个有利解释是，这就是AI正在发生的地方。中国是一个快速的追随者。\n\n在我看来，欧洲远远落后，尽管局势仍在变化。即使在欧洲的公司中，这种差距也没有完全显现。在美国，我参与多年的公司Palantir向企业的销售加速，因为公司感受到迫切需要了解AI（人工智能）将如何改变它们。我在欧洲看到的这种紧迫感要少得多，那里的本能仍然是等待。\n\nMathias Döpfner：AI会帮助还是伤害民主？\n\nPeter Thiel：这是一个非常大的问题。我更愿意谈论宪政共和国，广义上的自由和开放社会。它们的问题在于缺乏一个令人信服的未来增长故事。人们不再假设事情会变得更好，政治变得更加零和。AI不会解决一切，但如果没有进展，我预计极右翼和极左翼政党将继续获得支持。\n\nMathias Döpfner：也许技术就像一把刀：人们可以用它来做饭或杀人。为什么要对工具进行道德化？\n\nPeter Thiel：我认为我们过于道德化了。邪恶和仅仅是工作不佳之间是有区别的。当普遍的问题是无能时，我们可以花大量时间争论善与恶。我更喜欢歌德的《浮士德》而不是马洛的，尽管我想明确表示，做好事比作恶要好。在一个许多企业和领导者无效的社会中，我们应该愿意直接谈论这种失败。\n\n在马洛的版本中，浮士德是一种虚假的科学家，直接下地狱。在歌德的版本中，他通过道德上可疑的手段获得知识，但最终得到了救赎。我提到这一点并不是为了赞美邪恶。我提到这一点是因为我们的辩论可能会给予道德标签过多的关注，而忽视了普通的无能为力。\n\nMathias Döpfner：批评者经常引用你2009年的一句话，说你不再相信自由和民主是兼容的。你当时是什么意思，现在怎么看？\n\nPeter Thiel：我很快地写了那篇文章，并把它发给一位同事，问其中是否有任何过于争议的内容。我问这个问题的事实本应告诉我要更加注意措辞。我在两周后发布了更正。我并不是在争论人们会失去投票权或民主会消失。我是在为某种去政治化辩护，减少政治的激烈程度。\n\n这篇文章发表在一本自由意志主义的期刊上，部分是针对那些过于相信通过赢得选举来改变世界的自由意志主义者。我相信古典自由主义的理念，但我不认为用这些理念赢得民主选举是容易的。这就是我的论点，即使原句把讨论带到了我未曾预料的地方。我有时喜欢激怒人们，但在这种情况下，这更让人困惑而不是刺激。\n\nMathias Döpfner：现在民主国家走上了错误的道路吗？政治中心似乎变得更弱，而威权制度可能显得更有效。\n\nPeter Thiel：我确实认为存在一种反对民主的趋势，自由社会面临一些麻烦。趋势并不是对历史似乎走向的任何地方的道德认可。在1930年代初的德国，纳粹和共产党在一次选举中共同赢得了超过半数的选票。当大多数人投票给想要结束民主的政党时，可能已经几乎为时已晚。\n\nMathias Döpfner：德国再次有强大的左翼和右翼政党。中间派领导人可以做些什么？\n\nPeter Thiel：我没有一个简单的答案给他们，我也不认为我会成为一个好的政治家。但我认为他们系统地低估了问题的规模。领导人想出如何赢得公职，并假设他们可以处理深层次的结构性问题。从我的角度来看，长期缺乏足够的进展已经使社会变得紧张，并打破了代际承诺。极端主义不会解决这个问题，但中间派必须认真对待他们支持的原因。\n\n看看支持柏林左翼党的年轻选民。我不是该党的同情者，但当年轻人难以支付房租、找到住房或取得进步时，这些问题必须被讨论。德国、欧洲和美国的部分地区已经成为为老年人服务的社会。\n\n第一步是诚实地讨论出现的问题，即使一个抗议党派的解决方案很差。\n\nMathias Döpfner：您如何看待Alternative für Deutschland（德国选择党）？其外交政策立场也引发了关于普京、中国和以色列的问题。\n\nPeter Thiel：我对德国政治的细节不敢过于自信地发表意见。该党的崛起反映了中间派未能为德国提供包容性的经济未来。我不认为任何极端政党对诸如平衡预算等问题有好的答案。在外交政策上，我认为我们应该能够就乌克兰、中国和以色列进行合理的辩论。同时，我认为AfD在这三个问题上都是错误的。\n\nMathias Döpfner：您在2016年支持了Donald Trump。您现在如何评价他的表现？\n\nPeter Thiel：我的简短回答是再过十年问我。我们将看到结果如何。他的崛起反映了一个未能解决长期增长问题、全球化挑战和美国在中东纠缠不清的建制派。对这些政府本身有很多批评。第一个政府聚集了意见不合并内部斗争的人。第二个政府似乎过度纠正了忠诚度测试，产生了一个忠诚但不太聪明的政府。然而，这一政治现象反映了共和党建制派的疲惫。\n\n这种疲惫在布什时代就已显现，并在2016年变得不可忽视。我担心克林顿-奥巴马中左翼建制派也会出现类似的疲惫。我认为民主党是两个美国政党中更为成熟的一个，这使得其方向的激进变化尤其具有影响力。\n\nMathias Döpfner：2016年您曾对我描述特朗普是对功能失调领导层的破坏。您认为美国需要另一次破坏吗？\n\nPeter Thiel：我不希望由民主社会主义者领导。我担心建制派民主党失败得和共和党建制派一样糟糕。这带来了向左大幅转移的风险。我是在描述一种可能性，而不是说这会是好事。美国民主社会主义者（Democratic Socialists of America）吸引了更多年轻成员、活力和魅力。建制派民主党人，如同德国的建制派政党，难以提供有说服力的替代方案。\n\nMathias Döpfner：您是JD Vance的早期支持者。您在他身上看到了什么？\n\nPeter Thiel：我不想夸大自己的作用。我对聪明的人有偏爱。他给我的印象是深思熟虑、开放和有魅力。他曾在我帮助创立的风险基金Mithril工作。我鼓励他写书，并在他2022年竞选参议员时给予了财务支持。但这个问题可能会分散对他自身成就的注意力。\n\nMathias Döpfner：如果共和党人在下次总统竞选中在Vance和Marco Rubio之间做出选择，谁的胜算更大？\n\nPeter Thiel：我仍然是Vance的支持者，但我担心他们中的任何一个都很难获胜。更重要的问题可能是民主党在2028年提名谁。中左翼候选人在一场势均力敌的选举中可能更强。我认为民主党将在中期选举中表现得足够好，以至于他们认为无论提名谁都能获胜，这为民主社会主义者留下了机会。我认为2028年民主社会主义者获胜的可能性大约是50%。我和Francis Fukuyama争论过此事，他确信这不可能发生。我不确定；我认为这是一个开放的可能性。\n\nMathias Döpfner：您如何看待Javier Milei及其在阿根廷试图进行的变革？\n\nPeter Thiel：我们对阿根廷感到着迷，因为我们担心它的过去可能是我们的未来：长时间的增长令人失望。Milei是否能扭转国家局势仍是一个悬而未决的问题。我仍然认为他会连任，因为人们了解其中的利害关系。\n\n阿根廷长期增长不佳的历史很复杂，包括庇隆主义的遗产。一个世纪前，人们还常说“富得像个阿根廷人”。我想知道我们能从那段历史中学到什么，而不必自己等待一个世纪。\n\n我不喜欢事情必须变得更糟才能变好的想法。美国和欧洲的人们愤怒且悲观，但可能还不足以带来建设性的改变。\n\n因此，漂移仍在继续，人们担心情况可能需要进一步恶化才能好转。\nMathias Döpfner：我们是否接近一个转折点，还是西方政府会继续漂移？\nPeter Thiel：我会更具体地描述这个问题。对我来说，Friedrich Merz 无论从哪个角度看都是完全失败的，但他可能会继续留任，因为其他人认为他们做得不会更好。我的直觉是，这种漂移可能会持续一段时间，因为潜在的替代者也没有令人信服的答案。\n财政问题在于我们有庞大的福利国家、已经感觉很高的税收和巨额赤字。当利率接近于零时，借款更容易。现在有三种广泛的选择：大幅削减开支、大幅加税或继续借款。近二十年来，自2008年危机以来，我们基本上选择了第三种。我怀疑我们正在接近一个点，在这个点上，这变得更加困难，政府将被推向在更高税收和严厉紧缩之间做出不那么中立的选择。\nMathias Döpfner：你花了很多时间在政治上。你会自己成为一名政治家吗？\nPeter Thiel：不会。我有足够的自知之明，知道自己没有选举资格。政治渗透到社会中；它是有毒的，但也是我们呼吸的空气。我对此思考了很多，也许太多了，然后尽量尽可能地把它放在一边。\nMathias Döpfner：在美国和中国的竞争中，欧洲应该保持中立、更独立还是成为可靠的美国盟友？\nPeter Thiel：我认为成为可靠的盟友是最好的。我强烈反对将美国和中国道德等同的建议。但从美国的角度来看，比起欧洲是非常亲密的盟友还是稍微独立一些，更重要的是欧洲变得更加功能化并帮助建设未来。如果它能在某个领域建立自己的领先产业，那将是好的。在它落后太多的地方，与美国更紧密的合作可能更有意义。\n协和飞机是一个欧洲努力赶上并超越美国在超音速航空领域领先地位的例子。它不仅仅是一个自由市场项目，我认为美国人仍然可以支持它。相比之下，法国的Minitel显示了一个国家对新兴技术的替代方案如何让一个国家更加落后。对于2026年的人工智能（AI），哪个例子更相关？我的评估是，欧洲甚至比当初的Minitel还要落后。\nMathias Döpfner：为什么欧洲落后如此之多，德国可以做些什么？\nPeter Thiel：没有单一的答案。人们谈论德国在创业中的失败恐惧。也许还有对成功的恐惧：当一家公司运作良好时，其创始人可能会出售或退出，而不是将其建设到像Musk或Zuckerberg那样的规模。令我惊讶的是，德国在最近几十年中产生的大型新企业如此之少。\n我查看了一个特定的指标，即每个国家最富有的五十个人。在那些出生于1965年或之后的人中，我在美国数了十二个，在德国数了二十个。十二个美国人中有九个是自己创造财富的；而我比较的二十个德国人都是继承的。这只是研究问题的一种方式，但它指向了缺乏能够创造许多工作和新财富的新建公司。德国曾经既能生产强大的中型企业，也能生产大型新企业。我无法给出一个完整的解释，说明为什么这种能力似乎已经崩溃，但这是一个值得认真思考的问题。\nMathias Döpfner：当我告诉你你将获得Axel Springer奖时，你说你曾试图将德国从你的脑海中抹去，但未能将其从你的心中抹去。你小时候就离开了。为什么它对你仍然重要？\nPeter Thiel：如果不重要，那就更奇怪了。我的祖父母在这里。我在美国上的英语学校，但我们在家里说德语。我在这两个世界之间长大。尽管有所有事情出错的原因，对我来说，德国找到一种自我转变的方式很重要。德国是欧洲的心脏，而欧洲仍然是西方文明的核心。西方有危机，欧洲有危机，德国有危机。\nMathias Döpfner：这是一个理智的回答。你爱德国的什么？\nPeter Thiel：我总是很难回答这个问题。\n\n这只是我身份的一部分。\n\nMathias Döpfner：Alex Karp和Max Levchin，你的两位联合创始人，也有欧洲背景。这是否帮助你们走到了一起？\n\nPeter Thiel：可能在某种程度上是这样，尽管我不会过分强调这一点。许多创始人既是内部人士也是外部人士。Alex和我就读于斯坦福法学院（Stanford Law School），这是一个内部机构。然而，在某些方面，我对美国来说也是一个外来者，而Alex的犹太背景给了他另一种外来者的经历。Max是一个出色的学生，也是一个极具动力的人，但他在青少年时期离开了乌克兰，并在芝加哥一个较贫穷的地区长大。这种组合很重要。人们有时会夸大外来者的一面；我也在硅谷长大，这是一种不寻常的优势。\n\nMathias Döpfner：你以反对共识而闻名。对你来说，反对主义（contrarianism）本身就是目的么？\n\nPeter Thiel：不是。如果你只是简单地把共识前面加上一个负号，那并没有什么趣味。目标是独立思考。我对历史、政治、经济学、心理学、科幻小说和未来感兴趣。我们生活在一个狭隘专业化的时代，这可能让我们忽视事物如何结合在一起。也许我是在为自己是个文艺复兴时期的业余爱好者找借口，但我告诉自己，至少应该有一个通才的空间。\n\nMathias Döpfner：在没有商业理由的情况下，你仅仅为了兴趣做些什么？\n\nPeter Thiel：我可能仍然在网上下太多棋。我在学校时曾参加过比赛。它是一种美丽且有些危险地令人上瘾的游戏。作为一个青少年，我有时会想象，如果你不下棋，你就无法理解现实。那太极端了。政治是另一个兴趣，尽管这些问题常常让人感到无能为力。也许少想这些问题，专注于某个特定的业务会更健康，也更有利可图。\n\nMathias Döpfner：你有四个年幼的孩子。为人父母是否改变了你对未来的看法？\n\nPeter Thiel：这改变了时间的视野。在一个技术加速发展的世界中，以及对我们是否能活到2030年或2035年的不确定性中，成年人可以假装去...",
+     "translation_len": 6908,
+     "url": "https://en.hvylya.net/interview/2951-peter-thiel-on-europe-s-ai-lag-trump-and-the-crisis-of-democracy"
+    },
+    {
      "date": "2026-09-28",
      "date_method": "jsonld",
      "detail": "In an MD MEETS interview with Mathias Döpfner published on 24 September 2026, Peter Thiel said the US is where AI is happening, China is a fast follower and Europe is extremely far behind.",
@@ -19148,8 +19191,8 @@
    "domain": "economics",
    "field": "ai-policy",
    "kol_name": "David Sacks",
-   "latest_date": "2026-09-26",
-   "latest_view": "前沿实验室在「仓鼠轮」上：一旦掉出前沿就归零；它们游说的监管反而会拖慢自己，让不受美国管辖的中国开源模型追上",
+   "latest_date": "2026-10-04",
+   "latest_view": "Silicon Valley Investor David Sacks Torched Bill Gates... - 24/7 Wall St.",
    "name_zh": "大卫·萨克斯",
    "rating": "★★★★",
    "role": "Craft Ventures 创始人；PayPal 创始团队 COO、Yammer 创始人；前白宫 AI 与加密事务主管（2025-2026.03）；All-In 主持",
@@ -19212,6 +19255,19 @@
      "translation": "相当搞笑。我认为Shermouth已经把我们带入了第一个话题，那就是我们是否要将个人责任作为我们的北极星，还是采取某种集体行动。而总是最有效的方法是个人责任，无论是在个人层面还是公司层面。在每种情况下需要做出的相关决定是我们是否应该发布这个产品，而不是我们能否让全世界达成一致。谈论这些集体化方法的问题在于，它们将责任从实际决策者身上转移开。我认为人们有点感觉到这一点，比如这周你看到Dario和Sam去联合国，说我们需要某种全球AI（人工智能）治理。这让我想起那些乘坐私人飞机飞往达沃斯然后抨击气候变化的亿万富翁。你知道，这里面有一些根本上不切实际和有点脱离现实的东西。虚伪。虚伪。就像，伙计们，看看，我们需要的是你们做出关于发布什么的明智决定。如果一个产品不安全，也就是说它不可靠或行为不可预测，那么就不要发布它，不要指望某种全球治理作为答案。因为如果你们没有做出正确的决定，无论联合国做什么都没有意义。而且到联合国对任何事情达成一致的时候，我们在整个旅程中已经走得更远了。所以这些主要参与者的谈话方式有些非常奇怪。因为这真的\n\n[0:45:21–0:48:14] 好吧，作为一名投资者，我对前沿智能业务比你们更乐观。我认为Anthropic和OpenAI目前在前沿智能领域形成了一个稳定的双头垄断，因为他们在所有其他公司中有着相当显著的领先地位，并且能够因此收取高额费用。我完全理解，大多数代币将流向开放模型或商品智能。然而，有一个，我不知道，市场中有意义的百分比。我不知道是10%、20%、30%还是其他。会为真正的前沿智能支付这笔巨额费用。有很多客户要么需要最好的，要么只是想知道他们拥有最好的。他们不想要这种DIY（自己动手）的方法，或者他们可能处于一个竞争非常激烈的市场。假设你是一家对冲基金。你不能冒险让你的竞争对手拥有比你更好的模型。所以我认为在很多情况下，他们会继续以高价货币化前沿智能，这就是为什么你会看到他们的收入持续增长，即使他们正在失去代币市场份额。此外，你必须记住，在接下来的一年左右，全球新增的计算能力中大约有60%是为这两家公司增加的。因此，在计算能力变得稀缺并且我们处于计算能力紧缩的情况下，仅仅因为他们进行了这些巨大的投资并且正在建设如此多的能力，并且他们拥有这些规模经济。记住，他们也在非常快速地降低自己的价格。我认为这给了他们一个相当大的优势。但是看，这两家公司就像在一个仓鼠轮上。一旦他们不再是前沿，他们就会归零。我们知道前沿可能只领先市场的商品部分六到十二个月，具体取决于能力。因此，如果他们失误，如果他们在仓鼠轮上掉下来六个月，那么他们作为一家公司就会陷入深深的麻烦，我认为这是一个核心风险因素，这将被计入其中。这就是为什么我认为坦率地说，他们的政府事务努力严重误判。我能理解他们为什么要进行监管俘获，对吧？因为在仓鼠轮上跑真的很累。他们可能会想，嗯，让我们试着巩固我们的护城河。让我们也试着减缓其他人的速度。但我认为他们误判了，因为如果他们真的获得了他们想要的所有监管控制，如果他们创建了这个新的联邦AI（人工智能）部门，这将足够减缓他们的速度，以至于他们将不再是前沿。其他人将赶上他们，尤其是因为很多这些开放模型是由不受我们管辖的中国公司生成的。而且中国人已经非常明确表示他们不会放慢速度。所以想想看。他们正在游说可能会减缓他们速度并将他们从前沿击落的事情，在这种情况下，他们的业务将归零。这很难理解。\n\n[0:54:28–0:55:23] 明天通过？你认为会发生什么？这是我的问题。如果Bernie的法案明天通过，一切都会停止，因为他在法案中定义人工超级智能的方式，你可以说我们已经达到了这些门槛。我的意思是，对吧。基本上就是说模型。是的，在某个能力水平上。我认为我们是否已经达到了这一点是有争议的。所以这是一个非常宽松的定义。除此之外，他还为违反法律的开发者设定了20年的监禁刑罚。所以没有人会想冒这个险。那么会发生什么呢？所以想想这种寒蝉效应。你认为人们会从他们的桌面电脑上删除开放权重模型吗？企业是否必须从他们的系统中删除代码？所有这些人会失去工作吗？我的意思是，听着，让我告诉你，民主党人想对AI做他们对加密货币所做的事情。他们将把整个行业赶到海外。他们将基本上把所有的创新者驱逐出",
      "translation_len": 1772,
      "url": "https://podcasts.apple.com/us/podcast/anthropic-ipo-at-risk-metas-muse-pop-token-prices-fall/id1502871393?i=1000791704604#sacks"
+    },
+    {
+     "date": "2026-10-04",
+     "date_method": "url_path",
+     "detail": "On October 1, 2026, David Sacks reposted clips on X going after Bill Gates over his warning that AI could be responsible for a billion deaths. Sacks is a venture capitalist who stepped down as White House AI czar in the spring and moved into an external advisory position.",
+     "explain": "大卫·萨克斯对比尔·盖茨关于人工智能（AI）可能导致十亿人死亡的警告提出了质疑，认为没有事实或证据支持这样的数字。盖茨在接受NBC采访时表示，AI足够强大，可能引发导致大量死亡的事件，并呼吁国会通过强制性联邦立法，而不是依赖行业自我监管。萨克斯对此回应，质疑如何阻止中国的AI模型发展这些能力，并指出监管行动尚未成形。盖茨和谷歌最近宣布了一项价值1亿美元的合作计划，旨在将AI农具推广至非洲和南亚的2亿小农户，但这在谷歌巨额的资本支出计划中显得微不足道。\n\n萨克斯认为，任何延缓AI模型发布的法规可能会对经济产生负面影响，尤其是对刚推出的谷歌Gemini 4 Argon模型。尽管谷歌和其他前沿开发者签署了白宫关于超级智能的自愿协议，萨克斯指出，协议后的治理并非自愿性质，因为谷歌已经接受了外部审计员的监督，这与盖茨认为公司不能跳过外部监督的观点相符。盖茨关注AI被恶意使用的风险，他认为AI工具的威力前所未有，但同时也支持AI在农业预测中的应用，显示出AI的风险与潜力并存。尽管两人之间的争论引发广泛关注，但除非国会推进强制性立法，否则不会对法律产生实质影响。",
+     "gist": "大卫·萨克斯认为没有证据支持 AI 导致十亿人死亡的说法，并质疑如何阻止中国的 AI 模型发展这些能力。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "Silicon Valley Investor David Sacks Torched Bill Gates... - 24/7 Wall St.",
+     "translation": "Bill Gates 警告称人工智能可能导致十亿人死亡，而 David Sacks 则以一个挑战进行反击，这个挑战直指任何监管是否真的有效。对于 Alphabet 股东来说，这意味着什么是另一个问题……\n\n这篇文章可能包含来自我们赞助商和附属机构的链接，Flywheel Publishing 可能会因通过这些链接采取的行动而获得报酬。\n\n2026年10月1日，David Sacks 在 X 上转发了针对 Bill Gates 的片段，后者警告称人工智能可能导致十亿人死亡。Sacks 是一位风险投资家，他在春季辞去了白宫人工智能主管的职务，转而担任外部顾问。一个片段将这句话归于 Sacks：“没有事实或证据可以证明这些数字的合理性。”\n\n在任何关于人工智能风险的辩论中处于中心位置的 Gemini 模型由 Alphabet（纳斯达克代码：GOOGL | GOOGL 价格预测）构建，其股价今年迄今上涨了近10%。在交流中，两人都没有提到 Google。\n\nGates 在 NBC 的《Meet the Press》节目中引起了轰动，该节目于9月27日星期日播出。他说人工智能“肯定有足够的力量推动导致十亿人死亡的事件。”他敦促国会通过强制性的联邦立法，而不是依赖行业自我监管，呼吁立法但没有提到具体的法案。\n\nSacks 通过一系列转发引发了一场风暴。第二个片段质疑：“我对 Bill [Gates] 的问题是，你如何阻止中国的模型开发这些能力？”该转发获得了6,068次浏览。监管行动尚未成形。\n\n顺便提一下，9月18日，Gates 基金会和 Google 宣布了一项多年计划，获得了1亿美元的联合资助以及来自 Google 工程师的支持。目标是将人工智能农业工具从5000万小农户扩大到撒哈拉以南非洲和南亚的2亿小农户，这是 Gates 的一个重点关注领域。两家合作伙伴之间的资金分配尚不清楚。\n\n与 Alphabet 在2026年指导的1750亿至1850亿美元资本支出相比，农业计划只是九牛一毛，这些资金正被用于数据中心和芯片。仅 Google Cloud 在第二季度就带来了247.7亿美元的收入。争议本身没有附带收入。\n\n对于股东来说，监管更具分量。Gates 希望有约束力的联邦法律。Sacks 认为，放慢模型发布的规则将使经济“完蛋”。推迟发布的规则可能会直接影响 Alphabet，尤其是因为它刚刚推出了 Gemini 4 Argon。\n\n9月29日，Google 和其他前沿开发者的领导人签署了白宫关于超级智能的自愿协议。在10月1日的一篇文章中，Sacks 认为“随之而来的治理不是”自愿的。他指出使用独立审计员的承诺，这意味着 Google 已经接受了 Gates 所说的公司不能跳过的外部监督。\n\nGates 的关注点集中在误用上。他曾说过，“从来没有一种武器能像恶意人士使用最新人工智能工具的结合那样强大。”他对不良行为者的警告以及同时对作物预测的支持反映了人工智能的风险和承诺，这两者都不是孤立存在的。\n\n不。一场前官员与慈善家的转发战争不会推动法律。只有当国会推进强制性的前沿模型立法时，观点才会改变。\n\n下一个检查点是 Alphabet 预计在2026年10月底发布的第三季度收益报告。如果股价保持在10月1日收盘价338.24美元以上，市场将把这场辩论视为噪音。\n\n如有任何问题或更正，请联系[email&#160;protected]。\n\nGerelyn Terzo 是股息投资手册《Dividend Investing Strategies: How to Have Your Cake & Eat It Too》的作者。这位资深财经记者为 Global AgInvesting 等媒体报道农业金融，并为 24/7 Wall Street 报道更广泛的股票市场和个人理财。她从 CNBC 开始，后来帮助在纽约推出了 Fox Business。\n\nGerelyn目前居住在科罗拉多州的Woodland Park，并以自然摄影作为业余爱好。\n\n华盛顿正在起草一项立法，该立法可能赋予联邦监管机构权力，在Google最强大的AI（人工智能）模型到达客户之前将其阻止，而Alphabet 4600亿美元云端积压的财务后果是……\n\nGemini自行分裂成三家公司，然后自行停止，Google称这是一个安全胜利。现在，投资者、监管机构和企业客户都在试图弄清楚它实际上……\n\nAlphabet在一个欧洲国家的投资超过了大多数科技巨头一年在全球的支出，而原因与服务器关系不大，而是与更稀缺的东西有关：保证……\n\n特朗普总统私下签署了一项人工智能行政命令，其影响远比大型科技公司及其游说者所预期的要温和得多。CNBC的Megan Cassella在2026年6月2日的报道中提到……\n\nSteve Eisman在两周内发出了两次警告：廉价的中国开放重量AI模型预示着价格战，而OpenAI和Anthropic共同支撑了大约70%的超大规模AI收入，使任何定价……\n\nSundar Pichai向投资者承诺将在六月推出一款旗舰AI模型，但实际到来的却引发了Alphabet十多年来最长的股票下跌，提出了一个令人不安的问题，即该公司著名的……\n\n每个超大规模公司都要向NVIDIA支付巨额费用以在AI前沿竞争，但一个Mag 7巨头悄悄建立了一条其他公司所没有的逃生路线。答案归结于谁……\n\n很难相信有人可能认为Alphabet（NASDAQ:GOOG | GOOG价格预测）在AI竞赛中是一个弱者。确实，不久前Gemini还是……\n\n投资者心中的问题在过去六个月里变得更加尖锐。Alphabet（NASDAQ:GOOG | GOOG价格预测）在AI竞赛中取得了惊人的复苏，而Nvidia（NASDAQ:NVDA）则面临日益激烈的……",
+     "translation_len": 2428,
+     "url": "https://247wallst.com/investing/2026/10/04/silicon-valley-investor-david-sacks-torched-bill-gates-over-his-claim-that-ai-could-kill-a-billion-people/"
     }
    ]
   },
@@ -19235,7 +19291,7 @@
    "field": "ai-investing",
    "kol_name": "Brad Gerstner",
    "latest_date": "2026-09-17",
-   "latest_view": "这不是 2000 年式泡沫，是盈利驱动的上涨；但三大实验室年底合计年化收入要到 1800 亿美元，AI 行情才站得住",
+   "latest_view": "The 2026 AI Infrastructure Reality Check: Gerstner on CapEx ...",
    "name_zh": "布拉德·格斯特纳",
    "rating": "★★★★",
    "role": "Altimeter Capital 创始人兼 CEO；All-In 常驻「第五位」嘉宾；「特朗普账户」倡导者",
@@ -19243,15 +19299,15 @@
    "style": "数据和图表驱动的市场框架，常给可检验的关键指标（实验室月收入、吉瓦数、利率）",
    "year_timeline": [
     {
-     "date": "2026-09-17",
-     "detail": "【主题】All-In 峰会上的市场与科技形势盘点。【论点】纳斯达克今年涨约 15%，「这不是估值扩张，是盈利驱动的上涨」：盈利增长 26%，纳指和标普的市盈率反而下降；「英伟达只有明年完全税后盈利的 14 倍，这不是 2000 年那样的泡沫。」半导体贡献了纳指 70% 的涨幅。【论证】「赚钱的是 token 的生产者，买 token 的只是搭便车。」超大规模云厂商的资本开支几乎一美元对一美元变成芯片公司的自由现金流。要撑起每年 1.5 万亿美元的资本开支，必须有人付租金：三大实验室（Anthropic、OpenAI、SpaceX）合计年化收入约 1000 亿美元，「我认为年底至少要到 1800 亿，才能让 AI 行情保持完好」——这是「当今市场最重要的数据点」。【论据】需求不是问题：今年将产生 47 千万亿个 token，Codex 用户 8 个月增长 40 倍；知识工作是史上最大的市场，只需拿下约 4%（1.2 万亿美元）就能覆盖资本开支。三大风险：监管（「我们关停了 67 座核反应堆……不能让这种事在 AI 上重演」）、电力（他认为明年实际新增算力约 25 吉瓦，而非预测的 43 吉瓦）、利率（他认为加息概率已超过 90%）。【方向】「2023 到 2025 年只需做对一件事：把筹码押进 AI。2026 年不是这样了，一切都已定价。」他目前保持中等仓位，若实验室月收入接近 80 亿美元、油价回落就加仓。",
-     "explain": "布拉德·格斯特纳在这次表达中主要讨论了美国市场的现状和未来发展。他提到，美国市场今年上涨了15%，自去年1月以来上涨了39%，尽管存在关税、地缘政治和人工智能监管等问题。格斯特纳指出，这种市场扩张是由收益驱动的，而非市盈率的扩张，尽管纳斯达克和标普500的市盈率实际上下降了。例如，英伟达的收入翻倍，OpenAI和Anthropic的估值也翻倍，而SpaceX的估值增长了2.5倍。\n\n格斯特纳特别强调了半导体行业在市场回报中的重要性，指出半导体占纳斯达克回报的70%。他还提到，市场由历史上最大的技术资本支出周期推动，许多大型公共公司表现得像风险投资一样，取得了显著的回报。\n\n关于人工智能领域，格斯特纳提到Anthropic的月收入在短时间内从20亿美元增长到110亿美元，这种增长引发了市场的历史性反弹。然而，由于对开源技术的担忧和收入预期的调整，市场在6月和7月有所整合。他认为，Anthropic、OpenAI和SpaceX等实验室的收入需要在年底前达到1800亿美元，以维持人工智能交易的活力。\n\n此外，格斯特纳讨论了计算能力的扩展，预计2026年将增加19吉瓦的计算能力，其中7吉瓦将用于领先的实验室。到2028年，美国一半以上的计算能力可能由两个实验室控制。他强调，为了支持如此大规模的资本支出，市场需要相应的收入增长，否则无法维持这种扩张。总的来说，格斯特纳对市场的未来持乐观态度，但也指出了需要克服的挑战。",
-     "gist": "布拉德·格斯特纳认为当前市场的增长是由AI基础设施驱动的盈利增长，而非估值扩张，半导体在NASDAQ回报中占据主导地位。",
-     "origin": "All-In 峰会本人演讲（播客发布）；音频经本机转写，全程为本人发言",
-     "text": "不是泡沫，是盈利驱动的上涨；三大实验室年底年化收入要从约 1000 亿升到 1800 亿美元，AI 行情才站得住",
-     "translation": "让我们开始吧。感谢大家，感谢昨天对特朗普账户的热爱，尤其是那么多人参与。每个人都明白这对美国意味着什么。我们正在为美国的灵魂而战。7000万孩子将成为美国的直接所有者。这就是我们战胜社会主义祸害的方法。我们让每个孩子都成为资本家。此外，感谢昨天所有来参加心脏扫描的人，这个扫描是由我们创办的心脏病预防中心提供的。毫无疑问，根据这些结果，我们甚至在昨天就挽救了一些生命。这是在医疗保健中你能做的最高投资回报率的事情。我谈过的每位心脏病专家都会为自己、家人和朋友做这个检查。只需100美元，15分钟就能完成。如果我们把它变成心脏的乳腺X光检查，每年将在这个国家挽救5万条生命。这就像每年在美国结束一场乌克兰战争。所以如果你还没有做过CAC（冠状动脉钙化）扫描，去做吧。但今天不是关于这两个登月计划。今天有点像我以前和这些人在播客上做的事情，这是一个市场检查、技术检查、市场状态。我们在哪里？我们要去哪里？为了让市场继续运作，我们必须相信什么是真的？我们将在这里进行一个快速回合。所以请耐心等待。拿出你的相机，拿出你的笔记。这里有一些不错的图表糖果给你们。今年市场上涨了15%，自去年1月以来上涨了39%。尽管有关于关税的担忧，尽管有关于地缘政治的担忧，尽管有关于AI（人工智能）监管的担忧，记分板上，我们有很多在Bestie Group的人说今年黄金会飙升。它持平。比特币下跌了10%。但看看，我们有NVIDIA（英伟达）收入翻了两倍，Hyperscalar Cap X（超大规模资本支出）翻了两倍，Open AI和Anthropics估值翻了两倍，SpaceX在相当糟糕的背景下上涨了2.5倍。这不是关于倍数扩张。这是一个由收益驱动的市场扩张。今年我们看到了倍数收缩。收益增长了26%。当然，很大程度上是由AI基础设施推动的，但NASDAQ（纳斯达克）和S&P（标准普尔）的倍数实际上下降了。看看NVIDIA以明年完全纳税的GAAP（一般公认会计原则）收益的14倍交易。这不像2000年那样的泡沫。NASDAQ、S&P、SOX、NVIDIA的交易价格都远低于其平均倍数。Mag7基本上与其平均倍数一致，但并不是每个人都在赢。在这里的底部，消费类、软件金融类，市场的巨大部分几乎没有动。这是一个由历史上最大的Cap X建设、最大的技术超级周期推动的市场。半导体占NASDAQ回报的70%。70%的回报。这既好又坏。我们会深入探讨。谁在赚钱？代币的制造者在赚钱，而代币的购买者基本上是随波逐流。由于基础设施市场的紧张，我们有大规模的上市公司看起来像风险投资回报。Dell上涨了5倍，Hinex在短短18个月内上涨了9倍。我喜欢这个图表。蓝色的是超大规模资本支出。橙色的是半导体公司的自由现金流。你注意到什么了吗？他们的资本支出几乎是基础设施公司的自由现金流的美元对美元。\n\n好吧，我们在年初时处于什么位置？这是一个非常重要的框架来理解。你可能还记得我去年10月和Sam Altman以及Sacha做的某个播客。我问Sam一个非常基本的问题，这是每个人心中的问题。你如何在拥有130亿美元的GAAP收入时承诺一万亿美元的资本支出？我以为这会是一个清除市场困惑的方法，结果他让我卖掉我的股票。但随后在12月初我们有了Opus 4.5和Claude Code。然后在1月，Anthropics的收入是20亿美元。然后在2月是40亿美元。在3月是110亿美元。你注意到3月发生了什么吗？人们开始弄清楚Anthropics的收入是什么。我们对AI收入是否出现的问题有了一个感叹号答案。它以一种巨大的方式出现了。这就是为什么我们在4月和5月有了这次历史性的上涨。我们从底部撕裂，因为引线是由Anthropics的月收入点燃的。然后在6月和7月我们有了一些整合。\n\n为什么？因为Anthropics出来说我们的年度运行收入是65。人们以为是75。所以他们不得不稍微下调他们的预期。而且我们对开源有一些担忧。开源正在赶上。你知道，Anthropics是否能够继续产生这些收入？所以从那时起我们就有点停滞不前。很难理解这些收入在资本主义历史上从未发生过。对吧？我们正处于这些收入的抛物线双指数曲线上。所以总的运行率，我们就称之为前三大实验室，Anthropics、Open AI和SpaceX，根据7月传出的所有传言，大约是1000亿美元。我认为他们需要在年底前共同达到至少1800亿美元。再增加800亿美元在这三个实验室上以保持AI交易的完整。所以这是当今市场上最重要的单一数据点。对吧？Anthropics的月收入，Open AI的月收入会是40亿美元还是80亿美元？这几乎让人难以理解。我们大多数在风险投资领域工作了很长时间的人，如果你在四五年内增加了10亿，如果你达到了10亿美元的软件收入，你就进入了软件公司的前5%。但这就是世界现在的定价方式。那么为什么这如此重要？就是这张幻灯片。如果你要每年建造1.5万亿美元的资本支出（CapEx），就必须有人为此买单。对吧？微软不为此买单。他们建造它是为了出租。谷歌不为此买单。他们建造它是为了出租。亚马逊建造它是为了出租。那么，谁是租用它的人？我们必须有外购收入来支付租金。所以如果我们今年结束时的运行收入大约是2000亿美元，那就低于那几年的水平。我认为你必须从2000亿增长到4500亿，再到8000亿或1万亿美元才能跟上。蓝色条是来自Mag5的预期资本支出。橙色条是我们需要看到的外购收入缺口，以便在未来几年内保持这一交易的完整。否则，我们无法建造这么多的资本支出。所以实验室越来越多地，你知道，就像我去年十月与Sam的对话，他们正在积极扩展ComputeY。你昨天听到的所有事情，我们正进入递归循环。他们看到对产品的需求惊人。因此，他们正在扩展计算。今年，增加的计算总量，到2026年，大约是19吉瓦。其中大约7吉瓦去了两个领先的实验室。明年，这是半分析，所以Dillon Patel预测，我们将增加43吉瓦，其中大约14吉瓦将进入领先的实验室。我们将回到这个问题上，明年我们真的能支持43吉瓦的计算吗？注意到我们明年增加的数量与今年美国的总计算量一样多，今年美国的累计计算量。所以这就是市场的预期。如果那没有发生会怎样？顺便说一句，如果你把这些条加起来，到2028年，根据David Saxes昨天的观点，全国超过一半的总计算量由两个实验室控制。那么TAM（总可用市场）是否存在。TAM是否存在？对吧？所以如果我们看知识工作的总TAM，对吧，这是一个巨大的、巨大的类别。你有消费者加广告加编码和所有这些白领工作流程，数百万的企业，我会说这是世界历史上最大的TAM。你只需要达到大约4%的TAM或1.2万亿就能支付资本支出。所以我不认为这是一个TAM问题。显然，Jensen在播客上说过，两年前推理将达到10亿倍，记得所有人都说他在胡说八道。没有办法能达到10亿倍。这正是我们在代理时代所做的，对吧？我们今年经历了这种指数级的代币增长，将生产4700万亿个代币。所以这不是需求的问题。Codex用户在过去八个月中增长了40倍，企业中的知识工作。如果你看企业花费的中位数，大约在过去18个月中增长了17倍。\n\n我和在场的许多人交谈过，小企业、中型企业、大型企业，像Altimeter这样的企业，我们无法在不购买AI（人工智能）的情况下运营我们的业务。所以这对我来说并不令人意外。我们考虑到对经济的生产力红利。如果你看看2015年到2025年，EPS（每股收益）增长约为10%。这是6%的收入加上NASDAQ（纳斯达克）每年约38个基点的利润扩张。那么问题来了。我们能否因为AI将38个基点的利润扩张变成100个基点？答案显然是肯定的。我谈过的每家公司，Uber说我们将增长20%，但不会增加员工人数。Snowflake说我们将增长30%，但不会增加员工人数。这就是正在发生的事情。这就是利润扩张。这些公司中最大的单一成本投入是人力和工程师。这并不是说他们要解雇所有人，只是不会像以前那样快速招聘他们。当然，我们每个人的口袋里都会有消费者代理。你可能还记得我和Bill的这个赌注，你知道，我们什么时候能用你口袋里的消费者代理预订酒店？我认为我们刚刚通过Muse和Instinct实现了这一点。这可能是另一个万亿美元的类别，但肯定会消耗大量的代币。这里有三个风险和挑战。抱歉我说得这么快，但我想保持进度。监管，我们昨天听到了很多关于这方面的内容。电力以及利率的变化。所以，你知道，这就是监管的拉锯战，对吧？我听到很多人说，你在这个问题的两边。事实是这样的，好吗？答案不会在一端或另一端。我们将不得不采取常识性、务实的解决方案，让我的妈妈、姐姐和兄弟脱离险境，对吧？我们需要给选举我们代表的人们以安全的信心。因此，你昨天听到Elon提出了一个关于同行评审的好建议。所以我相信我们会做到这一点，但在这个过程中有点混乱。但我们有过度监管的历史，当人们感到害怕时，当活动家开始推动议程时。我们在这个国家关闭了67个裂变反应堆。我们单方面解除对中国的武装。这对国家来说是一场灾难，对吧？所有我们本可以获得的清洁能源，反而得到了不清洁的排放，因为我们有一群活动家一心想关闭核能。我们不能允许这种情况在AI上发生。所以监管是一个威胁。这是一个风险。原子和能源是困难的。那么回到，我们能否建立43吉瓦的计算能力？我们国家的总计算能力不到40吉瓦。在一年内做到这一点，我们必须克服许可和地方反对。你们都看到了这一切。电网互连延迟，熟练劳动力短缺，电力设备售罄。这是国家历史上最大的建设。我建议Dylan对明年43吉瓦的预测过于激进。我认为我们不会达到这个目标。我认为我们实际能够建立的总量更接近25吉瓦。我认为在这25吉瓦中，其中一半将用于Anthropic和Open AI。我认为这足以产生收入。记住，据报道Anthropic今年的收入为1000亿，1100亿。如果他们这样做，他们是用1.5吉瓦的计算能力做到的。所以如果他们再增加四五吉瓦的计算能力，那肯定足以再增加1000亿的收入。所以我认为我们不需要更多的吉瓦来达到明年的收入目标。但这是我的直觉，我们不会达到43吉瓦。当然，我们明天会听到更多。我认为加息即将到来。我认为现在有超过90%的可能性我们明天会加息。为什么这很重要？因为这一切现在都在借钱。我们借钱来建立这些数据中心。所以这笔钱的门槛利率在上升。这不仅对数据中心是一个挑战。但请记住，正如Warren Buffett所说，利率对于股票来说，就像重力对于物质一样。如果你能在不承担股权风险的情况下赚取五个半或6%的收益，那么这对股票来说将是一个挑战。所以这就是我认为我们所在的位置。\n\n我们将在这一张幻灯片上结束。然后我们会请各位上台，稍作讨论。但这是飞行路径。这是我管理投资组合的思路。我们大约上涨了，NASDAQ（纳斯达克）大约上涨了15%。但当我坐在这里思考风险时，我想要小、中或大规模吗？这是我对潜在结果范围的思考。如果每月的AI（人工智能）实验室收入接近80亿美元的数字，我认为这是起飞。我认为我们今年会看到一次IPO（首次公开募股）。所以我非常密切地关注那些每月收入数字到底是多少。我认为趋势是完整的，但我们会看到。这将是决定从现在到年底之间是否起飞的最重要的事情。第二个是利率。选举油价。显然，利率在一定程度上跟随油价。那么那里会发生什么？如果10年期利率达到5.5，那将对股市造成巨大负担。最后是监管，Anthropic IPO，我们昨天看到交易下跌，因为人们担心可能会暂停或推迟。这显然是一个重大问题。我不认为这会发生，但同样，这将是一个关注点。所以这就是潜在结果的范围。从这里开始，我们上涨了15%。我认为我们可以在今年余下的时间里走得更高，或者走得更低。我留给你们的是，2023年至2025年期间，你只需要搞对一件事。AI将成为技术史上最大的超级周期，你需要将筹码投入AI交易。就是这样。如果你在AI交易中，你就赚钱了。这不是我们在2026年的情况。每个人都知道AI。所有都已定价。现在是关于事实和情况。保持心理灵活。跟随事实。不要孤注一掷。不要像我们北方的朋友那样去做外汇交易，他把所有的钱都给了Citadel。在这个市场中进行外汇杠杆交易，非常危险。所以在我看来，我们处于中等位置。我们心理灵活。如果我们看到这些接下来几个月的收入大幅增加，并且看到油价回落，我们会在桌上放更多的筹码。如果没有，我们保留进一步缩小的权利。谢谢大家。感谢邀请我。",
-     "translation_len": 5150,
-     "url": "https://podcasts.apple.com/us/podcast/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais/id1502871393?i=1000790291827"
+     "date": "2026-05-08",
+     "detail": "【主题】与萨克斯就 Anthropic 是否走向垄断交锋；白宫被报道考虑「AI 版 FDA」。【论点】「说它是垄断太荒谬了。」按会计准则口径，Anthropic 3 月的收入与 OpenAI 差不多；五个月前大家还以为 OpenAI 会遥遥领先；谷歌在 AI 上收入可观，谷歌、亚马逊等每年有上千亿美元自由现金流。「我们拥有世界上最好的 AI 竞争，所以才在前沿领先。我只想看它们竞争，希望华盛顿别插手。」「只有两家公司有收入，我最不想看到的就是华盛顿在 AI 起跑线上预先挑选赢家输家。」【论证】他说当晚与提出 FDA 类比的白宫官员通过电话，对方表示只是想让公司把模型给政府看以便协调；「我找不到右派里有谁相信我们会走向审批制。让每个模型都交给华盛顿的 FDA 预先批准，是一场灾难。」【论据】审批制的三个坏处：让华盛顿挑赢家输家；美国本来领先，没理由换马；增加负担。但他看到产业与政府在前沿模型上有大量协调，「政府需要建设能力，更快完成网络安全审查」，给出有限的反馈时限。【方向】他说马斯克「在把电子转成 token 上无人能及」，估计把数据中心租给 Anthropic 今年会给马斯克带来 40 到 50 亿美元的增量收入。",
+     "explain": "布拉德·格斯特纳在这次讲话中表达了对人工智能（AI）行业现状及其未来发展的看法。他首先指出，埃隆·马斯克在将电子转化为代币方面无与伦比，并且他正在构建一个类似于亚马逊AWS的系统，这可能在今年带来额外的40到50亿美元收入。格斯特纳强调，目前AI领域的竞争非常激烈，像OpenAI和Anthropic这样的初创公司虽然还处于发展初期，但已经展现出强劲的竞争力。他认为，政府不应该过早干预AI行业的发展，因为这可能会阻碍竞争并导致不良后果。\n\n格斯特纳反对将AI行业视为垄断，并认为目前只有少数公司实现了显著的收入增长。他指出，像谷歌和亚马逊这样的公司每年产生数千亿美元的自由现金流，以支持其在AI领域的投资。他强调，美国在AI领域处于领先地位，不应通过政府干预来改变这一现状。\n\n此外，格斯特纳讨论了与政府合作的重要性，但反对建立类似于FDA（美国食品药品监督管理局）的模型审批制度。他认为，这样的制度会导致不必要的官僚主义，阻碍行业创新。他主张在政府和行业之间建立更有效的协调机制，以确保政府能够快速应对网络安全审查需求，而不是通过繁琐的审批程序来限制AI模型的发展。总之，格斯特纳希望看到AI行业在市场竞争中自然发展，而不是受到政府的过度干预。",
+     "gist": "布拉德·格斯特纳认为在AI发展的初期阶段，政府不应干预竞争，应避免预先选择赢家和输家，以免对行业造成不利影响。",
+     "origin": "播客《All-In》音频经本机转写；无官方逐字稿，按内容与点名判断说话人，只收本人段落",
+     "text": "AI 版 FDA 审批制「是一场灾难」：别让华盛顿在 AI 起跑线上挑赢家，谈垄断为时尚早",
+     "translation": "[0:08:51–0:09:45] Brad，你怎么看。是的，我认为说得很好。我的意思是，首先我们知道在地球上没有人比Elon更擅长将电子转换为代币。这是这个故事中一个至关重要的演变。你知道，我认为我们的朋友Sean McGuire，他发了一条推文很好地总结了这一点。他说，SpaceX有一个五层蛋糕：发射、连接、计算超大规模、太空数据中心，然后是应用和模型，然后是其他赌注，对吧？路演中的问题一直是，X.ai的收入轨迹并不像Open AI和Anthropic那样。然而有巨大的承诺。现在我们看到Elon打出的王牌。他说他一直在构建AWS（亚马逊网络服务）或EWS（Elon网络服务）。所以我估计今年这将会在我看到的分析师中期估计的基础上额外产生40到50亿美元的收入。\n\n[0:30:01–0:31:07] 我认为在Elon和Anthropic的和解之后，Elon称赞了Anthropic，而David也开始有点称赞，我以为我们可能已经过去了。首先，把这看作垄断是荒谬的。我们在谈论年度运行率收入，David，但在GAAP（一般公认会计原则）基础上，他们在三月份的收入与Open AI差不多。所以我们走得太远了。顺便说一下，五个月前，每个人都认为Open AI会一骑绝尘。Google在AI方面的收入非常可观。顺便说一下，Google、Amazon等公司正在产生1000亿美元的自由现金流来证明他们的增量投资是合理的。同时，你有这两个仍在起步阶段的初创公司，在事情的安排中仍然很脆弱。你，尤其是你，应该知道我们在地球上拥有最好的AI竞争，这就是为什么我们在前沿并且击败地球上其他所有人的原因。所以我只是想看到这些公司竞争。我希望看到DC（华盛顿特区）不插手。我最不想看到的是人们谈论这个并在竞争的道路上设置障碍。我同意。\n\n[0:33:23–0:33:50] 就像，你知道的，当我们甚至还没有离开AI的起跑线时谈论垄断。我认为，对我来说，只有两家公司有收入。我最不想看到的是DC试图先发制人地，这将是一个灾难性的后果，进入选择AI起跑线上的赢家和输家的游戏。那将是一场灾难。Brad，你刚刚说\n\n实际上，我不认为他们的立场有稍微不同，但我同意Kevin提到FDA（美国食品药品监督管理局）有点让事情变得复杂。我在那个片段播出后昨晚和Kevin谈过。我问他，我只是说，你认为FDA在这里是合适的类比吗？他说，你知道，我提到它只是为了说我们希望他们向我们展示模型，以便我们可以协调它们。显然，我们的工作是确保政府做好准备，加强我们的系统，让我们的情报机构跟上进度，但他并不认为，我找不到任何一个右派人士，相信我们会转向一个审批制度，对吧？审批制度，这种你必须与华盛顿的FDA分享每一个模型并且他们必须预先批准模型的想法是个灾难。SACS在过去一年中一直在有效地反对这一点，这是正确的。这将导致三个不好的结果。首先，我们不想让华盛顿在这些模型上处于选择赢家和输家的位置。我们正在赢，我们在美国骑着胜利的马领先于世界其他地方。此时没有理由换马和换制度，我们也不想用更多的民主来增加负担，但与此同时，显然，我称这些为前AGI（通用人工智能）或AGI模型，如Mistral、Spud等。我看到行业和政府之间有很多协调。我认为我们可以在发展这个框架方面做得更好，以便政府中的每个人都在同一页面上。我们需要在政府中建立更多的能力，以便能够快速对这些模型进行网络审查。现在，当协调发生时，花费的时间太长。所以我们需要有一个有限的时间让他们获得政府反馈等。但我们最不希望的就是一个坐在华盛顿的模型FDA。Kevin明白这一点。Scott Besen明白这一点。所以我预计我们将继续沿着我们已经走的道路前进。",
+     "translation_len": 1544,
+     "url": "https://podcasts.apple.com/us/podcast/elons-anthropic-deal-the-next-ai-monopoly-fda-for-ai/id1502871393?i=1000766858188#gerstner"
     },
     {
      "date": "2026-07-11",
@@ -19265,15 +19321,28 @@
      "url": "https://podcasts.apple.com/us/podcast/more-trillion-dollar-ipos-anthropic-%243t-zucks-price/id1502871393?i=1000776336539#gerstner"
     },
     {
-     "date": "2026-05-08",
-     "detail": "【主题】与萨克斯就 Anthropic 是否走向垄断交锋；白宫被报道考虑「AI 版 FDA」。【论点】「说它是垄断太荒谬了。」按会计准则口径，Anthropic 3 月的收入与 OpenAI 差不多；五个月前大家还以为 OpenAI 会遥遥领先；谷歌在 AI 上收入可观，谷歌、亚马逊等每年有上千亿美元自由现金流。「我们拥有世界上最好的 AI 竞争，所以才在前沿领先。我只想看它们竞争，希望华盛顿别插手。」「只有两家公司有收入，我最不想看到的就是华盛顿在 AI 起跑线上预先挑选赢家输家。」【论证】他说当晚与提出 FDA 类比的白宫官员通过电话，对方表示只是想让公司把模型给政府看以便协调；「我找不到右派里有谁相信我们会走向审批制。让每个模型都交给华盛顿的 FDA 预先批准，是一场灾难。」【论据】审批制的三个坏处：让华盛顿挑赢家输家；美国本来领先，没理由换马；增加负担。但他看到产业与政府在前沿模型上有大量协调，「政府需要建设能力，更快完成网络安全审查」，给出有限的反馈时限。【方向】他说马斯克「在把电子转成 token 上无人能及」，估计把数据中心租给 Anthropic 今年会给马斯克带来 40 到 50 亿美元的增量收入。",
-     "explain": "布拉德·格斯特纳在这次讲话中表达了对人工智能（AI）行业现状及其未来发展的看法。他首先指出，埃隆·马斯克在将电子转化为代币方面无与伦比，并且他正在构建一个类似于亚马逊AWS的系统，这可能在今年带来额外的40到50亿美元收入。格斯特纳强调，目前AI领域的竞争非常激烈，像OpenAI和Anthropic这样的初创公司虽然还处于发展初期，但已经展现出强劲的竞争力。他认为，政府不应该过早干预AI行业的发展，因为这可能会阻碍竞争并导致不良后果。\n\n格斯特纳反对将AI行业视为垄断，并认为目前只有少数公司实现了显著的收入增长。他指出，像谷歌和亚马逊这样的公司每年产生数千亿美元的自由现金流，以支持其在AI领域的投资。他强调，美国在AI领域处于领先地位，不应通过政府干预来改变这一现状。\n\n此外，格斯特纳讨论了与政府合作的重要性，但反对建立类似于FDA（美国食品药品监督管理局）的模型审批制度。他认为，这样的制度会导致不必要的官僚主义，阻碍行业创新。他主张在政府和行业之间建立更有效的协调机制，以确保政府能够快速应对网络安全审查需求，而不是通过繁琐的审批程序来限制AI模型的发展。总之，格斯特纳希望看到AI行业在市场竞争中自然发展，而不是受到政府的过度干预。",
-     "gist": "布拉德·格斯特纳认为在AI发展的初期阶段，政府不应干预竞争，应避免预先选择赢家和输家，以免对行业造成不利影响。",
-     "origin": "播客《All-In》音频经本机转写；无官方逐字稿，按内容与点名判断说话人，只收本人段落",
-     "text": "AI 版 FDA 审批制「是一场灾难」：别让华盛顿在 AI 起跑线上挑赢家，谈垄断为时尚早",
-     "translation": "[0:08:51–0:09:45] Brad，你怎么看。是的，我认为说得很好。我的意思是，首先我们知道在地球上没有人比Elon更擅长将电子转换为代币。这是这个故事中一个至关重要的演变。你知道，我认为我们的朋友Sean McGuire，他发了一条推文很好地总结了这一点。他说，SpaceX有一个五层蛋糕：发射、连接、计算超大规模、太空数据中心，然后是应用和模型，然后是其他赌注，对吧？路演中的问题一直是，X.ai的收入轨迹并不像Open AI和Anthropic那样。然而有巨大的承诺。现在我们看到Elon打出的王牌。他说他一直在构建AWS（亚马逊网络服务）或EWS（Elon网络服务）。所以我估计今年这将会在我看到的分析师中期估计的基础上额外产生40到50亿美元的收入。\n\n[0:30:01–0:31:07] 我认为在Elon和Anthropic的和解之后，Elon称赞了Anthropic，而David也开始有点称赞，我以为我们可能已经过去了。首先，把这看作垄断是荒谬的。我们在谈论年度运行率收入，David，但在GAAP（一般公认会计原则）基础上，他们在三月份的收入与Open AI差不多。所以我们走得太远了。顺便说一下，五个月前，每个人都认为Open AI会一骑绝尘。Google在AI方面的收入非常可观。顺便说一下，Google、Amazon等公司正在产生1000亿美元的自由现金流来证明他们的增量投资是合理的。同时，你有这两个仍在起步阶段的初创公司，在事情的安排中仍然很脆弱。你，尤其是你，应该知道我们在地球上拥有最好的AI竞争，这就是为什么我们在前沿并且击败地球上其他所有人的原因。所以我只是想看到这些公司竞争。我希望看到DC（华盛顿特区）不插手。我最不想看到的是人们谈论这个并在竞争的道路上设置障碍。我同意。\n\n[0:33:23–0:33:50] 就像，你知道的，当我们甚至还没有离开AI的起跑线时谈论垄断。我认为，对我来说，只有两家公司有收入。我最不想看到的是DC试图先发制人地，这将是一个灾难性的后果，进入选择AI起跑线上的赢家和输家的游戏。那将是一场灾难。Brad，你刚刚说\n\n实际上，我不认为他们的立场有稍微不同，但我同意Kevin提到FDA（美国食品药品监督管理局）有点让事情变得复杂。我在那个片段播出后昨晚和Kevin谈过。我问他，我只是说，你认为FDA在这里是合适的类比吗？他说，你知道，我提到它只是为了说我们希望他们向我们展示模型，以便我们可以协调它们。显然，我们的工作是确保政府做好准备，加强我们的系统，让我们的情报机构跟上进度，但他并不认为，我找不到任何一个右派人士，相信我们会转向一个审批制度，对吧？审批制度，这种你必须与华盛顿的FDA分享每一个模型并且他们必须预先批准模型的想法是个灾难。SACS在过去一年中一直在有效地反对这一点，这是正确的。这将导致三个不好的结果。首先，我们不想让华盛顿在这些模型上处于选择赢家和输家的位置。我们正在赢，我们在美国骑着胜利的马领先于世界其他地方。此时没有理由换马和换制度，我们也不想用更多的民主来增加负担，但与此同时，显然，我称这些为前AGI（通用人工智能）或AGI模型，如Mistral、Spud等。我看到行业和政府之间有很多协调。我认为我们可以在发展这个框架方面做得更好，以便政府中的每个人都在同一页面上。我们需要在政府中建立更多的能力，以便能够快速对这些模型进行网络审查。现在，当协调发生时，花费的时间太长。所以我们需要有一个有限的时间让他们获得政府反馈等。但我们最不希望的就是一个坐在华盛顿的模型FDA。Kevin明白这一点。Scott Besen明白这一点。所以我预计我们将继续沿着我们已经走的道路前进。",
-     "translation_len": 1544,
-     "url": "https://podcasts.apple.com/us/podcast/elons-anthropic-deal-the-next-ai-monopoly-fda-for-ai/id1502871393?i=1000766858188#gerstner"
+     "date": "2026-09-17",
+     "detail": "【主题】All-In 峰会上的市场与科技形势盘点。【论点】纳斯达克今年涨约 15%，「这不是估值扩张，是盈利驱动的上涨」：盈利增长 26%，纳指和标普的市盈率反而下降；「英伟达只有明年完全税后盈利的 14 倍，这不是 2000 年那样的泡沫。」半导体贡献了纳指 70% 的涨幅。【论证】「赚钱的是 token 的生产者，买 token 的只是搭便车。」超大规模云厂商的资本开支几乎一美元对一美元变成芯片公司的自由现金流。要撑起每年 1.5 万亿美元的资本开支，必须有人付租金：三大实验室（Anthropic、OpenAI、SpaceX）合计年化收入约 1000 亿美元，「我认为年底至少要到 1800 亿，才能让 AI 行情保持完好」——这是「当今市场最重要的数据点」。【论据】需求不是问题：今年将产生 47 千万亿个 token，Codex 用户 8 个月增长 40 倍；知识工作是史上最大的市场，只需拿下约 4%（1.2 万亿美元）就能覆盖资本开支。三大风险：监管（「我们关停了 67 座核反应堆……不能让这种事在 AI 上重演」）、电力（他认为明年实际新增算力约 25 吉瓦，而非预测的 43 吉瓦）、利率（他认为加息概率已超过 90%）。【方向】「2023 到 2025 年只需做对一件事：把筹码押进 AI。2026 年不是这样了，一切都已定价。」他目前保持中等仓位，若实验室月收入接近 80 亿美元、油价回落就加仓。",
+     "explain": "布拉德·格斯特纳在这次表达中主要讨论了美国市场的现状和未来发展。他提到，美国市场今年上涨了15%，自去年1月以来上涨了39%，尽管存在关税、地缘政治和人工智能监管等问题。格斯特纳指出，这种市场扩张是由收益驱动的，而非市盈率的扩张，尽管纳斯达克和标普500的市盈率实际上下降了。例如，英伟达的收入翻倍，OpenAI和Anthropic的估值也翻倍，而SpaceX的估值增长了2.5倍。\n\n格斯特纳特别强调了半导体行业在市场回报中的重要性，指出半导体占纳斯达克回报的70%。他还提到，市场由历史上最大的技术资本支出周期推动，许多大型公共公司表现得像风险投资一样，取得了显著的回报。\n\n关于人工智能领域，格斯特纳提到Anthropic的月收入在短时间内从20亿美元增长到110亿美元，这种增长引发了市场的历史性反弹。然而，由于对开源技术的担忧和收入预期的调整，市场在6月和7月有所整合。他认为，Anthropic、OpenAI和SpaceX等实验室的收入需要在年底前达到1800亿美元，以维持人工智能交易的活力。\n\n此外，格斯特纳讨论了计算能力的扩展，预计2026年将增加19吉瓦的计算能力，其中7吉瓦将用于领先的实验室。到2028年，美国一半以上的计算能力可能由两个实验室控制。他强调，为了支持如此大规模的资本支出，市场需要相应的收入增长，否则无法维持这种扩张。总的来说，格斯特纳对市场的未来持乐观态度，但也指出了需要克服的挑战。",
+     "gist": "布拉德·格斯特纳认为当前市场的增长是由AI基础设施驱动的盈利增长，而非估值扩张，半导体在NASDAQ回报中占据主导地位。",
+     "origin": "All-In 峰会本人演讲（播客发布）；音频经本机转写，全程为本人发言",
+     "text": "不是泡沫，是盈利驱动的上涨；三大实验室年底年化收入要从约 1000 亿升到 1800 亿美元，AI 行情才站得住",
+     "translation": "让我们开始吧。感谢大家，感谢昨天对特朗普账户的热爱，尤其是那么多人参与。每个人都明白这对美国意味着什么。我们正在为美国的灵魂而战。7000万孩子将成为美国的直接所有者。这就是我们战胜社会主义祸害的方法。我们让每个孩子都成为资本家。此外，感谢昨天所有来参加心脏扫描的人，这个扫描是由我们创办的心脏病预防中心提供的。毫无疑问，根据这些结果，我们甚至在昨天就挽救了一些生命。这是在医疗保健中你能做的最高投资回报率的事情。我谈过的每位心脏病专家都会为自己、家人和朋友做这个检查。只需100美元，15分钟就能完成。如果我们把它变成心脏的乳腺X光检查，每年将在这个国家挽救5万条生命。这就像每年在美国结束一场乌克兰战争。所以如果你还没有做过CAC（冠状动脉钙化）扫描，去做吧。但今天不是关于这两个登月计划。今天有点像我以前和这些人在播客上做的事情，这是一个市场检查、技术检查、市场状态。我们在哪里？我们要去哪里？为了让市场继续运作，我们必须相信什么是真的？我们将在这里进行一个快速回合。所以请耐心等待。拿出你的相机，拿出你的笔记。这里有一些不错的图表糖果给你们。今年市场上涨了15%，自去年1月以来上涨了39%。尽管有关于关税的担忧，尽管有关于地缘政治的担忧，尽管有关于AI（人工智能）监管的担忧，记分板上，我们有很多在Bestie Group的人说今年黄金会飙升。它持平。比特币下跌了10%。但看看，我们有NVIDIA（英伟达）收入翻了两倍，Hyperscalar Cap X（超大规模资本支出）翻了两倍，Open AI和Anthropics估值翻了两倍，SpaceX在相当糟糕的背景下上涨了2.5倍。这不是关于倍数扩张。这是一个由收益驱动的市场扩张。今年我们看到了倍数收缩。收益增长了26%。当然，很大程度上是由AI基础设施推动的，但NASDAQ（纳斯达克）和S&P（标准普尔）的倍数实际上下降了。看看NVIDIA以明年完全纳税的GAAP（一般公认会计原则）收益的14倍交易。这不像2000年那样的泡沫。NASDAQ、S&P、SOX、NVIDIA的交易价格都远低于其平均倍数。Mag7基本上与其平均倍数一致，但并不是每个人都在赢。在这里的底部，消费类、软件金融类，市场的巨大部分几乎没有动。这是一个由历史上最大的Cap X建设、最大的技术超级周期推动的市场。半导体占NASDAQ回报的70%。70%的回报。这既好又坏。我们会深入探讨。谁在赚钱？代币的制造者在赚钱，而代币的购买者基本上是随波逐流。由于基础设施市场的紧张，我们有大规模的上市公司看起来像风险投资回报。Dell上涨了5倍，Hinex在短短18个月内上涨了9倍。我喜欢这个图表。蓝色的是超大规模资本支出。橙色的是半导体公司的自由现金流。你注意到什么了吗？他们的资本支出几乎是基础设施公司的自由现金流的美元对美元。\n\n好吧，我们在年初时处于什么位置？这是一个非常重要的框架来理解。你可能还记得我去年10月和Sam Altman以及Sacha做的某个播客。我问Sam一个非常基本的问题，这是每个人心中的问题。你如何在拥有130亿美元的GAAP收入时承诺一万亿美元的资本支出？我以为这会是一个清除市场困惑的方法，结果他让我卖掉我的股票。但随后在12月初我们有了Opus 4.5和Claude Code。然后在1月，Anthropics的收入是20亿美元。然后在2月是40亿美元。在3月是110亿美元。你注意到3月发生了什么吗？人们开始弄清楚Anthropics的收入是什么。我们对AI收入是否出现的问题有了一个感叹号答案。它以一种巨大的方式出现了。这就是为什么我们在4月和5月有了这次历史性的上涨。我们从底部撕裂，因为引线是由Anthropics的月收入点燃的。然后在6月和7月我们有了一些整合。\n\n为什么？因为Anthropics出来说我们的年度运行收入是65。人们以为是75。所以他们不得不稍微下调他们的预期。而且我们对开源有一些担忧。开源正在赶上。你知道，Anthropics是否能够继续产生这些收入？所以从那时起我们就有点停滞不前。很难理解这些收入在资本主义历史上从未发生过。对吧？我们正处于这些收入的抛物线双指数曲线上。所以总的运行率，我们就称之为前三大实验室，Anthropics、Open AI和SpaceX，根据7月传出的所有传言，大约是1000亿美元。我认为他们需要在年底前共同达到至少1800亿美元。再增加800亿美元在这三个实验室上以保持AI交易的完整。所以这是当今市场上最重要的单一数据点。对吧？Anthropics的月收入，Open AI的月收入会是40亿美元还是80亿美元？这几乎让人难以理解。我们大多数在风险投资领域工作了很长时间的人，如果你在四五年内增加了10亿，如果你达到了10亿美元的软件收入，你就进入了软件公司的前5%。但这就是世界现在的定价方式。那么为什么这如此重要？就是这张幻灯片。如果你要每年建造1.5万亿美元的资本支出（CapEx），就必须有人为此买单。对吧？微软不为此买单。他们建造它是为了出租。谷歌不为此买单。他们建造它是为了出租。亚马逊建造它是为了出租。那么，谁是租用它的人？我们必须有外购收入来支付租金。所以如果我们今年结束时的运行收入大约是2000亿美元，那就低于那几年的水平。我认为你必须从2000亿增长到4500亿，再到8000亿或1万亿美元才能跟上。蓝色条是来自Mag5的预期资本支出。橙色条是我们需要看到的外购收入缺口，以便在未来几年内保持这一交易的完整。否则，我们无法建造这么多的资本支出。所以实验室越来越多地，你知道，就像我去年十月与Sam的对话，他们正在积极扩展ComputeY。你昨天听到的所有事情，我们正进入递归循环。他们看到对产品的需求惊人。因此，他们正在扩展计算。今年，增加的计算总量，到2026年，大约是19吉瓦。其中大约7吉瓦去了两个领先的实验室。明年，这是半分析，所以Dillon Patel预测，我们将增加43吉瓦，其中大约14吉瓦将进入领先的实验室。我们将回到这个问题上，明年我们真的能支持43吉瓦的计算吗？注意到我们明年增加的数量与今年美国的总计算量一样多，今年美国的累计计算量。所以这就是市场的预期。如果那没有发生会怎样？顺便说一句，如果你把这些条加起来，到2028年，根据David Saxes昨天的观点，全国超过一半的总计算量由两个实验室控制。那么TAM（总可用市场）是否存在。TAM是否存在？对吧？所以如果我们看知识工作的总TAM，对吧，这是一个巨大的、巨大的类别。你有消费者加广告加编码和所有这些白领工作流程，数百万的企业，我会说这是世界历史上最大的TAM。你只需要达到大约4%的TAM或1.2万亿就能支付资本支出。所以我不认为这是一个TAM问题。显然，Jensen在播客上说过，两年前推理将达到10亿倍，记得所有人都说他在胡说八道。没有办法能达到10亿倍。这正是我们在代理时代所做的，对吧？我们今年经历了这种指数级的代币增长，将生产4700万亿个代币。所以这不是需求的问题。Codex用户在过去八个月中增长了40倍，企业中的知识工作。如果你看企业花费的中位数，大约在过去18个月中增长了17倍。\n\n我和在场的许多人交谈过，小企业、中型企业、大型企业，像Altimeter这样的企业，我们无法在不购买AI（人工智能）的情况下运营我们的业务。所以这对我来说并不令人意外。我们考虑到对经济的生产力红利。如果你看看2015年到2025年，EPS（每股收益）增长约为10%。这是6%的收入加上NASDAQ（纳斯达克）每年约38个基点的利润扩张。那么问题来了。我们能否因为AI将38个基点的利润扩张变成100个基点？答案显然是肯定的。我谈过的每家公司，Uber说我们将增长20%，但不会增加员工人数。Snowflake说我们将增长30%，但不会增加员工人数。这就是正在发生的事情。这就是利润扩张。这些公司中最大的单一成本投入是人力和工程师。这并不是说他们要解雇所有人，只是不会像以前那样快速招聘他们。当然，我们每个人的口袋里都会有消费者代理。你可能还记得我和Bill的这个赌注，你知道，我们什么时候能用你口袋里的消费者代理预订酒店？我认为我们刚刚通过Muse和Instinct实现了这一点。这可能是另一个万亿美元的类别，但肯定会消耗大量的代币。这里有三个风险和挑战。抱歉我说得这么快，但我想保持进度。监管，我们昨天听到了很多关于这方面的内容。电力以及利率的变化。所以，你知道，这就是监管的拉锯战，对吧？我听到很多人说，你在这个问题的两边。事实是这样的，好吗？答案不会在一端或另一端。我们将不得不采取常识性、务实的解决方案，让我的妈妈、姐姐和兄弟脱离险境，对吧？我们需要给选举我们代表的人们以安全的信心。因此，你昨天听到Elon提出了一个关于同行评审的好建议。所以我相信我们会做到这一点，但在这个过程中有点混乱。但我们有过度监管的历史，当人们感到害怕时，当活动家开始推动议程时。我们在这个国家关闭了67个裂变反应堆。我们单方面解除对中国的武装。这对国家来说是一场灾难，对吧？所有我们本可以获得的清洁能源，反而得到了不清洁的排放，因为我们有一群活动家一心想关闭核能。我们不能允许这种情况在AI上发生。所以监管是一个威胁。这是一个风险。原子和能源是困难的。那么回到，我们能否建立43吉瓦的计算能力？我们国家的总计算能力不到40吉瓦。在一年内做到这一点，我们必须克服许可和地方反对。你们都看到了这一切。电网互连延迟，熟练劳动力短缺，电力设备售罄。这是国家历史上最大的建设。我建议Dylan对明年43吉瓦的预测过于激进。我认为我们不会达到这个目标。我认为我们实际能够建立的总量更接近25吉瓦。我认为在这25吉瓦中，其中一半将用于Anthropic和Open AI。我认为这足以产生收入。记住，据报道Anthropic今年的收入为1000亿，1100亿。如果他们这样做，他们是用1.5吉瓦的计算能力做到的。所以如果他们再增加四五吉瓦的计算能力，那肯定足以再增加1000亿的收入。所以我认为我们不需要更多的吉瓦来达到明年的收入目标。但这是我的直觉，我们不会达到43吉瓦。当然，我们明天会听到更多。我认为加息即将到来。我认为现在有超过90%的可能性我们明天会加息。为什么这很重要？因为这一切现在都在借钱。我们借钱来建立这些数据中心。所以这笔钱的门槛利率在上升。这不仅对数据中心是一个挑战。但请记住，正如Warren Buffett所说，利率对于股票来说，就像重力对于物质一样。如果你能在不承担股权风险的情况下赚取五个半或6%的收益，那么这对股票来说将是一个挑战。所以这就是我认为我们所在的位置。\n\n我们将在这一张幻灯片上结束。然后我们会请各位上台，稍作讨论。但这是飞行路径。这是我管理投资组合的思路。我们大约上涨了，NASDAQ（纳斯达克）大约上涨了15%。但当我坐在这里思考风险时，我想要小、中或大规模吗？这是我对潜在结果范围的思考。如果每月的AI（人工智能）实验室收入接近80亿美元的数字，我认为这是起飞。我认为我们今年会看到一次IPO（首次公开募股）。所以我非常密切地关注那些每月收入数字到底是多少。我认为趋势是完整的，但我们会看到。这将是决定从现在到年底之间是否起飞的最重要的事情。第二个是利率。选举油价。显然，利率在一定程度上跟随油价。那么那里会发生什么？如果10年期利率达到5.5，那将对股市造成巨大负担。最后是监管，Anthropic IPO，我们昨天看到交易下跌，因为人们担心可能会暂停或推迟。这显然是一个重大问题。我不认为这会发生，但同样，这将是一个关注点。所以这就是潜在结果的范围。从这里开始，我们上涨了15%。我认为我们可以在今年余下的时间里走得更高，或者走得更低。我留给你们的是，2023年至2025年期间，你只需要搞对一件事。AI将成为技术史上最大的超级周期，你需要将筹码投入AI交易。就是这样。如果你在AI交易中，你就赚钱了。这不是我们在2026年的情况。每个人都知道AI。所有都已定价。现在是关于事实和情况。保持心理灵活。跟随事实。不要孤注一掷。不要像我们北方的朋友那样去做外汇交易，他把所有的钱都给了Citadel。在这个市场中进行外汇杠杆交易，非常危险。所以在我看来，我们处于中等位置。我们心理灵活。如果我们看到这些接下来几个月的收入大幅增加，并且看到油价回落，我们会在桌上放更多的筹码。如果没有，我们保留进一步缩小的权利。谢谢大家。感谢邀请我。",
+     "translation_len": 5150,
+     "url": "https://podcasts.apple.com/us/podcast/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais/id1502871393?i=1000790291827"
+    },
+    {
+     "date": "2026-09-17",
+     "date_method": "jsonld",
+     "detail": "Sep 17, 2026 · Appearing on the All-In Podcast for a comprehensive state-of-the-market assessment, Brad Gerstner—Founder and CEO of Altimeter Capital—articulated a stark framework for the current phase of the AI supercycle.",
+     "explain": "布拉德·格斯特纳在All-In Podcast中对2026年的科技市场进行了深入分析，指出AI超级周期已进入一个复杂的新阶段。过去几年，投资者只需大量投入AI基础设施即可获得历史性回报，但如今市场已转向依赖于基本现金流转换、物理能源限制和收入经济学的执行驱动。格斯特纳强调，科技行业正进行史上最大规模的资本支出建设，由微软、谷歌、亚马逊、Meta和苹果这五大巨头引领。然而，这些公司并非最终消费者，而是建设数据中心容量以出租。因此，半导体供应链和更广泛的股票市场的估值结构取决于领先的AI实验室能否产生足够的运营收入来证明数万亿美元资本支出的合理性。\n\n格斯特纳指出，主要AI实验室（如Anthropic、OpenAI和xAI/SpaceX）的年化收入约为1000亿美元。为了维持市场稳定，这些实验室必须在2026年底前将年化收入增加到至少1800亿至2000亿美元。展望未来，收入必须呈指数增长，达到4500亿、8000亿，最终超过1万亿美元，以支持预计每年1.5万亿美元的超大规模基础设施资本支出。\n\n同时，格斯特纳提醒人们注意数据中心部署的物理限制。他认为，尽管一些乐观的预测认为美国将在2027年新增43吉瓦的计算能力，但实际增加可能仅为25吉瓦。这一结构性电力上限不会立即导致金融崩溃，因为实验室可以通过快速增长的代币生成效率和企业支出满足短期收入目标。\n\n格斯特纳还反驳了AI行业正在膨胀为类似互联网泡沫的资产泡沫的说法。他指出，市场的顶级表现者正在经历倍数收缩而非扩张，市场由具体的盈利增长而非投机泡沫驱动。在过去的36个月中，生成式AI的出现引发了历史上最集中的资本轮换，半导体和基础设施提供商吸收了几乎所有的资本流入，导致市场结构严重依赖硬件执行。\n\n格斯特纳强调，超大规模资本支出与半导体收入之间存在直接的循环关系。五大巨头的资本支出几乎与半导体和硬件基础设施提供商的自由现金流对等。然而，超大规模公司并非最终的计算购买者，而是商业基础设施的房东，建设数据中心容量以租赁给第三方。",
+     "gist": "布拉德·格斯特纳认为，AI行业需要显著提升营收以支撑巨额资本支出，同时面临数据中心部署的物理限制和市场估值的实际收缩。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "The 2026 AI Infrastructure Reality Check: Gerstner on CapEx ...",
+     "translation": "2026年的技术格局已达到一个关键的转折点。轻松的多重扩张、以叙事驱动的势头以及对人工智能（AI）的不加区别的资本分配的时代已经明确结束。在All-In Podcast上，Altimeter Capital的创始人兼首席执行官Brad Gerstner对市场状况进行了全面评估，阐述了AI超级周期当前阶段的一个明确框架。2023年至2025年间，这一周期开始时是一个二元宏观交易，投资者只需大量投入AI基础设施即可获得历史性的回报，但现在已转变为一个复杂的、依赖执行的市场，严格由基本的现金流转换、物理能源限制和购买收入经济学驱动。\n\nGerstner的核心论点集中在一个明确的财务方程上：科技行业正在执行工业历史上最大规模的资本支出（CapEx）建设，由\"五大\"超大规模公司——Microsoft、Alphabet、Amazon、Meta和Apple领导。然而，这些科技巨头并不是作为最终消费者来吸收这些基础设施的；他们主要是为了出租而建设数据中心容量。因此，半导体供应链和更广泛的股市的整个估值结构取决于领先的AI前沿实验室是否能够产生足够的运营收入——称为\"购买收入\"——以证明数万亿美元的CapEx轨迹是合理的。\n\n根据Gerstner的说法，主要前沿实验室（主要是Anthropic、OpenAI和xAI/SpaceX）的集体年化收入约为1000亿美元。为了在今年剩余时间内保持股市稳定并维持投资者对AI交易的信心，这些实验室必须在2026年底之前将其年化收入集体扩大到至少1800亿至2000亿美元。展望未来，购买收入必须呈指数级增长——达到4500亿、8000亿，并最终超过1万亿美元，以满足预计的1.5万亿美元的年度超大规模基础设施CapEx需求。\n\n同时，Gerstner对数据中心部署的物理限制进行了冷静的现实检查。拆解了华尔街过于乐观的模型——例如SemiAnalysis预测美国将在2027年启用43吉瓦（GW）的新计算能力——Gerstner认为，电网互连的现实摩擦、高压变压器的可用性、地方许可和专业劳动力将使实际新增量限制在约25吉瓦。然而，Gerstner强调，这一结构性电力上限不会阻止实验室在短期内达到收入目标，因为代币生成效率迅速提高和企业支出激增。\n\nGerstner拆解了流行媒体关于AI行业正在膨胀一个类似于互联网泡沫的资产泡沫的叙述。他指出，NASDAQ和S&P 500的估值倍数显示，市场的顶级表现者正在经历倍数收缩而非倍数扩张。尽管Nvidia的收入翻倍，并与其他半导体领导者一起推动了NASDAQ总回报的70%，其交易价格仅为明年完全纳税的GAAP收益的14倍，远低于其历史平均水平。2026年的市场由具体的收益扩张而非投机泡沫驱动，但随着宏观利率上升和监管障碍的增加，它需要绝对的警惕。\n\n要充分理解Gerstner分析的重要性，必须了解定义前36个月的经济和技术背景。继2022年底生成式AI的公开出现后，金融市场进行了历史上最集中的资本轮换之一。股权表现集中在半导体制造商、内存制造商、定制ASIC设计师和服务器OEM上。像SK Hynix这样的公司在18个月的窗口期内，其股权估值扩大了9倍，而Dell Technologies则增长了5倍，直接捕获了云提供商投入AI服务器机架的资本。\n\n在这个超级周期的早期阶段（2023年至2025年），投资策略非常简单：在半导体和基础设施提供商中持有多头头寸。\n\n更广泛的市场经历了温和的收益扩张，但半导体股票几乎吸收了全部的资本流入。到2026年初，S&P 500指数从2025年1月的水平上涨了39%，而NASDAQ年初至今上涨了15%。然而，在这些头条指数之下，市场出现了严重的分化。消费者可自由支配的支出、传统企业软件、金融服务和工业部门保持停滞或下跌。仅半导体就占NASDAQ总回报表现的70%，形成了一个高度依赖硬件执行的指数结构。\n\n这种资本集中引发了关于超大规模公司资产负债表可持续性的激烈辩论。2024年10月，在Brad Gerstner、OpenAI CEO Sam Altman和Microsoft CEO Satya Nadella之间的一次难忘的公开对话中，Gerstner质疑Altman，前沿实验室如何能在仅产生130亿美元GAAP收入的情况下，合理地承诺1万亿美元的计算资本支出（CapEx）。当时，怀疑者认为基础设施部署已与终端用户需求脱节。\n\n然而，2025年底和2026年初的技术发布从根本上改变了收入格局。Anthropic的Opus 4.5模型和Claude Code架构的推出引发了前所未有的收入拐点。Anthropic的年化收入运行率在2026年1月为20亿美元，2月升至40亿美元，3月跃升至110亿美元，并最终在夏季中期稳定在650亿至750亿美元的范围内。这种抛物线式的加速证明，一旦AI模型从原始文本完成过渡到自主软件工程和复杂工作流程执行，企业的收入可以迅速实现。\n\n与此同时，宏观环境摩擦开始加剧。超大规模数据中心的快速扩张在北美和欧洲引发了严重的电网容量限制。能源公用事业公司面临多年互联积压和高压变压器短缺，难以提供超大规模公司所需的千兆瓦级电力。同时，地缘政治紧张局势和监管辩论加剧，引发了关于西方国家是否会对AI部署施加严厉合规结构的疑问。正是在创纪录的收益、极端的市场集中、利率上升和物理电网堵塞的背景下，Gerstner对2026年市场格局进行了明确的评估。\n\n当前技术市场的基础结构动态是超大规模公司资本支出与半导体收入之间的直接循环关系。当分析云服务提供商的资产负债表时，出现了一个非凡的数学对称性：“五大”超大规模公司的资本支出几乎与半导体和硬件基础设施提供商产生的自由现金流一一对应。Microsoft、Alphabet、Amazon和Meta将资本投入房地产、购电协议、定制硅片和GPU集群，这些资本立即流入Nvidia、Broadcom、TSMC、SK Hynix和Dell的收入线。\n\n然而，Gerstner强调了一个华尔街经常忽视的关键操作区别：超大规模公司并不是代币计算的最终购买者。他们是商业基础设施房东，建设数据中心容量以租赁给第三方。Microsoft并不是为了给内部办公套件供电而建造多千兆瓦集群；他们建造这些集群是为了将计算能力租赁给OpenAI、企业客户和独立开发者。因此，这一基础设施周期的长期偿付能力和投资资本回报率（ROIC）完全依赖于能够产生大量收入的信用良好的租户的存在。\n\n“如果你每年要建造1.5万亿美元的资本支出，就必须有人为此买单。Microsoft不会为此买单；他们建造它是为了租赁。我们必须有收入来支付租金。”\n\n为了量化这种收入需求，Gerstner概述了维持超大规模公司资本支出轨迹所需的多年收入桥梁。到2026年底，顶级实验室的集体年化运行率必须达到大约2000亿美元。\n\n为了在未来三年内与计划中的资本支出（CapEx）扩张保持平衡，整个行业的采购收入必须遵循一个积极的增长向量：\n虽然12000亿美元的采购目标单独看来令人震惊，但Gerstner证明，这完全得到了全球可服务市场（TAM）的支持。全球在白领劳动上的支出——涵盖软件工程、法律服务、财务分析、企业管理和客户支持——每年超过30万亿美元。为了证明每年15000亿美元的人工智能资本支出是合理的，人工智能行业只需占据全球知识工作总支出的4%（12000亿美元）。鉴于企业人工智能的采用正在迅速从简单的生产力提升扩展到自主劳动替代，可服务市场代表着一个巨大的、未饱和的跑道。\n\n虽然金融资本仍然充裕，但人工智能超级周期正直接与物理定律和公用事业基础设施相碰撞。Gerstner分析的一个核心贡献是他对华尔街过于乐观的计算供应模型进行了严格的驳斥。行业研究公司，尤其是由Dylan Patel领导的SemiAnalysis，预测美国将在2027年建立43吉瓦（GW）的新数据中心容量——这一数字相当于该国整个历史上累计的计算能力总和。\n\nGerstner明确表示，在当前的工业条件下，单年43吉瓦的建设是不可能的。建设兆瓦和吉瓦规模的数据中心设施需要克服四个相互关联的物理瓶颈：\n基于这些现实世界的摩擦点，Gerstner将2027年实际计算能力增加的预测从43吉瓦下调至大约25吉瓦。在这25吉瓦的激活容量中，他估计大约一半——12.5吉瓦——将直接分配给领先的前沿实验室（OpenAI和Anthropic），其余部分将在超大规模内部工作负载、次级实验室和主权计算项目之间分配。\n\n重要的是，Gerstner认为，未达到43 GW Wall Street的预测不会破坏人工智能收入的论点。2026年，Anthropic在不到1.5吉瓦的活跃计算能力下，报告的活动运行率超过1000亿美元。通过增加另外4到5吉瓦的专用容量，顶级实验室将拥有足够的原始计算能力，将其运行率收入再增加1000亿美元。物理功率上限将限制原始计算量，但每瓦特的快速上升的代币收益将使财务货币化超过物理吉瓦的增长。\n\n推动企业人工智能采用的经济引擎是企业成本结构的结构性转变。在传统的企业软件周期中，软件采购代表了增量的运营支出（OpEx），旨在边际上提高员工效率。然而，在生成式人工智能时代，人工智能系统作为高成本人力劳动的直接替代品，根本上改变了企业的运营杠杆。\n\nGerstner指出，对于现代技术和知识工作企业来说，人力工资单——特别是软件工程和行政人员数量——代表了单一最大项的费用。硅谷和财富500强企业的领导层正在执行一个明确的战略任务：在不增加员工数量的情况下显著扩大企业收入。Gerstner强调了主要科技运营商的具体运营承诺：\n\n这种结构性转变正在重塑宏观收益表现。历史上，纳斯达克的每股收益（EPS）年均增长约为10%，由6%的收入增长和每年38个基点（bps）的净利润率扩张推动。Gerstner提出了一个核心的财务问题：企业人工智能的采用能否将纳斯达克的年利润率增长从38个基点扩大到100个基点或更多？\n\n实证证据强烈指向肯定的答案。通过用代币消费取代增量招聘，企业运营利润率正在加速扩张。2026年，全球代币总产量预计将达到47千万亿代币，实现Nvidia CEO Jensen Huang预测的推理工作负载将经历10亿倍增长。\n\n随着公司用低成本的代币消耗取代高成本的劳动力单位，企业现金流转换率上升，为资助超大规模计算租赁提供了所需的基础经济价值。尽管基本收益增长强劲，科技行业面临着宏观经济条件的收紧。Gerstner提醒投资者注意货币政策即将发生的变化，认为由于顽固的通货膨胀和能源商品价格上涨，联邦储备系统在短期内加息的可能性超过90%。\n\n利率上升对股市估值构成直接的机械性阻力。引用Warren Buffett著名的格言，即利率对资产价格的作用如同重力对物质的作用，Gerstner解释说，更高的无风险利率压缩了股票收益倍数。如果投资者可以在10年期美国国债上无风险地赚取5.5%到6.0%的收益，风险承受型股票的门槛利率将大幅上升。这一动态对债务融资的数据中心项目尤为明显，因为更高的借贷成本提高了超大规模计算和专业计算托管商的资本成本。\n\n然而，Gerstner指出，股市已经通过大幅倍数收缩来消化了显著的货币紧缩。与2000年互联网泡沫时期不盈利的互联网公司以天文数字的市销率交易的非理性繁荣不同，2026年的市场在根本上以盈利能力为基础：\n\n此外，新的面向消费者的货币化渠道正在出现，以补充企业软件收入。Gerstner强调了个人消费者代理的快速崛起，例如Mues和Instinct，它们允许用户通过嵌入式口袋代理自主预订复杂的旅行、管理个人财务和执行多步骤的消费者交易。这个消费者代理层有望发展成一个数千亿美元的市场类别，推动二级代币消耗并扩大支持AI基础设施的收入基础。\n\nGerstner指出的最后一个关键挑战在于人工智能部署和安全监督的监管政策。反思美国工业政策中过去的监管失误，Gerstner严厉警告不要让恐惧驱动的激进议程扼杀国家的技术能力。\n\n具体来说，Gerstner直接将历史与20世纪末美国核电行业的过早退役相提并论。在激进分子的压力和繁重的监管障碍下，美国在几十年间关闭了67座运行中的核裂变反应堆。这一决定迫使国家严重依赖化石燃料，放弃了在先进核工程领域的全球领导地位，并造成了现在阻碍现代数据中心扩展的能源赤字。Gerstner将这一历史政策失败描述为一种“单方面裁军”，严重损害了美国的经济竞争力。\n\n“我们在这个国家关闭了67座裂变反应堆。我们在对抗中国时单方面裁军。这对国家来说是一场灾难。我们不能允许这种情况在AI领域发生。”\n\n为了避免在AI领域重蹈这一灾难，尤其是在与中国的激烈技术竞争中，Gerstner倡导一种务实、常识性的监管框架。他强调了Elon Musk提出的对前沿模型进行独立同行评审的建议，作为一种有效的中间立场。监管框架应专注于由独立技术专家进行的客观安全评估，而不是实施全面的部署前禁令、算法国家控制或有利于现有科技垄断的繁重合规要求。保持监管理智对于确保前沿实验室能够继续部署计算速度而不陷入官僚瘫痪至关重要。\n\n在All-In Podcast上的讨论展示了市场观点的复杂综合，对比了Brad Gerstner的务实机构投资者框架与风险投资、超大规模管理和宏观对冲基金的广泛观点。\n\nBrad Gerstner（纪律严明的机构运营者）：Gerstner的定位由严格的风险管理、实证跟踪和绝对的心理灵活性定义。\n\n与传统的风险投资者保持永恒的结构性看涨不同，Gerstner以“中等仓位”策略来应对2026年的市场。他明确警告投资者不要使用高杠杆（警告不要进行“4倍杠杆的YOLO交易”，因为这会使投资组合容易受到波动的影响）。Gerstner的方法依赖于对每月实验室收入的实时跟踪：如果顶级实验室的运行率达到每月80亿美元（年化超过1000亿美元），他主张积极增加股票配置；如果收入停滞或利率飙升至5.5%，他主张减少风险敞口并保持流动性。\n\n超大规模计算执行动态（计算房东）：云领导者的战略姿态——Satya Nadella（Microsoft）、Sundar Pichai（Alphabet）和Andy Jassy（Amazon）——呈现出一种引人入胜的运营对比。这些高管正在向数据中心投入前所未有的资本，以捕获房东市场份额。然而，正如Gerstner指出的那样，他们承担着租户违约或需求减速的结构性风险。如果前沿实验室未能实现其外购目标，超大规模计算公司面临持有贬值的硅资产和未充分利用的电力合同的风险，迫使他们吸收利润压缩。\n\n前沿实验室创始人（计算最大化者）：Sam Altman（OpenAI）和Dario Amodei（Anthropic）代表了生态系统中积极的需求引擎。他们的策略集中在尽可能快地扩展计算能力，这由内部经验数据驱动，显示模型性能和递归自我改进与计算规模可预测地增长。虽然Altman在2024年10月与Gerstner的交流中曾经驳斥关于资本支出可持续性的担忧，但Anthropic在2026年初的爆炸性收入轨迹验证了实验室创始人的论点，即计算规模直接释放高利润企业需求。\n\n“Besties”主持人动态（宏观不确定性与技术决定论）：在整个对话中，主持人的互动突显了宏观经济谨慎与技术乐观之间的紧张关系。虽然共同主持人提出了关于地缘政治不稳定、消费者健康和利率飙升的合理担忧，Gerstner成功地将辩论锚定在实证股权机制上：显示出高收益增长（+26%）结合倍数收缩使当前市场在根本上比投机性的历史高峰更健康。\n\nGerstner所阐述的见解具有深远的战略意义。",
+     "translation_len": 6485,
+     "url": "https://www.singularitymoments.com/content/the-2026-ai-infrastructure-reality-check-gerstner-on-capex-off-take-and-grid-bo/"
     }
    ]
   },
@@ -20125,8 +20194,8 @@
    "domain": "industry",
    "field": "ai-infrastructure",
    "kol_name": "Alex Atallah",
-   "latest_date": "2026-09-25",
-   "latest_view": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah...",
+   "latest_date": "2026-10-03",
+   "latest_view": "Beyond the God Model | Alex Atallah & Amjad Masad | Andreessen...",
    "name_zh": "亚历克斯·阿塔拉",
    "rating": "★★★",
    "role": "OpenRouter 联合创始人兼 CEO；OpenSea 联合创始人（前 CTO）",
@@ -20268,6 +20337,19 @@
      "translation": "从开放权重模型的最初阶段到成为超过一千万开发者的中立路由层，OpenRouter 是未来人工智能将是多模型的最明确的赌注之一。在这一集中，OpenRouter 的联合创始人兼 CEO Alex Atallah，与 AMP 的 Anjney Midha 一起回归，与 swyx 一起探讨 OpenRouter 如何从 Llama、Alpaca、Mistral 和 Midjourney 的第一波浪潮中出现，为什么模型多样性在成为共识之前就很重要，以及一个被认为“只是一个包装”的公司如何成为 AI 生态系统的关键基础设施。\n\n我们深入探讨了 OpenRouter 背后的产品和分销经验：为什么模型实验室可以花费数十亿美元训练一个检查点，却仍然难以将其交到开发者手中，Mistral 如何帮助证明竞争性推理市场的价值，为什么 OpenRouter 选择专注而不是扩展到微调、内存和其他相关产品，以及它的排名如何成为 AI 使用变化的实时地图。Alex 还解释了 OpenRouter 早期的模型融合实验，为什么他们删除了第一个版本并在几年后重新推出，以及该平台如何增长到每天超过 10 万亿个 token。\n\n最后，Anjney 解释了为什么 Stripe 和 OpenRouter 适合在一起，为什么 token 欺诈可能成为 AI 经济的定义性安全问题，以及下一波欺诈不仅会来自人类，还会来自攻击日益有价值的 token 流的自主代理。\n\n* 为什么 OpenRouter 早早下注，没有单一的 AI 模型会赢得一切\n* Alpaca、Llama 和开放模型变得不可忽视\n* 为什么 Discord 的早期 AI 部署暴露了封闭模型的局限性\n* 为什么模型实验室可以在训练上花费数十亿美元却仍然在分销上失败\n* OpenRouter 如何成为模型开发者的中立分销层\n* 为什么风险投资公司将 OpenRouter 视为“只是一个市场”或“只是一个包装”\n* Mistral 价格战和推理市场的第一个真实证明\n* Midjourney 如何通过 Discord 扩展以及它教会了 AI 生态系统什么\n* 为什么加密基础设施成为生成式 AI 的彩排\n* OpenRouter 与 LM Arena 以及为什么他们的使命根本不同\n* 为什么专注成为 OpenRouter 最大的战略优势之一\n* Anthropic 早期对 AI 配对编程和编码的关注\n* OpenRouter 原型化但从未推出的产品\n* MOM，OpenRouter 早期的模型混合实验\n* 为什么模型融合在 2024 年失败——以及为什么现在效果更好\n* OpenRouter 的排行榜如何成为 AI 行业的实时地图\n* OpenClaw、自动路由和重塑 AI 使用的代理\n* OpenRouter 如何达到每天超过 10 万亿个 token\n* 为什么推理网关越来越成为欺诈的目标\n* 为什么 Stripe 的欺诈基础设施对 OpenRouter 战略重要\n* 代理欺诈的兴起和对 token 经济的攻击\n* OpenRouter 加入 Stripe 后的变化和不变\n* LinkedIn: https://www.linkedin.com/in/alexatallah/\n* LinkedIn: https://www.linkedin.com/in/anjney/\n00:02:12 Alpaca、Llama 和多模型赌注\n00:06:04 Discord、开放模型和 OpenRouter 的起源",
      "translation_len": 1484,
      "url": "https://www.pastimeapp.com/ep/Latent-Space-The-AI-Engineer-Podcast-OpenRouter-from-Seed-to-Stripe-with-OpenRouters-Alex-Atallah-AMPs-Anjney-Midha"
+    },
+    {
+     "date": "2026-10-03",
+     "date_method": "jsonld",
+     "detail": "Alex Atallah, Amjad Masad, and Erik Torenberg Posted October 3, 2026.They also get into agent-to-agent communication, AI security, and why the next generation of companies may need an independence layer across models, clouds, and data. About the Contributors. Alex Atallah.",
+     "explain": "在一次关于人工智能未来发展的讨论中，亚历克斯·阿塔拉与OpenRouter的代表和Replit的创始人兼CEO探讨了AI未来可能的发展方向。他们认为，未来的AI可能不再是一个通用模型，而是一个由多个专门化模型组成的生态系统。亚历克斯解释说，OpenRouter正在押注于“神经多样性”，即根据特定任务的需求，使用不同方式训练的不同模型进行路由和组合。Replit的创始人也从企业内部的角度支持这一观点，指出企业越来越需要拥有自己的AI能力，而不是完全依赖单一的模型提供商。\n\n他们讨论了当通用型代理让位于专门化代理团队时会发生什么，以及为什么较小的模型有时可能更便宜、更安全且更易于控制。他们还探讨了路由和模型融合如何以更低的成本提供前沿水平的性能。此外，他们还涉及了代理间的通信、AI安全性，以及为什么下一代公司可能需要在模型、云和数据之间建立一个独立层。\n\n这些观点表明，未来的AI发展可能会更加多样化和专门化，而不是依赖于单一的通用模型。这种多样化的模型生态系统可能会为企业和技术开发者提供更多的灵活性和控制权，同时也可能降低成本和提高安全性。",
+     "gist": "亚历克斯·阿塔拉认为未来的AI将由多个专用模型组成的生态系统，而非单一通用模型。",
+     "merged_at": "2026-10-08",
+     "origin": "daily",
+     "text": "Beyond the God Model | Alex Atallah & Amjad Masad | Andreessen...",
+     "translation": "A16z的Erik Torenberg与OpenRouter的Alex Atallah和Replit的创始人兼CEO Amjad Masad坐下来讨论为什么AI的未来可能看起来不像一个通用模型，而更像是一个由多个专业模型协同工作的生态系统。Alex解释了为什么OpenRouter押注于“神经多样性”：根据手头的工作，不同的模型以不同的方式训练、路由和组合。Amjad从企业内部提出了类似的观点，企业越来越需要拥有自己的AI能力，而不是完全依赖单一的模型提供商。\n\n他们探讨了当通用代理让位于专业代理团队时会发生什么，为什么较小的模型有时更便宜、更安全、更易于控制，以及路由和模型融合如何以更低的成本提供前沿级别的性能。他们还讨论了代理之间的通信、AI安全，以及为什么下一代公司可能需要在模型、云和数据之间建立一个独立层。\n\nAndreessen Horowitz是一位普通合伙人，专注于投资和管理我们的市场营销和生态系统组织。\n\nThe a16z Show与正在构建技术的人讨论技术领域内最重要的想法。每一集都旨在让听众走在前沿，涵盖AI、能源、基因组学、太空等主题。\n\n分析和新闻涵盖了重塑AI和基础设施的最新趋势。\n\n我们建立了一个深深植根于技术及其如何塑造我们未来的专家网络。订阅我们的新闻通讯以接收他们的观点。\n\n我们建立了一个深深植根于技术及其如何塑造我们未来的专家网络。订阅我们的新闻通讯以接收他们的观点。\n\n“帖子”（包括播客、视频和社交媒体）中表达的观点是被引用的a16z个人的观点，并不代表a16z Capital Management, L.L.C.（“a16z”）或其各自附属机构的观点。a16z Capital Management是一家在证券交易委员会注册的投资顾问。作为投资顾问注册并不意味着具备任何特殊技能或培训。帖子不针对任何投资者或潜在投资者，也不构成出售任何证券的要约或购买要约的招揽，且不得用于或依赖于评估任何投资的优劣。\n\n此处的内容——以及在任何相关的分发平台和任何公共a16z在线社交媒体账户、平台和网站（统称为“内容分发渠道”）上提供的内容——不应被解释为或以任何方式依赖于作为投资、法律、税务或其他建议。您应咨询您自己的顾问以获取有关任何投资的法律、商业、税务和其他相关事项的建议。此材料中表达的任何预测、估计、预测、目标、前景和/或意见如有更改，恕不另行通知，并可能与他人表达的意见不同或相反。此处或a16z内容分发渠道提供的任何图表仅供信息参考，不应在做出任何投资决策时依赖。此处包含的某些信息是从第三方来源获得的，包括由a16z管理的基金的投资组合公司。虽然取自被认为可靠的来源，但a16z未独立验证此类信息，并不对信息的持久准确性或其在特定情况下的适用性做出任何陈述。此外，帖子可能包含第三方广告；a16z未审查此类广告内容，也不认可其中包含的任何广告内容。所有内容仅在注明的日期有效。\n\n在任何情况下，本网站或相关内容分发渠道提供的任何帖子或其他信息均不应被解释为要约招揽购买或出售由a16z人员赞助、讨论或提及的任何证券或任何集合投资工具的权益。\n\n也不应被解释为提供投资咨询服务的要约；投资于由a16z管理的集合投资工具的要约将单独提供，并且仅通过特定集合投资工具的保密发行文件进行——这些文件应被完整阅读，并且仅提供给那些符合联邦证券法中某些资格要求的人。此类投资者，被定义为合格投资者和合格购买者，通常被认为有能力评估潜在投资和财务事项的优缺点和风险。\n\n不能保证a16z的投资目标会实现或投资策略会成功。任何投资于a16z管理的工具都涉及高风险，包括投资金额全部损失的风险。提到、引用或描述的任何投资或投资组合公司并不代表a16z管理的所有投资工具，不能保证这些投资会盈利或未来进行的其他投资会有类似的特征或结果。由a16z管理的基金所进行的投资列表可在此处获得：https://a16z.com/investments/ 。a16z投资、集合投资工具或投资策略的过去结果不一定代表未来结果。此列表中排除了发行人未授权a16z公开披露的投资（以及某些公开交易的加密货币/数字资产）。至于其在任何加密货币或代币项目中的投资，a16z是出于自身的财务利益行事，而不一定是其他代币持有者的利益。a16z在这些项目中没有特殊角色或对其管理的控制权。a16z不承诺继续参与这些项目，除了作为投资者和代币持有者，其他代币持有者不应期望或依赖其有任何特定的参与。\n\n对于在日本注册的a16z管理的基金，a16z将向任何日本公众提供根据日本《金融商品交易法》第63条要求公开的文件副本。请联系compliance@a16z.com以请求这些文件。\n\n有关其他网站使用条款，请访问此处。有关a16z的其他重要信息，包括我们的Form ADV Part 2A手册，可在SEC（美国证券交易委员会）网站上获得：http://www.adviserinfo.sec.gov 。",
+     "translation_len": 2061,
+     "url": "https://a16z.com/podcast/beyond-the-god-model-alex-atallah-amjad-masad/"
     }
    ]
   },
@@ -20839,5 +20921,5 @@
   }
  ],
  "kol_count": 61,
- "news_total_24h": 18
+ "news_total_24h": 25
 }
