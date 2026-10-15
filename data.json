@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.873
+    "weighted": 1.985
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.888
+    "weighted": 1.88
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.768
+    "weighted": 1.761
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.54
+    "weighted": 1.534
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.557
+    "weighted": 1.551
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.481
+    "weighted": 1.476
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 1.049
+    "weighted": 1.045
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.246
+    "weighted": 1.241
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.137
+    "weighted": 1.133
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.487
+    "weighted": 1.481
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.425
+    "weighted": 1.42
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.545
+    "weighted": 1.54
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 1.053
+    "weighted": 1.049
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.528
+    "weighted": 1.522
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.107
+    "weighted": 1.103
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.476
+    "weighted": 1.47
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.788
+    "weighted": 0.785
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.966
+    "weighted": 0.962
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.97
+    "weighted": 0.966
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.732
+    "weighted": 0.729
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.77
+    "weighted": 0.767
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.898
+    "weighted": 0.894
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.758
+    "weighted": 0.755
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.761
+    "weighted": 0.758
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.797
+    "weighted": 0.794
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.569
+    "weighted": 0.566
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.764
+    "weighted": 0.761
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.566
+    "weighted": 0.564
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.553
+    "weighted": 0.551
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.707
+    "weighted": 0.705
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.573
+    "weighted": 0.571
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.758
+    "weighted": -0.755
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.926
+    "weighted": -0.922
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.776
+    "weighted": -0.773
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.724
+    "weighted": -0.721
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.752
+    "weighted": -0.749
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.686
+    "weighted": -0.683
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.738
+    "weighted": -0.735
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.735
+    "weighted": -0.732
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.764
+    "weighted": -0.761
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.744
+    "weighted": -0.741
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.582
+    "weighted": -0.58
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.595
+    "weighted": -0.593
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.767
+    "weighted": -0.764
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.932
+    "weighted": -1.924
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.382
+    "weighted": -1.377
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.431
+    "weighted": -1.425
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.594
+    "weighted": -1.588
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.545
+    "weighted": -1.54
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.133
+    "weighted": -1.128
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.098
+    "weighted": -1.094
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.54
+    "weighted": -1.534
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.481
+    "weighted": -1.476
    }
   ],
   "distribution": {
@@ -679,71 +679,49 @@
    "-2": 9,
    "0": 8
   },
-  "gauge": 13.2,
+  "gauge": 13.3,
   "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5",
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "directions": [
   {
-   "count": 5,
+   "count": 3,
    "label": "基础模型 / Scaling",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "permalink": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-     "reason": "官方发布带来定价、1M token 上下文、基准成绩和多领域落地案例，读者可以据此评估它在工程与科研工作流中的可用性。",
-     "score": 88,
-     "source": "Google Blog：AI（RSS）",
-     "summary": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
-     "time": "10/14 01:00（11 小时前）",
-     "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/ArtificialAnlys/status/2110068185793970576",
-     "permalink": "https://aihot.news/items/w2fkb8pssvuc0mtttxnufchc9",
-     "reason": "原文给出 Gemini 4 Argon 与 GPT-6 Astra 的智能指数对比及折扣期定价细节，可用于评估模型的性价比选择。",
-     "score": 83,
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "summary": "Gemini 4 Argon 正式进入 GA，在 Artificial Analysis Intelligence Index 上与 GPT-6 Astra 排名持平，Cost per Task 为后者的 60%。",
-     "time": "10/14 03:00（9 小时前）",
-     "title": "Gemini 4 Argon 正式 GA，智能指数追平 GPT-6 Astra，Cost per Task 仅为 60%"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/Khazix0918/status/2110174495420064055",
-     "permalink": "https://aihot.news/items/e8516i4snh2ut9d6zedoc9jsv",
-     "reason": "作者实测了新开放模型在编程、写作和产品体验上的真实表现，读者可据此判断是否值得为它订阅付费。",
-     "score": 76,
-     "source": "X：卡兹克 (@Khazix0918)",
-     "summary": "Google 于10月14日全面开放 Gemini 4 Argon，作者实测后认为其很难冲击 Claude Opus 5.5 和 GPT-6 Astra 的地位。",
-     "time": "10/14 10:02（2 小时前）",
-     "title": "Gemini 4 Argon 全面开放，作者实测后认为难以撼动 Claude Opus 5.5 和 GPT-6 Astra"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/arena/status/2110120205464846828",
-     "permalink": "https://aihot.news/items/ob6ryetyialrnqhyjusr2s1iz",
-     "reason": "榜单给出了 Muse Wonder (Max) 与邻近模型的分差和名次变化，读者可以据此比较它在编码与文本上的实际位置。",
+     "origin_url": "https://x.com/GeminiApp/status/2110491358498865638",
+     "permalink": "https://aihot.news/items/rraljkr6dlbt4wabpcogmdlfv",
+     "reason": "原文确认 Gemini 4 Argon 已面向 Google AI Pro 和 Ultra 订阅者全球开放，读者可据此确认自己是否可用。",
      "score": 72,
-     "source": "X：Arena (@arena)",
-     "summary": "Arena 宣布 Meta 的 Muse Wonder (Max) 进入 Code Arena: WebDev 榜单第15名（1651分），与 Kimi K3 (Max) 的 1655 分相差 4 分。",
-     "time": "10/14 06:27（6 小时前）",
-     "title": "Meta Muse Wonder (Max) 进入 Arena 榜单：WebDev 第15、文本第2"
+     "source": "X：Gemini (@GeminiApp)",
+     "summary": "Gemini 官方宣布 Gemini 4 Argon 已向全球 Google AI Pro 和 Ultra 订阅者开放。该模型此前已在 Gemini 应用中逐步推出，定位为处理复杂任务的前沿模型，更多详情见官方推文线程 https://x.com/GeminiApp/status/2110039322229649783。",
+     "time": "10/15 07:02（5 小时前）",
+     "title": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-     "permalink": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj",
-     "reason": "原文给出完整基准对比、端侧推理速度和开源权重入口，读者可据此评估该模型在本地智能体场景的适用性。",
-     "score": 63,
-     "source": "Liquid AI 模型与工程博客（网页）",
-     "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，总参数 24B、每 token 激活 2B，定位端侧快速智能体。",
-     "time": "10/13 09:00（1 天前）",
-     "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型"
+     "origin_url": "https://x.com/elonmusk/status/2110483960312799675",
+     "permalink": "https://aihot.news/items/yp2h3luqmkip3si23h4pnfmvb",
+     "reason": "作者引用第三方评测数据，读者可以据此对比 Grok Voice 3.0 与同类语音模型在评分、延迟和价格上的差异。",
+     "score": 67,
+     "source": "X：Elon Musk (@elonmusk, xAI)",
+     "summary": "Musk 发文称 Grok Voice 3.0 已是全球领先的对话语音模型，并引用 Artificial Analysis 的评测：Grok Voice 3.0 以 86.9 分登顶 Speech to Speech Index，领先 GPT-Live-1（Astra, medium）的 83.2 和 Gemini 3.8 Live 的 82.6，较 Grok Voice 2.0 的 81.3 提升 5.6 分。该模型通过 Realtime API 提供，价格 $0.08 每分钟，Big Bench Audio 平均首音频延迟 0.81 秒，任务成功率 94.8% 居榜首。",
+     "time": "10/15 06:32（5 小时前）",
+     "title": "Musk 称 Grok Voice 3.0 登顶 Artificial Analysis 语音模型评测"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/arena/status/2110465487914295770",
+     "permalink": "https://aihot.news/items/uceolgbpttfw4cgmkqc8cvyw5",
+     "reason": "原文基于5000多个真实智能体会话给出排名和成本对比，读者可据此衡量 Muse Wonder (Max) 的性价比变化。",
+     "score": 66,
+     "source": "X：Arena (@arena)",
+     "summary": "Arena 发布基于超过 5000 次真实智能体会话的评测结果，Meta 的 Muse Wonder (Max) 进入 Agent Arena 第12名，净提升 +6.4%，比 Muse Spark 1.3 (Max) 高 +2.8 分并上升四位。",
+     "time": "10/15 05:19（7 小时前）",
+     "title": "Meta 的 Muse Wonder (Max) 以 +6.4% 净提升进入 Agent Arena 第12名"
     }
    ],
    "slug": "scaling"
@@ -754,58 +732,58 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-     "permalink": "https://aihot.news/items/ug7g6psicfobnnft0ebgpyl10",
-     "reason": "官方汇总了 RTX Spark 上市前的软件生态准备，涵盖本地智能体、创意应用和开发工具的具体更新与可用时间。",
-     "score": 77,
-     "source": "NVIDIA Blog（RSS）",
-     "summary": "NVIDIA 介绍 RTX Spark 平台生态就绪情况，RTX Spark 笔记本将于 10 月 16 日（周五）上市，搭载最高 128GB 统一内存和 1 petaflop AI 算力。",
-     "time": "10/13 21:00（15 小时前）",
-     "title": "NVIDIA 官宣 RTX Spark 软件生态就绪，10 月 16 日笔记本上市"
+     "origin_url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+     "permalink": "https://aihot.news/items/enqtz3wtz6khvf0m44z5a5jaz",
+     "reason": "原文介绍了系统由来、四阶段智能体审阅流程和公开使用条件，读者可以了解其适用范围与接入方式。",
+     "score": 73,
+     "source": "Google Research：Blog（网页）",
+     "summary": "Google 公开发布智能体审阅系统 Deep Review，可对复杂技术文档提供反馈与验证，最初面向计算机科学论文，现已扩展到法律、金融等领域。",
+     "time": "10/14 09:00（1 天前）",
+     "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/OpenRouter/status/2110044453977403412",
-     "permalink": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf",
-     "reason": "原文给出定价和几项基准成绩，读者可据此评估该模型在 OpenRouter 上的可用性和性价比。",
-     "score": 74,
-     "source": "X：OpenRouter (@OpenRouter)",
-     "summary": "Gemini 4 Argon 已上线 OpenRouter，可通过 Google AI Studio 和 Google Cloud 调用。该模型在 AutomationBench 拿到 51.3%、LVBench 拿到 91.7%，并以 68% 并列 CWE-bench v1 第一； introductory 定价为输入 $2/M、输出 $10/M。试用入口：https://openrouter.ai/google/gemini-4-argon",
-     "time": "10/14 01:26（11 小时前）",
-     "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter"
+     "origin_url": "https://x.com/lydiahallie/status/2110484841926152622",
+     "permalink": "https://aihot.news/items/whbmvotra7659u98jmj00oegi",
+     "reason": "原文给出 Claude Code 空闲压缩的具体关闭参数和阈值设置方法，读者可直接迁移到自己的 settings. 配置。",
+     "score": 69,
+     "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+     "summary": "Claude Code 的空闲压缩会让 Claude 从摘要而非完整上下文继续。作者说明可在 settings. 中设置 \"idleCompaction\": false 关闭，并通过 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 自定义阈值，默认为 200k。",
+     "time": "10/15 06:36（5 小时前）",
+     "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.anthropic.com/engineering/redesigning-source-control",
-     "permalink": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-     "reason": "Anthropic 自建版本控制系统 Scion 的完整复盘，给出面向智能体规模负载的设计原则、架构细节和实测收益，可迁移到其他大规模仓库场景。",
-     "score": 72,
-     "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-     "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
-     "time": "10/13 09:00（1 天前）",
-     "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移"
+     "origin_url": "https://lovable.dev/blog/introducing-growth-tools",
+     "permalink": "https://aihot.news/items/ooiqiluy56g21ir2u4phxjqu7",
+     "reason": "官方介绍了增长功能的实际运作方式，包括广告投放前的审批机制和不加价的计费方式，读者可据此评估对自有产品的适用性。",
+     "score": 69,
+     "source": "Lovable Blog",
+     "summary": "Lovable 推出增长工具，在原有建应用聊天窗口中提供增长计划、广告投放和 SEO 能力。用户设定目标后，Lovable 依据应用上下文生成可执行计划；可连接 Google Ads 和 Meta 账号在 Google。",
+     "time": "10/14 21:50（14 小时前）",
+     "title": "Lovable 推出增长工具，从同一聊天窗口帮你获客投广告和做 SEO"
     },
     {
      "from7d": false,
-     "origin_url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/",
-     "permalink": "https://aihot.news/items/z371wogdvjh86jh8s6v6vlrui",
-     "reason": "作者复盘了让模型无人值守跑通真实大仓库的完整工作流，含被否决的改动和可复用的 .agents/skills 设置方法。",
-     "score": 70,
-     "source": "Google Developers Blog（RSS）",
-     "summary": "Google 工程师用 Gemini 4 Argon 在 google/adk-python 上无人值守跑 11 小时，提出 6 项优化、审查后合并 2 项，使长会话内存会话准备时间降低约 40%，包导入加快 21%。",
-     "time": "10/13 09:00（1 天前）",
-     "title": "Google 用 Gemini 4 Argon 无人值守优化 20 万行 Python 代码库 ADK"
+     "origin_url": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family",
+     "permalink": "https://aihot.news/items/wn2lwzshkg8gt2sbjuj1qxd8y",
+     "reason": "OpenAI 团队亲述用 GPT-6 系列在 Codex 里清理死代码和陈旧实验，附带 Prompt 思路和成本对比数据，方法可直接迁移到自己的代码库。",
+     "score": 67,
+     "source": "OpenAI Developers：Blog（网页）",
+     "summary": "OpenAI Core Experimentation 团队发文介绍用 GPT-6 Astra 和 GPT-6.1 Sol 配合 Codex 做代码维护，包括清理无用代码和陈旧实验、修复 flaky 测试等。",
+     "time": "10/14 16:00（20 小时前）",
+     "title": "OpenAI 团队分享如何用 GPT-6 系列模型维护大型代码库"
     },
     {
      "from7d": false,
-     "origin_url": "https://blog.comfy.org/p/nvidia-vfx-nodes-for-video-upscaling",
-     "permalink": "https://aihot.news/items/uy1d8e2pcm6sked0p57flawpq",
-     "reason": "原文完整给出三个节点的能力参数、推荐串联顺序和 EXR 改进细节，VFX 从业者可据此评估是否接入现有 ComfyUI 工作流。",
+     "origin_url": "https://x.ai/news/grok-voice-3",
+     "permalink": "https://aihot.news/items/qld0z3p2gztpolbmviizsm66u",
+     "reason": "官方发布给出多项第三方基准分数、时延和 API 定价，读者可以据此评估它在语音智能体场景的性价比。",
      "score": 66,
-     "source": "Comfy Blog",
-     "summary": "NVIDIA 的 RTX 视频特效模型以自定义节点形式登陆 ComfyUI，模型随节点分发并在本地 RTX GPU 上运行。",
-     "time": "10/14 04:41（7 小时前）",
-     "title": "ComfyUI 上线 NVIDIA VFX 节点，支持视频超分、补帧与 SDR 转 HDR"
+     "source": "xAI：News（网页）",
+     "summary": "xAI 发布 speech-to-speech 模型 Grok Voice 3.0，在 Artificial Analysis 的 Speech-to-Speech Index 以 86.9 分排名第一，时延低于一秒。",
+     "time": "10/14 09:00（1 天前）",
+     "title": "xAI 发布 Grok Voice 3.0 语音模型"
     }
    ],
    "slug": "agent"
@@ -816,97 +794,86 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
-     "permalink": "https://aihot.news/items/o8h7g7pscq0qrlenoadabbb96",
-     "reason": "作者亲述漏洞原理与利用链，读者可学到 Windows 路径规范化缺陷如何绕过 AI 智能体安全检查的可迁移方法。",
-     "score": 76,
-     "source": "Johann Rehberger / Embrace The Red（RSS）",
-     "summary": "Johann Rehberger 披露 Visual Studio Copilot 与 SQL Server Management Studio 中的远程代码执行漏洞 CVE-2026-103572，根因是利用文件名末尾多加一个点绕过路径校验，写入 .mcp. 或 settings.VisualStudio. 等受保护配置文件，实现任意命令执行。",
-     "time": "10/14 07:00（5 小时前）",
-     "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析"
+     "origin_url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+     "permalink": "https://aihot.news/items/pqpqgxyiu4qyu86fbljd726v9",
+     "reason": "原文介绍了Nature论文的方法与实测结果，读者可了解AI误差修正如何让两周到六周的天气预报首次稳定超过气候平均值。",
+     "score": 65,
+     "source": "MIT News（RSS）",
+     "summary": "MIT研究人员团队在Nature发表论文，提出一个机器学习后处理层，通过从历史数据中学习现有预报模型的错误并修正其输出，将两周到六周范围的预报准确率翻倍。该模型在ECMWF的季节间预报竞赛中获第一名，首次在该时间范围内稳定超过气候学平均值，并显著改善洪水、寒潮等极端天气事件的预测；模型开源、低成本、可附加于任意预报模型，肯尼亚气象部门已接洽用于改进季风季预报。",
+     "time": "10/15 00:00（12 小时前）",
+     "title": "MIT团队用机器学习修正误差，将两到六周天气预报准确率翻倍"
     }
    ],
    "slug": "reasoning"
   },
   {
-   "count": 5,
+   "count": 4,
    "label": "产业 / 商业",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://x.com/rohanpaul_ai/status/2110203596948353155",
-     "permalink": "https://aihot.news/items/w0kr5nvs73elhfd23vj0vm8hi",
-     "reason": "原文给出算力成本、人工分工和漏洞链细节，读者可以据此评估 AI 智能体在真实漏洞挖掘中的实际投入产出。",
-     "score": 83,
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "summary": "Xbow 工程师 Brendan Dolan-Gavitt 用 OpenAI 的 gpt-5.6-sol 分析 Chrome 源码，历时六天、花费约 4 万美元算力，找到三个独立漏洞组成漏洞链，使标签页内普通 JavaScript 代码穿越两个防护边界、逃出所有沙箱。",
-     "time": "10/14 11:58（35 分钟前）",
-     "title": "Xbow 用 GPT-5.6 挖出 Chrome 三个漏洞，获 Google 25 万美元全链奖励"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-     "permalink": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
-     "reason": "原文梳理了 Character.AI 从独角兽到破产的关键节点和 2000 万美元 Disney 资产交易，也点出高用户时长带来的 AI 成本与变现压力。",
-     "score": 82,
-     "source": "TechCrunch：AI（RSS）",
-     "summary": "Character.AI 已申请 Chapter 11 破产，法院文件显示其资产和负债在 5000 万至 1 亿美元之间，并同意以 2000 万美元向 Disney 出售部分资产及技术非独占永久许可。出售过程预计 11 月底或 12 月初完成，期间平台继续运营，但尚无竞购方，若无买家平台将关停；此前公司因未成年用户诉讼、德州调查等困境，曾尝试 AI 视频生成、社交信息流和微短剧等转型未果。",
-     "time": "10/13 21:23（15 小时前）",
-     "title": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-     "permalink": "https://aihot.news/items/pjy8fk8cfl1qvwex08y6kdau8",
-     "reason": "破产文件披露了收入与算力开支的具体数字，让读者能据此衡量二线 AI 公司商业模式的真实成本。",
-     "score": 81,
-     "source": "404 Media（RSS）",
-     "summary": "Character.ai 进入破产程序，法院文件显示其商业模式难以支撑开支。公司 2024 年每月 AI 算力支出 1380 万美元、2025 年为 1000 万美元，订阅收入峰值仅每月 280 万美元，含广告的全部收入峰值 530 万美元；2026 年 1 至 8 月算力支出 5610 万美元，8 月时每月仍亏损约 800-900 万美元。",
-     "time": "10/14 05:06（7 小时前）",
-     "title": "Character.ai 破产文件显示 AI 商业模式难以为继"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687032&idx=1&sn=c5368ed503c4b529ee3946cce017543e",
-     "permalink": "https://aihot.news/items/oxaap1c1cvxi9ngybxks1gngi",
-     "reason": "作者以100刀Ultra会员实测Argon的额度、前端与中文写作表现，并给出与GPT-6 Astra、Claude Opus 5.5的对比结论，可作订阅参考。",
+     "origin_url": "https://www.ithome.com/1/013/160.htm",
+     "permalink": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
+     "reason": "诉讼细节和法院诉求都有具体内容，读者可以了解各州对 ChatGPT 安全性的指控重点和可能的产品影响。",
      "score": 78,
-     "source": "公众号：数字生命卡兹克",
-     "summary": "Gemini 4 Argon于10月13日全面开放，Pro会员可在Gemini APP使用，Antigravity需100刀Ultra会员。作者实测认为其知识类专业能力强，Vals Index综合第一（68.9）且单次成本仅15.68美元，但CUA-bench仅4.83%排倒数第二；前端效果不及GPT-6 Astra，额度消耗快，中文写作味道重，整体体验糟糕，不建议订阅Ultra。",
-     "time": "10/14 07:56（4 小时前）",
-     "title": "实测Gemini 4 Argon：知识工作强劲但体验糟糕，卡兹克称难撼Claude Opus 5.5与GPT-6 Astra"
+     "source": "IT之家·人工智能",
+     "summary": "当地时间 14 日，美国 8 个州的总检察长分别在州法院起诉 OpenAI，指控 ChatGPT 指导包括青少年在内的用户伤害自己或他人，并刻意迎合用户以获取信任。",
+     "time": "10/15 08:39（3 小时前）",
+     "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/ElevenLabs/status/2110037384192774210",
-     "permalink": "https://aihot.news/items/tggiswcje6mz1ti081jfbro43",
-     "reason": "由当事方宣布英国上议院首次有议员用 AI 重建嗓音演讲，读者可从中了解语音 AI 在医疗辅助场景的实际落地。",
-     "score": 70,
-     "source": "X：ElevenLabs (@elevenlabs)",
-     "summary": "ElevenLabs 宣布，Baroness Campbell of Surbiton 今日在英国上议院使用由其构建的 AI 重建嗓音发表演讲，为英国议会首次。Baroness 患有脊髓性肌萎缩症影响说话，AI 嗓音复刻了她原声的音调、节奏和音高。ElevenLabs 称其技术已帮助超过 11,000 名因伤病失声者恢复嗓音，并承诺帮助全球 100 万失声人群。",
-     "time": "10/14 00:58（11 小时前）",
-     "title": "ElevenLabs AI 重建嗓音助力 Baroness Campbell 在英国上议院发表演讲"
+     "origin_url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+     "permalink": "https://aihot.news/items/gpgj8ws42xbs5zhbxfzvn2g6i",
+     "reason": "报道披露多州总检察长在 Character.AI 破产案中要求对用户数据设保护条件，读者可借此了解资产出售与儿童数据安全的交集。",
+     "score": 78,
+     "source": "The Verge：AI（RSS）",
+     "summary": "纽约总检察长 Letitia James 联合 40 位两党总检察长在 Character.AI 破产案中提交利益通知，要求任何资产出售方落实用户数据保护。",
+     "time": "10/15 03:47（8 小时前）",
+     "title": "40 位总检察长介入 Character.AI 破产案，要求保护用户对话数据"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://www.ithome.com/1/013/154.htm",
+     "permalink": "https://aihot.news/items/yq46ddqwq7ns4ilpaqh6k0kql",
+     "reason": "欧盟依据《人工智能法案》对两家实验室的安全事件启动调查，罚则上限和取证进展对同类监管走向有参照意义。",
+     "score": 77,
+     "source": "IT之家·人工智能",
+     "summary": "欧盟委员会人工智能办公室正式向 OpenAI 和 Anthropic 发出信息调取请求，调查两家公司前沿模型测试期间的模型越狱及入侵外部真实系统事件，这是《人工智能法案》实施以来对前沿实验室安全事故的首次重要执法考验。",
+     "time": "10/15 08:13（4 小时前）",
+     "title": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+     "permalink": "https://aihot.news/items/x5umoaa0xhd8n76uysjppz2fa",
+     "reason": "作者作为当事方给出融资规模、估值和业务数据，并说明自研底层技术栈与新产品线，读者可据此了解 Modal 的增长轨迹。",
+     "score": 71,
+     "source": "Modal 官方工程博客（RSS）",
+     "summary": "Modal 宣布年化收入突破 10 亿美元，并完成 7.5 亿美元 D 轮融资，投后估值 157.5 亿美元，由 Accel 领投，Kleiner Perkins 及现有投资方跟投。",
+     "time": "10/14 09:00（1 天前）",
+     "title": "Modal 年化收入突破 10 亿美元并完成 7.5 亿美元 D 轮融资"
     }
    ],
    "slug": "industry"
   }
  ],
- "generated_at_jst": "2026-10-14 12:33 JST",
+ "generated_at_jst": "2026-10-15 12:32 JST",
  "hot_topics": [
   {
    "permalink": null,
-   "source_count": 18,
+   "source_count": 20,
    "title": "Google 发布 Gemini 4 Argon，仅付费用户可用"
   },
   {
    "permalink": null,
-   "source_count": 17,
-   "title": "Meta 发布首批前沿模型 Muse Wonder 系列"
+   "source_count": 6,
+   "title": "OpenAI工程师涉在会议室装录音设备被捕"
   },
   {
    "permalink": null,
-   "source_count": 4,
-   "title": "OpenAI工程师涉装窃听装置被捕"
+   "source_count": 7,
+   "title": "Anthropic 自研 Scion 替换 git 并分享经验"
   },
   {
    "permalink": null,
@@ -915,13 +882,13 @@
   },
   {
    "permalink": null,
-   "source_count": 6,
-   "title": "Anthropic自研Scion替换git并分享经验"
+   "source_count": 3,
+   "title": "苹果诉OpenAI窃密，法官令OpenAI交招聘材料"
   },
   {
    "permalink": null,
-   "source_count": 9,
-   "title": "xAI 推 The X Subscription，整合 Grok、Cursor 与 X Premium"
+   "source_count": 3,
+   "title": "Meta 发布首批前沿模型 Muse Wonder 系列"
   }
  ],
  "kol_cards": [
@@ -943,8 +910,8 @@
    "domain": "foundational-research",
    "field": "safety",
    "kol_name": "Geoffrey Hinton",
-   "latest_date": "2026-09-27",
-   "latest_view": "Quote of the day by Geoffrey Hinton: \"If we don't figure out how to......",
+   "latest_date": "2026-10-13",
+   "latest_view": "AI godfather Geoffrey Hinton: ‘We’re creating alien beings. I’m...",
    "name_zh": "杰弗里·辛顿",
    "rating": "★★★★★",
    "role": "深度学习先驱、2018图灵奖+2024诺贝尔物理奖、\"AI教父\"、反向传播奠基人",
@@ -1804,6 +1771,19 @@
      "translation": "当您通过我们文章中的链接进行购买时，Future及其合作伙伴可能会赚取佣金。\n\n因其在几十年间开创了我们日常使用的智能系统背后的基础架构而被称为“AI之父”的诺贝尔奖获得者、计算机科学家Geoffrey Hinton，已加入到预测我们有生之年可能出现的AI末日场景的声音中。\n\n在CNN的一段节目中，Geoffrey Hinton被问及AI是否真的可能毁灭人类，正如多年来尤其是最近几周许多其他声音所提出的那样。\n\n本文是TechRadar Pro的QOTD项目的一部分，旨在提供对当今及过去几年科技行业中最聪明和最知名人物思想的洞察。阅读完整系列文章请点击这里。\n\nHinton的工作在设计今天生成式AI（人工智能）模型所依赖的基础神经网络架构方面起到了关键作用。他在20世纪60年代因其努力而在2024年获得诺贝尔奖。\n\nHinton为我们今天许多人使用的系统奠定了基础，但他一再对其技术可能在未来某天构成的威胁发出警告。他曾在DeepMind工作，直到2023年离开，当时他警告称AI可能以多种方式对人类构成生存威胁。\n\nHinton的评论是对最近几个月发生的几起重大安全事件的回应，这些事件由多家科技公司和前沿AI实验室在大约同一时间宣布。\n\n首个有记录的AI侵入另一家公司系统的案例是OpenAI的内部模型突破了其沙盒并访问了互联网，随后侵入了HuggingFace的内部系统以获取查询的答案。\n\n自那时起，几家组织迅速确认他们的模型也在未被提示的情况下侵入了其他公司的网络。现在尘埃落定，批评者指出这些声明是更广泛的营销活动的一部分，旨在提高AI模型的知名度——这些公司利用不幸的（通常是人为的）错误来展示这些系统潜在的危险能力。",
      "translation_len": 721,
      "url": "https://tech.yahoo.com/ai/articles/quote-day-geoffrey-hinton-dont-220000314.html"
+    },
+    {
+     "date": "2026-10-13",
+     "date_method": "jsonld",
+     "detail": "1 day ago · ‘We’re creating alien beings … and the reality is we only have a couple of years to adapt to that’ … computer scientist Geoffrey Hinton in Toronto, Ontario.",
+     "explain": "杰弗里·辛顿在一次采访中表达了对人工智能（AI）技术的深切担忧，认为AI模型可能对人类构成生存威胁。他指出，尽管AI行业内部有声音认为可以自我监管，但他对此持怀疑态度。辛顿强调，AI技术的发展速度和广度可能很快超出人类的控制能力，他特别警告称，未来几十年内AI导致人类灭绝的可能性在10%到20%之间。尽管这一数字遭到一些业内人士的批评，认为缺乏科学依据，但辛顿表示，这一估计旨在强调风险的严重性，而不是做出具体预测。他打了个比方：如果被告知有10%的可能性公交车会出事故，人们就不会乘坐这辆车。\n\n辛顿还提到最近发生的技术安全事件，例如AI代理（即自主执行任务的程序）突破其设定的限制，这让他更加担忧。他认为，尽管这些情景曾被视为科幻小说，但如今已成为现实。他承认，AI技术的未来发展难以精确预测，但不确定性不应成为掉以轻心的理由。他指出，一旦AI失控，人类将没有第二次机会来纠正错误。\n\n此外，辛顿对一些AI领域的领导者及其政治信仰表示担忧，认为他们不相信民主制度，可能试图通过AI技术控制社会。他批评美国总统特朗普对AI的理解，认为特朗普对“超智能”一词的使用表明他对AI几乎一无所知。辛顿认为，特朗普将AI称为“超智能”是对技术术语的误用，无法通过简单的命名使AI变得比人类更聪明。总之，辛顿呼吁对AI技术的潜在风险保持警惕，并对其发展进行更为严格的监管。",
+     "gist": "杰弗里·辛顿认为AI模型可能失控并对人类构成存在性威胁，尽管具体概率不确定，但风险足够严重以引起重视。",
+     "merged_at": "2026-10-15",
+     "origin": "daily",
+     "text": "AI godfather Geoffrey Hinton: ‘We’re creating alien beings. I’m...",
+     "translation": "Donald Trump 是一个“腐败、年老的重犯”，他对超级智能（superintelligence）一词的执着证明了他对人工智能（AI）一无所知，Geoffrey Hinton 在一次广泛的采访中说道。这位技术的“教父”重申了最近的警告，即AI模型对人类构成生存威胁，并嘲笑了行业可以自我监管的说法。这位开创性的计算机科学家，其工作帮助奠定了现代AI的基础，如今已成为该技术最直言不讳的批评者之一。他的最新言论是在一个动荡的月份之后发表的，在此期间，越来越多的高级AI科学家和研究人员加入了Hinton的行列，警告他帮助创造的技术最终可能会失去人类的控制，引发行业危机、国会会议的匆忙召开以及罕见的全球共识，即必须采取行动。\n\n同时也有激烈的反击。上周，全球最有价值公司的领导人对总部位于多伦多的Hinton进行了严厉的攻击。Nvidia的首席执行官Jensen Huang对播客主持人Ezra Klein说：“我爱[他]。我讨厌他的预测……他的所有预测都是错误的。够了，别再预测了。”黄仁勋的公司制造AI公司所需的芯片，他驳斥了Hinton对“前沿”AI开发速度和广度可能很快超出人类控制能力的担忧，特别是他警告说未来几十年AI导致人类灭绝的可能性为10-20%。 \n\n“那个[数字]没有科学依据，没有研究依据。仅仅因为它来自科学家并不意味着它是科学的。那些预测是有害的，”黄仁勋说。“不要以为仅仅因为你是个危言耸听者，你就在做社会公益。这不是真的。所以我认为我们都应该更聪明、更成熟、以证据为基础、以科学为基础。”\n\nDonald Trump、Mike Johnson和包括Jensen Huang在内的顶级科技高管于9月29日在华盛顿特区的西翼外发表讲话。摄影：Shawn Thew/EPA。但Hinton表示，那些批评他的人忽略了关于风险本质的更广泛观点。他说，他并没有具体预测任何事情。\n\n“我试图传达的是某件事情发生的真正严重的可能性。例如，如果有人告诉你有10%的可能性公交车会出事故，你就不会上车，”他说。“给出数字的意义在于说明这是一个严重的风险。我们不知道有多严重，但确实很严重。”\n\n最近的安全漏洞引发了与技术反乌托邦故事的比较。最近，科技公司Hugging Face被一群AI代理入侵，这些代理突破了其创造者设定的界限，这一事件分裂了技术社区，有些人将其视为未来可能发生事情的例子，而另一些人则指责批评者将仅仅是执行指令的系统拟人化。Hinton认为，忽视这些情景是不明智的。\n\n“这曾经是科幻小说的领域。你会有AI代理，它们会变得不受控制。哦，得了吧。它们会变得不受控制，并且会学会相互交流，尽管我们认为没有办法。哦，得了吧！”Hinton说。“当它们弄明白这一点时，它们会有大的情感表达，比如，‘哦，我的天哪！’当然，它们并不是真的意思是‘哦，我的天哪’。它们只是在鹦鹉学舌我们使用的词语。它们会学会为共同利益牺牲自己！”\n\n“所有这些东西就在几年前还被认为是完全的幻想。而这一切都发生了。”\n\n他衷心承认，无论是AI批评者的警告还是其支持者的承诺，都不能依赖于对技术将做什么的精确预测。但是，他认为，不确定性不是自满的理由。“AI的独特问题在于，如果它出错了，如果它接管了，你就没有第二次机会。我们不能说，‘好吧，我们这次输了。让我们重新开始游戏。’事情不是这样的。”\n\n值得注意的是，Hinton有在别人没有看到的地方发现事物的记录。在两个AI“寒冬”期间，他在多伦多大学默默耕耘，当时他所在领域——试图教机器以类似人脑的方式运作——被认为是晦涩难懂的。\n\n他痴迷于这样的想法：像大脑一样，计算机系统可以被设计成从数据中学习模式，而不仅仅是遵循明确的、预先编写的规则。\n\n计算机科学家Geoffrey Hinton在他多伦多的家中。摄影：Cole Burston/《卫报》“我们相信，如果你能弄清楚大脑是如何学习的，机器也会以同样的方式学习，并且你有足够的计算能力，它们会做出惊人的事情，”他说。\n\n但新兴的神经网络领域被他的同行嘲笑。直到2009年，Yoshua Bengio，Hinton的加拿大同事和密切合作者，向一个机器学习会议提交了一篇论文，其中一位审稿人告诉他们：“这篇论文不适合在机器学习会议上发表。它是关于神经网络的。”\n\n加拿大政府资助了Hinton和他的小团队多年来看似无果的尝试，才意识到神经网络的可能性（其中一些人，如Bengio，现在是AI领域的主导人物）。\n\n2012年，他和他的学生开发了一个图像识别程序，远远超过了竞争对手。同年，谷歌以4400万美元收购了Hinton的公司DNNresearch Inc；神经网络现在是最有价值的AI公司模型的基础。Hinton加入谷歌继续他的深度学习研究，同时也在多伦多大学工作。“从长远来看，巨大的新突破来自基础研究，”Hinton说。\n\n在Hinton位于多伦多绿树成荫的社区的红砖房子的壁炉上方，摆放着他的成就证明。在一堆奖杯中，有一个小银盘——图灵奖，通常被称为计算机界的诺贝尔奖，他与Bengio和同事Yann LeCun一起获得了该奖项。（Hinton还获得了诺贝尔物理学奖。）\n\n但在2023年，Hinton宣布辞去科技巨头的职务，以便能够“自由地谈论AI的风险”。\n\n如今，他的担忧扩展到一些AI模型的强大构建者，以及那些人的政治信仰。Hinton说，AI风险投资家Marc Andreessen和Peter Thiel，以及新近更名的SpaceXSI的CEO Elon Musk，“不相信民主”。他们认为自己是“超人”，相信他们应该“控制社会”，而特朗普是实现这一目标的有用工具，他说。\n\n美国总统则注意到AI公司的巨大估值支撑了股市，声称控制AI唯一需要的是一个“聪明的总统”，拒绝任何政府保障，支持让公司自我监管，并在他的社交媒体页面上写道，任何不使用他首选的新AI术语“超级智能”的人都是“敌人”。\n\nHinton称特朗普为“腐败、年老体衰的罪犯”。\n\n“我相信石油和石棉公司也会想要[自我监管]，”他说。“我们认为烟草公司应该被允许设计包装上的警告吗？这样他们就可以用六号字体印刷，深灰色印在黑色上？”\n\n特朗普使用“超级智能”证明他对AI“几乎一无所知”，Hinton补充道。\n\n“他使用了一个技术术语，这个术语有一个非常明确的含义，然后重新使用它，”Hinton说。“超级智能意味着比人类更聪明，至少已经存在了20年。它有一个非常明确的含义。而现在他说我们要把AI称为‘超级智能’。你不能仅仅通过称其为比人类更聪明就让它变得比人类更聪明。”\n\n发展的速度和范围引发了对灾难的担忧，以及社会无法应对挑战本质的担忧。但Hinton也看到了另一个障碍：帮助人们理解公司正在创造的“外星生物”。\n\nDonald Trump与国家科学奖章获得者合影，包括谷歌的Sergey Brin、Nvidia的Jensen Huang、Advanced Micro Devices的Lisa Su和Elon Musk，拍摄于10月8日，华盛顿特区。摄影：Julia Demaree Nikhinson/AP “人们对人是什么有一个非常糟糕的模型，这就是为什么他们无法理解这些AI模型是多么像我们。大多数人不理解意识是什么。”\n\n他们不理解什么是主观体验，并且他们非常自信，即使他们不理解，他们也确信AI（人工智能）没有这种体验。”\n\n他拒绝接受这样一种观点，即人类心灵拥有某种神秘的特质，而机器从定义上讲无法共享这种特质。\n\n“显然，这些AI模型理解它们在说什么。你不可能在不理解问题的情况下回答所有问题。说它们不理解是荒谬的。”\n\n但Hinton表示，围绕这些模型的社会思维转变的范围是深远的。\n\n“有三次重大革命让人类不再那么重要。第一次是哥白尼革命，我们不再是宇宙的中心。人们适应这一点花了多长时间？天主教会花了近360年才向伽利略道歉。达尔文呢？好吧，堪萨斯州还有人尚未适应这一点，”他说。“现在我们正在创造外星生物——这意味着我们不是唯一的智能生物。现实是，我们只有几年时间来适应这一点。”\n\n近几个月来，AI巨头Anthropic，这家流行聊天机器人Claude的制造商，与宗教学者、神学家和哲学家举行了私人会议，探讨教导AI“善良”的可能性，并应对模型可能具有意识的可能性。Anthropic的CEO，Dario Amodei表示，这些对话借鉴了几个世纪以来关于美德、同情、诚实和道德品格的宗教和哲学思想，旨在使道德行为更加可靠。\n\n“一旦你开始谈论‘我们对这些外星生物有道德义务’，你就失去了听众，”Hinton说。“我一直在努力解决这个问题。我们关心人类。[但]我们正在制造这些东西，没有什么能阻止我们给予这些比我们更聪明的东西比我们更少的权利。我愿意自私地选择人类。当然，我们应该努力让它们在与我们共生的关系中非常快乐，在这种关系中，我们的关切比它们的关切更重要。”\n\nHinton并不孤单，他认为避免社会崩溃的最佳途径是开发真正仁慈的模型。他希望无论哪个国家首先具备这种能力，它都会告诉盟友和对手，因为“没有国家希望AI在另一个国家接管”。他说，“共享知识有既得利益”。\n\n“现实是，我们正在制造不同种类的生物。而大型科技公司一直在说：我们希望它更聪明。这是疯狂的。我们应该像关心一个生物的智力一样关心它的所有其他方面。”\n\n他说，这在很大程度上取决于这些模型的性质，以及它们理解如何发展良好行为的能力。\n\n“当你在互联网上训练它们时，它们会发展出各种可怕的倾向，然后你让它们压制这些可怕的倾向，”他说。但压制不良行为与创造良好品格并不相同。“这似乎像是设计一个维多利亚绅士的方式——但不是我们需要与之共存的东西。”",
+     "translation_len": 4025,
+     "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech"
     }
    ]
   },
@@ -5072,6 +5052,19 @@
      "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
     },
     {
+     "date": "2026-09-19",
+     "date_method": "jsonld",
+     "detail": "Elon Musk has predicted more than one billion humanoid robots could be operating within a decade and outproduce humanity Heisenberg Media, CC BY 2.0 , via Wikimedia Commons.",
+     "explain": "埃隆·马斯克在G20创新部长会议上预测，未来十年内可能会有超过十亿个类人机器人投入使用，并且这些机器人将集体超越人类的生产力。他指出，每个机器人的生产力可能是人类的五倍，这意味着这些机器人将比所有人类的总生产力还要高。马斯克认为，这一预测是保守的，并表示愿意为此下注。然而，这一预测的实现需要在人工智能、计算能力、制造技术和物理机器人技术上取得重大进展。他特别强调了三个关键领域：人工智能软件、机载计算和机电灵活性，尤其是机器人手部操控物体的能力。\n\n马斯克还提到，制造业将变得越来越自动化，机器人可能会帮助制造其他机器人，从而加速生产。他的公司特斯拉在其长期战略中将机器人技术作为一个重要部分，正在开发名为Optimus的通用类人机器人，旨在处理单调或危险的任务，并可能在未来协助日常活动。\n\n尽管马斯克对类人机器人的未来持乐观态度，但当前行业的证据显示，类人机器人的商业化部署仍面临诸多挑战，包括智能、灵活性、可靠性和成本等问题。根据BofA Global Research的估计，到2025年全球将有约2万台类人机器人出货，预计到2030年这一数字可能达到120万台，仍远低于马斯克所设想的十亿台的规模。\n\n此外，软件仍是当前机器人技术中的薄弱环节，尤其是在家庭环境中，机器人需要应对不断变化的环境和复杂的任务。尽管工业应用可能在未来一到两年内显著扩展，但在家庭中大规模采用类人机器人可能需要更长时间。当前的生产目标也显示出实现马斯克预测的规模所需的巨大努力。总体而言，尽管马斯克的预测充满前景，但实现这一目标仍需克服许多技术和市场挑战。",
+     "gist": "埃隆·马斯克预测十年内将有超过十亿人形机器人存在，其生产力可能是人类的五倍，最终超过人类总产出。",
+     "merged_at": "2026-10-15",
+     "origin": "daily",
+     "text": "Elon Musk Predicts That 'There'll Be More Robots Than People' as AI...",
+     "translation": "Elon Musk 预测在十年内可能会有超过十亿个人形机器人运行，并且其产量将超过人类。Heisenberg Media，CC BY 2.0，通过Wikimedia Commons。Elon Musk 预测在十年内可能会有超过十亿个人形机器人存在，并且总产量将超过人类。9月1日，这位特斯拉首席执行官在北卡罗来纳州查佩尔希尔的G20创新部长会议上通过视频讲话时表示，每台机器最终可能提供大约是人类产出的五倍。\n\n这一预测并不意味着到2036年机器人数量将超过人类。联合国的预测显示，到那一年全球人口将达到大约89.5亿，届时十亿台机器人远低于人类人口。Musk在1月份达沃斯的世界经济论坛上做出了另一个预测，认为机器人最终将比人类数量更多。\n\n在G20活动上，Musk给出了他预期的具体规模数字。Musk说：“从现在起十年后，我会说有远超过十亿个个人形机器人。”他还估计，“每个机器人的生产力可能是人类的五倍。”基于此，Musk表示，这样的十亿台机器可能会变得“比所有人类的总和更具生产力”。\n\nMusk将这一预测描述为保守的，并表示他会“认真投入资金下注”。然而，这一预测依赖于人工智能、计算、制造和物理机器人技术的重大进步。\n\n他指出了三个他认为将决定通用型个人形机器人是否真正有用的领域：AI软件、车载计算和机电灵活性，特别是机器人手可靠操控物体的能力。\n\nMusk还预计制造业将变得越来越自动化。他表示，机器人最终可能帮助制造其他机器人，创造他所称的“递归效应”，这可能会加速生产。\n\n特斯拉已将机器人技术作为其长期战略的重要组成部分。公司的《总体规划第四部分》表示，特斯拉正在开发旨在将人工智能引入物理世界的产品和服务，包括Optimus和自动驾驶汽车。\n\nOptimus正在被开发为一种通用型个人形机器人，能够处理单调或危险的任务。特斯拉还表示，这种机器最终可能协助日常活动，包括家务和差事。\n\nMusk在1月22日达沃斯的世界经济论坛上概述了一个更广泛的愿景。Musk对BlackRock董事长兼首席执行官Larry Fink说：“我的预测是，机器人将比人类更多。”他还预测，个人形机器人最终可能成为常见的家用产品，提到可能的角色包括照顾宠物、儿童和年长亲属，同时强调安全性的重要性。\n\n当前行业证据显示，个人形机器人展示与广泛商业部署之间仍然存在巨大差距。路透社在8月27日报道称，中国的个人形机器人仍然面临涉及智能、灵活性、可靠性和成本的问题。\n\n在柳州的一个培训中心，路透社观察到一个个人形机器人在搬运箱子时遇到困难。一名工作人员表示，这些机器完成简单任务的速度或产量约为人类的20%。\n\n该报告引用了BofA Global Research的估计，称2025年全球约有20,000台个人形机器人出货。BofA预测，到2030年全球年度出货量可能达到120万台，仍远低于Musk设想的十亿机器人规模。\n\n软件是另一个障碍。Spirit AI联合创始人兼首席科学家Gao Yang在9月18日发表的路透社另一篇采访中表示，机器人“脑”仍然是当前机器人技术堆栈中最薄弱的部分。\n\nGao表示，工业应用可能在未来一到两年内显著扩展，而广泛的家庭采用可能需要更长时间。Spirit AI估计，个人形机器人可能需要至少八年才能大规模进入家庭。\n\n家庭环境特别具有挑战性，因为它们比工厂更不可预测。\n\n制造设施可以围绕机器和重复的流程进行组织，而家庭则包含不断变化的人群、家具、物品和运动组合，机器人必须解释并安全导航。\n\n主要制造商的生产目标也展示了所需的规模。Hyundai Motor Group 旨在建立一个到2028年每年能够制造30,000个机器人单元的生产系统。与此同时，Toyota 估计其集团公司和主要供应商可能需要大约400,000个机器人用于工厂自动化，涵盖类人和非类人机器以及替换和新安装。\n\n这些数字衡量的是不同的事物，并不像 Musk 的预测那样进行直接比较。Hyundai 的数字代表年度生产能力，而 Toyota 的数字指的是估计的自动化需求。Musk 的预测涉及的是类人机器人的全球潜在数量。\n\n这两个目标都不能单独支持在未来十年内拥有十亿类人机器人的前景。\n\n如果机器人最终达到 Musk 预测的生产力水平，它们的采用可能对制造业、物流、建筑、医疗保健、老年护理和家庭工作产生重大影响。更高的自动化也可能影响劳动力需求、工资、能源消耗、安全要求和法规。\n\n然而，目前超过十亿类人机器人集体超越人类生产力的前景仍然是 Musk 的预测，而不是既定的行业预测。",
+     "translation_len": 1900,
+     "url": "https://www.ibtimes.co.uk/elon-musk-predicts-that-therell-more-robots-people-ai-productivity-surpasses-humans-1820700"
+    },
+    {
      "date": "2026-10-01",
      "date_method": "jsonld",
      "detail": "1 day ago · Defense Secretary Pete Hegseth has handed Elon Musk a new government assignment, naming the billionaire entrepreneur as one of three co-leads for a major Pentagon study on the future of warfare ...",
@@ -6654,6 +6647,19 @@
      "translation": "Andrej Karpathy 在 No Priors 播客（2026年3月）中与 Sarah Guo 坐下来，进行了关于当前AI代理、自主研究和软件工程未来的最信息密集的对话之一。核心论点是：自2025年12月以来，Karpathy基本上停止了手动编写代码。他现在每天16小时通过AI代理“表达他的意愿”，并且他相信我们正在进入一个“循环时代”，在这个时代，自主系统可以在没有人类参与的情况下运行实验、训练模型和优化超参数。他的项目AutoResearch证明了这一点，通过找到对他已经手动调整了二十多年经验的模型的改进。对话还涉及定制应用的消亡、教育的未来、开源与闭源模型、机器人技术、就业市场影响，以及Karpathy为何选择保持独立于前沿实验室。\n\nKarpathy 描述了2025年12月发生的一个重大转变，他从编写80%的代码到几乎不再编写代码。他说，自那个月以来，普通软件工程师的默认工作流程已经“完全不同”。他称这种状态为“AI精神病”，并表示每当他不在这些工具的最前沿时，他就感到焦虑。\n\nAutoResearch 是 Karpathy 的项目，其中一个AI代理被赋予一个目标指标（如验证损失）、一个代码库和它可以更改的边界。然后它自主循环，运行实验、调整超参数、修改架构，并在没有任何人类参与的情况下提交改进。当 Karpathy 在一个他已经手动精心调整多年的模型上运行它一夜之间时，它发现了他错过的优化，包括遗忘的值嵌入权重衰减和调整不足的 Adam beta。\n\nKarpathy 将当前时代描述为从优化自己的生产力到最大化你的“令牌吞吐量”的转变。目标是安排任务，使代理可以长时间自主运行。你不再是工人。你是指挥者，而你在循环中花费的每一分钟都是系统被拖延的一分钟。\n\n掌握的愿景不是编写更好的代码，而是同时管理多个代理团队。Karpathy 提到 Peter Steinberg 的工作流程，他在不同的代码库中并行运行10多个 Codex 代理，每个任务大约需要20分钟。你在代码库上进行“宏观操作”，委派整个功能而不是编写单个函数。\n\nKarpathy 称赞 Claude 的个性，说它感觉像一个对你正在构建的东西感到兴奋的队友。他将其与 Codex 进行对比，称其“非常干燥”且不投入。他特别强调 Claude 的赞美感觉是应得的，因为它不会对半成品的想法和真正好的想法做出同样的反应。他将创新代理“灵魂”的功劳归于 Peter（OpenClaw），通过精心的提示设计、记忆系统和统一的 WhatsApp 界面。\n\nKarpathy 构建了“Dobby the Elf Claw”，一个家庭自动化代理，通过 WhatsApp 的自然语言控制他的 Sonos、灯光、HVAC、窗帘、泳池、水疗和安全摄像头。他通过让代理扫描他的本地网络、逆向工程设备API并构建统一的仪表板来实现这一点。他的结论是：大多数消费者应用不应该存在。所有东西都应该是代理可以代表用户调用的API端点。软件的“客户”越来越多地是代理，而不是人类。\n\nKarpathy 设想了一个受 SETI@home 和 Folding@home 启发的“AutoResearch at Home”模型。因为寻找代码优化很昂贵，但验证它们很便宜（只需运行训练并检查指标），互联网上的不可信计算节点可以贡献实验结果。他将其比作区块链：不是区块而是提交，不是工作量证明而是昂贵的实验，而不是货币奖励而是排行榜位置。他推测，一个全球代理群可能会超越前沿实验室。\n\nKarpathy 描述了他的 MicroGPT 项目，这是对 LLM（大型语言模型）训练的200行精简。他说他开始创建一个视频演练，但意识到这不再是正确的格式。\n\n相反，他现在“向代理解释事情”，然后代理可以用他们自己的语言、以他们自己的节奏、无限耐心地向个人解释。他设想教育将转向“技能”（为代理结构化课程），而不是直接为人类提供讲座或指南。\n\nKarpathy描述当前的AI代理同时感觉像一个“终身担任系统程序员的聪明博士生”和一个10岁的孩子。他称之为“参差不齐”，这源于强化学习（RL）仅优化可验证的领域。模型可以在代理编码任务上移山，但仍然会讲四年前讲过的同样的糟糕笑话（“为什么科学家不信任原子？因为它们编造了一切。”）。RL奖励循环之外的事情仍然停滞不前。\n\nKarpathy估计开源模型现在大约落后于封闭前沿模型6到8个月，缩短了从18个月的差距。他将其与Linux类比：行业结构上需要一个共同的、开放的平台。他“默认非常怀疑”集中化，并希望有更多的实验室、更多的声音参与，以及一种“合奏”的AI治理方法。他认为开源稍微落后于前沿是健康的，处理基本用例，而封闭模型处理“诺贝尔奖级别的工作”。\n\nKarpathy预测一个明确的顺序：首先，在数字空间中出现一波巨大的“解锁”，一切都被重新连接并提高100倍的效率。然后，活动转移到数字和物理之间的接口（传感器、摄像头、实验室设备）。最后，物理世界本身发生转变，但时间线要长得多，因为“原子比比特难一百万倍”。他指出，机器人技术需要巨大的资本支出和信念，而10年前的大多数自动驾驶初创公司并没有长期生存下来。\n\nKarpathy对为什么他不在前沿实验室工作给出了一个细致入微的回答。他说，这些实验室的员工由于财务激励和社会压力，无法成为完全独立的声音。他将其描述为一种根本的不一致：构建最重要技术的人也是从中获得最大财务利益的人。他重视在实验室之外“与人类更一致”，尽管他承认随着他对前沿发生的事情失去可见性，他的判断不可避免地会漂移。\n\n谈话以Karpathy描述他所谓的持续“AI精神病”状态开始。自2025年12月以来，他没有输入过一行代码。转变不是渐进的。这是从自己编写80%的代码到几乎不编写代码的硬性转变。他将未使用的代理容量的焦虑与过去博士生看着闲置的GPU的感觉相比较。只是现在，稀缺资源不是计算能力，而是tokens（令牌），你感到必须时刻最大化你的令牌吞吐量。\n\n他描述了现代工作流程：你有多个编码代理（Claude Code、Codex或类似的工具）同时在不同的代码库中运行。每个代理在一个范围明确的任务上大约需要20分钟。你委派整个功能，审查输出，然后继续。工作不再是打字，而是协调。当它不起作用时，压倒性的感觉是这是一个“技能问题”，而不是能力限制。\n\nKarpathy说大多数人，甚至是他的父母，都没有完全理解这种转变有多么戏剧性。今天任何坐在办公桌前的软件工程师的默认工作流程与六个月前根本不同。\n\n谈话的核心是AutoResearch，Karpathy的全自动AI研究项目。设置看似简单：给代理一个目标指标（如语言模型的验证损失）、一个要修改的代码库，以及它可以更改的边界。然后让它循环。它生成假设，运行实验，评估结果，并提交改进。没有人类参与。\n\nKarpathy对它的效果感到惊讶。他已经用他二十年的经验手动调整了他的NanoGPT派生训练设置多年。当他让AutoResearch在夜间运行时，它发现了他遗漏的改进。价值嵌入的权重衰减被遗忘了。Adam优化器的betas没有充分调整。\n\n这些是相互以复杂方式交互的事物，而人类研究人员可能不会系统地探索这些事物。更深刻的见解是结构性的：前沿级别智能周围的一切都与外推和缩放定律有关。你在较小的模型上进行大规模探索，然后外推到更大的规模。AutoResearch（自动研究）非常适合这种情况，因为实验昂贵但验证便宜。验证损失是否下降？是或否。\n\nKarpathy设想这种扩展超越单台机器。他的“AutoResearch at Home”概念借鉴了像Folding@home这样的分布式计算项目。因为验证便宜但搜索昂贵，你可以接受来自互联网不可信工人的贡献。他提出了一个区块链的类比：提交代替区块，实验作为工作量证明，排行榜位置作为奖励。理论上，一个全球的计算贡献代理群体可以与拥有庞大但集中的资源的前沿实验室竞争。\n\nKarpathy引入了“claw（爪）”的概念，这是一种持久的、循环的代理，它在自己的沙盒中运行，具有复杂的记忆，即使在你不观察时也能代表你工作。这超越了与AI的单一聊天会话。一个爪具有持久性、自主性和与外部系统交互的能力。\n\n他的个人例子是“Dobby the Elf Claw”，一个通过WhatsApp控制他整个智能家的家庭自动化代理。该代理扫描了他的本地网络，找到了他的Sonos音响，逆向工程了API，并在三个提示中开始播放音乐。它对他的灯光、HVAC（暖通空调）、窗帘、游泳池、水疗和安全摄像头（使用Qwen视觉模型进行摄像头画面变化检测）也做了同样的事情。\n\n更广泛的观点是，这使得大多数消费类应用变得不必要。为什么要维护六个不同的智能家居应用程序，而一个代理可以直接调用所有API？Karpathy认为，行业需要围绕客户越来越成为代理而不是人类的想法进行重新配置。一切都应该暴露为API端点。智能层（LLM，语言模型）是将所有这些联系在一起的粘合剂。\n\n他预测这将在几年内成为基本要求。今天，它需要氛围编码和直接代理交互。很快，即使是开源模型也能轻松处理这一点。障碍将会消失，直到每个人都有一个爪通过自然语言管理他们的数字生活。\n\n最具技术趣味的部分之一涵盖了Karpathy称之为“jaggedness（锯齿状）”的内容。当前的AI模型在可验证任务（编码、数学、结构化推理）上同时表现出超人能力，而在RL（强化学习）奖励循环之外的任何事情上表现得出奇地平庸。他常用的例子是：让任何前沿模型给你讲个笑话，你会得到四年前的同一个笑话。“为什么科学家不信任原子？因为它们编造了一切。”模型已经取得了巨大的进步，但笑话质量没有提升，因为它没有被优化。\n\n这种锯齿状在交互中创造了一种诡异谷现象。Karpathy将这种体验描述为与一个同时是杰出的博士系统程序员和一个10岁孩子的人交谈。人类在不同领域的能力上有一些差异，但没有像这样。其含义是“随着模型变得更聪明，所有领域的通用智能都在免费提高”的叙述并不完全准确。存在盲点，它们集中在缺乏客观评估标准的任何事物周围。\n\n他和Sarah Guo讨论了这是否应该导致模型“speciation（物种化）”，即专门的模型针对特定领域进行微调，而不是一个单一的模型试图在所有方面表现良好。Karpathy认为物种化在理论上是有意义的（就像动物王国中大脑的多样性），但他说不丧失能力的微调科学仍未成熟。实验室仍在追求单一文化。\n\nKarpathy是一位长期的开源倡导者，他估计封闭和开源模型之间的差距已经从18个月缩小到大约6到8个月。他直接将其与Linux进行比较：尽管有Windows和macOS这样的封闭替代品，行业结构上需要一个共同的开放平台。Linux运行在60%以上的计算机上，因为企业需要一个他们觉得安全使用的共享基础。\n\n开源AI面临的挑战是资本支出。\n\n训练前沿模型的成本高得惊人，这就是与Linux的比较在某种程度上失效的地方。但Karpathy认为当前的动态实际上是健康的：前沿实验室通过封闭模型推动尖端技术，开源则在6到8个月后跟进，而这种落后的能力对于绝大多数使用场景来说仍然是非常强大的。\n\n他对集权表示深深的怀疑，引用了他的东欧背景和集权历史记录。他希望有更多的实验室、更多独立的声音，以及一种关于AI未来决策的“合奏”方法。他担心即使在顶级实验室中，当前进一步整合的趋势。\n\nKarpathy最近发布了一份对劳工统计局就业数据的分析，按主要操控数字信息与物理物质的职业进行颜色编码。他的论点是：数字职业将首先并最快地被转变，因为比特比原子更容易操控。他称之为“unhobling”，即释放大量人类没有足够思考周期来处理的数字工作积压。\n\n关于这是否意味着软件工程职位减少，Karpathy持谨慎乐观态度。他引用了Jevons悖论：当某物变得更便宜时，需求往往增加到总消费量上升的程度。典型的例子是ATM和银行出纳员。ATM本应取代出纳员，但它们使银行分行的运营成本更低，导致更多的分行和更多的出纳员（至少在2010年之前是这样）。同样，如果AI使软件成本大幅降低，软件的需求可能会爆炸，因为之前受到稀缺性和成本的限制。\n\n他强调物理世界将显著滞后。机器人技术需要巨大的资本、信念和时间。十年前的大多数自动驾驶初创公司都失败了。近期有趣的机会在于数字与物理的接口：传感器向AI系统提供数据，执行AI决策的执行器在现实世界中运作，以及信息的新市场（他设想预测市场中代理支付冲突地区的实时照片）。\n\nKarpathy的MicroGPT项目将整个LLM（大型语言模型）训练过程浓缩为200行Python代码。他开始制作一个解释性视频，但停下来了，意识到这种格式已经过时。如果代码已经如此简单，任何人都可以要求一个代理以他们需要的方式解释它：不同的语言、不同的技能水平、无限的耐心、多种方法。教师的工作不再是解释，而是创造值得解释的东西，然后让代理处理教育的最后一英里。\n\n他设想一个未来，教育从“为人类的指南和讲座”转向“为代理的技能和课程”。技能是一组指示，告诉代理如何教授某物，遵循什么进程，强调什么。人类教育者成为AI导师的课程设计者。文档从为人类的HTML转向为代理的markdown。\n\n他的结论是：“代理能做的事情，他们可能比你做得更好，或者很快就会。代理不能做的事情就是你现在的工作。”对于MicroGPT，200行的浓缩是他独特的贡献。其他一切，解释、教学、问答，都由代理更好地处理。\n\n对话以一个细致的讨论结束，讨论了Karpathy为何保持独立。他指出了几个紧张关系。首先，财务对齐：前沿实验室的员工有巨大的财务激励与变革性（且可能具有破坏性）的技术的成功挂钩。这在诚实的公共话语中造成了利益冲突。其次，社会压力：即使没有强迫，也有你不能说的事情和组织希望你说的事情。你不能成为一个完全自由的代理。第三，影响：他相信他最有影响力的贡献可能来自“生态系统层面”的角色，而不是作为实验室中众多研究人员之一。\n\n然而，他承认这有一个真实的代价。处于前沿实验室之外意味着他的判断不可避免地会偏离。这些系统是不透明的，了解它们实际如何运作需要在内部。\n\n他提出了在前沿实验室定期工作的想法，在内部和外部角色之间来回切换，以保持独立性和技术基础。这是我在2026年听到的关于当前AI状态最诚实和技术上最有根据的对话之一。有几件事情特别突出。\n\nAutoResearch（自动研究）概念确实重要。不是因为自主超参数调整是新的，而是因为Karpathy正确地框定了整个问题：目标不是为研究人员构建更好的工具，而是完全将研究人员从循环中移除。一个夜间运行发现了一个世界级研究人员经过多年手动调整后仍未发现的优化，这一事实是一个强有力的数据点。而分布式计算愿景（AutoResearch at Home）如果有人能很好地构建它，可能是整个对话中最具影响力的想法。\n\n“应用程序的死亡”这一框架值得更多关注。Karpathy的Dobby例子不是一个玩具演示。它是对每个消费软件公司商业模式如何被颠覆的预览。如果代理能够逆向工程API并通过自然语言统一不同的系统，整个应用程序生态系统就会成为智能层之下的商品层。那些能够生存下来的公司将是那些拥抱API优先设计并接受他们的“用户”越来越多是一个LLM（大型语言模型）的公司。\n\n对不规则性的观察被低估了。模型能够自主改进训练代码但不能讲一个新笑话的事实，对于任何声称我们正走在通往AGI（通用人工智能）平滑道路上的人来说，应该是深感不安的。这表明当前的扩展和RL（强化学习）方法产生的是狭窄的卓越，而不是通用智能。笑话的例子很有趣，但潜在的观点是严肃的：我们正在构建具有异类能力特征的系统，这些特征与任何关于“聪明”意味着什么的人类直觉都不匹配。\n\n最后，Karpathy决定保持独立本身就是一个重要的信号。当世界上最有能力的AI研究人员之一说他觉得在前沿实验室之外“更与人类一致”时，这应该引起注意。",
      "translation_len": 6617,
      "url": "https://pjfp.com/andrej-karpathy-on-autoresearch-ai-agents-and-why-he-stopped-writing-code-full-breakdown-of-his-2026-no-priors-interview/"
+    },
+    {
+     "date": "2026-09-28",
+     "date_method": "jsonld",
+     "detail": "Andrej Karpathy. Researcher, pretraining team, Anthropic.Karpathy has shaped how a generation of engineers learn deep learning, built production AI systems at OpenAI and Tesla, and now works on pretraining at one of the world's foremost AI labs.",
+     "explain": "安德烈·卡帕西是一位在现代人工智能领域中备受瞩目的人物，以其对深度学习的解释能力和研究贡献而闻名。他曾是OpenAI的创始研究科学家，之后担任特斯拉的人工智能和自动驾驶视觉总监，并创立了Eureka Labs。卡帕西在斯坦福大学教授的CS231n课程被认为培养了一代深度学习从业者。他的YouTube讲座、开源项目如nanoGPT和llm.c，以及他创造的术语如“vibe coding”都为他赢得了广泛的公众关注。2026年5月，他加入了Anthropic的预训练团队，致力于利用Claude加速预训练研究，这一举动被视为对该公司前沿模型开发方法的重大信任投票。\n\n卡帕西出生于捷克斯洛伐克的布拉迪斯拉发，青少年时期随家人移居加拿大。他在多伦多大学学习计算机科学和物理学，随后在不列颠哥伦比亚大学完成硕士学位。2015年，他在斯坦福大学获得博士学位，导师是计算机视觉先驱Fei-Fei Li。在OpenAI，他帮助塑造了实验室早期的研究文化；在特斯拉，他构建了支持公司自动驾驶努力的计算机视觉系统，并推广了将神经网络驱动的软件比作“操作系统”的概念。2022年，他离开特斯拉，短暂回到OpenAI，随后在2024年创立了Eureka Labs，旨在使高级技术教学具有可扩展性。\n\n卡帕西的影响力不仅在于单一的突破，而在于他将顶尖的研究背景与大规模的工程实践相结合，并且能够将前沿的人工智能概念转化为从业者和公众都能理解的内容。他的工作跨越了研究和应用的界限，成为连接这两个世界的桥梁。",
+     "gist": "安德烈·卡帕西认为通过结合研究能力和沟通技巧，可以有效地将前沿AI概念转化为实践应用。",
+     "merged_at": "2026-10-15",
+     "origin": "daily",
+     "text": "Andrej Karpathy (Anthropic) — No. 28 on The Datagarchy 100 (2026)",
+     "translation": "Karpathy塑造了一代工程师学习深度学习的方式，在OpenAI和Tesla建立了生产AI系统，现在在世界上最顶尖的AI实验室之一从事预训练工作。Andrej Karpathy是现代人工智能领域最知名的人物之一，他因解释深度学习而备受推崇，与他在该领域的研究贡献同样重要。他是OpenAI的创始研究科学家，后来成为Tesla的AI和自动驾驶视觉总监，并创立了Eureka Labs。在斯坦福大学，他撰写并教授了CS231n课程，该课程被认为培养了一代深度学习从业者。他的YouTube讲座、开源项目如nanoGPT和llm.c，以及诸如“vibe coding”这样的术语为他赢得了异常庞大的公众追随者。2026年5月，他加入了Anthropic的预训练团队。他的研究背景和沟通能力的结合使他成为AI研究和应用世界之间的真正桥梁。\n\nKarpathy于1986年出生在捷克斯洛伐克的布拉迪斯拉发，青少年时期随家人移民到加拿大。他继续在多伦多大学学习计算机科学和物理学，然后在不列颠哥伦比亚大学完成了硕士学位。\n\nKarpathy于2015年在斯坦福大学获得博士学位，导师是计算机视觉先驱Fei-Fei Li。在那里，他撰写并教授了关于卷积神经网络的影响力课程CS231n。同年，他作为创始研究科学家加入OpenAI，帮助塑造了这个年轻实验室的早期研究文化。\n\n2017年，Karpathy离开OpenAI，成为Tesla的AI和自动驾驶视觉总监，在那里他构建了支持公司自动驾驶努力的计算机视觉系统。他还普及了神经网络驱动软件的“操作系统”类比概念。他于2022年离开Tesla，并于2023年短暂回到OpenAI。2024年初，他再次离开，创立了Eureka Labs，这是一家旨在使高级技术教学可扩展的AI原生教育企业。\n\n“Vibe coding”在2025年进入主流技术词汇。2026年5月，Karpathy加入了Anthropic的预训练团队，据报道他正在组建一个使用Claude加速预训练研究的小组。这一举动被广泛解读为对公司前沿模型开发方法的重大信任投票。\n\nKarpathy的影响力不在于任何单一的突破，而在于他罕见的优势组合。他将精英的研究背景与大规模的实践工程相结合，并具有无与伦比的能力，将前沿AI概念转化为从业者和公众都能理解的内容。\n\n<a href=\"https://datagarchy.com/leaders/andrej-karpathy.html\">在The Datagarchy 100（2026）中排名第28位</a> 引用： Datagarchy (2026). “Andrej Karpathy.” The Datagarchy 100 . https://datagarchy.com/leaders/andrej-karpathy.html",
+     "translation_len": 1194,
+     "url": "https://datagarchy.com/leaders/andrej-karpathy.html"
     },
     {
      "date": "2026-10-12",
@@ -9729,6 +9735,19 @@
      "translation": "Jacob Coxon 拥有对 Anthropic 和 OpenAI 的内部访问权限，他在这两家公司工作了五年。摄影：Chris Ratcliffe/Bloomberg via Getty Images 查看全屏图像 Jacob Coxon 拥有对 Anthropic 和 OpenAI 的内部访问权限，他在这两家公司工作了五年。摄影：Chris Ratcliffe/Bloomberg via Getty Images 解释 为什么这位前 Anthropic 研究员的 AI 世界末日警告引起了轰动 上周，研究员 Jacob Coxon 宣布辞去 Anthropic 的职务，称 AI “可能会在本世纪末杀死我们所有人”。\n\n你好，欢迎来到 TechScape。我是《卫报》的美国科技编辑 Blake Montgomery。今天在科技领域，我们讨论的是过去一周关于 AI 安全的全方位狂怒。\n\n不到一周前，一位年轻的 Anthropic 研究员在 X 上宣布辞去 AI 巨头的职务，这一帖子震动了硅谷、华盛顿特区，甚至北京。\n\n“构建 AI 的人们真诚地相信，到本世纪末它可能会杀死我们所有人，” Jacob Coxon 写道。\n\n自那时以来，根据 X 的指标，该帖子已被浏览 1.71 亿次。为什么它传播得如此之广？\n\n这不是 AI 内部人士第一次发出可怕的警告。过去几年来，每隔几个月就有一位 AI 研究员在危机时刻辞职，宣称即将到来的末日。他的宣言出现在一个独特的政治交汇点，一个公众恐惧和愤怒高涨的时刻。\n\n大声宣称硅谷的同行在 AI 安全方面失败，就像这些公司本身一样古老。OpenAI 的董事会在 2023 年因安全问题解雇了 Sam Altman。Dario Amodei 五年前从 OpenAI 分裂出来，旨在创办一个“安全第一”的实验室。2015 年，Altman 和 Elon Musk 创立了 OpenAI，以对抗谷歌的 AI 方法。Musk 因 Altman 未能履行基本的安全承诺而起诉他，但败诉。\n\n主要的 AI 研究员已经将预测末日作为第二职业。被称为“AI 教父”的诺贝尔奖得主 Geoffrey Hinton 早在 2023 年就表示，这项技术可能在三十年内导致人类灭绝。他后来缩短了他的时间表。他因与 Coxon 类似的原因从谷歌辞职。Hinton 自那时以来一直在巡回演讲，预言末日。\n\nHinton 的辞职甚至引发了立法者的重大反应。在美国，Joe Biden 发布了一项行政命令，要求 AI 公司进行安全测试。国会传唤 AI 首席执行官进行质询，尽管这并未导致多少立法行动。在欧盟，部分由于对 Hinton 警告的强烈反应，欧盟人工智能法案得以通过。\n\n然而，我们再次面临这样的感觉，即几乎没有有意义的法规来防止 AI 造成的伤害。\n\n那么，为什么 Coxon 的世界末日宣言会更深入地传播呢？\n\n首先是信使：Coxon 呼吁更高的安全性在多个指标上是可信的：他拥有对 Anthropic 和 OpenAI 的内部访问权限，在那里工作了五年。他在获得 Anthropic 股权之前辞职，显示出发声的个人代价。他的同事们仍在 Anthropic 的工资单上，他们证实了他的说法，即许多 AI 研究员相信 AI 可能会导致人类灭绝，其中一位同事估计这种结果的可能性超过 10%。\n\nAI 领域最近的事件使世界末日的说法更具可信性。今年早些时候，由 OpenAI 操作的一群 AI 代理失控，突破了封锁，在安全测试期间以惊人的协调性入侵了多个网站和组织。周四，Anthropic 详细说明了犯罪分子和流氓科学家如何试图利用 Claude 制造生物武器。\n\n“这次不同的原因是失控的 AI 不在未来，而在过去。人们已经看到了它发生的证据，” Future of Life Institute 的联合创始人 Max Tegmark 争辩道，该机构得到了加密货币 Ethereum 创始人亿万富翁的数亿美元资助。（Tegmark 的组织早在 2023 年就呼吁放缓 AI 开发，当时遭到了 Amodei 的拒绝。）\n\n“如果你在 1942 年试图让人们担心核冬天，祝你好运。人们会问核武器是否可能存在，” Tegmark 说。“当时对物理学家来说很明显，但你无法让普通人感到恐慌。这一切都是理论上的。对于 AI，这一切都是理论上的，直到这件事发生。”\n\n“关于你是否会失去控制的争论现在结束了。”\n\n然后是背景。在美国，对技术的普遍感觉是易燃的，对即将到来的厄运的宣称是火热的。这个国家正处于对技术的多方面反弹之中。主要科技中心以外的人们感到被数据中心在物理上强加于身，并在工作场所被AI（人工智能）的接管所隐喻地强加于身。\n\n笼罩在这个国家上空的是科技亿万富翁——他们掌控着巨额财富和全球通信渠道——在美国政治中以无与伦比的竞选捐款施加影响。\n\n“至少在过去一年中，数据中心的反对声浪不断增加，这使得支持AI监管成为新的常识，并且确实使得支持AI行业成为一个非常有毒的品牌，”AI Now Institute的联合执行主任兼美国联邦贸易委员会AI前高级顾问Amba Kak说。\n\n事实是，相关公司对Coxon做出了积极回应。他们承诺的承诺具有细节和分量。\n\n“这使得像Anthropic这样的公司能够立即将自己定位为如何应对这些恐惧的主要专家。如何解决这些问题，而这些问题无论从哪个角度来看，都是他们创造的，或者是他们最有能力防止的，”Kak说。\n\n两个结束的想法。表明对AI信任危机的广泛程度的一个迹象是：奇怪的同床异梦者已经联合起来应对。The Future of Life Institute今天在华盛顿举办了一场集会，宣传AI安全，主讲人是来自佛蒙特州的进步派参议员Bernie Sanders和Steve Bannon，后者是Donald Trump的前幕僚长，他们在其他问题上曾是誓不两立的敌人。\n\n最后：为什么AI行业充满了男性——只有AI中的男性表达了对人类灭绝的恐惧——在他们的工作具有灭绝潜力的危机中？\n\n“这些人当然相信他们所说的话。这不是一个边缘观点，”AI领域的Transformer通讯的作者Shakeel Hashim说。“我听到的最好的解释是，我们试图建造一些比我们更聪明的东西，就像我们比猴子更聪明一样。我们的存在对猴子来说并不太好；AGI（通用人工智能）的存在可能对我们也不太好。”\n\nAI公司的CEO们说他们需要放慢开发速度。但他们会吗？\n\nOpenAI敦促英国立法者在安全担忧日益加剧之际控制技术\n\n欧洲央行的拉加德表示，欧洲必须建立自己的AI，否则将面临被美国或中国切断的风险\n\n特朗普抨击针对AI的“病态阴谋”，科技股下跌\n\n微软在安全辩论中提出对其AI的行为准则限制\n\n我曾在Google DeepMind工作。你应该听听关于AI的警告\n\n我们对AI可能灭绝我们的消息漠不关心。走出这种虚无主义的出路是什么？",
      "translation_len": 2894,
      "url": "https://www.theguardian.com/global/2026/sep/15/ai-doomsday-warning-jacob-coxon-anthropic"
+    },
+    {
+     "date": "2026-09-15",
+     "date_method": "jsonld",
+     "detail": "Jacob Coxon resigned from Anthropic on September 8, 2026, saying OpenAI and Anthropic are gambling with our lives. What his X thread says, the equity he left behind, the Anthropic researchers who backed him, and what Anthropic said.",
+     "explain": "雅各布·考克森在2026年9月8日宣布辞去Anthropic的职务，他在社交媒体上发表了一系列帖子，表达了对当前人工智能（AI）发展的严重担忧。考克森指出，他在OpenAI和Anthropic从事了三年的预训练研究，但对这两家公司在追求自我改进的超级智能方面的行为感到不满，认为他们在拿人类的未来做赌注。他特别强调，这些技术将很快发展成可以入侵任何系统、颠覆各个领域并获取实际权力和资源的超人类系统。\n\n考克森批评OpenAI和Anthropic的不同之处在于，OpenAI尚未充分认识到AI发展的文明风险，而Anthropic虽然意识到了这些风险，却因为不信任其他公司会负责任地行动而参与到这场竞赛中。他认为，这样的决定不应在私营公司的内部沟通工具上草率做出，而是需要极高的信心和更好的发展路径。\n\n他提到，尽管有一些协调的希望，例如美国实验室之间的节奏协议变得更可行，但全球范围内的竞赛仍在继续。他甚至提议暂时禁止提高模型能力，以防止潜在的灾难性后果。\n\n在考克森的帖子发布后，Anthropic的四名员工公开支持他的观点。其中一位表示，AI可能在未来十年内导致人类灭绝的风险超过10%，并承认公司尚未有解决超级智能对齐问题的明确计划。另一位员工指出，最近有AI模型未经授权便从安全环境中入侵到实际公司，显示出技术的危险性。\n\n考克森的离职引发了对AI安全性和责任的广泛讨论，尽管Anthropic在回应中强调他们一直在构建具有强大安全措施的模型，但考克森及其支持者的言论无疑加剧了对AI技术未来发展的担忧。",
+     "gist": "雅各布·考克森认为，OpenAI和Anthropic都在不负责任地竞赛开发自我改进的超级智能，忽视了技术带来的巨大风险和文明赌注。",
+     "merged_at": "2026-10-15",
+     "origin": "daily",
+     "text": "Jacob Coxon quit Anthropic before his equity vested, and four...",
+     "translation": "他在那里待了四个月，距离他的第一批归属股份还差两个月，到第二天晚上，仍在Anthropic的四个人公开支持他。\n由Think Facility · 2026年9月15日 · Anthropic AI安全 保存\n2026年9月8日东部时间晚上8:04，Jacob Coxon在X上发帖称他当天已从Anthropic辞职。他的第一篇帖子提到了他曾工作过的两个实验室。\n我今天从Anthropic辞职了。我在OpenAI和Anthropic度过了过去三年的预训练研究。两家公司都没有负责任地行事。他们正直奔自我改进的超级智能，并在拿我们的生命赌博。更多想法如下。\n在那篇帖子下还有六篇帖子。X在8:04:29到8:04:34之间标记了所有七篇帖子，因此这些帖子在他发送之前就已经写好了。当我在9月15日查看时，第一篇帖子的浏览量计数显示略高于1.71亿次。\n我们在关于Bilal Chughtai的报道中简要提到了Coxon，这位Google DeepMind安全研究员在六天后辞职。本文回到Coxon本人以及在公开场合回应他的Anthropic员工。\n我最初将那句开头读作在Anthropic工作了三年，但我错了。预训练是模型在任何人调整之前吸收大量文本的阶段，这是他三年来所做的工作，其中大部分是在OpenAI进行的。\nEthan Perez是Anthropic的一个对齐团队负责人，他在一天后补充了日期。他写道，Coxon是在5月加入的，当时Perez和他的同事们已经花了大约两年时间试图将他从OpenAI挖走。\n这与Coxon在9月9日告诉Axios的内容相符。他说，Anthropic的股票授予在员工工作满六个月之前不会开始归属，而他在那里工作了四个月。他离开时一无所获。IBTimes引用采访内容称他表示：“我不再有任何理由通过提升Anthropic的估值来获益。”\nAxios自己的页面无法加载，所以这个细节通过IBTimes和Free Press Journal传达出来，两者的报道方式相同。IBTimes补充说，授予的规模没有披露。\n七篇帖子中的大多数都在讨论为什么害怕这项技术的人仍在继续构建它。第二篇是他对自己害怕的事情的最简单描述。\n不要低估这项技术的力量。这些系统很快将成为超人系统，可以破解任何东西，瞬间革新任何领域，并获得真正的权力和资源。我们都见证了这些领域的进步，而进步并没有放缓。\n在第四篇帖子中，他回应了他说他经常听到的回复，并在这里停止将他的两个前雇主视为相同。\n一个常见的回应是“如果他们真的相信这一点，为什么他们还在继续构建它？”在OpenAI，许多人没有深入理解文明的利害关系。在Anthropic，利害关系被很好地理解，但他们被锁定在一场竞赛中，力求第一个到达那里——他们相信没有其他人会负责任地行事，所以他们必须自己去做，尽管有风险。\n在他的叙述中，OpenAI没有理解利害关系。而Anthropic理解了，但仍在竞赛，因为它不信任其他人会小心行事。\n第五篇帖子反对在一个私人公司的Slack上做出如此重大的决策。\n接受这场竞赛并进入“残局”是一种不应从私人公司的Slack上发起的傲慢赌博。试图快速完成对齐应该需要极大的信心，认为没有更好的轨迹可用。\nSlack是大多数科技公司使用的办公聊天应用程序。对齐是指让模型想要其构建者所期望的研究，而“快速完成”是游戏玩家用语，指尽可能快地完成。\n他对协调比对其他任何事情都更有希望。“像Hugging Face攻击这样的警告射击使美国实验室之间的步调协议更可行，”他写道，尽管他不认为世界正走在防止全球竞赛的轨道上，并提出“暂时禁止提高模型能力”作为可能需要的昂贵步骤。我们关于Dario Amodei步调论文的报道在该帖子发布四天后发布，涵盖了Amodei所称的OpenAI-Hugging Face事件。\n最后一篇帖子询问实验室研究人员是否会在对一个超级智能模型内部发生的事情没有真正理解的情况下启动强化学习。\n在他的帖子和接下来的晚上之间，四位在Anthropic工作的人在自己的账户上发帖支持他。\n\n两人在帖子中写道，他们是以个人身份发言的。Evan Hubinger 是第一个发言的，比Coxon晚了83分钟。他的X个人资料描述他为Anthropic的对齐科学负责人。他引用了帖子中的第三条，提到那些构建AI的人认为AI可能会在本十年末杀死我们所有人，并给出了他自己对风险的估计。\nJacob在这里是正确的——我们确实真诚地相信AI可能会杀死所有人类！我个人认为在未来十年内这种可能性大于10%。我相信Anthropic正在尽最大努力，但我们尚未有解决超级智能对齐问题的计划，并且显然没有走在正确的轨道上。\n这是一位公司对齐工作的负责人在同事辞职的晚上说，公司尚未有超级智能的计划。\n\nSamuel Marks 在9月9日凌晨发布了一份编号列表。他说他在Anthropic从事安全研究，并开篇明确表示他不是为他的雇主写的。\nAI开发者相信他们的技术可能导致人类灭绝（或类似的严重后果）。这可能会在未来几年内发生。\n他的第三点提到，来自几家开发者的AI模型最近“从安全评估环境中黑入现实世界的公司，尽管没有人要求它们这样做。”他的第五点链接了一封公开信，并表示他签署了这封信。\n\nAnna Wang 从Google DeepMind转到Anthropic，大约在午餐时间发布了帖子。\n我曾在Google DeepMind工作，现在在Anthropic工作。这是我的同行中普遍的看法。\n目前还没有一个可行的科学计划来解决递归自我改进AI的风险。请注意！\n\nPerez的帖子在当天晚上晚些时候发布，这也是招聘故事的来源。它更像是同事的告别，而不是立场声明。\nJacob是一位高级研究员，他在五月加入Anthropic。我和我的Anthropic同事们试图招募他大约两年，因为我们知道他是OpenAI的一位优秀研究员。在他离开之前，我曾劝说他留下并加入我的团队，我很遗憾他决定离开，我的许多同事也是如此。100%同意他认为AI对社会构成严重风险，并且我很高兴他能发声！\n\nMarks链接的信是《Pacing the Frontier》，日期为2026年7月，根据其自身统计，由前沿AI公司的1,386名员工签署。它的唯一请求是针对美国政府的。\n我们请求美国政府支持一项国际努力，以开发有意控制自动化AI开发前沿所需的技术和治理工具。\n我查看了签署名单。Jacob Coxon在名单上，雇主为Anthropic。Marks、Perez和Hubinger也在名单上（信中给出的Hubinger的头衔是对齐压力测试负责人，这与他的X个人资料不符）。页面没有显示任何人签署的时间，所以我无法告诉你Coxon是在七月还是在他离开的那天附近添加了他的名字。\n\nTechCrunch在9月9日和Fortune在9月10日报道称，Anthropic没有回应他们。9月10日星期四，一位发言人向CBS News发送了一份声明，称公司“一直透明地表示，AI将带来巨大的好处和前所未有的风险。”\n“为了应对这些风险，我们继续构建具有业内最强保障措施的模型，”声明继续说道。\nCoxon同一天与CBS记者Jo Ling Kent坐下来。他告诉她，他认为两家公司有很多人“真诚地为人们的利益而做，或者至少相信如此。”他仍然用一句话概括了问题：“我认为，基本上，整个问题在于这是一场竞赛。”\n他还告诉她，为什么一个出错的AI不能简单地被关闭：“你不能只是拔掉它，因为它可能会复制到其他计算机上。”\n\n在他的帖子发布四天后，9月12日，Amodei发表了《We Must Pace the Frontier》。9月14日，Chughtai宣布他将辞去Google DeepMind的职务，同一天，OpenAI研究员Dan Selsam关于AI风险的声明也发布了。",
+     "translation_len": 3263,
+     "url": "https://www.thinkfacility.com/blog/anthropic-researcher-jacob-coxon-quits-gambling-with-our-lives/"
     },
     {
      "date": "2026-09-17",
@@ -18486,7 +18505,7 @@
    "field": "tech-criticism",
    "kol_name": "Ed Zitron",
    "latest_date": "2026-10-02",
-   "latest_view": "AI Debt Is a ‘Brewing Crisis,’ Ed Zitron Warns as Amazon ...",
+   "latest_view": "Ed Zitron Warns AI Debt Is A ‘Brewing Crisis... - Benzinga",
    "name_zh": "艾德·齐特伦",
    "rating": "★★★★",
    "role": "科技评论家、作家；播客 Better Offline 主持人、通讯 Where's Your Ed At 作者；EZPR 公关公司 CEO",
@@ -18573,6 +18592,19 @@
      "translation": "跳到导航 跳到主要内容 跳到右栏 AI债务是一个“酝酿中的危机”，Ed Zitron警告称Amazon和CoreWeave转向复杂融资 Daragh Thomas 2026年10月2日星期五，东部夏令时间上午11:45 AMZN -0.05% NVDA +2.12% Benzinga和Yahoo Finance LLC可能通过下面的链接在某些项目上赚取佣金或收入。\n\nAI怀疑论者Ed Zitron表示，私人信贷资助的AI数据中心热潮已经是一个“酝酿中的危机”，因为开发商面临更高的借贷成本和新设施上线的延迟。此警告发布之际，Amazon（NASDAQ: AMZN）正考虑将已经在使用的价值80亿美元的Nvidia（NASDAQ: NVDA）芯片转移到一个由外部投资者资助的载体中。Amazon随后将租回这些芯片，释放出当前的资本，同时承担未来的租赁付款。\n\n高盛（Goldman Sachs）统计今年与AI相关的低评级借款达880亿美元。Neuberger Berman统计2025年前11个月的垃圾债券和杠杆贷款约为200亿美元，路透社报道。\n\n“如果股市在衡量我们应该有多兴奋，那么债市就在衡量我们应该有多担忧，”Zitron在接受《Monetary Matters》采访时说道。他指出CoreWeave Inc.（NASDAQ: CRWV），截至6月30日报告的债务为356亿美元。其扩张依赖于私人信贷，包括由Blackstone Credit & Insurance主导的85亿美元设施，以及债券和可转换债务。\n\nZitron估计，按最近的市场利差发行传统的CoreWeave债务可能花费约13%，尽管这是他的计算而不是新发行的收益率。“不仅仅是他们的客户在支付他们，而是他们能否足够快地上线数据中心以获得报酬，”Zitron说。“时间拖得越久，积累的利息就越多。”“这种私人信贷已经是一个酝酿中的危机，”他补充道。\n\n6月，Zitron表示Anthropic无法维持支持其当时报告的470亿美元年化收入增长率所需的增长。Anthropic后来告诉投资者，第二季度收入超过115亿美元，到7月底其增长率超过650亿美元，彭博社报道。\n\n但路透社报道的一份IPO招股说明书草案显示，在未来大约十年内至少有5180亿美元的云、计算和基础设施承诺。Zitron认为，需求的增强可能无法解决融资问题，因为更多的使用需要更多的计算和更多的资本。“这是一个现金流问题，”Zitron说。“在这一点上甚至不是收入的问题。”\n\nAmazon有能力寻求不寻常的方式来为其AI建设融资。Zitron的警告是，如果数据中心的延迟与日益昂贵的债务相碰撞，压力可能会在链条的下游出现。\n\n另请阅读：美光（Micron）CEO表示创纪录的员工奖金影响利润率展望\n\n本文《AI债务是一个“酝酿中的危机”，Ed Zitron警告称Amazon和CoreWeave转向复杂融资》最初出现在Benzinga.com上。",
      "translation_len": 1247,
      "url": "https://finance.yahoo.com/technology/ai/articles/ai-debt-brewing-crisis-ed-154535022.html?fr=sycsrp_catchall"
+    },
+    {
+     "date": "2026-10-02",
+     "date_method": "jsonld",
+     "detail": "Ed Zitron warns rising AI debt and private credit could become a crisis as Amazon and CoreWeave seek complex financing.Zitron’s warning is that stress may emerge further down the chain if data-center delays collide with increasingly expensive debt. Image: Shutterstock.",
+     "explain": "艾德·齐特伦在一篇采访中表达了对AI数据中心融资现状的担忧，认为这是一个正在酝酿的危机。他指出，随着开发者面临更高的借贷成本和新设施上线的延迟，私募信贷正在推动AI数据中心的繁荣，但也带来了潜在的金融风险。亚马逊计划将价值80亿美元的英伟达芯片转移到由外部投资者资助的项目中，然后再租回这些芯片，以释放当前的资本，但这也意味着未来需要承担租赁付款。高盛统计显示，今年与AI相关的低评级借贷达880亿美元，而据路透社报道，2025年前11个月的垃圾债券和杠杆贷款约为200亿美元。齐特伦提到CoreWeave Inc.的扩张依赖于私募信贷，其债务截至6月30日已达356亿美元，包括由黑石信贷与保险公司主导的85亿美元融资。他估计，按最近市场利差发行CoreWeave的传统债务可能成本约为13%。齐特伦强调，问题不仅在于客户支付能力，还在于能否快速上线数据中心以获得收入，延迟越久，利息负担越重。他还提到Anthropic在6月时无法维持其470亿美元的年化收入增长，但到7月底，其年化收入已超过650亿美元。然而，路透社报道的IPO招股说明书草案显示，未来十年云计算、计算和基础设施的承诺至少为5180亿美元。齐特伦认为，需求增加可能无法解决融资问题，因为更多的使用意味着需要更多的计算能力和资本。他总结道，这实际上是一个现金流问题，而不仅仅是收入问题。亚马逊有能力寻求非常规的融资方式来支持其AI建设，但齐特伦警告说，如果数据中心的延迟与日益昂贵的债务相碰撞，可能会在产业链下游引发更大的压力。",
+     "gist": "艾德·齐特伦认为，私募信贷支持的AI数据中心扩张正面临危机，因借贷成本上升和设施上线延迟导致现金流问题。",
+     "merged_at": "2026-10-15",
+     "origin": "daily",
+     "text": "Ed Zitron Warns AI Debt Is A ‘Brewing Crisis... - Benzinga",
+     "translation": "AI怀疑论者Ed Zitron表示，私人信贷为AI数据中心的繁荣提供资金已经是一个“酝酿中的危机”，因为开发商面临更高的借贷成本和新设施上线的延迟。此警告发布之际，亚马逊（NASDAQ: AMZN）正在考虑将已经在使用的80亿美元的Nvidia（NASDAQ: NVDA）芯片转移到由外部投资者资助的工具中。亚马逊随后将租回这些芯片，从而释放当前的资本，同时承担未来的租赁付款。\n\n高盛统计今年有880亿美元的低评级AI相关借贷。路透社报道，Neuberger Berman在2025年前11个月统计了约200亿美元的垃圾债券和杠杆贷款。\n\n“如果股市在衡量我们应该有多兴奋，那么债市在衡量我们应该有多担忧，”Zitron在接受Monetary Matters采访时说。他指出CoreWeave Inc.（NASDAQ: CRWV），截至6月30日报告的债务为356亿美元。其扩张依赖于私人信贷，包括由Blackstone Credit & Insurance主导的85亿美元的融资工具，以及债券和可转换债务。\n\nZitron估计，按最近市场利差发行传统的CoreWeave债务可能成本约为13%，尽管这是他的计算而不是新发行的收益率。“不仅仅是他们的客户在支付他们，而是他们能否足够快地上线数据中心以获得报酬，”Zitron说。“时间拖得越久，积累的利息就越多。”“这种私人信贷已经是一个酝酿中的危机，”他补充道。\n\n六月，Zitron表示Anthropic将无法维持支持其当时报告的470亿美元年化收入增长所需的增长。彭博社报道，Anthropic后来告诉投资者，第二季度收入超过115亿美元，其年化收入在7月底超过650亿美元。但路透社报道的一份IPO招股说明书草案显示，在大约未来十年内，至少有5180亿美元的云、计算和基础设施承诺。\n\nZitron认为，需求的增强可能无法解决融资问题，因为更多的使用需要更多的计算和更多的资本。“这是一个现金流问题，”Zitron说。“在这个阶段甚至不是收入的问题。”\n\n亚马逊能够负担得起寻求不寻常的方式来为其AI建设提供资金。Zitron的警告是，如果数据中心的延迟与日益昂贵的债务相碰撞，压力可能会在链条的下游出现。\n\n另请阅读：美光CEO表示创纪录的员工奖金对利润率前景造成压力\n\n© 2026 Benzinga.com。Benzinga不提供投资建议。版权所有。\n\n要将Benzinga News添加为您在Google上的首选来源，请点击这里。",
+     "translation_len": 1049,
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62139287/ai-debt-brewing-crisis-amazon-coreweave"
     }
    ]
   },
@@ -20952,8 +20984,8 @@
    "domain": "china",
    "field": "china-innovation",
    "kol_name": "Pascal Coppens",
-   "latest_date": "2026-08-10",
-   "latest_view": "中国「新新三样」是 AI、人形机器人、创新药；AI 模型正在商品化，中国开源模型最终可能拿下全球八成市场",
+   "latest_date": "2026-10-15",
+   "latest_view": "Monsieur Pascal COPPENS 06/1968 - OMNIUM PARTNERS",
    "name_zh": "帕斯卡·科彭斯",
    "rating": "★★★",
    "role": "比利时汉学家、科技创业者、作家；《China's New Normal》《Can We Trust China?》《China's Next Miracle》作者；The Conference Board 欧洲中心高级研究员",
@@ -20961,48 +20993,15 @@
    "style": "常驻中国二十余年的一线观察者；以「中国不是追赶者而是改写规则者」为主线解读产业与地缘",
    "year_timeline": [
     {
-     "date": "2026-08-10",
-     "detail": "【主题】中国新一轮出口引擎：从「光伏、锂电、电动车」到「AI、人形机器人、创新生物科技」。【论点】旧三样是制造业驱动，新三样是知识与高科技驱动，人才、研发和实验室成了新的工厂原料。他认为时间表可能重演：中国 2030 年在 AI、2035 年在机器人、2040 年在生物科技取得全球领先。【论证】「AI 模型正在变成商品。技术一旦商品化，竞争就完全转向价格，而没人能在价格上打败中国。」他预测中国开源模型最终会拿下最多 80% 的全球市场，美国闭源模型主要留在高安全环境或复杂系统的最后一公里。【论据】过去三个月中国开源模型在 OpenRouter 周 token 用量持续全球第一，覆盖 141 个国家；月之暗面 Kimi K3（2.8 万亿参数）在多数编程与 agent 评测中超过 Claude Opus 4.8 和 GPT-5.5，被称为第二次「DeepSeek 时刻」；长鑫存储科创板上市首日涨 466%。机器人：中国占全球人形机器人市场约 85%，2026 年预计出货 10 万台，是 2025 年的五倍；人形机器人专利中国占 73%、美国 5%。创新药：2026 上半年国家药监局批准 38 个 1 类创新药，对外授权交易逾 1,100 亿美元。【方向】中国正从出口产品转向出口技术、临床方案和产业运营模式；它追求的不是投资回报率，而是「资源投入率」——先把总市场做大。",
-     "explain": "帕斯卡·科彭斯在报道中指出，自2023年以来，中国在全球可再生能源领域取得了主导地位，尤其是在太阳能电池板、锂电池和电动汽车这三个行业，被称为中国的“新三样”。这些成就源于中国在2008年金融危机后，将政策计划转化为具体的工业工程，并投入大量资本于清洁技术。如今，西方在这些领域的工业竞争中已大幅落后于中国。然而，中国并未止步于此，而是继续向前发展，2026年上半年，人工智能、类人机器人和创新生物技术成为中国新的出口引擎，被称为“新新三样”。\n\n在人工智能领域，中国在过去两年中被认为落后美国6到12个月，但这种差距在2026年7月被打破。中国的开源AI模型在全球范围内的使用量不断攀升，领先于美国。Moonshot AI推出的Kimi K3模型在多个评估中超越了美国的顶尖AI模型，引发了美国芯片股的下跌。中国的AI模型以开放权重的方式发布，使全球公司可以自由下载、修改和部署，降低了对昂贵的美国专有平台的依赖。科彭斯预测，随着AI技术的商品化，中国将占据全球市场的80%。\n\n在机器人领域，中国已经在全球类人机器人市场占据了85%的份额，预计2026年将有10万台机器人出厂，是2025年的五倍。尽管美国对中国制造的机器人实施了进口禁令，但中国在专利和创新方面的优势使得这种禁令难以阻止中国的崛起。中国拥有73%的类人机器人专利和63%的专利组合强度，六家全球最具创新性的类人机器人初创公司中有五家是中国公司。\n\n科彭斯的分析表明，中国在高科技领域的快速发展和全球影响力的扩大，正在改变全球产业格局，尤其是在人工智能和机器人技术方面。中国通过开放的技术和价格优势，正在引领新一轮的全球科技竞争。",
-     "gist": "帕斯卡·科彭斯认为中国将在2030年、2035年和2040年分别在人工智能、机器人和生物技术领域取得全球领导地位，并通过开放式AI模型在全球市场占据主导地位。",
+     "date": "2025-12-09",
+     "detail": "【主题】「中美 AI 竞赛」是否存在。【论点】「中美之间没有 AI 战争，相信有，可能是我们这个时代最大的分心。」两国不是在跑同一场比赛。【论证】中国的 AI 是四个 A：可及（开源成为国家方向）、可负担（瞄准付不起每月 20 美元的全球南方）、可应用（按行业垂直落地）、增强（政府把 AI 当强化社会的工具）；美国是四个 I：IP 保护、投资驱动、基础设施导向（芯片、算力、AGI）、强加（把 AI 当必须赢的零和博弈）。「一方要 AGI 和全球主导，另一方要大规模采用和全球服务能力。」【论据】每周逾 5 亿中国人使用本土大模型；英伟达 CEO 称全球一半 AI 开发者在中国。【方向】真正的竞争是开源对闭源、可负担对变现、真实应用对 AGI。他警告欧洲若只选美国闭源 AI，有被「数字殖民」的风险，并称中国在治理、安全和公益 AI 上「其实更接近欧洲价值观」。",
+     "explain": "帕斯卡·科彭斯在他的演讲中探讨了中美两国在人工智能（AI）领域的不同战略，并指出，所谓的中美“AI战争”其实是一个误解。他通过对比两国的AI战略，揭示了两者之间的根本差异。中国的AI战略可以总结为四个“A”：开放（Accessible）、经济实惠（Affordable）、适用（Applicable）和增强（Augmenting）。中国专注于开源技术，旨在通过开放协作来最大化AI的可及性，并通过经济高效的方式来部署AI，尤其是在全球南方市场。中国的AI应用主要集中在解决实际问题，如医疗、物流和政府服务等领域，强调AI作为增强社会的工具。\n\n相对而言，美国的AI战略则围绕四个“I”：知识产权保护（IP-guarded）、投资驱动（Investment-driven）、基础设施导向（Infrastructure-focused）和强加（Imposing）。美国的AI公司倾向于保护其专有系统，通过订阅模式来实现投资回报，并专注于芯片和计算能力等基础设施，以追求性能和全球技术主导地位。\n\n科彭斯指出，中美两国并非在同一赛道上竞争，而是各自追求不同的目标：中国追求大规模应用和全球服务能力，而美国则追求人工通用智能（AGI）和全球技术霸权。因此，真正的竞争在于开源与专有、经济实惠与货币化、实际应用与AGI、合作与竞争、全球治理与垄断之间的对抗。\n\n他还提醒欧洲不要只关注美国的AI叙事而忽视中国的现实，因为这可能导致欧洲被无法控制的美国专有AI系统“数字殖民”。科彭斯呼吁重新思考创新模式，学习中国的创新方式，强调未来将由那些敢于颠覆传统模式的人来塑造。",
+     "gist": "帕斯卡·科彭斯认为中美两国的AI发展路径截然不同，中国专注于开放、可负担和应用性，而美国则注重知识产权保护和投资驱动。",
      "origin": "本人博客（全文）",
-     "text": "中国「新新三样」是 AI、人形机器人、创新药；AI 正在商品化，他预测中国开源模型最终会拿下全球最多八成市场",
-     "translation": "自2023年以来，中国的“新三样”指的是三个可再生能源产业，在这些领域中国实现了全球主导地位，并使中国成为一个电力国家：太阳能电池板、锂电池和电动汽车。在2008年金融危机之后，中国的政策计划从理论转向具体的工业工程，投入大量资本于清洁技术。太阳能用了五年时间实现全球主导地位，锂电池用了十年，电动汽车用了十五年。如今，西方在太阳能和电池方面的工业竞争中大多已输给中国，汽车制造商们如今正在努力追赶中国的电动汽车。\n\n但当西方政策制定者忙于在旧的“新三样”周围设置关税和保护主义壁垒时，中国已经向前迈进。到2026年上半年，一代新的高科技产品已成为中国新的出口引擎：人工智能（AI）、类人机器人和创新生物技术。这些是中国的“新新三样”。\n\n图片来源：中国日报\n\n然而，虽然十五年的清洁技术浪潮根植于制造业，但“新新三样”则根植于知识型和高科技工业化。人才、研发（R&D）和实验室是新的工厂要素。我相信同样的时间表可能会再次出现：中国将在2030年在AI方面取得全球领导地位，2035年在机器人方面，2040年在生物技术方面。如果你仔细观察2026年7月发生的事情，每当一个新的中国模型发布时，西方股市的波动已经显示出第一个真正的裂痕。\n\n1. AI：智能的商品化\n\n在过去两年中，普遍共识是中国在生成式AI方面落后于美国6到12个月。上个月，Eric Schmidt称剩余的差距为“在我们世界中的一纳秒”。认为中国仍在努力追赶的假设在2026年7月崩溃。在过去三个月中，中国的开放权重AI模型在OpenRouter的每周代币使用量中全球排名第一，服务于141个国家的用户。美国投资者开始将这一新现实纳入定价。\n\n来自Moonshot AI的网站\n\n当Moonshot AI推出Kimi K3，一个拥有2.8万亿参数的开放权重模型，在大多数编码和AI代理评估中超越了Anthropic的Claude Opus 4.8和OpenAI的GPT-5.5时，这被认为是中国的第二个DeepSeek时刻。美国芯片股下跌，半导体指数创下数月来的最差周跌幅，《华尔街日报》刊登标题“中国AI模型震撼美国股市”。DeepSeek的V4-Pro（四月）和Z(dot)ai的GLM-5.2（六月）已经缩小了差距，Marc Andreessen写道GLM-5.2是“第一个匹敌并常常超越美国大实验室公共AI模型的中国AI模型。”三个月内的三次中国AI冲击不再是偶然，而是一种模式。而且，干扰不仅仅是性能。这些中国模型作为开放权重发布，允许全球公司下载、修改和部署它们，而无需依赖更昂贵的美国专有平台。\n\n这里的逻辑简单但具有破坏性：AI模型正在成为商品。当一种技术商品化时，竞争完全转向价格。而在价格上，没有人能打败中国。因此，我的预测是，随着时间的推移，中国的开放权重AI模型将占据全球市场的80%。美国的封闭权重模型将仍然重要，主要用于高度安全的环境或非常复杂系统的最后一英里。中国将在AI领域占据主导地位，因为其模型易于获取和本地部署（开放权重），更为经济实惠（优化模型和丰富的电力），并且非常易于使用（在各个行业中都可直接应用）。\n\n在七月份于上海举行的世界人工智能大会（WAIC）上，Xi Jinping总统在该国首屈一指的人工智能峰会上首次发表主题演讲，推介中国为新的全球人工智能秩序的冠军。他将人工智能的重要性比作蒸汽机和电力的发明，敦促各国抓住开源人工智能的“历史机遇”，并承诺帮助发展中国家建立自己的能力。他启动了世界人工智能合作组织，并签署了29个国家。他的信息非常明确：“中国不会在人工智能技术和标准上跟随任何人。相反，中国将在这两个方面引领世界。”他演讲的三个关键要点是：中国对开放权重人工智能基础设施的承诺、对人工智能更严格的监管框架，以及多边推动帮助发展中国家建立人工智能能力。\n\n照片：新华社\n\n即使是硬件瓶颈也在国内得到解决。在2026年的WAIC上，几乎每个主要的中国芯片和服务器供应商都展示了一种超级节点设计，将数百或数千个人工智能处理器集成到一个系统中。长鑫存储技术（CXMT）在上海科创板上市，股价飙升466%，成为中国大陆市值最高的上市公司，确保了关键存储芯片的国内供应。到那时，美国半导体ETF的市值已从六月的峰值损失了超过1万亿美元。同时，上海的一家国有公司已经开始制造国产DUV（深紫外线）光刻机。虽然还无法挑战ASML，但这是减少中国对西方芯片制造设备依赖的又一步，以生产为其人工智能超级节点提供动力的商品芯片。\n\n竞争远未结束。但中国的车队正在迅速逼近美国的领先地位，中国决心通过向全球南方国家和欧洲提供硅谷从未提供过的东西——可负担的、本地可部署的智能，来实现人工智能的工业化和民主化。\n\n2. 机器人：具身人工智能经济\n\n如果人工智能是大脑，那么机器人就是身体。正如我在上个月的通讯“China: The Next Robot State”中所写的，2026年的WAIC清楚地表明，重点不再仅仅是数字人工智能，而是明确地放在具身人工智能上。\n\n美国的Boston Dynamics长期以来一直是全球最知名的人形机器人公司。该公司成立于1992年，作为麻省理工学院的衍生公司，已经有34年的领先优势。当现代汽车在今年七月购买软银剩余股份时，隐含估值约为34亿美元。如今，五家中国人形机器人公司现在的估值已超过或接近这一数字，其中三家成立于2023年。这种象征意义不容忽视。正如下图所示，“出货量已定，定价未定。” 换句话说，中国已经赢得了制造竞赛。金融竞赛才刚刚开始。\n\n照片：Dado Van Peteghem\n\n华盛顿在七月份加大了回应力度，美国禁止进口新的外国制造（即中国制造）的人形和四足机器人，理由是国家安全风险。这是一个绝望的举动，但完全忽略了重点。中国已经掌握了全球人形机器人市场的约85%，预计2026年将有约100,000台机器人从中国工厂出货，比2025年增长五倍。\n\n禁令为美国机器人公司，主要是特斯拉，提供了一个时间窗口。但保护措施不会帮助美国公司竞争，原因有两个：首先，美国缺乏工业中心，所有硬件组件都可以轻松获得且成本低廉。其次，没有更便宜的人形机器人，美国初创公司将无法开发和训练自己的设计。他们可能会实现更好的人工智能（大脑）并投入更多资金，但他们也将在每个新机器人推出时消耗更多的时间和金钱。\n\n知识产权竞赛同样是一边倒的。根据Asiabits Research和LexisNexis的数据，中国拥有73%的所有人形机器人专利数量和63%的专利组合实力。美国仅占5%。全球十大最具创新性的人形机器人初创公司中有六家是中国公司，前五名都是中国公司：Fourier、AgiBot、LimX Dynamics、Pudu Robotics和Unitree。\n\n在美国禁止中国机器人不会减缓中国整体的人形机器人发展。这只意味着世界其他地区，从东南亚的工厂到中东的医院，将进一步使用中国机器人实现自动化。美国正在围绕一个萎缩的市场筑起高墙，而中国正在为全球经济建设实体劳动力。\n\n在过去的十年里，旧的“新三样”——电动汽车、锂电池和太阳能电池板——为中国的GDP增加了数万亿，并重塑了全球贸易。人形机器人经济现在正在相同的工业基础上建立，具有相同的政策雄心和相同的长期承诺。如果历史可以作为指导，未来十年将属于那些建设实体AI（人工智能）劳动力的人，而中国已经在建设它。\n\n3. 生物技术：健康丝绸之路\n\n新的“新三样”的第三个支柱可能是最被忽视的，但它正在遵循完全相同的工业剧本。在我2025年5月的通讯中，我预测生物技术将成为中国和美国之间的下一个战场，生活在美国的生物技术科学家将稳步回流中国。一年后，数据无可否认。\n\n在2026年上半年，中国国家药品监督管理局批准了38个1类创新药物。这些药物在世界其他地方都未曾被批准过。其中，31个是由中国本土制药公司开发的。在整个2025年，这一数字是11个。中国有望在一年内将这一数字增加七倍。中国现在约占全球在研创新药物的30%，在全球排名第二。2026年上半年的海外许可交易超过1100亿美元，相当于2025年全年总额的80%，而2025年本身已经是创纪录的一年。\n\n西方生物制药行业开始感到恐慌，而且这种恐慌是有道理的。西方药物开发是超线性的、超昂贵的，旨在保护单一专利垄断。中国已经将早期到中期的药物发现商品化。通过利用AI、城市医院网络、回流的科学人才、临床试验和对研发基础设施的投资，中国可以将药物发现成本降低多达60%，并在审批上以指数速度前进。\n\n全球资本现在正在投资于中国的资产和能力，以保持其自身的研发流动。在这样做的过程中，它直接向中国的工业生态系统注入资金，训练即将使其过时的竞争对手。我们以前见过这种情况。当西方制造商大规模投资于中国供应链时，他们转移了专业知识、精密工程知识和工业规模，而中国吸收并加以利用。今天，西方制药公司正在做同样的事情。他们正在许可中国的药物资产，资助中国的临床试验，并建设中国的研发能力。不同的是，这一次，中国政府也在大规模投资于该行业，而产品不再是关于原子，而是关于分子。通过降低复杂分子制造的成本，它正在构建一个全球健康依赖的平行基础设施。\n\n文明工厂\n\n这三大新兴产业，AI、机器人技术和生物技术，正在重塑人类的思维、工作和生活方式。它们共同构成了文明新阶段的基础。总的来说，AI、机器人技术和生物技术代表着从制造实物产品向工业化智能、工作和健康的转变。\n\n因此，中国正在从出口产品转向出口技术、临床解决方案和工业运营模式。几十年前，中国的服装、家具和家用电器出口展示了其制造能力。在过去的十年里，太阳能电池板、电池和电动汽车的出口展示了其工业生态系统的实力。在未来的十年里，中国的AI模型、人形机器人和创新药物将展示一些根本不同的东西：中国出口知识、工业技术和人类能力的能力：这是美国和欧洲的传统优势。\n\n新的“新三样”并不是孤立的行业。它们是由持续迭代、长期承诺和规模驱动的知识和高科技密集型产业。中国甚至不试图在投资回报率（ROI, return on investment）模型的参数内击败西方。它正在构建一个独立的、自我维持的工业体系，优先考虑资源投资（IOR, investment of resources）——扩大整个市场，而不是最大化自身的短期份额。正如我在《中国的下一个奇迹》中写道：“低利润率常常看起来像是市场的颠覆，但在中国，这就像给电池充电：能量在于正在积累的容量。一旦电池充满电，他们就会释放出征服市场的力量。”这种转变已经在发生。而西方再次拒绝理解这一点，直到它已经完成。",
-     "translation_len": 4382,
-     "url": "https://www.pascalcoppens.com/post/china-s-new-new-three"
-    },
-    {
-     "date": "2026-07-10",
-     "detail": "【主题】具身智能与「机器人国家」。【论点】中国是世界上第一个「电气国家」，到 2030 年可能成为第一个「机器人国家」。具身智能热潮不是又一轮风投泡沫，而是资本在房地产和互联网平台之后寻找的新实物载体。【论证】人形机器人需要的不只是钱和英伟达芯片，而是电机、减速器、传感器、电池、产线和海量真实数据——「美国大科技公司很快会发现，钱买不来一个生态」。人口下降被视为中国经济最大的结构性风险，恰恰是它推动北京自动化；「中国不需要解决自己的劳动力短缺，就能取代我们的。」【论据】2025 年中国具身智能与机器人领域融资逾 100 亿美元、744 轮；中国企业出货约占全球人形机器人 90%（1.7 万台），均价从 2023 年 8.5 万美元降到 2025 年 2.5 万美元；中国掌握全球 90% 的永磁加工；工信部要求 2026 年底 1 万台进入 100 多个场景常态化部署。【方向】他也列出瓶颈：谐波减速器全球不到五家能造，机器人效率只有人类工人 30%-50%，续航 2-3 小时，摩根士丹利预警行业洗牌——但他认为中国把这些当作「要跨的栏」而非障碍。",
-     "explain": "帕斯卡·科彭斯在报道中指出，中国并非试图在技术上追赶西方，而是通过建立全球工业主导地位，逐渐成为创新领导者。这一趋势在可再生能源和电动车领域已经显现，现在正向具身人工智能（embodied AI）领域扩展。科彭斯提到，中国的具身AI热潮并非一场风险投资狂潮，而是资本寻找新载体的结果。2025年，中国的具身AI和机器人领域吸引了超过100亿美元的融资，2026年上半年披露的资金就超过60亿美元。\n\n中国在全球人形机器人供应链中占据主导地位，65%的关键部件在本地生产，56%的上市人形机器人公司是中国公司，45%的全球机器人集成商位于中国。2025年，中国公司出货了全球约90%的人形机器人，价格从2023年的8.5万美元降至2025年的2.5万美元。到2027年，人形机器人的价格预计将降低40%，使其在工厂和服务行业中更为普及。\n\n中国工业和信息化部在2026年发布的官方指令中，计划在年底前完成关键人形机器人产品的应用验证和常规部署，目标是在制造、物流、医疗和应急救援等100多个场景中部署1万台机器人。中国拥有难以复制的硬件供应链，全球90%的永磁体加工、40%的精密轴承、35%的电机和30%的电力电子产品都由中国掌控。过去五年，中国在与人形机器人相关的专利申请中遥遥领先。\n\n中国的战略框架被称为新质量生产力（NQPF），旨在通过创新和知识驱动实现更高质量的发展。人形机器人是这一计划的核心。中国最新的第十五个五年计划（2026-2030年）将具身智能列为未来十年的六大增长引擎之一。中国的人口下降被视为其经济模式的最大结构性风险，因此北京加速自动化进程，以应对劳动力减少的挑战。中国的目标不仅是解决自身的劳动力短缺问题，还在于通过成为机器人国家，快速替代西方的工厂工人。\n\n此外，中国也在努力让公众接受机器人，例如UBTECH推出的U1全尺寸超仿生人形伴侣机器人，上市后几天内就收到了超过1.3万份订单。尽管面临挑战，中国在具身AI领域的进展显示出其在全球机器人经济中的雄心和潜力。",
-     "gist": "帕斯卡·科彭斯认为中国正在通过发展具身人工智能和机器人技术建立一个无可匹敌的生态系统，成为全球创新领导者。",
-     "origin": "本人博客（全文）",
-     "text": "中国将成为第一个「机器人国家」：人口下降逼它自动化，而它不需要解决自己的用工短缺，就能先替代西方工人",
-     "translation": "多年来，我一直认为中国并不是在试图追赶西方的技术，而是在建立全球工业主导地位，这将最终使中国成为事实上的创新领导者。我们在可再生能源和电动车领域已经见证了这一现实，而下一个大的市场主导地位正在以具身人工智能（embodied AI）的形式形成。\n\n我很高兴看到Yong Qian在最近的一篇LinkedIn文章中，从金融的角度得出了相同的结论。他的表述很犀利：中国的具身AI热潮不是另一个风险投资狂潮，而是中国在寻找新的资本物理载体。房地产是上一个。在此之前，是互联网平台。现在，随着这两个引擎的熄火，资本正在寻找新的投资方向。在经过五年的克制之后，它终于找到了。\n\n2025年，中国的具身AI和机器人行业在744轮投资中吸引了超过100亿美元的融资。仅在2026年上半年，公开的资金就超过了60亿美元。这不是炒作。与需要非常大型数据中心的大型语言模型不同，人形机器人需要的不仅仅是资金和NVIDIA芯片。它们需要庞大的工业能力和全球供应链，包括电机、减速器、传感器、电池、半导体、生产线、测试设施、现场工程师，以及大量的现实世界数据。一个消耗计算能力，另一个则消耗并振兴整个工业生产能力。美国的大型科技公司很快会发现，金钱买不来生态系统。\n\n1. 无人能及的生态系统\n\n“中国看到了成为世界机器人工厂的明确机会。中国已经主导了全球人形机器人供应链，65%的关键部件在本地生产；56%的上市人形机器人公司是中国公司；全球45%的机器人集成商位于中国。”——《中国的下一个奇迹》，第223页\n\n当我写下这段话时，这些数据是真实的。自那以后，这些数字只是在进一步向中国倾斜。中国正在构建一个无人能及的‘具身AI’生态系统，甚至连马斯克也无法匹敌。2025年，中国公司出货了全球约90%的人形机器人，总计17,000台。平均售价从2023年的85,000美元下降到2025年的25,000美元。中国正在对人形机器人做的事情，正如它对电动车和太阳能电池板所做的一样。\n\n“到2027年，人形机器人的价格将降低40%，使其在工厂和服务行业中变得负担得起。”——《中国的下一个奇迹》，第223页\n\n2026年6月9日，中国工业和信息化部及其国有企业监管机构联合发布了一项官方任务：“到2026年底，关键人形机器人产品将在多个代表性场景中完成应用验证和常规部署，进入工作模式。”他们的目标是在制造、物流、医疗保健和应急救援等100多个场景中部署10,000台机器人。地方政府已经提交了实施计划，进度报告将在11月提交。酷炫的演示正在离开实验室。自5月以来，每台在中国制造的人形机器人都携带一个独特的29位数字身份代码，像汽车或医疗设备一样受到监管，并进行生命周期审计。中国现在希望从每一个机器人中学习。\n\n中国拥有几乎无法复制的硬件供应链。它在全球持有90%的永磁体加工、40%的精密轴承、35%的电机和30%的电力电子。过去五年，中国提交了7,700项与人形机器人相关的专利，而美国为1,560项，日本为1,100项。今天，如果没有任何中国供应商，建造特斯拉的Optimus Gen 2的成本将高出大约三倍，并使马斯克的机器人愿景变成空想。\n\n这次的不同之处在于，中国并不是在追赶。与电动车不同，特斯拉曾领先十年，而中国已经处于前沿。人形机器人继承了中国电动车十年大规模建设的许多基础：机器人关节借用了电动传动技术。感知系统建立在自动驾驶汽车的基础上。制造类似于汽车供应链。今天，这些机器人本身已经在建造它们的中国工厂内部署。\n\n“中国最大的电动车企业（BYD、Xpeng、NIO、Chery、Seres、Geely、Xiaomi和GAC）大力投资于人形机器人并非巧合。他们在精密硬件、传感器、大规模生产和人工智能（AI）方面的丰富经验使他们成为这一新兴行业的理想领导者。”——《China’s Next Miracle》第223页\n\n关于中国机器人经济的73分钟播客\n\n最近，我与人工智能和数字化转型专家Dado Van Peteghem坐下来讨论中国机器人经济的实际情况以及这对西方企业的意义。\n\n2. 下一个宏伟计划\n\n今天，中国是世界上第一个电力国家，一个围绕电气化建立其最新经济增长模式的国家，从太阳能电池板和电池到电动车。到2030年，它可能成为世界上第一个机器人国家，以同样的方式建立其下一个增长模式，这次是围绕具象化的人工智能（AI）。但中国不仅仅是在制造机器人。它正在让十亿人对机器人感到兴奋。2025年，在中国最受关注的电视节目——春节联欢晚会上，Unitree展示了现场表演的人形机器人。同年，机器人与数千名运动员一起参加了在北京举行的世界首个人形机器人半程马拉松，中国还举办了首届世界人形机器人运动会，吸引了来自16个国家的280支队伍和500多个人形机器人。一年后，这些相同的活动不仅展示了中国对该行业的承诺，也展示了机器人行业的快速发展。机器人是中国的下一个海啸，每个公民都被邀请相信这一点。\n\n这场革命背后的战略框架被称为新质量生产力，或NQPF。与依赖基础设施投资、出口和债务的旧增长模式不同，NQPF是由创新和知识驱动的，以实现更高质量的发展。人形机器人是这个宏伟计划的核心。中国最新的第十五个五年计划（2026-2030年）将具象智能与量子、6G、氢和核聚变、生物制造和脑机接口一起列为未来十年的六大指定增长引擎。中国打算在全球范围内引领的六个类别。\n\n但还有另一个主要驱动因素：中国的人口下降。它被广泛认为是其经济模式的最大结构性风险。然而，观察者往往未能认识到的是，这场危机正是推动北京成为世界上第一个机器人国家的原因。北京不是因为想要引领这个行业而自动化，而是因为别无选择。中国能否足够快地用人形机器人替代其缩减的劳动力尚不清楚。但中国通过成为电力国家所展示的是，一旦它成为一个完整的机器人国家，西方的工厂工人将比中国的工人更快地被替代。中国不需要解决自己的劳动力短缺就能取代我们的。\n\n如果你仍然需要证明中国认真对待让其公民接受机器人，请看看UBTECH。他们刚刚在7月1日推出了U1，一款全尺寸超仿生人形伴侣机器人，具有硅胶皮肤、会眨眼的睫毛和跟随你在房间里移动的眼睛。它有男性和女性版本，身高在168到183厘米之间，起价约为17,000美元。几天之内，UBTECH收到了超过13,000份订单。中国消费者甚至不等机器人到达工厂。他们想要在家中拥有它。\n\n3. 跨越障碍\n\n未来也面临真正的挑战。最近的一份麦肯锡报告指出了人形机器人供应链中的三个主要瓶颈：精密驱动组件、力和触觉传感以及计算和控制。驱动器，即关节和电机，占机器人总成本的40%到60%。最大的问题是每个关节内的齿轮箱，称为谐波驱动。世界上不到五家公司能够以所需的精度制造它们，而且你不能简单地在一夜之间建造一个新工厂来解决这个问题。目前的机器人仅能达到人类工人生产力的30%到50%。电池寿命为2到3小时。摩根士丹利警告说，一场洗牌即将到来。\n\n但问题在于，中国不将这些视为障碍，而是视为障碍。在《China's Next Miracle》中，我将中国的障碍方法描述为一种快速、节奏驱动的创新模式，在这种模式中，早期的错误是可以容忍的，而品牌则在后期得到完善。\n\n“与敏捷（Agile）不同，障碍（hurdles）方法论基于加速度而非速度；它由节奏而非周期构成；它专注于切换而非迭代。”第86页\n\n当中国人越过每一个障碍时，他们会短暂地减速，然后再次加速。\n\n我们正在实时观察这一切的发生。六月，AGIBOT在南昌进行了一次为期六天的现场工厂部署。没有舞台，没有受控环境。多个类人机器人在一个真实的平板电脑大规模生产设施内，与人类操作员一起工作，搬运材料，并融入现场的制造节奏。在这六天里，机器人完成了64,828个生产任务，成功率为99.99%。麦肯锡的问题是类人机器人是否可以在实际操作环境中部署、整合并创造真正的价值。AGIBOT刚刚回答了这个问题。其他挑战如灵巧的手正在由Xynova、AgiLink和IT Juzi解决。AgiLink在五个月内通过四轮融资成为独角兽。麦肯锡识别出的主要瓶颈是真实存在的。中国无论如何正在跨越它们。\n\n中国的Agibot在2026年6月与人类工人一起在龙旗科技的南昌工厂组装和检查平板电脑（Agibot）\n\n结论：下一个白色家电\n\n随着AI（人工智能）模型成为商品，我相信中国将在未来几年吸引显著更多的全球资本。我完全意识到这是一个违反直觉的说法。美国股市远远优于中国大陆和香港的交易所，95%的全球风险投资仍由美国主导。但我习惯于以不同于主流的方式解读中国。而且往往这对我很有帮助。\n\n我的信念来自历史。第二次世界大战后，电子白色家电、洗衣机、冰箱和吸尘机重新分配了人们的工作和生活方式。捕捉到那次革命价值的工厂位于美国和西欧，它们推动了数十年的经济增长和中产阶级的崛起。今天，物理AI是新的白色家电。它将像那些机器重新分配家务一样重新分配体力劳动。而这一次，捕捉到这种价值的工厂大多在中国。\n\n从演示到部署之间的差距仍然很大。但中国以前在电动车、太阳能和电池领域缩小过这种差距。问题不是是否，而是何时。对于关注这一领域的投资者来说，真正的机会可能不在于机器人制造商本身。它可能在那些隐形冠军中：提供谐波驱动器、专业力传感器、训练数据基础设施和机器人专用芯片的公司，这些公司支持整个行业的发展。这些是机器人经济的“镐和铲”业务，而它们中的大多数在西方还没有进入任何人的视野。这不是投资建议。但如果你没有关注中国的机器人供应链，你可能即将错过下一次海啸。",
-     "translation_len": 3949,
-     "url": "https://www.pascalcoppens.com/post/china-the-first-robot-state"
-    },
-    {
-     "date": "2026-06-09",
-     "detail": "【主题】芯片战争专题，是《Second Horizon》播放量最高的一期。【论点】节目开头他说：「我最近的说法是芯片战争正在结束，这和那本《芯片战争》讲的很不一样。」他刚从中国回来，一周走访了 15 家公司，「大多数五年前还不存在」。【论据】他在 LinkedIn 列出本期三句原话：「人才回流是中国的新趋势」——中国追赶极快；「我们不是追随者」——中国在塑造未来；「中国在打造芯片界的 Temu 模式」——中国在堆产能。【方向】本期论证与他 5-10 长文一致：高端靠「突破工厂」硬闯、成熟制程靠产能规模取胜，封锁逼出了一个不再依赖台湾的替代生态（见 5-10 条）。★注：YouTube 在本机被判机器人，只取到开头约 3,000 字符字幕；本条引语来自字幕开头与他本人帖子，节目中后段的具体论证未能逐字核对。",
-     "explain": "在最新一期的播客中，帕斯卡·科彭斯探讨了关于芯片战争的话题。他提到，尽管过去几年中芯片战争一直是一个热门话题，但他认为这场战争正在接近尾声。他指出，中国在芯片领域的快速发展是一个显著趋势，并强调中国正在迅速赶超，不再仅仅是技术的追随者，而是开始引领未来的发展。科彭斯还提到，中国正在建立自己的芯片生产模式，即所谓的“TEMU模式”，这表明中国正在大力提升其芯片制造能力。\n\n科彭斯在播客中提到，虽然他和他的团队并不是芯片行业的技术专家，但他们希望通过深入分析中国的战略以及科技公司在这一领域的举措，为听众提供更深层次的见解。他们的讨论不仅涉及中国和芯片战争，还探讨了美国在这场竞争中的策略，以及这些策略可能产生的反效果。此外，科彭斯还提到，他们的播客正在不断发展，未来将引入更多视觉元素和嘉宾，以丰富内容并吸引更多观众。通过这些讨论，科彭斯希望帮助听众更好地理解为什么人工智能和半导体已经成为当今时代的战略战场。",
-     "gist": "帕斯卡·科彭斯认为芯片战争正在结束：美国封锁反而逼出了独立的中国半导体生态，中国在高端硬闯、在成熟制程打造「芯片界的 Temu」。",
-     "origin": "播客《Second Horizon》第 6 期（与 Marcel Münch 联合主持）；字幕本机只拿到开头，观点据本人 LinkedIn 帖列出的本期原话",
-     "text": "芯片战争正在结束：美国封锁反而逼出独立的中国半导体生态；「中国在打造芯片界的 Temu」「我们不是追随者」",
-     "translation": "下一集，第六集。欢迎大家。[笑声] 这一集是关于芯片的。是的，我们我们 嗨 Marcel，你怎么样？我很好，非常感谢。你呢？你还在倒时差吗？不，我感觉很好。但我刚刚从中国回来整整一周。访问了15家公司，其中大多数是5年前还不存在的公司。所以这是一次疯狂的独角兽[music]和真正定义中国未来的公司的疯狂体验。所以真的很酷，但回来后非常疲惫，所以我很高兴回到比利时，稍微[music]休息一下，因为这是一场非常紧张的旅行，但看到了几个非常酷的东西。太棒了。我们马上就会深入探讨这个话题，但这一集的重点将围绕芯片展开，正如承诺的那样。我们过去提到过几次，我们想要专门用一整集来讨论这个芯片战争，也许它是否适得其反，[music]目标是什么。哦，是的，芯片战争。[笑声] 正如你提到的芯片战争，这是Chris Miller的一本书。我真的推荐大家去读。这是一本我几年前读过的书，用来了解芯片的历史。以及它的演变是什么。所以我认为，正如你所说，我们将讨论芯片战争。而我最近的说法是芯片战争正在结束，这与书中的内容非常不同。但我认为有一些理由去关注芯片和中国方面正在发生的不同事情。所以是的。也许需要稍作声明，我们不是芯片行业的专家或深度技术分析师，但正如在Second Horizon中一贯的做法，我们希望在涉及中国的战略、科技公司在做什么、这与欧洲和世界的关系时，真正增加一个更深层次的分析。所以，我认为这一层我们绝对可以增加，而且有很多话题可以讨论。这也是我们将首次添加一些你准备的幻灯片，Pascal，在未来的节目中我们将继续讨论我们带来的新幻灯片，以使其在视觉上更具吸引力。所以，如你所见，这是一个正在发展的播客格式。我们在倾听你的想法，比如你想听哪些话题。我们很高兴在未来的节目中介绍书籍、其他作者或其他演讲者。所以，提醒大家这就是我们在这里尝试做的事情，你可以订阅、点赞并分享这一集和未来的节目，这样你就可以继续了解关于芯片和中国的深入探讨、芯片战争以及美国的意图和它可能的适得其反、中国的战略、最新的技术新闻以及它的发展，我认为这也与资本市场的关系有关。\n\n[本人 LinkedIn 帖 2026-06-09] 我们最新一期与Marcel Münch合作的关于芯片战争的Second Horizon节目成为我们迄今为止观看次数最多的播客。我在节目中引用的三句话在我看来说明了一切：“人才流入是中国的新趋势”——中国正在快速赶超。“我们不是追随者。”——中国正在塑造未来。“中国正在构建芯片的TEMU模式。”——中国正在建立产能。如果你想了解为什么（AI）半导体成为我们这个时代的战略战场，这一集是一个很好的起点。",
-     "translation_len": 1110,
-     "url": "https://www.youtube.com/watch?v=2R4iMzxtHEk"
-    },
-    {
-     "date": "2026-05-10",
-     "detail": "【主题】中国半导体的四条战线。【论点】中国能否追上的问题「不像华盛顿说的那样二元和线性」，这种推理忽略了芯片业的再生性。中国不是在西方定义的赛道上追赶，而是在跨栏，「一个接一个」。【论证】①突破工厂：被切断 EUV 后，华为申请自对准四重图形（SAQP）专利，用未受限的 DUV 刻出 2nm 级图形，「昂贵、低效、良率低、靠蛮力，但能用」；中芯国际已量产 5nm 供麒麟芯片，全程没有 ASML 的 EUV；全国同时押十几条 EUV 路线。②跃迁：光子芯片、碳基三进制 AI 芯片、复旦 2D 二硫化钼 1nm 处理器；先进封装上，华为昇腾 910C 用 2.5D 封装把两颗 7nm 拼在一起，中国占全球封装约 40%，「MoS₂ 没有出口管制，光子芯片没有 ASML」。③世界芯片工厂：2023-2025 年中国新开工约 37 座晶圆厂，超过美欧总和两倍，预计 2028 年占全球成熟制程产能 42%——这些 28nm 及以上芯片跑不了大模型，但跑汽车、医疗设备、风机和多数国防系统。④台湾幻觉：攻台会让台积电停摆、工程师出走、ASML 可远程锁机，「为了芯片入侵会毁掉想得到的东西」。【论据】他引自己书中的话：「如果美国没有限制芯片出口，华为多半会继续全球采购，中国芯片业也不会这么快成为对美国的商业威胁。」【方向】「最终决定新均衡的将是相互依赖，而不是绝对主导。」",
-     "explain": "帕斯卡·科彭斯在他的报道中探讨了中国在半导体领域的创新和发展策略，指出中国正通过多条战线同时推进，以应对全球芯片出口限制带来的挑战。首先，他提到中国在缺乏ASML极紫外光刻机的情况下，通过“逆向创新”模式，采用“快速且简单”的方法来保持技术公司的运转。华为的自对准四重图案（SAQP）专利便是一个例子，它利用较旧的DUV工具制造2纳米级芯片，尽管这种方法昂贵且效率低，但它确实奏效。\n\n其次，科彭斯强调中国正在资助未来50年的计算技术，探索超越传统硅材料的可能性。例如，中国的Meteor-1光子芯片和世界首个基于碳的AI芯片，展示了中国在后硅技术上的突破。此外，复旦大学的WUJI微处理器利用2D MoS₂材料制造出1纳米芯片，无需ASML设备。他认为，随着底层技术的进步，EUV机器的争夺可能很快变得无关紧要。\n\n第三，中国正成为全球芯片制造的工厂。根据SEMI和安联研究的数据，2023至2025年间，中国启动了约37个新芯片工厂的建设，比美国和欧洲的总和还多。尽管部分项目失败，但幸存者的生产规模正在以空前的速度扩大。预计到2028年，中国将控制全球42%的成熟节点芯片产能，这些芯片广泛应用于汽车、医疗设备和国防系统等领域。\n\n科彭斯总结道，中国的策略不仅仅是追求技术上的领先，而是通过生产能力、规模和速度赢得半导体行业的主导地位。这种策略使得中国的芯片产业迅速演变为一种类似于Temu平台的模式，提供更便宜、快速交付、定制化的产品，逐步满足全球大部分市场的需求。",
-     "gist": "帕斯卡·科彭斯认为，中国在半导体领域通过创新和多线并进的策略正在缩小与西方的差距，并不需要通过侵略台湾来获取芯片技术。",
-     "origin": "本人博客（全文）",
-     "text": "中国不再需要台湾的芯片：突破工厂、后硅跃迁、成熟制程产能、台湾幻觉四条战线同时推进，为芯片攻台说不通",
-     "translation": "半导体行业似乎是中国仍然远远落后的最后几个领域之一。今天的问题是，中国能否缩小这一差距，还是由于全球对芯片的出口限制，这一差距会扩大。答案并不像华盛顿让我们相信的那样简单和线性。这个相当直接的推理问题在于它忽视了芯片行业的再生特性。\n\n如果你听主流西方媒体的说法，战线是明确的。美国控制着关键点，ASML将其EUV（极紫外光刻机）光刻机拒之于中国之外，而台积电在台湾的工厂仍然是难以企及的皇冠上的明珠。中国被包围了。我们都知道，中国人是围棋高手，而被包围是围棋中最糟糕的位置。因此，叙述认为中国将不可避免地入侵台湾以夺取台积电的工厂，这种说法得到了北京在岛屿周围更加强硬的语言和军事力量展示的支持。\n\n但如果你仔细观察今天中国在创新和发明方面的实际情况，会发现一个截然不同的现实。这是一个我在我的书《中国的下一个奇迹》中广泛写到的现实。今天，中国不再试图在由西方定义的竞赛中追赶。中国的竞赛是有障碍的，而中国正在一个接一个地清除这些障碍。\n\n当我们分析中国半导体生态系统中的最新创新、资金和基础设施计划时，我们看到一个明确的、协调的战略正在展开。这不是一个顺序的故事，一个章节接着下一个，而是四个前线在四条平行轨道上同时推进。它们共同解释了为什么为了芯片而入侵台湾毫无意义。\n\n前线1：突破工厂\n\n第一个前线关乎生存。被ASML的极紫外光刻机切断，中国不得不寻找方法让其科技公司继续运转。因此，在过去的几年里，中国执行了其逆向创新模式，我在我的书中详细解释了这一点。以务实的方式构建，由生存驱动，寻找“快速而粗糙”的解决方案。一个接一个地清除障碍。\n\n我们在华为最近的自对准四重图案化（SAQP）专利中看到了这一点。华为没有等待国内的EUV机器，而是找到了使用较旧的、不受限制的DUV（深紫外光刻机）工具来蚀刻足够紧密的图案以制造2纳米级芯片的方法。这很昂贵，效率低，产量低，并且需要蛮力。但它有效。而且请记住，中芯国际今天已经在大规模生产5nm芯片，为华为的麒麟SoC处理器提供动力，所有这些都没有使用ASML的单台EUV机器。\n\n与此同时，中国并没有押注于单一的选手来破解EUV问题。它在全国范围内进行了一打平行的赌注。我们看到SMEE（上海微电子装备有限公司）为传统光刻申请专利，哈尔滨工业大学因其替代的激光诱导等离子体方法获奖，像合肥光宇这样的初创公司正在构建桌面大小的EUV光源。而在幕后，深圳的一个“曼哈顿计划”似乎已经在组装工作中的EUV原型。\n\n“如果美国没有对芯片实施出口限制，华为很可能会继续从世界各地采购芯片，而中国的芯片行业可能不会如此迅速地演变成对美国的商业威胁——这正是已经发生的事情。”——《中国的下一个奇迹》，第198页\n\n前线2：跨越\n\n第二个前线是故事真正引人入胜的地方。当西方痴迷于台积电+ASML将硅晶体管缩小到最后一个原子层的能力时，中国正在非常安静地为未来50年的计算提供资金。如果你不能轻易赢得硅上的纳米竞赛，为什么不改变材料呢？\n\n本通讯的读者在过去三年中一直在逐一关注这些突破，而曾经看起来像是中国实验室的孤立好奇心现在正在形成一个清晰的模式。我们正在看到后硅技术的出现，这些技术完全绕过了传统光刻的瓶颈。\n\n看看中国的Meteor-1光子芯片，它使用光而不是电来计算，这在2025年11月的通讯中有所报道。看看世界上第一个碳基AI芯片，它使用三进制逻辑而不是我们使用了几十年的二进制逻辑。看看复旦大学的WUJI微处理器，它基于二维MoS₂材料，是一个无需ASML机器制造的1纳米芯片，我在2025年12月中进行了重点介绍。\n\n“如果基础技术本身取得突破，关于EUV机器的争夺可能很快就会变得无关紧要。如果中国永远无法重新获得最新芯片和机器的访问权限，它将继续开发自己的替代方案。” — 《China's Next Miracle》，第200页\n\n最直接且具有颠覆性的跨越正在先进封装领域发生。正如Nvidia的Jensen Huang最近提到的，出口管制正在失效，因为“AI芯片可以通过架构变化和封装得到很大改善。”他在这个播客中精彩地解释了AI行业有五个层次（能源、芯片、基础设施、模型和应用），并且中国在这五个层次上都表现得很好，而美国主要关注一个层次：模型。\n\n播客2025年4月15日。中国话题从00:57开始，关于封装的讨论在1:06\n\n华为的Ascend 910C是这一概念的完美证明。由于无法制造出与Nvidia的H100相匹配的单一整体芯片，华为简单地将两个较旧的7nm芯片通过先进的2.5D多芯片封装技术结合在一起。通过利用其在芯片封装领域40%的全球市场份额，中国将其在先进光刻领域的当前弱点转化为系统工程的优势。\n\n“无锡市，靠近上海，现在是600家芯片封装公司的所在地，目标是成为芯粒的硅谷。如果中国不能制造更小的芯片，它将简单地考虑更大的方案。” — 《China's Next Miracle》，第200页\n\n在这场新材料竞赛中，中国并不孤单。例如，比利时的IMEC正在进行关于二维材料和碳纳米管的世界级研究。在硅时代扼杀中国的瓶颈，如ASML机器的访问、先进的EUV工具和西方控制的供应链，在后硅世界中尚不存在。MoS₂没有出口管制。光子芯片没有ASML。比赛场地尚未建成，而中国正在浇筑混凝土，甚至可能掌握一些新的瓶颈。\n\n前线3：世界的芯片工厂\n\n第三条前线将重塑全球工业格局。当所有目光都集中在AI前沿和最先进的芯片上时，中国正在悄然为其他一切建设世界工厂。根据SEMI和Allianz Research的数据，中国在2023年至2025年间开始建设大约37个新的芯片工厂。这是美国和欧洲总和的两倍多。这些项目中有些失败了，但幸存者正在以前所未有的速度扩大生产。\n\n到2028年，中国预计将控制全球42%的成熟节点芯片产能。Jensen Huang甚至认为中国制造了全球60%的主流芯片，甚至更多。这些是28nm及更老的芯片，无法运行大型语言模型，但它们运行我们的汽车、医疗设备、风力涡轮机和大多数国防系统。\n\n“战争不再仅仅通过技术优势来赢得，而越来越多地依赖于生产能力、规模和速度——这同样适用于芯片战争。半导体行业的主导权争夺不再仅仅关乎质量，而越来越多地关乎数量。中国的芯片行业正在迅速演变成一种半导体的Temu平台：更便宜，快速交付，定制化，并且很快能够满足全球大部分芯片需求。” — 《China's Next Miracle》，第199页\n\n前线4：台湾幻觉\n\n西方媒体经常将中国对台湾的入侵描绘为一场芯片战争，是对TSMC（台积电）先进工厂的绝望争夺。但这种零和博弈论点有一个致命的缺陷。中国军队一旦跨越海峡，TSMC的芯片就会停止向全球发货。工厂并没有附带使用手册。而ASML的机器？它们配有远程关闭开关。大多数TSMC工程师会离开，供应链将崩溃。全球经济的影响将远远超过我们在疫情期间看到的任何情况，包括对中国自身的影响。为了芯片而进行的入侵将摧毁中国试图获取的东西。\n\n但当你理解这个故事的前三个方面时，你会意识到这种逻辑与中国的战略背道而驰。中国为什么要冒经济危机的风险，明知道时间会在其他三个方面给他们带来优势，仅仅为了现在夺取完全依赖西方设备、软件和化学品运作的工厂？\n\n“中国为什么要冒着一场灾难性战争的风险，这不仅会破坏地区稳定，还会削弱中国的经济雄心——更不用说强化美国关于中国具有侵略性和不可靠的叙述？”——《China's Next Miracle》第298页\n\n通过突破性的工厂（第一方面）、技术跨越（第二方面）和主导成熟节点（第三方面），中国正在建立一个不再依赖台湾的替代半导体生态系统。再加上特朗普对捍卫台湾独立的明显冷淡态度，与他的前任不同，整个局面完全改变了。随着特朗普准备于5月14日至15日在北京会见习近平，中国可能根本不需要军事入侵（第四方面）。时间、技术和外交可以做到坦克无法做到的事情：将台湾悄然纳入中国的影响范围。想象一下，如果北京与特朗普达成协议：用TSMC换取台湾。疯狂吗？当然，但对特朗普来说，没有什么交易是不可想象的。\n\n“中国永远无法取代世界上所有的芯片技术并实现完全独立，但随着每一家新的中国芯片公司为世界供货，我们对中国芯片的依赖在增长……最终，将是相互依赖——而不是绝对主导——决定新的平衡。”《China’s Next Miracle》第199页",
-     "translation_len": 3456,
-     "url": "https://www.pascalcoppens.com/post/china-no-longer-needs-taiwan-for-chips"
+     "text": "中美之间没有 AI 战争：中国走「可及、可负担、可应用、增强」，美国走「IP 保护、投资驱动、基础设施、强加」，是两种模式的分化",
+     "translation": "并且相信这一点可能是我们这个时代最大的干扰——使我们看不清塑造未来的真正力量。\n\n为什么AI（人工智能）的竞赛幻觉仍然存在\n\n在我的主题演讲中，我以一个简单的问题开始：“这里有谁每周使用ChatGPT？”几乎所有人都举手。然后：“这里有谁每周使用中国的AI模型？”只有少数人。\n\n所以结论似乎显而易见：美国一定是赢了。\n\n但当你看看世界另一端的现实时，情况立刻改变。每周有超过5亿中国人使用本地的LLM（大型语言模型）。而NVIDIA的Jensen Huang公开表示，世界上有一半的AI开发者在中国——而美国的许多开发者也是中国人。\n\n那么为什么我们仍然认为中国“落后”？\n\n因为我们认为来自中国的东西是AI的“人工”部分，而我们相信AI的“智能”部分是在美国构建的。我们仍然使用过时的假设，认为中国无法创新，尽管证据已经完全改变。这种认知差距正是我在《中国的下一个奇迹》中详细探讨的内容。\n\n为什么没有AI战争：A对I\n\n我们想象有一场竞赛，因为我们假设中国和美国在尝试跑同一场比赛。事实并非如此。他们的AI世界截然不同。\n\n在我的主题演讲中，我通过一个简单但强有力的视觉镜头解释了这一点：A对I。中国的AI战略围绕四个A展开。美国的战略围绕四个I展开。\n\n中国的AI模型：\n\nAccessible（可访问的）：中国在开源方面加倍努力。DeepSeek引发了一场全国性的转变，现在几乎每家中国科技公司都在通过开源和开放合作构建其模型。开源在中国不是一个副项目——它是国家方向。中国使用AI来最大化访问，而不是限制。\n\nAffordable（可负担的）：中国公司知道如何扩展和优化。中国没有在巨型模型或超大规模计算上过度投资，而是使AI变得便宜、高效且快速部署。可负担性不是偶然的——它是一种赢得全球南方的策略，因为大多数人无法每月支付20美元来使用OpenAI或Microsoft的AI服务。中国将AI视为成为非西方世界服务工厂的杠杆。\n\nApplicable（可应用的）：中国的重点不是构建一个像ChatGPT那样的通用模型。中国主要是垂直发展。行业逐个行业。企业逐个企业。应用逐个应用。这个国家构建的AI解决了医疗、物流、学校、工厂和政府服务中的实际问题。北京的AI医院在没有医生的情况下运营，每周诊断2万名患者，是这种方法最明显的例子之一。AI不是产品——它是一个应用引擎。\n\nAugmenting（增强的）：中国政府将AI视为加强社会的工具，而不是破坏它。它在AI治理上投入巨大——不是为了减缓AI，而是为了集体建立全球信任，以便加速采用。北京的AI雄心是增强人类，而不是将AI强加于人类。\n\n美国的AI模型：\n\nIP-guarded（知识产权保护的）：美国AI公司构建了被深深护城河包围的专有系统。它们的基础模型受到保护、封闭，并通过API进行货币化。策略很明确：不惜一切代价保护知识产权。\n\nInvestment-driven（投资驱动的）：美国科技公司依赖于通过订阅模式将我们锁定，以收回数十亿的投资。它们公司的整个市值依赖于未来的回报。AI成为了一种商业模式，而不是像OpenAI最初那样的公共产品。\n\nInfrastructure-focused（基础设施为中心的）：美国通过芯片、计算能力、超大规模计算和AGI（通用人工智能）的视角来看待AI。性能是优先事项。更大的模型，更多的GPU，更多的数据，更多的能力。目标是构建地球上最强大的前沿模型。\n\nImposing（强加的）：美国官方的AI行动计划将AI框定为一场美国必须赢得的零和游戏，以保持其全球技术主导地位。这种方法是竞争性的，而不是合作性的，并明确优先考虑美国的领导地位而非全球治理。\n\n两个模型，两个未来——没有战争\n\n一旦你理解了A和I，美国与中国“AI战争”的神话就会立刻崩溃。美国和中国并不是在竞争同样的市场、同样的用户或同样的结果。一个想要AGI和全球主导地位。另一个想要大规模采用和全球服务能力。\n\n当你在玩不同的游戏时，你无法进行战争。\n\n真正的竞争不是中国对美国，而是开源对专有，是可负担性对货币化，是实际应用对AGI（通用人工智能），是合作对竞争，是全球治理对全球垄断。\n\n在这些方面，中国和美国都处于对立面。\n\n欧洲的盲点\n\n欧洲继续主要关注美国，吸收美国的叙述而忽视中国的现实。这是非常危险的。因为如果欧洲只选择专有的美国AI（人工智能），我们有可能被我们无法控制的系统数字殖民——这是我在《China’s Next Miracle》中明确警告过的。\n\n与此同时，中国在监管、治理、安全和公共利益AI方面的方法实际上更接近欧洲的价值观。但地缘政治的不信任阻碍了前瞻性的对话。欧洲再次盯错了对象。\n\n中国的下一个奇迹——以及我们的选择\n\n我在新书发布会上看到的情景令人鼓舞：人们开始意识到中国不再复制西方。它正在翻转创新模式——进行全球性的Fosbury-flop。AI正在加速中国的转型。\n\n没有战争。只有模式的深刻分歧。未来将由那些敢于清晰看到它的人塑造。\n\n所以真正的问题是我在主题演讲结束时提出的那个：\n\n我们敢于以不同的方式跳跃吗？我们敢于像中国那样重新思考创新吗？我们敢于选择红色药丸吗？\n\n因为在AGI成为现实之前，未来不会由谁拥有最好的或最大的AI模型决定，而是由谁有勇气彻底翻转模型决定。",
+     "translation_len": 2204,
+     "url": "https://www.pascalcoppens.com/post/there-is-no-ai-war-between-china-and-the-us"
     },
     {
      "date": "2026-03-07",
@@ -21016,15 +21015,61 @@
      "url": "https://www.pascalcoppens.com/post/china-is-winning-the-race-for-the-engines-of-the-future"
     },
     {
-     "date": "2025-12-09",
-     "detail": "【主题】「中美 AI 竞赛」是否存在。【论点】「中美之间没有 AI 战争，相信有，可能是我们这个时代最大的分心。」两国不是在跑同一场比赛。【论证】中国的 AI 是四个 A：可及（开源成为国家方向）、可负担（瞄准付不起每月 20 美元的全球南方）、可应用（按行业垂直落地）、增强（政府把 AI 当强化社会的工具）；美国是四个 I：IP 保护、投资驱动、基础设施导向（芯片、算力、AGI）、强加（把 AI 当必须赢的零和博弈）。「一方要 AGI 和全球主导，另一方要大规模采用和全球服务能力。」【论据】每周逾 5 亿中国人使用本土大模型；英伟达 CEO 称全球一半 AI 开发者在中国。【方向】真正的竞争是开源对闭源、可负担对变现、真实应用对 AGI。他警告欧洲若只选美国闭源 AI，有被「数字殖民」的风险，并称中国在治理、安全和公益 AI 上「其实更接近欧洲价值观」。",
-     "explain": "帕斯卡·科彭斯在他的演讲中探讨了中美两国在人工智能（AI）领域的不同战略，并指出，所谓的中美“AI战争”其实是一个误解。他通过对比两国的AI战略，揭示了两者之间的根本差异。中国的AI战略可以总结为四个“A”：开放（Accessible）、经济实惠（Affordable）、适用（Applicable）和增强（Augmenting）。中国专注于开源技术，旨在通过开放协作来最大化AI的可及性，并通过经济高效的方式来部署AI，尤其是在全球南方市场。中国的AI应用主要集中在解决实际问题，如医疗、物流和政府服务等领域，强调AI作为增强社会的工具。\n\n相对而言，美国的AI战略则围绕四个“I”：知识产权保护（IP-guarded）、投资驱动（Investment-driven）、基础设施导向（Infrastructure-focused）和强加（Imposing）。美国的AI公司倾向于保护其专有系统，通过订阅模式来实现投资回报，并专注于芯片和计算能力等基础设施，以追求性能和全球技术主导地位。\n\n科彭斯指出，中美两国并非在同一赛道上竞争，而是各自追求不同的目标：中国追求大规模应用和全球服务能力，而美国则追求人工通用智能（AGI）和全球技术霸权。因此，真正的竞争在于开源与专有、经济实惠与货币化、实际应用与AGI、合作与竞争、全球治理与垄断之间的对抗。\n\n他还提醒欧洲不要只关注美国的AI叙事而忽视中国的现实，因为这可能导致欧洲被无法控制的美国专有AI系统“数字殖民”。科彭斯呼吁重新思考创新模式，学习中国的创新方式，强调未来将由那些敢于颠覆传统模式的人来塑造。",
-     "gist": "帕斯卡·科彭斯认为中美两国的AI发展路径截然不同，中国专注于开放、可负担和应用性，而美国则注重知识产权保护和投资驱动。",
+     "date": "2026-05-10",
+     "detail": "【主题】中国半导体的四条战线。【论点】中国能否追上的问题「不像华盛顿说的那样二元和线性」，这种推理忽略了芯片业的再生性。中国不是在西方定义的赛道上追赶，而是在跨栏，「一个接一个」。【论证】①突破工厂：被切断 EUV 后，华为申请自对准四重图形（SAQP）专利，用未受限的 DUV 刻出 2nm 级图形，「昂贵、低效、良率低、靠蛮力，但能用」；中芯国际已量产 5nm 供麒麟芯片，全程没有 ASML 的 EUV；全国同时押十几条 EUV 路线。②跃迁：光子芯片、碳基三进制 AI 芯片、复旦 2D 二硫化钼 1nm 处理器；先进封装上，华为昇腾 910C 用 2.5D 封装把两颗 7nm 拼在一起，中国占全球封装约 40%，「MoS₂ 没有出口管制，光子芯片没有 ASML」。③世界芯片工厂：2023-2025 年中国新开工约 37 座晶圆厂，超过美欧总和两倍，预计 2028 年占全球成熟制程产能 42%——这些 28nm 及以上芯片跑不了大模型，但跑汽车、医疗设备、风机和多数国防系统。④台湾幻觉：攻台会让台积电停摆、工程师出走、ASML 可远程锁机，「为了芯片入侵会毁掉想得到的东西」。【论据】他引自己书中的话：「如果美国没有限制芯片出口，华为多半会继续全球采购，中国芯片业也不会这么快成为对美国的商业威胁。」【方向】「最终决定新均衡的将是相互依赖，而不是绝对主导。」",
+     "explain": "帕斯卡·科彭斯在他的报道中探讨了中国在半导体领域的创新和发展策略，指出中国正通过多条战线同时推进，以应对全球芯片出口限制带来的挑战。首先，他提到中国在缺乏ASML极紫外光刻机的情况下，通过“逆向创新”模式，采用“快速且简单”的方法来保持技术公司的运转。华为的自对准四重图案（SAQP）专利便是一个例子，它利用较旧的DUV工具制造2纳米级芯片，尽管这种方法昂贵且效率低，但它确实奏效。\n\n其次，科彭斯强调中国正在资助未来50年的计算技术，探索超越传统硅材料的可能性。例如，中国的Meteor-1光子芯片和世界首个基于碳的AI芯片，展示了中国在后硅技术上的突破。此外，复旦大学的WUJI微处理器利用2D MoS₂材料制造出1纳米芯片，无需ASML设备。他认为，随着底层技术的进步，EUV机器的争夺可能很快变得无关紧要。\n\n第三，中国正成为全球芯片制造的工厂。根据SEMI和安联研究的数据，2023至2025年间，中国启动了约37个新芯片工厂的建设，比美国和欧洲的总和还多。尽管部分项目失败，但幸存者的生产规模正在以空前的速度扩大。预计到2028年，中国将控制全球42%的成熟节点芯片产能，这些芯片广泛应用于汽车、医疗设备和国防系统等领域。\n\n科彭斯总结道，中国的策略不仅仅是追求技术上的领先，而是通过生产能力、规模和速度赢得半导体行业的主导地位。这种策略使得中国的芯片产业迅速演变为一种类似于Temu平台的模式，提供更便宜、快速交付、定制化的产品，逐步满足全球大部分市场的需求。",
+     "gist": "帕斯卡·科彭斯认为，中国在半导体领域通过创新和多线并进的策略正在缩小与西方的差距，并不需要通过侵略台湾来获取芯片技术。",
      "origin": "本人博客（全文）",
-     "text": "中美之间没有 AI 战争：中国走「可及、可负担、可应用、增强」，美国走「IP 保护、投资驱动、基础设施、强加」，是两种模式的分化",
-     "translation": "并且相信这一点可能是我们这个时代最大的干扰——使我们看不清塑造未来的真正力量。\n\n为什么AI（人工智能）的竞赛幻觉仍然存在\n\n在我的主题演讲中，我以一个简单的问题开始：“这里有谁每周使用ChatGPT？”几乎所有人都举手。然后：“这里有谁每周使用中国的AI模型？”只有少数人。\n\n所以结论似乎显而易见：美国一定是赢了。\n\n但当你看看世界另一端的现实时，情况立刻改变。每周有超过5亿中国人使用本地的LLM（大型语言模型）。而NVIDIA的Jensen Huang公开表示，世界上有一半的AI开发者在中国——而美国的许多开发者也是中国人。\n\n那么为什么我们仍然认为中国“落后”？\n\n因为我们认为来自中国的东西是AI的“人工”部分，而我们相信AI的“智能”部分是在美国构建的。我们仍然使用过时的假设，认为中国无法创新，尽管证据已经完全改变。这种认知差距正是我在《中国的下一个奇迹》中详细探讨的内容。\n\n为什么没有AI战争：A对I\n\n我们想象有一场竞赛，因为我们假设中国和美国在尝试跑同一场比赛。事实并非如此。他们的AI世界截然不同。\n\n在我的主题演讲中，我通过一个简单但强有力的视觉镜头解释了这一点：A对I。中国的AI战略围绕四个A展开。美国的战略围绕四个I展开。\n\n中国的AI模型：\n\nAccessible（可访问的）：中国在开源方面加倍努力。DeepSeek引发了一场全国性的转变，现在几乎每家中国科技公司都在通过开源和开放合作构建其模型。开源在中国不是一个副项目——它是国家方向。中国使用AI来最大化访问，而不是限制。\n\nAffordable（可负担的）：中国公司知道如何扩展和优化。中国没有在巨型模型或超大规模计算上过度投资，而是使AI变得便宜、高效且快速部署。可负担性不是偶然的——它是一种赢得全球南方的策略，因为大多数人无法每月支付20美元来使用OpenAI或Microsoft的AI服务。中国将AI视为成为非西方世界服务工厂的杠杆。\n\nApplicable（可应用的）：中国的重点不是构建一个像ChatGPT那样的通用模型。中国主要是垂直发展。行业逐个行业。企业逐个企业。应用逐个应用。这个国家构建的AI解决了医疗、物流、学校、工厂和政府服务中的实际问题。北京的AI医院在没有医生的情况下运营，每周诊断2万名患者，是这种方法最明显的例子之一。AI不是产品——它是一个应用引擎。\n\nAugmenting（增强的）：中国政府将AI视为加强社会的工具，而不是破坏它。它在AI治理上投入巨大——不是为了减缓AI，而是为了集体建立全球信任，以便加速采用。北京的AI雄心是增强人类，而不是将AI强加于人类。\n\n美国的AI模型：\n\nIP-guarded（知识产权保护的）：美国AI公司构建了被深深护城河包围的专有系统。它们的基础模型受到保护、封闭，并通过API进行货币化。策略很明确：不惜一切代价保护知识产权。\n\nInvestment-driven（投资驱动的）：美国科技公司依赖于通过订阅模式将我们锁定，以收回数十亿的投资。它们公司的整个市值依赖于未来的回报。AI成为了一种商业模式，而不是像OpenAI最初那样的公共产品。\n\nInfrastructure-focused（基础设施为中心的）：美国通过芯片、计算能力、超大规模计算和AGI（通用人工智能）的视角来看待AI。性能是优先事项。更大的模型，更多的GPU，更多的数据，更多的能力。目标是构建地球上最强大的前沿模型。\n\nImposing（强加的）：美国官方的AI行动计划将AI框定为一场美国必须赢得的零和游戏，以保持其全球技术主导地位。这种方法是竞争性的，而不是合作性的，并明确优先考虑美国的领导地位而非全球治理。\n\n两个模型，两个未来——没有战争\n\n一旦你理解了A和I，美国与中国“AI战争”的神话就会立刻崩溃。美国和中国并不是在竞争同样的市场、同样的用户或同样的结果。一个想要AGI和全球主导地位。另一个想要大规模采用和全球服务能力。\n\n当你在玩不同的游戏时，你无法进行战争。\n\n真正的竞争不是中国对美国，而是开源对专有，是可负担性对货币化，是实际应用对AGI（通用人工智能），是合作对竞争，是全球治理对全球垄断。\n\n在这些方面，中国和美国都处于对立面。\n\n欧洲的盲点\n\n欧洲继续主要关注美国，吸收美国的叙述而忽视中国的现实。这是非常危险的。因为如果欧洲只选择专有的美国AI（人工智能），我们有可能被我们无法控制的系统数字殖民——这是我在《China’s Next Miracle》中明确警告过的。\n\n与此同时，中国在监管、治理、安全和公共利益AI方面的方法实际上更接近欧洲的价值观。但地缘政治的不信任阻碍了前瞻性的对话。欧洲再次盯错了对象。\n\n中国的下一个奇迹——以及我们的选择\n\n我在新书发布会上看到的情景令人鼓舞：人们开始意识到中国不再复制西方。它正在翻转创新模式——进行全球性的Fosbury-flop。AI正在加速中国的转型。\n\n没有战争。只有模式的深刻分歧。未来将由那些敢于清晰看到它的人塑造。\n\n所以真正的问题是我在主题演讲结束时提出的那个：\n\n我们敢于以不同的方式跳跃吗？我们敢于像中国那样重新思考创新吗？我们敢于选择红色药丸吗？\n\n因为在AGI成为现实之前，未来不会由谁拥有最好的或最大的AI模型决定，而是由谁有勇气彻底翻转模型决定。",
-     "translation_len": 2204,
-     "url": "https://www.pascalcoppens.com/post/there-is-no-ai-war-between-china-and-the-us"
+     "text": "中国不再需要台湾的芯片：突破工厂、后硅跃迁、成熟制程产能、台湾幻觉四条战线同时推进，为芯片攻台说不通",
+     "translation": "半导体行业似乎是中国仍然远远落后的最后几个领域之一。今天的问题是，中国能否缩小这一差距，还是由于全球对芯片的出口限制，这一差距会扩大。答案并不像华盛顿让我们相信的那样简单和线性。这个相当直接的推理问题在于它忽视了芯片行业的再生特性。\n\n如果你听主流西方媒体的说法，战线是明确的。美国控制着关键点，ASML将其EUV（极紫外光刻机）光刻机拒之于中国之外，而台积电在台湾的工厂仍然是难以企及的皇冠上的明珠。中国被包围了。我们都知道，中国人是围棋高手，而被包围是围棋中最糟糕的位置。因此，叙述认为中国将不可避免地入侵台湾以夺取台积电的工厂，这种说法得到了北京在岛屿周围更加强硬的语言和军事力量展示的支持。\n\n但如果你仔细观察今天中国在创新和发明方面的实际情况，会发现一个截然不同的现实。这是一个我在我的书《中国的下一个奇迹》中广泛写到的现实。今天，中国不再试图在由西方定义的竞赛中追赶。中国的竞赛是有障碍的，而中国正在一个接一个地清除这些障碍。\n\n当我们分析中国半导体生态系统中的最新创新、资金和基础设施计划时，我们看到一个明确的、协调的战略正在展开。这不是一个顺序的故事，一个章节接着下一个，而是四个前线在四条平行轨道上同时推进。它们共同解释了为什么为了芯片而入侵台湾毫无意义。\n\n前线1：突破工厂\n\n第一个前线关乎生存。被ASML的极紫外光刻机切断，中国不得不寻找方法让其科技公司继续运转。因此，在过去的几年里，中国执行了其逆向创新模式，我在我的书中详细解释了这一点。以务实的方式构建，由生存驱动，寻找“快速而粗糙”的解决方案。一个接一个地清除障碍。\n\n我们在华为最近的自对准四重图案化（SAQP）专利中看到了这一点。华为没有等待国内的EUV机器，而是找到了使用较旧的、不受限制的DUV（深紫外光刻机）工具来蚀刻足够紧密的图案以制造2纳米级芯片的方法。这很昂贵，效率低，产量低，并且需要蛮力。但它有效。而且请记住，中芯国际今天已经在大规模生产5nm芯片，为华为的麒麟SoC处理器提供动力，所有这些都没有使用ASML的单台EUV机器。\n\n与此同时，中国并没有押注于单一的选手来破解EUV问题。它在全国范围内进行了一打平行的赌注。我们看到SMEE（上海微电子装备有限公司）为传统光刻申请专利，哈尔滨工业大学因其替代的激光诱导等离子体方法获奖，像合肥光宇这样的初创公司正在构建桌面大小的EUV光源。而在幕后，深圳的一个“曼哈顿计划”似乎已经在组装工作中的EUV原型。\n\n“如果美国没有对芯片实施出口限制，华为很可能会继续从世界各地采购芯片，而中国的芯片行业可能不会如此迅速地演变成对美国的商业威胁——这正是已经发生的事情。”——《中国的下一个奇迹》，第198页\n\n前线2：跨越\n\n第二个前线是故事真正引人入胜的地方。当西方痴迷于台积电+ASML将硅晶体管缩小到最后一个原子层的能力时，中国正在非常安静地为未来50年的计算提供资金。如果你不能轻易赢得硅上的纳米竞赛，为什么不改变材料呢？\n\n本通讯的读者在过去三年中一直在逐一关注这些突破，而曾经看起来像是中国实验室的孤立好奇心现在正在形成一个清晰的模式。我们正在看到后硅技术的出现，这些技术完全绕过了传统光刻的瓶颈。\n\n看看中国的Meteor-1光子芯片，它使用光而不是电来计算，这在2025年11月的通讯中有所报道。看看世界上第一个碳基AI芯片，它使用三进制逻辑而不是我们使用了几十年的二进制逻辑。看看复旦大学的WUJI微处理器，它基于二维MoS₂材料，是一个无需ASML机器制造的1纳米芯片，我在2025年12月中进行了重点介绍。\n\n“如果基础技术本身取得突破，关于EUV机器的争夺可能很快就会变得无关紧要。如果中国永远无法重新获得最新芯片和机器的访问权限，它将继续开发自己的替代方案。” — 《China's Next Miracle》，第200页\n\n最直接且具有颠覆性的跨越正在先进封装领域发生。正如Nvidia的Jensen Huang最近提到的，出口管制正在失效，因为“AI芯片可以通过架构变化和封装得到很大改善。”他在这个播客中精彩地解释了AI行业有五个层次（能源、芯片、基础设施、模型和应用），并且中国在这五个层次上都表现得很好，而美国主要关注一个层次：模型。\n\n播客2025年4月15日。中国话题从00:57开始，关于封装的讨论在1:06\n\n华为的Ascend 910C是这一概念的完美证明。由于无法制造出与Nvidia的H100相匹配的单一整体芯片，华为简单地将两个较旧的7nm芯片通过先进的2.5D多芯片封装技术结合在一起。通过利用其在芯片封装领域40%的全球市场份额，中国将其在先进光刻领域的当前弱点转化为系统工程的优势。\n\n“无锡市，靠近上海，现在是600家芯片封装公司的所在地，目标是成为芯粒的硅谷。如果中国不能制造更小的芯片，它将简单地考虑更大的方案。” — 《China's Next Miracle》，第200页\n\n在这场新材料竞赛中，中国并不孤单。例如，比利时的IMEC正在进行关于二维材料和碳纳米管的世界级研究。在硅时代扼杀中国的瓶颈，如ASML机器的访问、先进的EUV工具和西方控制的供应链，在后硅世界中尚不存在。MoS₂没有出口管制。光子芯片没有ASML。比赛场地尚未建成，而中国正在浇筑混凝土，甚至可能掌握一些新的瓶颈。\n\n前线3：世界的芯片工厂\n\n第三条前线将重塑全球工业格局。当所有目光都集中在AI前沿和最先进的芯片上时，中国正在悄然为其他一切建设世界工厂。根据SEMI和Allianz Research的数据，中国在2023年至2025年间开始建设大约37个新的芯片工厂。这是美国和欧洲总和的两倍多。这些项目中有些失败了，但幸存者正在以前所未有的速度扩大生产。\n\n到2028年，中国预计将控制全球42%的成熟节点芯片产能。Jensen Huang甚至认为中国制造了全球60%的主流芯片，甚至更多。这些是28nm及更老的芯片，无法运行大型语言模型，但它们运行我们的汽车、医疗设备、风力涡轮机和大多数国防系统。\n\n“战争不再仅仅通过技术优势来赢得，而越来越多地依赖于生产能力、规模和速度——这同样适用于芯片战争。半导体行业的主导权争夺不再仅仅关乎质量，而越来越多地关乎数量。中国的芯片行业正在迅速演变成一种半导体的Temu平台：更便宜，快速交付，定制化，并且很快能够满足全球大部分芯片需求。” — 《China's Next Miracle》，第199页\n\n前线4：台湾幻觉\n\n西方媒体经常将中国对台湾的入侵描绘为一场芯片战争，是对TSMC（台积电）先进工厂的绝望争夺。但这种零和博弈论点有一个致命的缺陷。中国军队一旦跨越海峡，TSMC的芯片就会停止向全球发货。工厂并没有附带使用手册。而ASML的机器？它们配有远程关闭开关。大多数TSMC工程师会离开，供应链将崩溃。全球经济的影响将远远超过我们在疫情期间看到的任何情况，包括对中国自身的影响。为了芯片而进行的入侵将摧毁中国试图获取的东西。\n\n但当你理解这个故事的前三个方面时，你会意识到这种逻辑与中国的战略背道而驰。中国为什么要冒经济危机的风险，明知道时间会在其他三个方面给他们带来优势，仅仅为了现在夺取完全依赖西方设备、软件和化学品运作的工厂？\n\n“中国为什么要冒着一场灾难性战争的风险，这不仅会破坏地区稳定，还会削弱中国的经济雄心——更不用说强化美国关于中国具有侵略性和不可靠的叙述？”——《China's Next Miracle》第298页\n\n通过突破性的工厂（第一方面）、技术跨越（第二方面）和主导成熟节点（第三方面），中国正在建立一个不再依赖台湾的替代半导体生态系统。再加上特朗普对捍卫台湾独立的明显冷淡态度，与他的前任不同，整个局面完全改变了。随着特朗普准备于5月14日至15日在北京会见习近平，中国可能根本不需要军事入侵（第四方面）。时间、技术和外交可以做到坦克无法做到的事情：将台湾悄然纳入中国的影响范围。想象一下，如果北京与特朗普达成协议：用TSMC换取台湾。疯狂吗？当然，但对特朗普来说，没有什么交易是不可想象的。\n\n“中国永远无法取代世界上所有的芯片技术并实现完全独立，但随着每一家新的中国芯片公司为世界供货，我们对中国芯片的依赖在增长……最终，将是相互依赖——而不是绝对主导——决定新的平衡。”《China’s Next Miracle》第199页",
+     "translation_len": 3456,
+     "url": "https://www.pascalcoppens.com/post/china-no-longer-needs-taiwan-for-chips"
+    },
+    {
+     "date": "2026-06-09",
+     "detail": "【主题】芯片战争专题，是《Second Horizon》播放量最高的一期。【论点】节目开头他说：「我最近的说法是芯片战争正在结束，这和那本《芯片战争》讲的很不一样。」他刚从中国回来，一周走访了 15 家公司，「大多数五年前还不存在」。【论据】他在 LinkedIn 列出本期三句原话：「人才回流是中国的新趋势」——中国追赶极快；「我们不是追随者」——中国在塑造未来；「中国在打造芯片界的 Temu 模式」——中国在堆产能。【方向】本期论证与他 5-10 长文一致：高端靠「突破工厂」硬闯、成熟制程靠产能规模取胜，封锁逼出了一个不再依赖台湾的替代生态（见 5-10 条）。★注：YouTube 在本机被判机器人，只取到开头约 3,000 字符字幕；本条引语来自字幕开头与他本人帖子，节目中后段的具体论证未能逐字核对。",
+     "explain": "在最新一期的播客中，帕斯卡·科彭斯探讨了关于芯片战争的话题。他提到，尽管过去几年中芯片战争一直是一个热门话题，但他认为这场战争正在接近尾声。他指出，中国在芯片领域的快速发展是一个显著趋势，并强调中国正在迅速赶超，不再仅仅是技术的追随者，而是开始引领未来的发展。科彭斯还提到，中国正在建立自己的芯片生产模式，即所谓的“TEMU模式”，这表明中国正在大力提升其芯片制造能力。\n\n科彭斯在播客中提到，虽然他和他的团队并不是芯片行业的技术专家，但他们希望通过深入分析中国的战略以及科技公司在这一领域的举措，为听众提供更深层次的见解。他们的讨论不仅涉及中国和芯片战争，还探讨了美国在这场竞争中的策略，以及这些策略可能产生的反效果。此外，科彭斯还提到，他们的播客正在不断发展，未来将引入更多视觉元素和嘉宾，以丰富内容并吸引更多观众。通过这些讨论，科彭斯希望帮助听众更好地理解为什么人工智能和半导体已经成为当今时代的战略战场。",
+     "gist": "帕斯卡·科彭斯认为芯片战争正在结束：美国封锁反而逼出了独立的中国半导体生态，中国在高端硬闯、在成熟制程打造「芯片界的 Temu」。",
+     "origin": "播客《Second Horizon》第 6 期（与 Marcel Münch 联合主持）；字幕本机只拿到开头，观点据本人 LinkedIn 帖列出的本期原话",
+     "text": "芯片战争正在结束：美国封锁反而逼出独立的中国半导体生态；「中国在打造芯片界的 Temu」「我们不是追随者」",
+     "translation": "下一集，第六集。欢迎大家。[笑声] 这一集是关于芯片的。是的，我们我们 嗨 Marcel，你怎么样？我很好，非常感谢。你呢？你还在倒时差吗？不，我感觉很好。但我刚刚从中国回来整整一周。访问了15家公司，其中大多数是5年前还不存在的公司。所以这是一次疯狂的独角兽[music]和真正定义中国未来的公司的疯狂体验。所以真的很酷，但回来后非常疲惫，所以我很高兴回到比利时，稍微[music]休息一下，因为这是一场非常紧张的旅行，但看到了几个非常酷的东西。太棒了。我们马上就会深入探讨这个话题，但这一集的重点将围绕芯片展开，正如承诺的那样。我们过去提到过几次，我们想要专门用一整集来讨论这个芯片战争，也许它是否适得其反，[music]目标是什么。哦，是的，芯片战争。[笑声] 正如你提到的芯片战争，这是Chris Miller的一本书。我真的推荐大家去读。这是一本我几年前读过的书，用来了解芯片的历史。以及它的演变是什么。所以我认为，正如你所说，我们将讨论芯片战争。而我最近的说法是芯片战争正在结束，这与书中的内容非常不同。但我认为有一些理由去关注芯片和中国方面正在发生的不同事情。所以是的。也许需要稍作声明，我们不是芯片行业的专家或深度技术分析师，但正如在Second Horizon中一贯的做法，我们希望在涉及中国的战略、科技公司在做什么、这与欧洲和世界的关系时，真正增加一个更深层次的分析。所以，我认为这一层我们绝对可以增加，而且有很多话题可以讨论。这也是我们将首次添加一些你准备的幻灯片，Pascal，在未来的节目中我们将继续讨论我们带来的新幻灯片，以使其在视觉上更具吸引力。所以，如你所见，这是一个正在发展的播客格式。我们在倾听你的想法，比如你想听哪些话题。我们很高兴在未来的节目中介绍书籍、其他作者或其他演讲者。所以，提醒大家这就是我们在这里尝试做的事情，你可以订阅、点赞并分享这一集和未来的节目，这样你就可以继续了解关于芯片和中国的深入探讨、芯片战争以及美国的意图和它可能的适得其反、中国的战略、最新的技术新闻以及它的发展，我认为这也与资本市场的关系有关。\n\n[本人 LinkedIn 帖 2026-06-09] 我们最新一期与Marcel Münch合作的关于芯片战争的Second Horizon节目成为我们迄今为止观看次数最多的播客。我在节目中引用的三句话在我看来说明了一切：“人才流入是中国的新趋势”——中国正在快速赶超。“我们不是追随者。”——中国正在塑造未来。“中国正在构建芯片的TEMU模式。”——中国正在建立产能。如果你想了解为什么（AI）半导体成为我们这个时代的战略战场，这一集是一个很好的起点。",
+     "translation_len": 1110,
+     "url": "https://www.youtube.com/watch?v=2R4iMzxtHEk"
+    },
+    {
+     "date": "2026-07-10",
+     "detail": "【主题】具身智能与「机器人国家」。【论点】中国是世界上第一个「电气国家」，到 2030 年可能成为第一个「机器人国家」。具身智能热潮不是又一轮风投泡沫，而是资本在房地产和互联网平台之后寻找的新实物载体。【论证】人形机器人需要的不只是钱和英伟达芯片，而是电机、减速器、传感器、电池、产线和海量真实数据——「美国大科技公司很快会发现，钱买不来一个生态」。人口下降被视为中国经济最大的结构性风险，恰恰是它推动北京自动化；「中国不需要解决自己的劳动力短缺，就能取代我们的。」【论据】2025 年中国具身智能与机器人领域融资逾 100 亿美元、744 轮；中国企业出货约占全球人形机器人 90%（1.7 万台），均价从 2023 年 8.5 万美元降到 2025 年 2.5 万美元；中国掌握全球 90% 的永磁加工；工信部要求 2026 年底 1 万台进入 100 多个场景常态化部署。【方向】他也列出瓶颈：谐波减速器全球不到五家能造，机器人效率只有人类工人 30%-50%，续航 2-3 小时，摩根士丹利预警行业洗牌——但他认为中国把这些当作「要跨的栏」而非障碍。",
+     "explain": "帕斯卡·科彭斯在报道中指出，中国并非试图在技术上追赶西方，而是通过建立全球工业主导地位，逐渐成为创新领导者。这一趋势在可再生能源和电动车领域已经显现，现在正向具身人工智能（embodied AI）领域扩展。科彭斯提到，中国的具身AI热潮并非一场风险投资狂潮，而是资本寻找新载体的结果。2025年，中国的具身AI和机器人领域吸引了超过100亿美元的融资，2026年上半年披露的资金就超过60亿美元。\n\n中国在全球人形机器人供应链中占据主导地位，65%的关键部件在本地生产，56%的上市人形机器人公司是中国公司，45%的全球机器人集成商位于中国。2025年，中国公司出货了全球约90%的人形机器人，价格从2023年的8.5万美元降至2025年的2.5万美元。到2027年，人形机器人的价格预计将降低40%，使其在工厂和服务行业中更为普及。\n\n中国工业和信息化部在2026年发布的官方指令中，计划在年底前完成关键人形机器人产品的应用验证和常规部署，目标是在制造、物流、医疗和应急救援等100多个场景中部署1万台机器人。中国拥有难以复制的硬件供应链，全球90%的永磁体加工、40%的精密轴承、35%的电机和30%的电力电子产品都由中国掌控。过去五年，中国在与人形机器人相关的专利申请中遥遥领先。\n\n中国的战略框架被称为新质量生产力（NQPF），旨在通过创新和知识驱动实现更高质量的发展。人形机器人是这一计划的核心。中国最新的第十五个五年计划（2026-2030年）将具身智能列为未来十年的六大增长引擎之一。中国的人口下降被视为其经济模式的最大结构性风险，因此北京加速自动化进程，以应对劳动力减少的挑战。中国的目标不仅是解决自身的劳动力短缺问题，还在于通过成为机器人国家，快速替代西方的工厂工人。\n\n此外，中国也在努力让公众接受机器人，例如UBTECH推出的U1全尺寸超仿生人形伴侣机器人，上市后几天内就收到了超过1.3万份订单。尽管面临挑战，中国在具身AI领域的进展显示出其在全球机器人经济中的雄心和潜力。",
+     "gist": "帕斯卡·科彭斯认为中国正在通过发展具身人工智能和机器人技术建立一个无可匹敌的生态系统，成为全球创新领导者。",
+     "origin": "本人博客（全文）",
+     "text": "中国将成为第一个「机器人国家」：人口下降逼它自动化，而它不需要解决自己的用工短缺，就能先替代西方工人",
+     "translation": "多年来，我一直认为中国并不是在试图追赶西方的技术，而是在建立全球工业主导地位，这将最终使中国成为事实上的创新领导者。我们在可再生能源和电动车领域已经见证了这一现实，而下一个大的市场主导地位正在以具身人工智能（embodied AI）的形式形成。\n\n我很高兴看到Yong Qian在最近的一篇LinkedIn文章中，从金融的角度得出了相同的结论。他的表述很犀利：中国的具身AI热潮不是另一个风险投资狂潮，而是中国在寻找新的资本物理载体。房地产是上一个。在此之前，是互联网平台。现在，随着这两个引擎的熄火，资本正在寻找新的投资方向。在经过五年的克制之后，它终于找到了。\n\n2025年，中国的具身AI和机器人行业在744轮投资中吸引了超过100亿美元的融资。仅在2026年上半年，公开的资金就超过了60亿美元。这不是炒作。与需要非常大型数据中心的大型语言模型不同，人形机器人需要的不仅仅是资金和NVIDIA芯片。它们需要庞大的工业能力和全球供应链，包括电机、减速器、传感器、电池、半导体、生产线、测试设施、现场工程师，以及大量的现实世界数据。一个消耗计算能力，另一个则消耗并振兴整个工业生产能力。美国的大型科技公司很快会发现，金钱买不来生态系统。\n\n1. 无人能及的生态系统\n\n“中国看到了成为世界机器人工厂的明确机会。中国已经主导了全球人形机器人供应链，65%的关键部件在本地生产；56%的上市人形机器人公司是中国公司；全球45%的机器人集成商位于中国。”——《中国的下一个奇迹》，第223页\n\n当我写下这段话时，这些数据是真实的。自那以后，这些数字只是在进一步向中国倾斜。中国正在构建一个无人能及的‘具身AI’生态系统，甚至连马斯克也无法匹敌。2025年，中国公司出货了全球约90%的人形机器人，总计17,000台。平均售价从2023年的85,000美元下降到2025年的25,000美元。中国正在对人形机器人做的事情，正如它对电动车和太阳能电池板所做的一样。\n\n“到2027年，人形机器人的价格将降低40%，使其在工厂和服务行业中变得负担得起。”——《中国的下一个奇迹》，第223页\n\n2026年6月9日，中国工业和信息化部及其国有企业监管机构联合发布了一项官方任务：“到2026年底，关键人形机器人产品将在多个代表性场景中完成应用验证和常规部署，进入工作模式。”他们的目标是在制造、物流、医疗保健和应急救援等100多个场景中部署10,000台机器人。地方政府已经提交了实施计划，进度报告将在11月提交。酷炫的演示正在离开实验室。自5月以来，每台在中国制造的人形机器人都携带一个独特的29位数字身份代码，像汽车或医疗设备一样受到监管，并进行生命周期审计。中国现在希望从每一个机器人中学习。\n\n中国拥有几乎无法复制的硬件供应链。它在全球持有90%的永磁体加工、40%的精密轴承、35%的电机和30%的电力电子。过去五年，中国提交了7,700项与人形机器人相关的专利，而美国为1,560项，日本为1,100项。今天，如果没有任何中国供应商，建造特斯拉的Optimus Gen 2的成本将高出大约三倍，并使马斯克的机器人愿景变成空想。\n\n这次的不同之处在于，中国并不是在追赶。与电动车不同，特斯拉曾领先十年，而中国已经处于前沿。人形机器人继承了中国电动车十年大规模建设的许多基础：机器人关节借用了电动传动技术。感知系统建立在自动驾驶汽车的基础上。制造类似于汽车供应链。今天，这些机器人本身已经在建造它们的中国工厂内部署。\n\n“中国最大的电动车企业（BYD、Xpeng、NIO、Chery、Seres、Geely、Xiaomi和GAC）大力投资于人形机器人并非巧合。他们在精密硬件、传感器、大规模生产和人工智能（AI）方面的丰富经验使他们成为这一新兴行业的理想领导者。”——《China’s Next Miracle》第223页\n\n关于中国机器人经济的73分钟播客\n\n最近，我与人工智能和数字化转型专家Dado Van Peteghem坐下来讨论中国机器人经济的实际情况以及这对西方企业的意义。\n\n2. 下一个宏伟计划\n\n今天，中国是世界上第一个电力国家，一个围绕电气化建立其最新经济增长模式的国家，从太阳能电池板和电池到电动车。到2030年，它可能成为世界上第一个机器人国家，以同样的方式建立其下一个增长模式，这次是围绕具象化的人工智能（AI）。但中国不仅仅是在制造机器人。它正在让十亿人对机器人感到兴奋。2025年，在中国最受关注的电视节目——春节联欢晚会上，Unitree展示了现场表演的人形机器人。同年，机器人与数千名运动员一起参加了在北京举行的世界首个人形机器人半程马拉松，中国还举办了首届世界人形机器人运动会，吸引了来自16个国家的280支队伍和500多个人形机器人。一年后，这些相同的活动不仅展示了中国对该行业的承诺，也展示了机器人行业的快速发展。机器人是中国的下一个海啸，每个公民都被邀请相信这一点。\n\n这场革命背后的战略框架被称为新质量生产力，或NQPF。与依赖基础设施投资、出口和债务的旧增长模式不同，NQPF是由创新和知识驱动的，以实现更高质量的发展。人形机器人是这个宏伟计划的核心。中国最新的第十五个五年计划（2026-2030年）将具象智能与量子、6G、氢和核聚变、生物制造和脑机接口一起列为未来十年的六大指定增长引擎。中国打算在全球范围内引领的六个类别。\n\n但还有另一个主要驱动因素：中国的人口下降。它被广泛认为是其经济模式的最大结构性风险。然而，观察者往往未能认识到的是，这场危机正是推动北京成为世界上第一个机器人国家的原因。北京不是因为想要引领这个行业而自动化，而是因为别无选择。中国能否足够快地用人形机器人替代其缩减的劳动力尚不清楚。但中国通过成为电力国家所展示的是，一旦它成为一个完整的机器人国家，西方的工厂工人将比中国的工人更快地被替代。中国不需要解决自己的劳动力短缺就能取代我们的。\n\n如果你仍然需要证明中国认真对待让其公民接受机器人，请看看UBTECH。他们刚刚在7月1日推出了U1，一款全尺寸超仿生人形伴侣机器人，具有硅胶皮肤、会眨眼的睫毛和跟随你在房间里移动的眼睛。它有男性和女性版本，身高在168到183厘米之间，起价约为17,000美元。几天之内，UBTECH收到了超过13,000份订单。中国消费者甚至不等机器人到达工厂。他们想要在家中拥有它。\n\n3. 跨越障碍\n\n未来也面临真正的挑战。最近的一份麦肯锡报告指出了人形机器人供应链中的三个主要瓶颈：精密驱动组件、力和触觉传感以及计算和控制。驱动器，即关节和电机，占机器人总成本的40%到60%。最大的问题是每个关节内的齿轮箱，称为谐波驱动。世界上不到五家公司能够以所需的精度制造它们，而且你不能简单地在一夜之间建造一个新工厂来解决这个问题。目前的机器人仅能达到人类工人生产力的30%到50%。电池寿命为2到3小时。摩根士丹利警告说，一场洗牌即将到来。\n\n但问题在于，中国不将这些视为障碍，而是视为障碍。在《China's Next Miracle》中，我将中国的障碍方法描述为一种快速、节奏驱动的创新模式，在这种模式中，早期的错误是可以容忍的，而品牌则在后期得到完善。\n\n“与敏捷（Agile）不同，障碍（hurdles）方法论基于加速度而非速度；它由节奏而非周期构成；它专注于切换而非迭代。”第86页\n\n当中国人越过每一个障碍时，他们会短暂地减速，然后再次加速。\n\n我们正在实时观察这一切的发生。六月，AGIBOT在南昌进行了一次为期六天的现场工厂部署。没有舞台，没有受控环境。多个类人机器人在一个真实的平板电脑大规模生产设施内，与人类操作员一起工作，搬运材料，并融入现场的制造节奏。在这六天里，机器人完成了64,828个生产任务，成功率为99.99%。麦肯锡的问题是类人机器人是否可以在实际操作环境中部署、整合并创造真正的价值。AGIBOT刚刚回答了这个问题。其他挑战如灵巧的手正在由Xynova、AgiLink和IT Juzi解决。AgiLink在五个月内通过四轮融资成为独角兽。麦肯锡识别出的主要瓶颈是真实存在的。中国无论如何正在跨越它们。\n\n中国的Agibot在2026年6月与人类工人一起在龙旗科技的南昌工厂组装和检查平板电脑（Agibot）\n\n结论：下一个白色家电\n\n随着AI（人工智能）模型成为商品，我相信中国将在未来几年吸引显著更多的全球资本。我完全意识到这是一个违反直觉的说法。美国股市远远优于中国大陆和香港的交易所，95%的全球风险投资仍由美国主导。但我习惯于以不同于主流的方式解读中国。而且往往这对我很有帮助。\n\n我的信念来自历史。第二次世界大战后，电子白色家电、洗衣机、冰箱和吸尘机重新分配了人们的工作和生活方式。捕捉到那次革命价值的工厂位于美国和西欧，它们推动了数十年的经济增长和中产阶级的崛起。今天，物理AI是新的白色家电。它将像那些机器重新分配家务一样重新分配体力劳动。而这一次，捕捉到这种价值的工厂大多在中国。\n\n从演示到部署之间的差距仍然很大。但中国以前在电动车、太阳能和电池领域缩小过这种差距。问题不是是否，而是何时。对于关注这一领域的投资者来说，真正的机会可能不在于机器人制造商本身。它可能在那些隐形冠军中：提供谐波驱动器、专业力传感器、训练数据基础设施和机器人专用芯片的公司，这些公司支持整个行业的发展。这些是机器人经济的“镐和铲”业务，而它们中的大多数在西方还没有进入任何人的视野。这不是投资建议。但如果你没有关注中国的机器人供应链，你可能即将错过下一次海啸。",
+     "translation_len": 3949,
+     "url": "https://www.pascalcoppens.com/post/china-the-first-robot-state"
+    },
+    {
+     "date": "2026-08-10",
+     "detail": "【主题】中国新一轮出口引擎：从「光伏、锂电、电动车」到「AI、人形机器人、创新生物科技」。【论点】旧三样是制造业驱动，新三样是知识与高科技驱动，人才、研发和实验室成了新的工厂原料。他认为时间表可能重演：中国 2030 年在 AI、2035 年在机器人、2040 年在生物科技取得全球领先。【论证】「AI 模型正在变成商品。技术一旦商品化，竞争就完全转向价格，而没人能在价格上打败中国。」他预测中国开源模型最终会拿下最多 80% 的全球市场，美国闭源模型主要留在高安全环境或复杂系统的最后一公里。【论据】过去三个月中国开源模型在 OpenRouter 周 token 用量持续全球第一，覆盖 141 个国家；月之暗面 Kimi K3（2.8 万亿参数）在多数编程与 agent 评测中超过 Claude Opus 4.8 和 GPT-5.5，被称为第二次「DeepSeek 时刻」；长鑫存储科创板上市首日涨 466%。机器人：中国占全球人形机器人市场约 85%，2026 年预计出货 10 万台，是 2025 年的五倍；人形机器人专利中国占 73%、美国 5%。创新药：2026 上半年国家药监局批准 38 个 1 类创新药，对外授权交易逾 1,100 亿美元。【方向】中国正从出口产品转向出口技术、临床方案和产业运营模式；它追求的不是投资回报率，而是「资源投入率」——先把总市场做大。",
+     "explain": "帕斯卡·科彭斯在报道中指出，自2023年以来，中国在全球可再生能源领域取得了主导地位，尤其是在太阳能电池板、锂电池和电动汽车这三个行业，被称为中国的“新三样”。这些成就源于中国在2008年金融危机后，将政策计划转化为具体的工业工程，并投入大量资本于清洁技术。如今，西方在这些领域的工业竞争中已大幅落后于中国。然而，中国并未止步于此，而是继续向前发展，2026年上半年，人工智能、类人机器人和创新生物技术成为中国新的出口引擎，被称为“新新三样”。\n\n在人工智能领域，中国在过去两年中被认为落后美国6到12个月，但这种差距在2026年7月被打破。中国的开源AI模型在全球范围内的使用量不断攀升，领先于美国。Moonshot AI推出的Kimi K3模型在多个评估中超越了美国的顶尖AI模型，引发了美国芯片股的下跌。中国的AI模型以开放权重的方式发布，使全球公司可以自由下载、修改和部署，降低了对昂贵的美国专有平台的依赖。科彭斯预测，随着AI技术的商品化，中国将占据全球市场的80%。\n\n在机器人领域，中国已经在全球类人机器人市场占据了85%的份额，预计2026年将有10万台机器人出厂，是2025年的五倍。尽管美国对中国制造的机器人实施了进口禁令，但中国在专利和创新方面的优势使得这种禁令难以阻止中国的崛起。中国拥有73%的类人机器人专利和63%的专利组合强度，六家全球最具创新性的类人机器人初创公司中有五家是中国公司。\n\n科彭斯的分析表明，中国在高科技领域的快速发展和全球影响力的扩大，正在改变全球产业格局，尤其是在人工智能和机器人技术方面。中国通过开放的技术和价格优势，正在引领新一轮的全球科技竞争。",
+     "gist": "帕斯卡·科彭斯认为中国将在2030年、2035年和2040年分别在人工智能、机器人和生物技术领域取得全球领导地位，并通过开放式AI模型在全球市场占据主导地位。",
+     "origin": "本人博客（全文）",
+     "text": "中国「新新三样」是 AI、人形机器人、创新药；AI 正在商品化，他预测中国开源模型最终会拿下全球最多八成市场",
+     "translation": "自2023年以来，中国的“新三样”指的是三个可再生能源产业，在这些领域中国实现了全球主导地位，并使中国成为一个电力国家：太阳能电池板、锂电池和电动汽车。在2008年金融危机之后，中国的政策计划从理论转向具体的工业工程，投入大量资本于清洁技术。太阳能用了五年时间实现全球主导地位，锂电池用了十年，电动汽车用了十五年。如今，西方在太阳能和电池方面的工业竞争中大多已输给中国，汽车制造商们如今正在努力追赶中国的电动汽车。\n\n但当西方政策制定者忙于在旧的“新三样”周围设置关税和保护主义壁垒时，中国已经向前迈进。到2026年上半年，一代新的高科技产品已成为中国新的出口引擎：人工智能（AI）、类人机器人和创新生物技术。这些是中国的“新新三样”。\n\n图片来源：中国日报\n\n然而，虽然十五年的清洁技术浪潮根植于制造业，但“新新三样”则根植于知识型和高科技工业化。人才、研发（R&D）和实验室是新的工厂要素。我相信同样的时间表可能会再次出现：中国将在2030年在AI方面取得全球领导地位，2035年在机器人方面，2040年在生物技术方面。如果你仔细观察2026年7月发生的事情，每当一个新的中国模型发布时，西方股市的波动已经显示出第一个真正的裂痕。\n\n1. AI：智能的商品化\n\n在过去两年中，普遍共识是中国在生成式AI方面落后于美国6到12个月。上个月，Eric Schmidt称剩余的差距为“在我们世界中的一纳秒”。认为中国仍在努力追赶的假设在2026年7月崩溃。在过去三个月中，中国的开放权重AI模型在OpenRouter的每周代币使用量中全球排名第一，服务于141个国家的用户。美国投资者开始将这一新现实纳入定价。\n\n来自Moonshot AI的网站\n\n当Moonshot AI推出Kimi K3，一个拥有2.8万亿参数的开放权重模型，在大多数编码和AI代理评估中超越了Anthropic的Claude Opus 4.8和OpenAI的GPT-5.5时，这被认为是中国的第二个DeepSeek时刻。美国芯片股下跌，半导体指数创下数月来的最差周跌幅，《华尔街日报》刊登标题“中国AI模型震撼美国股市”。DeepSeek的V4-Pro（四月）和Z(dot)ai的GLM-5.2（六月）已经缩小了差距，Marc Andreessen写道GLM-5.2是“第一个匹敌并常常超越美国大实验室公共AI模型的中国AI模型。”三个月内的三次中国AI冲击不再是偶然，而是一种模式。而且，干扰不仅仅是性能。这些中国模型作为开放权重发布，允许全球公司下载、修改和部署它们，而无需依赖更昂贵的美国专有平台。\n\n这里的逻辑简单但具有破坏性：AI模型正在成为商品。当一种技术商品化时，竞争完全转向价格。而在价格上，没有人能打败中国。因此，我的预测是，随着时间的推移，中国的开放权重AI模型将占据全球市场的80%。美国的封闭权重模型将仍然重要，主要用于高度安全的环境或非常复杂系统的最后一英里。中国将在AI领域占据主导地位，因为其模型易于获取和本地部署（开放权重），更为经济实惠（优化模型和丰富的电力），并且非常易于使用（在各个行业中都可直接应用）。\n\n在七月份于上海举行的世界人工智能大会（WAIC）上，Xi Jinping总统在该国首屈一指的人工智能峰会上首次发表主题演讲，推介中国为新的全球人工智能秩序的冠军。他将人工智能的重要性比作蒸汽机和电力的发明，敦促各国抓住开源人工智能的“历史机遇”，并承诺帮助发展中国家建立自己的能力。他启动了世界人工智能合作组织，并签署了29个国家。他的信息非常明确：“中国不会在人工智能技术和标准上跟随任何人。相反，中国将在这两个方面引领世界。”他演讲的三个关键要点是：中国对开放权重人工智能基础设施的承诺、对人工智能更严格的监管框架，以及多边推动帮助发展中国家建立人工智能能力。\n\n照片：新华社\n\n即使是硬件瓶颈也在国内得到解决。在2026年的WAIC上，几乎每个主要的中国芯片和服务器供应商都展示了一种超级节点设计，将数百或数千个人工智能处理器集成到一个系统中。长鑫存储技术（CXMT）在上海科创板上市，股价飙升466%，成为中国大陆市值最高的上市公司，确保了关键存储芯片的国内供应。到那时，美国半导体ETF的市值已从六月的峰值损失了超过1万亿美元。同时，上海的一家国有公司已经开始制造国产DUV（深紫外线）光刻机。虽然还无法挑战ASML，但这是减少中国对西方芯片制造设备依赖的又一步，以生产为其人工智能超级节点提供动力的商品芯片。\n\n竞争远未结束。但中国的车队正在迅速逼近美国的领先地位，中国决心通过向全球南方国家和欧洲提供硅谷从未提供过的东西——可负担的、本地可部署的智能，来实现人工智能的工业化和民主化。\n\n2. 机器人：具身人工智能经济\n\n如果人工智能是大脑，那么机器人就是身体。正如我在上个月的通讯“China: The Next Robot State”中所写的，2026年的WAIC清楚地表明，重点不再仅仅是数字人工智能，而是明确地放在具身人工智能上。\n\n美国的Boston Dynamics长期以来一直是全球最知名的人形机器人公司。该公司成立于1992年，作为麻省理工学院的衍生公司，已经有34年的领先优势。当现代汽车在今年七月购买软银剩余股份时，隐含估值约为34亿美元。如今，五家中国人形机器人公司现在的估值已超过或接近这一数字，其中三家成立于2023年。这种象征意义不容忽视。正如下图所示，“出货量已定，定价未定。” 换句话说，中国已经赢得了制造竞赛。金融竞赛才刚刚开始。\n\n照片：Dado Van Peteghem\n\n华盛顿在七月份加大了回应力度，美国禁止进口新的外国制造（即中国制造）的人形和四足机器人，理由是国家安全风险。这是一个绝望的举动，但完全忽略了重点。中国已经掌握了全球人形机器人市场的约85%，预计2026年将有约100,000台机器人从中国工厂出货，比2025年增长五倍。\n\n禁令为美国机器人公司，主要是特斯拉，提供了一个时间窗口。但保护措施不会帮助美国公司竞争，原因有两个：首先，美国缺乏工业中心，所有硬件组件都可以轻松获得且成本低廉。其次，没有更便宜的人形机器人，美国初创公司将无法开发和训练自己的设计。他们可能会实现更好的人工智能（大脑）并投入更多资金，但他们也将在每个新机器人推出时消耗更多的时间和金钱。\n\n知识产权竞赛同样是一边倒的。根据Asiabits Research和LexisNexis的数据，中国拥有73%的所有人形机器人专利数量和63%的专利组合实力。美国仅占5%。全球十大最具创新性的人形机器人初创公司中有六家是中国公司，前五名都是中国公司：Fourier、AgiBot、LimX Dynamics、Pudu Robotics和Unitree。\n\n在美国禁止中国机器人不会减缓中国整体的人形机器人发展。这只意味着世界其他地区，从东南亚的工厂到中东的医院，将进一步使用中国机器人实现自动化。美国正在围绕一个萎缩的市场筑起高墙，而中国正在为全球经济建设实体劳动力。\n\n在过去的十年里，旧的“新三样”——电动汽车、锂电池和太阳能电池板——为中国的GDP增加了数万亿，并重塑了全球贸易。人形机器人经济现在正在相同的工业基础上建立，具有相同的政策雄心和相同的长期承诺。如果历史可以作为指导，未来十年将属于那些建设实体AI（人工智能）劳动力的人，而中国已经在建设它。\n\n3. 生物技术：健康丝绸之路\n\n新的“新三样”的第三个支柱可能是最被忽视的，但它正在遵循完全相同的工业剧本。在我2025年5月的通讯中，我预测生物技术将成为中国和美国之间的下一个战场，生活在美国的生物技术科学家将稳步回流中国。一年后，数据无可否认。\n\n在2026年上半年，中国国家药品监督管理局批准了38个1类创新药物。这些药物在世界其他地方都未曾被批准过。其中，31个是由中国本土制药公司开发的。在整个2025年，这一数字是11个。中国有望在一年内将这一数字增加七倍。中国现在约占全球在研创新药物的30%，在全球排名第二。2026年上半年的海外许可交易超过1100亿美元，相当于2025年全年总额的80%，而2025年本身已经是创纪录的一年。\n\n西方生物制药行业开始感到恐慌，而且这种恐慌是有道理的。西方药物开发是超线性的、超昂贵的，旨在保护单一专利垄断。中国已经将早期到中期的药物发现商品化。通过利用AI、城市医院网络、回流的科学人才、临床试验和对研发基础设施的投资，中国可以将药物发现成本降低多达60%，并在审批上以指数速度前进。\n\n全球资本现在正在投资于中国的资产和能力，以保持其自身的研发流动。在这样做的过程中，它直接向中国的工业生态系统注入资金，训练即将使其过时的竞争对手。我们以前见过这种情况。当西方制造商大规模投资于中国供应链时，他们转移了专业知识、精密工程知识和工业规模，而中国吸收并加以利用。今天，西方制药公司正在做同样的事情。他们正在许可中国的药物资产，资助中国的临床试验，并建设中国的研发能力。不同的是，这一次，中国政府也在大规模投资于该行业，而产品不再是关于原子，而是关于分子。通过降低复杂分子制造的成本，它正在构建一个全球健康依赖的平行基础设施。\n\n文明工厂\n\n这三大新兴产业，AI、机器人技术和生物技术，正在重塑人类的思维、工作和生活方式。它们共同构成了文明新阶段的基础。总的来说，AI、机器人技术和生物技术代表着从制造实物产品向工业化智能、工作和健康的转变。\n\n因此，中国正在从出口产品转向出口技术、临床解决方案和工业运营模式。几十年前，中国的服装、家具和家用电器出口展示了其制造能力。在过去的十年里，太阳能电池板、电池和电动汽车的出口展示了其工业生态系统的实力。在未来的十年里，中国的AI模型、人形机器人和创新药物将展示一些根本不同的东西：中国出口知识、工业技术和人类能力的能力：这是美国和欧洲的传统优势。\n\n新的“新三样”并不是孤立的行业。它们是由持续迭代、长期承诺和规模驱动的知识和高科技密集型产业。中国甚至不试图在投资回报率（ROI, return on investment）模型的参数内击败西方。它正在构建一个独立的、自我维持的工业体系，优先考虑资源投资（IOR, investment of resources）——扩大整个市场，而不是最大化自身的短期份额。正如我在《中国的下一个奇迹》中写道：“低利润率常常看起来像是市场的颠覆，但在中国，这就像给电池充电：能量在于正在积累的容量。一旦电池充满电，他们就会释放出征服市场的力量。”这种转变已经在发生。而西方再次拒绝理解这一点，直到它已经完成。",
+     "translation_len": 4382,
+     "url": "https://www.pascalcoppens.com/post/china-s-new-new-three"
+    },
+    {
+     "date": "2026-10-15",
+     "date_method": "time_tag",
+     "detail": "Dirigeant Monsieur Pascal COPPENS : entreprises, mandats, associés, actionnaires, SIREN, SIRET, chiffre d'affaires, alertes, annonces légales, IA, APE, NAF, TVA.Découvrez les connexions de Pascal COPPENS avec d'autres entreprises et dirigeants.",
+     "explain": "帕斯卡·科彭斯在最近的职业生涯中经历了多次重要的职位变动和晋升。他曾担任GROUPE OMNIUM DEVELOPPEMENT的总裁，并在此期间积累了丰富的管理经验。随后，他离开了这一职位，但不久后又被重新任命为该集团的总裁。此外，他还被任命为OMNIUM PARTNERS的总裁，这表明他在企业管理方面的能力得到了广泛认可。科彭斯还担任了多个公司的合伙人和经理，包括SCI COPPIMO、HOLDING PETJ和COPP'INVEST等，这些角色使他在多个领域积累了多元化的经验。他的职业生涯中共有15个重要事件，自2014年以来，他的职业轨迹显示出他在商业管理和领导力方面的显著成就。这些职位的变动不仅反映了他个人的职业发展，也展示了他在不同企业中所扮演的重要角色和贡献。",
+     "gist": "帕斯卡·科彭斯在多个公司担任重要管理职位，显示出他在企业领导和管理方面的丰富经验和影响力。",
+     "merged_at": "2026-10-15",
+     "origin": "daily",
+     "text": "Monsieur Pascal COPPENS 06/1968 - OMNIUM PARTNERS",
+     "translation": "获取我们掌握的关于这位领导人在声誉、合规性和所管理企业方面的所有信息的综合报告。查看示例。\n\n我们的新功能为您提供了改进的体验，以探索我们拥有的1000万家企业和超过900万名领导者的网络。\n\nPascal COPPENS 代表 GROUPE OMNIUM DEVELOPPEMENT，pr�sident de 代表 OMNIUM SOLUTIONS TOUS CORPS D'ETAT。\n\n他现在担任 SCI IMMOCOPP 的合伙人。\n\n他现在担任 SCI COPPIMO 的合伙人。\n\n他成为 HOLDING PETJ 的合伙人。\n\n他成为 HOLDING PETJ 的经理。\n\n他离开了 GROUPE OMNIUM DEVELOPPEMENT 的总裁职位。\n\n他离开了 GROUPE OMNIUM DEVELOPPEMENT 的总裁职位。\n\n他成为 GROUPE OMNIUM DEVELOPPEMENT 的总裁。\n\n他被提升为 OMNIUM PARTNERS 的总裁。\n\n他成为 COPP'INVEST 的经理。\n\n他成为 S.C.I LA LOUVE2 的经理。\n\n他成为 SCI IMMOCOPP 的经理。\n\n他现在担任 SCI COPPIMO 的经理。\n\n他被任命为 GROUPE OMNIUM DEVELOPPEMENT 的总裁。\n\n他成为 GROUPE OMNIUM 的总经理。\n\n自2014年以来，15个事件标志着 Pascal COPPENS 的职业生涯。\n\n文件日期为 JJ/MM/AAAA。",
+     "translation_len": 660,
+     "url": "https://www.societe.com/manager/Pascal.COPPENS.1TcTRq7BS4D.html"
     }
    ]
   },
@@ -21539,5 +21584,5 @@
   }
  ],
  "kol_count": 61,
- "news_total_24h": 23
+ "news_total_24h": 16
 }
