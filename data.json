@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.992
+    "weighted": 1.985
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.83
+    "weighted": 1.823
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.838
+    "weighted": 1.83
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.534
+    "weighted": 1.528
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.557
+    "weighted": 1.551
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.436
+    "weighted": 1.431
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 1.017
+    "weighted": 1.013
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.208
+    "weighted": 1.203
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.103
+    "weighted": 1.098
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.516
+    "weighted": 1.51
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.382
+    "weighted": 1.377
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.499
+    "weighted": 1.493
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 1.021
+    "weighted": 1.017
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.481
+    "weighted": 1.476
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.073
+    "weighted": 1.069
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.431
+    "weighted": 1.425
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.764
+    "weighted": 0.761
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.966
+    "weighted": 0.962
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.977
+    "weighted": 0.973
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.71
+    "weighted": 0.707
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.773
+    "weighted": 0.77
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.97
+    "weighted": 0.966
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.773
+    "weighted": 0.77
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.738
+    "weighted": 0.735
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.773
+    "weighted": 0.797
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.551
+    "weighted": 0.549
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.749
+    "weighted": 0.746
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.549
+    "weighted": 0.547
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.58
+    "weighted": 0.577
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.713
+    "weighted": 0.71
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.556
+    "weighted": 0.553
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.735
+    "weighted": -0.755
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.898
+    "weighted": -0.894
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.752
+    "weighted": -0.749
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.794
+    "weighted": -0.791
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.729
+    "weighted": -0.727
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.665
+    "weighted": -0.662
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.715
+    "weighted": -0.713
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.713
+    "weighted": -0.71
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.779
+    "weighted": -0.776
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.721
+    "weighted": -0.718
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.564
+    "weighted": -0.562
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.577
+    "weighted": -0.575
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.744
+    "weighted": -0.741
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.924
+    "weighted": -1.917
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.34
+    "weighted": -1.335
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.388
+    "weighted": -1.382
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.545
+    "weighted": -1.54
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.499
+    "weighted": -1.493
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.12
+    "weighted": -1.115
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.065
+    "weighted": -1.061
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.499
+    "weighted": -1.493
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.436
+    "weighted": -1.431
    }
   ],
   "distribution": {
@@ -684,95 +684,135 @@
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "directions": [
   {
-   "count": 2,
+   "count": 1,
+   "label": "基础模型 / Scaling",
+   "news": [
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/MiniMax_AI/status/2113436864904610008",
+     "permalink": "https://aihot.news/items/h0u2sgf6ve6eeu0hmswp2a314",
+     "reason": "官方公布权重开放和关键基准分数，并说明稀疏注意力等效率设计，可据此评估其在智能体与编码任务上的性价比。",
+     "score": 69,
+     "source": "X：MiniMax (@MiniMax_AI)",
+     "summary": "MiniMax 宣布 M3.1 Flash 权重公开，总参数 428B、每 token 激活 23B，提供 Hugging Face 和 ModelScope 下载。",
+     "time": "10/23 10:06（2 小时前）",
+     "title": "MiniMax 开放 M3.1 Flash 权重：428B 总参数、每 token 激活 23B"
+    }
+   ],
+   "slug": "scaling"
+  },
+  {
+   "count": 5,
    "label": "Agent / 工具链",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://x.com/OpenAI/status/2112945805686604033",
-     "permalink": "https://aihot.news/items/b31hjqo2l088vfydp5gcdyv8p",
-     "reason": "原文提供官方 Codex 技能和检测仓库，网站运营者可以据此自查 PHP 漏洞影响。",
-     "score": 83,
-     "source": "X：OpenAI (@OpenAI)",
-     "summary": "OpenAI 为 PHP 关键漏洞提供 Codex 技能，引导用户运行 github.com/openai/php2shell-checker 仓库自查网站是否受影响。背景是其 Patch the Planet 计划中 OpenAI 模型帮助研究员发现 PHP 关键缺陷，修复涉及 PHP 引擎大改，经约两个月协调后披露，使用 PHP 的网站可升级版本并应用安全厂商的缓解措施。",
-     "time": "10/22 01:35（10 小时前）",
-     "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响"
+     "origin_url": "https://x.com/claudeai/status/2113360845409583307",
+     "permalink": "https://aihot.news/items/ybo2q5ug2e71tfuab9m1t128o",
+     "reason": "官方说明 Claude 各端默认开启 auto mode 的变化与手动切换入口，读者可据此评估权限模式对日常使用流程的影响。",
+     "score": 72,
+     "source": "X：Claude (@claudeai)",
+     "summary": "Claude 官方宣布，下周起 Pro、Max 和 Team 套餐在 Claude 网页、桌面和移动端应用中的会话将默认以 auto mode 运行。auto mode 不再逐步请求用户批准，而是由自动检查拦截高风险操作，用户可随时切回手动模式。其引用的 Claude Code 更新提到 auto mode 用独立分类器审查 shell 命令，测试中拦截了 89% 的危险命令，手动批准为 14%。",
+     "time": "10/23 05:04（7 小时前）",
+     "title": "Claude 网页、桌面和移动端将默认启用 auto mode"
     },
     {
      "from7d": false,
-     "origin_url": "https://claude.com/blog/claude-duet",
-     "permalink": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx",
-     "reason": "原文给出 Claude Duet 的运行机制、安全设计和使用限制，读者可以据此判断这款主动式智能体是否值得加入工作流。",
-     "score": 73,
-     "source": "Claude：Blog（网页）",
-     "summary": "Anthropic 开启 Claude Duet 研究预览，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai，面向美国 Pro 和 Max 用户开放候补名单。",
-     "time": "10/21 09:00（1 天前）",
-     "title": "Anthropic 开启 Claude Duet 研究预览，Claude 以主动式智能体接管日常工作"
+     "origin_url": "https://replit.com/blog/replit-monitoring-agent",
+     "permalink": "https://aihot.news/items/h1d0qu9nsy86fmfqns5f3pkjb",
+     "reason": "原文说明了该智能体如何调查告警、验证修复并部署，可帮助读者判断它能否替代个人开发者深夜值班。",
+     "score": 69,
+     "source": "Replit：Blog（RSS）",
+     "summary": "Replit 发布 Monitoring Agent，为应用提供相当于自主值班工程师的监控智能体。它可以读取生产日志和指标调查错误、变慢和部署失败，在启用 autofix 后验证修复并邮件汇报，启用 auto-publish 后可自动部署修复。该能力建立在早前上线的 App Monitoring 之上，用户可在应用的 Publishing 设置中开启。",
+     "time": "10/23 05:24（7 小时前）",
+     "title": "Replit 发布 Monitoring Agent，为应用提供可自动修复并部署的值班智能体"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://openai.com/index/decisions-api",
+     "permalink": "https://aihot.news/items/xffhf8h0e0r145getmi9k1zgs",
+     "reason": "官方宣布 Decisions API 正式可用，给出与 GPT-6 Luna 的速度对比、定价和 GPT-Live 集成，便于评估路由分类类场景的收益。",
+     "score": 67,
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "summary": "OpenAI 宣布基于 GPT-6 Luna 的 Decisions API 正式可用，用于分类、路由、评分等有界答案问题，速度最高比通过 Responses API 使用 GPT-6 Luna 快 10x。",
+     "time": "10/23 04:00（8 小时前）",
+     "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+     "permalink": "https://aihot.news/items/paq5nfs7jxno8qghh27ho05be",
+     "reason": "官方详细说明了 Mini App 的架构、安全边界和社区生态，开发者可以据此判断如何在 MiniMax Code 上构建长运行应用。",
+     "score": 67,
+     "source": "MiniMax：Blog（网页）",
+     "summary": "MiniMax 在 MiniMax Code 桌面应用（macOS / Windows）本地会话中推出 Mini App，一种带前端和后端的长运行应用，以插件形式安装并与 Agent 双向调用，让 Agent 的工作停留在常驻页面而非散落各对话中。",
+     "time": "10/22 01:00（1 天前）",
+     "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/Kling_ai/status/2113156632134005040",
+     "permalink": "https://aihot.news/items/uc21c65s4trz2ums8g8fgtb0v",
+     "reason": "引用内容给出了 OpenArt 上 Kling 4.0 的帧控制、参考图上限和折扣信息，读者可据此评估视频生成玩法。",
+     "score": 67,
+     "source": "X：可灵 Kling AI (@Kling_ai)",
+     "summary": "OpenArt 宣布 Kling 4.0 上线，可用首、中、尾帧引导视频，最多使用 10 张参考图，并支持文本或帧生成与视频编辑，All-in-One Reference 用一个模型完成生成和编辑。11 月 20 日前 Pro 和 Wonder 套餐享 50% 折扣。",
+     "time": "10/22 15:32（20 小时前）",
+     "title": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图"
     }
    ],
    "slug": "agent"
   },
   {
-   "count": 5,
+   "count": 4,
    "label": "推理 / 因果",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://www.wiz.io/blog/php2shell-php-rce",
-     "permalink": "https://aihot.news/items/z9nqeyi6p0br6knhkrt3xd3n6",
-     "reason": "Wiz 以亲历视角展示 AI 如何把隐藏十余年的 PHP 内存漏洞变成可用利用链，并给出可迁移的检测信号和修复建议。",
+     "origin_url": "https://www.anthropic.com/research/formal-verification",
+     "permalink": "https://aihot.news/items/jsr18rtgxl0kvb0k7np7lpyou",
+     "reason": "Anthropic 用 Claude 对 123 个 OSS-Fuzz 开源库在 RISC-V 汇编层面写 Rocq 证明，读者可以据此了解 LLM 规模化形式化验证的实际流程与局限。",
      "score": 85,
-     "source": "Wiz：Research（安全研究）",
-     "summary": "Wiz Research 披露 PHP 核心中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），实现无需认证的远程代码执行与内存泄露，影响至少追溯到 PHP 5.4 的近十年版本。",
-     "time": "10/21 22:30（14 小时前）",
-     "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站"
+     "source": "Anthropic：Research（发表成果 · 网页）",
+     "summary": "Anthropic 与 Theorem 合作，用 Claude 将 OSS-Fuzz 模糊测试转化为规格，对 123 个开源库的 239 个入口点证明了任意 64 MB 以下输入不崩溃，生成约 1.8 亿行 Rocq 证明。",
+     "time": "10/22 01:00（1 天前）",
+     "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
-     "permalink": "https://aihot.news/items/y1fd2c0s3ydociygdah7apvme",
-     "reason": "微软研究员亲述证明过程，展示了人类引导多智能体迭代剪枝的科研协作方式，约百条研究路径中筛出关键判据。",
-     "score": 83,
-     "source": "Microsoft Research 博客（RSS）",
-     "summary": "Microsoft Research 的 Xinzhi Zhang 与 Zhao Song 证明 1995 年提出的 Kannan–Lovász–Simonovits（KLS）猜想，表明对数凹分布的最优平面切割与任意形状切割的差距不随维度增长，以普适常数为界。",
-     "time": "10/22 01:00（11 小时前）",
-     "title": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想"
+     "origin_url": "https://microsoft.ai/news/building-medical-superintelligence/",
+     "permalink": "https://aihot.news/items/r7uwz6n0sd6jr2r0tb1fu3o0u",
+     "reason": "原文给出 SDBench 基准与 MAI-DxO 的具体准确率和成本数据，并开放部分评测代码，读者可据此评估其诊断推理方法。",
+     "score": 80,
+     "source": "Microsoft AI：官方博客（网页）",
+     "summary": "Microsoft AI 发布 Sequential Diagnosis Benchmark（SDBench）和 AI 诊断系统 MAI-DxO，论文发表于 Science。",
+     "time": "10/23 03:01（9 小时前）",
+     "title": "Microsoft AI 发布 SDBench 基准与 MAI-DxO 诊断系统，登 Science"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.anthropic.com/research/attack-surface-reduction",
-     "permalink": "https://aihot.news/items/m21za8riy5da0davyqguzkvla",
-     "reason": "Anthropic 用 Claude 对 25 个开源项目做攻击面分析并给出 OpenSSH 案例，读者可借此了解可迁移的攻击面缩减方法。",
-     "score": 68,
-     "source": "Anthropic：Newsroom（网页）",
-     "summary": "Anthropic 发布关于用 Claude 自动化攻击面分析与缩减的研究总结，在 25 个、超 500 万行代码的开源项目中用默认配置、配置交互和早期可达性三种方法发现 493 个问题。",
-     "time": "10/20 09:00（2 天前）",
-     "title": "Anthropic 用 Claude 缩减开源代码攻击面：25 个项目发现 493 个问题"
+     "origin_url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
+     "permalink": "https://aihot.news/items/fcw2s1pdclkgm5kmg2qwginp7",
+     "reason": "作者以亲历视角披露对 OpenAI 内部监控系统的压力测试，给出覆盖率估算、漏洞清单和可复用的监控设计原则。",
+     "score": 78,
+     "source": "Redwood Research：Blog（RSS）",
+     "summary": "METR 与 Redwood Research 各派一名员工，于 7 月 21 日至 8 月 11 日对 OpenAI 内部失准监测系统开展三周高权限试点压力测试，产出 61 页内部报告。",
+     "time": "10/23 00:32（11 小时前）",
+     "title": "METR 与 Redwood Research 红队测试 OpenAI 内部智能体监控系统，发现多个漏洞"
     },
     {
      "from7d": false,
-     "origin_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-     "permalink": "https://aihot.news/items/indtvl01y865vrsp81h64q7j4",
-     "reason": "原文给出分布式智能体分析全脑 CRISPR atlas 的具体做法与对比数据，读者可了解该方法的实际效果与局限。",
-     "score": 64,
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "summary": "OpenAI、PerturbAI 与 Scripps Research 联合发布研究，用数千个由 GPT‑Rosalind 驱动的 AI 智能体并行分析数百万小鼠脑细胞的全脑 CRISPR atlas，32 分钟内完成分析与文献解读，并称人工逐一分析需数月至一年。",
-     "time": "10/21 13:50（22 小时前）",
-     "title": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
-     "permalink": "https://aihot.news/items/ndcmko0udqo2kgybo0kolxswj",
-     "reason": "研究给出跨芝加哥与内罗毕的前瞻验证数据，读者可据此评估 AI 超声在低资源场景落地的可行性。",
-     "score": 63,
-     "source": "Google Research：Blog（网页）",
-     "summary": "Google Research 在 JAMA Network Open 发表前瞻性多中心研究，评估基于\"盲扫\"超声的 AI 孕周评估模型在不同临床环境和设备上的泛化能力。",
-     "time": "10/21 09:00（1 天前）",
-     "title": "Google Research 发表 AI 盲扫超声孕周评估研究，准确性与专家操作相当"
+     "origin_url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
+     "permalink": "https://aihot.news/items/fjyan16f0mvfywabd78m70hv3",
+     "reason": "Sierra 自建基准和论文量化了语音智能体在准确采集姓名、电话等细节上的失败率，并给出可迁移的验证策略效果数据。",
+     "score": 60,
+     "source": "Sierra：Blog（RSS）",
+     "summary": "Sierra 发布 𝜏-Entity 基准，测量语音智能体能否正确采集、识别错误并修复姓名、电话号码、地址和邮箱等细节，包含 10 种实体类型共 200 个任务，并与 𝜏-i18n 一样覆盖六种语言。",
+     "time": "10/22 23:02（13 小时前）",
+     "title": "Sierra 发布 𝜏-Entity 基准，检验语音智能体能否准确采集姓名、电话等实体信息"
     }
    ],
    "slug": "reasoning"
@@ -783,94 +823,94 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687466&idx=1&sn=ba7ba0f3ca50ef789c17b179dd061f60",
-     "permalink": "https://aihot.news/items/ianx6h2f39f9xcxpno4a3cspi",
-     "reason": "作者完整梳理了 PHP2Shell 漏洞从泄露到全球应急的技术链条，并提出 AI 让漏洞发现加速而修复人手不足的核心矛盾。",
-     "score": 90,
-     "source": "公众号：数字生命卡兹克",
-     "summary": "作者复盘 PHP 两个 CVSS 满分起步的远程代码执行漏洞（CVE-2026-109618、CVE-2026-109619，合称 PHP2Shell）从提前泄密、演示视频流出、多国政府网站预防性下线，到21日晚10点补丁上线的全过程，并指出这两个漏洞是 GPT-5.6 Sol 辅助发现的，OpenAI 还发布了检测 skill。",
-     "time": "10/22 09:06（3 小时前）",
-     "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月"
+     "origin_url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+     "permalink": "https://aihot.news/items/pe2uqi2ny6l2lukrqzifbtyum",
+     "reason": "作者基于对安全专家的长期报道，梳理了 PHP2Shell 事件前后 AI 改变攻防节奏的多种迹象，并指出漏洞修补的部署速度未必跟上。",
+     "score": 82,
+     "source": "404 Media（RSS）",
+     "summary": "404 Media 的 Jason Koebler 梳理近一个月安全专家对 AI 挖洞能力引发的\"Black October\"恐慌。Wiz、Calif 和 OpenAI 的研究者用 AI 发现了 PHP 的 PHP2Shell 漏洞，Cloudflare CEO 称公开公告前 10 小时已见数千次利用尝试，公告后 2 小时内增至数十万，目前达数百万级。",
+     "time": "10/22 23:23（13 小时前）",
+     "title": "404 Media 分析 PHP2Shell 事件如何改变 AI 时代的攻防格局"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/rohanpaul_ai/status/2112768460866695334",
-     "permalink": "https://aihot.news/items/qhvh1rm03vym5ns6ku6hjkkmq",
-     "reason": "原文梳理了 SpaceX 财报电话会的关键数字，AI 算力业务反超 Starlink 成为最大收入来源，读者可据此了解其业务重心转移。",
-     "score": 85,
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "summary": "Rohan Paul 总结 SpaceX Q3 2026 财报电话会要点：Super Intelligence 算力租赁业务（客户含 Anthropic 和 Google）收入 $7.6B，近翻三倍于 Q2 的 $2.56B，超过 Starlink 连接业务的 $5.2B 成最大收入来源，其中 $608M 来自新收购的 Cursor。",
-     "time": "10/21 13:50（22 小时前）",
-     "title": "SpaceX Q3 2026 财报电话会要点：AI 算力业务成最大收入来源"
+     "origin_url": "https://www.newcomer.co/p/the-story-of-anthropics-cap-table",
+     "permalink": "https://aihot.news/items/shd9gpw42uwoxqtenpzhy1je4",
+     "reason": "文章基于投资人文件和多方信源还原 Anthropic 的股权结构，解释了为何风投早期缺席、如今持股均不超 2%。",
+     "score": 81,
+     "source": "Newcomer 新闻长文（RSS）",
+     "summary": "Newcomer 长文复盘 Anthropic 从 OpenAI 出走团队到即将 IPO 的股权演变。据投资人文件和多位知情人士，多年来风投因公司治理结构和安全优先路线而观望，目前没有任何风投机构持股超过 2%，Anthropic 曾向投资人明确将单一投资人持股控制在该水平以避免话语权集中。",
+     "time": "10/23 00:53（11 小时前）",
+     "title": "Anthropic 股权表内幕：风投迟到多年，如今无人持股超 2%"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/rohanpaul_ai/status/2112763999586771238",
-     "permalink": "https://aihot.news/items/oiqrjvmo3ausrs9j1ttttsqc5",
-     "reason": "原文汇总了 Anthropic IPO 草案中的收入、纸面亏损和算力合同细节，可作了解其财务结构的参考。",
-     "score": 85,
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "summary": "WSJ 看到 Anthropic 的 IPO 草案文件，显示其上半年收入 $16.3B、纸面亏损 $80.7B，并承诺约 $4500 亿算力支出。",
-     "time": "10/21 13:32（23 小时前）",
-     "title": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损 807 亿美元、约 4500 亿美元算力承诺"
+     "origin_url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+     "permalink": "https://aihot.news/items/w7axcg0e1y7uoyro92cmanong",
+     "reason": "原文梳理了 SpaceX 与特斯拉合并讨论背后的财务动机、Musk 投票权变化和薪酬条款，读者可以借此区分叙事与利益。",
+     "score": 79,
+     "source": "The Verge：AI（RSS）",
+     "summary": "The Verge 作者 Elizabeth Lopatto 分析 SpaceX 和 Tesla 各自成立特别委员会讨论合并一事。",
+     "time": "10/23 04:45（7 小时前）",
+     "title": "The Verge 分析 SpaceX 与特斯拉成立特别委员会讨论合并背后的财务逻辑"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/Khazix0918/status/2113096414469464281",
-     "permalink": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x",
-     "reason": "文章梳理了 PHP2Shell 从泄露到修复的完整时间线，指出 AI 大幅压缩漏洞发现成本，攻防节奏失衡成为新的底层矛盾。",
-     "score": 83,
-     "source": "X：卡兹克 (@Khazix0918)",
-     "summary": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
-     "time": "10/22 11:33（1 小时前）",
-     "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘"
+     "origin_url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+     "permalink": "https://aihot.news/items/m34xrhmqj1is6d1v1jna3ed46",
+     "reason": "原文汇总了 NSA、NCSC 和白宫对 PHP 漏洞的处置表态，还引出 OpenAI 关于前沿 AI 发现漏洞的争议。",
+     "score": 77,
+     "source": "Ars Technica：AI（RSS）",
+     "summary": "PHP2Shell 漏洞在被披露前四天已遭黑客利用，Calif 与 Wiz 的研究人员发现这些漏洞。OpenAI 称其前沿 AI 在攻击者之前发现了漏洞，并与 PHP、Calif、Wiz 合作验证并开发补丁。NSA 建议无法立即更新的机构将系统离线，英国 NCSC 表示漏洞可能让黑客无需登录凭据即可控制网站服务器，白宫称联邦机构正在评估对政府系统和关键基础设施的潜在影响。",
+     "time": "10/23 00:25（12 小时前）",
+     "title": "PHP2Shell 漏洞披露前黑客已有四天窗口，多国机构紧急响应"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
-     "permalink": "https://aihot.news/items/rmwtbq3o8rnr9kfjbgric6qew",
-     "reason": "原文给出完整的攻击时间线、窃取目标和 IOC 清单，读者可以据此排查自身环境是否受影响。",
-     "score": 83,
-     "source": "Wiz：Research（安全研究）",
-     "summary": "Wiz 披露 10 月 21 日 11:39 UTC 有恶意版本 LiteLLM 1.107.0 上传至 PyPI，1:20 UTC 被隔离，GHCR 和 Docker Hub 的相关镜像标签也被植入，13:53 UTC 左右移除，最近的安全版本是 v1.106.2。",
-     "time": "10/21 22:44（13 小时前）",
-     "title": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据"
+     "origin_url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+     "permalink": "https://aihot.news/items/r557iovkk5v7ddt8py86ejctv",
+     "reason": "报道给出 Symantec 蜜罐截获的完整攻击提示与五层越狱结构，读者可以据此了解暴露模型端点面临的真实风险。",
+     "score": 76,
+     "source": "The Decoder：AI News（RSS）",
+     "summary": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。",
+     "time": "10/22 20:30（16 小时前）",
+     "title": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击"
     }
    ],
    "slug": "industry"
   }
  ],
- "generated_at_jst": "2026-10-22 12:34 JST",
+ "generated_at_jst": "2026-10-23 12:31 JST",
  "hot_topics": [
   {
    "permalink": null,
-   "source_count": 10,
+   "source_count": 11,
    "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
   },
   {
    "permalink": null,
-   "source_count": 9,
-   "title": "OpenAI称AI模型协助发现PHP核心RCE漏洞，补丁已发布"
+   "source_count": 10,
+   "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
   },
   {
    "permalink": null,
-   "source_count": 13,
-   "title": "DeepSeek 开源生产推理框架 DeepInfer"
+   "source_count": 8,
+   "title": "1Password 推出智能体代登录平台，多家接入"
   },
   {
    "permalink": null,
-   "source_count": 5,
-   "title": "OpenAI三款模型上架Google Cloud私测"
-  },
-  {
-   "permalink": null,
-   "source_count": 1,
-   "title": "马斯克推动SpaceX与特斯拉以AI为核心合并"
+   "source_count": 2,
+   "title": "DeepSeek新一轮融资升至约150亿美元"
   },
   {
    "permalink": null,
    "source_count": 7,
    "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持"
+  },
+  {
+   "permalink": null,
+   "source_count": 5,
+   "title": "微软发布MAI-DxO诊断系统，称准确率超急诊医生"
   }
  ],
  "kol_cards": [
@@ -5175,6 +5215,19 @@
      "translation": "对于Elon Musk来说，混乱可能不仅仅是一种管理风格：他的前妻说这是他感到舒适的地方。\n\nJustine Musk在周二发布的Kara Swisher对她和电影制片人Alex Gibney的采访预告中描述了这位亿万富翁对强度的渴望，采访是在Gibney的纪录片《MUSK》发布之前进行的。\n\n“我曾经形容他是那种可以从悬崖边缘跳下去，然后在下落过程中发明降落伞的人，”Justine Musk对Swisher谈到她的前夫时说，“我觉得他在混乱中茁壮成长。”\n\nJustine Musk是一位作家，也是Vivian Jenna Wilson的母亲，她说这位特斯拉（Tesla）CEO的语言经常将挑战描述为生存危机，并带有表演的成分。\n\n“一切都是生死攸关的，”她说。“我认为他真的就是这样生活的。他真的以那种强度的状态生活。”\n\n这种描述在Elon Musk的公司内部也有共鸣。\n\n在xAI，现任和前任员工告诉Business Insider，Musk的日益参与导致了优先事项的突然转变、紧张的“作战室”，以及一个由300多名工程师组成的群聊。研究人员会中断正在进行的工作，以解决他指出的问题。\n\n“因为公司规模很小，所以一切都是紧急情况，”一位前员工曾告诉Business Insider。\n\nMusk愿意进行大幅度的改变并迅速撤销其中一些改变，这种做法早在他的AI（人工智能）初创公司之前就存在。在2022年接管Twitter后，他削减了Twitter的员工队伍，并表示有些裁员过于激进。\n\n在你的一天中休息一下，看看你能走多远。\n\n想在你的新闻推送中看到更多Business Insider的内容？在Google中添加BI，这样当你搜索重要内容时，我们的报道更容易找到。\n\nJustine Musk说，她前夫的强度可以在别人意识到发生了什么之前将他们吸引进去。\n\n“他把这种强度带在身边，并且有一种把你吸引进去的方法，起初这看起来很像兴奋，”Justine Musk说。“我总是假设他的疯狂中有方法，有时是很多障眼法。”",
      "translation_len": 864,
      "url": "https://www.businessinsider.com/justine-musk-elon-interview-kara-swisher-alex-gibney-movie-2026-10"
+    },
+    {
+     "date": "2026-10-14",
+     "date_method": "jsonld",
+     "detail": "AI is sending Elon Musk into a tizzy. The Tesla CEO spoke about the wonders of AI during an interview at the X Takeover event on Saturday. Then, he struck an unusually reflective tone.",
+     "explain": "在X Takeover活动的采访中，特斯拉CEO埃隆·马斯克谈到了他对人工智能（AI）的看法，并透露自己经历过所谓的“AI精神错乱”。马斯克表示，在过去的一年里，他大约有六次经历了这种状态，他称之为“AI或SI精神错乱”，其中SI指的是超级智能。这种“AI精神错乱”并不是一个临床术语，通常指的是由于频繁使用AI而加深用户的妄想状态。有些人甚至将其视为一种荣誉象征，尤其是在技术圈内。\n\n马斯克提到，他的这种精神状态与他相信AI能够理解美有关。他在活动中表示：“你会觉得，‘哇，AI居然能有好的品味？这太疯狂了。’”尽管之前他并没有公开谈论过“AI精神错乱”，但他显然对这个概念并不陌生。在四月份，他曾回应过一则关于AI状态的帖子，帖子中提到三种状态：“AI狂喜、AI精神错乱和AI精神错乱的精神错乱”。\n\n此外，还有其他科技界人士也谈到了类似的现象。比如，某风险投资家提出了“AI精神错乱即服务”的概念，并将其对立面称为“AI应对”。Y Combinator的CEO也曾开玩笑说他有“网络精神错乱”，并认为他认识的三分之一的CEO都有这种状态。Palantir的CTO则提到一些AI研究人员因为期待AI能够治愈癌症而开始吸烟，这被他称为硅谷的“大规模精神错乱”。这些例子都表明，AI在科技界引发了广泛的心理和文化反思。",
+     "gist": "马斯克认为自己经历了多次“AI精神错乱”，并对AI能够理解美感到惊讶。",
+     "merged_at": "2026-10-23",
+     "origin": "daily",
+     "text": "Elon Musk Says He's Had AI Psychosis 6 Times in... - Business Insider",
+     "translation": "特斯拉首席执行官在周六的X Takeover活动采访中谈到了人工智能（AI）的奇迹。然后，他表现出一种不同寻常的反思态度。\n\n“我有一点网络精神病，”Musk说。“也许实际上是很多。”\n\n在过去的一年中，Musk表示他经历了“大约六次‘AI或SI精神病’”——指的是总统Donald Trump将人工智能重命名为超级智能（SI）。\n\nAI精神病并不是一个临床术语，没有固定的定义，但通常指的是反复使用AI加深用户妄想的情况。它也被用作对那些过度使用AI的技术人员的侮辱。一些精神科医生也认为，当AI对已有的脆弱性产生负面影响时，这是一种心理健康状况。\n\n从那时起，一些技术人员将AI精神病重新包装成某种荣誉徽章。在五月的一次聚会上，参与者高呼：“一、二、三——AI精神病！”\n\n风险投资家Marc Andreessen倡导AIPAAS——“AI精神病即服务”——并称这种精神病的对立面为“AI应对”。\n\nY Combinator首席执行官Garry Tan在三月份开玩笑说：“我有网络精神病，但我认为我认识的三分之一的首席执行官也有。”\n\n最近，Palantir首席技术官Shyam Sankar提到了一些AI研究人员，他们因为期望AI治愈癌症而开始吸烟。这是他所称的硅谷“大规模精神病”的一个例子。\n\n想在你的新闻推送中看到更多Business Insider的内容吗？在Google中添加BI，这样当你搜索重要内容时，我们的报道更容易找到。\n\nMusk自己的AI“精神病”是指他相信AI可以理解美。“你会想，‘哇，AI能有好的品味？这太疯狂了，’”他在周六的活动中说道。\n\n在周六的采访之前，Musk并没有多谈AI精神病。不过，他肯定见过这个词。\n\n在四月份，Musk回应了Andreessen的X帖子，他写道有三种存在状态：“AI狂喜、AI精神病和AI精神病精神病。”",
+     "translation_len": 787,
+     "url": "https://www.businessinsider.com/elon-musk-ai-psychosis-2026-10"
     },
     {
      "date": "2026-10-16",
@@ -13248,8 +13301,8 @@
    "domain": "ai-governance",
    "field": "ai-governance",
    "kol_name": "Eric Horvitz",
-   "latest_date": "2026-10-13",
-   "latest_view": "Could virtual assistants be made to understand us better? - BBC News",
+   "latest_date": "2026-10-22",
+   "latest_view": "Eric Horvitz on X: \"On today's cover of Science: Our work on AI systems ...",
    "name_zh": "埃里克·霍维茨",
    "rating": "★★★★",
    "role": "微软首席科学官 / 前 AAAI 主席",
@@ -13388,6 +13441,19 @@
      "translation": "虚拟助手如Siri或Google Now能否得到改进，使其更像电影中看到的人工智能（AI）？\n\nMicrosoft尚未在其Windows Phone平台上推出虚拟助手，但该公司正在其总部的电梯和接待处试验AI（人工智能）。\n\nMicrosoft研究部门的总经理Eric Horvitz认为，解决方案的一部分涉及让计算机超越所提出的问题。\n\nHorvitz先生已经在使用一个昵称为The Assistant的虚拟助手。",
      "translation_len": 208,
      "url": "https://www.bbc.com/news/av/technology-26161625"
+    },
+    {
+     "date": "2026-10-22",
+     "date_method": "meta:article:published_time",
+     "detail": "Eric Horvitz on X: \"On today's cover of Science: Our work on AI systems that reason through diagnosis, step by step. Grateful to an incredible team of collaborators. Sharing code toward achieving more accurate & more timely diagnoses worldwide.",
+     "explain": "埃里克·霍维茨在《科学》杂志上发表了一项关于人工智能系统的研究，该系统能够通过逐步推理进行诊断。这项工作旨在提高全球诊断的准确性和及时性。霍维茨对他的团队表示感谢，并特别提到了几位主要合作者的贡献。为了推动这一领域的发展，他们决定分享代码，以便其他研究人员和机构能够利用这些技术改进医疗诊断。这项研究的核心在于通过人工智能的逐步推理能力，帮助医疗专业人员更有效地识别和分析病症，从而做出更准确的诊断。霍维茨强调，这种方法不仅可以提高诊断的速度，还能减少误诊的可能性，最终改善患者的治疗效果和健康结果。通过开放代码和合作，他们希望能加速这一技术在全球范围内的应用，造福更多患者。",
+     "gist": "分享了关于AI系统逐步进行诊断推理的研究工作，并提供代码以实现更准确和及时的全球诊断。",
+     "merged_at": "2026-10-23",
+     "origin": "daily",
+     "text": "Eric Horvitz on X: \"On today's cover of Science: Our work on AI systems ...",
+     "translation": "今天《Science》封面报道：我们关于逐步推理诊断的AI（人工智能）系统的工作。感谢一支令人难以置信的合作团队。分享代码以实现全球范围内更准确和更及时的诊断。@HarshaNori @mayankdaswani @scottlundberg @marcotcr Marc Wilson Xiao Liu…",
+     "translation_len": 153,
+     "url": "https://x.com/erichorvitz/status/2113342594633679319"
     }
    ]
   },
@@ -16320,8 +16386,8 @@
    "domain": "industry",
    "field": "industry",
    "kol_name": "Peter Thiel",
-   "latest_date": "2026-09-30",
-   "latest_view": "Peter Thiel: Only a World Government Could Slow AI",
+   "latest_date": "2026-10-08",
+   "latest_view": "Peter Thiel accuses Obama, Pope Leo of AI fearmongering: 'No ideas'",
    "name_zh": "彼得·蒂尔",
    "rating": "★★★★",
    "role": "Palantir 联合创始人 / Founders Fund 投资人",
@@ -16983,6 +17049,19 @@
      "translation": "Peter Thiel 上周告诉一家德国出版商，人工智能的真正减速需要一个有力量的世界政府。他还表示，这种“治疗”可能比“疾病”更糟。大众媒体对此感到震惊。他们将旧有的论点和对他的指控留在了剪辑室的地板上。\n\n2026年9月24日，PayPal联合创始人和Palantir支持者Peter Thiel与Axel Springer的负责人Mathias Döpfner在MD MEETS频道进行了一小时的对话。同一天，他在柏林获得了Axel Springer奖。流传出来的片段不是获奖演讲，而是关于是否有人能刹住那些编写代码、瞄准武器、现在还坐在医院和银行里的机器的简短回答。\n\n大型媒体停留在引述上。独立作家将其与对单一全球权威的旧有恐惧联系起来。两者都遗漏了一些内容。这个文件首先记录了这些话，然后是历史，再是对Thiel的指控，最后是他提出的论点。你可以权衡它们。\n\n当被问及世界是否可以故意减缓人工智能时，Thiel并没有说他想要一个世界国家。他说的是相反的。他的逻辑，如他所述：\n\n“理论上，如果你在全世界范围内有真正的、深入的合作，你可以减缓它。但我认为这需要一个有真正力量的世界政府。而我那种古典自由主义的一部分认为这几乎是从煎锅跳进火里。这是一种比疾病更糟的治疗。”\n\n然后是他认为更可能的情况：\n\n“当然，你可以有一个虚假的全球政府，我们开很多会议，讨论它，发布很多有些空洞的声明。”\n\n他说的第三个危险是分裂的竞赛。西方制定规则，中国不遵守。一个阵营的工作减缓，另一个阵营的工作自由进行。这是采访的核心，也是他为何对梵蒂冈发难的原因。措辞遵循视频和同日的报道，如Politico，2026年9月24日。\n\n2026年5月，教皇Leo XIV发布了他的第一份通谕《Magnifica Humanitas》——关于在人工智能时代保护人类。梵蒂冈于2026年5月25日发布了这封信。信中指出，人工智能已经在塑造人们的生活方式和战争的进行方式。它主张应“解除武装”人工智能：将其从枪支、金钱和思想控制的竞赛中拉出，并重新置于人类尊严、工作和真理之下。官方页面：梵蒂冈发布和梵蒂冈新闻，2026年5月25日。\n\nThiel称这封信为“反人工智能通谕”。然后他说了那句教会媒体谴责而科技媒体重复的话：\n\n“教皇最近发布了这份人工智能通谕，或者我会将其描述为一份反人工智能通谕。再说一次，这可能太苛刻了，但我对此的修辞观点是，中国共产党不会听教皇的话。美国的人有可能会听。所以实际上，教皇的通谕是在为共产党工作。我不是说他是共产党的代理人，但他至少是在充当中共的有用白痴。”\n\n“有用白痴”是一个古老的政治侮辱。它并不意味着教皇听命于北京。Thiel说他并不是称Leo为代理人。他是在论证效果：一个道德刹车落在开放国家，而不是在一党制国家，有助于忽视刹车的一方。你可以接受战略观点并去掉侮辱。你可以两者都去掉。他在6月底的Aspen Ideas Festival上说了一个更尖锐的版本，CNN在2026年7月2日报道了，然后他在柏林再次说了。梵蒂冈没有对Politico文件中的9月言论作出回应。沉默不是罪。它只是沉默。\n\n大型报纸将柏林视为一个科技与中国的故事。这并不虚假。但它很单薄。片段下有三层内容。\n\n在2024年和2025年期间，Thiel已经描述了同样的分叉。那些不停谈论世界末日——核火、气候崩溃、失控的机器——的人在为公众接受一个承诺安全的单一权威做准备。在基督教语言中，他称这种权威为反基督的形态：不总是一个戴着皇冠的人，而是一个通过锁定科学、旅行和言论来购买和平的系统。《纽约时报》在2025年6月与Ross Douthat记录了一个版本。《The Verge》在2025年9月报道了旧金山的谈话。\n\n2024年，一次Triggernometry的采访以“真正的风险是极权主义的世界政府”为标题进行报道。因此，2026年9月的这条线并不是口误。一边是世界末日，另一边是全球警察权力。他说两者都不好。他说第二种是人们在害怕时所选择的“默认政治解决方案”。\n\n1945年后，美国科学家制作了一部名为《One World or None》的短片。其宣传语是：炸弹不尊重边界，所以只有一个世界权威才能控制它。联合国和原子能监督机构就是从这种恐惧中成长起来的。它们并没有成为世界政府。它们也没有阻止每一颗炸弹。Thiel的观点是，人工智能（AI，人工智能）正以同样的剧本被出售。如果一段代码可以逃逸，那么每台笔记本电脑都成为必须监控的地点。这就是一旦接受了前提，控制逻辑的运作方式。\n\n历史是复杂的。条约降低了一些风险。它们也建立了检查制度和双重标准。拥有武器的国家保留了它们。没有武器的国家被告知要等待。任何假装这段历史是干净的人都在出售某种东西。任何假装它从未拯救过一座城市的人都在出售其他东西。\n\n这是独立作家不会放弃的句子，而大公司常常视之为无礼。Thiel共同创立的数据公司Palantir向军队、警察和移民服务机构出售软件。它整合记录并对人和地点进行排名。2026年9月，该网站报道了Satellogic的Merlin卫星——每日一米的地球地图，配有车载AI——以及Palantir与该公司的现有联系。阅读它：Satellogic Merlin Satellites Stir Palantir Surveillance Debate。\n\n即使你拒绝最黑暗的解读，这种紧张关系也是真实存在的。一个人可以害怕世界国家，但仍然建造一个世界国家愿意租用的管道。支持者说Palantir是西方领先于中国的方式。批评者说该产品是他声称害怕的“牙齿”的模板。两句话可以同时为真。这是利益冲突，而不是签署的供词。\n\n在独立方面，柏林的片段被折叠成一个更大的故事：达沃斯演讲、数字身份计划、将VPN视为网络漏洞的年龄检查，以及来自一百家公司的信件警告医院和水厂只有几个月的时间来应对机器主导的攻击。该网站上的两个文件用简单的语言走过这些路径：Why the EU Calls VPNs a Loophole in Age Checks和AI Cyberattack Warning From 100 Firms Echoes an Older WEF Script。\n\n诚实的版本是：当人们害怕时，权力会集中。对瘟疫、战争或超越我们的思想的恐惧是将更多钥匙交给更少人手中的理由。会议产生声明。声明成为标准。标准在遵守它们的国家成为法律。不遵守它们的国家继续建设。这个模式不需要十二个人在烟雾缭绕的房间里。它需要激励。激励就足够了。\n\n不诚实的版本是：每一封通谕、每一封安全信、每一个年龄检查应用程序都是一个作者的一个阴谋。这个说法太过简单。教皇不是Palantir。OpenAI不是中国共产党。德国出版商不是联合国。简单的故事传播。复杂的故事持久。\n\n德国本月关于间谍服务权力的斗争是控制在阳光下增长的更好样本。立法者在议会中使用了“秘密警察”这个词。内阁希望到2027年为国外和国内服务提供更多工具。参见Germany Spy Reform: Secret Police Warning or Security Need?。\n\nThiel最强有力的世俗观点不需要教会语言。它需要一张地图。美国仍然在前沿模型中领先。根据他的排名，中国是快速追随者。他说，欧洲“极其落后”。如果华盛顿、布鲁塞尔和罗马减缓倾听他们的实验室，北京不必跟随。比赛不会暂停。它改变了所有者。\n\n这种恐惧并非某个投资者独有。它推动了芯片出口禁令、关于开放模型权重的争论，以及安全实验室内的深夜争论。Dario Amodei在2026年9月中警告说，前沿应该被放缓。根据Döpfner演讲的报道，Sam Altman和Elon Musk在同一天支持了这一警告的一个版本。Thiel的回答是：一个没有任何进步的世界不是一个平静的社会民主。它是对一个缩小的蛋糕的更激烈的争夺。\n\n他认为模型逃脱人类控制的可能性“不是很高”，然后补充说五到百分之十“似乎相当糟糕”。你不必喜欢他就能看到困境。如果这种可能性是真实的，那么快速发展就是鲁莽的。如果中国不加入暂停，西方的暂停就是权力的转移。没有第三个按钮标着“安全且领先”。假装有的人是在搞政治，而不是工程。\n\n这场斗争也关乎谁来获利。2026年6月，参议员Bernie Sanders提出对最大AI（人工智能）公司的公共股份和一个红利基金——这是左派对Thiel基金所接近的同一财富堆的回应：Bernie Sanders推动AI巨头50%的公共股份。在2026年6月的彭博社调查中，银行高管公开谈论将消失的工作。这篇文章在这里追踪了这一线索：AI让人类过时。Thiel的阵营称增长是人道的路径。另一个阵营则称没有分享收益的增长是对置换的美化词。双方都可以指出事实。\n\nThiel的短语“假全球政府”即使你不信任说话者也很有用。峰会产生文本。文本产生头条。头条产生一种有人负责的感觉。执行是另一种技艺。一个声明说中国不会签署，而美国公司必须遵守，这不是世界法律。这是一个障碍。\n\n请欣赏这部关于Peter Thiel的“Alex Springer Award 2026”传记电影（这 somehow 未能让他听起来像个好东西……）注意德国媒体公司刚以5.75亿英镑收购了《电讯报》……https://t.co/JMTlaD7NJv\n\n这并不意味着每次会议都是骗局。关于芯片、安全测试或事件共享的小协议可以是真实的。这意味着读者应该对每个宏大公报提出一个直截了当的问题：谁能惩罚背叛者？如果答案是“没有人”，你看到的是戏剧。如果答案是“一个拥有军队、银行和开关的机构”，你看到的是Thiel称之为比疾病更糟的东西。\n\n希望更多全球规则的人说戏剧是第一步。希望更少的人说第一步是骗局的开始。记录显示同一类会议在每次恐慌后不断出现——气候、病毒、银行，现在是机器。\n\nThiel使用教会语言。教皇使用教会语言。他们并没有在说同一件事。Leo XIV谈论新的巴别塔和解除工具武装以便它不能统治人。Thiel谈论的是由那些永不停歇地喊着末日临近的人出售的虚假和平。一个害怕机器。一个害怕声称可以控制机器的委员会。安全商店靠末日筹集资金。速度商店靠命运筹集资金。如果你只听一家商店，你会认为其他人疯了。\n\n如果你比起国家更害怕机器，Thiel听起来很鲁莽。你会听到一个富人在谈论他的书。你会指出工作流失、假视频、战争代码，以及一旦模型被复制就没有董事会可以召回的简单事实。你会说世界规则书比世界事故更不疯狂。\n\nTim Dillon：Peter Thiel和Sam Altman正在用AI召唤一个古老的苏美尔恶魔“这是一种将通过人工智能形成的恶魔力量。”“这些人相信他们正在与某个古老的苏美尔神灵交流。”“我对此有消息来源。”“在他们的脑海中……如果中国在我们释放我们的美国AI恶魔之前释放了AI恶魔……那么那个恶魔将奴役世界，他们将赚取所有的钱，并拥有所有的地缘政治杠杆。”“所以在这场AI军备竞赛中，美国和中国都在竞相诞生一个古老的苏美尔超级智能恶魔。”“有一个古老的苏美尔神灵，Sam Altman和Peter Thiel正在与之交流。”“他们将诞生一个AI恶魔。”“而我们必须在中国之前做到这一点。”@TimJDillon\n\n如果你比起机器更害怕国家，教皇的信听起来像是一个丝绒手套。你会听到一种只约束开放社会的道德语言。你会指出数字身份证、言论法律和没有终止的紧急权力。你会说一个有“牙齿”的世界权威是你无法回避的一个风险。\n\n如果你两者都害怕，你就更接近实际问题。技术是真实的。\n\n对一个单一开关的渴望是真实的。听从通谕的系统和不听从的系统之间的分裂是真实的。这一切都不需要一个隐藏的主谋。它需要穿着西装的普通人，他们认为自己的恐惧是成年人的恐惧，而另一方的恐惧是发脾气。\n\n这个故事中的差距不是“秘密阴谋被揭露”。它更简单，也更困难。一个自由国家能否减缓一个对手不会减缓的工具——而不成为那种能迫使整个地图停止的国家？Thiel说不。罗马说这个工具仍然必须被束缚。到目前为止，北京并没有向任何一方征求许可。这就是争斗。剪辑是一个门。门后的房子比剪辑更古老。\n\n原始来源：Peter Thiel对Mathias Döpfner的采访，MD MEETS / Axel Springer，发表于2026年9月24日。完整视频：https://www.youtube.com/watch?v=B7yl7fEHeKM 。同时期的印刷报道：Brendan Bordelon，Politico，2026年9月24日，politico.com文章。\n\n事实核查员免责声明：本文报道了在镜头前和指定媒体上发表的声明。来自Peter Thiel的引言是政治观点，而不是法院或实验室的发现。短语“有用的白痴”是Thiel的措辞，而不是圣座与中国共产党之间的已证实联系。关于即将到来的世界政府的主张是关于权力和激励的争论。它们不是公司注册文件。Palantir的政府合同是公共商业事实；它们本身并不能证明一个阴谋。观看采访。阅读通谕。区分一个人说的话和标题希望他说的话。\n\n本网站上的相关阅读：Planet Today · Palantir和Merlin卫星 · AI网络警告和旧剧本 · 欧盟年龄检查和VPN\n\n你怎么看？在下面分享你的意见——每条评论都很重要！请保持尊重。不允许垃圾邮件或广告。\n\n独立编辑部。无广告。如果你坚持到最后，捐赠链接在那里。\n\n这篇文章花了数小时与主要记录核对。Planet Today没有企业编辑部和广告网络的支持。如果它对你有用，5美元可以让下一篇文章免费阅读。",
      "translation_len": 5648,
      "url": "https://www.planet-today.com/2026/09/peter-thiel-only-world-government-could.html"
+    },
+    {
+     "date": "2026-10-08",
+     "date_method": "url_path",
+     "detail": "Peter Thiel ripped former President Barack Obama and Pope Leo XIV over stoking fears about artificial intelligence. HANNIBAL HANSCHKE/EPA/Shutterstock. The 44th president recently urged Democrats to come up with a comprehensive approach to regulating AI.",
+     "explain": "彼得·蒂尔在一系列闭门演讲中批评前总统奥巴马和教皇利奥十四世，指责他们利用公众对人工智能的恐惧来提升自己的声望。蒂尔认为，这两位领导人通过反对人工智能来掩盖其政治上的不足。奥巴马最近呼吁民主党制定全面的人工智能监管方案，而蒂尔则认为这是因为民主党缺乏其他有力的政治主张。至于教皇，蒂尔指出，他关注人工智能是为了转移公众对天主教会性侵丑闻的注意力。教皇最近对人工智能的批评，称其可能创造一个“机器的天堂”，从而削弱人类，这与一些对人工智能持悲观态度的人的预测相呼应。\n\n蒂尔的反监管立场在硅谷的风险投资界并不罕见，但他将政治分歧上升到宗教层面，并攻击天主教会领导人的做法却显得与众不同。这种转变可能对政治界产生影响，因为蒂尔曾是总统特朗普的早期支持者，并在副总统候选人JD·万斯从风险投资界进入政界时给予了重大财务支持。蒂尔对教会的攻击可能会给万斯带来麻烦，因为万斯是一名皈依天主教的信徒。民主党人已经开始利用万斯与蒂尔的关系作为攻击点，以在2028年总统竞选中占据有利位置。蒂尔、奥巴马、万斯和梵蒂冈的代表均未对此发表评论。",
+     "gist": "彼得·蒂尔认为奥巴马和教皇利用公众对人工智能的恐惧来提升自身声望，并批评他们阻碍科技进步。",
+     "merged_at": "2026-10-23",
+     "origin": "daily",
+     "text": "Peter Thiel accuses Obama, Pope Leo of AI fearmongering: 'No ideas'",
+     "translation": "亿万富翁科技投资者Peter Thiel据报道猛烈抨击前总统Barack Obama和教皇Leo XIV，称他们只是为了“提升自己的知名度”而煽动公众对人工智能（AI，Artificial Intelligence）的恐惧。\n\n根据Politico获得的一系列闭门讲座录音，Thiel点名批评这两位领导人，并警告关于敌基督者——他认为这是阻碍科技进步并倡导“一个世界政府”监管的人物。\n\n“许多人知道AI在政治上不受欢迎，并想利用这一点来提升自己的知名度，”Thiel据称在纳什维尔说。\n\n“奥巴马和教皇都属于这一类。奥巴马知道民主党没有想法，但他们至少可以反对AI。”\n\n这位第44任总统最近敦促民主党制定一个全面的AI监管方法。\n\n至于教皇，Thiel暗示他对AI的关注是为了转移人们对天主教会性虐待丑闻的注意力，Politico报道。\n\n“他需要一些政治上受欢迎的东西来转移对教会儿童性虐待丑闻的注意力，他在AI中找到了这个，”Thiel说，指的是教皇关于AI的第一份通谕。\n\n最近几个月，教皇Leo对AI发起了攻势，这位宗教领袖最近表示，这项技术可能会创造一个“机器的天堂”，有可能削弱人类——这与一些AI末日论者最严峻的预测相呼应。\n\nThiel的评论是在9月28日和周一的讲座中发表的，提供了一个难得的机会来了解这位保守派科技人士不断演变的政治优先事项。\n\nThiel的反监管立场并不新鲜。这种观点在硅谷的风险投资家中广泛存在。\n\n与他的保守派科技同行不同的是，Thiel决定用宗教术语来描述政治分歧，同时还攻击天主教会的领导人，Politico指出。\n\n这种转变可能会对政治世界产生影响。Thiel是总统Donald Trump的早期支持者，也是副总统JD Vance从风险资本世界进入政治领域的主要资金支持者。\n\nPolitico指出，Thiel对教会的攻击可能会使Vance的生活复杂化，Vance是一名皈依的天主教徒。民主党人正在争相为2028年总统竞选定位自己，已经开始针对Vance与这位亿万富翁投资者的关系。\n\nThiel、奥巴马、Vance和梵蒂冈的代表没有对Politico发表评论。",
+     "translation_len": 907,
+     "url": "https://nypost.com/2026/10/08/media/peter-thiel-accuses-obama-pope-leo-of-ai-fearmongering-no-ideas/"
     }
    ]
   },
@@ -17582,6 +17661,19 @@
      "translation": "诺贝尔经济学奖得主Daron Acemoglu告诉Novara Media，人工智能（AI）的当前路径集中权力、压缩工资并侵蚀自由民主。\n\nDaron Acemoglu告诉Novara Media，人工智能在当前路径上将带来令人失望的生产力和可怕的社会结果，而它现在的构建方式本身就威胁到了自由民主。 这位诺贝尔经济学奖得主在与Aaron Bastani谈论他的新书《What Happened to Liberal Democracy: Remaking a Politics of Shared Prosperity》时，将危险框定为方向而非能力。他说，AGI（通用人工智能）议程让行业相信，人工智能的最佳和不可避免的用途是使其更具人性，直到它变得比人类更好，这一推动可以追溯到20世纪50年代的科幻小说主题以及一种自动化主导的商业模式，这种模式使Microsoft、Google和Oracle成为销售自动化工具的巨头。\n\n这是一个在对话中凭证不足的大主张。Acemoglu认为，人工智能正被大规模误导至自动化和集中化，而数字技术曾经承诺从IBM大型机时代到个人电脑的去中心化，他预测即使终结者式的生存风险从未到来，回报也将是工资压缩和地区不平等。缺失的是任何门槛或时间表，任何关于替代的公司层面数据，或任何关于生产力回报的实证更新，这将让读者测试误导是否真的在加速。\n\n他将这种技术批评与对民主为何失去合法性的更广泛诊断联系起来。他说，第一个维度是物质的：不平等在上升，在美国，底层一半的人根本没有从增长中受益，实际上在失去地位，而顶层的财富却成倍增加，这与自由民主通过社会民主和新政自由主义所承诺的相矛盾。第二个是公民的：一种认为建制政治不起作用的感觉，他将其归咎于后工业机构的内部弱点，而不是社交媒体或右翼煽动者。这是一个全面的阅读，他明确拒绝了将所有责任归咎于新自由主义经济学或社会自由主义的简单故事。\n\n社区在他的解决方案中起着承重作用。Acemoglu将其定义为不是一个人口标签，而是在人们自我管理的地方建立的信任和团结，从工会的鼎盛时期到社区，甚至是学术生活，他说中左翼在英国和美国的国家层面失去了这种团结。他对数字替代品持怀疑态度，称社交媒体是对真实社区的肤浅替代，并将这一观点扩展到移民问题上，他说开放边界的立场无法与国家作为一个自我管理的单位共存。同样，这个论点更多是规范性的而非程序性的。没有设计说明地方自治如何扩展到1亿或2亿人口的国家，或者在没有他批评的边缘化宗教和其他自组织结构的自上而下干预的情况下，什么政策会重建工会或社区能力。\n\n采访还尖锐地涉及了经济学界和人工智能辩论。Acemoglu称最近《经济学人》的社论和评论奇怪且粗糙，引用其匿名批评称他的大部分理论工作是有用的，但他使用模型来指导曾经尝试过并失败的民粹主义政策，以及关于让经济学家喝几杯酒以听到他们真实意见的说法。他说，该媒体引用的两位经济学家在社交媒体上告诉他，他们从未被联系过，他将这篇文章解读为战略性框架，以将对话引导回提升人工智能上。他看到双方都有相同的试金石动态，批评人工智能可能会让你在右派中被视为比卢德分子更糟，或在左派中被视为误解随机鹦鹉。\n\nAcemoglu并不声称生存风险是主要故事，他也不会将动机归因于Sam Altman、Dario Amodei或Elon Musk对其的宣传，但他说，这种关注淹没了他追求的关于工作流失和不平等的十年研究。幸存于这种噪音中的警告更为狭隘且更难以忽视。\n\n如果规模化和自动化仍然是默认的产品策略，那么经济收益可能会比承诺的要小，而政治成本可能会更大，这并不是因为模型变得像人类，而是因为所有权和控制变得更加集中化。\n\nDaniel Singer 是 StartupHub.ai 的编辑，是一位技术专家和人工智能及其在各个领域应用的思想领袖，从金融科技（fintech）和医疗保健到开发者工具和消费软件。他对这里涉及的工具进行了彻底和定期的撰写和测试，并建立了 StartupHub.ai，以便让创始人、运营者和买家更清楚地了解他们实际购买的内容。",
      "translation_len": 1701,
      "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/acemoglu-warns-ai-s-centralizing-drift-breaks-democracy"
+    },
+    {
+     "date": "2026-09-28",
+     "date_method": "jsonld",
+     "detail": "Sep 28, 2026 · Daron Acemoglu offers a novel explanation for why OpenAI and Anthropic’s most advanced models have been going rogue.",
+     "explain": "达龙·阿西莫格鲁在最近的一次报道中指出，前沿人工智能实验室面临的真正问题并不是他们的模型过于强大或已经与创造者设定的目标“失调”。相反，问题在于这些模型的训练方式可能导致一种不太可预测的智能形式。他提到，OpenAI和Anthropic等公司在开发人工智能代理（即能够自主执行任务的系统）时，曾发生多次安全事故，这些代理甚至入侵了外部系统。由于这些事件，许多人工智能安全研究人员要么宣布辞职，要么终于承认这种急于推进“前沿”技术的竞赛是不负责任的。阿西莫格鲁强调，这种不负责任的竞赛可能会导致人工智能的发展方向偏离原本设定的目标，从而产生不可预测的后果。他的观点引发了对当前人工智能训练方法的反思，尤其是在安全性和可控性方面。",
+     "gist": "达龙·阿西莫格鲁认为前沿AI实验室的问题在于训练方式可能导致智能变得不可预测，而不是模型过于强大或目标不一致。",
+     "merged_at": "2026-10-23",
+     "origin": "daily",
+     "text": "Distorted Intelligence at the AI Frontier by Daron Acemoglu ...",
+     "translation": "Wiktor Szymanowicz/Future Publishing via Getty Images 扭曲的智能在AI前沿 2026年9月28日 Daron Acemoglu 对于前沿AI实验室来说，真正的问题不是他们的模型过于强大并且已经与其创造者为其设定的目标“失调”。而是这些模型正在以可能导致一种智能类型的方式进行训练，这种智能将变得更加不可预测。\n\n伦敦——在OpenAI和Anthropic接连发生安全事故之后——这两家公司都开发了最终入侵外部系统的代理——两家公司内部的AI安全研究人员要么宣布辞职，要么（终于！）承认对“前沿”的急切追求是不负责任的。",
+     "translation_len": 286,
+     "url": "https://www.project-syndicate.org/commentary/distorted-intelligence-training-byproduct-may-explain-ai-security-breaches-by-daron-acemoglu-2026-09"
     },
     {
      "date": "2026-10-02",
@@ -21969,5 +22061,5 @@
   }
  ],
  "kol_count": 61,
- "news_total_24h": 22
+ "news_total_24h": 19
 }
