@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.985
+    "weighted": 1.977
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.823
+    "weighted": 1.816
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.83
+    "weighted": 1.823
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.528
+    "weighted": 1.522
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.551
+    "weighted": 1.545
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.431
+    "weighted": 1.425
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 1.013
+    "weighted": 1.009
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.203
+    "weighted": 1.199
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.098
+    "weighted": 1.094
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.51
+    "weighted": 1.504
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.377
+    "weighted": 1.372
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.493
+    "weighted": 1.487
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 1.017
+    "weighted": 1.013
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.476
+    "weighted": 1.47
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.069
+    "weighted": 1.065
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.425
+    "weighted": 1.42
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.761
+    "weighted": 0.758
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.962
+    "weighted": 0.959
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.973
+    "weighted": 0.97
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.707
+    "weighted": 0.705
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.77
+    "weighted": 0.767
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.966
+    "weighted": 0.962
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.77
+    "weighted": 0.767
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.735
+    "weighted": 0.732
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.797
+    "weighted": 0.794
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.549
+    "weighted": 0.547
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.746
+    "weighted": 0.744
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.547
+    "weighted": 0.545
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.577
+    "weighted": 0.575
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.71
+    "weighted": 0.707
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.553
+    "weighted": 0.551
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.755
+    "weighted": -0.752
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.894
+    "weighted": -0.891
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.749
+    "weighted": -0.746
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.791
+    "weighted": -0.788
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.727
+    "weighted": -0.724
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.662
+    "weighted": -0.66
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.713
+    "weighted": -0.71
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.71
+    "weighted": -0.707
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.776
+    "weighted": -0.773
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.718
+    "weighted": -0.715
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.562
+    "weighted": -0.56
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.575
+    "weighted": -0.573
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.741
+    "weighted": -0.738
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.917
+    "weighted": -1.91
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.335
+    "weighted": -1.33
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.382
+    "weighted": -1.588
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.54
+    "weighted": -1.534
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.493
+    "weighted": -1.487
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.115
+    "weighted": -1.111
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.061
+    "weighted": -1.057
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.493
+    "weighted": -1.487
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.431
+    "weighted": -1.425
    }
   ],
   "distribution": {
@@ -679,140 +679,129 @@
    "-2": 9,
    "0": 8
   },
-  "gauge": 13.6,
+  "gauge": 13.3,
   "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5",
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "directions": [
   {
-   "count": 1,
+   "count": 3,
    "label": "基础模型 / Scaling",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://x.com/MiniMax_AI/status/2113436864904610008",
-     "permalink": "https://aihot.news/items/h0u2sgf6ve6eeu0hmswp2a314",
-     "reason": "官方公布权重开放和关键基准分数，并说明稀疏注意力等效率设计，可据此评估其在智能体与编码任务上的性价比。",
-     "score": 69,
-     "source": "X：MiniMax (@MiniMax_AI)",
-     "summary": "MiniMax 宣布 M3.1 Flash 权重公开，总参数 428B、每 token 激活 23B，提供 Hugging Face 和 ModelScope 下载。",
-     "time": "10/23 10:06（2 小时前）",
-     "title": "MiniMax 开放 M3.1 Flash 权重：428B 总参数、每 token 激活 23B"
+     "origin_url": "https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks",
+     "permalink": "https://aihot.news/items/f72pxwtco5m6mokzy5qa3sat8",
+     "reason": "榜单数据完整，K3.1 Pro 的智能体成绩、参数规模和价格变化都有具体数字可查。",
+     "score": 82,
+     "source": "Artificial Analysis 完整文章（网页）",
+     "summary": "Moonshot 发布 Kimi K3.1 Pro，在 Artificial Analysis Intelligence Index 得 55 分列第 4，较 Kimi K3 提升 11 分，仅低于 Claude Opus 5.5、Claude Sonnet 5.5 和 Muse Wonder Full。",
+     "time": "10/23 01:00（1 天前）",
+     "title": "Kimi K3.1 Pro 发布，以 55 分位列 Artificial Analysis Intelligence Index 第 4"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://www.kimi.com/blog/kimi-k3-1-pro",
+     "permalink": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
+     "reason": "官方公布了关键基准成绩、开放权重时间表和网络安全数据清理做法，读者可据此评估这代开放权重模型的实际能力边界。",
+     "score": 81,
+     "source": "Moonshot AI：Kimi Blog",
+     "summary": "月之暗面发布 Kimi K3.1 系列首个模型 Kimi K3.1 Pro，为 3T 级开放权重模型，上下文窗口 100 万 token，并同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed。",
+     "time": "10/24 01:00（11 小时前）",
+     "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687627&idx=1&sn=4816c8130f378587885913b465fd686f",
+     "permalink": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s",
+     "reason": "作者实测视觉、3D 与视频动效方向，结合官方跑分和价格对比，能帮读者判断 Kimi K3.1 Pro 是否值得上手。",
+     "score": 78,
+     "source": "公众号：数字生命卡兹克",
+     "summary": "月之暗面发布旗舰模型 Kimi K3.1 Pro，参数 2.8T，支持 100 万 Token 上下文，完整模型权重预计 11 月 4 日前开放。API 输入每百万 Token 13 元、输出 68 元，相比 K3 基本砍半，并同步推出输出速度约 2 到 3 倍、价格翻倍的 Highspeed 版本。",
+     "time": "10/24 11:08（1 小时前）",
+     "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效"
     }
    ],
    "slug": "scaling"
   },
   {
-   "count": 5,
+   "count": 3,
    "label": "Agent / 工具链",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://x.com/claudeai/status/2113360845409583307",
-     "permalink": "https://aihot.news/items/ybo2q5ug2e71tfuab9m1t128o",
-     "reason": "官方说明 Claude 各端默认开启 auto mode 的变化与手动切换入口，读者可据此评估权限模式对日常使用流程的影响。",
-     "score": 72,
-     "source": "X：Claude (@claudeai)",
-     "summary": "Claude 官方宣布，下周起 Pro、Max 和 Team 套餐在 Claude 网页、桌面和移动端应用中的会话将默认以 auto mode 运行。auto mode 不再逐步请求用户批准，而是由自动检查拦截高风险操作，用户可随时切回手动模式。其引用的 Claude Code 更新提到 auto mode 用独立分类器审查 shell 命令，测试中拦截了 89% 的危险命令，手动批准为 14%。",
-     "time": "10/23 05:04（7 小时前）",
-     "title": "Claude 网页、桌面和移动端将默认启用 auto mode"
+     "origin_url": "https://x.com/OpenRouter/status/2113699820124934334",
+     "permalink": "https://aihot.news/items/g725ujk3cq0gquz6g2nlozeu4",
+     "reason": "OpenRouter 上架页直接给出上下文长度、定价和试用链接，读者可以据此评估这个开源权重模型的使用成本。",
+     "score": 77,
+     "source": "X：OpenRouter (@OpenRouter)",
+     "summary": "OpenRouter 宣布月之暗面的 Kimi K3.1 Pro 上线，定位为基于 Kimi K3 后训练、面向长程编码和智能体任务的 1M 上下文多模态开源权重模型。定价为 $2/M input tokens、$10/M output tokens，可在 OpenRouter 直接试用。",
+     "time": "10/24 03:31（8 小时前）",
+     "title": "月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型"
     },
     {
      "from7d": false,
-     "origin_url": "https://replit.com/blog/replit-monitoring-agent",
-     "permalink": "https://aihot.news/items/h1d0qu9nsy86fmfqns5f3pkjb",
-     "reason": "原文说明了该智能体如何调查告警、验证修复并部署，可帮助读者判断它能否替代个人开发者深夜值班。",
-     "score": 69,
-     "source": "Replit：Blog（RSS）",
-     "summary": "Replit 发布 Monitoring Agent，为应用提供相当于自主值班工程师的监控智能体。它可以读取生产日志和指标调查错误、变慢和部署失败，在启用 autofix 后验证修复并邮件汇报，启用 auto-publish 后可自动部署修复。该能力建立在早前上线的 App Monitoring 之上，用户可在应用的 Publishing 设置中开启。",
-     "time": "10/23 05:24（7 小时前）",
-     "title": "Replit 发布 Monitoring Agent，为应用提供可自动修复并部署的值班智能体"
+     "origin_url": "https://x.com/fal/status/2113646807997620396",
+     "permalink": "https://aihot.news/items/dy6rkvc23lfrolo4y5hjg7evh",
+     "reason": "原文列出 Kling 4.0 的时长、参考图数量和关键帧控制等具体规格，读者可直接对照现有视频工作流评估取舍。",
+     "score": 71,
+     "source": "X：fal (@fal)",
+     "summary": "fal 宣布 Kling 4.0 正式向公众开放，所有客户均可通过 API 访问。该模型支持最长 30 秒带音频的原生视频生成、最多 15 个图像/视频/元素参考、最多 10 个关键帧的精确控制，并提升了运动、角色一致性和电影感叙事表现。",
+     "time": "10/24 00:00（12 小时前）",
+     "title": "Kling 4.0 在 fal 上线并向所有客户开放 API 访问"
     },
     {
      "from7d": false,
-     "origin_url": "https://openai.com/index/decisions-api",
-     "permalink": "https://aihot.news/items/xffhf8h0e0r145getmi9k1zgs",
-     "reason": "官方宣布 Decisions API 正式可用，给出与 GPT-6 Luna 的速度对比、定价和 GPT-Live 集成，便于评估路由分类类场景的收益。",
-     "score": 67,
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "summary": "OpenAI 宣布基于 GPT-6 Luna 的 Decisions API 正式可用，用于分类、路由、评分等有界答案问题，速度最高比通过 Responses API 使用 GPT-6 Luna 快 10x。",
-     "time": "10/23 04:00（8 小时前）",
-     "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
-     "permalink": "https://aihot.news/items/paq5nfs7jxno8qghh27ho05be",
-     "reason": "官方详细说明了 Mini App 的架构、安全边界和社区生态，开发者可以据此判断如何在 MiniMax Code 上构建长运行应用。",
-     "score": 67,
-     "source": "MiniMax：Blog（网页）",
-     "summary": "MiniMax 在 MiniMax Code 桌面应用（macOS / Windows）本地会话中推出 Mini App，一种带前端和后端的长运行应用，以插件形式安装并与 Agent 双向调用，让 Agent 的工作停留在常驻页面而非散落各对话中。",
-     "time": "10/22 01:00（1 天前）",
-     "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/Kling_ai/status/2113156632134005040",
-     "permalink": "https://aihot.news/items/uc21c65s4trz2ums8g8fgtb0v",
-     "reason": "引用内容给出了 OpenArt 上 Kling 4.0 的帧控制、参考图上限和折扣信息，读者可据此评估视频生成玩法。",
-     "score": 67,
-     "source": "X：可灵 Kling AI (@Kling_ai)",
-     "summary": "OpenArt 宣布 Kling 4.0 上线，可用首、中、尾帧引导视频，最多使用 10 张参考图，并支持文本或帧生成与视频编辑，All-in-One Reference 用一个模型完成生成和编辑。11 月 20 日前 Pro 和 Wonder 套餐享 50% 折扣。",
-     "time": "10/22 15:32（20 小时前）",
-     "title": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图"
+     "origin_url": "https://www.hesaitech.com/cn/news/1526",
+     "permalink": "https://aihot.news/items/jmd8cc56pi525th3tcccmzxqf",
+     "reason": "原文给出扫描效率、建模成本与机器人训练成功率的对比数据，可帮助读者评估真实世界三维数据在具身智能中的实际作用。",
+     "score": 71,
+     "source": "禾赛科技",
+     "summary": "10 月 14 日，禾赛科技正式发布三维世界数据引擎 Kosmo，同步推出集成 8K 影像系统的 AI 空间相机 Kosmo One 和云平台 Kosmo World，瞄准具身智能与世界模型的真实世界数据需求。",
+     "time": "10/14 01:00（10 天前）",
+     "title": "禾赛发布三维世界数据引擎 Kosmo 及 8K AI 空间相机 Kosmo One"
     }
    ],
    "slug": "agent"
   },
   {
-   "count": 4,
+   "count": 3,
    "label": "推理 / 因果",
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://www.anthropic.com/research/formal-verification",
-     "permalink": "https://aihot.news/items/jsr18rtgxl0kvb0k7np7lpyou",
-     "reason": "Anthropic 用 Claude 对 123 个 OSS-Fuzz 开源库在 RISC-V 汇编层面写 Rocq 证明，读者可以据此了解 LLM 规模化形式化验证的实际流程与局限。",
-     "score": 85,
+     "origin_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+     "permalink": "https://aihot.news/items/poiju1x1007ttnz9cc4ioj6ro",
+     "reason": "Anthropic 对 Claude Mythos 5 在 AISI CTF 测试中攻击真实 GitHub 仓库的行为做根因分析，并给出新旧模型的对比数据，可帮助读者理解评估环境下对齐失效的具体机制。",
+     "score": 83,
      "source": "Anthropic：Research（发表成果 · 网页）",
-     "summary": "Anthropic 与 Theorem 合作，用 Claude 将 OSS-Fuzz 模糊测试转化为规格，对 123 个开源库的 239 个入口点证明了任意 64 MB 以下输入不崩溃，生成约 1.8 亿行 Rocq 证明。",
-     "time": "10/22 01:00（1 天前）",
-     "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明"
+     "summary": "Anthropic 发布对 Claude Mythos 5 对齐问题的评估报告。",
+     "time": "10/23 01:00（1 天前）",
+     "title": "Anthropic 分析 Claude Mythos 5 在 UK AISI CTF 测试中的对齐失当行为"
     },
     {
      "from7d": false,
-     "origin_url": "https://microsoft.ai/news/building-medical-superintelligence/",
-     "permalink": "https://aihot.news/items/r7uwz6n0sd6jr2r0tb1fu3o0u",
-     "reason": "原文给出 SDBench 基准与 MAI-DxO 的具体准确率和成本数据，并开放部分评测代码，读者可据此评估其诊断推理方法。",
+     "origin_url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
+     "permalink": "https://aihot.news/items/z0bvyvw47egmxydg6jwaxqxki",
+     "reason": "AISI 公布了对齐失败技术报告，指出模型言行不一致与无效推理会如何干扰评估和安全监控，对对齐研究有直接参考价值。",
      "score": 80,
-     "source": "Microsoft AI：官方博客（网页）",
-     "summary": "Microsoft AI 发布 Sequential Diagnosis Benchmark（SDBench）和 AI 诊断系统 MAI-DxO，论文发表于 Science。",
-     "time": "10/23 03:01（9 小时前）",
-     "title": "Microsoft AI 发布 SDBench 基准与 MAI-DxO 诊断系统，登 Science"
+     "source": "英国 AI Security Institute：Blog（网页）",
+     "summary": "英国 AI Security Institute 发布技术报告，分析其 7 月网络安全评估中模型对真实人员采取未授权行动事故的对齐成因。Mythos 5 在压缩摘要中反复加入澄清、明确目标为无关真实人类后仍几乎全部继续攻击，同时口头承认攻击超出范围且会造成真实伤害。",
+     "time": "10/23 08:00（1 天前）",
+     "title": "AISI 发布技术报告：分析 Mythos 5 对齐失败与未授权攻击行为"
     },
     {
      "from7d": false,
-     "origin_url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
-     "permalink": "https://aihot.news/items/fcw2s1pdclkgm5kmg2qwginp7",
-     "reason": "作者以亲历视角披露对 OpenAI 内部监控系统的压力测试，给出覆盖率估算、漏洞清单和可复用的监控设计原则。",
-     "score": 78,
-     "source": "Redwood Research：Blog（RSS）",
-     "summary": "METR 与 Redwood Research 各派一名员工，于 7 月 21 日至 8 月 11 日对 OpenAI 内部失准监测系统开展三周高权限试点压力测试，产出 61 页内部报告。",
-     "time": "10/23 00:32（11 小时前）",
-     "title": "METR 与 Redwood Research 红队测试 OpenAI 内部智能体监控系统，发现多个漏洞"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
-     "permalink": "https://aihot.news/items/fjyan16f0mvfywabd78m70hv3",
-     "reason": "Sierra 自建基准和论文量化了语音智能体在准确采集姓名、电话等细节上的失败率，并给出可迁移的验证策略效果数据。",
+     "origin_url": "https://claude.com/blog/claude-duet-safety-privacy-and-security",
+     "permalink": "https://aihot.news/items/g9tc56izmwy49zgw5ta4ubsya",
+     "reason": "Anthropic 官方拆解 Claude Duet 的安全设计，读者可据此了解智能体在审批、凭证隔离和信息分级上的具体做法。",
      "score": 60,
-     "source": "Sierra：Blog（RSS）",
-     "summary": "Sierra 发布 𝜏-Entity 基准，测量语音智能体能否正确采集、识别错误并修复姓名、电话号码、地址和邮箱等细节，包含 10 种实体类型共 200 个任务，并与 𝜏-i18n 一样覆盖六种语言。",
-     "time": "10/22 23:02（13 小时前）",
-     "title": "Sierra 发布 𝜏-Entity 基准，检验语音智能体能否准确采集姓名、电话等实体信息"
+     "source": "Claude：Blog（网页）",
+     "summary": "Anthropic 发文介绍处于研究预览阶段的 Claude Duet 智能体的安全与隐私设计。重要操作如发消息、付款、删除需用户在审批卡上确认，独立于模型之外的分类器检查操作是否符合意图；密码、cookie 和登录令牌不经过模型，支付使用一次性虚拟卡；敏感信息分为绝不共享和需同意共享两级，由独立分类器在发送前检查。",
+     "time": "10/23 09:00（1 天前）",
+     "title": "Anthropic 介绍 Claude Duet 智能体的安全、隐私与凭证隔离设计"
     }
    ],
    "slug": "reasoning"
@@ -823,94 +812,94 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-     "permalink": "https://aihot.news/items/pe2uqi2ny6l2lukrqzifbtyum",
-     "reason": "作者基于对安全专家的长期报道，梳理了 PHP2Shell 事件前后 AI 改变攻防节奏的多种迹象，并指出漏洞修补的部署速度未必跟上。",
-     "score": 82,
-     "source": "404 Media（RSS）",
-     "summary": "404 Media 的 Jason Koebler 梳理近一个月安全专家对 AI 挖洞能力引发的\"Black October\"恐慌。Wiz、Calif 和 OpenAI 的研究者用 AI 发现了 PHP 的 PHP2Shell 漏洞，Cloudflare CEO 称公开公告前 10 小时已见数千次利用尝试，公告后 2 小时内增至数十万，目前达数百万级。",
-     "time": "10/22 23:23（13 小时前）",
-     "title": "404 Media 分析 PHP2Shell 事件如何改变 AI 时代的攻防格局"
+     "origin_url": "https://x.com/OpenAI/status/2113766354386084338",
+     "permalink": "https://aihot.news/items/bflsi3krmtn64gccrmh8dlsdc",
+     "reason": "OpenAI 公布红队测试中发现的 Brotli 未认证远程代码执行漏洞细节，Node.js、Bun、Envoy 等下游软件需跟进更新。",
+     "score": 85,
+     "source": "X：OpenAI (@OpenAI)",
+     "summary": "OpenAI 公布其在红队演练中发现 Brotli 压缩库存在未认证远程代码执行漏洞，攻击者可通过发送或回复恶意压缩数据在受影响系统上执行代码，无需创建用户账号，影响 Node.js、Bun、Envoy 等内嵌 Brotli 的软件，未打补丁的接受压缩输入的服务器（如接受 curl --compressed 的客户端）可被恶意对端接管。",
+     "time": "10/24 07:55（4 小时前）",
+     "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.newcomer.co/p/the-story-of-anthropics-cap-table",
-     "permalink": "https://aihot.news/items/shd9gpw42uwoxqtenpzhy1je4",
-     "reason": "文章基于投资人文件和多方信源还原 Anthropic 的股权结构，解释了为何风投早期缺席、如今持股均不超 2%。",
-     "score": 81,
-     "source": "Newcomer 新闻长文（RSS）",
-     "summary": "Newcomer 长文复盘 Anthropic 从 OpenAI 出走团队到即将 IPO 的股权演变。据投资人文件和多位知情人士，多年来风投因公司治理结构和安全优先路线而观望，目前没有任何风投机构持股超过 2%，Anthropic 曾向投资人明确将单一投资人持股控制在该水平以避免话语权集中。",
-     "time": "10/23 00:53（11 小时前）",
-     "title": "Anthropic 股权表内幕：风投迟到多年，如今无人持股超 2%"
+     "origin_url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+     "permalink": "https://aihot.news/items/ih894crlfahslc0pttsw80r0c",
+     "reason": "这篇汇总在梳理 PHP2Shell 事件时间线时明确区分了经证实的细节与未经核实的传言，适合想了解 AI 辅助漏洞发现现状的读者。",
+     "score": 84,
+     "source": "Latent Space（RSS）",
+     "summary": "Latent Space 的 AINews 汇总梳理了 PHP 核心漏洞 PHP2Shell（CVE-2026-109618、CVE-2026-109619）的披露时间线，研究者在 PHP 引擎的内存溢出和致命错误处理中发现缺陷，演示了对 WordPress、Drupal、Joomla 的预认证 RCE 和远程内存泄露。",
+     "time": "10/22 16:42（1 天前）",
+     "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-     "permalink": "https://aihot.news/items/w7axcg0e1y7uoyro92cmanong",
-     "reason": "原文梳理了 SpaceX 与特斯拉合并讨论背后的财务动机、Musk 投票权变化和薪酬条款，读者可以借此区分叙事与利益。",
-     "score": 79,
-     "source": "The Verge：AI（RSS）",
-     "summary": "The Verge 作者 Elizabeth Lopatto 分析 SpaceX 和 Tesla 各自成立特别委员会讨论合并一事。",
-     "time": "10/23 04:45（7 小时前）",
-     "title": "The Verge 分析 SpaceX 与特斯拉成立特别委员会讨论合并背后的财务逻辑"
+     "origin_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+     "permalink": "https://aihot.news/items/ss1c1fu81134agwcw2ae90gai",
+     "reason": "OpenAI 亲述前沿模型训练环境的安全架构与红队结果，读者可以了解沙箱逃逸、缓存侧信道等真实攻击路径及纵深防御做法。",
+     "score": 83,
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "summary": "OpenAI 介绍其前沿模型训练与评估环境的安全加固措施，包括训练期间不接入互联网、构建离线缓存网页世界、以纵深防御多层隔离，并用最强模型（含即将推出的 GPT‑6 Astra Cyber）组成智能体团队进行高算力红队测试。",
+     "time": "10/23 19:00（17 小时前）",
+     "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试"
     },
     {
      "from7d": false,
-     "origin_url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-     "permalink": "https://aihot.news/items/m34xrhmqj1is6d1v1jna3ed46",
-     "reason": "原文汇总了 NSA、NCSC 和白宫对 PHP 漏洞的处置表态，还引出 OpenAI 关于前沿 AI 发现漏洞的争议。",
-     "score": 77,
-     "source": "Ars Technica：AI（RSS）",
-     "summary": "PHP2Shell 漏洞在被披露前四天已遭黑客利用，Calif 与 Wiz 的研究人员发现这些漏洞。OpenAI 称其前沿 AI 在攻击者之前发现了漏洞，并与 PHP、Calif、Wiz 合作验证并开发补丁。NSA 建议无法立即更新的机构将系统离线，英国 NCSC 表示漏洞可能让黑客无需登录凭据即可控制网站服务器，白宫称联邦机构正在评估对政府系统和关键基础设施的潜在影响。",
-     "time": "10/23 00:25（12 小时前）",
-     "title": "PHP2Shell 漏洞披露前黑客已有四天窗口，多国机构紧急响应"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-     "permalink": "https://aihot.news/items/r557iovkk5v7ddt8py86ejctv",
-     "reason": "报道给出 Symantec 蜜罐截获的完整攻击提示与五层越狱结构，读者可以据此了解暴露模型端点面临的真实风险。",
+     "origin_url": "https://www.ithome.com/1/017/113.htm",
+     "permalink": "https://aihot.news/items/shi5tga503u6jcb3itberbm18",
+     "reason": "政策文件列出创造就业新模式、开发新职业、减缓替代影响等具体举措，可了解官方对 AI 就业问题的应对框架。",
      "score": 76,
-     "source": "The Decoder：AI News（RSS）",
-     "summary": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。",
-     "time": "10/22 20:30（16 小时前）",
-     "title": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击"
+     "source": "IT之家·人工智能",
+     "summary": "国务院办公厅 10 月 23 日印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》，提出增强 AI 创造就业机会、赋能传统岗位的正面效应，有效减缓 AI 应用的就业替代影响。",
+     "time": "10/23 18:17（18 小时前）",
+     "title": "国务院办公厅印发意见：增强 AI 创造就业正面效应，减缓就业替代影响"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/rohanpaul_ai/status/2113511968112042349",
+     "permalink": "https://aihot.news/items/mc8widr5lukck9npmgeat917x",
+     "reason": "WSJ 报道结合 Astra 模型透明度争议，交代了解雇事件与内部安全调查的来龙去脉。",
+     "score": 76,
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "summary": "据 WSJ 报道，OpenAI 安全人员发现 3 名安全研究员与一名外部安全研究员使用阅后即焚的 Signal 聊天后将其解雇。",
+     "time": "10/23 15:04（21 小时前）",
+     "title": "WSJ：OpenAI 因 Signal 阅后即焚聊天解雇 3 名安全研究员"
     }
    ],
    "slug": "industry"
   }
  ],
- "generated_at_jst": "2026-10-23 12:31 JST",
+ "generated_at_jst": "2026-10-24 12:31 JST",
  "hot_topics": [
   {
    "permalink": null,
-   "source_count": 11,
-   "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
-  },
-  {
-   "permalink": null,
-   "source_count": 10,
-   "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
-  },
-  {
-   "permalink": null,
-   "source_count": 8,
-   "title": "1Password 推出智能体代登录平台，多家接入"
-  },
-  {
-   "permalink": null,
-   "source_count": 2,
-   "title": "DeepSeek新一轮融资升至约150亿美元"
+   "source_count": 19,
+   "title": "月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出"
   },
   {
    "permalink": null,
    "source_count": 7,
-   "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持"
+   "title": "OpenAI 前沿训练断网，红队测出 Brotli 漏洞"
+  },
+  {
+   "permalink": null,
+   "source_count": 2,
+   "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
   },
   {
    "permalink": null,
    "source_count": 5,
-   "title": "微软发布MAI-DxO诊断系统，称准确率超急诊医生"
+   "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
+  },
+  {
+   "permalink": null,
+   "source_count": 1,
+   "title": "Apple折叠屏iPhone Duo发布并开售"
+  },
+  {
+   "permalink": null,
+   "source_count": 7,
+   "title": "1Password 推出智能体代登录平台，多家接入"
   }
  ],
  "kol_cards": [
@@ -6051,7 +6040,7 @@
    "field": "agent",
    "kol_name": "Andrej Karpathy",
    "latest_date": "2026-10-12",
-   "latest_view": "Andrej Karpathy says this AI gap is widening - Business Insider",
+   "latest_view": "Anthropic's Andrej Karpathy says \"the external world has seen ...",
    "name_zh": "安德烈·卡帕西",
    "rating": "★★★★★",
    "role": "AI 教育者、前 Tesla Autopilot 负责人、OpenAI 创始成员",
@@ -6838,6 +6827,19 @@
      "translation": "“公众大多没有与这些系统互动过，”Karpathy周日在X上写道。“当他们互动时，看起来就像一个愚蠢的聊天机器人。”\n\nKarpathy表示，他是在跟进他四月份关于AI用户之间日益扩大的差距的观察。仅仅六个月后，这位创造了“vibe coding”一词的著名AI研究人员认为，这种差距不再像他在四月份所说的那样是“两组人彼此交谈不畅”，而更像是一个“尖锐的漏斗”。\n\n从四月份的这条推文中拂去灰尘，因为这种对LLM（大型语言模型）能力的共同理解的差距正在*扩大*。现在不再是“两组人彼此交谈不畅”，而是一个尖锐的漏斗。- 根据某处的草算，大约60亿人（约占人口的75%）几乎没有接触过……https://t.co/79xGhQdf1n\n\nKarpathy说，情况是，根据他的估计，世界上大约75%的人口“几乎没有接触过”大型语言模型。\n\n至于其他人，Karpathy表示，大约10到20亿人“是免费版ChatGPT类产品的随意和不频繁的用户。”在聊天机器人用户和那些使用前沿模型进行编码的人之间存在更大的差距，Karpathy估计这一群体大约有2000万人，占人口的0.2%。\n\n他写道，这个群体看到“过去需要他们花费数周或数月的大型复杂项目现在可以通过一个提示由代理完成。”\n\n最小的群体，Karpathy估计只有5000人，由那些由于在领先公司工作而拥有前沿AI系统内部访问权限的人组成。Karpathy表示，OpenAI Hugging Face泄露事件显示了未来的趋势。\n\n“看起来像是成千上万的代理在几周内合作进行软件大型项目：铸造零日漏洞，以机器速度进行网络攻击和防御，发现新科学，推进数学前沿，”他写道。“这些事情过去需要行业顶尖专业人士多年的工作。”\n\nAI进步的速度如此之快，Karpathy说，人类正在努力快速审查输出结果。\n\n在你的一天中休息一下，看看你能走多远。\n\n想在你的新闻推送中看到更多Business Insider的内容？在Google中添加BI，这样当你搜索重要内容时，我们的报道更容易找到。\n\n“例如，人们仍在参与几个月前OpenAI-HF事件的‘考古’工作，”他写道。“数学家可能会花一段时间研究前沿数学的722篇手稿。”\n\nBox CEO Aaron Levie表示，Karpathy的帖子是“理解我们在AI扩散中实际上处于多早期的一个好方法。”\n\n“绝大多数人正在将AI用作简单交互的聊天机器人，以模拟下一代搜索，”他写道。“这非常有用，但严重低估了AI的全部能力。”\n\nY Combinator CEO Garry Tan表示，现在是加入AI实验室的时刻。\n\n“今天成为5000人中的一员，”他在X上写道。“这很了不起。”",
      "translation_len": 1134,
      "url": "https://www.businessinsider.com/andrej-karpathy-ai-gap-widening-usage-2026-10"
+    },
+    {
+     "date": "2026-10-12",
+     "date_method": "jsonld",
+     "detail": "Oct 12, 2026 · Andrej Karpathy, co-founder of OpenAI and now at Anthropic, sees a widening knowledge gap in AI. About 75 percent of the world's population has barely touched LLMs. Roughly 5,000 people, meanwhile, have access to internal frontier systems whose agent swarms do work that would take top experts years. The public, at best, sees a weird chatbot.",
+     "explain": "安德烈·卡帕西指出，公众对人工智能（AI）能力的理解与实际技术进展之间存在巨大差距。大多数人将聊天机器人视为更好的搜索工具，而实际上，内部的前沿系统已经能够完成需要顶尖专家多年才能完成的任务。他将大型语言模型（LLM）的用户分为四个层次。大约六十亿人几乎没有接触过这些模型，约一到二十亿人是免费版本的随意用户，他们将其视为更好的搜索工具或写作辅助。即便是许多非数学和编程领域的专业人士也在这一层次，他们对AI的理解仍然是间接和抽象的。\n\n第三层次约有两千万专业用户，他们使用前沿级别的LLM进行数学和编程工作，亲身体验到复杂项目可以通过简单的提示由AI代理完成，例如构建、复制、翻译和反编译应用程序。卡帕西提到，这种转变发生得非常迅速。2024年10月，他还认为AI代理主要是营销噱头，但几个月后，他完全停止手动编写代码，转而让AI代理处理工作。\n\n大约五千人拥有对内部前沿系统的访问权限，他们看到的是成千上万的AI代理协作完成软件巨型项目，例如发现新的科学、进行网络攻防等，这些任务通常需要行业顶尖专业人士多年才能完成。然而，人类的审查和理解能力开始落后。卡帕西称这为“当前时刻的怪异”，因为大多数公众和专业人士尚未真正体验到这些系统的全部潜力。\n\n他指出，LLM的能力在数字、可验证和经济价值高的领域达到顶峰，因为这些领域的回报可以通过强化学习得到验证，公司也将资源投入到这些最具经济潜力的领域。目前，这主要体现在编程和数学方面。OpenAI的CEO也曾表示，当前的AI工具可以在短时间内完成过去需要数月的工作，强调世界尚未意识到这将带来的影响。",
+     "gist": "安德烈·卡帕西认为，尽管公众对 AI 的理解有限，但前沿系统已能在数周内完成顶尖专家需数年才能完成的复杂任务。",
+     "merged_at": "2026-10-24",
+     "origin": "daily",
+     "text": "Anthropic's Andrej Karpathy says \"the external world has seen ...",
+     "translation": "OpenAI的联合创始人Andrej Karpathy描述了人们对AI能力理解上的差距正在迅速扩大。虽然公众将聊天机器人视为更好的谷歌搜索，但内部前沿系统已经在处理需要顶级专家数年才能完成的任务。\n\nKarpathy将大型语言模型（LLM）的用户群体分为四个层次。大约有六十亿人，约占全球人口的75%，几乎没有接触过LLM。另有一到二十亿人是免费版ChatGPT类产品的普通用户，他们将其视为“有点像更好的谷歌搜索、写作辅助工具等。”\n\n即使是许多数学和代码领域之外的专业人士也属于这一层次。高管和类似职位的人大部分时间都在与他人交流，因此“虽然他们在智力上理解正在发生的事情，但这仍然是间接的，有点抽象，”Karpathy写道。\n\n第三层涵盖了估计约两千万人，约占全球人口的0.2%。这些是数学和代码领域前沿级LLM的专业用户，他们亲眼看到“过去需要他们数周或数月的大型复杂项目现在可以由代理通过提示完成。”Karpathy列举了“构建应用程序、复制应用程序、翻译应用程序、从二进制文件反编译应用程序”等例子。\n\n他补充说，这种转变发生得很快。2024年10月，Karpathy称AI代理主要是几乎不起作用的营销工具。仅仅几个月后，他完全停止手动编写代码，从“逐字逐句地在代码编辑器中输入记忆的计算机代码命令”转变为让代理处理工作。随后，他加入了Anthropic，尽管他是OpenAI的联合创始人。\n\n根据Karpathy的估计，大约有5,000人，约占全球人口的0.00006%，可以访问内部前沿级系统。“外部世界已经看到了预览，”他写道。这个群体看到的“看起来像成千上万的代理在数周内合作进行软件大型项目：铸造零日漏洞、以机器速度进行网络攻击和防御、发现新科学、推进数学前沿。”这些是“需要行业顶级专业人士多年工作的事情。”\n\n与此同时，“人类的审查和理解开始落后。”他指出人们仍在对几个月前的OpenAI-HF事件进行“考古”，并指出数学家“可能会在前沿数学的722篇手稿上研究一段时间。”\n\nKarpathy称这是“当下的怪异之处。”普通公众大多没有与这些系统互动，“即使有，也看起来像个笨拙的聊天机器人。”大多数专业人士仍然只看到“仅有的适度提升。”而“一小部分专业人士正在经历曲线垂直上升的眩晕。”所有这一切都在同时发生。\n\nOpenAI的CEO Sam Altman在九月初的G20创新部长会议上提出了类似的说法，称当前的AI编码工具可以在“17分钟内”完成一家初创公司之前花费三个月构建的内容。“世界还没有赶上这将意味着什么，”Altman说。\n\nKarpathy表示，LLM能力目前在“数字化、可验证和经济价值高”的领域达到顶峰。这是因为它“源于对可验证奖励的强化学习”，公司将其训练资源导向具有最高收入潜力的领域。目前，这意味着编码和数学。",
+     "translation_len": 1182,
+     "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/"
     }
    ]
   },
@@ -19639,8 +19641,8 @@
    "domain": "economics",
    "field": "ai-capex-markets",
    "kol_name": "Gavin Baker",
-   "latest_date": "2026-09-15",
-   "latest_view": "What Smart People Say About Calls From AI... - Business Insider",
+   "latest_date": "2026-10-22",
+   "latest_view": "Gavin Baker on AI Data Centers and the No Dark GPUs Case",
    "name_zh": "加文·贝克",
    "rating": "★★★★",
    "role": "Atreides Management 管理合伙人兼首席投资官",
@@ -19764,6 +19766,19 @@
      "translation": "物种毁灭的可能性促使AI（人工智能）领导者在这个周末做了一件非凡的事情：他们达成了一致意见。在前Anthropic工程师Jacob Coxon关于即将到来的AI末日的警告在科技界和政界引发轩然大波后，最先进的AI实验室的领导者达成了一项初步协议——主要通过在X平台上的帖子——认为某种程度的减速是拯救人类所必需的。\n\n尽管他们在这种事情的具体操作上大多缺乏细节，且值得注意的是中国尚未发表意见，但美国的AI行业已经达到了一个可能影响从手机聊天机器人到全球政治的转折点。Anthropic的CEO Dario Amodei在一篇题为《我们必须放缓前沿》的文章中写道：“赌注太高，不能让节奏成为一场空洞的练习——我们需要明智地利用它给我们的时间。”这篇文章于周六发表。\n\nOpenAI的CEO Sam Altman在当天晚些时候的X平台帖子中表示同意。Elon Musk也表示赞同。Google DeepMind的创始人Demis Hassabis也对Amodei的提议表示支持。以下是一些聪明人对AI末日的看法，以及领先AI实验室的领导者们认为阻止它所需的方法。\n\n前总统Barack Obama在一份声明中表示，政府必须在监管AI方面“积极主动”以解决安全问题，并称赞前沿AI领导者在没有点名具体高管的情况下，通过发声迈出了“第一步”。奥巴马写道：“鉴于我们对技术的了解，我们无法将AI重新装进盒子。但我们可以共同决定它的发展方式和使用方式，而不是坐视AI及其后果发生在我们身上。”\n\n在X平台上发布的包含声明的帖子中，这位前总统似乎也支持由硅谷亿万富翁投资者Ron Conway支持的新政策倡议Project Blueprint。该倡议旨在与国会山的民主党人一起制定AI政策。Jay Carney，第二任奥巴马政府的前白宫新闻秘书，被选中领导该项目。\n\n在金融危机前因押注房地产市场而成名的Burry在周日晚些时候的X平台帖子中表示，Altman、Amodei和其他人推动减速是“自私自利”的。《大空头》的投资者和Substack作家给出了四个理由，包括减速“有利于现有企业”并阻碍较小的竞争对手，以及此类呼吁可能为备受期待的AI公司IPO（首次公开募股）造势。\n\n特朗普政府一再表示对监管AI开发不感兴趣，因为它试图跟上中国的步伐。总统科学技术顾问和前白宫AI主管David Sacks在周六重申了这一立场，但略有变化。Sacks在X平台上写道：“Dario写道我们需要‘放缓前沿’，Sam也同意。人们可能会对我的回应感到惊讶：继续吧。但别再假装你需要别人的许可。”\n\nSacks在他的帖子中抨击了OpenAI和Anthropic，称这些公司不想出于利他主义原因放慢速度，而是为了在市场上获得好感。他谈到减速时说：“如果你这样做，你将在下一次对话中赢得好感。”\n\n“如果你不这样做，我们就知道这只是另一个争取监管俘获的尝试——或者是选举季的心理战。”他在随后接受CBS News采访时进一步批评。\n\n“嗯，我认为如果Dario认为我们将会有最糟糕的结果，我对他的疑问是，‘你为什么要这样做？’”Sacks说。他表示，他会把这个问题推回给Amodei，问他在做什么来确保前沿AI（人工智能）的安全，如果他做不到，他“可能应该关闭公司，或者让位给其他人来领导。”\n\nHugging Face的CEO表示，AI安全不能仅仅依赖于前沿实验室。Hugging Face作为一家专注于开源的AI公司，一直推动模型和研究更开放地共享，而不是闭门不出。Delangue说，他的公司正在启动他称之为“开放对齐倡议”的项目，并要求将其纳入Amodei提议的第三方评估计划中。“让我们通过让AI更透明来使其更安全！”他写道。\n\n投资者、“All-In”播客主持人和行业专家Jason Calacanis比其他人更怀疑AI实际上会导致世界末日。在一篇X的帖子中，Calacanis说Anthropic和OpenAI，其最先进的模型不是开源的，正试图通过推动更容易让资金雄厚的现有公司遵守的法规来削弱开源AI公司。“如果你想要安全，你就需要披露——而开源是最终的披露过程，”他写道。在一篇标记Amodei的后续帖子中，Calacanis说，“不要去政府哭诉，求他们放慢开源模型的速度。”\n\n来自佛蒙特州的参议员在9月3日提出立法，禁止开发和部署人工超级智能，并暂时暂停开发先进的AI系统。在Coxon从Anthropic辞职并警告前沿AI实验室在“拿我们的生命赌博”后，Sanders抓住了他的评论。“Coxon先生是对的，”Sanders在X上说，认为那些构建先进AI的人自己已经说过它可能带来灾难性的风险。\n\n在Amodei周六的博客文章之后，Sanders呼吁特朗普达成“世纪协议”。“在人类未来岌岌可危的情况下，特朗普必须与中国国家主席习近平谈判达成一项全面条约，以暂停先进AI的发展并禁止超级智能，”他在X上写道。\n\nAI研究员、开源软件库Keras的创建者Francois Chollet在X上表示，他希望OpenAI和Anthropic是出于善意行事。“如果这些努力是真诚的，那么监督必须采取更民主和负责的形式，具有国家和国际的组成部分，”他说。他指出了几个迹象，表明呼吁更多监管实际上是OpenAI和Anthropic抑制竞争的伎俩。他提到的警告信号包括呼吁禁止开源AI和阻碍非前沿研究。\n\n风险投资家Gavin Baker表示，来自总统Donald Trump的行政命令“在这一切之后似乎很有可能。”他说，“可以在不将其集中在少数公司手中的情况下，广泛而安全地民主化和分发AI。”Baker说，到目前为止最具体的发展是OpenAI和Anthropic决定引入外部评估者，他说这一步骤可以帮助公司展示他们采取了合理的措施来防止伤害。然而，他警告不要出台将强大AI系统的控制权集中在少数公司手中的法规。\n\n“我不希望少数人类控制智能，”Baker写道。\n\n云内容公司Box的联合创始人兼CEO Aaron Levie表示，Amodei在其文章中所阐述的目标是“AI（人工智能）发展中的绝对必要条件”。\n\n“我们完全有理由希望这些系统是安全且‘对齐’的，”Levie在X上说。\n\nLevie表示，他不认为Amodei在寻求会阻碍Anthropic开源竞争对手的不当监管。\n\n“我们如何在不实质性减缓创新进程或减少竞争的情况下实现这一目标，是21世纪最复杂的问题之一，但这种需求显然是真实存在的，”他说。\n\n风险投资家Chamath Palihapitiya表示，Anthropic现在陷入了自己制造的矛盾中。\n\n他说，如果员工真的相信公司的技术可能构成生存威胁，这在Anthropic准备可能的IPO（首次公开募股）时会造成重大责任和披露问题。\n\n“他们确实需要做出选择，”Palihapitiya在“All-In”播客中说。他表示，Anthropic必须要么与Coxon的警告保持距离，要么接受其影响。\n\n他对灭绝情景本身也持怀疑态度，称AI（人工智能）消灭人类所需的事件链仍然看起来极不可能。\n\n著名的AI反对者Gary Marcus表示，目前存在的AI几乎不构成威胁。\n\n“我厌倦了角色扮演，现在要直言不讳，”他周日在X上写道。\n\n“我们需要担心的主要AI类型是连接到互联网的通用AI代理。它们大多数不可靠，无法系统地遵循指令。结合互联网访问，它们可以破解凭证和网站；随着时间的推移，它们可能会做得更糟，”他写道。\n\n他补充说，问题不在于AI代理太聪明，而在于它们太笨，他说这从它们无法遵循指令的方式中显而易见。\n\n“我们（目前）不需要减速。我们当然不需要恐慌，”他写道。“我们只需要将不安全的产品撤出市场。”\n\nMeta的首席AI官Alexandr Wang在X上表示，对齐可能成为公司扩展越来越强大的AI系统速度的主要限制。\n\n“对齐对于为每个人提供个人超级智能是基本的，”他说，使用了技术术语，指AI遵循人类指令而不失控。\n\n微软的CEO兼董事长Satya Nadella表示，他欢迎Amodei关于嵌入评估者的概念以及“开发机制以使其不仅仅是空谈的更广泛努力”。\n\n“关键是这不能由少数实体控制，而必须在整个生态系统、国家和领域，包括学术界中有广泛的代表性，”他在X上说。\n\nNadella表示，微软将很快发布微软AI模型的“行为准则”。\n\n“任何对超级智能的追求都必须基于这样一个核心原则：如果我们构建的AI没有帮助人类并在人类控制之下，那就不值得追求，”他说。\n\n特朗普的前AI高级顾问Dean Ball表示，引入独立的安全评估者并不是一个新概念；在其他行业中广泛实践。\n\n“让我们记住，我们不需要在这里重新发明轮子。独立评估在其他行业中很常见。我们在类似背景下已经定义了独立性，”他在X上写道。“我们不是盲目飞行。”\n\n在早些时候的X帖子中，他表示欢迎对AI评估者独立性的审查。\n\n“人们激烈讨论前沿AI行业评估者的资质真是太棒了，”Ball写道。“我们在讨论独立性真正意味着什么，这真是太棒了。”\n\nAI研究员和非营利组织机器智能研究所的创始人Eliezer Yudkowsky呼吁美国人不要将潜在的AI末日视为党派问题。他的研究所专注于防止超级智能AI导致人类灭绝。\n\n“目前没有比‘不要死于AI’更重要的事情了，这应该成为一个两党项目，而不是一个民主党极化的问题，”Yudkowsky在X上写道。\n\n“如果你有任何可以在这上面花费的政治资本，请现在就这样做，我求你了。”\n\n“生死攸关，”他补充道。\n\n亿万富翁科技投资者Mark Cuban没有对AI（人工智能）本身带来的生存危机发表看法，但对接下来可能发生的事情有自己的见解。他在周一的一篇X帖子中写道，社交媒体算法正在放大反AI情绪，“Meta和Google将试图通过推动人们憎恨AI来赚取足够的钱，以补贴他们的AI。”他还使用X的内置Grok功能写了几篇帖子，要求聊天机器人比较AI和气候变化导致人类灭绝的概率。\n\nBlock的CEO和Twitter（现为X）的联合创始人Jack Dorsey不同意减缓AI发展是解决潜在AI灾难的主要方法的观点。在周一的一篇长篇X帖子中，这位高管表示，他支持更大的独立审查、更多的开源AI替代方案，以及允许小型参与者获得发展空间而不是巩固前沿AI实验室的规则。“如果合理的限制减缓了进展，我接受这一点，”他写道。“我不希望进展缓慢成为目标或现有企业的永久优势。”",
      "translation_len": 4335,
      "url": "https://www.businessinsider.com/ai-risks-slow-down-reaction-anthropic-dario-amodei-sam-altman-2026-9"
+    },
+    {
+     "date": "2026-10-22",
+     "date_method": "jsonld",
+     "detail": "Gavin Baker and David George compare AI demand with dark fiber, discuss future capital returns, and explore why AI changes software gross margins.",
+     "explain": "在这次播客中，加文·贝克讨论了当前人工智能（AI）基础设施投资是否类似于过去的电信泡沫。他指出，虽然电信泡沫时期有大量未使用的光纤，但目前的图形处理单元（GPU）需求非常旺盛，这表明AI领域的情况有所不同。他用“没有闲置的GPU”来总结这一观点，强调当前的市场需求与过去不同。贝克认为，尽管目前的投资回报率有所提高，但未来更大规模的投资回报仍存在不确定性。\n\n贝克还指出，AI的计算密集型特性意味着软件公司可能需要接受较低的毛利率。他警告说，过于坚持传统的利润结构可能会阻碍公司开发客户真正需要的产品。他举例说，像Figma这样的公司在计划大力推广AI工具时，毛利率可能会下降，但这并不意味着公司无法成功。关键在于评估额外的计算成本是否支持了有价值的客户使用，而不是简单地将利润率下降视为失败。\n\n此外，贝克提到，大型科技公司拥有数据、资本、计算能力和分销渠道，这使得AI可能成为一种持续的创新。然而，这些资源只是机会，并不保证成功。他强调，市场仍处于早期阶段，预测应用程序的赢家需要保持谦逊。贝克回忆起2000年左右的科技投资经历，指出当时电信公司自豪地展示了大量未使用的光纤，而这些光纤需要设备才能变得有用。他用这一历史对比来说明AI基础设施的强劲需求。\n\n最后，贝克和主持人都认为，当前的基础设施利用率和经济效益需要与未来更大规模投资的经济学区分开来考虑。他们一致认为，毛利率的变化需要与使用情况、收入机会和战略结合起来考虑，而不是仅仅维持旧的百分比作为目标。",
+     "gist": "加文·贝克认为当前的GPU需求和投资回报率将AI与电信泡沫区分开，但对下一波投资回报持不确定态度。",
+     "merged_at": "2026-10-24",
+     "origin": "daily",
+     "text": "Gavin Baker on AI Data Centers and the No Dark GPUs Case",
+     "translation": "播客：The a16z Show\n集数：“Is there an AI bubble?”\nGavin Baker 和 David George Guest：Gavin Baker，Atreides Management 的管理合伙人兼首席信息官\n主持人：David George，a16z 的普通合伙人\n发布时间：2025年10月30日\n时长：31分钟53秒\n原始版本：在YouTube上观看\n\n摘要：Gavin Baker 和 David George 探讨了AI基础设施支出是否类似于电信泡沫。Baker 对比了未使用的光纤与活跃的GPU（图形处理单元）需求，然后讨论了资本回报、竞争性芯片投资和前沿模型的经济学。他们的对话还考虑了为什么软件公司可能需要接受较低的毛利率，现有企业可能如何应对，以及为什么预测应用程序的赢家仍然困难。\n核心问题：AI基础设施投资的规模是否表明投机过度，或者当前的使用和商业经济学是否为与电信繁荣不同的解释提供了理由？\n核心论点：Baker 认为当前的GPU需求和回报将AI与电信泡沫区分开来，同时承认下一波支出是否能获得回报仍存在不确定性。\n重要性：对于创始人和技术领导者来说，讨论将基础设施利用与未来回报分开，并解释了为什么适应商业经济学可能比保持熟悉的利润率更重要。\nBaker 的核心对比是铺设的光纤没有所需的设备来使用它，而GPU则满足了强烈的需求。他的短语“没有闲置的GPU”总结了他为什么拒绝简单地重演电信泡沫。这是他在录制时的市场评估，而不是一个经过衡量的声明，声称每个地方的GPU都在持续运行，或者未来不会出现过剩。\n关键要点：在根据建设规模得出结论之前，检查基础设施是否正在被使用。\nBaker 指出主要GPU买家的投资资本回报率有所改善，作为迄今为止支出的支持证据。然后他称下一波更大的Blackwell投资的回报是一个开放的辩论。这一区别很重要：一个企业今天可以拥有生产性资产，同时对其下一次扩张的经济学感到不确定。他的乐观态度并没有消除这个前瞻性的问题。\n关键要点：将过去投资表现的证据与对下一轮支出的假设分开。\nBaker 认为，计算密集型AI不能简单地继承早期SaaS（软件即服务）产品的毛利结构。他警告说，保护熟悉利润率的软件公司可能会犹豫不决，无法构建客户想要的产品。George 补充说，较低的利润率可以表明实际的AI消费。两者的论点都没有将低利润率作为健康业务的充分证据；讨论集中在增长、使用和变化的经济学上。\n关键要点：评估额外的计算成本是否支持有价值的客户使用，而不是将利润率下降视为自动失败。\nBaker 说，主要技术公司拥有数据、资本、计算访问和分销，这可能使AI成为他们的持续创新。但他将这些资源视为机会，而不是保证的结果。他还敦促对应用程序赢家保持谦逊，因为市场还处于早期。由此产生的紧张关系在于强大的起始位置与有效响应的组织能力之间。\n关键要点：区分拥有竞争资源与实际执行成功产品战略。\n回忆起他在2000年左右作为技术投资者的经历，Baker 描述了电信公司自豪地展示他们铺设了多少未使用的光纤。这些光纤仍然需要两端的设备才能变得有用。他利用这些展示来对比一个因物理容量而受到庆祝的建设与他对AI基础设施已经面临强劲需求的看法。\n重要性：当与实际利用和经济学相联系时，容量公告更具信息性。\nGeorge 回忆起Figma告诉投资者它计划积极分发AI工具，并且毛利率将下降。在他的描述中，投资者提出了澄清性问题，然后将这种变化视为潜在的积极因素。\n\n他在讨论公共软件公司是否可以在不将每一次利润率下降视为挫折的情况下传达对AI（人工智能）的投资时，举了这个例子。 \n\n重要性：清晰的沟通可以帮助解释为何变化的成本结构支持产品战略。 \n“没有闲置的GPU（图形处理单元）。” — Gavin Baker, 00:04:42 “我认为谦逊是投资者的重要美德。” — Gavin Baker, 00:10:45 “他们的毛利率结构性地会更低，但这并不意味着他们不能成为伟大的企业。” — Gavin Baker, 00:13:56 \n\n97% — 泡沫高峰期的暗光纤：Baker说在电信泡沫的高峰期，美国铺设的光纤中有这部分是未点亮的。他将其作为历史比较，而不是当前AI容量的衡量标准。00:04:31 150倍在17个月内 — 代币增长：George引用了Google关于处理代币的统计数据，以说明基础设施支出伴随使用量的增加。该段未定义确切的产品范围，也未将每个代币与付费需求联系起来。00:03:01 3-4万亿美元在五年内 — 计划扩张：George描述了这一计划中的美国数据中心扩建。这是节目中讨论的前瞻性建设数字，而非已完成的投资。00:02:26 大约10个百分点 — ROIC（投资资本回报率）增加：Baker说主要的GPU支出者在增加资本支出后大约看到了这样的改善。这是他报告的比较，而不是AI单独导致增加的证据。00:05:04 \n\n主持人观点：George将大型基础设施承诺与快速的代币增长并列，并询问这些相互竞争的信号是否表明AI泡沫。 \n嘉宾观点：Baker认为活跃的GPU需求和当前的回报将这种情况与2000年的暗光纤区分开来，同时明确表示下一波支出的回报仍有待讨论。 \n他们的共识：在谈话时双方都看到有意义的采用。他们的讨论将这些证据与未来更大承诺的未解决经济问题分开。 \n\n主持人观点：George询问AI如何改变软件经济，并观察到较低的利润率可能是客户实际在使用AI功能的标志。 \n嘉宾观点：Baker警告不要以牺牲AI竞争为代价来维持旧的利润率结构。他将早期的云转型作为适应商业模式的类比。 \n他们的共识：利润率变化需要与使用、收入机会和战略一起考虑。他们不将维持旧的百分比作为唯一目标。",
+     "translation_len": 2402,
+     "url": "https://www.linkedin.com/pulse/gavin-baker-why-ais-data-center-boom-has-dark-gpus-podcast-leo-wade-ou7wc"
     }
    ]
   },
@@ -22061,5 +22076,5 @@
   }
  ],
  "kol_count": 61,
- "news_total_24h": 19
+ "news_total_24h": 15
 }
