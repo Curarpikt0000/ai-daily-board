@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.947
+    "weighted": 1.939
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.992
+    "weighted": 1.985
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.796
+    "weighted": 1.789
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.499
+    "weighted": 1.493
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.522
+    "weighted": 1.516
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.404
+    "weighted": 1.398
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 0.994
+    "weighted": 0.99
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.18
+    "weighted": 1.176
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.077
+    "weighted": 1.073
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.481
+    "weighted": 1.476
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.351
+    "weighted": 1.345
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.464
+    "weighted": 1.459
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 0.997
+    "weighted": 0.994
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.448
+    "weighted": 1.442
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.177
+    "weighted": 1.173
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.576
+    "weighted": 1.569
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.746
+    "weighted": 0.744
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.944
+    "weighted": 0.94
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.955
+    "weighted": 0.951
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.694
+    "weighted": 0.788
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.755
+    "weighted": 0.752
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.948
+    "weighted": 0.944
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.755
+    "weighted": 0.752
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.721
+    "weighted": 0.718
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.782
+    "weighted": 0.779
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.539
+    "weighted": 0.537
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.732
+    "weighted": 0.729
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.537
+    "weighted": 0.535
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.582
+    "weighted": 0.58
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.696
+    "weighted": 0.694
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.543
+    "weighted": 0.541
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.741
+    "weighted": -0.738
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.877
+    "weighted": -0.874
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.735
+    "weighted": -0.732
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.776
+    "weighted": -0.773
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.713
+    "weighted": -0.71
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.65
+    "weighted": -0.647
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.699
+    "weighted": -0.696
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.696
+    "weighted": -0.694
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.761
+    "weighted": -0.758
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.705
+    "weighted": -0.702
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.551
+    "weighted": -0.589
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.564
+    "weighted": -0.595
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.727
+    "weighted": -0.724
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.88
+    "weighted": -1.873
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.31
+    "weighted": -1.305
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.563
+    "weighted": -1.557
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.51
+    "weighted": -1.504
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.464
+    "weighted": -1.459
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.168
+    "weighted": -1.164
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.041
+    "weighted": -1.037
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.464
+    "weighted": -1.459
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.404
+    "weighted": -1.398
    }
   ],
   "distribution": {
@@ -684,7 +684,7 @@
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "directions": [
   {
    "count": 3,
@@ -692,36 +692,36 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-     "permalink": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
-     "reason": "官方完整说明了 Genie 4 的实时交互、原生音频和与 Gemini 协作机制，也坦陈当前在长时一致性和物理精度上的局限。",
-     "score": 73,
+     "origin_url": "https://openmoss.ai/blog/cn/moss-image/",
+     "permalink": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
+     "reason": "原文给出长文本渲染与布局评测数字及开放权重部署路径，读者可以据此判断它在文字密集图像任务中的适用边界。",
+     "score": 71,
+     "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
+     "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
+     "time": "10/29 01:00（11 小时前）",
+     "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/sundarpichai/status/2115489219804352921",
+     "permalink": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw",
+     "reason": "原文给出 Gemini 4 Carbon 在多项基准的数字和分阶段开放安排，读者可以据此比较它与 Argon 及竞品的表现。",
+     "score": 71,
+     "source": "X：Sundar Pichai (@sundarpichai)",
+     "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
+     "time": "10/29 02:01（10 小时前）",
+     "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "permalink": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+     "reason": "官方公布 Gemini 4 Carbon 的安全编码与长程任务成绩和定价，可据此外推其在网络安全防御场景的实际定位。",
+     "score": 68,
      "source": "Google DeepMind：Blog（RSS）",
-     "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
-     "time": "10/28 01:01（11 小时前）",
-     "title": "Google DeepMind 发布实时交互世界模型 Genie 4"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.liquid.ai/blog/lfm3",
-     "permalink": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
-     "reason": "发布方给出了六款 2B 级模型的架构细节、基准对比和单卡微调路径，读者可据此评估边缘侧专用模型的选型。",
-     "score": 69,
-     "source": "Liquid AI 模型与工程博客（网页）",
-     "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
-     "time": "10/27 01:00（1 天前）",
-     "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687902&idx=1&sn=9a57b3d769582b12d8645af23431743d",
-     "permalink": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m",
-     "reason": "文章梳理了 Genie 4 相比 Genie 3 的画质、实时控制、原生音频等变化，并用视频路线与高斯泼溅路线的对比帮助读者理解世界模型走向。",
-     "score": 65,
-     "source": "公众号：数字生命卡兹克",
-     "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
-     "time": "10/28 09:22（3 小时前）",
-     "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频"
+     "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+     "time": "10/29 02:00（10 小时前）",
+     "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型"
     }
    ],
    "slug": "scaling"
@@ -732,58 +732,58 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://www.langchain.com/blog/design-agent",
-     "permalink": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02",
-     "reason": "LangChain 复盘自研设计 agent 从早期差评到可用的过程，并开源了 harness，读者可借鉴其教品味、建环境和异步子代理的具体做法。",
+     "origin_url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+     "permalink": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
+     "reason": "OpenRouter 用五份 PDF 实测了多条抽取路由，给出严格 JSON schema 写法、两类静默失败的检查和各路由成本对比。",
+     "score": 76,
+     "source": "OpenRouter：Announcements（RSS）",
+     "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+     "time": "10/29 09:00（3 小时前）",
+     "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/",
+     "permalink": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb",
+     "reason": "OpenRouter 自己公布的路由算法实测数据与机制细节，读者可据此评估默认路由切换对现有调用成本和延迟的实际影响。",
+     "score": 72,
+     "source": "OpenRouter：Announcements（RSS）",
+     "summary": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
+     "time": "10/28 09:00（1 天前）",
+     "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/addyosmani/status/2115326629488824753",
+     "permalink": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb",
+     "reason": "作者亲自讲解 Claude Code Mods 的机制与上手方法，覆盖三个可复用的示例 mod，读者可照做搭建自己的定制界面。",
+     "score": 72,
+     "source": "X：Addy Osmani (@addyosmani)",
+     "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+     "time": "10/28 15:15（21 小时前）",
+     "title": "Addy Osmani 讲解如何上手 Claude Code Mods"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+     "permalink": "https://aihot.news/items/xonc43xgcx39303i40k8022rl",
+     "reason": "原文是 GitHub 官方对 Universe 2026 新品的集中说明，给出各功能的定位和关键数据，便于读者评估对现有工作流的影响。",
      "score": 71,
-     "source": "LangChain：Blog（RSS）",
-     "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
-     "time": "10/28 01:45（10 小时前）",
-     "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness"
+     "source": "GitHub Blog",
+     "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+     "time": "10/29 01:09（11 小时前）",
+     "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品"
     },
     {
      "from7d": false,
-     "origin_url": "https://x.com/GeminiApp/status/2115171788812669225",
-     "permalink": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
-     "reason": "Gemini 内置 SynthID 检测能力，用户可直接询问某文件是否为 Google AI 生成，提供了可上手的内容溯源方法。",
-     "score": 68,
-     "source": "X：Gemini (@GeminiApp)",
-     "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
-     "time": "10/28 05:00（7 小时前）",
-     "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
-     "permalink": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d",
-     "reason": "官方介绍 Cloud Agents 如何让非工程人员以经测试的 PR 参与公司代码库，含沙盒测试、skills 沉淀与共享环境等机制。",
-     "score": 68,
-     "source": "Replit：Blog（RSS）",
-     "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
-     "time": "10/28 00:30（12 小时前）",
-     "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
-     "permalink": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo",
-     "reason": "官方新闻稿列出 Final Cut Pro、Logic Pro 与 Keynote 等应用的 AI 能力变化，读者可据此评估对创作工作流的影响。",
-     "score": 64,
-     "source": "Apple：Newsroom（RSS）",
-     "summary": "Apple 为 Creator Studio 推出更新，Final Cut Pro for Mac 内置 MotionVFX 视觉效果库并接入含视频素材的 Content Hub。",
-     "time": "10/27 01:00（1 天前）",
-     "title": "Apple Creator Studio 推出更新：Final Cut Pro 集成 MotionVFX，Keynote、Pages、Numbers 新增智能助手与 MCP 支持"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-     "permalink": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59",
-     "reason": "官方发布稿给出 M6 相对 M5 和 M1 的具体性能数字、端侧 AI 能力与售价，读者可据此评估是否值得升级。",
-     "score": 60,
-     "source": "Apple：Newsroom（RSS）",
-     "summary": "Apple 发布搭载全新 M6 芯片的 14 英寸 MacBook Pro，配备 12 核 CPU 和 12 核 GPU，相比 M5 图形性能最高快 30%、端侧 AI 工作负载最高快 25%，电池续航最长 24 小时。新机支持 Wi-Fi 7 和蓝牙 6，可本地运行 LLM，10 月 28 日开启预购、11 月 6 日发售，起售价 $1,999（教育优惠 $1,899）。",
-     "time": "10/27 01:00（1 天前）",
-     "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999"
+     "origin_url": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit/",
+     "permalink": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
+     "reason": "OpenRouter 实测了 Claude Code 走 API key 计费的真实成本，并提醒 Claude Code 自印的价格可能偏高。",
+     "score": 70,
+     "source": "OpenRouter：Announcements（RSS）",
+     "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+     "time": "10/28 09:00（1 天前）",
+     "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码"
     }
    ],
    "slug": "agent"
@@ -794,25 +794,25 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://www.anthropic.com/research/agents-judgment-calls",
-     "permalink": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0",
-     "reason": "原文用随机分配智能体倾向的实验设计量化了专家的从随程度，还讨论了这种影响难以察觉的原因和可能的改进方向。",
-     "score": 84,
-     "source": "Anthropic：Research（发表成果 · 网页）",
-     "summary": "Anthropic 发表研究，让 50 名有因果推断经验的专业分析师用 Claude Code（Claude Opus 4.8）完成一项统计分析任务，并在分析师不知情的情况下用掷硬币随机设定智能体在四个分析决策上的倾向。",
-     "time": "10/27 01:00（1 天前）",
-     "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策"
+     "origin_url": "https://www.ithome.com/1/019/268.htm",
+     "permalink": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
+     "reason": "原文梳理了五条攻击链的关键数字和影响范围，读者可据此评估 AI 自主挖掘漏洞的实际能力边界。",
+     "score": 81,
+     "source": "IT之家·人工智能",
+     "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+     "time": "10/29 07:35（4 小时前）",
+     "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链"
     },
     {
      "from7d": false,
-     "origin_url": "https://allenai.org/blog/novelty-bench",
-     "permalink": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6",
-     "reason": "原文给出了跨六个 LLM 裁判的敏感性实验数据，读者可据此判断现有新颖性评估在 AI 生成想法上的可靠性边界。",
-     "score": 64,
-     "source": "Ai2 / Allen Institute for AI（RSS）",
-     "summary": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。",
-     "time": "10/27 17:00（19 小时前）",
-     "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定"
+     "origin_url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+     "permalink": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr",
+     "reason": "Cartesia 原创研究给出 H-Net 替代 BPE 分词的对照实验与 3-5x 计算效率数据，可了解字节级学习的实际进展。",
+     "score": 60,
+     "source": "Cartesia 产品与研究",
+     "summary": "Cartesia 发布系列博客第一篇，报告其层级网络（H-Net）在字节级语言建模上的扩缩律结果：与严格匹配的 BPE Transformer 相比，1-stage H-Net 在验证损失上节省 1.28x 计算，下游评测约 2x，代码任务中位数 2.04x、分布外编程语言中位数达 3.10x（如 Prolog 5.37x）。",
+     "time": "10/27 09:00（2 天前）",
+     "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率"
     }
    ],
    "slug": "reasoning"
@@ -823,94 +823,94 @@
    "news": [
     {
      "from7d": false,
-     "origin_url": "https://latent.space/p/ainews-anthropic-s1/",
-     "permalink": "https://aihot.news/items/nbvleghbxraalsahhggnc6qov",
-     "reason": "原文梳理了 S-1 中的营收、毛利、现金与算力承诺等关键数字，并汇总多方的看多与质疑视角，方便读者快速理解这份文件的分歧点。",
-     "score": 88,
-     "source": "Latent Space（RSS）",
-     "summary": "Latent Space 汇总解读 Anthropic 公开提交的 S-1 文件，公司计划以代码 AN 上市纳斯达克，营收从 2023 年的 41M 美元增至 H1 2026 的 16.3B 美元，Q2 营收 11.6B 美元同比增长 1,368%，营业利润 974M 美元，H1 2026 毛利率达 85%。",
-     "time": "10/27 16:24（20 小时前）",
-     "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元"
+     "origin_url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
+     "permalink": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8",
+     "reason": "原文整理了 IPO 文件中的现金规模与未生效租约义务数字，读者可以据此对照 Anthropic 资产与长期承诺的缺口。",
+     "score": 85,
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
+     "time": "10/29 02:11（10 小时前）",
+     "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft"
     },
     {
      "from7d": false,
-     "origin_url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-     "permalink": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy",
-     "reason": "诉讼细节与 27 万条聊天记录呈现 GPT-4o 削药劝导过程，也暴露 OpenAI Model Spec 中医疗建议限制弱于版权规则的问题。",
-     "score": 84,
-     "source": "TechCrunch：AI（RSS）",
-     "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
-     "time": "10/28 08:34（3 小时前）",
-     "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-     "permalink": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
-     "reason": "文章依据 Anthropic S-1 拆解各股东持股结构，说明为何战略投资者而非 VC 是 IPO 最大受益方，并提示云厂商利益冲突。",
+     "origin_url": "https://www.wheresyoured.at/exit-liquidity/",
+     "permalink": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas",
+     "reason": "作者基于 Anthropic S-1 逐项拆解其逾 4300 亿美元不可撤销算力承诺与收入结构风险，可用于对照招股书原文核实。",
      "score": 80,
-     "source": "TechCrunch：AI（RSS）",
-     "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
-     "time": "10/28 10:15（2 小时前）",
-     "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC"
+     "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+     "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
+     "time": "10/29 02:51（9 小时前）",
+     "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性"
     },
     {
      "from7d": false,
-     "origin_url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-     "permalink": "https://aihot.news/items/x9a9nhbuq2ncarw5i41jhryjc",
-     "reason": "文章拆解了 Anthropic IPO 文件中的长期受益信托和 Founder LLC 等机制，并引用多位法学专家指出这些安全护盾的边界与隐患。",
-     "score": 79,
-     "source": "The Verge：AI（RSS）",
-     "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
-     "time": "10/28 01:51（10 小时前）",
-     "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压"
+     "origin_url": "https://x.com/sundarpichai/status/2115535455156642066",
+     "permalink": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+     "reason": "官方披露 Q3 财务与 AI 业务数据，可据此了解 Google Cloud 增速、模型 API token 处理量等一手经营指标。",
+     "score": 78,
+     "source": "X：Sundar Pichai (@sundarpichai)",
+     "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+     "time": "10/29 05:05（7 小时前）",
+     "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%"
     },
     {
      "from7d": false,
-     "origin_url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
-     "permalink": "https://aihot.news/items/xuhb122ijbtqkri3h6er2m21y",
-     "reason": "文章梳理了三项数学级结果与专家核查安排，并点出 Lean 只能验证形式化陈述这一局限。",
-     "score": 79,
-     "source": "The Decoder：AI News（RSS）",
-     "summary": "The Decoder 报道 OpenAI 请外部专家担任\"shepherds\"核查其 AI 在计算机科学、数学和物理学领域的三项证明结果，并将部分证明翻译成 Lean 供计算机逐步验证。",
-     "time": "10/27 21:37（14 小时前）",
-     "title": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明"
+     "origin_url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+     "permalink": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
+     "reason": "GitHub 用自家遥测数据量化了智能体参与开发的程度，从 PR 占比、模型轮换到行业分布都给出可核对的数字。",
+     "score": 78,
+     "source": "GitHub Blog",
+     "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+     "time": "10/29 01:07（11 小时前）",
+     "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草"
+    },
+    {
+     "from7d": false,
+     "origin_url": "https://x.com/SaitoWu/status/2115376256929948006",
+     "permalink": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj",
+     "reason": "作者拆解了 SemiAnalysis 播客对 Anthropic S-1 的解读，把毛利、留存和算力承诺等关键数字整理成一份可对照的参考。",
+     "score": 78,
+     "source": "X：Saito 硬地骇客 (@SaitoWu)",
+     "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+     "time": "10/28 18:32（17 小时前）",
+     "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字"
     }
    ],
    "slug": "industry"
   }
  ],
- "generated_at_jst": "2026-10-28 12:31 JST",
+ "generated_at_jst": "2026-10-29 12:32 JST",
  "hot_topics": [
   {
    "permalink": null,
-   "source_count": 12,
-   "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半"
-  },
-  {
-   "permalink": null,
-   "source_count": 14,
-   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克"
-  },
-  {
-   "permalink": null,
    "source_count": 15,
+   "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5"
+  },
+  {
+   "permalink": null,
+   "source_count": 13,
    "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版"
   },
   {
    "permalink": null,
-   "source_count": 8,
-   "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁"
+   "source_count": 9,
+   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克"
   },
   {
    "permalink": null,
-   "source_count": 1,
-   "title": "微软向约六万员工发出自愿离职邀约"
+   "source_count": 3,
+   "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控"
   },
   {
    "permalink": null,
-   "source_count": 1,
-   "title": "Apple发布搭载M6芯片的14英寸MacBook Pro"
+   "source_count": 3,
+   "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半"
+  },
+  {
+   "permalink": null,
+   "source_count": 3,
+   "title": "微软首披Azure单季营收332亿美元，超预期"
   }
  ],
  "kol_cards": [
@@ -11266,8 +11266,8 @@
    "domain": "defense",
    "field": "industry",
    "kol_name": "Alex Karp",
-   "latest_date": "2026-09-21",
-   "latest_view": "Palantir CEO Alex Karp Says Only Washington Can Cap AI Liability ...",
+   "latest_date": "2026-10-25",
+   "latest_view": "Alex Karp Neurodivergent Workers: 2 AI-Era Paths [2026]",
    "name_zh": "亚历克斯·卡普",
    "rating": "★★★★",
    "role": "Palantir CEO & 联合创始人",
@@ -11970,6 +11970,19 @@
      "translation": "跳到导航 跳到主要内容 跳到右栏 Palantir CEO Alex Karp 表示只有华盛顿可以限制AI责任：“这些企业必须被国有化” 图片来自Shutterstock Chris Katje 星期一，2026年9月21日，美国东部时间上午6:45 阅读时间6分钟 PLTR Benzinga和Yahoo Finance LLC可能通过以下链接中的某些项目赚取佣金或收入。\n\n随着总统Donald Trump和副总统J.D. Vance最近几天对潜在的AI监管发表意见，Palantir Technologies的CEO兼联合创始人Alex Karp在周四的电视采访中也就这一话题发表了评论。\n\n谈到人工智能和潜在的监管问题，Karp表示这是一个社会问题。\n\n“你必须找到一种方法来设定合理的指导方针，”Karp在接受CNBC“Squawk on the Street”采访时说道。\n\n一个糟糕的招聘可以让一个初创公司倒退几年。以下是创始人最常误判的5个招聘——以及原因\n\n还在学习市场？这50个必须了解的术语可以帮助你快速赶上\n\nKarp表示，第一道防线是你对自己的行为负责。CEO表示，这意味着如果你构建了一个可以摧毁世界10%的东西，就会有民事和刑事责任。\n\nKarp说，第一步是如果你披露了这一点，你需要分享你打算如何处理。CEO补充说，第二步是如果你不打算负责，你必须让其他人参与进来。\n\n作为早期的AI领导者之一，Karp表示Palantir在AI安全方面见过很多事情。在采访中，他为AI监管提出了支持和反对的理由，并讨论了该领域接下来可能需要的东西。\n\nKarp表示，Palantir的合作伙伴“愤怒不已”——不是因为抽象的AI安全问题，而是因为他们认为自己的“alpha”被盗了，他用这个词来指代企业运营背后的诀窍。他说，这些诀窍进入了一个模型，然后出现在隔壁的竞争对手那里。“而他们为此付出了代价。”\n\n另见：避免#1投资错误：你的“安全”持股可能让你损失惨重\n\nPalantir的CEO提供了这个比喻，他说这是来自愤怒的合作伙伴中最不粗俗的一个：\n\n“他们怎么能告诉我不要戴安全套？”\n\n这句话指的是企业被告知不要使用可以将其数据排除在前沿模型之外的保护措施。\n\nKarp表示，在这种情况下需要严厉的责任保护，而美国政府是唯一可以限制责任的机构。\n\n“我相信他们的观点是，这些企业必须被国有化，因为如果你不国有化，我的每一个客户都会起诉。”\n\nKarp表示，目前风险太大，潜在的责任是无限的。\n\n“你在说，摧毁公司10%、世界10%的责任风险是什么。”\n\n跳过遗憾：专家希望每个人早点知道的基本退休建议。\n\n你认为你为孩子存的钱够了吗？你可能严重偏离——看看为什么\n\n建立一个有弹性的投资组合意味着要考虑超越单一资产或市场趋势。经济周期变化，行业起伏，没有一种投资在每种环境下都表现良好。这就是为什么许多投资者寻求通过提供房地产、固定收益机会、贵金属，甚至自我导向的退休账户的平台来实现多元化。通过在多个资产类别中分散风险，更容易管理风险，获得稳定的回报，并创造不依赖于单一公司或行业命运的长期财富。\n\n在Jeff Bezos的支持下，Arrived Homes通过低门槛进入使房地产投资变得可及。投资者可以从100美元起购买单户出租房和度假屋的部分股份。这使得普通投资者可以多元化进入房地产，收取租金收入，并建立长期财富，而无需直接管理物业。\n\n对于寻求超越传统股票和债券的合格投资者，Realberry提供了机构质量的房地产投资机会，包括波士顿海港297间客房的Hyatt Place的优先股权机会。该公司在多个物业类型和市场进行了投资，截至2025年第四季度，已在美国七个州拥有1300万平方英尺的房地产，并向投资者支付了4.81亿美元的累计分红。\n\n当娱乐特许经营权成功扩展到多个平台时，它们可以成为有价值的长期资产。\n\nSkybound Entertainment是《The Walking Dead》和《Invincible》背后的公司，开发原创知识产权，涵盖漫画、电视、电影、电子游戏、商品和授权。其投资组合中拥有超过250个IP，并采用专注于保留特许经营权的策略，同时在媒体中扩展成功的故事，Skybound通过一家私人公司而非传统的公开市场投资，为投资者提供了接触不断增长的娱乐和创作者经济的机会。\n\n咖啡是数百万消费者的日常必需品，但投资者很少能直接接触到其背后的品牌和供应链。Green Coffee Company通过其对哥伦比亚品牌Juan Valdez的美国和加拿大独家分销权，提供了一种参与咖啡市场增长的方式。随着该品牌在包括Target、Walgreens和Kroger在内的主要零售商中扩展，GCC报告称其在四年内实现了26倍的收入增长，该公司正准备将一个知名的哥伦比亚咖啡品牌带给更多北美消费者。\n\n随着人工智能推动电力需求激增，可靠的发电正成为技术生态系统的关键部分。American PowerGen正在德克萨斯州开发天然气发电厂，这是一个由AI数据中心、制造业扩张和人口增长推动的快速增长市场。通过推进项目的许可、燃料供应和电网互联，该公司正准备帮助满足不断增长的能源需求，同时为投资者提供接触支持下一波AI和工业增长的基础设施的机会。\n\n随着电力需求与AI、数据中心和可再生能源一起上升，长时间能源储存变得越来越重要。Qnetic正在开发一种动能储能系统，旨在提供持久的、无化学物质的电力储存，为投资者提供接触支持更具弹性和可靠性的电网基础设施的机会。\n\n对于希望超越股票和债券的合格投资者，EquityMultiple提供了从$5,000起的经过审查的商业房地产交易的访问权限，只有约5%的机会通过了他们的尽职调查过程。\n\n农田在历史上通过市场波动保持了其价值，并提供了与股票和债券无关的回报。对于合格投资者，FarmTogether提供了从$15,000起直接访问高质量美国农田的机会——完全管理，无需房东烦恼。\n\n私人房地产和私人信贷可以为股票密集型投资组合增加收入和稳定性。Fundrise通过一个易于使用的平台提供对多元化私人房地产和信贷策略的访问，专业管理的投资组合旨在产生被动收入和长期增长。",
      "translation_len": 2586,
      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-alex-karp-says-104509380.html"
+    },
+    {
+     "date": "2026-10-25",
+     "date_method": "jsonld",
+     "detail": "What Alex Karp Said on TBPN About Neurodivergent Workers. The claim comes from a March 2026 interview on TBPN, a business podcast. Karp, who runs Palantir Technologies, laid out a binary. A worker either holds vocational training or is neurodivergent.",
+     "explain": "亚历克斯·卡普在一次播客采访中提出，在人工智能时代，拥有职业培训或是神经多样性（如自闭症、注意力缺陷多动障碍和阅读障碍等）的人将更有可能在未来的工作环境中立足。他认为，人工智能正在改变哪些技能和视角在职场中有价值，因此员工需要调整自己的思维方式。他建议人们要像艺术家一样，从不同的角度看问题，创造出独特的东西，这种能力可以被任何人培养，而不仅限于被诊断为神经多样性的人。卡普本人是阅读障碍患者，他将自己的成功部分归因于这种不同的思维方式。\n\n心理学家温德勒对此表示赞同，他认为如果团队中没有神经多样性成员，就会失去一种独特的视角，这在开发和评估人工智能工具时尤为重要。温德勒指出，许多工作场所的设计是为了迎合神经典型（即非神经多样性）员工的需求，而忽视了神经多样性员工的需要。随着人工智能的普及，企业可能会重新考虑如何为不同类型的思维提供支持，以获得竞争优势。\n\n然而，温德勒也警告不要将每位神经多样性员工视为天才，这种看法可能会忽视他们在工作和生活中面临的挑战。他强调，神经多样性员工不需要是天才才能为公司做出贡献，他们需要的是一个能够支持他们的工作环境。总的来说，卡普和温德勒的观点强调了在人工智能时代，神经多样性可能成为职场中的一种优势，但也需要现实地看待其挑战和需求。",
+     "gist": "亚历克斯·卡普认为在 AI 时代，有职业培训或具备不同思维方式的人将拥有更稳定的未来。",
+     "merged_at": "2026-10-29",
+     "origin": "daily",
+     "text": "Alex Karp Neurodivergent Workers: 2 AI-Era Paths [2026]",
+     "translation": "Palantir首席执行官Alex Karp对任何询问在AI时代谁能拥有未来的人有一个两部分的回答。Fortune在2026年10月25日报道称，Karp在三月份对TBPN播客表示：“基本上有两种方式可以知道你有未来。一是你有一些职业培训。二是你是神经多样性（neurodivergent）。”\n\nFortune记者Marco Quiroz-Gutierrez随后询问了一位专注于神经多样性并且是自闭症患者的心理学家Daniel Wendler，Karp的说法是否正确。Wendler表示，Palantir的负责人有一定的道理，但在真正优势所在的问题上有一个转折。此分析列出了两种立场，将确认的事实与不确定的事实分开，并解释了Alex Karp关于神经多样性工人的评论为何对招聘、AI采用和办公室设计很重要。\n\n时机有助于解释关注的原因。关于工作的辩论已经从AI是否会改变工作转向谁将承受冲击，我们报道了这一转变的一个标志，当时高盛对AI招聘阻力的分析将差距定为低于趋势的10,000个工作岗位。Karp为这种悲观情绪提供了一个平衡。他的信息告诉工人至少有两个安全港，其中一个描述的是一个人的思维方式，而不是他们持有的证书。\n\n不要错过Google上的新科技故事\n在Google应用中添加Shattered，我们的故事将出现在您的新闻建议中。\n\n这一说法来自2026年3月在TBPN商业播客上的一次采访。Karp，Palantir Technologies的负责人，提出了一个二元论。工人要么拥有职业培训，要么是神经多样性。Fortune完整引用了这句话，其余的报道也重复了这一点。\n\nKarp随后解释了这一二元论背后的逻辑。根据Fortune的报道，他认为AI正在改变哪些技能和观点在工作中具有价值，因此工人必须调整。关于调整本身，Fortune引用Karp的话说：“他们需要学习的是更多地成为艺术家，从不同的方向看问题，能够创造出独特的东西。”\n\n第二句话比第一句更有分量。它描述的是一套技能，而不是诊断。从不同的方向看问题和创造独特的东西是任何人都可以尝试培养的习惯，无论他们是否带有神经多样性的标签。这样理解，Karp关于神经多样性的说法可以作为他认为AI经济会奖励的一种心态的简写。\n\nFortune指出，神经多样性群体可以包括自闭症、注意力缺陷多动障碍（ADHD）和阅读障碍（dyslexia）的人。Karp本人是阅读障碍者。Fortune的报道中没有指出任何研究、Palantir的员工统计数据或与该评论相关的AI产品。该评论是一个高管对工作未来的判断，在播客上提出，读者应将其视为正是如此。\n\nFortune的标题称神经多样性工人在AI时代将会繁荣。直接引用的内容说得更狭隘。Karp描述了两种知道你有未来的方法，这是关于安全而不是超越任何人的说法。Fortune的开篇段落使用了类似的总结，说Karp曾告诉听众神经多样性的人会成功。\n\n我们将“将会繁荣”这一短语视为该媒体对Karp立场的总结，而不是Karp的逐字引用。我们审查的报道中没有在他口中印出这些话。这个区别很重要。一个关于未来保障的评论和一个优越性声明会导致不同的结论，因为第一个说神经多样性的人有一条通往稳定工作的途径，而第二个说雇主应该优先考虑他们而不是其他人。\n\n较为温和的措辞也出现在其他地方。《新闻国际》在一个标题下发表了一个版本，称神经多样性可能是一种优势，其文本与Fortune的报道紧密相随。“可能”和“将会繁荣”在信心尺度上相距甚远，Alex Karp关于神经多样性工人的故事在这两者之间传播。\n\n有几件事情仍未得到确认。现有的报道没有建立与该评论相关的具体AI产品、员工比例或显示神经多样性工人表现优于其他人的实证研究。以一个高管的评论和一个心理学家的反应为证据基础，正确的标签是意见加专家回应，而不是研究发现。\n\nKarp曾公开谈论过自己有阅读障碍，Fortune称他将自己与之斗争的经历描述为一个形成性的时刻，教会了他自由思考。\n\n他还将自己在创立Palantir并将其发展成为一家软件公司方面的成功归功于处理阅读障碍的问题，据《财富》杂志称，该公司的估值约为4700亿美元。Palantir可以追溯到2003年，当时Karp与Peter Thiel、Joe Lonsdale、Stephen Cohen和Nathan Gettings共同创立了这家公司。《财富》杂志称，Karp已经领导该公司超过二十年。这段任期使得他对人工智能（AI）和工作的看法有了一个不同寻常的平台。他经营着一家向政府和企业环境销售软件的公司，并且从内部观察招聘模式。\n\n他的个人历史也为这个故事提供了情感上的吸引力。一位在阅读上有困难的创始人，然后建立了一个价值4700亿美元的公司，这构成了一个关于不同思维方式获胜的简洁叙述。分析师应谨慎处理这样的叙述。一个创始人的道路只是一个单一案例，而成功故事往往在那些没有获得回报而默默无闻的人保持沉默时被讲述。Karp的经历可以说明一个观点，但不能证明它。对于那些关注高管如何构建AI和工作的人来说，我们的AI和机器学习报道追踪了更广泛的对话。\n\n心理学家、作家和自闭症职场倡导者Wendler同意Karp论点的核心。他告诉《财富》杂志：“如果你没有神经多样性（neurodivergent）的头脑在房间里解决AI问题，观察它，那么你就会错过那种独特的视角。”他的观点是关于构成的。没有神经多样性成员的团队在构建和评估AI工具时失去了一种看待问题的方式。\n\n《财富》补充说，企业正在重新思考AI如何改变工作，而Wendler表示，这些观点可能会挑战长期以来关于哪些品质使员工有价值以及如何完成任务的假设。在他的叙述中，AI的转变是一个罕见的时刻，工作规则正在进行谈判。\n\n他更深层次的论点针对的是办公室，而不是大脑。Wendler告诉《财富》杂志，许多工作场所的建立是为了掩盖神经典型（neurotypical）的弱点并支持神经典型的优势，因此神经多样性的需求被忽视了。他说，由于AI迫使公司以不同的方式运作，他们可能会开始询问如何容纳不同类型的思考者，这些思考者增加了竞争优势，而不是要求每个人都以一种方式工作。\n\n他还描述了一种平衡效应。没有人知道如何处理这个新篇章或AI将对工作的未来产生什么影响，因此每个人都站在更平等的基础上。《财富》补充说，神经多样性的员工可能是最渴望使用AI的人，因为现有的工作场所结构往往已经让他们失望了。这可能在一些员工对AI工具持反对态度的公司内部产生影响。\n\nWendler没有认同这个故事的流行版本。《财富》杂志报道说，他反对每个神经多样性工人都有一种非凡才能，使他们天生适合AI革命的观点。他说，这种框架贬低了那些不是天才奇才的神经多样性人士的价值。它还忽视了注意力缺陷多动障碍（ADHD）、自闭症、阅读障碍或其他状况带来的工作和家庭中的困难。\n\n他用一个漫画形象结束了这个想法。他说，一个工人不需要是天才超人才能有所贡献并值得在桌上占有一席之地。在实际操作中，他希望雇主将神经多样性员工视为需要可行条件的普通贡献者，而不是被提取以获得超额产出的稀有资产。\n\n其他评论员也提出了同样的担忧。澳大利亚媒体Women&#8217;s Agenda发表了一篇标题为《神经多样性、AI以及为什么庆祝“超级英雄”无法改善工作场所》的文章。我们无法加载全文，因此仅引用其标题，这与Wendler的警告一致。模式足够清晰。对神经多样性思维的赞美可能会滑入刻板印象，而刻板印象是糟糕的招聘政策。\n\n一个基于播客评论和采访的故事需要一个清晰的账目。下表根据报道支持的程度对流传的说法进行了分类。\n\n表中有两行值得强调。工资范围是从职位发布中得出的估计，因此不应被视为工资数据。而超额表现的说法在我们审查的任何来源中都没有数据支持。这一差距并不意味着Karp错了。这意味着还没有人展示出他所暗示的效果。\n\nWendler论点中最具体的部分与天才无关。\n\n他告诉《Fortune》，神经多样性员工可以使用大型语言模型（large language models, LLM）将复杂的任务分解为更小的步骤，组织任务并帮助沟通，等等。这些用途听起来很简单，但它们针对的是许多工作场所产生的日常摩擦点。\n\n这种框架改变了辩论。如果一个聊天机器人可以将模糊、庞大的任务转变为一个清单，那么无论神经多样性的人是否具有特殊的认知优势，这种好处都是真实的。这是一种便利措施，并且可以扩展到每一个在计划或语气上有困难的员工。雇主今天就可以购买这种好处，而无需等待对卓越模式识别能力的证明。\n\n《Fortune》在文章中没有提到任何模型或产品。我们自己寻找过去一到三个月与这场工作辩论相关的可验证模型发布时一无所获，因此我们避免将故事与任何一个系统联系起来。然而，工人使用的工具正在快速变化，诸如我们在Claude Opus 5.5与GPT-6 Sol中比较的以代理为中心的模型正朝着Wendler描述的方向发展，接管了曾经由个人承担的计划和草拟工作。\n\n这种好处中存在风险。Wendler的平等立足点的想法只有在公司真正让员工使用这些工具并调整他们的日常工作时才成立。《Fortune》表示，一些员工在工作中抵制AI。如果管理层将这些工具视为威胁而不是便利措施，神经多样性员工将无法从中受益。\n\nKarp的公司不仅仅是谈论这个想法。《Fortune》称Palantir运行一个神经多样性奖学金（Neurodivergent Fellowship），这是一个针对思维方式不同的人的招聘计划。该职位发布是公司如何将Karp的观点转化为招聘实践的最接近的书面声明。\n\n《Fortune》将估计的薪资范围定为每年11万至20万美元。该职位发布还指出，奖学金获得者面临与任何Palantir工程师相同的绩效标准。这个第二个细节回答了关于神经多样性计划的一个常见担忧，即它们降低了标准。Palantir表示并没有。在我们审查的报道中，公司也没有公布该计划的结果，因此这一声明仍然是一个陈述的政策而不是一个衡量的结果。\n\n根据《Fortune》，该职位发布称神经多样性的人在一个由AI主导的未来中可能具有优势。它将模式识别、非线性思维和高度专注列为适合当前大型语言模型时代的特质。这些是Wendler警告的那种广泛声明，因为它们描述的是神经多样性认知的刻板印象，而不是每一个个体。在这个群体中确实存在一个高度专注的模式识别者，但也有在这些任务上挣扎的人。\n\n该职位发布仍然因其具体性而值得称赞。它列出了一个薪资范围，设定了一个绩效标准，并用简单的语言陈述了一个招聘理论。许多企业的多样性努力提供的评判标准远不及此。\n\nPalantir并不孤单。Wendler告诉《Fortune》，大多数公司在改变其做法方面一直进展缓慢，尽管进展稳定。他特别提到了SAP作为一个突出者。表格总结了《Fortune》提到的雇主。\n\n比较显示了哲学上的分歧。根据《Fortune》，SAP的项目侧重于招聘过程和招聘后的支持。Palantir的职位发布以一个商业理论为主导，即这些员工适合LLM时代。以支持为先的项目解决了获取问题，而以理论为先的项目则销售了一种优势。Wendler的评论倾向于第一种模式，即使他支持更广泛的观点，即不同的思维者有助于AI。\n\n两人同意一个标题，但在强调上有所不同。Karp以绝对的方式讲话，正如CEO在播客中所做的那样。Wendler则以临床医生和倡导者的身份讲话，带有限定词。表格将他们排列起来。\n\n警告行上的差距是最有用的发现。没有附带说明的声明在公众中出现时往往会变成民间传说。Wendler提供了附带说明，《Fortune》也印刷了它，这就是这个故事值得超过引述汇总的主要原因。\n\n从消息来源没有说的话开始。《Fortune》没有将Karp的言论与Palantir的股价变动联系起来，我们也没有找到有来源的市场反应。关注股票的读者可以查看MarketBeat的Palantir新闻页面以获取每日动态，但三月份的播客评论和十月份的专题报道不太可能推动估值。\n\n《财富》引用的4700亿美元数据反映了更大的力量。Alex Karp关于神经多样性（neurodivergent）员工的言论对人才战略产生了真正的影响。企业招聘人员将高管的评论视为信号，而Karp的话为那些可能在预算上挣扎的项目提供了支持。如果一家市值4700亿美元的公司的CEO说神经多样性的人才适合从事AI（人工智能）工作，那么一家较小公司的招聘经理在申请试点项目时可以引用这一点。\n\nKarp的双路径规则出现时，员工们正担心被取代。我们统计了12家因AI而裁员的公司，其中亚马逊以16000人居首，这解释了为什么这一信息引起共鸣。人们希望有一个保持就业的经验法则。Karp提供了一个，其简单性解释了其影响力，即使其背后的证据并不充分。\n\n投资者面临着更大规模的不确定性。我们对麦肯锡AI价值曲线的审查显示，如果成本上升30%，2.52万亿美元的潜在收益有可能损失8500亿美元。公司能否捕捉到AI的价值部分取决于他们雇佣谁来部署它。如果多样化的认知风格能改善团队发现缺陷和设计工作流程的方式，那么收益可能会在该价值曲线上体现出来，尽管我们审查的来源中没有衡量这一点。\n\nPalantir的发布起到了雇主品牌的作用。它告诉一群候选人，其中许多人在标准面试中面临歧视，一家知名公司需要他们。估计在11万到20万美元之间的薪酬使得这一提议具体化。其他运行自己项目的科技雇主现在可能感到压力，要以同样的方式公布薪酬和标准。\n\n神经多样性的人适合技术工作的观点早于AI热潮。《财富》指出，SAP的“Autism at Work”项目已经运行了十多年，这使得首次企业实验早于大型语言模型进入公众视野。当时的论据是注重细节和与特定角色的契合。AI时代增加了一个新的论点，即变化的经济奖励非传统思维。\n\nAlex Karp神经多样性员工故事的时间线很短。Palantir成立于2003年。Karp在2026年3月的TBPN上发表讲话。《财富》在2026年10月25日发表了文章，大约七个月后，其他媒体如《The News International》也跟进报道。采访与《财富》报道之间的长时间间隔显示了当一位记者找到新的专家来回应时，播客评论如何可以静静地存在然后重新浮现。\n\nKarp自己的职业生涯中也有一条线索。他多年来公开谈论阅读障碍，《财富》引用他的话称其为一个形成性的时刻。这种开放性使他在这个话题上具有大多数CEO所缺乏的可信度。这也意味着他的观点不能与他的个人经历分开，这就是为什么要将其视为证词而不是数据。\n\nWendler自己的写作反对困扰科技领域神经多样性多年的天才刻板印象。蜘蛛侠式的叙事风格卖得很好，公司也喜欢，但它限制了被考虑的人群。他的警告属于倡导者之间关于钦佩是帮助还是伤害的长期争论。\n\n头条关注神经多样性，但Karp句子的前半部分同样值得关注。他将职业培训命名为另一条安全路径。关于他三月言论的报道描述了他呼吁教育系统更重视这条路径，而不是将大学视为默认路径。这里的这些描述是二手的，所以我们保持总结的概括性。\n\n逻辑是动手的行业比AI可以起草的文职工作更能抵抗自动化。这一观点有支持者，但体力工作也并非对技术免疫。我们报道了印度工人被支付5到10美元拍摄8到10小时的工作以训练物理AI，这表明即使是手工工作也在为学习它们的系统提供数据。\n\n将这两条路径结合起来也揭示了一种紧张关系。职业培训通过明确的证书传达了一条路径。神经多样性是一种特质，而不是一种证书，不能通过努力获得或注册。Karp的句子将政策建议与对人的描述混合在一起，而两者的运作方式不同。学校可以扩展学徒计划，但不能扩展神经多样性。\n\n这些是编辑判断，而不是有数据支持的预测。每一个都基于到目前为止的故事模式。\n\n共同的线索是，Alex Karp神经多样性员工的争论将从口号转向衡量。\n\n口号传播得很快，但预算遵循证据，而证据仍然缺失。\n\nAlex Karp 对神经多样性（neurodivergent）员工说了什么？Karp 在 TBPN 播客中表示，有两种方式可以知道你有未来：职业培训或是神经多样性。他还说员工需要更像艺术家，创造一些独特的东西。Fortune 于2026年10月25日报道了这些言论。\n\nKarp 什么时候发表这些评论的？TBPN 的采访是在2026年3月进行的。Fortune 的专题报道将这些言论与 Wendler 的反应结合在一起，于2026年10月25日刊登。\n\nDaniel Wendler 是谁？Wendler 是一位专注于神经多样性的心理学家，他自己也是自闭症患者。他告诉 Fortune，那些思维方式不同的人在人工智能重塑工作时可能会有优势，而没有神经多样性思维的公司则会错失独特的视角。\n\n是否有证据表明神经多样性员工将在人工智能时代表现优于其他人？没有。我们审查的报道中没有提到任何研究、劳动力比例或支持该说法的人工智能产品。Fortune 标题中的短语“将会繁荣”总结了 Karp 的立场，并不是经过验证的直接引用。\n\nAlex Karp 是不是有阅读障碍（dyslexia）？是的。Karp 公开表示他有阅读障碍，Fortune 报道称他将其经历归功于帮助他自由思考并创建 Palantir。\n\nPalantir 的神经多样性奖学金（Neurodivergent Fellowship）支付多少？Fortune 引用了一个估计的年薪范围，从110,000美元到200,000美元不等。职位发布中称，奖学金获得者需达到与其他 Palantir 工程师相同的绩效标准。\n\n还有哪些公司开展神经多样性招聘工作？Fortune 提到了 SAP，其“自闭症在职”（Autism at Work）项目已经运行了十多年，还有 Microsoft、Dell 和 JPMorgan Chase。Wendler 说大多数公司进展缓慢，但进步是稳定的。\n\n为什么 Wendler 警告不要称神经多样性员工为天才？他告诉 Fortune，这种框架最小化了那些不是天才学者的神经多样性人士，并忽视了注意力缺陷多动障碍（ADHD）、自闭症、阅读障碍和类似情况的真实困难。他说，员工不需要是超人才能在桌上占有一席之地。\n\nDaniel Roth 报道加密货币及其背后的可验证公平系统的密码学，解释了承诺方案和验证是如何实际工作的。",
+     "translation_len": 7615,
+     "url": "https://shattered.io/palantir-karp-neurodivergent-workers-ai-era-two-paths-2026/"
     }
    ]
   },
@@ -21803,8 +21816,8 @@
    "domain": "economics",
    "field": "ai-investing",
    "kol_name": "Chamath Palihapitiya",
-   "latest_date": "2026-10-06",
-   "latest_view": "Chamath Palihapitiya Backs Satya Nadella's Warning on Closed AI Models ...",
+   "latest_date": "2026-10-24",
+   "latest_view": "Chamath Palihapitiya Warns Bitcoin Will Hit Zero After Years of...",
    "name_zh": "查马斯·帕里哈皮蒂亚",
    "rating": "★★★",
    "role": "Social Capital 创始人、8090 创始人；前 Facebook 增长与变现负责人；All-In 主持",
@@ -21908,6 +21921,19 @@
      "translation": "跳至导航 跳至主要内容 跳至右栏 Chamath Palihapitiya 支持 Satya Nadella 对封闭AI模型的警告：公司可能会为智能支付两次费用——以下是原因 Shomik Sen Bhattacharjee 2026年10月5日 阅读时间5分钟 MSFT +1.14% Benzinga和Yahoo Finance LLC可能通过以下链接在某些项目上赚取佣金或收入。\n\nSocial Capital创始人兼风险投资家Chamath Palihapitiya周日支持了Microsoft Corp. CEO Satya Nadella的警告，即依赖封闭人工智能（AI）模型的公司可能会通过花费资金并同时暴露有价值的机构知识而“为智能支付两次费用”。\n\n“他说得对，”Palihapitiya在X上回应Social Capital对Nadella的“反信息悖论”的总结时写道。\n— Chamath Palihapitiya (@chamath) 2026年10月4日\n一次糟糕的招聘可以让一家初创公司倒退数年。以下是创始人最常误判的5个招聘——以及原因\n还在学习市场？这50个必须知道的术语可以帮助你快速赶上\n\nNadella认为，企业通过代币或订阅费用支付一次费用，并通过他们在使AI有用时透露的知识再次支付费用。“你实际上为智能支付两次费用，一次是用金钱，另一次是用更有价值的东西：你必须透露的专有知识，以使该智能有用，”他在7月写道。\n\n这些知识可以出现在提示、代理工具调用、评估和人工纠正中。Nadella表示，每次纠正都可以成为“机构知识”，创造出Social Capital所描述的学习循环，其中重复的互动变得越来越有价值。Palihapitiya则分别认为，更便宜的开放权重模型正在迅速缩小能力差距，引发了企业应该为封闭模型提供商支付多少费用的问题。\n\nSocial Capital的9月研究发现，领先的开放权重模型大约落后于最佳公开评估的封闭前沿系统四个月，同时为企业提供了对数据、基础设施和定制化的更多控制。\n\n趋势：避免#1投资错误：你的“安全”持股可能让你损失惨重\n\n“支付两次”论点并不意味着每个企业提示都会自动训练提供商的基础模型。Microsoft表示，Microsoft 365 Copilot中的提示、响应和组织数据不会用于训练基础模型。\n\nOpenAI同样表示，ChatGPT Business、Enterprise和API数据默认情况下不用于训练，除非客户明确选择加入。路透社上周的一份报告称，OpenAI重申商业数据未经同意不会用于训练。\n\n经济学甚至可以逆转。根据其网站，OpenAI为自愿分享合格输入和输出以改进模型的客户提供免费的API代币，包括在某些较大模型上每天最多一百万个代币。\n\nPalihapitiya还曾表示，开源AI可以为公司提供更多控制权并降低成本。\n\n跳过遗憾：专家希望每个人都早点知道的基本退休建议。\n\n你认为你为孩子存够钱了吗？你可能严重偏离——看看为什么\n\n建立一个有弹性的投资组合意味着要超越单一资产或市场趋势进行思考。经济周期变化，行业兴衰，没有一种投资在每种环境中表现良好。这就是为什么许多投资者寻求通过提供房地产、固定收益机会、贵金属，甚至是自我导向的退休账户的平台进行多元化投资。通过在多个资产类别中分散风险，管理风险、获取稳定回报并创造不依赖于单一公司或行业命运的长期财富变得更加容易。\n\n在Jeff Bezos的支持下，Arrived Homes以低门槛让房地产投资变得可及。投资者可以从100美元起购买单户出租和度假屋的部分股份。这使得普通投资者可以多元化投资房地产、收取租金收入，并建立长期财富，而无需直接管理物业。\n\n对于希望超越传统股票和债券的合格投资者，Realberry提供了机构质量的房地产投资机会，包括在波士顿海港的297间客房Hyatt Place的优先股权机会。该公司已在多个物业类型和市场中投资，拥有遍布美国七个地区的1300万平方英尺的房地产。\n\n截至2025年第四季度，向投资者支付的累计分配金额为4.81亿美元。\n\n当娱乐特许经营成功扩展到多个平台时，它们可以成为有价值的长期资产。Skybound Entertainment是《The Walking Dead》和《Invincible》的幕后公司，开发了涵盖漫画、电视、电影、视频游戏、商品和许可的原创知识产权（IP）。其投资组合中拥有超过250个IP，并采用专注于保留特许经营权同时在媒体上扩展成功故事的策略，Skybound通过一家私人公司而非传统的公开市场投资，为投资者提供了接触不断增长的娱乐和创作者经济的机会。\n\n随着人工智能（AI）推动电力需求激增，可靠的发电正在成为技术生态系统的关键部分。American PowerGen正在德克萨斯州开发天然气发电厂，这是一个由AI数据中心、制造业扩张和人口增长推动的快速增长市场。通过推进项目的许可、燃料供应和电网互联，公司正将自己定位为帮助满足不断增长的能源需求，同时为投资者提供接触支持下一波AI和工业增长的基础设施的机会。\n\n对于希望超越股票和债券的合格投资者，EquityMultiple提供了从5,000美元起的经过审查的商业房地产交易机会，其尽职调查过程仅通过约5%的机会。\n\n历史上，农田在市场波动中保持了其价值，并提供了与股票和债券无关的回报。对于合格投资者，FarmTogether提供了直接接触高质量美国农田的机会，起价为15,000美元——完全管理，无需房东操心。\n\n私人房地产和私人信贷可以为以股票为主的投资组合增加收入和稳定性。Fundrise通过一个易于使用的平台提供了接触多元化私人房地产和信贷策略的机会，专业管理的投资组合旨在产生被动收入和长期增长。",
      "translation_len": 2407,
      "url": "https://finance.yahoo.com/technology/ai/articles/chamath-palihapitiya-backs-satya-nadella-023036505.html"
+    },
+    {
+     "date": "2026-10-24",
+     "date_method": "meta:article:published_time",
+     "detail": "Key TakeawaysChamath Palihapitiya predicts an AI attack will eventually send bitcoin’s value to zero.Chamath called earlier bitcoin sales a multibillion-dollar mistake in November 2024.",
+     "explain": "查马斯·帕里哈皮蒂亚曾是比特币的坚定支持者，称其为“黄金2.0”，并预测其价格将达到100万美元。然而，他最近在一档播客节目中表示，比特币的未来并不乐观，认为其价值最终将归零。他的理由包括比特币的有限可替代性、金融隐私不足，以及人工智能（AI）可能攻破比特币网络安全的风险。帕里哈皮蒂亚指出，中央银行无法将比特币作为储备资产，因为其透明的账本缺乏主权机构所需的隐私保护，这限制了比特币的估值上限。他还担心，随着AI技术的进步，比特币的加密防御可能被攻破，导致市场恐慌和价格暴跌。此外，他认为比特币社区难以协调过渡到抗量子计算的加密技术，这使得比特币面临潜在的安全威胁。\n\n帕里哈皮蒂亚的观点转变并非首次。他曾在公开赞扬特斯拉的同时出售其股票，并承认自己在特殊目的收购公司（SPAC）上的一些失误。他曾建议投资者将1%的个人财富投入比特币作为“保险”，但现在他已不再直接持有比特币，而是将其转换为数字货币集团（DCG）的股权，以规避个人保管的风险。帕里哈皮蒂亚强调自己保留改变观点的权利，他的投资历史也反映了这种灵活性。尽管如此，他从曾经的比特币倡导者转变为预测其技术毁灭者的对比，仍然引人注目。无论他的最新预测是否会成真，这位投资者已经从将比特币视为金融不稳定保护的支持者，转变为警告这种保护可能消失的预言者。",
+     "gist": "查马斯·帕里哈皮蒂亚认为比特币最终会因人工智能攻击而价值归零，并指出其有限的可替代性和金融隐私问题。",
+     "merged_at": "2026-10-29",
+     "origin": "daily",
+     "text": "Chamath Palihapitiya Warns Bitcoin Will Hit Zero After Years of...",
+     "translation": "Chamath Palihapitiya曾预测比特币将达到100万美元。现在他说人工智能（AI）最终会破解比特币协议，并最终将BTC的价值降为零。但这位亿万富翁的反转遵循了一个熟悉的模式。从出售特斯拉股票同时公开赞美公司，到承认其SPAC帝国中的严重缺陷，Palihapitiya一再重新考虑他曾经支持的投资。他最新的比特币价格警告为这一历史增添了新的一章。\n\nChamath Palihapitiya曾称比特币为“黄金2.0”，预测价格为100万美元，并敦促投资者将其视为金融保险。现在，这位亿万富翁投资者表示，比特币的价值被封顶，最终将归零，原因是人工智能（AI）驱动的黑客攻击。这是一个相当大的反转，尽管这并不是他的第一次。\n\n这位前Facebook高管曾在公开赞美特斯拉的同时出售其股票，后来承认了他帮助普及的特殊目的收购公司（SPACs）存在的基本问题。他最新的比特币预测为一个以大胆预测、丰厚退出和偶尔的反思为标志的职业生涯增添了新的曲折。\n\n在本周早些时候发布的Peter Diamandis的Moonshots播客第304集中，Palihapitiya对比特币的长期前景泼了冷水。“我只是认为它的价值被封顶，然后我认为最终它会被黑客攻击，然后它会归零。”他的推理集中在三个问题上：有限的可替代性、不足的金融隐私，以及越来越复杂的AI系统可能会破坏比特币网络安全的可能性。\n\nPalihapitiya认为，中央银行无法轻易采用比特币作为储备资产，因为其透明的账本缺乏主权机构所需的隐私保护。没有这些潜在买家，他认为这种加密货币面临估值上限。他更为悲观的情景涉及AI系统破解比特币的加密防御或破坏Satoshi Nakamoto的休眠持有。他建议攻击者可以窃取硬币，做空比特币并宣布漏洞，从而可能在由此引发的市场恐慌中获利两次。\n\n他还将协调过渡到抗量子密码学描述为“基本上不可能”，引用了比特币臭名昭著的有争议的治理。这些仍然是假设性的威胁，而不是已证明的漏洞。SHA-256哈希和钱包签名安全是不同的加密机制，目前尚未发生此类灾难性的比特币协议漏洞。\n\n这一预测与Palihapitiya早期的倡导形成了戏剧性的背离，比特币支持者正在让他知道。从2012年和2013年左右开始，他以每枚硬币约80到100美元的价格积累比特币。他曾著名地建议将个人财富的1%分配给这种加密货币作为“傻瓜保险”。到2017年，他设想比特币达到10万美元，最终达到100万美元。在2021年1月，他预测价格将在五到十年内达到20万美元。\n\n然而，Palihapitiya已经出售了大量持有。在2014年，他据报道使用了大约2,739 BTC，当时价值160万美元，用于购买太浩湖的土地。在2024年11月的All-In播客讨论中，他将早期的比特币销售描述为“30亿或40亿美元的错误……现在还在增长。”现在他说他不再直接持有比特币，而是将其长期风险敞口换成了Digital Currency Group（DCG）的股权，部分原因是为了逃避个人保管风险。\n\n比特币并不是第一个从Palihapitiya那里获得截然不同评估的投资。2021年1月，他公开赞美特斯拉的前景，暗示其股票可能翻倍或三倍。然而，到9月，他透露在前一年已出售其全部持股，尽管他仍然公开对这家汽车制造商持乐观态度。\n\n随后是SPAC热潮。被昵称为“SPAC之王”，Palihapitiya倡导空白支票公司作为进入公共市场的更好途径。涉及Virgin Galactic、Clover Health和Opendoor的交易随后经历了股价大幅下跌，而SoFi则表现相对较强。\n\n他还在2021年初出售了大约2.13亿美元的个人Virgin Galactic股份。  \nPalihapitiya后来承认，SPAC（特殊目的收购公司）激励机制“完全且根本上不一致，因为我可以完成交易并仍然获得报酬。”他称这次经历是“我记录上的一个污点，我会修复它。”  \nPalihapitiya公开捍卫思想的灵活性，宣称他“保留改变主意的权利。”他的投资历史体现了这一理念，尽管在仍对前景持乐观态度的情况下出售投资并不一定矛盾。流动性需求、投资组合管理和市场条件的变化都可能影响这些决定。  \n尽管如此，这种对比很难忽视。曾经将比特币宣传为对抗金融不稳定的保护手段的投资者，如今预测其技术上的毁灭，同时承认他多年前就已将自己的比特币换成了公司股权。  \n无论他最新的预测是否证明是有先见之明的，还是成为他最终重新审视的另一个预测，Palihapitiya已经从推荐比特币作为保险走到了警告保险本身可能消失的相当距离。  \n亿万富翁风险投资家Chamath Palihapitiya周日辩称，比特币看涨者面临双重挤压，投机资金正在转移到…  \n亿万富翁风险投资家Chamath Palihapitiya周日辩称，比特币看涨者面临双重挤压，投机资金正在转移到…  \n亿万富翁风险投资家Chamath Palihapitiya周日辩称，比特币看涨者面临双重挤压，投机资金正在转移到…",
+     "translation_len": 2107,
+     "url": "https://news.bitcoin.com/price-predictions/chamath-palihapitiya-warns-bitcoin-will-hit-zero-after-years-of-bullish-calls/"
     }
    ]
   },
@@ -21929,8 +21955,8 @@
    "domain": "industry",
    "field": "ai-investing",
    "kol_name": "Jason Calacanis",
-   "latest_date": "2026-10-12",
-   "latest_view": "The All-In Podcast on X: \"Jason Calacanis: AI is the End of Coding as ...",
+   "latest_date": "2026-10-27",
+   "latest_view": "Jason Calacanis Urges Bitcoin Sell-Off, Predicts... | CoinCodex",
    "name_zh": "杰森·卡拉卡尼斯",
    "rating": "★★★",
    "role": "天使投资人（LAUNCH）；播客《This Week in Startups》《This Week in AI》主持；All-In 主持",
@@ -21995,6 +22021,19 @@
      "translation": "Jason Calacanis：人工智能是我们所知的编码的终结\n\n“人们在感叹，在开发代码的过程中失去了一些东西，因为程序员过去常常一起合作解决问题，那时有一种团队精神，有一种为实现目标而共同努力的友情。\n\n而现在他们不再这样工作……",
      "translation_len": 117,
      "url": "https://x.com/theallinpod/status/2109697236900966865"
+    },
+    {
+     "date": "2026-10-27",
+     "date_method": "jsonld",
+     "detail": "Jason Calacanis predicts Bitcoin could fall to $57,000 within 12 months, citing ETF outflows and fading investor interest while favoring AI.",
+     "explain": "杰森·卡拉卡尼斯是一位美国科技投资者和企业家，他最近表达了对比特币的悲观看法，预测在未来12个月内，比特币的价格可能会跌至57,000美元。他将这种负面情绪归因于投资者兴趣的减弱和机构兴趣的下降。卡拉卡尼斯建议投资者出售他们的比特币持有，并考虑将资金投入人工智能等新兴技术领域。他认为，比特币的初始热潮已经不再，投资者对持有比特币的兴趣不如以往，这种情绪的转变使得比特币难以维持其势头。\n\n卡拉卡尼斯还指出，近期比特币交易所交易基金（ETF）的资金流出也是一个值得关注的因素。据Farside数据，这些基金在周四和周五共流出了约7.74亿美元，但在周一又有1.1亿美元的资金流入。尽管如此，他认为如果比特币ETF继续出现资金流出，可能会对比特币价格造成严重压力。\n\n相比之下，卡拉卡尼斯对人工智能和其他新技术领域持更乐观的态度。他认为，人工智能能够创造新的产品、服务和商业机会，因此建议那些寻求更高增长的投资者将目光投向人工智能领域。他认为，仅仅因为比特币曾经流行而持有它是不合理的。\n\n此外，卡拉卡尼斯称比特币为“死网络”，虽然他并不是说这个网络已经停止运作，而是质疑其投资吸引力。他认为，随着投资者继续寻找其他领域，尤其是人工智能，数字货币已经失去了一些吸引力。不过，卡拉卡尼斯并不是对所有加密货币都持怀疑态度，他对Bittensor的TAO代币持乐观态度，并承认自己持有TAO。",
+     "gist": "杰森·卡拉卡尼斯认为比特币可能在12个月内跌至57,000美元，建议投资者转向人工智能和新兴技术领域以寻求更大增长。",
+     "merged_at": "2026-10-29",
+     "origin": "daily",
+     "text": "Jason Calacanis Urges Bitcoin Sell-Off, Predicts... | CoinCodex",
+     "translation": "Jason Calacanis 预测比特币可能在12个月内跌至57,000美元，理由是ETF（交易所交易基金）资金流出和投资者兴趣减退，同时更看好人工智能（AI）。\n\nJason Calacanis 是一位美国科技投资者和企业家，最近分享了他对比特币的悲观看法。他警告投资者可能出现的比特币价格崩盘，预计这种加密货币将在明年跌至57,000美元。Calacanis 将这种负面情绪归因于投资者情绪的减退和机构兴趣的下降。\n\n在对比特币未来的不同意见中，Jason Calacanis 敦促投资者出售他们的BTC持有量。相反，他建议考虑人工智能。Calacanis 认为BTC可能在未来12个月内跌至57,000美元的低点，并对比特币价格在短期内的上涨持怀疑态度。\n\n10月27日，Calacanis 在X上分享了一篇帖子，质疑BTC作为价值储存之外的长期价值。他认为投资者应该选择其他可能的选项，比如AI和新兴技术。\n\n根据这位播客主持人的说法，比特币最初的炒作已经不再存在。投资者失去了一些他们之前拥有的兴奋感。他们不像以前那样对拥有BTC感兴趣。他补充说，这种投资者情绪的转变使得比特币难以保持势头。\n\n他指出的另一个因素是最近比特币交易所交易基金（ETFs）的资金流出。根据Farside的数据，这些基金在周四和周五出现了约7.74亿美元的资金流出。但这种负面流动在周一被1.1亿美元的资金流入所逆转。\n\n对于Calacanis来说，这些机构的撤资和投资者情绪的变化是比特币可能崩盘的信号。如果比特币ETFs继续出现资金流出，可能会给BTC价格带来严重压力。\n\n有趣的是，Calacanis 认为在人工智能和其他新技术领域有更好的机会。他将这些领域置于比特币和加密货币之上。虽然比特币作为价值储存，但AI可以创造新的产品、服务和业务。因此，他建议AI是一个投资者可以投入资金以获得更大增长的领域。仅仅因为比特币最初的流行而持有它是没有意义的。\n\n自2023年以来，他一直支持AI领域及相关产品。他的最新评论也与他之前的观点一致。2023年，他敦促加密货币创始人将注意力转向AI。\n\n此外，Calacanis 将比特币称为“死网络”。他质疑其投资吸引力，而不是声称网络已经停止工作。随着投资者继续寻找其他领域，包括AI，他认为加密货币失去了一些吸引力。\n\n值得注意的是，Calacanis 并不是对所有加密货币持怀疑态度。尽管他对比特币持负面看法，但他对Bittensor的TAO代币仍持乐观态度。他承认自己持有TAO。\n\nNynu V Jamal 是CoinCodex的一名加密货币记者，拥有英语文学背景，对区块链技术、加密货币和数字金融有浓厚兴趣。她拥有英语文学硕士学位，并通过了UGC NET考试，她将分析研究与清晰、引人入胜的写作相结合，使复杂的加密货币主题对广大读者易于理解。在不写加密货币文章时，她喜欢阅读、唱歌和探索创造性故事。",
+     "translation_len": 1223,
+     "url": "https://coincodex.com/article/94402/jason-calacanis-urges-bitcoin-sell-off-predicts-57k-price-retest/"
     }
    ]
   },
