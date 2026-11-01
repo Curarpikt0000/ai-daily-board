@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.924
+    "weighted": 1.917
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.969
+    "weighted": 1.962
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.823
+    "weighted": 1.816
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.481
+    "weighted": 1.476
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.504
+    "weighted": 1.499
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.388
+    "weighted": 1.382
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 0.982
+    "weighted": 0.978
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.167
+    "weighted": 1.162
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.065
+    "weighted": 1.061
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.464
+    "weighted": 1.459
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.335
+    "weighted": 1.33
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.448
+    "weighted": 1.442
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 0.986
+    "weighted": 0.982
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.431
+    "weighted": 1.425
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.164
+    "weighted": 1.159
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.557
+    "weighted": 1.551
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.738
+    "weighted": 0.735
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.933
+    "weighted": 0.929
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.962
+    "weighted": 0.985
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.782
+    "weighted": 0.779
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.746
+    "weighted": 0.744
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.937
+    "weighted": 0.933
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.782
+    "weighted": 0.779
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.713
+    "weighted": 0.71
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.773
+    "weighted": 0.77
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.539
+    "weighted": 0.537
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.724
+    "weighted": 0.721
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.53
+    "weighted": 0.528
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.575
+    "weighted": 0.573
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.688
+    "weighted": 0.686
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.537
+    "weighted": 0.535
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,57 +564,57 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.732
+    "weighted": -0.729
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.867
+    "weighted": -0.864
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.727
+    "weighted": -0.724
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.767
+    "weighted": -0.764
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.705
+    "weighted": -0.702
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.642
+    "weighted": -0.64
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.691
+    "weighted": -0.688
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.688
+    "weighted": -0.686
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.752
+    "weighted": -0.749
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.696
+    "weighted": -0.694
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.595
+    "weighted": -0.593
    },
    {
     "name": "杰森·卡拉卡尼斯",
@@ -624,52 +624,52 @@
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.788
+    "weighted": -0.785
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.859
+    "weighted": -1.852
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.295
+    "weighted": -1.29
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.545
+    "weighted": -1.54
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.493
+    "weighted": -1.487
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.448
+    "weighted": -1.442
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.155
+    "weighted": -1.15
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.029
+    "weighted": -1.025
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.448
+    "weighted": -1.442
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.388
+    "weighted": -1.54
    }
   ],
   "distribution": {
@@ -679,200 +679,15 @@
    "-2": 9,
    "0": 8
   },
-  "gauge": 13.6,
+  "gauge": 13.5,
   "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5",
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-10-31",
- "directions": [
-  {
-   "count": 5,
-   "label": "Agent / 工具链",
-   "news": [
-    {
-     "from7d": false,
-     "origin_url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
-     "permalink": "https://aihot.news/items/upl3hjjdokqe13w3ieo9opr0v",
-     "reason": "教程给出可直接复用的 TypeScript 代码和真实成本数据，读者可以照着搭一个带限额和人工审批的定时 Agent。",
-     "score": 70,
-     "source": "OpenRouter：Announcements（RSS）",
-     "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。",
-     "time": "10/31 09:00（3 小时前）",
-     "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://x.com/adocomplete/status/2116224220539883992",
-     "permalink": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
-     "reason": "Anthropic 员工确认订阅改名与 Ultra 取消 5 小时限制的细节，订阅者可据此确认是否受影响。",
-     "score": 69,
-     "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-     "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。",
-     "time": "10/31 02:42（9 小时前）",
-     "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-     "permalink": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
-     "reason": "官方首次公开内部 3D 工作流程，覆盖建模方式、Harness 选择和 5 条可复用技巧，读者可按案例直接上手。",
-     "score": 69,
-     "source": "公众号：月之暗面（Kimi）",
-     "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
-     "time": "10/30 13:04（23 小时前）",
-     "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
-     "permalink": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c",
-     "reason": "官方详解 Figma Weave 的节点式创作流程、可复用 Weave 工具与用法建议，适合想了解 AI 创作流程如何沉淀复用的读者。",
-     "score": 65,
-     "source": "Figma AI / Agent / Make",
-     "summary": "Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承载图像和视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成、裁剪、Painter 等编辑节点；工作流可打包成 Weave tool 让团队成员一键运行，社区工具发布已上线。",
-     "time": "10/31 09:58（2 小时前）",
-     "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://ai.google.dev/gemini-api/docs/changelog#10-30-2026",
-     "permalink": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh",
-     "reason": "官方更新日志确认 Computer Use 结束预览进入正式可用，关注 Gemini API 智能体操作能力的读者可查此入口。",
-     "score": 63,
-     "source": "Gemini API：更新日志（网页）",
-     "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。",
-     "time": "10/30 09:00（1 天前）",
-     "title": "Gemini API 的 Computer Use 工具正式开放（GA）"
-    }
-   ],
-   "slug": "agent"
-  },
-  {
-   "count": 2,
-   "label": "推理 / 因果",
-   "news": [
-    {
-     "from7d": false,
-     "origin_url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
-     "permalink": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz",
-     "reason": "Wiz 将十起平台安全事件连成一条线索，并用两个被盗密钥的滥用案例展示 LLMJacking 的变现链条。",
-     "score": 83,
-     "source": "Wiz：Research（安全研究）",
-     "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。",
-     "time": "10/31 07:51（4 小时前）",
-     "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-     "permalink": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
-     "reason": "Epoch AI 用自建实验给出量化数据，展示开源权重模型如何在补丁窗口期内低成本复现漏洞利用，并给出缩短发布周期的防御建议。",
-     "score": 77,
-     "source": "Epoch AI：Gradient Updates（RSS）",
-     "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
-     "time": "10/30 21:07（15 小时前）",
-     "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox"
-    }
-   ],
-   "slug": "reasoning"
-  },
-  {
-   "count": 5,
-   "label": "产业 / 商业",
-   "news": [
-    {
-     "from7d": false,
-     "origin_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-     "permalink": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b",
-     "reason": "原文汇总四大科技公司的资本开支与自由现金流数据，可帮读者理解投资者为何开始担忧 AI 基建投入的回报。",
-     "score": 83,
-     "source": "TechCrunch：AI（RSS）",
-     "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。",
-     "time": "10/31 06:17（6 小时前）",
-     "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247489416&idx=1&sn=9525f61df8086fcd6fe4d4183da068de",
-     "permalink": "https://aihot.news/items/cbggw7imkzd4c01ifblroln6v",
-     "reason": "官方宣布合作细节与开放时间线，中国用户可据此了解千问将以何种方式进入 iPhone 的系统级体验。",
-     "score": 82,
-     "source": "公众号：千问APP（阿里）",
-     "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。",
-     "time": "10/31 09:03（3 小时前）",
-     "title": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://cursor.com/blog/claude-code-extension-security-notice",
-     "permalink": "https://aihot.news/items/pg7avew3q9ekdp3ydzhiuh9y4",
-     "reason": "Cursor 给出受影响用户数、检测命令和完整修复脚本，受影响用户可据此自查并清理后门。",
-     "score": 81,
-     "source": "Cursor Blog",
-     "summary": "Cursor 通报其 VS Code 扩展市场出现恶意修改的 Anthropic.claude-code 2.1.313 版本，非 Anthropic 官方开发，最多影响 4100 名用户。",
-     "time": "10/29 21:00（1 天前）",
-     "title": "Cursor 通报 VS Code 扩展市场出现恶意 Anthropic.claude-code 2.1.313 版本"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-     "permalink": "https://aihot.news/items/l7y0gkoqx56dt6jxv6x0mcl0h",
-     "reason": "报道整合了本周多家巨头的股价、市值损失和支出数字，可看出市场对 AI 投入回报的担忧正在集中兑现。",
-     "score": 80,
-     "source": "Hacker News：AI 热帖",
-     "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。",
-     "time": "10/30 23:50（12 小时前）",
-     "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%"
-    },
-    {
-     "from7d": false,
-     "origin_url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-     "permalink": "https://aihot.news/items/puushryi79v0flh2um3a70xnw",
-     "reason": "原文梳理了 Google、Amazon、Microsoft 三家财报中 AI 投入与现金流变化的具体数字，读者可对比资本市场的不同反应。",
-     "score": 80,
-     "source": "Hacker News：AI 热帖",
-     "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
-     "time": "10/30 06:29（1 天前）",
-     "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧"
-    }
-   ],
-   "slug": "industry"
-  }
- ],
- "generated_at_jst": "2026-10-31 12:31 JST",
- "hot_topics": [
-  {
-   "permalink": null,
-   "source_count": 3,
-   "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制"
-  },
-  {
-   "permalink": null,
-   "source_count": 3,
-   "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
-  },
-  {
-   "permalink": null,
-   "source_count": 6,
-   "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句"
-  },
-  {
-   "permalink": null,
-   "source_count": 2,
-   "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶"
-  },
-  {
-   "permalink": null,
-   "source_count": 9,
-   "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版"
-  },
-  {
-   "permalink": null,
-   "source_count": 3,
-   "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调"
-  }
- ],
+ "date": "2026-11-01",
+ "directions": [],
+ "generated_at_jst": "2026-11-01 12:32 JST",
+ "hot_topics": [],
  "kol_cards": [
   {
    "affiliation": "多伦多大学（2023 从 Google 离职以自由发声）",
@@ -4298,8 +4113,8 @@
    "domain": "industry",
    "field": "industry",
    "kol_name": "Elon Musk",
-   "latest_date": "2026-10-21",
-   "latest_view": "'Musk' Doc Director Alex Gibney Isn't Afraid to Make... - Busines...",
+   "latest_date": "2026-10-28",
+   "latest_view": "Elon Musk’s 2026 Midterm Spending Is Putting... | HuffPost Latest News",
    "name_zh": "埃隆·马斯克",
    "rating": "★★★★★",
    "role": "xAI / Tesla / SpaceX CEO",
@@ -5279,6 +5094,19 @@
      "translation": "从山达基教到身败名裂的Theranos首席执行官Elizabeth Holmes，纪录片导演Alex Gibney从未遇到过一个太大或太有争议而无法处理的主题。\n当Gibney在2022年被提议制作关于特斯拉和SpaceX首席执行官的纪录片时，他的计划很简单：讲述Musk如何利用他的企业成为世界上最有权势人物之一的故事。\n但当他两年后准备交付一部关于Musk的两小时长片时，HBO给了他一个电影制片人很少听到的指令：把它做得更长。\n那是2024年，Musk的影响力已经扩展到政治领域。随着Gibney的主题帮助总统Donald Trump竞选连任，后来又领导第二届特朗普政府的政府效率部，Gibney的故事也扩展了。他的纪录片也需要如此。\n\n结果就是《Musk》，一部犀利的、近四小时的纪录片，记录了这位世界首富的个人、职业和政治生活。从他有争议的收购Twitter（他将其更名为X）；到他与孩子母亲的关系；再到与特斯拉自动驾驶功能相关的事故，Gibney的影片全面审视了Musk在21世纪的权力和影响力。\nGibney甚至找到了一个巧妙的解决方案来在纪录片中展示Musk，尽管他拒绝接受采访。利用Musk相信我们都生活在一个模拟中的观点，导演使用AI（人工智能）制作了一个Musk的化身，该化身在过去采访的引语中发声。\n当然，像Musk这样有权势且直言不讳的人已经表达了对他人控制其叙述的不满。在电影于九月在威尼斯电影节全球首映后，Musk威胁要起诉Gibney的制作公司诽谤。Musk还在X上抨击这部电影，称：“Gibney只是拼凑了一份想要报复的人或甚至不认识我的人（但仍想报复）的名单。他完全没有诚信。可怕的人。”\n对于Gibney来说，听到愤怒的主题并不新鲜，十多年前，他的纪录片《Going Clear: Scientology and the Prison of Belief》首映时，他曾是山达基教会全版报纸广告谴责的对象。\n“对于Elon Musk——他在这方面并不独特，但他对此很擅长——他开始在推特上发布关于人们的可怕事情，然后你会发现，一群追随者和机器人开始激起愤怒矩阵，”Gibney告诉Business Insider。\n他还没有被吓倒。凭借数十年的纪录片经验，Gibney已经锻炼出厚脸皮和一些顶级机密的骚扰生存策略。\n“可以说我采取了一些预防措施，”他说。\n\n在Business Insider的最新采访系列“导演椅”中，Gibney谈到了创造AI Musk，被山达基教徒跟踪，以及他在自动驾驶特斯拉中的紧张经历。\nBusiness Insider：你以为你在2024年完成了这部电影。当HBO要求你重新进入Elon Musk的兔子洞时，这是否令人生畏？\nAlex Gibney：是的，这很令人生畏。我们不得不重新谈判预算和其他各种事情。但我明白HBO为什么想要这样。当Musk把他的车挂在特朗普的车上时，很明显：这很重要。\n每次Jason发布一个故事，你都会收到直接发送到收件箱的提醒！\n保持与Jason的联系，并在他们的作品发布时获取更多内容。\n点击“注册”，即表示您同意接收来自Business Insider的电子邮件。此外，您接受Insider的服务条款和隐私政策。\n想要在新闻推送中获得更多Business Insider？在Google中添加BI，以便在搜索重要内容时更容易找到我们的报道。\n我开始制作一部关于21世纪权力的电影，这在这种情况下涉及经济权力，但也包括技术权力。现在，加上政治权力，突然间这是一个非常大的故事。\nAI Musk在原始电影中吗？\n这个想法是有的。我们为它设置了一个占位符，但我们也预期可能会在某个时候采访到他。\n以这种方式做是一个顿悟。这来自于过去的经验：对于一个不愿或不能与你交谈的人，解决方案是什么？在《Client 9》和《Zero Days》中，我们想出了适合那些故事的解决方案。这里的关键是找到一个适合这个故事的解决方案。\n\n这就是我们最终想出化身这个主意的过程。它是否在未来使用AI（人工智能）工具方面为你的工作解锁了什么？\n\n我认为这将取决于项目。AI已经成为一个包罗万象的术语，从Siri到AGI（通用人工智能）。在这个例子中，这是一个使用AI工具的人类努力，主要围绕同步进行；换句话说，让嘴唇和身体随着声音移动。但也包括设计房间，他要穿什么，游戏椅。\n\n随着我们推动的深入以及与我们使用的公司Makemake A.I.对AI的兴趣增加，这种关于模因和观察他自己形象的想法，我们想出了某些场景，你会看到他的后脑勺，他正在观看自己。这些是我们即兴创作的东西。\n\n在观看《Musk》时，我不禁想起你的Elizabeth Holmes纪录片《The Inventor》。硅谷中根深蒂固的“假装直到成功”精神，观察起来是否很有趣？Holmes和Musk都是希望他们所押注的东西能够成功的出色推销员创始人。\n\n我认为这与Elizabeth Holmes有相似之处。在我脑海中挥之不去的是自信的人。Musk像Holmes一样，通过自信的力量，让人们相信他们知道不是真的事情。这成为了一种超能力。\n\nTesla和SpaceX与Elizabeth Holmes之间的最大区别在于那些是真实的产品。Tesla S是一辆很棒的车。这些可重复使用的火箭是非凡的，我们在电影中展示了这一壮丽景象。\n\n这并不是要贬低他或那些公司，但也有一些胡扯因素。去火星的想法和承诺。你可以看到它们如何自我重复并变得越来越大。哦，是的，全自动驾驶！抱歉，Tesla的自动驾驶选项仍然是一个二级系统，已经有超过60人死亡。\n\n（编者注：Tesla一直坚持其Autopilot功能需要驾驶员持续关注，并且其车辆会发出提示，警告驾驶员保持警觉并握住方向盘。）\n\n你强调的关于Musk参与DOGE以及暗示他影响选举的事情令人震惊，但你强调的关于Tesla的事情最让我震惊。电池更换，自动驾驶汽车功能。你是否对Tesla有多少烟雾和镜子感到震惊？\n\n是的。这是我开始时不知道的事情。正如你提到的，假装直到成功。他们只是伪装。主要是为了提高股票价格。公司的经济基本面从未支持高股价，但如果你能让人们相信CEO是天才，并且这不是真正的汽车公司——而是科技公司，所以一些超级发明即将问世——你可以说服人们抬高股票价格。\n\n（编者注：Musk和Tesla没有回应置评请求。）\n\n你自己乘坐了一辆自动驾驶汽车；你在电影中用Cybertruck做到了。\n\n我做到了。有一个剪辑，我们包括了我在Cybertruck中的四分钟片段。我去了旧金山的Tesla展厅，想要驾驶一辆Cybertruck，他们向我展示了如何开启自动驾驶功能。我按下“Go”，然后我就去了城市的另一边。这是一次大约20分钟的往返旅程。\n\n有趣的是，大部分旅程中它表现得非常好。但有时它表现得非常糟糕，有时是以安全为代价的。比如，我试图并入一条非常繁忙的主干道，车流不断，如果是我开车，我会慢慢挤进去，但全自动驾驶无法解决这个问题，所以我在那里坐了10分钟。其他情况下，它在关键时刻无法决定该怎么做，几乎撞到行人。\n\n它非常接近一个孩子。那个孩子从停着的车旁边走出来。这不是你会预料到的事情，但真的很可怕。\n\n最终，我们在电影中重点介绍的法律案件是一个更有力的深入探讨。它有致命的后果。一名女性死亡。深入研究证据本身要强大得多。如果我只拍了一部关于Tesla的电影，我可能会把它包括进去。\n\n这一切中最大的讽刺是这部电影本可以在一年前或更早上映，但HBO要求你把它做得更长。\n\n现在，Paramount和Warner Bros. Discovery已经合并，因此HBO现在归David Ellison管理，他曾考虑让Musk成为Paramount的股权投资者。你是否担心HBO不会播出《Musk》？\n我之前一直很担心。我总是保持警惕。但我被告知他们会播出，甚至David Ellison也非常清楚这一点，并承诺他会播出。\n\n所以如果他们告诉你这会发生，你相信他们。\n但你会学到，意外总会发生。[笑] 高管会变动，情况会改变，然后你会发现事情并不是你想的那样。但目前，我们正在制定非常具体的计划，预计将在一月份推出。\n\n由于行业的发展方向——网络和发行选项减少，而现有的选项大多由经常寻求政治合作的企业集团运营——对于你讲述的这种故事，你是否在考虑未来通过你的公司Jigsaw寻找替代的发行途径？\n我们在Jigsaw内部有一个秘密项目组，试图解决一些发行问题。\n\n在这种新环境下，人们迫切想看的电影被观众拒之门外。平台告诉你人们不想看，但事实并非如此。HBO是个例外，但很多平台正在投资于可预测的、最不具争议的节目。很多平台希望它们就像超市的麦片货架：它们都是同一种麦片，只是在Rice Krispies和Froot Loops之间有不同的变化。他们可以预测性地让人们投入到这种盐和糖的混合物中，让他们不断回头，而不提供任何有营养的东西。\n\n所以途径是影院，就像十多年前一样。《Musk》通过Bleecker Street在影院上映，这很有力量，因为一旦放出来，就很难再收回。\n\n有时检查权力会带来反弹。你经历过从Julian Assange在《We Steal Secrets》上映前泄露剧本，到你拍摄《Going Clear》后被Scientologists跟踪。 这些事情会让你感到疲惫，还是会激励你？\n我的意思是，鉴于我没有停下来，这似乎是在激励我。尽管如此，这并不意味着我不需要采取预防措施。但我仍然被那些拥有巨大权力的人滥用权力的想法所激励；这似乎是我的一个动力。\n\n说到Elon Musk，他是世界上最富有且可以说是最有权势的人，所以这可能会产生毁灭性的后果。Ashley St. Clair有安全保障，因为X平台有一种将仇恨引向人们的方式。Elon可以说这只是言论自由，但他非常清楚，通过他所做的事情以及平台调整其算法以获取回复和愤怒成瘾，他知道他的言论会以一种非常可怕的方式被放大，可能会对个人造成伤害。\n（编者注：Musk自称是“言论自由绝对主义者”，在2022年描述X的政策为“言论自由，而不是传播自由”，称公司会限制负面帖子的传播，但不会删除它们。Musk没有回应关于他在X上的帖子和公司算法的评论请求。）\n\n你与Musk的追随者的经历与之前与Scientology的经历有何不同？\nScientology有点不同，但确实有人在黑暗的停车场以一种令人不安的方式接近我。但一些前Scientologists告诉我，“他们不会在你的邮箱里放响尾蛇；他们试图进入你的脑海。所以一旦你明白了这一点，就不要让他们进入你的脑海。” 事实证明这是非常明智的建议。\n\nScientology很难对付，当我关于Assange的电影上映时，Twitter上的仇恨非常极端，我没有做好准备。我学到的是你必须了解你的敌人。\n\n这次采访经过压缩和编辑以提高清晰度。",
      "translation_len": 4528,
      "url": "https://www.businessinsider.com/alex-gibney-elon-musk-documentary-director-interview-2026-10"
+    },
+    {
+     "date": "2026-10-28",
+     "date_method": "jsonld",
+     "detail": "Elon Musk, the world’s first and only trillionaire, is blowing away records for political donations in the 2026 cycle.In an interview, Liccardo said he was less interested in the “outrage theater” of grilling Musk or other tech leaders at a hearing than he was in taking them on financially.",
+     "explain": "埃隆·马斯克在2026年中期选举中投入了超过4.46亿美元，主要用于支持德克萨斯州的共和党参议员候选人。这一巨额政治捐款远超其他知名捐赠者，如自2004年以来捐赠不到4亿美元的金融家和赌场运营商。马斯克的捐款引起了广泛关注，尤其是在他与联邦政府有密切业务往来的情况下，民主党人可能会对他进行调查。在德克萨斯州，民主党人对马斯克利用其财富影响选举感到不满，认为如果民主党在州政府中取得胜利，可能会对马斯克造成不利影响。\n\n马斯克在德克萨斯州的投资不仅限于政治捐款。他在卡梅伦县购买了一个村庄，计划建立自己的城市Starbase，并与州长协商购买邻近的州立公园以扩展Starbase。此外，他在德克萨斯州建立AI数据中心，享受了大量税收优惠，但也引发了当地居民的反对，因其带来的噪音和环境污染问题。\n\n在联邦层面，马斯克曾在白宫担任重要职务，削减农村医院和农民的资助项目，这些行动在德克萨斯州尤其不受欢迎。硅谷的民主党人也开始质疑马斯克的行为，认为他在乌克兰战争期间减缓Starshield服务的行为可能损害了美国科技行业的声誉。\n\n尽管马斯克在德克萨斯州的政治投资引发了争议，但他仍然在继续支持共和党候选人，包括为州长竞选捐款500万美元，并在地方检察官竞选中投入300万美元。马斯克的政治捐款和商业行为引发了广泛的讨论和批评，尤其是在民主党人试图通过立法限制其影响力的情况下。",
+     "gist": "埃隆·马斯克在2026年中期选举中捐赠超过4.46亿美元支持共和党候选人，引发民主党对其政治影响力的强烈反对和潜在报复。",
+     "merged_at": "2026-11-01",
+     "origin": "daily",
+     "text": "Elon Musk’s 2026 Midterm Spending Is Putting... | HuffPost Latest News",
+     "translation": "中期选举将塑造我们的未来。HuffPost对权力进行问责。成为会员以保持独立新闻的力量。\n\n已经是会员？登录以隐藏这些消息。\n\n世界上首位也是唯一一位万亿富翁Elon Musk在2026年周期的政治捐款中打破了记录。截至周三，他已经向支持共和党的超级政治行动委员会（super PACs）捐赠了超过4.46亿美元，其中大部分资金用于试图拯救丑闻缠身的德克萨斯州共和党参议员候选人Ken Paxton。\n\n这种前所未有的政治支出远远超过了近年来一些最知名的政治捐赠者。根据联邦选举委员会（FEC）的记录，这一金额远超自2004年以来亿万富翁金融家和右翼“梦魇”George Soros披露的捐款总额（低于4亿美元），并接近亿万富翁赌场运营商Sheldon和Miriam Adelson在2016年至2024年五个选举周期中捐赠的超过5亿美元。\n\n但巨额支出伴随着巨大的审查。Musk曾花费数月时间领导总统Donald Trump的标志性倡议之一，其企业与联邦政府密切相关，几乎可以肯定会在中期选举后面临新获得传票权的众议院民主党的调查。\n\n而且越来越多的迹象表明，他可能在家门口也面临麻烦。在德克萨斯州，Musk于2020年搬迁至此，并在2021年将特斯拉（Tesla）迁至此地，2024年将SpaceX迁至此地，民主党人注意到这位世界首富将其巨额财富投入到阻止他们获胜的天平上。他们对此并不友好。\n\n“如果有一天人们醒来，发现民主党在德克萨斯州赢得了一些席位，这将创造一个截然不同的政治版图，”德克萨斯州民主党主席Kendall Scudder说。“对于像Elon Musk这样的人来说，如果你认为报复不会到来，那你就错了。”\n\n民主党完全有可能赢得州长竞选，如果共和党情况非常糟糕，甚至可能赢得德克萨斯州众议院。如果该州数十年的一党统治被打破，民主党开始接管州政府，Musk的全力押注可能会让他付出代价。\n\nTrillionaire Elon Musk在2026年中期选举中花费了4.46亿美元。Francis Chung/Bloomberg通过Getty Images 由于共和党人之前制定了针对仅适用于休斯顿所在的哈里斯县（德克萨斯州人口最多的县）的特殊法规，法律仅适用于人口超过400万的县，Scudder建议，民主党可以通过法律，仅适用于净资产超过5000亿美元的居民。有针对私人城市的市政法规、可能仅适用于万亿富翁的税法和其他商业法规，这些可能会使Musk购买该州的努力复杂化。\n\n“想象一下民主党可以对这个贪婪的家伙施加一些痛苦是多么有趣，”Scudder说。\n\n德克萨斯州的个别候选人非常乐意与Elon为敌。民主党参议员候选人James Talarico正在播放一则广告，指责Musk试图购买参议院竞选，并在竞选演讲中将他作为目标。民主党州长候选人Gina Hinojosa成功起诉以获取她的共和党对手州长Greg Abott与Musk之间的私人通信。她的竞选活动也大力关注Abbott和Musk对全州数据中心的支持。\n\nMusk为帮助Paxton进行的大规模投资并不是他惹恼许多德克萨斯人的唯一方式——只是最新的一次。自从搬到该州以来，Musk一直在寻求其政治领导层的重大利益，该州自1994年以来就没有看到民主党人在全州范围内获胜，这往往与当地社区的愿望相悖。\n\n他在卡梅伦县购买了整个村庄，并在州政府的支持下以征用权为威胁，尽管一些当地房主反对，创建了自己的城市Starbase，用于他的火箭公司SpaceX。他目前正在与州长Greg Abbott谈判购买一个相邻的州立公园以扩展Starbase。Musk拥有的城市还在南德克萨斯州造成了许多环境问题。\n\n该州还为Musk的AI（人工智能）数据中心建设提供了广泛的税收优惠。这引发了当地的反对，因为有噪音和环境污染的投诉，以及Hinojosa提起的诉讼，寻求获取Musk和Abbott之间的消息。\n\n一位法官裁定，Abbott必须在周一向Hinojosa交出数千条未删节的信息。\n\n2025年5月28日，在德克萨斯州布朗斯维尔外的SpaceX大楼的景象。黑色、白色和灰色的预制房屋以带有X标志的宏伟企业大楼为背景。通过Getty Images的SERGIO FLORES广告 在联邦层面，Musk在白宫作为DOGE（去中心化开放式政府实验室）的负责人不遗余力地削减对帮助农村医院和农民的项目的资金。这包括延迟和取消健康补助金，削减农业部，并将美国国际开发署（USAID）“投入木材切割机”，后者购买美国农作物用于全球粮食援助。\n\n这些都没有让Musk在德克萨斯州受欢迎，尤其是在民主党人中。\n\n“人们只是在Elon Musk的名字后加上脏话，”Scudder说。\n\n这解释了他在该州日益增长的政治投资，Scudder说，Musk需要购买政治支持，“就像他一生中所有的友谊和关系一样。”\n\n他在德克萨斯州的投资也正值他在其他地方的影响力受到质疑之际。在硅谷，Musk仍然拥有巨大的影响力，并被许多人视为改变游戏规则的企业家，民主党人开始争论Musk的不可预测性和愿意利用他的技术谋取政治利益——比如他据称在乌克兰与俄罗斯的战争中放慢Starshield服务的速度——正在损害该行业。\n\n“我们代表数百家创新经济雇主和工人，他们的生计依赖于美国技术在国外的信誉，”代表该地区的众议员Sam Liccardo、Jimmy Panetta和Ro Khanna在周五致白宫的信中写道，要求调查Starshield服务的减速。“出于政治动机的服务中断或不稳定的限速将破坏美国人通过数十年努力建立的声誉，以支持我们在全球的盟友和客户。”\n\n在一次采访中，Liccardo表示，他对在听证会上质问Musk或其他科技领袖的“愤怒剧场”不太感兴趣，而更愿意在经济上挑战他们。他还表示，他认为不应该因为Musk的政治捐款而调查他，而是因为他的行为。\n\n“如果我们要追究Elon Musk的责任，那就从他的口袋里下手，”他说。“他从本届政府那里获得了数十亿美元的税收抵免、采购计划和其他利益。除非我们把这些放在砧板上，否则我们不能指望他的行为会有任何改变，也不能指望其他任何在挑战Elon Musk时腿软的CEO会有任何改变。”\n\nLiccardo补充道：“我有西西里血统，我的西西里敏感性告诉我，当你面对一个恶霸时，你不能手软。”\n\nMusk在2026年的大部分支出都用于支持参议院候选人德克萨斯州总检察长Ken Paxton的竞选。通过美联社的Annie Rice 除了Musk捐赠的数亿美元支持Paxton的竞选外，Musk还为Abbott的连任竞选捐赠了500万美元，并曾在一场地方检察官竞选中花费了300万美元，这对于一场小规模竞选来说是一个天文数字。\n\nTalarico的竞选活动本身并没有打算与Musk及其影响力对抗。回应Musk对Paxton支持的广告集中在他购买该州的危险性上，并避免争论Musk——仍然被许多选民视为成功企业家——本质上是坏的。\n\n但他巨额支出的规模难以忽视，Talarico在该州的竞选演讲中开始公开批评Musk。\n\n“很可能，如果你在电视上看到攻击，那就是Elon，”Talarico上周在休斯顿郊区的一次集会上说。“如果你在邮箱里收到谎言，那就是Elon。如果你收到短信说关于我的可怕事情——那也是Elon。”\n\nHinojosa也在对Musk的批评中变得更加直接。\n\n“在不到一个月的时间里，Elon Musk给了Greg Abbott 500万美元，试图购买这次选举，以便他可以继续购买德克萨斯人的土地、能源和资源，”她在周二说，就在Musk最近向Abbott的竞选捐款公开后不久。\n\n“德州人受够了一位只为亿万富翁捐助者服务却让德州人自生自灭的州长。”\n\n但金钱买不到爱，有时也买不到政治。Talarico目前在参议院竞选中比不受欢迎的Paxton更受欢迎。Abbott与Hinojosa的竞选陷入胶着状态。全州的民主党投票率上升，而在特朗普第二任期内对共和党失去兴趣的关键群体也在增加，包括拉丁裔和年轻人。\n\nBen Weiss从德克萨斯州Sunnyvale贡献了报道。\n\n更正：本文的早期版本中错误拼写了Kendall Scudder的名字。",
+     "translation_len": 3421,
+     "url": "https://www.huffpost.com/entry/elon-musk-2026-spending-texas_n_6ae22a1ce4b0a2cccd4493ef"
     }
    ]
   },
@@ -11279,7 +11107,7 @@
    "field": "industry",
    "kol_name": "Alex Karp",
    "latest_date": "2026-10-25",
-   "latest_view": "Alex Karp Neurodivergent Workers: 2 AI-Era Paths [2026]",
+   "latest_view": "Palantir CEO Alex Karp says neurodivergent workers will ...",
    "name_zh": "亚历克斯·卡普",
    "rating": "★★★★",
    "role": "Palantir CEO & 联合创始人",
@@ -11995,6 +11823,19 @@
      "translation": "Palantir首席执行官Alex Karp对任何询问在AI时代谁能拥有未来的人有一个两部分的回答。Fortune在2026年10月25日报道称，Karp在三月份对TBPN播客表示：“基本上有两种方式可以知道你有未来。一是你有一些职业培训。二是你是神经多样性（neurodivergent）。”\n\nFortune记者Marco Quiroz-Gutierrez随后询问了一位专注于神经多样性并且是自闭症患者的心理学家Daniel Wendler，Karp的说法是否正确。Wendler表示，Palantir的负责人有一定的道理，但在真正优势所在的问题上有一个转折。此分析列出了两种立场，将确认的事实与不确定的事实分开，并解释了Alex Karp关于神经多样性工人的评论为何对招聘、AI采用和办公室设计很重要。\n\n时机有助于解释关注的原因。关于工作的辩论已经从AI是否会改变工作转向谁将承受冲击，我们报道了这一转变的一个标志，当时高盛对AI招聘阻力的分析将差距定为低于趋势的10,000个工作岗位。Karp为这种悲观情绪提供了一个平衡。他的信息告诉工人至少有两个安全港，其中一个描述的是一个人的思维方式，而不是他们持有的证书。\n\n不要错过Google上的新科技故事\n在Google应用中添加Shattered，我们的故事将出现在您的新闻建议中。\n\n这一说法来自2026年3月在TBPN商业播客上的一次采访。Karp，Palantir Technologies的负责人，提出了一个二元论。工人要么拥有职业培训，要么是神经多样性。Fortune完整引用了这句话，其余的报道也重复了这一点。\n\nKarp随后解释了这一二元论背后的逻辑。根据Fortune的报道，他认为AI正在改变哪些技能和观点在工作中具有价值，因此工人必须调整。关于调整本身，Fortune引用Karp的话说：“他们需要学习的是更多地成为艺术家，从不同的方向看问题，能够创造出独特的东西。”\n\n第二句话比第一句更有分量。它描述的是一套技能，而不是诊断。从不同的方向看问题和创造独特的东西是任何人都可以尝试培养的习惯，无论他们是否带有神经多样性的标签。这样理解，Karp关于神经多样性的说法可以作为他认为AI经济会奖励的一种心态的简写。\n\nFortune指出，神经多样性群体可以包括自闭症、注意力缺陷多动障碍（ADHD）和阅读障碍（dyslexia）的人。Karp本人是阅读障碍者。Fortune的报道中没有指出任何研究、Palantir的员工统计数据或与该评论相关的AI产品。该评论是一个高管对工作未来的判断，在播客上提出，读者应将其视为正是如此。\n\nFortune的标题称神经多样性工人在AI时代将会繁荣。直接引用的内容说得更狭隘。Karp描述了两种知道你有未来的方法，这是关于安全而不是超越任何人的说法。Fortune的开篇段落使用了类似的总结，说Karp曾告诉听众神经多样性的人会成功。\n\n我们将“将会繁荣”这一短语视为该媒体对Karp立场的总结，而不是Karp的逐字引用。我们审查的报道中没有在他口中印出这些话。这个区别很重要。一个关于未来保障的评论和一个优越性声明会导致不同的结论，因为第一个说神经多样性的人有一条通往稳定工作的途径，而第二个说雇主应该优先考虑他们而不是其他人。\n\n较为温和的措辞也出现在其他地方。《新闻国际》在一个标题下发表了一个版本，称神经多样性可能是一种优势，其文本与Fortune的报道紧密相随。“可能”和“将会繁荣”在信心尺度上相距甚远，Alex Karp关于神经多样性工人的故事在这两者之间传播。\n\n有几件事情仍未得到确认。现有的报道没有建立与该评论相关的具体AI产品、员工比例或显示神经多样性工人表现优于其他人的实证研究。以一个高管的评论和一个心理学家的反应为证据基础，正确的标签是意见加专家回应，而不是研究发现。\n\nKarp曾公开谈论过自己有阅读障碍，Fortune称他将自己与之斗争的经历描述为一个形成性的时刻，教会了他自由思考。\n\n他还将自己在创立Palantir并将其发展成为一家软件公司方面的成功归功于处理阅读障碍的问题，据《财富》杂志称，该公司的估值约为4700亿美元。Palantir可以追溯到2003年，当时Karp与Peter Thiel、Joe Lonsdale、Stephen Cohen和Nathan Gettings共同创立了这家公司。《财富》杂志称，Karp已经领导该公司超过二十年。这段任期使得他对人工智能（AI）和工作的看法有了一个不同寻常的平台。他经营着一家向政府和企业环境销售软件的公司，并且从内部观察招聘模式。\n\n他的个人历史也为这个故事提供了情感上的吸引力。一位在阅读上有困难的创始人，然后建立了一个价值4700亿美元的公司，这构成了一个关于不同思维方式获胜的简洁叙述。分析师应谨慎处理这样的叙述。一个创始人的道路只是一个单一案例，而成功故事往往在那些没有获得回报而默默无闻的人保持沉默时被讲述。Karp的经历可以说明一个观点，但不能证明它。对于那些关注高管如何构建AI和工作的人来说，我们的AI和机器学习报道追踪了更广泛的对话。\n\n心理学家、作家和自闭症职场倡导者Wendler同意Karp论点的核心。他告诉《财富》杂志：“如果你没有神经多样性（neurodivergent）的头脑在房间里解决AI问题，观察它，那么你就会错过那种独特的视角。”他的观点是关于构成的。没有神经多样性成员的团队在构建和评估AI工具时失去了一种看待问题的方式。\n\n《财富》补充说，企业正在重新思考AI如何改变工作，而Wendler表示，这些观点可能会挑战长期以来关于哪些品质使员工有价值以及如何完成任务的假设。在他的叙述中，AI的转变是一个罕见的时刻，工作规则正在进行谈判。\n\n他更深层次的论点针对的是办公室，而不是大脑。Wendler告诉《财富》杂志，许多工作场所的建立是为了掩盖神经典型（neurotypical）的弱点并支持神经典型的优势，因此神经多样性的需求被忽视了。他说，由于AI迫使公司以不同的方式运作，他们可能会开始询问如何容纳不同类型的思考者，这些思考者增加了竞争优势，而不是要求每个人都以一种方式工作。\n\n他还描述了一种平衡效应。没有人知道如何处理这个新篇章或AI将对工作的未来产生什么影响，因此每个人都站在更平等的基础上。《财富》补充说，神经多样性的员工可能是最渴望使用AI的人，因为现有的工作场所结构往往已经让他们失望了。这可能在一些员工对AI工具持反对态度的公司内部产生影响。\n\nWendler没有认同这个故事的流行版本。《财富》杂志报道说，他反对每个神经多样性工人都有一种非凡才能，使他们天生适合AI革命的观点。他说，这种框架贬低了那些不是天才奇才的神经多样性人士的价值。它还忽视了注意力缺陷多动障碍（ADHD）、自闭症、阅读障碍或其他状况带来的工作和家庭中的困难。\n\n他用一个漫画形象结束了这个想法。他说，一个工人不需要是天才超人才能有所贡献并值得在桌上占有一席之地。在实际操作中，他希望雇主将神经多样性员工视为需要可行条件的普通贡献者，而不是被提取以获得超额产出的稀有资产。\n\n其他评论员也提出了同样的担忧。澳大利亚媒体Women&#8217;s Agenda发表了一篇标题为《神经多样性、AI以及为什么庆祝“超级英雄”无法改善工作场所》的文章。我们无法加载全文，因此仅引用其标题，这与Wendler的警告一致。模式足够清晰。对神经多样性思维的赞美可能会滑入刻板印象，而刻板印象是糟糕的招聘政策。\n\n一个基于播客评论和采访的故事需要一个清晰的账目。下表根据报道支持的程度对流传的说法进行了分类。\n\n表中有两行值得强调。工资范围是从职位发布中得出的估计，因此不应被视为工资数据。而超额表现的说法在我们审查的任何来源中都没有数据支持。这一差距并不意味着Karp错了。这意味着还没有人展示出他所暗示的效果。\n\nWendler论点中最具体的部分与天才无关。\n\n他告诉《Fortune》，神经多样性员工可以使用大型语言模型（large language models, LLM）将复杂的任务分解为更小的步骤，组织任务并帮助沟通，等等。这些用途听起来很简单，但它们针对的是许多工作场所产生的日常摩擦点。\n\n这种框架改变了辩论。如果一个聊天机器人可以将模糊、庞大的任务转变为一个清单，那么无论神经多样性的人是否具有特殊的认知优势，这种好处都是真实的。这是一种便利措施，并且可以扩展到每一个在计划或语气上有困难的员工。雇主今天就可以购买这种好处，而无需等待对卓越模式识别能力的证明。\n\n《Fortune》在文章中没有提到任何模型或产品。我们自己寻找过去一到三个月与这场工作辩论相关的可验证模型发布时一无所获，因此我们避免将故事与任何一个系统联系起来。然而，工人使用的工具正在快速变化，诸如我们在Claude Opus 5.5与GPT-6 Sol中比较的以代理为中心的模型正朝着Wendler描述的方向发展，接管了曾经由个人承担的计划和草拟工作。\n\n这种好处中存在风险。Wendler的平等立足点的想法只有在公司真正让员工使用这些工具并调整他们的日常工作时才成立。《Fortune》表示，一些员工在工作中抵制AI。如果管理层将这些工具视为威胁而不是便利措施，神经多样性员工将无法从中受益。\n\nKarp的公司不仅仅是谈论这个想法。《Fortune》称Palantir运行一个神经多样性奖学金（Neurodivergent Fellowship），这是一个针对思维方式不同的人的招聘计划。该职位发布是公司如何将Karp的观点转化为招聘实践的最接近的书面声明。\n\n《Fortune》将估计的薪资范围定为每年11万至20万美元。该职位发布还指出，奖学金获得者面临与任何Palantir工程师相同的绩效标准。这个第二个细节回答了关于神经多样性计划的一个常见担忧，即它们降低了标准。Palantir表示并没有。在我们审查的报道中，公司也没有公布该计划的结果，因此这一声明仍然是一个陈述的政策而不是一个衡量的结果。\n\n根据《Fortune》，该职位发布称神经多样性的人在一个由AI主导的未来中可能具有优势。它将模式识别、非线性思维和高度专注列为适合当前大型语言模型时代的特质。这些是Wendler警告的那种广泛声明，因为它们描述的是神经多样性认知的刻板印象，而不是每一个个体。在这个群体中确实存在一个高度专注的模式识别者，但也有在这些任务上挣扎的人。\n\n该职位发布仍然因其具体性而值得称赞。它列出了一个薪资范围，设定了一个绩效标准，并用简单的语言陈述了一个招聘理论。许多企业的多样性努力提供的评判标准远不及此。\n\nPalantir并不孤单。Wendler告诉《Fortune》，大多数公司在改变其做法方面一直进展缓慢，尽管进展稳定。他特别提到了SAP作为一个突出者。表格总结了《Fortune》提到的雇主。\n\n比较显示了哲学上的分歧。根据《Fortune》，SAP的项目侧重于招聘过程和招聘后的支持。Palantir的职位发布以一个商业理论为主导，即这些员工适合LLM时代。以支持为先的项目解决了获取问题，而以理论为先的项目则销售了一种优势。Wendler的评论倾向于第一种模式，即使他支持更广泛的观点，即不同的思维者有助于AI。\n\n两人同意一个标题，但在强调上有所不同。Karp以绝对的方式讲话，正如CEO在播客中所做的那样。Wendler则以临床医生和倡导者的身份讲话，带有限定词。表格将他们排列起来。\n\n警告行上的差距是最有用的发现。没有附带说明的声明在公众中出现时往往会变成民间传说。Wendler提供了附带说明，《Fortune》也印刷了它，这就是这个故事值得超过引述汇总的主要原因。\n\n从消息来源没有说的话开始。《Fortune》没有将Karp的言论与Palantir的股价变动联系起来，我们也没有找到有来源的市场反应。关注股票的读者可以查看MarketBeat的Palantir新闻页面以获取每日动态，但三月份的播客评论和十月份的专题报道不太可能推动估值。\n\n《财富》引用的4700亿美元数据反映了更大的力量。Alex Karp关于神经多样性（neurodivergent）员工的言论对人才战略产生了真正的影响。企业招聘人员将高管的评论视为信号，而Karp的话为那些可能在预算上挣扎的项目提供了支持。如果一家市值4700亿美元的公司的CEO说神经多样性的人才适合从事AI（人工智能）工作，那么一家较小公司的招聘经理在申请试点项目时可以引用这一点。\n\nKarp的双路径规则出现时，员工们正担心被取代。我们统计了12家因AI而裁员的公司，其中亚马逊以16000人居首，这解释了为什么这一信息引起共鸣。人们希望有一个保持就业的经验法则。Karp提供了一个，其简单性解释了其影响力，即使其背后的证据并不充分。\n\n投资者面临着更大规模的不确定性。我们对麦肯锡AI价值曲线的审查显示，如果成本上升30%，2.52万亿美元的潜在收益有可能损失8500亿美元。公司能否捕捉到AI的价值部分取决于他们雇佣谁来部署它。如果多样化的认知风格能改善团队发现缺陷和设计工作流程的方式，那么收益可能会在该价值曲线上体现出来，尽管我们审查的来源中没有衡量这一点。\n\nPalantir的发布起到了雇主品牌的作用。它告诉一群候选人，其中许多人在标准面试中面临歧视，一家知名公司需要他们。估计在11万到20万美元之间的薪酬使得这一提议具体化。其他运行自己项目的科技雇主现在可能感到压力，要以同样的方式公布薪酬和标准。\n\n神经多样性的人适合技术工作的观点早于AI热潮。《财富》指出，SAP的“Autism at Work”项目已经运行了十多年，这使得首次企业实验早于大型语言模型进入公众视野。当时的论据是注重细节和与特定角色的契合。AI时代增加了一个新的论点，即变化的经济奖励非传统思维。\n\nAlex Karp神经多样性员工故事的时间线很短。Palantir成立于2003年。Karp在2026年3月的TBPN上发表讲话。《财富》在2026年10月25日发表了文章，大约七个月后，其他媒体如《The News International》也跟进报道。采访与《财富》报道之间的长时间间隔显示了当一位记者找到新的专家来回应时，播客评论如何可以静静地存在然后重新浮现。\n\nKarp自己的职业生涯中也有一条线索。他多年来公开谈论阅读障碍，《财富》引用他的话称其为一个形成性的时刻。这种开放性使他在这个话题上具有大多数CEO所缺乏的可信度。这也意味着他的观点不能与他的个人经历分开，这就是为什么要将其视为证词而不是数据。\n\nWendler自己的写作反对困扰科技领域神经多样性多年的天才刻板印象。蜘蛛侠式的叙事风格卖得很好，公司也喜欢，但它限制了被考虑的人群。他的警告属于倡导者之间关于钦佩是帮助还是伤害的长期争论。\n\n头条关注神经多样性，但Karp句子的前半部分同样值得关注。他将职业培训命名为另一条安全路径。关于他三月言论的报道描述了他呼吁教育系统更重视这条路径，而不是将大学视为默认路径。这里的这些描述是二手的，所以我们保持总结的概括性。\n\n逻辑是动手的行业比AI可以起草的文职工作更能抵抗自动化。这一观点有支持者，但体力工作也并非对技术免疫。我们报道了印度工人被支付5到10美元拍摄8到10小时的工作以训练物理AI，这表明即使是手工工作也在为学习它们的系统提供数据。\n\n将这两条路径结合起来也揭示了一种紧张关系。职业培训通过明确的证书传达了一条路径。神经多样性是一种特质，而不是一种证书，不能通过努力获得或注册。Karp的句子将政策建议与对人的描述混合在一起，而两者的运作方式不同。学校可以扩展学徒计划，但不能扩展神经多样性。\n\n这些是编辑判断，而不是有数据支持的预测。每一个都基于到目前为止的故事模式。\n\n共同的线索是，Alex Karp神经多样性员工的争论将从口号转向衡量。\n\n口号传播得很快，但预算遵循证据，而证据仍然缺失。\n\nAlex Karp 对神经多样性（neurodivergent）员工说了什么？Karp 在 TBPN 播客中表示，有两种方式可以知道你有未来：职业培训或是神经多样性。他还说员工需要更像艺术家，创造一些独特的东西。Fortune 于2026年10月25日报道了这些言论。\n\nKarp 什么时候发表这些评论的？TBPN 的采访是在2026年3月进行的。Fortune 的专题报道将这些言论与 Wendler 的反应结合在一起，于2026年10月25日刊登。\n\nDaniel Wendler 是谁？Wendler 是一位专注于神经多样性的心理学家，他自己也是自闭症患者。他告诉 Fortune，那些思维方式不同的人在人工智能重塑工作时可能会有优势，而没有神经多样性思维的公司则会错失独特的视角。\n\n是否有证据表明神经多样性员工将在人工智能时代表现优于其他人？没有。我们审查的报道中没有提到任何研究、劳动力比例或支持该说法的人工智能产品。Fortune 标题中的短语“将会繁荣”总结了 Karp 的立场，并不是经过验证的直接引用。\n\nAlex Karp 是不是有阅读障碍（dyslexia）？是的。Karp 公开表示他有阅读障碍，Fortune 报道称他将其经历归功于帮助他自由思考并创建 Palantir。\n\nPalantir 的神经多样性奖学金（Neurodivergent Fellowship）支付多少？Fortune 引用了一个估计的年薪范围，从110,000美元到200,000美元不等。职位发布中称，奖学金获得者需达到与其他 Palantir 工程师相同的绩效标准。\n\n还有哪些公司开展神经多样性招聘工作？Fortune 提到了 SAP，其“自闭症在职”（Autism at Work）项目已经运行了十多年，还有 Microsoft、Dell 和 JPMorgan Chase。Wendler 说大多数公司进展缓慢，但进步是稳定的。\n\n为什么 Wendler 警告不要称神经多样性员工为天才？他告诉 Fortune，这种框架最小化了那些不是天才学者的神经多样性人士，并忽视了注意力缺陷多动障碍（ADHD）、自闭症、阅读障碍和类似情况的真实困难。他说，员工不需要是超人才能在桌上占有一席之地。\n\nDaniel Roth 报道加密货币及其背后的可验证公平系统的密码学，解释了承诺方案和验证是如何实际工作的。",
      "translation_len": 7615,
      "url": "https://shattered.io/palantir-karp-neurodivergent-workers-ai-era-two-paths-2026/"
+    },
+    {
+     "date": "2026-10-25",
+     "date_method": "url_path",
+     "detail": "6 days ago · Palantir CEO Alex Karp once said neurodivergent people will succeed in the AI era. One psychologist who is also autistic thinks the billionaire has a point, but says that neurodivergent workers’ advantage might not be what people think. Karp, who is dyslexic, made his case about neurodivergent people earlier this year in an interview on the business podcast TBPN. “There are basically two ...",
+     "explain": "亚历克斯·卡普，Palantir的首席执行官，认为在人工智能（AI）时代，神经多样性（neurodivergent）的人群将会取得成功。他在一次商业播客采访中表示，工人在AI时代有两种方式可以确保未来：一种是拥有职业培训，另一种是属于神经多样性群体。卡普自己患有阅读障碍，他认为这帮助他学会了“自由思考”，并在创办Palantir时取得了成功。卡普指出，AI正在改变职场中哪些技能和视角更有价值，他建议人们应该更多地像艺术家一样，从不同的角度看问题，创造独特的东西。\n\n心理学家温德勒也认同卡普的观点，他认为神经多样性的人在AI重塑职场的过程中可能具有优势，因为他们提供了独特的视角，这在技术迫使公司适应变化的商业环境时尤为重要。温德勒指出，现代职场通常是为神经典型（neurotypical）的人设计的，这让神经多样性的人很难融入并表现出色。但随着AI改变职场，公司有机会更好地接纳不同思维方式的人，这可能成为公司的竞争优势。\n\n尽管如此，温德勒也警告不要将神经多样性的人过于理想化。他指出，并不是每个神经多样性的人都有超凡的天赋，忽视他们在个人和工作生活中面临的挑战是不对的。温德勒强调，AI带来的变化为神经多样性的人提供了一个重要的机会，使他们能够在职场上取得进一步的进展并做出有意义的贡献。他认为，一个人不需要是天才才能在职场上有所贡献，神经多样性的人也应得到平等的机会。",
+     "gist": "亚历克斯·卡普认为在 AI 时代，神经多样性的人因其独特视角和适应能力将在职场中占据优势，并推动企业重新评估员工的价值。",
+     "merged_at": "2026-11-01",
+     "origin": "daily",
+     "text": "Palantir CEO Alex Karp says neurodivergent workers will ...",
+     "translation": "Palantir首席执行官Alex Karp曾表示，神经多样性（neurodivergent）的人将在人工智能（AI）时代取得成功。一位同时也是自闭症患者的心理学家认为这位亿万富翁有道理，但表示神经多样性员工的优势可能并不是人们所想的那样。\n\nKarp患有阅读障碍（dyslexia），他在今年早些时候的商业播客TBPN的采访中提出了关于神经多样性人群的观点。Karp谈到人工智能时代的员工时说：“基本上有两种方式可以知道你有未来。第一，你接受过一些职业培训。或者第二，你是神经多样性的人。”\n\nKarp此前曾表示，他与阅读障碍的斗争是一个“形成性时刻”，帮助他学会“自由思考”。他还将处理阅读障碍归功于他成功共同创立Palantir并将其发展成为一家价值约4700亿美元的大型软件公司。自2003年与Peter Thiel、Joe Lonsdale、Stephen Cohen和Nathan Gettings共同创立以来，Karp已经掌舵超过二十年。\n\n在与TBPN的采访中，Karp认为人工智能正在改变职场中哪些技能和观点是有价值的。“他们需要学习的是更多地成为艺术家，从不同的方向看待事物，能够构建一些独特的东西，”他说。\n\nDaniel Wendler是一位专注于神经多样性的心理学家，他自己也是自闭症患者，他同意在人工智能重塑职场的过程中，思维不同的人可能会有优势。他说，神经多样性人群的不同视角在技术迫使公司适应不断变化的商业环境时尤为重要。\n\n“如果在处理人工智能时没有神经多样性思维的人参与，那么你就会错过那种独特的视角，”Wendler告诉《财富》杂志。\n\n随着企业重新考虑人工智能如何改变工作和职场，这些视角可能有助于改变长期以来关于哪些品质使员工有价值以及如何完成任务的假设，他说。\n\n但他也看到神经多样性员工可能会发现自己在技术中处于独特位置的另一个原因，这一群体可能包括自闭症、注意力缺陷多动障碍（ADHD）和阅读障碍的人。\n\nWendler说，现代职场是为神经典型（neurotypical）员工设计的，这使得神经多样性的人很难融入并出类拔萃。随着人工智能开始重塑职场，这是一个改变的机会，他说。\n\n“许多职场的设置是为了适应神经典型的弱点并支持神经典型的优势，”他说。“但对于神经多样性的人来说，那些东西就被忽视了。”\n\n随着人工智能迫使公司以不同的方式运作，他说他们可能会开始考虑如何更好地适应不同类型的思考者，这些思考者可能会增加公司的竞争优势，而不是期望所有员工都适应单一的工作方式。\n\n“我们现在进入了一个新的前沿，每个人都处于更平等的地位，因为没有人真正知道我们如何驾驭这个新篇章，或者人工智能将会做什么，或者工作的未来是什么，”他说。\n\n神经多样性员工可能也是最渴望适应和使用人工智能的人，因为现有的职场结构往往已经让他们失望。这可能特别有帮助，因为一些员工已经对在职场中使用人工智能产生了抵触情绪。\n\n他补充说，神经多样性员工可以使用大型语言模型（large language models）来帮助将复杂的任务分解为更小的步骤、组织任务，并帮助沟通等。\n\nWendler说，大多数公司在改变实践以帮助神经多样性的人茁壮成长方面进展缓慢。然而，软件公司SAP是一个例外，十多年来一直在努力在招聘过程中包容神经多样性的人，并通过其“Autism at Work”项目在招聘后提供资源。\n\nWendler说，这个问题的进展缓慢但稳步推进。包括微软和戴尔在内的几家科技公司以及银行业的摩根大通都启动了改变传统面试以及招聘和支持神经多样性人群的计划。\n\nPalantir则运营着一个神经多样性奖学金（Neurodivergent Fellowship），这是一个招聘计划，为思维不同的员工提供年薪约11万美元至20万美元的职位。\n\n招聘信息中提到，这些员工将被要求达到与任何Palantir工程师相同的绩效标准，并指出神经多样性（neurodivergent）的人在一个由AI主导的未来中可能具有优势。\n\n“当前的LLM（大语言模型）技术格局使他们处于主导地位。模式识别。非线性思维。高度专注。使神经多样性人群与众不同的认知特质正是使他们在一个由AI驱动的世界中出类拔萃的原因，”招聘信息中写道。\n\n当然，Wendler反对流行的观点，即每个神经多样性员工都有一种非凡的才能，使他们自动更适合AI革命。\n\n这种表述“贬低了那些不是天才学者的神经多样性人群的价值和贡献，”他说。\n\n他还警告说，这些刻板印象忽视了患有ADHD（注意力缺陷多动障碍）、自闭症、阅读障碍或其他状况的人在个人和工作生活中面临的困难。\n\n虽然Wendler表示不应将神经多样性人群置于神坛，但他认为AI带来的变化是他们在职场中取得进一步进步并做出有意义贡献的明确机会。\n\n“一个人不需要是天才超人，你知道的，蜘蛛侠，才能有所贡献并值得拥有一席之地，”他说。\n\n这篇文章首次出现在《Fortune》上，标题为“Palantir CEO Alex Karp 表示神经多样性员工将在AI时代蓬勃发展。一位自闭症心理学家表示他有道理”。\n\n墙壁和桌子上有猎豹和斑马条纹。女性穿着亮片紧身衣和精致的头饰，其中一位...",
+     "translation_len": 2157,
+     "url": "https://dnyuz.com/2026/10/25/palantir-ceo-alex-karp-says-neurodivergent-workers-will-thrive-in-the-ai-era-an-autistic-psychologist-says-he-has-a-point/"
     }
    ]
   },
@@ -20494,8 +20335,8 @@
    "domain": "economics",
    "field": "ai-investing",
    "kol_name": "Brad Gerstner",
-   "latest_date": "2026-09-24",
-   "latest_view": "Watch CNBC's full interview with Altimeter Capital's Brad ...Watch CNBC's full interview with Altimeter Capital CEO Brad ...CNBC Halftime Report with Brad Gerstner - June 12th, 2026The 2026 AI Infrastructure Reality Check: Gerstner on CapEx ...Brad Gerstner on Whether AI Is a Bubble - thefabulous.co",
+   "latest_date": "2026-10-22",
+   "latest_view": "Altimeter’s Gerstner: Scale wins superintelligence race as ...",
    "name_zh": "布拉德·格斯特纳",
    "rating": "★★★★",
    "role": "Altimeter Capital 创始人兼 CEO；All-In 常驻「第五位」嘉宾；「特朗普账户」倡导者",
@@ -20560,6 +20401,19 @@
      "translation": "2026年9月24日 · Altimeter Capital的创始人兼CEO Brad Gerstner加入了“Halftime Report”节目，讨论特朗普总统与中国国家主席Xi Jinping关于人工智能（AI）发展的会晤。\n\n2026年9月11日 · Altimeter Capital的创始人兼CEO Brad Gerstner加入了CNBC的“Halftime Report”节目，讨论对AI的反对声浪及其对AI行业未来的意义。观看完整采访……\n\n2026年6月12日 · 2026年6月12日，Altimeter的创始人兼CEO Brad Gerstner与Scott Wapner一起在纽约证券交易所的CNBC Halftime Report节目中直播，分析历史上最大IPO的意义……\n\n2026年9月17日 · Brad Gerstner（The Disciplined Institutional Operator）：Gerstner的定位以严格的风险管理、实证跟踪和绝对的心理灵活性为特征。与传统的风险投资者保持永久结构性看涨不同，Gerstner以“中等仓位”策略应对2026年的市场。\n\n2026年9月17日 · Altimeter的简报中，Brad Gerstner表示，2025年的AI市场反弹是由收益驱动的，而不是泡沫。Nvidia的交易价格仅为明年收益的14倍（03:16），但顶级AI实验室必须在年底前达到1800亿美元的总收入，而2026年则取决于电力和利率（14:16）。\n\n2026年9月17日 · Altimeter Capital的Brad Gerstner正在挑战2026年最被引用的AI基础设施预测之一，他的论点与芯片或软件无关。约束条件",
      "translation_len": 744,
      "url": "https://www.cnbc.com/video/2026/09/24/cnbc-full-interview-altimeter-capital-brad-gerstner.html"
+    },
+    {
+     "date": "2026-10-22",
+     "date_method": "url_path",
+     "detail": "Oct 22, 2026 · Brad Gerstner says we are on the brink of superintelligence and whoever controls the most compute wins, but the company doing the heaviest spending may not be the one pocketing the profits.",
+     "explain": "布拉德·格斯特纳指出，我们正处于超级智能的边缘，谁掌握最多的计算能力，谁就能在超级智能的竞争中获胜。然而，尽管一些公司在这方面投入巨大，最终获利的可能不是那些花费最多的公司。以SpaceX为例，该公司在第三季度报告收入为146亿美元，其AI解决方案和基础设施部门的收入增长了830%，达到76亿美元，这得益于60亿美元收购Cursor的帮助。格斯特纳提到，埃隆·马斯克计划明年建立10吉瓦的计算能力，这将占美国所有新增容量的约25%，需要约4000亿美元的资本。SpaceX每月安装20万个GB300芯片，而几个月前，这一数量相当于一整年的安装量。\n\n格斯特纳认为，尽管SpaceX在建设计算能力方面投入巨大，但芯片和内存供应商目前正在获得利润。他解释说，更多的计算能力可以训练更大的模型，而更大的模型会吸引更多的用户和数据，从而为下一轮计算能力的投资提供资金。然而，如果更大的模型带来的收益减少，或者更便宜的模型赶上前沿质量，或者需求增长速度慢于容量增长，这个循环就会中断。\n\n格斯特纳预计，到年底将达到3吉瓦的容量，而COLOSSUS II已经将额定容量提高到1.7吉瓦。要实现10吉瓦的目标，前提是需求能够跟上每个新增的吉瓦。SpaceX在第二季度末拥有935.2亿美元的现金，并在该季度花费了158.3亿美元用于AI计算。格斯特纳认为，与特斯拉的合作可能是为这笔支出融资的一种方式，因为合并后的公司将拥有更多的抵押品，从而可以借入更多资金，并以更低的利率更快地实现规模化。\n\n格斯特纳还提到，标准化的NVIDIA GPU更容易被贷款机构评估，因为许多买家可以使用被扣押的GPU，这使得NVIDIA在信贷紧张时具有定价权。NVIDIA正在与多家金融机构合作筹集超过5000亿美元的外部资本，而SpaceX AI是其Vera CPU的主要合作伙伴。设计自己的芯片的公司可能在每个单元上节省成本，但可能在借贷时支付更多。NVIDIA的毛利率为75%，而美光科技为86%，这得益于供应短缺。NVIDIA的股价在三年内上涨了18倍，尽管其供应仍然紧张，但预计毛利率将保持在74%左右。",
+     "gist": "布拉德·格斯特纳认为我们正处于超智能的边缘，拥有最多计算能力的公司将胜出，但重金投入的公司未必能获得最大利润。",
+     "merged_at": "2026-11-01",
+     "origin": "daily",
+     "text": "Altimeter’s Gerstner: Scale wins superintelligence race as ...",
+     "translation": "Brad Gerstner 说我们正处于超级智能的边缘，谁掌握了最多的计算能力谁就能获胜，但进行最大支出的公司可能不是最终获利的那一个。SpaceX（纳斯达克代码：SPCX | SPCX价格预测）在10月21日收盘价为159.31美元，上涨了7.79%，此前该公司报告第三季度收入为146亿美元。同一天，Altimeter Capital的创始人兼首席执行官Brad Gerstner解释了他认为Elon Musk为何如此大手笔支出的原因。\n\n“埃隆明白我们正处于奇点的边缘。我们正在进入超级智能。谁拥有最多的规模、资本、计算能力和数据，谁就能在超级智能的游戏中获胜，”Gerstner说。\n\nGerstner表示，马斯克计划明年建立10 GW（千兆瓦）的计算能力。这将占美国所有新增容量的约25%，并需要大约4000亿美元的资本。\n\n他补充说，SpaceX现在每月安装20万个GB300芯片。几个月前，这还是一整年的速度。\n\n作为投资者，你需要考虑的问题是谁能留住资金。SpaceX支付建造这些容量的费用，而芯片和内存供应商今天正在赚取利润（我们在一份免费报告中汇总了七家公司，它们在芯片制造商之外提供AI（人工智能）扩展）。\n\n这个逻辑是一个循环。更多的计算能力训练更大的模型，更大的模型吸引更多的用户和数据，而这种使用为下一轮的计算能力支付费用。\n\nSpaceX的结果表明这个循环正在发挥作用。其AI解决方案与基础设施部门带来了76亿美元的收入，增长了830%，这得益于600亿美元的Cursor收购。如果更大的模型带来的收益更小，如果更便宜的模型赶上了前沿质量，或者如果支付需求增长速度慢于容量，那么这个循环就会崩溃。\n\nGerstner预计到年底将达到3 GW，而COLOSSUS II已经将额定容量提高到1.7 GW。只有当需求跟上每一个新的千兆瓦时，达到10 GW才有意义。\n\n很少有公司能支付4000亿美元的现金流。SpaceX在第二季度末拥有935.2亿美元的现金，并在该季度仅AI计算方面花费了158.3亿美元。\n\nGerstner认为与Tesla（纳斯达克代码：TSLA）的交易主要是为了为这笔支出融资。合并后的公司将拥有更多的抵押品，因此可以借更多的钱，以更低的利率，并更快地达到规模。\n\n他对Tesla合并的最佳猜测是每股520到550美元。这大约比其386.47美元的收盘价高出35%到42%，即使该股今年下跌了14.06%。\n\n风险落在Tesla的股东身上，他们将承担SpaceX的支出，即使Tesla自己的营业收入下降到7.18亿美元。交易还需要获得大多数未偿还的Tesla股份的批准。\n\nGerstner最独到的观点是关于抵押品的。贷方可以更容易地评估标准的NVIDIA（纳斯达克代码：NVDA）GPU（图形处理单元）的价值，而不是定制芯片，因为许多买家可以使用被扣押的GPU。\n\n这使得NVIDIA在信贷紧张时拥有定价权。一个借款进行扩展的建设者可能会为银行愿意借贷的硬件支付更多。\n\nNVIDIA在这一优势上有所建树。它正在与Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR合作筹集超过5000亿美元的外部资本，而SpaceX AI是其Vera CPU（中央处理器）的主要合作伙伴。设计自己芯片的公司可能在每个单元上节省成本，但最终可能需要支付更多的借贷费用。\n\nGerstner提到NVIDIA的毛利率为75%，而Micron Technology（纳斯达克代码：MU）为86%，两者都因短缺而提高。他指出，NVIDIA的股票在三年内上涨了18倍。\n\nNVIDIA预计毛利率约为74.0%，管理层表示供应仍然受限。一旦供应赶上，这些利润率可能会缩小。\n\nSpaceX承担折旧风险，因为GPU的价值迅速下降。Cursor还在第三季度增加了12亿美元的基于股票的补偿。\n\nSPCX在2.10万亿美元的市值下承担着重大风险。其股东为扩展支付费用，并承担与马斯克时间表相关的折旧、电力、GPU供应和执行风险。\n\n循环融资增加了风险，因为芯片供应商正在帮助资助购买其芯片的客户。如果需求停滞，这种支持就会转化为过剩的产能。\n\nNVIDIA似乎处于更有利的位置。它向任何获胜的实验室出售芯片，它拥有Gerstner描述的融资优势，其市盈率约为45，远低于Tesla的402。\n\nNVIDIA收盘价为221.97美元，过去一年上涨了22.82%，上一季度收入为596.9亿美元。\n\n接下来要关注的是，当Vera Rubin扩大规模时，利润率是否能够保持。\n\n如有任何问题或更正，请联系[email&#160;protected]。\n\nOmor Ibne Ehsan是24/7 Wall St.的作家。他是一名自学成才的投资者，专注于具有强大基本面、价值和长期潜力的成长型、周期性和股息股票。他还对高风险高回报的投资感兴趣，比如便士股票。\n\nSpaceX刚刚发布了其首个季度利润，但公司历史上最大的一波支出即将出现在损益表上，而此时Elon Musk正在追求一个收入目标……\n\nPeter Diamandis认识Elon Musk已有27年，并在SpaceX早期进行了投资，因此当他做出一个与单一垂直整合帝国（涵盖AI、卫星、机器人等）相关的大胆收入预测时……\n\nSpaceX刚刚发布了让华尔街争相解释的十亿美元失误的数字，而本季度最重要的项目与火箭或卫星无关。\n\nSpaceX的股票因时间线的变化而飙升，这与火箭无关，而与轨道上的AI计算有关，但即将到来的股票解锁和未经验证的发射载具……\n\n一份泄露的融资报告正在引发太空股票的震荡，远远超出了故事中心的公司，引发了关于杠杆、计算策略以及最大胆的赌注是否……\n\nSpaceX的空头兴趣刚刚从34%暴跌至11%，而股票在几周内飙升了近35%，随着600亿美元的收购临近和下一次股票解锁的到来，压力正在积聚……\n\n多年来，市场一直将SpaceX（NASDAQ:SPCX | SPCX价格预测）主要视为一家火箭公司，但这种说法已不再适用。公司历史性的IPO在承销商行使后筹集了857亿美元……\n\nOpenAI刚刚在SpaceX接管Cursor的那一刻撤回了模型访问，将一场长达数年的私人争斗变成了一场关于谁真正控制AI基础设施以及谁被迫手忙脚乱的实时压力测试。\n\nElon Musk刚刚将SpaceX的万亿美元收入目标提前了几年，股票在盘后飙升，但他最大胆的主张背后的数学值得更深入的审视。",
+     "translation_len": 2712,
+     "url": "https://247wallst.com/investing/2026/10/22/altimeters-gerstner-scale-wins-superintelligence-race-as-spacex-plans-400b-compute-buildout/"
     }
    ]
   },
@@ -22058,8 +21912,8 @@
    "domain": "industry",
    "field": "ai-investing",
    "kol_name": "Jason Calacanis",
-   "latest_date": "2026-10-27",
-   "latest_view": "Jason Calacanis Urges Bitcoin Sell-Off, Predicts... | CoinCodex",
+   "latest_date": "2026-10-28",
+   "latest_view": "Jason Calacanis Says Dump Bitcoin Now. Saylor Replied ...",
    "name_zh": "杰森·卡拉卡尼斯",
    "rating": "★★★",
    "role": "天使投资人（LAUNCH）；播客《This Week in Startups》《This Week in AI》主持；All-In 主持",
@@ -22137,6 +21991,19 @@
      "translation": "Jason Calacanis 预测比特币可能在12个月内跌至57,000美元，理由是ETF（交易所交易基金）资金流出和投资者兴趣减退，同时更看好人工智能（AI）。\n\nJason Calacanis 是一位美国科技投资者和企业家，最近分享了他对比特币的悲观看法。他警告投资者可能出现的比特币价格崩盘，预计这种加密货币将在明年跌至57,000美元。Calacanis 将这种负面情绪归因于投资者情绪的减退和机构兴趣的下降。\n\n在对比特币未来的不同意见中，Jason Calacanis 敦促投资者出售他们的BTC持有量。相反，他建议考虑人工智能。Calacanis 认为BTC可能在未来12个月内跌至57,000美元的低点，并对比特币价格在短期内的上涨持怀疑态度。\n\n10月27日，Calacanis 在X上分享了一篇帖子，质疑BTC作为价值储存之外的长期价值。他认为投资者应该选择其他可能的选项，比如AI和新兴技术。\n\n根据这位播客主持人的说法，比特币最初的炒作已经不再存在。投资者失去了一些他们之前拥有的兴奋感。他们不像以前那样对拥有BTC感兴趣。他补充说，这种投资者情绪的转变使得比特币难以保持势头。\n\n他指出的另一个因素是最近比特币交易所交易基金（ETFs）的资金流出。根据Farside的数据，这些基金在周四和周五出现了约7.74亿美元的资金流出。但这种负面流动在周一被1.1亿美元的资金流入所逆转。\n\n对于Calacanis来说，这些机构的撤资和投资者情绪的变化是比特币可能崩盘的信号。如果比特币ETFs继续出现资金流出，可能会给BTC价格带来严重压力。\n\n有趣的是，Calacanis 认为在人工智能和其他新技术领域有更好的机会。他将这些领域置于比特币和加密货币之上。虽然比特币作为价值储存，但AI可以创造新的产品、服务和业务。因此，他建议AI是一个投资者可以投入资金以获得更大增长的领域。仅仅因为比特币最初的流行而持有它是没有意义的。\n\n自2023年以来，他一直支持AI领域及相关产品。他的最新评论也与他之前的观点一致。2023年，他敦促加密货币创始人将注意力转向AI。\n\n此外，Calacanis 将比特币称为“死网络”。他质疑其投资吸引力，而不是声称网络已经停止工作。随着投资者继续寻找其他领域，包括AI，他认为加密货币失去了一些吸引力。\n\n值得注意的是，Calacanis 并不是对所有加密货币持怀疑态度。尽管他对比特币持负面看法，但他对Bittensor的TAO代币仍持乐观态度。他承认自己持有TAO。\n\nNynu V Jamal 是CoinCodex的一名加密货币记者，拥有英语文学背景，对区块链技术、加密货币和数字金融有浓厚兴趣。她拥有英语文学硕士学位，并通过了UGC NET考试，她将分析研究与清晰、引人入胜的写作相结合，使复杂的加密货币主题对广大读者易于理解。在不写加密货币文章时，她喜欢阅读、唱歌和探索创造性故事。",
      "translation_len": 1223,
      "url": "https://coincodex.com/article/94402/jason-calacanis-urges-bitcoin-sell-off-predicts-57k-price-retest/"
+    },
+    {
+     "date": "2026-10-28",
+     "date_method": "jsonld",
+     "detail": "3 days ago · All-In Podcast co-host Jason Calacanis publicly told his X followers to dump Bitcoin on October 27, 2026, calling it a “dead network” offering nothing beyond a store of value. He predicted Bitcoin will retest the $57,000 low within 12 months and said it “will never break its all-time high again.”",
+     "explain": "在2026年10月27日，杰森·卡拉卡尼斯公开建议他的追随者抛售比特币，称其为“死网络”，除了作为价值储存之外没有其他用途。他预测比特币将在12个月内再次测试57,000美元的低点，并表示其将永远无法突破历史最高点。卡拉卡尼斯指出，美国现货比特币ETF的资金持续流出是一个重要的看跌信号。例如，在2026年10月5日至9日的一周内，ETF净流出约6.789亿美元，而10月22日单日流出6.355亿美元。卡拉卡尼斯还提到，比特币失去了其原有的社交力量，如FOMO（错失恐惧症）和文化压力，这些因素曾推动人们购买比特币。他认为，随着人工智能的崛起，投资者应将资金转移到AI和“超级智能”上，并透露自己持有Bittensor（TAO），这是一个去中心化的AI模型网络，作为比特币的直接竞争对手。\n\n对此，迈克尔·塞勒反驳称，人工智能创造丰盈，而比特币则强化稀缺性，二者是互补的资产，而非竞争关系。他认为，投资者不必在两者之间做出选择。塞勒的观点是，AI在大规模生产中创造价值，而比特币则在价值中保值。卡拉卡尼斯则坚持认为，比特币的社会契约已经破裂，曾经流入比特币的投机能量现在转向了AI领域。他的立场不仅是对比特币短期价格的预测，而是对其未来存在性的质疑。卡拉卡尼斯的言论引发了广泛关注，尤其是在比特币价格已经较其历史高点下跌37%的情况下，他与塞勒的观点对立，市场最终会证明谁的判断更为准确。",
+     "gist": "杰森·卡拉卡尼斯认为比特币是一个“死网络”，建议卖出比特币并投资于人工智能和“超级智能”，因为比特币将无法再创新高。",
+     "merged_at": "2026-11-01",
+     "origin": "daily",
+     "text": "Jason Calacanis Says Dump Bitcoin Now. Saylor Replied ...",
+     "translation": "All-In Podcast的联合主持人Jason Calacanis于2026年10月27日公开告诉他的X平台粉丝抛售比特币，称其为“死网络”，除了价值储存外没有其他任何功能。\n\n他预测比特币将在12个月内再次测试57,000美元的低点，并表示“将永远不会再突破其历史最高点。”当时BTC接近79,600美元，约比2025年10月6日创下的126,080美元的历史最高点低37%。\n\nCalacanis指出持续的ETF（交易所交易基金）资金流出是一个关键的看跌信号。美国现货比特币ETF在10月5日至9日的一周内记录了6.789亿美元的净流出，而在10月22日单日流出6.355亿美元。\n\n他建议将资本转移到AI（人工智能）和“超级智能”上，并透露他长期持有Bittensor（TAO），一个去中心化的AI模型网络，这是对比特币的直接竞争性投资。\n\nMichael Saylor反驳称，AI创造了丰盈，而比特币则强化了稀缺性，将它们框定为互补而非竞争资产。\n\nAll-In Podcast的联合主持人Jason Calacanis，也是硅谷最知名的早期投资者之一，于2026年10月27日做出了一个直言不讳的公开声明：现在就卖掉比特币。这篇帖子分享给了他在X平台上拥有数百万粉丝的账户，描述了“比特币的残酷一年”才刚刚开始，并指出ETF资金流出、消退的模因文化和AI的崛起是该资产永远无法重回历史最高点的原因。\n\nMichael Saylor，机构金融中最直言不讳的比特币极端主义者，在数小时内进行了反驳。\n\n帖子以直接挑战开头：“给我三分钟解释为什么你现在应该抛售它。”他围绕四个支柱建立了一个看跌的理由。\n\nETF资金流出。他指出美国现货比特币ETF的持续净流出是一个有意义的看跌信号，他认为这种情况将继续。比特币ETF在10月5日至9日的一周内记录了约6.789亿美元的净流出，其中10月7日单日流出4.849亿美元。10月22日又有6.355亿美元在一天内流出。2026年已有超过100,000 BTC从ETF中撤出。\n\n具体的价格目标。“我们将在接下来的12个月内再次测试57,000美元的低点，”他写道。比特币2026年的日内低点是58,566美元，出现在7月1日。发布时，BTC接近79,600美元，约比2025年10月6日创下的126,080美元的历史最高点低37%。\n\n实用性。“为什么要把你的资源投入到一个除了价值储存外什么都不提供的死网络？”Calacanis认为比特币的原始力量是社交的：错失恐惧症、模因、拥有它的文化压力。他说，这种力量已经消失。“没有人再试图说服人们购买比特币了。”\n\nAI作为替代。“只需出售并从比特币转向超级智能，因为一个几乎不提供价值，而另一个为人类提供无限的上升空间。”他的结束语设计为可被引用：“比特币将永远不会再突破其历史最高点。”\n\n“比特币将永远不会再突破其历史最高点。”\n\nJason Calacanis | X, 2026年10月27日\n\nMichael Saylor，Strategy的执行主席和比特币的最大企业持有者，直接回应。他的论点颠覆了框架：AI创造了丰盈，比特币强化了稀缺性。他将它们定位为同一宏观转变的两面，一方面是大规模生产价值，另一方面是保存价值。你不必选择。\n\n“AI创造了丰盈。比特币强化了稀缺性。它们是互补的，而非竞争资产。”\n\nMichael Saylor | X, 2026年10月27日\n\n这不是两人第一次发生冲突。2026年8月，Calacanis更直接地瞄准了Saylor，称他“通过试图垄断市场破坏了比特币的游戏”，这是对Strategy积极积累的一个参考，该公司现在在其资产负债表上持有数十万BTC。\n\n在他最初的帖子发布22分钟后，Calacanis澄清了自己的立场：“我长期持有$TAO，并热爱Bittensor在扩展AI方面的专注。”Bittensor是一个去中心化协议，激励AI模型的开发和共享，其本地代币为TAO。\n\nCalacanis的比特币看跌理由伴随着他在Bittensor（TAO）中的公开长期持仓。他对出售BTC的建议应与他在竞争性加密AI资产中的现有股份一起解读。\n\nCalacanis对比特币的怀疑由来已久。\n\n2018年，当比特币接近3700美元时，他认为其归零的概率为60%到70%。随后，比特币价格上涨至超过126,000美元。2026年8月，他质疑比特币是否会达到250,000美元或100万美元。他目前的预测是，比特币将永远不会再创历史新高，这是他迄今为止最绝对的声明。\n\n这不是一位图表分析师的短期价格预测。这是一个存在性的论点：比特币的社会契约、迷因、社区、持有的文化压力已经永久破裂。而人工智能（AI，Artificial Intelligence）已经吸收了曾经流入比特币（BTC，Bitcoin）的投机能量。\n\nCalacanis不是加密货币的原住民。他是一位主流科技投资者，拥有数百万粉丝，他的播客同时覆盖机构和零售观众，并且在像Uber和Robinhood这样的公司上有早期预测的记录。当他这样一个有影响力的人公开表示卖出比特币时，它塑造了叙事，并在比特币已经比峰值低37%的那一天广泛传播。\n\nSaylor的反驳代表了支撑比特币机构采用浪潮的极端立场：随着AI扩大生产，稀缺性在价值上复合。市场最终是站在Calacanis还是Saylor一边，将取决于一条推文无法解决的事情。比特币在79,600美元时比其历史高点低37%。Calacanis押注这个差距会扩大。Saylor押注它会缩小。他们中的一个将非常公开地错了。\n\nJason Calacanis对比特币说了什么？\n2026年10月27日，Calacanis公开告诉追随者抛售比特币，称其为一个除了价值储存之外一无所有的死网络。他预测在12个月内将重新测试57,000美元，并表示比特币将永远不会再突破其历史高点。\n\n为什么Calacanis希望人们卖出比特币？\n他提到持续的ETF（交易所交易基金）流出、比特币失去病毒式传播的迷因文化以及AI的崛起是退出的理由。他认为AI提供了无限的上升空间，而比特币除了储存价值之外几乎没有实用性。\n\nSaylor反驳称，AI创造了丰盈，而比特币则强化了稀缺性，将两者框定为互补而非竞争关系。他拒绝了投资者必须在两者之间做出选择的想法。\n\nCalacanis在比特币之外投资什么？\n他透露他长期持有Bittensor（TAO），一个去中心化的AI模型网络。他建议将资本从比特币转移到与AI相关的资产上，并将TAO作为他的首选。\n\n比特币的价格与其历史高点相比如何？\n2026年10月27日，比特币交易价格接近79,600美元，约比2025年10月6日创下的126,080美元的历史高点低37%。2026年的最低点是58,566美元，出现在2026年7月1日。\n\n来源：Unchained Crypto，CoinDesk，KuCoin，TradingView | 发布于2026年10月27日 | CryptoNewsBytes.com | 非财务建议。\n加入我们的邮件列表，以接收我们团队的最新新闻和更新。\nArun | 高级网络安全与区块链战略家。Arun是一位拥有超过20年经验的网络安全专业人士，领导全球机构的安全运营。他是国际网络安全和区块链会议的常客演讲者，自2017年以来一直是CryptoNewsBytes的主要贡献者。✍️ 通过将二十年的安全领导与对AI、新兴威胁和加密法规（包括CLARITY和GENIUS法案）的深入报道相结合，Arun为不断发展的2026年数字资产格局提供了机构级的清晰度。🛡️🌐",
+     "translation_len": 3183,
+     "url": "https://cryptonewsbytes.com/all-in-podcasts-jason-calacanis-says-dump-bitcoin-now-saylor-replied/"
     }
    ]
   },
@@ -22424,5 +22291,5 @@
   }
  ],
  "kol_count": 61,
- "news_total_24h": 16
+ "news_total_24h": 0
 }
