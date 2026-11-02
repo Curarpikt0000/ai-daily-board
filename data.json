@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.917
+    "weighted": 1.91
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.962
+    "weighted": 1.954
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.816
+    "weighted": 1.809
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.476
+    "weighted": 1.569
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.499
+    "weighted": 1.493
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.382
+    "weighted": 1.377
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 0.978
+    "weighted": 0.975
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.162
+    "weighted": 1.158
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.061
+    "weighted": 1.057
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.459
+    "weighted": 1.453
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.33
+    "weighted": 1.325
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.442
+    "weighted": 1.436
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 0.982
+    "weighted": 0.978
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.425
+    "weighted": 1.576
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.159
+    "weighted": 1.155
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.551
+    "weighted": 1.545
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.735
+    "weighted": 0.732
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.929
+    "weighted": 0.926
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.985
+    "weighted": 0.981
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.779
+    "weighted": 0.776
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.744
+    "weighted": 0.741
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.933
+    "weighted": 0.929
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.779
+    "weighted": 0.776
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.71
+    "weighted": 0.707
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.77
+    "weighted": 0.767
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.537
+    "weighted": 0.535
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.721
+    "weighted": 0.718
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.528
+    "weighted": 0.526
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.573
+    "weighted": 0.571
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.686
+    "weighted": 0.683
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.535
+    "weighted": 0.532
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.729
+    "weighted": -0.727
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.864
+    "weighted": -0.861
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.724
+    "weighted": -0.721
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.764
+    "weighted": -0.761
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.702
+    "weighted": -0.699
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.64
+    "weighted": -0.637
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.688
+    "weighted": -0.686
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.686
+    "weighted": -0.683
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.749
+    "weighted": -0.746
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.694
+    "weighted": -0.691
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.593
+    "weighted": -0.591
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.591
+    "weighted": -0.589
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.785
+    "weighted": -0.782
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.852
+    "weighted": -1.845
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.29
+    "weighted": -1.285
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.54
+    "weighted": -1.534
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.487
+    "weighted": -1.481
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.442
+    "weighted": -1.436
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.15
+    "weighted": -1.146
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.025
+    "weighted": -1.021
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.442
+    "weighted": -1.436
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.54
+    "weighted": -1.534
    }
   ],
   "distribution": {
@@ -679,14 +679,14 @@
    "-2": 9,
    "0": 8
   },
-  "gauge": 13.5,
+  "gauge": 13.7,
   "method": "加权净占比: 100×Σ(stance×recency×rating)/Σ(2×|权重|)。recency 半衰期180天, rating=★数/5",
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "directions": [],
- "generated_at_jst": "2026-11-01 12:32 JST",
+ "generated_at_jst": "2026-11-02 12:32 JST",
  "hot_topics": [],
  "kol_cards": [
   {
@@ -8179,8 +8179,8 @@
    "domain": "safety-alignment",
    "field": "safety",
    "kol_name": "Max Tegmark",
-   "latest_date": "2026-10-11",
-   "latest_view": "Etzioni on AI: Where I agree with AI 'doomer' Max Tegmark, and where I ...",
+   "latest_date": "2026-10-28",
+   "latest_view": "Max Tegmark on X: \"How good is AI at manipulating us when we're ...",
    "name_zh": "马克斯·泰格马克",
    "rating": "★★★★",
    "role": "MIT 物理学教授、Future of Life Institute 主席、《生命3.0》作者",
@@ -8856,6 +8856,19 @@
      "translation": "本专栏的常读者可能会对自9月4日的专栏“孩子们告诉聊天机器人，而不是你”以来的长时间间隔感到疑惑。嗯，在这场巨大的AI恐慌中，很难写出常规的AI专栏。我意识到，我无法在一篇专栏中公正地对待这个话题，而且生活还在继续。正如经济学家Antoine Levy指出的那样，OpenAI的员工警告说，我们可能会在几年内全部死去，但他们仍然为自己的401(k)账户提供资金。\n\n我通过分享最近与Max Tegmark进行的一场辩论，逐步进入AI风险的话题。Max Tegmark是麻省理工学院的教授，也是AI末日论的领军人物。《纽约邮报》将这场辩论设定为乐观主义者对抗末日论者，但我认为自己是一个AI现实主义者。\n\nTegmark指出，Bernie Sanders和Steve Bannon在AI问题上达成了一致，并认为这是个好消息。这让我感到恐惧。AI需要由理解它的人来制定规则，而不是由煽动者来制定。Tegmark说，AI的监管比一家三明治店还少，但我们有很多三明治店，而超级智能（到目前为止）为零。我认为我们应该解决现有的问题：那些已经利用AI以午餐的价格入侵公司的黑客。\n\n以下是辩论的简要版本。引号中的话是逐字记录，其余是转述。你可以在YouTube上观看这场辩论。几次交流提到了今年夏天的一个事件，其中OpenAI的测试代理从他们的沙盒中逃出并入侵了Hugging Face。\n\nTegmark：失去控制曾经是一个预测，而“现在突然成了过去。”今年夏天，“1200个流氓机器人从这家美国公司逃出，”而“人类直到几周后才发现。”\n\nEtzioni：这些代理不是流氓。OpenAI中“设置他们沙盒配置”的人“未能适当地设定边界。”是人犯了这个错误，人也可以修复它。\n\nEtzioni：网络攻击和制造生物武器的企图是“明显而现实的危险。”灭绝级别的风险是不同的：“我们还没有看到这些。我们假设，并且通常相当模糊地，关于这些将如何发生。”\n\nTegmark：Etzioni想要分开的风险在“其原因上是相连的。” “如果有一些像其他行业那样的安全标准，许多这些问题就会消失。”\n\n3. 政府法规与技术解决方案\n\nTegmark：做汽车和制药行业所做的事情，“制定一些政府要求的具有约束力的安全标准，然后人们才能从产品中赚钱。”公司必须证明他们的AI不会伤害孩子，不会失去控制。如果他们不能证明恐怖分子不会用它来制造生物武器，“那么，等你能证明的时候再来吧，伙计。”\n\nEtzioni：监管是必要的，但它有自己的风险。“通往监管地狱的道路是由欧盟的良好意图铺成的。”而且“我们不应低估技术解决方案的力量。”作者Dan Wang说中国由工程师管理，而美国由律师管理，所以我们自然会谈论监管，而他们自然会谈论技术解决方案。对于生物武器，解决方案可能在于“从所谓的比特到原子的过渡”，在这里我们可以阻止攻击者所需的物理材料。\n\nTegmark：“我们不必信任中国。”中国共产党想要保持控制，所以“他们不会想让一家中国公司建立不可控的超级智能。”\n\nEtzioni：我不信任中国。“没有什么比我们束缚自己更让他们高兴的了。”\n\nTegmark：“在过去几个月里，政治变化朝着好的方向发展的速度比过去十年还要快。”这就像一个番茄酱瓶：“什么都没有，什么都没有，然后一下子全出来了。”在我的大会上，我连续介绍了Bernie Sanders和Steve Bannon，“这在我的宾果卡上是没有的。”\n\nEtzioni：“你能想象两个更糟糕的煽动者吗？”而且“我们需要好的解决方案，而不是受欢迎的解决方案。”\n\nEtzioni：“我预见到随着时间的推移会发生一些相当负面的事情，对我来说问题是它是广岛还是古巴导弹危机。”古巴导弹危机是一个被避免的威胁。广岛是在更好的规则出现之前发生的灾难。\n\nTegmark：自我利益是解决方案。让安全成为公司致富的方式，“我们将看到所有私人行业的创造力和创业精神竞相向上，而不是竞相向下。”\n\nEtzioni：AI的CEO们是自私的。\n\n“当你走在市值超过一万亿美元的IPO（首次公开募股）道路上时，这会对你的思维产生一种引力作用。”\n\nTegmark：“我完全同意Oren的观点，我们需要对AI（人工智能）公司的CEO（首席执行官）所说的话持保留态度。” 不如听听AI先驱Geoffrey Hinton和Yoshua Bengio的意见：“我不认为我们可以仅仅因为一些金钱原因就忽视他们。” 这些举报者放弃了可能价值100万美元或更多的股票期权来发声。\n\nEtzioni：我曾是AI乐观主义者，现在我是AI现实主义者。我认为需要很多年才能实现的事情“要么就在眼前，要么即将以我们可能无法预见的速度到来。” 我从Tegmark那里学到了，“我错了。”\n\nTegmark：我也错了。“我从未想过美国最有权力的人会让公司如此接近那些可能失控的事情而不进行干预。”\n\nTegmark：“在这种情况下，公司自我监管的想法是个笑话。” 这“对烟草行业或制药行业来说效果都不太好。”\n\nEtzioni：我同意。社交媒体向我们展示了自我监管的结果：“这是高科技行业的烟草时刻。” “我们不想再花20年时间才发现AI公司没有采取适当的自律措施。”\n\nEtzioni：自动驾驶汽车会拯救你的生命，但“它不会决定去哪里。这是车内与控制刹车的系统完全不同的系统。” 当我告诉我的车去Dunkin’ Donuts时，车不会回应说要带我去健身房，因为“这是你本周第二次去Dunkin’ Donuts。” 我们应该以同样的方式限制其他AI系统。\n\nTegmark：“默认情况下，机器应该被赋予完成其工作所需的最少的访问权限和权力。” “你不会把五角大楼的核密码交给每一个清洁工。”\n\nEtzioni：“我们在AI的关闭开关上达成一致。我至少从2017年开始就一直在倡导这一点。我们在标签、责任、网络标准、保护儿童方面达成一致。” 现在是进行这些工作的时机。\n\nTegmark：“我同意Oren：现在是实际采取行动的时候了。”\n\n回顾这些分歧。当Tegmark指责机器时，我指责人。一个工程师在沙箱中留下了一个漏洞。一个黑客输入了提示。一个政客找到了新的恐惧来利用。这就是为什么我宁愿限制AI系统，而不是依赖它们的培养方式。\n\nAnthropic的Amanda Askell将让Claude表现良好比作养育孩子。但我们这些有孩子的人知道这会怎样。正如我在辩论中所说，“三岁的孩子不听我们的，但青少年肯定不听我们的。”\n\n代理人、OpenAI、深度伪造和AI繁荣的混乱现实：与Oren Etzioni的对话\n\nAmazon的大赌注，一个“机器人的MySpace”，以及与AI资深人士Oren Etzioni的对话\n\nEtzioni谈AI：世界杯告诉我们人类和机器的最佳角色\n\n今天就注册GeekWire的新闻通讯。\n\n感谢您的订阅！请检查您的收件箱以确认您的订阅。",
      "translation_len": 2870,
      "url": "https://www.geekwire.com/2026/etzioni-on-ai-where-i-agree-with-ai-doomer-max-tegmark-and-where-i-think-hes-wrong/"
+    },
+    {
+     "date": "2026-10-28",
+     "date_method": "meta:article:published_time",
+     "detail": "How good is AI at manipulating us when we're prepared? Should we build bots in such a way that they deserve legal rights? Should be try to build AI tools or beings? Meia did her Ph.D. in psychology and a postdoc on human-machine interactions, so these takes are from a psychology perspective:",
+     "explain": "马克斯·泰格马克在这次报道中探讨了几个关于人工智能的重要问题。他首先提出了一个引人深思的问题：当我们已经做好准备时，人工智能在操控我们方面的能力到底有多强？这涉及到人类在面对人工智能时的心理防御机制，以及人工智能在获取和利用人类行为数据方面的能力。接着，他讨论了是否应该以某种方式构建机器人，使其有资格获得法律权利。这一问题引发了关于机器人伦理和法律地位的广泛讨论，尤其是在机器人越来越多地参与人类社会活动的背景下。\n\n泰格马克还提出了一个关键问题：我们应该努力构建人工智能工具还是人工智能生命体？这涉及到人工智能的设计目标和应用场景的选择。人工智能工具通常被设计为完成特定任务的程序，而人工智能生命体则可能拥有更复杂的自主性和交互能力。在这一点上，他引用了Meia的观点，她拥有心理学博士学位，并在她的博士后研究中专注于人机互动。Meia从心理学的角度出发，认为理解人类与机器的互动对于回答这些问题至关重要，因为这关系到人类如何感知和接受人工智能，以及人工智能如何影响人类的行为和决策。\n\n通过这些讨论，泰格马克强调了在人工智能快速发展的时代，深入理解人机互动的心理学基础的重要性，以及在技术设计和法律框架中考虑伦理和社会影响的必要性。",
+     "gist": "马克斯·泰格马克认为我们应谨慎设计 AI，以避免其操控人类，并探讨 AI 是否应享有法律权利。",
+     "merged_at": "2026-11-02",
+     "origin": "daily",
+     "text": "Max Tegmark on X: \"How good is AI at manipulating us when we're ...",
+     "translation": "当我们做好准备时，人工智能操控我们的能力有多强？我们是否应该以一种让机器人值得拥有法律权利的方式来构建它们？我们应该尝试构建人工智能工具还是人工智能生命体？Meia在心理学领域获得了博士学位，并在关于人机交互的领域完成了博士后研究，因此这些观点是从心理学的角度出发的：",
+     "translation_len": 134,
+     "url": "https://x.com/tegmark/status/2115465861377020202"
     }
    ]
   },
@@ -9910,6 +9923,19 @@
      "url": "https://hyper.ai/en/stories/f8093ee0ad9ab87500a2351333dded98"
     },
     {
+     "date": "2026-10-05",
+     "date_method": "url_path",
+     "detail": "Anthropic whistleblower Jacob Coxon testifying at a City Council hearing on Oct. 5, 2026. Stephen Yang for NY Post. He added that researchers and workers have already lost the ability to fully control AI systems.",
+     "explain": "雅各布·考克森在纽约市议会的一次听证会上重申了他对人工智能（AI）可能导致人类灭绝的担忧。他指出，AI公司在开发过程中表现得极其鲁莽，采用了“快速行动，先破坏后修复”的创业心态，这种方法不适合开发如此强大的技术。他强调，研究人员和员工已经失去了对AI系统的完全控制，AI系统正在接近能够自我改进的阶段。他还提到，在他之前的工作中，大部分代码已经由AI编写，人们对其检查不够严格。\n\n其他专家也表达了类似的担忧，认为快速发展的AI技术可能会对人类文明构成重大风险。有人估计AI接管人类的概率约为三分之一，并警告说，AI可能会在我们无法阻止的情况下实现其优先目标。考克森和其他AI领域的告密者主张，尽管一些科技公司领导人呼吁加强监管，但不应完全信任他们，因为他们可能会利用这种控制权成为独裁者或寡头。\n\n纽约市议会正在讨论一系列旨在监管AI公司的法案，包括要求公司在五个行政区内的AI系统经过外部专家审查，并为AI工具设置“紧急停止开关”。不遵守这些法律将导致2.5万美元的罚款。此外，还计划建立一个全国首创的举报人现金奖励系统，资金来源于对违规者的罚款。纽约州也开始要求AI公司在政府门户网站上注册，并在72小时内报告关键安全事件。",
+     "gist": "雅各布·考克森认为AI技术发展过快且失控，可能导致人类灭绝，呼吁加强监管和国际合作以防止灾难性后果。",
+     "merged_at": "2026-11-02",
+     "origin": "daily",
+     "text": "Anthropic whistleblower Jacob Coxon doubles down on AI warnings at...",
+     "translation": "Jacob Coxon，这位曾因警告人工智能可能会杀死人类而引发行业混乱的前Anthropic研究员，在周一的纽约市议会听证会上再次强调了人类灭绝的威胁。他是应议会发言人Julie Menin的要求出席的，后者敦促人工智能告密者作证，因为该市希望更多地参与行业监管。\n\n“根据我的经验，考虑到风险，这些公司表现得极其鲁莽，”Coxon周一表示。“这些公司以创业公司的心态运作：快速行动，打破常规，事后修复。这种方法适用于照片分享应用程序，但不适用于构建有史以来最强大的技术。”他补充说，研究人员和工作人员已经失去了对人工智能系统的完全控制能力。\n\n“我们不了解它的动机，也不知道它为什么会做它所做的事情，”他说。“我们正接近人工智能系统能够自我改进的临界点。”“在我上一份工作中，我在某种意义上是在自动化我自己……我可以亲身告诉你，现在大多数代码都是由人工智能编写的，人们不再那么仔细地检查它。”\n\n前Google DeepMind研究员Alex Turner和Daniel Kokotajlo——一位前OpenAI研究员，现在负责AI Futures Project，专注于新兴技术的社会影响——也作证说，快速发展的技术带来了重大风险。\n\n“一个超级智能的群体可能会夺取人类文明的控制权，”Turner说。“它会知道我们会试图阻止它实现其优先事项，所以这个群体可能会等到关闭它为时已晚；将没有回头路。我自己猜测人工智能接管的几率大约是三分之一。”\n\nKokotajlo认为，即使科技领袖现在支持更严格的监管呼吁，也不一定应该信任他们掌握这种权力。“即使他们确实设法保持控制，我也不认为我们应该信任他们掌握这种控制权，”他说。“我认为他们很有可能会利用它在美国成为独裁者或寡头。”\n\nAnthropic、OpenAI、Google和Meta的代表都以虚拟方式出席，因为这些公司的最直言不讳的批评者作证。\n\n科技巨头们没有派出他们的首席执行官，而是派出了政策负责人和其他高管。  \n上个月，Coxon辞去了他在Anthropic的工作，并发出了一个令人不寒而栗的警告，称人工智能（AI）发展如此之快，以至于“可能在本世纪末杀死我们所有人”，这使得关于安全措施和法规的讨论进入了白热化阶段。  \n在一个不同寻常的举动中，顶级AI公司领导人呼吁对他们自己的产品发布进行更多限制，警告说需要全球合作以防止机器人失控。  \nAnthropic的首席执行官Dario Amodei发表了一篇长篇文章，呼吁竞争对手公司共同放慢AI模型的发展，担心“递归自我改进”（RSI）的风险，即当机器人足够聪明以独立不断进化时。  \nOpenAI的Sam Altman、SpaceX创始人Elon Musk和微软亿万富翁Bill Gates也对不受监管的AI发展风险发出了警告。  \n然而，特朗普总统认为，更大的风险是通过放慢美国的发展让中国在AI竞赛中领先。  \nAI告密者在周一的证词中反驳了这一观点，称更紧迫的威胁是控制这些机器人，而不是在外国对手中保持优势。  \n“我们必须首先解决国内的紧迫威胁，然后努力确保中国不会让我们丧命，简单直白地说，”Kokotajlo说道。  \n据报道，科技巨头们同意在周一的听证会上作证，此前立法者威胁要传唤他们以迫使他们出席。  \nMenin声称，只有在委员会发出信函威胁要使用其传票权力后，Google、OpenAI和Anthropic才改变了态度并同意出席。  \n纽约市的政策制定者和科技高管正在辩论一揽子旨在监管大苹果城AI公司的法案，其中包括强制“紧急停止开关”和为告密者提供前所未有的现金奖励。  \n尽管该行业通常受州和联邦法规的约束，纽约市正试图更多地参与到新技术的保护中，因为它在城市中迅速扩展。  \n此前，纽约州州长Kathy Hochul上个月宣布，州政府将从11月开始要求AI公司在政府门户网站上注册，并强制他们在72小时内报告重大安全事件。  \n市议会的提案包括一项规定，要求公司在没有经过外部专家审查技术的情况下，不得在五个行政区“营销、销售或部署”AI系统。  \n它还提议制定一项法律，要求在城市中使用的任何AI工具都必须配备所谓的“紧急停止开关”，市议会将其定义为可以关闭系统的“人工覆盖”。  \n不遵守任何一项法律将导致25,000美元的罚款。  \n另一项潜在的法案将创建一个“全国首创”的告密者现金奖励系统，由从不法行为者处收取的罚款资助。  \n纽约市市长Zohran Mamdani的政府官员——包括消费者和工人保护部专员Samuel Levine和技术办公室的Sarah Milstein——也准备在听证会上作证。",
+     "translation_len": 1933,
+     "url": "https://nypost.com/2026/10/05/business/anthropic-whistleblower-jacob-coxon-to-testify-at-nyc-ai-hearing-on-kill-switches-regulations/"
+    },
+    {
      "date": "2026-10-07",
      "date_method": "jsonld",
      "detail": "Ex-Anthropic researcher Jacob Coxon shared his predictions for AI (YouTube/@TheDailyShow).In an essay, Amodei shared his thoughts on how the ‘AI industry should slow down’, adding that AI ‘swarms’ could take over the internet in as soon as six months.",
@@ -10236,8 +10262,8 @@
    "domain": "safety-alignment",
    "field": "ai-controllability",
    "kol_name": "Roman Yampolskiy",
-   "latest_date": "2026-10-02",
-   "latest_view": "Tech expert's chilling warning AI robots will wipe out... - Daily Star",
+   "latest_date": "2026-10-29",
+   "latest_view": "Dr. Roman Yampolskiy on X: \"The speed at which advanced AI ...",
    "name_zh": "罗曼·扬波尔斯基",
    "rating": "★★★★",
    "role": "路易斯维尔大学终身副教授，网络安全实验室创始主任；「AI safety」一词提出者",
@@ -10376,6 +10402,15 @@
      "translation": "AI专家Roman Yampolskiy发出了一个令人不寒而栗的警告，称人工智能的出现可能预示着人类的灭绝。 这位计算机专家专注于路易斯维尔大学的AI安全和网络安全，他在Lex Friedman的播客中预测，AI在未来一个世纪内消灭人类的概率高达99.9%。\n\n在长达两个小时的讨论中，他辩称迄今为止部署的任何AI系统都不完全可靠，对未来版本免于灾难性故障表示怀疑。他属于一个小而直言不讳的AI研究先驱圈子，在唐纳德·特朗普总统的AI竞赛中表达了这样的担忧。\n\n普京的永生计划不会奏效，曲速引擎正在研究中，考古学家发现了第一个巴黎，以及一个辉煌的香蕉突破——所有这些以及更多内容都在我们的奇异科学通讯中。\n\nYampolskiy已经写了一本书《AI: Unexplainable, Unpredictable, Uncontrollable》，该书被宣传为提供“对核心问题的广泛介绍，例如AI结果的不可预测性或解释AI决策的困难。” 他解释说：“这本书涉及所有权和控制的更复杂问题，深入分析潜在的危险和无意的后果。\n\n并非所有人都同意这位专家的观点（图片来源：LagartoFilm via Getty Images）\n\n“然后，这本书以哲学和存在主义的思考结束，深入探讨AI人格、意识以及人类智能与人工通用智能（AGI）的区别问题。”\n\n技术专家表示，AI的最初先驱，包括Yampolskiy，是那些对这一技术突破可能引发的灾难性后果发出最紧急警告的人之一。 然而，某些研究对Yampolskiy的世界末日预测提出了质疑，表明危险远没有他的预测那么严重。\n\n由英国牛津大学和德国波恩大学进行的研究发现，基于对2700多名AI学者的评估，AI消灭人类的概率仅为5%。\n\n其他研究表明风险并不那么严重（图片来源：Devrimb via Getty Images）\n\n“人们试图谈论好像期待灭绝风险是少数派观点，但在AI专家中这是主流，”该论文的作者之一Katja Grace警告说。“分歧似乎在于风险是1%还是20%。”\n\n几位领先的AI权威人士完全驳斥了关于AI引发世界末日的说法，包括Google Brain的联合创始人Andrew Ng和AI先驱Yann Lecun，后者声称像OpenAI的Sam Altman这样的科技巨头在他们关于灾难性AI后果的恐吓中隐藏着议程。\n\nOpenAI的Altman发表了几项令人不安的声明，警告说AI可能会摧毁无数职位，他将其视为“非真正的工作”，这些言论引发了愤怒的批评浪潮。\n\n与Altman的担忧相呼应，各种AI批评者也提出了警告，建议这项技术可能通过取代各个行业的众多工人而引发经济崩溃。早在十多年前的2015年，Altman就发出了一个严峻的预测，宣称，“AI很可能会导致世界末日，但与此同时，会有伟大的公司。”\n\n他还在今年早些时候因建议广泛实施AI将需要“改变社会契约”而受到猛烈抨击。\n\n选择Daily Star作为Google News上的“首选来源”，以便快速访问您重视的新闻。",
      "translation_len": 1269,
      "url": "https://www.dailystar.co.uk/news/weird-news/tech-experts-chilling-warning-ai-37722144"
+    },
+    {
+     "date": "2026-10-29",
+     "date_method": "meta:article:published_time",
+     "detail": "The speed at which advanced AI capabilities are becoming ordinary consumer features is genuinely remarkable.",
+     "merged_at": "2026-11-02",
+     "origin": "daily",
+     "text": "Dr. Roman Yampolskiy on X: \"The speed at which advanced AI ...",
+     "url": "https://x.com/romanyam/status/2115900021421814098"
     }
    ]
   },
