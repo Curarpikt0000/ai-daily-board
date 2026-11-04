@@ -369,157 +369,157 @@
    {
     "name": "杰弗里·辛顿",
     "stance": 2,
-    "weighted": 1.902
+    "weighted": 1.895
    },
    {
     "name": "约书亚·本吉奥",
     "stance": 2,
-    "weighted": 1.947
+    "weighted": 1.939
    },
    {
     "name": "丹尼尔·科科塔伊洛",
     "stance": 2,
-    "weighted": 1.803
+    "weighted": 1.796
    },
    {
     "name": "马克斯·泰格马克",
     "stance": 2,
-    "weighted": 1.563
+    "weighted": 1.557
    },
    {
     "name": "斯科特·亚历山大",
     "stance": 2,
-    "weighted": 1.487
+    "weighted": 1.481
    },
    {
     "name": "伊莱·利夫兰",
     "stance": 2,
-    "weighted": 1.372
+    "weighted": 1.366
    },
    {
     "name": "罗密欧·迪恩",
     "stance": 2,
-    "weighted": 0.971
+    "weighted": 0.967
    },
    {
     "name": "伊利亚·舒马伊洛夫",
     "stance": 2,
-    "weighted": 1.153
+    "weighted": 1.149
    },
    {
     "name": "亚历山大·潘菲洛夫",
     "stance": 2,
-    "weighted": 1.053
+    "weighted": 1.049
    },
    {
     "name": "雅各布·考克森",
     "stance": 2,
-    "weighted": 1.448
+    "weighted": 1.442
    },
    {
     "name": "塞缪尔·马克斯",
     "stance": 2,
-    "weighted": 1.32
+    "weighted": 1.315
    },
    {
     "name": "亚历克斯·特纳",
     "stance": 2,
-    "weighted": 1.431
+    "weighted": 1.425
    },
    {
     "name": "乔纳森·理查德·施瓦茨",
     "stance": 2,
-    "weighted": 0.975
+    "weighted": 0.971
    },
    {
     "name": "罗曼·扬波尔斯基",
     "stance": 2,
-    "weighted": 1.569
+    "weighted": 1.563
    },
    {
     "name": "莫·高达特",
     "stance": 2,
-    "weighted": 1.15
+    "weighted": 1.146
    },
    {
     "name": "内特·索尔斯",
     "stance": 2,
-    "weighted": 1.54
+    "weighted": 1.534
    },
    {
     "name": "伊利亚·苏茨克维尔",
     "stance": 1,
-    "weighted": 0.729
+    "weighted": 0.727
    },
    {
     "name": "萨姆·奥尔特曼",
     "stance": 1,
-    "weighted": 0.922
+    "weighted": 0.919
    },
    {
     "name": "埃隆·马斯克",
     "stance": 1,
-    "weighted": 0.977
+    "weighted": 0.973
    },
    {
     "name": "亚历克斯·卡普",
     "stance": 1,
-    "weighted": 0.773
+    "weighted": 0.77
    },
    {
     "name": "朱迪亚·珀尔",
     "stance": 1,
-    "weighted": 0.738
+    "weighted": 0.735
    },
    {
     "name": "戴密斯·哈萨比斯",
     "stance": 1,
-    "weighted": 0.926
+    "weighted": 0.922
    },
    {
     "name": "帕尔默·拉基",
     "stance": 1,
-    "weighted": 0.773
+    "weighted": 0.77
    },
    {
     "name": "海伦·托纳",
     "stance": 1,
-    "weighted": 0.705
+    "weighted": 0.702
    },
    {
     "name": "埃里克·霍维茨",
     "stance": 1,
-    "weighted": 0.764
+    "weighted": 0.761
    },
    {
     "name": "杰森·沃尔夫",
     "stance": 1,
-    "weighted": 0.532
+    "weighted": 0.53
    },
    {
     "name": "加里·马库斯",
     "stance": 1,
-    "weighted": 0.715
+    "weighted": 0.713
    },
    {
     "name": "保罗·罗策",
     "stance": 1,
-    "weighted": 0.524
+    "weighted": 0.522
    },
    {
     "name": "迈克·卡普特",
     "stance": 1,
-    "weighted": 0.569
+    "weighted": 0.566
    },
    {
     "name": "约翰·舒尔曼",
     "stance": 1,
-    "weighted": 0.681
+    "weighted": 0.678
    },
    {
     "name": "艾莉·米勒",
     "stance": 1,
-    "weighted": 0.53
+    "weighted": 0.528
    },
    {
     "name": "安德烈·卡帕西",
@@ -564,112 +564,112 @@
    {
     "name": "彼得·蒂尔",
     "stance": -1,
-    "weighted": -0.724
+    "weighted": -0.721
    },
    {
     "name": "理查德·萨顿",
     "stance": -1,
-    "weighted": -0.857
+    "weighted": -0.854
    },
    {
     "name": "达龙·阿西莫格鲁",
     "stance": -1,
-    "weighted": -0.718
+    "weighted": -0.715
    },
    {
     "name": "李开复",
     "stance": -1,
-    "weighted": -0.758
+    "weighted": -0.755
    },
    {
     "name": "戴维·海涅迈尔·汉森",
     "stance": -1,
-    "weighted": -0.696
+    "weighted": -0.694
    },
    {
     "name": "本尼迪克特·埃文斯",
     "stance": -1,
-    "weighted": -0.635
+    "weighted": -0.633
    },
    {
     "name": "祖宾·加拉马尼",
     "stance": -1,
-    "weighted": -0.683
+    "weighted": -0.681
    },
    {
     "name": "诺姆·布朗",
     "stance": -1,
-    "weighted": -0.681
+    "weighted": -0.678
    },
    {
     "name": "艾德·齐特伦",
     "stance": -1,
-    "weighted": -0.744
+    "weighted": -0.741
    },
    {
     "name": "马特·怀特",
     "stance": -1,
-    "weighted": -0.688
+    "weighted": -0.686
    },
    {
     "name": "查马斯·帕里哈皮蒂亚",
     "stance": -1,
-    "weighted": -0.589
+    "weighted": -0.586
    },
    {
     "name": "杰森·卡拉卡尼斯",
     "stance": -1,
-    "weighted": -0.586
+    "weighted": -0.584
    },
    {
     "name": "埃马德·莫斯塔克",
     "stance": -1,
-    "weighted": -0.779
+    "weighted": -0.776
    },
    {
     "name": "杨立昆",
     "stance": -2,
-    "weighted": -1.838
+    "weighted": -1.83
    },
    {
     "name": "罗杰·彭罗斯",
     "stance": -2,
-    "weighted": -1.28
+    "weighted": -1.275
    },
    {
     "name": "加文·贝克",
     "stance": -2,
-    "weighted": -1.528
+    "weighted": -1.522
    },
    {
     "name": "托比·卢特克",
     "stance": -2,
-    "weighted": -1.476
+    "weighted": -1.47
    },
    {
     "name": "本·汤普森",
     "stance": -2,
-    "weighted": -1.431
+    "weighted": -1.425
    },
    {
     "name": "迈克尔·伯里",
     "stance": -2,
-    "weighted": -1.141
+    "weighted": -1.137
    },
    {
     "name": "阿尔诺·贝特朗",
     "stance": -2,
-    "weighted": -1.017
+    "weighted": -1.013
    },
    {
     "name": "大卫·萨克斯",
     "stance": -2,
-    "weighted": -1.431
+    "weighted": -1.425
    },
    {
     "name": "布拉德·格斯特纳",
     "stance": -2,
-    "weighted": -1.528
+    "weighted": -1.522
    }
   ],
   "distribution": {
@@ -684,9 +684,9 @@
   "scale": "-100(全乐观/风险被夸大) ↔ 0(中性) ↔ +100(全极危)"
  },
  "data_note": "KOL 立场为公开表态结构化回填(锚 source_url);news 来自 aihot.virxact.com 过去24h精选。",
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "directions": [],
- "generated_at_jst": "2026-11-03 12:31 JST",
+ "generated_at_jst": "2026-11-04 12:30 JST",
  "hot_topics": [],
  "kol_cards": [
   {
