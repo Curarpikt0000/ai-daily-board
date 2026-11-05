@@ -177,7 +177,7 @@ cd ~/Projects/AI-News && bash scripts/daily_refresh_runner.sh      # 全流程�
    - 数字必须标注是本人说法还是测算；本人口误要核实并标注（马库斯把 AAAI 调查的 76% 说成 85%，卡上并列两个数及出处）。
    - ★**利益相关写在卡上**（格斯特纳的基金投资了被讨论公司）。
    - 立场标签越极端，卡片正文里的保留意见越不能省。
-   - 脚本里 `grep -c ANONYMIZED` 必须为 0（redactor 会把人名/术语替换成占位符污染写入的源码，用 `chr()` 拼接或「前 OpenAI CTO」这类写法绕开）。
+   - 脚本里 `grep -c ANONYMIZED` 必须为 0（sanitizer 会把人名/术语替换成占位符污染写入的源码，用 `chr()` 拼接或「前 OpenAI CTO」这类写法绕开）。
    - 卡里每个数字对原文做 `n in text` 回查，缺失项人工看一眼（多是转写把数字拼成英文单词）。
 6. **全文入库**：追加到 `data/kol/fulltext.jsonl`（`url,kol,old_len,ts,full_text,len,status`）。
 7. **解读 + 翻译**：`python3 scripts/explain_and_translate.py --days N` → `merge_explain.py`。
@@ -202,7 +202,7 @@ cd ~/Projects/AI-News && bash scripts/daily_refresh_runner.sh      # 全流程�
 7. **验收必须用真浏览器**：改版时 `class="section-title"` 被改后侧栏目录 10 条全空且零报错，静态 grep 全绿。运行时翻译覆盖率也要在浏览器 DOM 里量，不是磁盘 HTML。
 8. **安全研究者的言论天然含真实凭据样本**，翻译会忠实照译并带上公网（曾被 GitHub Push Protection 拦）。`scrub_secrets.py --apply` 必须在建看板前、作用在数据层。**禁用 unblock URL**。
 9. **`pgrep -f '<关键字>'` 会匹配到自己的命令行**——等待脚本永远等不完（10-01 踩了两次）。用 `pgrep -f '^绝对路径 …'` 锚定，或直接串行跑。
-10. **redactor 会污染写入磁盘的源码**（人名、`KEY=` 字面量）。敏感字面量拼接；人名从磁盘真实原文取，别手打。
+10. **sanitizer 会污染写入磁盘的源码**（人名、`KEY=` 字面量）。敏感字面量拼接；人名从磁盘真实原文取，别手打。
 11. 公网通道现状：个人 GitHub 账号被 GitHub 滥用检测标记，Pages 全线 404，**唯一的公网通道是 Cloudflare Pages，但发布没接进每日 runner，线上停在 09-19（§1.2-0）**。公网发布已改成「拆分产物 + 仅变更时提交」（`split_public_bundle.py`，每天只变 `data.json`）。别再把整个 hub.html 每天覆盖提交。
 12. 带 `workdir` 的 cron 独占目录锁；`cron prompt` 里别写死 KOL 数量。
 
